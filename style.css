@@ -1195,7 +1195,11 @@ html[data-theme="kontext"] .title h1 { font-weight: 800; letter-spacing: -.02em;
 
 .kx-stage.pop { animation: kx-pop .45s cubic-bezier(.2, .9, .3, 1.2) both; }
 @keyframes kx-pop { from { opacity: 0; transform: translateY(16px) scale(.96); } to { opacity: 1; transform: none; } }
-.kx-truth p { margin: 6px 0 0; }
+.kx-reveal-author { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 0 0 4px; font-size: 1.2rem; }
+.kx-reveal-author .kx-av { width: 40px; height: 40px; font-size: 1.1rem; }
+.kx-reveal-author strong { color: var(--primary); font-size: 1.35rem; }
+/* Die ursprüngliche Aussage im Beitrag hervorheben */
+.kx-own { font-weight: 600; background: linear-gradient(transparent 55%, rgba(255, 210, 63, .6) 55%); -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .kx-vote-list { display: flex; flex-direction: column; gap: 18px; }
 .kx-vote-item { display: flex; flex-direction: column; gap: 8px; }
 .kx-vote-item.selected .kx-post { box-shadow: 0 0 0 3px var(--primary), 0 10px 26px rgba(0, 0, 0, .35); }

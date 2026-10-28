@@ -88,7 +88,7 @@ const KXOnline = (() => {
         <p class="kx-meta">${views} Tsd. Aufrufe · vor ${1 + (h % 6)} Tagen</p>
         <div class="kx-comments">
           <span class="kx-label">Kommentare</span>
-          <div class="kx-comment">${avatar(author)}<div><b>${escapeHtml(author)}</b><p>${escapeHtml(item.text)}</p></div></div>
+          <div class="kx-comment">${avatar(author)}<div><b>${escapeHtml(author)}</b><p><span class="kx-own">${escapeHtml(item.text)}</span></p></div></div>
         </div>
       </article>`;
     }
@@ -96,14 +96,14 @@ const KXOnline = (() => {
       return `<article class="kx-post kx-thread">
         <div class="kx-head">${avatar("?", "anon")}<b>jemand_${100 + (h % 900)}</b><span class="kx-time">· ${1 + (h % 11)} Std.</span></div>
         <p class="kx-body">${slot(item.twist, placeholder)}</p>
-        <div class="kx-reply">${avatar(author)}<div><b>${escapeHtml(author)}</b><p>${escapeHtml(item.text)}</p></div></div>
+        <div class="kx-reply">${avatar(author)}<div><b>${escapeHtml(author)}</b><p><span class="kx-own">${escapeHtml(item.text)}</span></p></div></div>
       </article>`;
     }
     if (item.mode === "frage") {
       return `<article class="kx-post kx-forum">
         <span class="kx-label">Frage · ${3 + (h % 40)} Antworten</span>
         <h3 class="kx-q">${slot(item.twist, placeholder)}</h3>
-        <div class="kx-answer"><span class="kx-label">Beste Antwort von ${escapeHtml(author)}</span><p>${escapeHtml(item.text)}</p></div>
+        <div class="kx-answer"><span class="kx-label">Beste Antwort von ${escapeHtml(author)}</span><p><span class="kx-own">${escapeHtml(item.text)}</span></p></div>
       </article>`;
     }
     const likes = 12 + (h % 480);
@@ -228,10 +228,11 @@ const KXOnline = (() => {
   }
 
   /* ---------- 3. Enthüllen ---------- */
-  function truthHtml(item) {
-    const author = escapeHtml(nameOf(item.authorId));
-    const answer = item.mode === "bild" ? "dieses Bild ausgewählt" : `„${escapeHtml(item.text)}“ geantwortet`;
-    return `<span class="role-label">So war's eigentlich</span><p>${author} hat auf <strong>„${escapeHtml(item.prompt)}“</strong> ${answer}.</p>`;
+  // Wessen Aussage ist das? Groß über dem Beitrag
+  function authorHtml(item) {
+    const author = nameOf(item.authorId);
+    const what = { video: "Der markierte Kommentar ist von", kommentar: "Die markierte Antwort ist von", frage: "Die markierte Antwort ist von", bild: "Das Bild hat gepostet:" }[item.mode];
+    return `${avatar(author)}<span>${what} <strong>${escapeHtml(author)}</strong></span>`;
   }
 
   function renderReveal() {
@@ -246,7 +247,7 @@ const KXOnline = (() => {
       void stage.offsetWidth;
       stage.classList.add("pop");
     }
-    $("kx-reveal-truth").innerHTML = truthHtml(item);
+    $("kx-reveal-author").innerHTML = authorHtml(item);
     const last = game.revealIndex >= game.itemCount - 1;
     $("kx-reveal-next").hidden = !isHost();
     $("kx-reveal-next").textContent = last ? "Zur Abstimmung" : "Nächster Beitrag";
