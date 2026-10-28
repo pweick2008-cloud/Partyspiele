@@ -124,7 +124,7 @@ Jede Runde hat vier Schritte:
 
 - **Einstellungen des Hosts:** welche Arten drankommen (Videos, Kommentare, Fragen, Bilder – beliebig kombinierbar) und die Rundenzahl (1–10). Jede Antwort bekommt zufällig eine der gewählten Arten.
 - Fehlt jemand, kann der Host mit **„Nicht länger warten“** weitermachen. Wer nicht geantwortet hat, ist in der Runde nicht dabei, und unverdrehte Beiträge fallen weg.
-- Die Fragen stehen in `kontext-prompts.js` und liegen nur auf dem Server. Die 29 Bilder sind eigene Illustrationen in `kontext-images.js`.
+- Die Fragen stehen in `kontext-prompts.js` und liegen nur auf dem Server. Die Fotos liegen im Ordner `kontext-bilder/` (höchstens 900 px, als JPG). Ein neues Bild legt man dort ab und trägt den Namen in `kontext-images.js` ein. Pro Runde bekommt jeder 4 Bilder zur Auswahl, möglichst andere als die anderen Spieler.
 
 ## Kategorien (Verräter)
 

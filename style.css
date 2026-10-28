@@ -1154,7 +1154,11 @@ html[data-theme="kontext"] .title h1 { font-weight: 800; letter-spacing: -.02em;
 .kx-images { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .kx-choice { padding: 0; border: 3px solid transparent; border-radius: 12px; overflow: hidden; background: none; cursor: pointer; line-height: 0; }
 .kx-choice.selected { border-color: var(--primary); box-shadow: 0 0 0 3px var(--glow); }
-.kx-img { width: 100%; height: auto; display: block; }
+.kx-thumb { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
+/* Fotos im Beitrag im Format 4:5, Ränder mit unscharfer Kopie des Bildes gefüllt */
+.kx-photo-box { position: relative; display: block; aspect-ratio: 4 / 5; overflow: hidden; background: #111; }
+.kx-photo-box::before { content: ""; position: absolute; inset: -20px; background: var(--kx-bg) center / cover; filter: blur(18px) brightness(.8); }
+.kx-img { position: relative; width: 100%; height: 100%; object-fit: contain; display: block; }
 .kx-sent { display: flex; flex-direction: column; gap: 10px; }
 .kx-mine { margin: 0; font-size: 1.1rem; }
 .kx-frame.small { max-width: 220px; border-radius: 10px; overflow: hidden; }

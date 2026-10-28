@@ -109,7 +109,7 @@ const KXOnline = (() => {
     const likes = 12 + (h % 480);
     return `<article class="kx-post kx-photo">
       <div class="kx-head">${avatar(author)}<b>${escapeHtml(author)}</b></div>
-      <div class="kx-frame">${kxImageSvg(item.image)}</div>
+      <div class="kx-frame">${kxImageHtml(item.image)}</div>
       <div class="kx-likes">${ICON_HEART}<span>${likes} Mal gefällt das</span></div>
       <p class="kx-caption"><b>${escapeHtml(author)}</b> ${slot(item.twist, placeholder)}</p>
     </article>`;
@@ -164,7 +164,7 @@ const KXOnline = (() => {
     $("kx-write-sent").hidden = !sent;
     if (sent) {
       $("kx-write-mine").innerHTML = isImage
-        ? `<div class="kx-frame small">${kxImageSvg(t.image)}</div>`
+        ? `<div class="kx-frame small">${kxImageHtml(t.image)}</div>`
         : `<p class="kx-mine">„${escapeHtml(t.answer)}“</p>`;
     }
     updateWriteButton();
@@ -177,7 +177,7 @@ const KXOnline = (() => {
       const b = document.createElement("button");
       b.type = "button";
       b.className = "kx-choice" + (pickedImage === id ? " selected" : "");
-      b.innerHTML = kxImageSvg(id);
+      b.innerHTML = kxThumbHtml(id);
       b.setAttribute("aria-label", "Bild auswählen");
       b.addEventListener("click", () => {
         pickedImage = id;

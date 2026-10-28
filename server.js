@@ -62,6 +62,16 @@ const server = http.createServer((req, res) => {
     res.end("ok");
     return;
   }
+  // Fotos für Kontextlos (nur bekannte Namen, keine beliebigen Pfade)
+  const photo = /^\/kontext-bilder\/([a-z0-9-]+)\.jpg$/.exec(url.pathname);
+  if (photo && KX_IMAGE_IDS.includes(photo[1]) && req.method === "GET") {
+    fs.readFile(path.join(__dirname, "kontext-bilder", photo[1] + ".jpg"), (err, data) => {
+      if (err) { res.writeHead(404); res.end(); return; }
+      res.writeHead(200, { "Content-Type": "image/jpeg", "Cache-Control": "public, max-age=604800" });
+      res.end(data);
+    });
+    return;
+  }
   const entry = STATIC[url.pathname];
   if (!entry || req.method !== "GET") {
     res.writeHead(404, { "Content-Type": "text/plain; charset=utf-8" });
