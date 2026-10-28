@@ -18,6 +18,7 @@
     <symbol id="ico-joker" viewBox="0 0 48 48"><rect x="11" y="5" width="26" height="38" rx="3.5"/><path d="M18 31.5 16.8 18l5 6 2.2-9.5 2.2 9.5 5-6-1.2 13.5z"/><circle cx="16.6" cy="16" r="1.6"/><circle cx="24" cy="12.4" r="1.6"/><circle cx="31.4" cy="16" r="1.6"/><path d="M18 35.5h12"/></symbol>
     <symbol id="ico-map" viewBox="0 0 48 48"><path d="M6 13l11-4.5 14 4.5 11-4.5v27.5L31 40.5 17 36 6 40.5z"/><path d="M17 8.5V36M31 13v27.5"/><path d="M36.5 22.5c0 3-3.5 6.5-3.5 6.5s-3.5-3.5-3.5-6.5a3.5 3.5 0 0 1 7 0z" class="pin"/></symbol>
     <symbol id="ico-bubble" viewBox="0 0 48 48"><path d="M9 9h30a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H22l-9 7v-7H9a4 4 0 0 1-4-4V13a4 4 0 0 1 4-4z"/><path d="M15 18l3 3-3 3M23 24h9"/></symbol>
+    <symbol id="ico-crowd" viewBox="0 0 48 48"><circle cx="11" cy="28" r="4.5"/><circle cx="24" cy="28" r="4.5"/><circle cx="37" cy="28" r="4.5"/><path d="M4 43c0-5 3-8 7-8s7 3 7 8M17 43c0-5 3-8 7-8s7 3 7 8M30 43c0-5 3-8 7-8s7 3 7 8"/><path d="M24 4v13M18.5 11.5L24 17l5.5-5.5"/></symbol>
     <symbol id="ico-pencil" viewBox="0 0 48 48"><path d="M32.5 7.5l8 8L17.5 38.5 7 41l2.5-10.5z"/><path d="M28.5 11.5l8 8"/><path d="M9.5 30.5l8 8"/><path d="M8.3 35.5l4.2 4.2"/></symbol>
     <symbol id="ico-handoff" viewBox="0 0 48 48"><rect x="13" y="6" width="19" height="34" rx="4"/><path d="M20 35h5"/><path d="M36.5 15.5c3.5 3 3.5 9 0 12"/><path d="M36.5 27.5l-3.3-.2M36.5 27.5l.6-3.2"/></symbol>
     <symbol id="ico-globe" viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M8 24h32"/><path d="M24 8c5 4.4 7 10 7 16s-2 11.6-7 16c-5-4.4-7-10-7-16s2-11.6 7-16z"/></symbol>
@@ -81,6 +82,13 @@
         <span class="mode-text">
           <span class="mode-title">Kritzeln</span>
           <span class="mode-desc">Einer zeichnet, alle anderen raten im Chat. Je schneller, desto mehr Punkte.</span>
+        </span>
+      </button>
+      <button class="mode-card game-card" type="button" data-game="ehesten">
+        <span class="mode-icon"><svg class="ico"><use href="#ico-crowd"/></svg></span>
+        <span class="mode-text">
+          <span class="mode-title">Wer würde am ehesten?</span>
+          <span class="mode-desc">Einer liest vor, alle zeigen aufeinander. Wer würde es am ehesten tun – und wer am wenigsten?</span>
         </span>
       </button>
       <button class="mode-card game-card" type="button" data-game="kontext">
@@ -682,6 +690,59 @@
       <button id="draw-leave" class="btn ghost" type="button">Lobby verlassen</button>
     </section>
 
+    <!-- ============ WER WÜRDE AM EHESTEN? (PASS & PLAY) ============ -->
+    <section id="screen-wwae-setup" class="screen">
+      <button class="back-link" type="button" data-back="hub">← Spiele</button>
+      <header class="title">
+        <h1>Wer würde am ehesten?</h1>
+        <p class="sub" id="wwae-total"></p>
+      </header>
+      <div class="card">
+        <div class="row-between">
+          <h2>Spieler</h2>
+          <div class="stepper" id="wwae-stepper">
+            <button type="button" data-dir="-1" aria-label="Spieler entfernen">−</button>
+            <span id="wwae-count">3</span>
+            <button type="button" data-dir="1" aria-label="Spieler hinzufügen">+</button>
+          </div>
+        </div>
+        <div id="wwae-players" class="player-list"></div>
+      </div>
+      <div class="card">
+        <p class="small muted">Einer hat das Handy und liest die Frage vor. Ihr entscheidet gemeinsam, wer es <strong>am ehesten</strong> und wer es <strong>am wenigsten</strong> tun würde, und tippt beide an. Beenden könnt ihr jederzeit, dann gibt es die Auswertung.</p>
+      </div>
+      <p id="wwae-error" class="error" hidden></p>
+      <button id="wwae-start" class="btn primary big" type="button">Los geht's</button>
+    </section>
+
+    <section id="screen-wwae-game" class="screen">
+      <p class="wwae-num" id="wwae-num"></p>
+      <div class="card wwae-card" id="wwae-card">
+        <span class="role-label">Wer würde am ehesten …</span>
+        <p class="wwae-question" id="wwae-question"></p>
+      </div>
+      <div class="card">
+        <h2 class="wwae-h">Am ehesten</h2>
+        <div id="wwae-most" class="chips wwae-chips"></div>
+        <h2 class="wwae-h least">Am wenigsten</h2>
+        <div id="wwae-least" class="chips wwae-chips least"></div>
+      </div>
+      <button id="wwae-next" class="btn primary big" type="button">Nächste Frage</button>
+      <button id="wwae-skip" class="btn ghost" type="button">Frage überspringen</button>
+      <button id="wwae-finish" class="btn ghost" type="button">Beenden &amp; Auswertung</button>
+    </section>
+
+    <section id="screen-wwae-end" class="screen">
+      <header class="title">
+        <h1>Auswertung</h1>
+        <p class="sub" id="wwae-end-sub"></p>
+      </header>
+      <div id="wwae-results" class="wwae-results"></div>
+      <button id="wwae-continue" class="btn primary big" type="button">Weiterspielen</button>
+      <button id="wwae-new" class="btn ghost" type="button">Neues Spiel</button>
+      <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>
+    </section>
+
     <!-- ============ KONTEXTLOS (NUR ONLINE) ============ -->
     <section id="screen-kx-write" class="screen">
       <header class="title">
@@ -1105,6 +1166,8 @@
   <script src="words.js"></script>
   <script src="shared.js"></script>
   <script src="app.js"></script>
+  <script src="ehesten-fragen.js"></script>
+  <script src="ehesten.js"></script>
   <script src="wbi.js"></script>
   <script src="online.js"></script>
   <script src="wbi-online.js"></script>

@@ -84,6 +84,7 @@ const GAMES = {
   luegen: { icon: "", svg: "joker", name: "SPIEGEL", sub: "Karten, Aussagen, Lügen und Fallen – zu zweit." },
   slf: { icon: "", svg: "map", name: "Stadt Land Fluss", sub: "Ein Buchstabe, eigene Kategorien, Zeitdruck.", onlineOnly: true },
   draw: { icon: "", svg: "pencil", name: "Kritzeln", sub: "Einer zeichnet, alle anderen raten.", onlineOnly: true },
+  ehesten: { icon: "", svg: "crowd", name: "Wer würde am ehesten?", sub: "Einer liest vor, alle entscheiden gemeinsam.", localOnly: true },
   kontext: { icon: "", svg: "bubble", name: "Kontextlos", sub: "Harmlose Antworten, fiese neue Zusammenhänge.", onlineOnly: true }
 };
 
@@ -99,6 +100,7 @@ const STEP_PLANS = {
   "slf-online": [["setup", "Lobby"], ["write", "Schreiben"], ["review", "Auswertung"], ["scores", "Punkte"]],
   "draw-local": [["setup", "Lobby"], ["game", "Spiel"]],
   "draw-online": [["setup", "Lobby"], ["game", "Spiel"]],
+  "ehesten-local": [["setup", "Start"], ["game", "Fragen"], ["end", "Auswertung"]],
   "kontext-local": [["setup", "Lobby"], ["write", "Antworten"], ["twist", "Verdrehen"], ["reveal", "Enthüllen"], ["scores", "Punkte"]],
   "kontext-online": [["setup", "Lobby"], ["write", "Antworten"], ["twist", "Verdrehen"], ["reveal", "Enthüllen"], ["scores", "Punkte"]]
 };
@@ -129,6 +131,12 @@ function updateSteps(phase) {
 function openGameMenu(gameId) {
   currentGame = gameId;
   const g = GAMES[gameId];
+  // Spiele nur für ein Gerät brauchen keine Moduswahl
+  if (g.localOnly) {
+    currentMode = "local";
+    if (gameId === "ehesten") WWAE.openSetup();
+    return;
+  }
   $("menu-logo").innerHTML = `<svg class="ico"><use href="#ico-${g.svg}"/></svg>`;
   $("menu-title").textContent = g.name;
   $("menu-title").dataset.text = g.name;
@@ -755,6 +763,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     if (currentGame === "luegen") {
       LocalSpiegel.openSetup();
+      return;
+    }
+    if (currentGame === "ehesten") {
+      WWAE.openSetup();
       return;
     }
     renderSetup();
