@@ -83,7 +83,8 @@ const GAMES = {
   werbinich: { icon: "", svg: "note", name: "Wer bin ich?", sub: "Alle kennen deine Person – nur du nicht." },
   luegen: { icon: "", svg: "joker", name: "SPIEGEL", sub: "Karten, Aussagen, Lügen und Fallen – zu zweit." },
   slf: { icon: "", svg: "map", name: "Stadt Land Fluss", sub: "Ein Buchstabe, eigene Kategorien, Zeitdruck.", onlineOnly: true },
-  draw: { icon: "", svg: "pencil", name: "Kritzeln", sub: "Einer zeichnet, alle anderen raten.", onlineOnly: true }
+  draw: { icon: "", svg: "pencil", name: "Kritzeln", sub: "Einer zeichnet, alle anderen raten.", onlineOnly: true },
+  kontext: { icon: "", svg: "bubble", name: "Kontextlos", sub: "Harmlose Antworten, fiese neue Zusammenhänge.", onlineOnly: true }
 };
 
 // Phasen-Anzeige je Spiel und Modus
@@ -97,7 +98,9 @@ const STEP_PLANS = {
   "slf-local": [["setup", "Lobby"], ["write", "Schreiben"], ["review", "Auswertung"], ["scores", "Punkte"]],
   "slf-online": [["setup", "Lobby"], ["write", "Schreiben"], ["review", "Auswertung"], ["scores", "Punkte"]],
   "draw-local": [["setup", "Lobby"], ["game", "Spiel"]],
-  "draw-online": [["setup", "Lobby"], ["game", "Spiel"]]
+  "draw-online": [["setup", "Lobby"], ["game", "Spiel"]],
+  "kontext-local": [["setup", "Lobby"], ["write", "Antworten"], ["twist", "Verdrehen"], ["reveal", "Enthüllen"], ["scores", "Punkte"]],
+  "kontext-online": [["setup", "Lobby"], ["write", "Antworten"], ["twist", "Verdrehen"], ["reveal", "Enthüllen"], ["scores", "Punkte"]]
 };
 
 function updateSteps(phase) {

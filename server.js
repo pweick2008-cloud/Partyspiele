@@ -14,13 +14,15 @@ const { CATEGORIES, WORD_SOURCES, wordSource, resolveCategories, resolveDifficul
 const { shuffle, pick, normalize, levenshtein, isCorrectGuess, displayWord, pickWord } = require("./shared.js");
 const { SpiegelRules } = require("./spiegel-rules.js");
 const { verraeterHint } = require("./verraeter-hints.js");
+const { KX_PROMPTS } = require("./kontext-prompts.js");
+const { KX_IMAGE_IDS } = require("./kontext-images.js");
 const { DRAW_POOLS, LEVELS: DR_LEVELS, LEVEL_NAMES: DR_LEVEL_NAMES } = require("./draw-words.js");
 
 const PORT = process.env.PORT || 3000;
 const MIN_PLAYERS = 3; // Verräter
-const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2 };
-const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20 };
-const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw"];
+const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3 };
+const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12 };
+const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext"];
 const MAX_PLAYERS = 20;
 const LOBBY_IDLE_MS = 30 * 60 * 1000; // leere Lobbys werden nach 30 Min. gelöscht
 
@@ -43,7 +45,9 @@ const STATIC = {
   "/slf-online.js": ["slf-online.js", "text/javascript; charset=utf-8"],
   "/draw-canvas.js": ["draw-canvas.js", "text/javascript; charset=utf-8"],
   "/draw-online.js": ["draw-online.js", "text/javascript; charset=utf-8"],
-  "/verraeter-hints.js": ["verraeter-hints.js", "text/javascript; charset=utf-8"]
+  "/verraeter-hints.js": ["verraeter-hints.js", "text/javascript; charset=utf-8"],
+  "/kontext-images.js": ["kontext-images.js", "text/javascript; charset=utf-8"],
+  "/kontext-online.js": ["kontext-online.js", "text/javascript; charset=utf-8"]
 };
 
 const server = http.createServer((req, res) => {
@@ -137,12 +141,17 @@ function viewFor(lobby, me) {
     settings: lobby.settings,
     slfSettings: lobby.slfSettings,
     drawSettings: lobby.drawSettings,
+    kxSettings: lobby.kxSettings,
     players: lobby.players.map((p) => ({ id: p.id, name: p.name, connected: p.connected })),
     game: null
   };
   if (!g) return view;
   if (g.type === "draw") {
     view.game = drView(lobby, g, me);
+    return view;
+  }
+  if (g.type === "kontext") {
+    view.game = kxView(lobby, g, me);
     return view;
   }
   if (g.type === "slf") {
@@ -370,6 +379,7 @@ function dropFromGame(lobby, id) {
   if (g && g.type === "luegen") return luDrop(lobby, id);
   if (g && g.type === "slf") return slfDrop(lobby, id);
   if (g && g.type === "draw") return drDrop(lobby, id);
+  if (g && g.type === "kontext") return kxCheck(lobby, id);
   if (!g || g.phase === "over" || !g.order.includes(id) || g.out.has(id)) return;
   g.out.add(id);
   g.results[id] = "hat das Spiel verlassen";
@@ -440,6 +450,7 @@ const handlers = {
       settings: sanitizeSettings({ ...(msg.settings || {}) }, 1),
       slfSettings: { ...SLF_DEFAULTS, categories: [...SLF_DEFAULTS.categories] },
       drawSettings: { ...DR_DEFAULTS },
+      kxSettings: { ...KX_DEFAULTS, modes: [...KX_DEFAULTS.modes] },
       game: null,
       usedWords: [],
       emptySince: null
@@ -513,6 +524,7 @@ const handlers = {
     if (lobby.players.length < min) fail(`Ihr braucht mindestens ${min} Spieler.`);
     if (lobby.players.length > MAX_PLAYERS_BY_GAME[lobby.gameType]) fail("Zu viele Spieler für dieses Spiel.");
     if (lobby.gameType === "draw") drStart(lobby);
+    else if (lobby.gameType === "kontext") kxStart(lobby);
     else if (lobby.gameType === "slf") slfStart(lobby);
     else if (lobby.gameType === "luegen") luStart(lobby);
     else if (lobby.gameType === "werbinich") wbiStart(lobby);
@@ -1761,6 +1773,301 @@ Object.assign(handlers, {
     const g = lobby.game;
     if (!g || g.type !== "draw" || !["choose", "draw"].includes(g.phase)) fail("Das geht gerade nicht.");
     drEndTurn(lobby, "Der Host hat den Zug übersprungen.");
+    return lobby;
+  }
+});
+
+/* =========================================================
+   Kontextlos – Aussagen aus dem Zusammenhang reißen (nur online, 3 bis 12)
+   1. Antworten: Jeder beantwortet eine harmlose Frage (oder wählt ein Bild).
+   2. Verdrehen: Jeder bekommt die Antwort eines anderen – ohne die Frage –
+      und erfindet den Zusammenhang dazu (Videotitel, Beitrag, Frage oder
+      Bildunterschrift), in dem der andere möglichst schlecht dasteht.
+   3. Enthüllen: Der Host deckt einen Beitrag nach dem anderen auf.
+   4. Abstimmen: Jeder wählt den schlimmsten Beitrag (nicht den eigenen).
+      Jede Stimme bringt dem Verdreher 100 Punkte, der Sieger der Runde
+      bekommt 100 extra.
+   Bis zur Auswertung erfährt niemand, wer was verdreht hat.
+   ========================================================= */
+const KX_MODES = ["video", "kommentar", "frage", "bild"];
+const KX_DEFAULTS = { modes: [...KX_MODES], rounds: 3 };
+const KX_MAX_TEXT = 120;
+const KX_POINTS_PER_VOTE = 100;
+const KX_WINNER_BONUS = 100;
+const KX_IMAGE_CHOICES = 4;
+
+const kxClean = (t) => String(t || "").trim().replace(/\s+/g, " ").slice(0, KX_MAX_TEXT);
+// Noch anwesende Spieler; "leaving" ist gerade dabei, die Lobby zu verlassen
+const kxActive = (lobby, g, leaving = null) => g.ids.filter((id) => id !== leaving && lobby.players.some((p) => p.id === id));
+
+function kxStart(lobby) {
+  const st = lobby.kxSettings;
+  lobby.game = {
+    type: "kontext",
+    phase: "write", // write → twist → reveal → vote → results → (write …) → over
+    ids: lobby.players.map((p) => p.id),
+    names: Object.fromEntries(lobby.players.map((p) => [p.id, p.name])),
+    modes: [...st.modes],
+    rounds: st.rounds,
+    round: 0,
+    usedPrompts: [],
+    total: Object.fromEntries(lobby.players.map((p) => [p.id, 0])),
+    history: [] // pro Runde: { round, points: {id: n} }
+  };
+  kxNewRound(lobby);
+}
+
+// Frage aus dem Topf einer Art, möglichst ohne Wiederholung im Spiel
+function kxPrompt(g, mode) {
+  const pool = KX_PROMPTS[mode];
+  const free = pool.filter((p) => !g.usedPrompts.includes(p));
+  const prompt = pick(free.length ? free : pool);
+  g.usedPrompts.push(prompt);
+  return prompt;
+}
+
+function kxNewRound(lobby) {
+  const g = lobby.game;
+  g.round++;
+  g.phase = "write";
+  g.tasks = {};
+  const taken = new Set();
+  for (const id of kxActive(lobby, g)) {
+    const mode = pick(g.modes);
+    const task = { mode, prompt: kxPrompt(g, mode), answer: null, image: null };
+    if (mode === "bild") {
+      // Jeder bekommt andere Bilder zur Auswahl, solange genug da sind
+      let free = shuffle(KX_IMAGE_IDS.filter((x) => !taken.has(x)));
+      if (free.length < KX_IMAGE_CHOICES) free = shuffle(KX_IMAGE_IDS);
+      task.images = free.slice(0, KX_IMAGE_CHOICES);
+      task.images.forEach((x) => taken.add(x));
+    }
+    g.tasks[id] = task;
+  }
+  g.items = [];
+  g.revealIndex = 0;
+  g.votes = new Map();
+  g.roundPoints = null;
+}
+
+const kxAnswered = (t) => !!t && (t.mode === "bild" ? !!t.image : !!t.answer);
+
+function kxToTwist(lobby, leaving = null) {
+  const g = lobby.game;
+  const authors = kxActive(lobby, g, leaving).filter((id) => kxAnswered(g.tasks[id]));
+  g.items = authors.map((id) => {
+    const t = g.tasks[id];
+    return { authorId: id, mode: t.mode, prompt: t.prompt, text: t.answer, image: t.image, twist: null, twisterId: null };
+  });
+  if (g.items.length >= 2) {
+    // Verschiebung im Kreis: niemand bekommt seine eigene Antwort
+    const order = shuffle(g.items.map((_, i) => i));
+    const k = 1 + crypto.randomInt(order.length - 1);
+    order.forEach((itemIdx, i) => { g.items[itemIdx].twisterId = g.items[order[(i + k) % order.length]].authorId; });
+  } else if (g.items.length === 1) {
+    const others = kxActive(lobby, g, leaving).filter((id) => id !== g.items[0].authorId);
+    if (others.length) g.items[0].twisterId = pick(others);
+  }
+  g.items = g.items.filter((it) => it.twisterId);
+  g.phase = "twist";
+  if (!g.items.length) kxToResults(lobby);
+}
+
+function kxToReveal(lobby, leaving = null) {
+  const g = lobby.game;
+  // Beiträge von Spielern, die gegangen sind, bleiben drin – nur Unverdrehtes fällt weg
+  g.items = shuffle(g.items.filter((it) => it.twist && it.twisterId !== leaving));
+  g.revealIndex = 0;
+  g.phase = "reveal";
+  if (!g.items.length) kxToResults(lobby);
+}
+
+// Wer darf abstimmen? Jeder, der mindestens einen fremden Beitrag wählen kann.
+const kxVoters = (lobby, g, leaving = null) => kxActive(lobby, g, leaving).filter((id) => g.items.some((it) => it.twisterId !== id));
+
+function kxToResults(lobby) {
+  const g = lobby.game;
+  const counts = g.items.map(() => 0);
+  for (const idx of g.votes.values()) counts[idx]++;
+  const best = Math.max(0, ...counts);
+  const points = Object.fromEntries(g.ids.map((id) => [id, 0]));
+  g.items.forEach((it, i) => {
+    it.votes = counts[i];
+    it.points = counts[i] * KX_POINTS_PER_VOTE + (best > 0 && counts[i] === best ? KX_WINNER_BONUS : 0);
+    it.winner = best > 0 && counts[i] === best;
+    points[it.twisterId] += it.points;
+  });
+  for (const id of g.ids) g.total[id] += points[id];
+  g.roundPoints = points;
+  g.history.push({ round: g.round, points });
+  g.phase = g.round >= g.rounds ? "over" : "results";
+}
+
+// Phase weiterschalten, sobald alle (noch anwesenden) fertig sind
+function kxCheck(lobby, leaving = null) {
+  const g = lobby.game;
+  if (!g || g.type !== "kontext") return;
+  const active = kxActive(lobby, g, leaving);
+  if (g.phase === "write" && active.every((id) => !g.tasks[id] || kxAnswered(g.tasks[id]))) kxToTwist(lobby, leaving);
+  if (g.phase === "twist" && g.items.filter((it) => active.includes(it.twisterId)).every((it) => it.twist)) kxToReveal(lobby, leaving);
+  if (g.phase === "vote" && kxVoters(lobby, g, leaving).every((id) => g.votes.has(id))) kxToResults(lobby);
+}
+
+function kxPublicItem(it, i, withTwister) {
+  const out = { idx: i, mode: it.mode, authorId: it.authorId, prompt: it.prompt, text: it.text, image: it.image, twist: it.twist };
+  if (withTwister) Object.assign(out, { twisterId: it.twisterId, votes: it.votes, points: it.points, winner: it.winner });
+  return out;
+}
+
+function kxView(lobby, g, me) {
+  const inGame = g.ids.includes(me.id);
+  const active = kxActive(lobby, g);
+  const doneOf = (id) => {
+    if (g.phase === "write") return kxAnswered(g.tasks[id]);
+    if (g.phase === "twist") {
+      const it = g.items.find((x) => x.twisterId === id);
+      return it ? !!it.twist : null; // null = hat in dieser Phase nichts zu tun
+    }
+    if (g.phase === "vote") return kxVoters(lobby, g).includes(id) ? g.votes.has(id) : null;
+    return null;
+  };
+  const view = {
+    type: "kontext",
+    phase: g.phase,
+    inGame,
+    round: g.round,
+    rounds: g.rounds,
+    players: g.ids.map((id) => {
+      const p = lobby.players.find((x) => x.id === id);
+      return { id, name: g.names[id], connected: !!(p && p.connected), left: !active.includes(id), done: doneOf(id), total: g.total[id] };
+    }),
+    history: g.history
+  };
+
+  if (g.phase === "write") {
+    // Jeder sieht nur seine eigene Frage
+    const t = g.tasks[me.id];
+    view.task = t ? { mode: t.mode, prompt: t.prompt, images: t.images || null, answer: t.answer, image: t.image } : null;
+  } else if (g.phase === "twist") {
+    // Nur die Antwort, die man selbst verdrehen soll – ohne die ursprüngliche Frage
+    const it = g.items.find((x) => x.twisterId === me.id);
+    view.twistTask = it ? { mode: it.mode, authorId: it.authorId, text: it.text, image: it.image, twist: it.twist } : null;
+  } else if (g.phase === "reveal") {
+    view.revealIndex = g.revealIndex;
+    view.itemCount = g.items.length;
+    view.items = g.items.slice(0, g.revealIndex + 1).map((it, i) => kxPublicItem(it, i, false));
+  } else if (g.phase === "vote") {
+    view.items = g.items.map((it, i) => ({ ...kxPublicItem(it, i, false), mine: it.twisterId === me.id }));
+    view.myVote = g.votes.has(me.id) ? g.votes.get(me.id) : null;
+    view.canVote = kxVoters(lobby, g).includes(me.id);
+  } else {
+    view.items = g.items.map((it, i) => kxPublicItem(it, i, true));
+    view.roundPoints = g.roundPoints;
+  }
+  return view;
+}
+
+function kxRequire(lobby, phase, me) {
+  const g = requireGame(lobby, phase, "kontext");
+  if (!g.ids.includes(me.id)) fail("Du spielst in dieser Runde nicht mit.");
+  return g;
+}
+
+Object.assign(handlers, {
+  kxSettings(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    if (lobby.game && lobby.game.phase !== "over") fail("Während des Spiels können die Einstellungen nicht geändert werden.");
+    const s = msg.settings || {};
+    const st = { ...lobby.kxSettings };
+    if (s.modes !== undefined) {
+      const modes = KX_MODES.filter((m) => Array.isArray(s.modes) && s.modes.includes(m));
+      if (!modes.length) fail("Wähle mindestens eine Art aus.");
+      st.modes = modes;
+    }
+    if (s.rounds !== undefined) {
+      const r = Number(s.rounds);
+      if (!Number.isInteger(r) || r < 1 || r > 10) fail("Die Rundenzahl muss zwischen 1 und 10 liegen.");
+      st.rounds = r;
+    }
+    lobby.kxSettings = st;
+    return lobby;
+  },
+
+  kxAnswer(ws, msg, lobby, me) {
+    const g = kxRequire(lobby, "write", me);
+    const t = g.tasks[me.id];
+    if (!t) fail("Du hast in dieser Runde keine Frage.");
+    if (t.mode === "bild") {
+      if (!t.images.includes(msg.image)) fail("Wähle eines der Bilder aus.");
+      t.image = msg.image;
+    } else {
+      const text = kxClean(msg.text);
+      if (text.length < 2) fail("Schreib mindestens 2 Zeichen.");
+      t.answer = text;
+    }
+    kxCheck(lobby);
+    return lobby;
+  },
+
+  kxUnanswer(ws, msg, lobby, me) {
+    const g = kxRequire(lobby, "write", me);
+    const t = g.tasks[me.id];
+    if (t) { t.answer = null; t.image = null; }
+    return lobby;
+  },
+
+  kxTwist(ws, msg, lobby, me) {
+    const g = kxRequire(lobby, "twist", me);
+    const it = g.items.find((x) => x.twisterId === me.id);
+    if (!it) fail("Du hast in dieser Runde nichts zu verdrehen.");
+    const text = kxClean(msg.text);
+    if (text.length < 2) fail("Schreib mindestens 2 Zeichen.");
+    it.twist = text;
+    kxCheck(lobby);
+    return lobby;
+  },
+
+  kxUntwist(ws, msg, lobby, me) {
+    const g = kxRequire(lobby, "twist", me);
+    const it = g.items.find((x) => x.twisterId === me.id);
+    if (it) it.twist = null;
+    return lobby;
+  },
+
+  kxVote(ws, msg, lobby, me) {
+    const g = kxRequire(lobby, "vote", me);
+    const idx = Number(msg.item);
+    const it = g.items[idx];
+    if (!Number.isInteger(idx) || !it) fail("Diesen Beitrag gibt es nicht.");
+    if (it.twisterId === me.id) fail("Für deinen eigenen Beitrag kannst du nicht stimmen.");
+    g.votes.set(me.id, idx);
+    kxCheck(lobby);
+    return lobby;
+  },
+
+  // Host: nächsten Beitrag aufdecken, zur Abstimmung oder zur nächsten Runde
+  kxNext(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    const g = lobby.game;
+    if (!g || g.type !== "kontext") fail("Das geht gerade nicht.");
+    if (g.phase === "reveal") {
+      if (g.revealIndex < g.items.length - 1) g.revealIndex++;
+      else g.phase = "vote";
+    } else if (g.phase === "results") {
+      kxNewRound(lobby);
+    } else fail("Das geht gerade nicht.");
+    return lobby;
+  },
+
+  // Host: nicht länger warten (z. B. wenn jemand weg ist)
+  kxForce(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    const g = lobby.game;
+    if (!g || g.type !== "kontext") fail("Das geht gerade nicht.");
+    if (g.phase === "write") kxToTwist(lobby);
+    else if (g.phase === "twist") kxToReveal(lobby);
+    else if (g.phase === "vote") kxToResults(lobby);
+    else fail("Das geht gerade nicht.");
     return lobby;
   }
 });

@@ -181,7 +181,7 @@
     if (screen === "o-reveal") roleShown = false;
     if (screen === "o-game") myRoleShown = false;
     lastScreen = screen;
-    const phase = { lobby: "setup", "o-reveal": "reveal", "o-game": "game", "wo-assign": "assign", "wo-game": "game", "lu-setup": "trap", "lu-game": "game", "slf-write": "write", "slf-review": "review", "slf-scores": "scores", "draw-game": "game" }[screen];
+    const phase = { lobby: "setup", "o-reveal": "reveal", "o-game": "game", "wo-assign": "assign", "wo-game": "game", "lu-setup": "trap", "lu-game": "game", "slf-write": "write", "slf-review": "review", "slf-scores": "scores", "draw-game": "game", "kx-write": "write", "kx-twist": "twist", "kx-reveal": "reveal", "kx-vote": "reveal", "kx-results": "scores" }[screen];
     showScreen(screen, phase);
   }
 
@@ -192,7 +192,9 @@
     currentGame = state.gameType;
     window.inviteMode = false;
     const g = state.game;
-    if (g && g.inGame && g.type === "draw") {
+    if (g && g.inGame && g.type === "kontext") {
+      goto(KXOnline.render(state));
+    } else if (g && g.inGame && g.type === "draw") {
       goto(DrawOnline.render(state));
     } else if (g && g.inGame && g.type === "slf") {
       goto(SLFOnline.render(state));
@@ -271,6 +273,8 @@
     if (state.gameType === "slf") SLFOnline.renderLobbySettings(state);
     $("draw-settings").hidden = state.gameType !== "draw";
     if (state.gameType === "draw") DrawOnline.renderLobbySettings(state);
+    $("kx-settings").hidden = state.gameType !== "kontext";
+    if (state.gameType === "kontext") KXOnline.renderLobbySettings(state);
     const enough = state.players.length >= state.minPlayers;
     $("lobby-start").hidden = !host;
     $("lobby-start").disabled = !enough;

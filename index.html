@@ -17,6 +17,7 @@
     <symbol id="ico-note" viewBox="0 0 48 48"><path d="M10 8h28v21L27 40H10z"/><path d="M27 40V29h11"/><path d="M19.5 17.5a4.5 4.5 0 1 1 6.3 4.1c-1.1.5-1.8 1.4-1.8 2.6v.8"/><circle cx="24" cy="29.5" r="1.4" class="fill"/></symbol>
     <symbol id="ico-joker" viewBox="0 0 48 48"><rect x="11" y="5" width="26" height="38" rx="3.5"/><path d="M18 31.5 16.8 18l5 6 2.2-9.5 2.2 9.5 5-6-1.2 13.5z"/><circle cx="16.6" cy="16" r="1.6"/><circle cx="24" cy="12.4" r="1.6"/><circle cx="31.4" cy="16" r="1.6"/><path d="M18 35.5h12"/></symbol>
     <symbol id="ico-map" viewBox="0 0 48 48"><path d="M6 13l11-4.5 14 4.5 11-4.5v27.5L31 40.5 17 36 6 40.5z"/><path d="M17 8.5V36M31 13v27.5"/><path d="M36.5 22.5c0 3-3.5 6.5-3.5 6.5s-3.5-3.5-3.5-6.5a3.5 3.5 0 0 1 7 0z" class="pin"/></symbol>
+    <symbol id="ico-bubble" viewBox="0 0 48 48"><path d="M9 9h30a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H22l-9 7v-7H9a4 4 0 0 1-4-4V13a4 4 0 0 1 4-4z"/><path d="M15 18l3 3-3 3M23 24h9"/></symbol>
     <symbol id="ico-pencil" viewBox="0 0 48 48"><path d="M32.5 7.5l8 8L17.5 38.5 7 41l2.5-10.5z"/><path d="M28.5 11.5l8 8"/><path d="M9.5 30.5l8 8"/><path d="M8.3 35.5l4.2 4.2"/></symbol>
     <symbol id="ico-handoff" viewBox="0 0 48 48"><rect x="13" y="6" width="19" height="34" rx="4"/><path d="M20 35h5"/><path d="M36.5 15.5c3.5 3 3.5 9 0 12"/><path d="M36.5 27.5l-3.3-.2M36.5 27.5l.6-3.2"/></symbol>
     <symbol id="ico-globe" viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M8 24h32"/><path d="M24 8c5 4.4 7 10 7 16s-2 11.6-7 16c-5-4.4-7-10-7-16s2-11.6 7-16z"/></symbol>
@@ -80,6 +81,14 @@
         <span class="mode-text">
           <span class="mode-title">Kritzeln</span>
           <span class="mode-desc">Einer zeichnet, alle anderen raten im Chat. Je schneller, desto mehr Punkte.</span>
+        </span>
+      </button>
+      <button class="mode-card game-card" type="button" data-game="kontext">
+        <span class="mode-icon"><svg class="ico"><use href="#ico-bubble"/></svg></span>
+        <span class="mode-text">
+          <span class="kx-card-head"><span class="kx-card-avatar"></span><span class="kx-card-handle">@kontextlos · gerade eben</span></span>
+          <span class="mode-title">Kontextlos</span>
+          <span class="mode-desc">Du antwortest harmlos – ein anderer erfindet den Zusammenhang dazu. Am Ende gewinnt der fieseste Beitrag.</span>
         </span>
       </button>
     </section>
@@ -673,6 +682,109 @@
       <button id="draw-leave" class="btn ghost" type="button">Lobby verlassen</button>
     </section>
 
+    <!-- ============ KONTEXTLOS (NUR ONLINE) ============ -->
+    <section id="screen-kx-write" class="screen">
+      <header class="title">
+        <h1>Kontextlos</h1>
+        <p class="sub" id="kx-write-sub"></p>
+      </header>
+      <form id="kx-write-form" class="card kx-task" autocomplete="off">
+        <span class="role-label">Deine Frage</span>
+        <p class="kx-prompt" id="kx-prompt"></p>
+        <div id="kx-images" class="kx-images" hidden></div>
+        <textarea id="kx-answer" maxlength="120" rows="3" placeholder="Deine Antwort …"></textarea>
+        <p class="lu-hint" id="kx-write-hint">Antworte ganz normal. Was später daraus wird, weißt du noch nicht.</p>
+        <button id="kx-write-send" class="btn primary big" type="submit">Abschicken</button>
+      </form>
+      <div class="card kx-sent" id="kx-write-sent" hidden>
+        <span class="role-label">Abgeschickt</span>
+        <div id="kx-write-mine"></div>
+        <button id="kx-write-edit" class="btn ghost" type="button">Ändern</button>
+      </div>
+      <div class="card">
+        <div class="row-between"><h2>Wer ist fertig?</h2><span class="pill" id="kx-write-count"></span></div>
+        <ul id="kx-write-list" class="lobby-players"></ul>
+      </div>
+      <button id="kx-write-force" class="btn ghost" type="button" hidden>Nicht länger warten (Host)</button>
+      <button class="btn ghost kx-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-kx-twist" class="screen">
+      <header class="title">
+        <h1>Verdrehen</h1>
+        <p class="sub" id="kx-twist-sub"></p>
+      </header>
+      <div id="kx-twist-box">
+        <div class="card kx-task">
+          <p class="kx-twist-intro" id="kx-twist-intro"></p>
+          <div id="kx-twist-preview"></div>
+        </div>
+        <form id="kx-twist-form" class="card kx-task" autocomplete="off">
+          <label class="role-label" for="kx-twist-input" id="kx-twist-label"></label>
+          <textarea id="kx-twist-input" maxlength="120" rows="3"></textarea>
+          <p class="lu-hint">Ziel: Ohne den echten Zusammenhang soll <strong id="kx-twist-victim"></strong> möglichst schlecht dastehen.</p>
+          <button id="kx-twist-send" class="btn primary big" type="submit">Abschicken</button>
+        </form>
+        <div class="card kx-sent" id="kx-twist-sent" hidden>
+          <span class="role-label">Abgeschickt – warte auf die anderen</span>
+          <button id="kx-twist-edit" class="btn ghost" type="button">Ändern</button>
+        </div>
+      </div>
+      <div class="card" id="kx-twist-idle" hidden>
+        <p class="muted">Du hast in dieser Runde nichts zu verdrehen. Gleich geht's weiter.</p>
+      </div>
+      <div class="card">
+        <div class="row-between"><h2>Wer ist fertig?</h2><span class="pill" id="kx-twist-count"></span></div>
+        <ul id="kx-twist-list" class="lobby-players"></ul>
+      </div>
+      <button id="kx-twist-force" class="btn ghost" type="button" hidden>Nicht länger warten (Host)</button>
+      <button class="btn ghost kx-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-kx-reveal" class="screen">
+      <header class="title">
+        <h1>Enthüllung</h1>
+        <p class="sub" id="kx-reveal-sub"></p>
+      </header>
+      <div id="kx-reveal-post" class="kx-stage"></div>
+      <div class="card kx-truth" id="kx-reveal-truth"></div>
+      <button id="kx-reveal-next" class="btn primary big" type="button" hidden></button>
+      <p id="kx-reveal-wait" class="muted small center" hidden>Der Host deckt den nächsten Beitrag auf …</p>
+      <button class="btn ghost kx-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-kx-vote" class="screen">
+      <header class="title">
+        <h1>Abstimmung</h1>
+        <p class="sub" id="kx-vote-sub"></p>
+      </header>
+      <p class="muted small center" id="kx-vote-hint"></p>
+      <div id="kx-vote-list" class="kx-vote-list"></div>
+      <div class="card">
+        <div class="row-between"><h2>Wer hat abgestimmt?</h2><span class="pill" id="kx-vote-count"></span></div>
+        <ul id="kx-vote-players" class="lobby-players"></ul>
+      </div>
+      <button id="kx-vote-force" class="btn ghost" type="button" hidden>Abstimmung beenden (Host)</button>
+      <button class="btn ghost kx-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-kx-results" class="screen">
+      <header class="title">
+        <h1 id="kx-results-title">Ergebnis</h1>
+        <p class="sub" id="kx-results-sub"></p>
+      </header>
+      <div id="kx-results-list" class="kx-vote-list"></div>
+      <div class="card">
+        <h2>Punktestand</h2>
+        <ol id="kx-ranking" class="slf-ranking"></ol>
+      </div>
+      <button id="kx-next" class="btn primary big" type="button" hidden>Nächste Runde</button>
+      <button id="kx-again" class="btn primary big" type="button" hidden>Neues Spiel</button>
+      <button id="kx-to-lobby" class="btn ghost" type="button" hidden>Zurück zur Lobby</button>
+      <p id="kx-results-wait" class="muted small center" hidden>Warte auf den Host …</p>
+      <button class="btn ghost kx-leave" type="button">Lobby verlassen</button>
+    </section>
+
     <!-- ============ ONLINE: BEITRETEN / ERSTELLEN ============ -->
     <section id="screen-online" class="screen">
       <button class="back-link" type="button" data-back="menu">← Menü</button>
@@ -792,6 +904,24 @@
           <div class="stepper" id="draw-rounds-stepper">
             <button type="button" data-dir="-1" aria-label="Weniger Runden">−</button>
             <span id="draw-rounds">3</span>
+            <button type="button" data-dir="1" aria-label="Mehr Runden">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="kx-settings" hidden>
+        <div class="row-between">
+          <h2>Einstellungen</h2>
+          <span class="pill" id="kx-host-pill"></span>
+        </div>
+        <span class="muted small">Welche Arten kommen dran? (mehrere möglich)</span>
+        <div id="kx-modes" class="chips"></div>
+        <p class="muted small" id="kx-modes-info"></p>
+        <div class="row-between">
+          <span>Runden</span>
+          <div class="stepper" id="kx-rounds-stepper">
+            <button type="button" data-dir="-1" aria-label="Weniger Runden">−</button>
+            <span id="kx-rounds">3</span>
             <button type="button" data-dir="1" aria-label="Mehr Runden">+</button>
           </div>
         </div>
@@ -984,5 +1114,7 @@
   <script src="slf-online.js"></script>
   <script src="draw-canvas.js"></script>
   <script src="draw-online.js"></script>
+  <script src="kontext-images.js"></script>
+  <script src="kontext-online.js"></script>
 </body>
 </html>

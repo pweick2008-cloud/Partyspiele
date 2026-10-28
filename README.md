@@ -1,12 +1,13 @@
 # Partyspiele
 
-Fünf Spiele:
+Sechs Spiele:
 
 - **Verräter** – alle kennen einen geheimen Begriff, nur die Verräter nicht. Pass & Play oder online.
 - **Wer bin ich?** – jeder bekommt eine Person, die alle kennen außer ihm selbst. Pass & Play oder online.
 - **SPIEGEL** – Karten, Lügen und Fallen für genau 2 Spieler. Pass & Play oder online.
 - **Stadt Land Fluss** – ein Buchstabe, eigene Kategorien, Zeitdruck. Nur online, 1 bis 20 Spieler.
 - **Kritzeln** – einer zeichnet, alle anderen raten. Nur online, 2 bis 20 Spieler.
+- **Kontextlos** – harmlose Antworten werden aus dem Zusammenhang gerissen (angelehnt an *Survive the Internet*). Nur online, 3 bis 12 Spieler.
 
 Auf der Startseite wählt man das Spiel, danach den Modus:
 
@@ -107,6 +108,23 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Apple Pencil:** Die Strichstärke folgt dem Druck. Es wird immer nur ein Strich gleichzeitig gezeichnet; sobald der Stift erkannt wurde, werden Finger und Handballen ignoriert. Setzt der Handballen vor dem Stift auf, wird dieser Strich wieder entfernt.
 - **Zoom:** Beim Zeichner wird ein bestehender Zoom zurückgesetzt und Zwei-Finger- sowie Doppeltipp-Zoom gesperrt, solange er zeichnet. Danach ist Zoomen wieder möglich.
 - Die Wortliste (749 Begriffe: 278 einfach, 120 mittel, 171 schwer, 180 sehr schwer) steht in `draw-words.js` und liegt nur auf dem Server.
+
+## Kontextlos (nur online, 3–12 Spieler)
+
+Jede Runde hat vier Schritte:
+
+1. **Antworten:** Jeder bekommt eine harmlose Frage und antwortet ganz normal, zum Beispiel „Was sagst du, wenn du etwas richtig Leckeres isst?“. Bei der Art *Bilder* wählt man stattdessen eines von vier Bildern zum Posten.
+2. **Verdrehen:** Jeder bekommt die Antwort eines anderen, aber ohne die ursprüngliche Frage. Dazu erfindet er den fehlenden Zusammenhang, und zwar so, dass der andere ohne Kontext möglichst schlecht dasteht. Die Zuteilung läuft im Kreis, niemand bekommt seine eigene Antwort.
+   - **Videos:** Die Antwort steht als Kommentar unter einem Video, der Verdreher erfindet den Videotitel.
+   - **Kommentare:** Die Antwort ist die Antwort auf einen Beitrag, der Verdreher erfindet den Beitrag.
+   - **Fragen:** Die Antwort bleibt eine Antwort, der Verdreher erfindet eine neue Frage.
+   - **Bilder:** Das gewählte Bild wird gepostet, der Verdreher schreibt die Bildunterschrift.
+3. **Enthüllen:** Der Host deckt die Beiträge nacheinander auf. Sie sehen aus wie Ausschnitte aus sozialen Netzwerken. Unter jedem Beitrag steht, wie die Antwort eigentlich gemeint war.
+4. **Abstimmen:** Jeder stimmt für den schlimmsten Beitrag, den eigenen kann man nicht wählen. Jede Stimme bringt dem Verdreher **100 Punkte**, der meistgewählte Beitrag bekommt **100 extra** (bei Gleichstand alle). Erst jetzt wird verraten, wer was verdreht hat.
+
+- **Einstellungen des Hosts:** welche Arten drankommen (Videos, Kommentare, Fragen, Bilder – beliebig kombinierbar) und die Rundenzahl (1–10). Jede Antwort bekommt zufällig eine der gewählten Arten.
+- Fehlt jemand, kann der Host mit **„Nicht länger warten“** weitermachen. Wer nicht geantwortet hat, ist in der Runde nicht dabei, und unverdrehte Beiträge fallen weg.
+- Die Fragen stehen in `kontext-prompts.js` und liegen nur auf dem Server. Die 29 Bilder sind eigene Illustrationen in `kontext-images.js`.
 
 ## Kategorien (Verräter)
 
