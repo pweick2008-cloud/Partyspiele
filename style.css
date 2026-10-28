@@ -1113,15 +1113,15 @@ html[data-theme="werbinich"] h2, html[data-theme="werbinich"] .mode-title { font
 
 /* ---------- Kontextlos: Startkarte wie ein Beitrag im Feed ---------- */
 .game-card[data-game="kontext"] {
-  background: #ffffff; color: #14161b; border: 1px solid #e3e5ec;
+  background: linear-gradient(135deg, #ff4f7b, #ff7a59 70%, #ffa24a); color: #fff; border: none;
   box-shadow: 0 10px 24px rgba(0, 0, 0, .28);
 }
-.game-card[data-game="kontext"]:hover, .game-card[data-game="kontext"]:focus-visible { border-color: #e3e5ec; }
-.game-card[data-game="kontext"] .mode-icon { color: #ff3d6e; }
-.game-card[data-game="kontext"] .mode-title { font-family: "Bricolage Grotesque", sans-serif; font-weight: 800; letter-spacing: -.01em; color: #14161b; }
-.game-card[data-game="kontext"] .mode-desc { color: #565b68; }
-.kx-card-head { display: flex; align-items: center; gap: 6px; margin-bottom: 2px; font-size: .78rem; color: #8a8f9c; }
-.kx-card-avatar { width: 14px; height: 14px; border-radius: 50%; background: linear-gradient(135deg, #ff3d6e, #ffb238); }
+.game-card[data-game="kontext"]:hover, .game-card[data-game="kontext"]:focus-visible { border: none; }
+.game-card[data-game="kontext"] .mode-icon { color: #fff; }
+.game-card[data-game="kontext"] .mode-title { font-family: "Bricolage Grotesque", sans-serif; font-weight: 800; letter-spacing: -.01em; color: #fff; }
+.game-card[data-game="kontext"] .mode-desc { color: rgba(255, 255, 255, .9); }
+.kx-card-head { display: flex; align-items: center; gap: 6px; margin-bottom: 2px; font-size: .78rem; color: rgba(255, 255, 255, .8); }
+.kx-card-avatar { width: 14px; height: 14px; border-radius: 50%; background: #fff; }
 
 /* ---------- Kontextlos im Spiel: Feed bei Nacht ---------- */
 html[data-theme="kontext"] {
@@ -1269,14 +1269,13 @@ html[data-theme="ehesten"] .title h1 { font-weight: 800; text-transform: upperca
 
 /* ---------- Galerie: Startkarte wie ein Ausstellungsschild ---------- */
 .game-card[data-game="galerie"] {
-  background: #f5f2ec; color: #1d1b18; border: 1px solid #ddd6ca; border-radius: 4px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, .3);
+  background: #f5f2ec; color: #1d1b18;
+  border: 2px solid #1d1b18; border-radius: 18px 255px 18px 225px / 225px 18px 255px 18px;
 }
-.game-card[data-game="galerie"]:hover, .game-card[data-game="galerie"]:focus-visible { border-color: #ddd6ca; }
+.game-card[data-game="galerie"]:hover, .game-card[data-game="galerie"]:focus-visible { border-color: #1d1b18; }
 .game-card[data-game="galerie"] .mode-icon { color: #c23b2f; }
 .game-card[data-game="galerie"] .mode-title { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 1.5rem; color: #1d1b18; }
 .game-card[data-game="galerie"] .mode-desc { color: #5b554c; }
-.gal-card-plate { display: inline-block; margin-top: 8px; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: #8a8276; border-top: 1px solid #d8d0c3; padding-top: 6px; }
 
 /* ---------- Galerie im Spiel: heller Ausstellungsraum ---------- */
 html[data-theme="galerie"] {
