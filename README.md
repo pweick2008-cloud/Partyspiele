@@ -142,12 +142,12 @@ Jede Runde hat vier Schritte:
    - **Kommentare:** Die Antwort ist die Antwort auf einen Beitrag, der Verdreher erfindet den Beitrag.
    - **Fragen:** Die Antwort bleibt eine Antwort, der Verdreher erfindet eine neue Frage.
    - **Bilder:** Das gewählte Bild wird gepostet, der Verdreher schreibt die Bildunterschrift.
-3. **Enthüllen:** Der Host deckt die Beiträge nacheinander auf. Sie sehen aus wie Ausschnitte aus sozialen Netzwerken. Unter jedem Beitrag steht, wie die Antwort eigentlich gemeint war.
+3. **Enthüllen:** Der Host deckt die Beiträge nacheinander auf. Sie sehen aus wie Ausschnitte aus sozialen Netzwerken. Über jedem Beitrag steht, von wem die ursprüngliche Aussage ist, im Beitrag ist sie markiert.
 4. **Abstimmen:** Jeder stimmt für den schlimmsten Beitrag, den eigenen kann man nicht wählen. Jede Stimme bringt dem Verdreher **100 Punkte**, der meistgewählte Beitrag bekommt **100 extra** (bei Gleichstand alle). Erst jetzt wird verraten, wer was verdreht hat.
 
 - **Einstellungen des Hosts:** welche Arten drankommen (Videos, Kommentare, Fragen, Bilder – beliebig kombinierbar) und die Rundenzahl (1–10). Jede Antwort bekommt zufällig eine der gewählten Arten.
 - Fehlt jemand, kann der Host mit **„Nicht länger warten“** weitermachen. Wer nicht geantwortet hat, ist in der Runde nicht dabei, und unverdrehte Beiträge fallen weg.
-- Die Fragen stehen in `kontext-prompts.js` und liegen nur auf dem Server. Die Fotos liegen im Ordner `kontext-bilder/` (höchstens 900 px, als JPG). Ein neues Bild legt man dort ab und trägt den Namen in `kontext-images.js` ein. Pro Runde bekommt jeder 4 Bilder zur Auswahl, möglichst andere als die anderen Spieler.
+- Die Fragen (567: je rund 160 für Videos, Kommentare und Fragen, 85 für Bilder) stehen in `kontext-prompts.js` und liegen nur auf dem Server. Die ursprüngliche Frage sieht nur, wer sie beantwortet – auch nach der Runde wird sie nicht angezeigt. Die Fotos liegen im Ordner `kontext-bilder/` (höchstens 900 px, als JPG). Ein neues Bild legt man dort ab und trägt den Namen in `kontext-images.js` ein. Pro Runde bekommt jeder 4 Bilder zur Auswahl, möglichst andere als die anderen Spieler.
 
 ## Kategorien (Verräter)
 
