@@ -19,6 +19,7 @@
     <symbol id="ico-map" viewBox="0 0 48 48"><path d="M6 13l11-4.5 14 4.5 11-4.5v27.5L31 40.5 17 36 6 40.5z"/><path d="M17 8.5V36M31 13v27.5"/><path d="M36.5 22.5c0 3-3.5 6.5-3.5 6.5s-3.5-3.5-3.5-6.5a3.5 3.5 0 0 1 7 0z" class="pin"/></symbol>
     <symbol id="ico-bubble" viewBox="0 0 48 48"><path d="M9 9h30a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H22l-9 7v-7H9a4 4 0 0 1-4-4V13a4 4 0 0 1 4-4z"/><path d="M15 18l3 3-3 3M23 24h9"/></symbol>
     <symbol id="ico-crowd" viewBox="0 0 48 48"><circle cx="11" cy="28" r="4.5"/><circle cx="24" cy="28" r="4.5"/><circle cx="37" cy="28" r="4.5"/><path d="M4 43c0-5 3-8 7-8s7 3 7 8M17 43c0-5 3-8 7-8s7 3 7 8M30 43c0-5 3-8 7-8s7 3 7 8"/><path d="M24 4v13M18.5 11.5L24 17l5.5-5.5"/></symbol>
+    <symbol id="ico-frame" viewBox="0 0 48 48"><rect x="6" y="8" width="36" height="32" rx="2"/><rect x="12" y="14" width="24" height="20"/><path d="M12 30l7-7 5 5 4-4 8 8"/><circle cx="30" cy="20" r="2"/></symbol>
     <symbol id="ico-pencil" viewBox="0 0 48 48"><path d="M32.5 7.5l8 8L17.5 38.5 7 41l2.5-10.5z"/><path d="M28.5 11.5l8 8"/><path d="M9.5 30.5l8 8"/><path d="M8.3 35.5l4.2 4.2"/></symbol>
     <symbol id="ico-handoff" viewBox="0 0 48 48"><rect x="13" y="6" width="19" height="34" rx="4"/><path d="M20 35h5"/><path d="M36.5 15.5c3.5 3 3.5 9 0 12"/><path d="M36.5 27.5l-3.3-.2M36.5 27.5l.6-3.2"/></symbol>
     <symbol id="ico-globe" viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M8 24h32"/><path d="M24 8c5 4.4 7 10 7 16s-2 11.6-7 16c-5-4.4-7-10-7-16s2-11.6 7-16z"/></symbol>
@@ -82,6 +83,14 @@
         <span class="mode-text">
           <span class="mode-title">Kritzeln</span>
           <span class="mode-desc">Einer zeichnet, alle anderen raten im Chat. Je schneller, desto mehr Punkte.</span>
+        </span>
+      </button>
+      <button class="mode-card game-card" type="button" data-game="galerie">
+        <span class="mode-icon"><svg class="ico"><use href="#ico-frame"/></svg></span>
+        <span class="mode-text">
+          <span class="mode-title">Galerie</span>
+          <span class="mode-desc">Jeder schreibt einen Begriff, alle zeichnen ihn gleichzeitig. Dann wird ausgestellt und abgestimmt.</span>
+          <span class="gal-card-plate">Kat.-Nr. 07 · Finger auf Display</span>
         </span>
       </button>
       <button class="mode-card game-card" type="button" data-game="ehesten">
@@ -758,6 +767,99 @@
       <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>
     </section>
 
+    <!-- ============ GALERIE (NUR ONLINE) ============ -->
+    <section id="screen-gal-write" class="screen">
+      <header class="title">
+        <h1>Galerie</h1>
+        <p class="sub" id="gal-write-sub"></p>
+      </header>
+      <form id="gal-write-form" class="card gal-write" autocomplete="off">
+        <span class="role-label">Was sollen alle zeichnen?</span>
+        <div id="gal-term-fields" class="gal-term-fields"></div>
+        <p class="lu-hint">Gelost wird ohne Namen – erst am Ende der Runde steht da, von wem der Begriff kam. Du zeichnest deinen eigenen Begriff auch mit.</p>
+        <button id="gal-write-send" class="btn primary big" type="submit">Abschicken</button>
+      </form>
+      <div class="card gal-write" id="gal-write-sent" hidden>
+        <span class="role-label">Abgeschickt</span>
+        <div id="gal-write-mine" class="chips static"></div>
+        <button id="gal-write-edit" class="btn ghost" type="button">Ändern</button>
+      </div>
+      <div class="card">
+        <div class="row-between"><h2>Wer ist fertig?</h2><span class="pill" id="gal-write-count"></span></div>
+        <ul id="gal-write-list" class="lobby-players"></ul>
+      </div>
+      <button id="gal-write-force" class="btn ghost" type="button" hidden>Nicht länger warten (Host)</button>
+      <button class="btn ghost gal-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-gal-draw" class="screen">
+      <div class="draw-top card">
+        <span class="draw-round" id="gal-round"></span>
+        <div class="draw-word-box">
+          <span class="draw-word" id="gal-term"></span>
+          <span class="muted small" id="gal-draw-hint"></span>
+        </div>
+        <span class="draw-timer" id="gal-timer"></span>
+      </div>
+      <div class="draw-stage gal-stage">
+        <canvas id="gal-canvas" class="draw-canvas"></canvas>
+      </div>
+      <div id="gal-tools" class="draw-tools card">
+        <div id="gal-colors" class="draw-colors"></div>
+        <div class="draw-tool-row">
+          <div id="gal-sizes" class="draw-sizes"></div>
+        </div>
+        <div class="draw-tool-row">
+          <button type="button" class="btn small-btn" data-gtool="pen">Stift</button>
+          <button type="button" class="btn small-btn" data-gtool="eraser">Radierer</button>
+          <button type="button" class="btn small-btn" data-gtool="fill">Füllen</button>
+          <span class="draw-spacer"></span>
+          <button type="button" class="btn ghost small-btn" id="gal-undo">Rückgängig</button>
+          <button type="button" class="btn ghost small-btn" id="gal-clear">Leeren</button>
+        </div>
+      </div>
+      <button id="gal-done" class="btn primary big" type="button">Fertig</button>
+      <button id="gal-edit" class="btn ghost" type="button" hidden>Doch weiterzeichnen</button>
+      <div class="card">
+        <div class="row-between"><h2>Wer ist fertig?</h2><span class="pill" id="gal-draw-count"></span></div>
+        <ul id="gal-draw-list" class="lobby-players"></ul>
+      </div>
+      <button id="gal-draw-force" class="btn ghost" type="button" hidden>Zeichnen beenden (Host)</button>
+      <button class="btn ghost gal-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-gal-vote" class="screen">
+      <header class="title">
+        <h1>Galerie</h1>
+        <p class="sub" id="gal-vote-sub"></p>
+      </header>
+      <p class="muted small center" id="gal-vote-hint"></p>
+      <div id="gal-vote-list" class="gal-wall"></div>
+      <div class="card">
+        <div class="row-between"><h2>Wer hat abgestimmt?</h2><span class="pill" id="gal-vote-count"></span></div>
+        <ul id="gal-vote-players" class="lobby-players"></ul>
+      </div>
+      <button id="gal-vote-force" class="btn ghost" type="button" hidden>Abstimmung beenden (Host)</button>
+      <button class="btn ghost gal-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-gal-results" class="screen">
+      <header class="title">
+        <h1 id="gal-results-title">Ergebnis</h1>
+        <p class="sub" id="gal-results-sub"></p>
+      </header>
+      <div id="gal-results-list" class="gal-wall"></div>
+      <div class="card">
+        <h2>Punktestand</h2>
+        <ol id="gal-ranking" class="slf-ranking"></ol>
+      </div>
+      <button id="gal-next" class="btn primary big" type="button" hidden>Nächster Begriff</button>
+      <button id="gal-again" class="btn primary big" type="button" hidden>Neues Spiel</button>
+      <button id="gal-to-lobby" class="btn ghost" type="button" hidden>Zurück zur Lobby</button>
+      <p id="gal-results-wait" class="muted small center" hidden>Warte auf den Host …</p>
+      <button class="btn ghost gal-leave" type="button">Lobby verlassen</button>
+    </section>
+
     <!-- ============ KONTEXTLOS (NUR ONLINE) ============ -->
     <section id="screen-kx-write" class="screen">
       <header class="title">
@@ -985,6 +1087,17 @@
         </div>
       </div>
 
+      <div class="card" id="gal-settings" hidden>
+        <div class="row-between">
+          <h2>Einstellungen</h2>
+          <span class="pill" id="gal-host-pill"></span>
+        </div>
+        <span class="muted small">Zeit zum Zeichnen</span>
+        <div id="gal-times" class="chips"></div>
+        <span class="muted small">Begriffe pro Spieler (jeder Begriff ist eine Runde)</span>
+        <div id="gal-terms-count" class="chips"></div>
+      </div>
+
       <div class="card" id="kx-settings" hidden>
         <div class="row-between">
           <h2>Einstellungen</h2>
@@ -1194,5 +1307,6 @@
   <script src="draw-online.js"></script>
   <script src="kontext-images.js"></script>
   <script src="kontext-online.js"></script>
+  <script src="galerie-online.js"></script>
 </body>
 </html>

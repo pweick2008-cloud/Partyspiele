@@ -20,9 +20,9 @@ const { DRAW_POOLS, LEVELS: DR_LEVELS, LEVEL_NAMES: DR_LEVEL_NAMES } = require("
 
 const PORT = process.env.PORT || 3000;
 const MIN_PLAYERS = 3; // Verräter
-const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3 };
-const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12 };
-const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext"];
+const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3 };
+const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12 };
+const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie"];
 const MAX_PLAYERS = 20;
 const LOBBY_IDLE_MS = 30 * 60 * 1000; // leere Lobbys werden nach 30 Min. gelöscht
 
@@ -49,7 +49,8 @@ const STATIC = {
   "/kontext-images.js": ["kontext-images.js", "text/javascript; charset=utf-8"],
   "/ehesten.js": ["ehesten.js", "text/javascript; charset=utf-8"],
   "/ehesten-fragen.js": ["ehesten-fragen.js", "text/javascript; charset=utf-8"],
-  "/kontext-online.js": ["kontext-online.js", "text/javascript; charset=utf-8"]
+  "/kontext-online.js": ["kontext-online.js", "text/javascript; charset=utf-8"],
+  "/galerie-online.js": ["galerie-online.js", "text/javascript; charset=utf-8"]
 };
 
 const server = http.createServer((req, res) => {
@@ -154,6 +155,7 @@ function viewFor(lobby, me) {
     slfSettings: lobby.slfSettings,
     drawSettings: lobby.drawSettings,
     kxSettings: lobby.kxSettings,
+    galSettings: lobby.galSettings,
     players: lobby.players.map((p) => ({ id: p.id, name: p.name, connected: p.connected })),
     game: null
   };
@@ -164,6 +166,10 @@ function viewFor(lobby, me) {
   }
   if (g.type === "kontext") {
     view.game = kxView(lobby, g, me);
+    return view;
+  }
+  if (g.type === "galerie") {
+    view.game = galView(lobby, g, me);
     return view;
   }
   if (g.type === "slf") {
@@ -392,6 +398,7 @@ function dropFromGame(lobby, id) {
   if (g && g.type === "slf") return slfDrop(lobby, id);
   if (g && g.type === "draw") return drDrop(lobby, id);
   if (g && g.type === "kontext") return kxCheck(lobby, id);
+  if (g && g.type === "galerie") return galCheck(lobby, id);
   if (!g || g.phase === "over" || !g.order.includes(id) || g.out.has(id)) return;
   g.out.add(id);
   g.results[id] = "hat das Spiel verlassen";
@@ -463,6 +470,7 @@ const handlers = {
       slfSettings: { ...SLF_DEFAULTS, categories: [...SLF_DEFAULTS.categories] },
       drawSettings: { ...DR_DEFAULTS },
       kxSettings: { ...KX_DEFAULTS, modes: [...KX_DEFAULTS.modes] },
+      galSettings: { ...GAL_DEFAULTS },
       game: null,
       usedWords: [],
       emptySince: null
@@ -537,6 +545,7 @@ const handlers = {
     if (lobby.players.length > MAX_PLAYERS_BY_GAME[lobby.gameType]) fail("Zu viele Spieler für dieses Spiel.");
     if (lobby.gameType === "draw") drStart(lobby);
     else if (lobby.gameType === "kontext") kxStart(lobby);
+    else if (lobby.gameType === "galerie") galStart(lobby);
     else if (lobby.gameType === "slf") slfStart(lobby);
     else if (lobby.gameType === "luegen") luStart(lobby);
     else if (lobby.gameType === "werbinich") wbiStart(lobby);
@@ -1658,6 +1667,52 @@ function drRelay(lobby, g, op) {
 
 const drNum = (v) => Math.round(Math.min(1, Math.max(0, Number(v) || 0)) * 10000) / 10000;
 
+// Prüft ein Zeichen-Ereignis und trägt es in eine Zeichnung ({ops, points}) ein.
+// Gibt das bereinigte Ereignis zurück (zum Weiterleiten) oder null.
+// Wird von Kritzeln und Galerie benutzt.
+function drApplyOp(target, raw) {
+  const op = raw || {};
+  if (op.k === "s") {
+    const id = String(op.id || "").slice(0, 24);
+    const pts = (Array.isArray(op.pts) ? op.pts : []).slice(0, 400)
+      .filter((q) => Array.isArray(q))
+      .map((q) => [drNum(q[0]), drNum(q[1]), drNum(q[2] === undefined ? 0.5 : q[2])]);
+    if (!id || !pts.length) return null;
+    if (target.points + pts.length > DR_MAX_POINTS) fail("Die Zeichnung ist zu groß – bitte leeren.");
+    target.points += pts.length;
+    let stroke = target.ops.find((o) => o.k === "s" && o.id === id);
+    if (!stroke) {
+      const color = DR_COLOR.test(op.c) ? op.c : "#111111";
+      const size = Math.min(0.08, Math.max(0.001, Number(op.w) || 0.01));
+      stroke = { k: "s", id, c: color, w: size, t: op.t === "eraser" ? "eraser" : "pen", pts: [] };
+      target.ops.push(stroke);
+    }
+    stroke.pts.push(...pts);
+    return { k: "s", id, c: stroke.c, w: stroke.w, t: stroke.t, pts };
+  }
+  if (op.k === "f") {
+    if (!DR_COLOR.test(op.c)) fail("Ungültige Farbe.");
+    if (target.ops.length > 2000) fail("Die Zeichnung ist zu groß – bitte leeren.");
+    const fill = { k: "f", id: String(op.id || "").slice(0, 24), x: drNum(op.x), y: drNum(op.y), c: op.c };
+    target.ops.push(fill);
+    return fill;
+  }
+  if (op.k === "undo") {
+    const id = String(op.id || "");
+    const idx = target.ops.findIndex((o) => o.id === id);
+    if (idx < 0) return null;
+    if (target.ops[idx].pts) target.points -= target.ops[idx].pts.length;
+    target.ops.splice(idx, 1);
+    return { k: "undo", id };
+  }
+  if (op.k === "clear") {
+    target.ops = [];
+    target.points = 0;
+    return { k: "clear" };
+  }
+  return null;
+}
+
 Object.assign(handlers, {
   drSettings(ws, msg, lobby, me) {
     requireHost(lobby, me);
@@ -1697,41 +1752,8 @@ Object.assign(handlers, {
   // Strich-Paket, Füllung, Rückgängig oder Leeren – nur vom Zeichner
   drOp(ws, msg, lobby, me) {
     const g = drRequireDrawer(lobby, me, "draw");
-    const op = msg.op || {};
-    if (op.k === "s") {
-      const id = String(op.id || "").slice(0, 24);
-      const pts = (Array.isArray(op.pts) ? op.pts : []).slice(0, 400)
-        .map((q) => [drNum(q[0]), drNum(q[1]), drNum(q[2] === undefined ? 0.5 : q[2])]);
-      if (!id || !pts.length) return null;
-      if (g.points + pts.length > DR_MAX_POINTS) fail("Die Zeichnung ist zu groß – bitte leeren.");
-      g.points += pts.length;
-      let stroke = g.ops.find((o) => o.k === "s" && o.id === id);
-      if (!stroke) {
-        const color = DR_COLOR.test(op.c) ? op.c : "#111111";
-        const size = Math.min(0.08, Math.max(0.001, Number(op.w) || 0.01));
-        stroke = { k: "s", id, c: color, w: size, t: op.t === "eraser" ? "eraser" : "pen", pts: [] };
-        g.ops.push(stroke);
-      }
-      stroke.pts.push(...pts);
-      drRelay(lobby, g, { k: "s", id, c: stroke.c, w: stroke.w, t: stroke.t, pts });
-    } else if (op.k === "f") {
-      if (!DR_COLOR.test(op.c)) fail("Ungültige Farbe.");
-      const fill = { k: "f", id: String(op.id || "").slice(0, 24), x: drNum(op.x), y: drNum(op.y), c: op.c };
-      g.ops.push(fill);
-      drRelay(lobby, g, fill);
-    } else if (op.k === "undo") {
-      const id = String(op.id || "");
-      const idx = g.ops.findIndex((o) => o.id === id);
-      if (idx >= 0) {
-        if (g.ops[idx].pts) g.points -= g.ops[idx].pts.length;
-        g.ops.splice(idx, 1);
-        drRelay(lobby, g, { k: "undo", id });
-      }
-    } else if (op.k === "clear") {
-      g.ops = [];
-      g.points = 0;
-      drRelay(lobby, g, { k: "clear" });
-    }
+    const relay = drApplyOp(g, msg.op);
+    if (relay) drRelay(lobby, g, relay);
     return null; // kein komplettes Status-Update nötig
   },
 
@@ -2079,6 +2101,271 @@ Object.assign(handlers, {
     if (g.phase === "write") kxToTwist(lobby);
     else if (g.phase === "twist") kxToReveal(lobby);
     else if (g.phase === "vote") kxToResults(lobby);
+    else fail("Das geht gerade nicht.");
+    return lobby;
+  }
+});
+
+/* =========================================================
+   Galerie – alle zeichnen denselben Begriff (nur online, 3 bis 12)
+   1. Begriffe: Jeder schreibt einen oder mehrere Begriffe auf.
+   2. Zeichnen: Ein Begriff wird gelost, alle zeichnen ihn gleichzeitig.
+   3. Abstimmen: Die Zeichnungen hängen ohne Namen in der Galerie, jeder
+      stimmt für die beste (nicht die eigene).
+   4. Ergebnis: Namen und Stimmen werden gezeigt, dann der nächste Begriff –
+      bis jeder Begriff einmal dran war.
+   Die Zeichnungen bleiben während des Zeichnens auf dem Server und werden
+   erst zur Abstimmung (unter zufälligen Kennungen) verschickt.
+   ========================================================= */
+const GAL_DEFAULTS = { time: 90, terms: 1 };
+const GAL_TIMES = [45, 60, 90, 120, 180];
+const GAL_POINTS_PER_VOTE = 100;
+const GAL_WINNER_BONUS = 100;
+const galClean = (t) => String(t || "").trim().replace(/\s+/g, " ").slice(0, 40);
+const galActive = (lobby, g, leaving = null) => g.ids.filter((id) => id !== leaving && lobby.players.some((p) => p.id === id));
+
+function galStart(lobby) {
+  const st = lobby.galSettings;
+  lobby.game = {
+    type: "galerie",
+    gameId: crypto.randomBytes(3).toString("hex"),
+    phase: "write", // write → draw → vote → results → (draw …) → over
+    ids: lobby.players.map((p) => p.id),
+    names: Object.fromEntries(lobby.players.map((p) => [p.id, p.name])),
+    time: st.time,
+    termsPer: st.terms,
+    terms: {}, // Spieler → seine Begriffe
+    queue: [], // gemischte Begriffe: { text, author }
+    index: -1,
+    total: Object.fromEntries(lobby.players.map((p) => [p.id, 0])),
+    history: [],
+    drawings: {},
+    endsAt: null,
+    votes: new Map(),
+    items: [], // Zeichnungen der aktuellen Runde: { key, owner, ops }
+    turnNo: 0
+  };
+}
+
+function galToDraw(lobby, leaving = null) {
+  const g = lobby.game;
+  if (g.index < 0) {
+    // Begriffe einsammeln, doppelte nur einmal
+    const seen = new Set();
+    for (const id of galActive(lobby, g, leaving)) {
+      for (const text of g.terms[id] || []) {
+        const k = normalize(text);
+        if (k && !seen.has(k)) { seen.add(k); g.queue.push({ text, author: id }); }
+      }
+    }
+    g.queue = shuffle(g.queue);
+  }
+  g.index++;
+  if (g.index >= g.queue.length) { g.phase = "over"; return; }
+  g.phase = "draw";
+  g.turnNo++;
+  g.drawings = Object.fromEntries(galActive(lobby, g, leaving).map((id) => [id, { ops: [], points: 0, done: false }]));
+  g.votes = new Map();
+  g.items = [];
+  g.endsAt = Date.now() + g.time * 1000;
+  const turn = g.turnNo;
+  setTimeout(() => {
+    if (lobby.game !== g || g.phase !== "draw" || g.turnNo !== turn || !lobbies.has(lobby.code)) return;
+    galToVote(lobby);
+    broadcastEvent(lobby, { toast: true, text: "Die Zeit ist um!" });
+    broadcastState(lobby);
+  }, g.time * 1000 + 400);
+}
+
+function galToVote(lobby) {
+  const g = lobby.game;
+  g.phase = "vote";
+  g.endsAt = null;
+  // Leere Zeichnungen kommen nicht in die Galerie
+  g.items = shuffle(Object.entries(g.drawings)
+    .filter(([, d]) => d.ops.length)
+    .map(([owner, d]) => ({ key: crypto.randomBytes(4).toString("hex"), owner, ops: d.ops })));
+  if (g.items.length < 2) galToResults(lobby); // mit höchstens einer Zeichnung gibt es nichts zu wählen
+}
+
+const galVoters = (lobby, g, leaving = null) => galActive(lobby, g, leaving).filter((id) => g.items.some((it) => it.owner !== id));
+
+function galToResults(lobby) {
+  const g = lobby.game;
+  const counts = new Map(g.items.map((it) => [it.key, 0]));
+  for (const key of g.votes.values()) if (counts.has(key)) counts.set(key, counts.get(key) + 1);
+  const best = Math.max(0, ...counts.values());
+  const points = Object.fromEntries(g.ids.map((id) => [id, 0]));
+  for (const it of g.items) {
+    it.votes = counts.get(it.key);
+    it.winner = best > 0 && it.votes === best;
+    it.points = it.votes * GAL_POINTS_PER_VOTE + (it.winner ? GAL_WINNER_BONUS : 0);
+    points[it.owner] += it.points;
+  }
+  for (const id of g.ids) g.total[id] += points[id];
+  g.roundPoints = points;
+  g.history.push({ term: g.queue[g.index].text, points });
+  g.phase = g.index >= g.queue.length - 1 ? "over" : "results";
+}
+
+// Weiter, sobald alle (noch anwesenden) fertig sind
+function galCheck(lobby, leaving = null) {
+  const g = lobby.game;
+  if (!g || g.type !== "galerie") return;
+  const active = galActive(lobby, g, leaving);
+  if (g.phase === "write" && active.every((id) => g.terms[id])) galToDraw(lobby, leaving);
+  else if (g.phase === "draw" && active.every((id) => !g.drawings[id] || g.drawings[id].done)) galToVote(lobby);
+  else if (g.phase === "vote" && galVoters(lobby, g, leaving).every((id) => g.votes.has(id))) galToResults(lobby);
+}
+
+function galView(lobby, g, me) {
+  const inGame = g.ids.includes(me.id);
+  const active = galActive(lobby, g);
+  const doneOf = (id) => {
+    if (g.phase === "write") return !!g.terms[id];
+    if (g.phase === "draw") return g.drawings[id] ? g.drawings[id].done : null;
+    if (g.phase === "vote") return galVoters(lobby, g).includes(id) ? g.votes.has(id) : null;
+    return null;
+  };
+  const term = g.index >= 0 && g.queue[g.index];
+  const view = {
+    type: "galerie",
+    phase: g.phase,
+    inGame,
+    round: g.index + 1,
+    rounds: g.queue.length,
+    termsPer: g.termsPer,
+    turnKey: `${g.gameId}-${g.turnNo}`,
+    term: term && g.phase !== "write" ? term.text : null,
+    endsAt: g.endsAt,
+    now: Date.now(),
+    players: g.ids.map((id) => {
+      const p = lobby.players.find((x) => x.id === id);
+      return { id, name: g.names[id], connected: !!(p && p.connected), left: !active.includes(id), done: doneOf(id), total: g.total[id] };
+    }),
+    history: g.history
+  };
+  if (g.phase === "write") view.myTerms = g.terms[me.id] || null;
+  if (g.phase === "draw") view.myDone = !!(g.drawings[me.id] && g.drawings[me.id].done);
+  if (g.phase === "vote") {
+    view.items = g.items.map((it) => ({ key: it.key, mine: it.owner === me.id }));
+    view.myVote = g.votes.get(me.id) || null;
+    view.canVote = galVoters(lobby, g).includes(me.id);
+  }
+  if (g.phase === "results" || g.phase === "over") {
+    view.termAuthor = term ? term.author : null;
+    view.items = g.items.map((it) => ({ key: it.key, owner: it.owner, votes: it.votes, points: it.points, winner: it.winner }));
+    view.roundPoints = g.roundPoints || null;
+  }
+  return view;
+}
+
+function galRequire(lobby, phase, me) {
+  const g = requireGame(lobby, phase, "galerie");
+  if (!g.ids.includes(me.id)) fail("Du spielst in dieser Runde nicht mit.");
+  return g;
+}
+
+Object.assign(handlers, {
+  galSettings(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    if (lobby.game && lobby.game.phase !== "over") fail("Während des Spiels können die Einstellungen nicht geändert werden.");
+    const s = msg.settings || {};
+    const st = { ...lobby.galSettings };
+    if (s.time !== undefined) {
+      if (!GAL_TIMES.includes(Number(s.time))) fail("Ungültige Zeichenzeit.");
+      st.time = Number(s.time);
+    }
+    if (s.terms !== undefined) {
+      const t = Number(s.terms);
+      if (![1, 2, 3].includes(t)) fail("Jeder schreibt 1 bis 3 Begriffe.");
+      st.terms = t;
+    }
+    lobby.galSettings = st;
+    return lobby;
+  },
+
+  galTerms(ws, msg, lobby, me) {
+    const g = galRequire(lobby, "write", me);
+    const terms = (Array.isArray(msg.terms) ? msg.terms : []).map(galClean);
+    if (terms.length !== g.termsPer || terms.some((t) => t.length < 2)) fail(`Schreib ${g.termsPer === 1 ? "einen Begriff" : `${g.termsPer} Begriffe`} mit mindestens 2 Zeichen.`);
+    if (new Set(terms.map(normalize)).size !== terms.length) fail("Deine Begriffe müssen sich unterscheiden.");
+    g.terms[me.id] = terms;
+    galCheck(lobby);
+    return lobby;
+  },
+
+  galUnterms(ws, msg, lobby, me) {
+    const g = galRequire(lobby, "write", me);
+    delete g.terms[me.id];
+    return lobby;
+  },
+
+  // Zeichen-Ereignis für die eigene Zeichnung – wird nicht weitergeleitet
+  galOp(ws, msg, lobby, me) {
+    const g = galRequire(lobby, "draw", me);
+    const d = g.drawings[me.id];
+    if (!d || d.done) return null;
+    drApplyOp(d, msg.op);
+    return null;
+  },
+
+  galDone(ws, msg, lobby, me) {
+    const g = galRequire(lobby, "draw", me);
+    const d = g.drawings[me.id];
+    if (!d) fail("Du zeichnest in dieser Runde nicht mit.");
+    d.done = true;
+    galCheck(lobby);
+    return lobby;
+  },
+
+  galUndone(ws, msg, lobby, me) {
+    const g = galRequire(lobby, "draw", me);
+    if (g.drawings[me.id]) g.drawings[me.id].done = false;
+    return lobby;
+  },
+
+  // Eigene Zeichnung zurückholen (nach Neuladen)
+  galMine(ws, msg, lobby, me) {
+    const g = lobby.game;
+    if (!g || g.type !== "galerie" || g.phase !== "draw" || !g.drawings[me.id]) return null;
+    send(ws, { type: "galMine", key: `${g.gameId}-${g.turnNo}`, ops: g.drawings[me.id].ops });
+    return null;
+  },
+
+  // Alle Zeichnungen der Runde – erst ab der Abstimmung
+  galGallery(ws, msg, lobby, me) {
+    const g = lobby.game;
+    if (!g || g.type !== "galerie" || !["vote", "results", "over"].includes(g.phase)) return null;
+    send(ws, { type: "galGallery", key: `${g.gameId}-${g.turnNo}`, drawings: g.items.map((it) => ({ key: it.key, ops: it.ops })) });
+    return null;
+  },
+
+  galVote(ws, msg, lobby, me) {
+    const g = galRequire(lobby, "vote", me);
+    const it = g.items.find((x) => x.key === msg.key);
+    if (!it) fail("Diese Zeichnung gibt es nicht.");
+    if (it.owner === me.id) fail("Für deine eigene Zeichnung kannst du nicht stimmen.");
+    g.votes.set(me.id, it.key);
+    galCheck(lobby);
+    return lobby;
+  },
+
+  galNext(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    requireGame(lobby, "results", "galerie");
+    galToDraw(lobby);
+    return lobby;
+  },
+
+  // Host: nicht länger warten
+  galForce(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    const g = lobby.game;
+    if (!g || g.type !== "galerie") fail("Das geht gerade nicht.");
+    if (g.phase === "write") galToDraw(lobby);
+    else if (g.phase === "draw") galToVote(lobby);
+    else if (g.phase === "vote") galToResults(lobby);
     else fail("Das geht gerade nicht.");
     return lobby;
   }

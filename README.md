@@ -1,12 +1,13 @@
 # Partyspiele
 
-Sieben Spiele:
+Acht Spiele:
 
 - **Verräter** – alle kennen einen geheimen Begriff, nur die Verräter nicht. Pass & Play oder online.
 - **Wer bin ich?** – jeder bekommt eine Person, die alle kennen außer ihm selbst. Pass & Play oder online.
 - **SPIEGEL** – Karten, Lügen und Fallen für genau 2 Spieler. Pass & Play oder online.
 - **Stadt Land Fluss** – ein Buchstabe, eigene Kategorien, Zeitdruck. Nur online, 1 bis 20 Spieler.
 - **Kritzeln** – einer zeichnet, alle anderen raten. Nur online, 2 bis 20 Spieler.
+- **Galerie** – jeder schreibt einen Begriff, alle zeichnen ihn gleichzeitig, die beste Zeichnung gewinnt. Nur online, 3 bis 12 Spieler.
 - **Wer würde am ehesten?** – einer liest vor, die Gruppe entscheidet. Nur Pass & Play, 3 bis 20 Spieler.
 - **Kontextlos** – harmlose Antworten werden aus dem Zusammenhang gerissen (angelehnt an *Survive the Internet*). Nur online, 3 bis 12 Spieler.
 
@@ -109,6 +110,16 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Apple Pencil:** Die Strichstärke folgt dem Druck. Es wird immer nur ein Strich gleichzeitig gezeichnet; sobald der Stift erkannt wurde, werden Finger und Handballen ignoriert. Setzt der Handballen vor dem Stift auf, wird dieser Strich wieder entfernt.
 - **Zoom:** Beim Zeichner wird ein bestehender Zoom zurückgesetzt und Zwei-Finger- sowie Doppeltipp-Zoom gesperrt, solange er zeichnet. Danach ist Zoomen wieder möglich.
 - Die Wortliste (749 Begriffe: 278 einfach, 120 mittel, 171 schwer, 180 sehr schwer) steht in `draw-words.js` und liegt nur auf dem Server.
+
+## Galerie (nur online, 3–12 Spieler)
+
+1. **Begriffe:** Jeder schreibt einen Begriff auf, oder 2 bzw. 3, wenn der Host das so einstellt. Doppelte Begriffe zählen nur einmal. Jeder Begriff ist eine Runde.
+2. **Zeichnen:** Ein Begriff wird gelost und alle zeichnen ihn gleichzeitig, auch wer ihn geschrieben hat. Die Zeit stellt der Host ein (45–180 Sekunden). Mit „Fertig“ ist man früher durch, mit „Doch weiterzeichnen“ geht es weiter, solange die Zeit läuft. Das Zeichenfeld ist dasselbe wie bei Kritzeln, mit Apple-Pencil-Druck, Handballen-Erkennung und Zoom-Sperre.
+3. **Galerie:** Die Zeichnungen hängen ohne Namen und in zufälliger Reihenfolge an der Wand. Jeder tippt die beste an, die eigene geht nicht. Leere Zeichnungen werden nicht ausgestellt.
+4. **Ergebnis:** Jetzt sieht man, wer was gezeichnet hat und von wem der Begriff kam. Jede Stimme bringt **100 Punkte**, die meistgewählte Zeichnung **100 extra**. Danach kommt der nächste Begriff, bis alle einmal dran waren.
+
+- Die Zeichnungen bleiben während des Zeichnens auf dem Server. Erst zur Abstimmung werden sie unter zufälligen Kennungen an alle geschickt, die Namen kommen erst mit dem Ergebnis.
+- Fehlt jemand, kann der Host mit „Nicht länger warten“ bzw. „Zeichnen beenden“ weitermachen.
 
 ## Wer würde am ehesten? (Pass & Play, 3–20 Spieler)
 

@@ -153,6 +153,7 @@
       default:
         // Live-Zeichnung bei Kritzeln
         if (typeof DrawOnline !== "undefined") DrawOnline.handleMessage(msg);
+        if (typeof GalOnline !== "undefined") GalOnline.handleMessage(msg);
     }
   }
 
@@ -178,10 +179,11 @@
   function goto(screen) {
     if (screen === lastScreen) return;
     if (screen !== "draw-game" && typeof DrawOnline !== "undefined") DrawOnline.release();
+    if (screen !== "gal-draw" && typeof GalOnline !== "undefined") GalOnline.release();
     if (screen === "o-reveal") roleShown = false;
     if (screen === "o-game") myRoleShown = false;
     lastScreen = screen;
-    const phase = { lobby: "setup", "o-reveal": "reveal", "o-game": "game", "wo-assign": "assign", "wo-game": "game", "lu-setup": "trap", "lu-game": "game", "slf-write": "write", "slf-review": "review", "slf-scores": "scores", "draw-game": "game", "kx-write": "write", "kx-twist": "twist", "kx-reveal": "reveal", "kx-vote": "reveal", "kx-results": "scores" }[screen];
+    const phase = { lobby: "setup", "o-reveal": "reveal", "o-game": "game", "wo-assign": "assign", "wo-game": "game", "lu-setup": "trap", "lu-game": "game", "slf-write": "write", "slf-review": "review", "slf-scores": "scores", "draw-game": "game", "kx-write": "write", "kx-twist": "twist", "kx-reveal": "reveal", "kx-vote": "reveal", "kx-results": "scores", "gal-write": "write", "gal-draw": "draw", "gal-vote": "vote", "gal-results": "scores" }[screen];
     showScreen(screen, phase);
   }
 
@@ -192,7 +194,9 @@
     currentGame = state.gameType;
     window.inviteMode = false;
     const g = state.game;
-    if (g && g.inGame && g.type === "kontext") {
+    if (g && g.inGame && g.type === "galerie") {
+      goto(GalOnline.render(state));
+    } else if (g && g.inGame && g.type === "kontext") {
       goto(KXOnline.render(state));
     } else if (g && g.inGame && g.type === "draw") {
       goto(DrawOnline.render(state));
@@ -273,6 +277,8 @@
     if (state.gameType === "slf") SLFOnline.renderLobbySettings(state);
     $("draw-settings").hidden = state.gameType !== "draw";
     if (state.gameType === "draw") DrawOnline.renderLobbySettings(state);
+    $("gal-settings").hidden = state.gameType !== "galerie";
+    if (state.gameType === "galerie") GalOnline.renderLobbySettings(state);
     $("kx-settings").hidden = state.gameType !== "kontext";
     if (state.gameType === "kontext") KXOnline.renderLobbySettings(state);
     const enough = state.players.length >= state.minPlayers;
@@ -555,6 +561,7 @@
     });
     if (!ok) return;
     if (typeof DrawOnline !== "undefined") DrawOnline.release();
+    if (typeof GalOnline !== "undefined") GalOnline.release();
     setSession(null);
     if (ws && ws.readyState === WebSocket.OPEN) ws.send(JSON.stringify({ type: "leave" }));
     state = null;
