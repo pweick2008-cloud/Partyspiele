@@ -116,6 +116,10 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - Die Gruppe entscheidet gemeinsam und tippt an, wer es **am ehesten** und wer es **am wenigsten** tun würde. Dieselbe Person kann nicht beides sein. Eine Frage lässt sich auch überspringen.
 - **685 Fragen** in `ehesten-fragen.js`: Alltag, Schule und Arbeit, Peinliches, Party, Freundschaft, Crush und Dating, Gruppenchat, Sport, Reisen, Zukunft, Essen, Geld, Gaming, Familie und absurde Szenarien. Zuletzt gespielte Fragen kommen erst wieder, wenn die anderen durch sind.
 - **Auswertung** (jederzeit über „Beenden“): Für jeden Spieler steht, wie oft und bei welchen Fragen er am ehesten bzw. am wenigsten gewählt wurde. Danach kann man weiterspielen.
+- **Wer ist wer? (Profile von Claude):** Ab 5 gespielten Fragen kann Claude die Antworten auswerten und über jeden ein kurzes, freches Profil in Jugendsprache schreiben, mit Spitznamen und ohne Namen. Die Profile erscheinen gemischt. Ihr tippt bei jedem an, wen ihr vermutet, und löst dann auf.
+  - Das geht nur in der **Claude-Version** (claude.ai-Link). Die Anfrage läuft über das claude.ai-Konto der Person, die das Handy hat. Beim ersten Mal fragt claude.ai, ob die Seite Claude benutzen darf.
+  - An Claude gehen nur die Namen und die Fragen, bei denen jemand gewählt wurde.
+  - Auf der Render-Seite fehlt dieser Teil, dort gibt es nur die einfache Auswertung.
 
 ## Kontextlos (nur online, 3–12 Spieler)
 

@@ -737,7 +737,22 @@
         <h1>Auswertung</h1>
         <p class="sub" id="wwae-end-sub"></p>
       </header>
-      <div id="wwae-results" class="wwae-results"></div>
+      <div class="card wwae-ai" id="wwae-ai" hidden>
+        <h2>Wer ist wer?</h2>
+        <p class="muted small" id="wwae-ai-info">Claude wertet eure Antworten aus und schreibt über jeden ein kurzes Profil – ohne Namen. Ratet, wer gemeint ist!</p>
+        <button id="wwae-ai-start" class="btn primary big" type="button">Profile erstellen</button>
+        <p id="wwae-ai-status" class="lu-hint" hidden></p>
+        <button id="wwae-ai-stop" class="btn ghost" type="button" hidden>Abbrechen</button>
+      </div>
+      <p class="muted small center" id="wwae-ai-missing" hidden>Die Profile von Claude gibt es in der Claude-Version der Partyspiele (der claude.ai-Link).</p>
+      <div id="wwae-profiles" class="wwae-results"></div>
+      <p class="wwae-score" id="wwae-score" hidden></p>
+      <button id="wwae-reveal" class="btn primary big" type="button" hidden>Auflösen</button>
+      <button id="wwae-ai-again" class="btn ghost" type="button" hidden>Neue Profile erstellen</button>
+      <details class="card wwae-details" id="wwae-details">
+        <summary>Alle Fragen im Detail</summary>
+        <div id="wwae-results" class="wwae-results"></div>
+      </details>
       <button id="wwae-continue" class="btn primary big" type="button">Weiterspielen</button>
       <button id="wwae-new" class="btn ghost" type="button">Neues Spiel</button>
       <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>

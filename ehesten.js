@@ -13,7 +13,13 @@ const WWAE = (() => {
   const MAX = 20;
 
   let names = [];
-  let game = null; // { players, deck, pos, picks: [{ q, most, least }], most, least }
+  let game = null; // { players, deck, pos, picks: [{ q, most, least }], most, least, profiles }
+  let aiCall = null; // AbortController der laufenden Anfrage an Claude
+
+  // Claude ist nur in der claude.ai-Version erreichbar; anderswo bleibt das null
+  const samplePromise = window.claude && typeof window.claude.use === "function"
+    ? window.claude.use("sample").catch(() => null)
+    : Promise.resolve(null);
 
   const load = (key, fallback) => {
     try { return JSON.parse(localStorage.getItem(key)) || fallback; } catch (e) { return fallback; }
@@ -121,6 +127,7 @@ const WWAE = (() => {
     game.pos++;
     game.most = null;
     game.least = null;
+    if (!skip) game.profiles = null; // neue Antworten → alte Profile passen nicht mehr
     renderGame();
     window.scrollTo(0, 0);
   }
@@ -131,9 +138,151 @@ const WWAE = (() => {
     showScreen("wwae-end", "end");
   }
 
+  const MIN_FOR_AI = 5;
+
   function renderEnd() {
     const n = game.picks.length;
     $("wwae-end-sub").textContent = n ? `${n} ${n === 1 ? "Frage" : "Fragen"} gespielt` : "Noch keine Frage entschieden";
+    renderStats();
+    renderProfiles();
+    samplePromise.then((sample) => {
+      const enough = n >= MIN_FOR_AI;
+      $("wwae-ai").hidden = !sample || !!game.profiles;
+      $("wwae-ai-missing").hidden = !!sample;
+      $("wwae-ai-start").disabled = !enough || !!aiCall;
+      if (!aiCall) {
+        $("wwae-ai-info").textContent = enough
+          ? "Claude wertet eure Antworten aus und schreibt über jeden ein kurzes Profil – ohne Namen. Ratet, wer gemeint ist!"
+          : `Spielt mindestens ${MIN_FOR_AI} Fragen, dann kann Claude Profile über euch schreiben. Bisher: ${n}.`;
+      }
+      // Ohne Profile die Einzelheiten gleich aufklappen
+      $("wwae-details").open = !sample || !enough;
+    });
+  }
+
+  /* ---------- Profile von Claude ---------- */
+  function buildPrompt() {
+    const lines = game.players.map((name, i) => {
+      const most = game.picks.filter((p) => p.most === i).map((p) => WWAE_QUESTIONS[p.q]);
+      const least = game.picks.filter((p) => p.least === i).map((p) => WWAE_QUESTIONS[p.q]);
+      return `### ${name}\nAm EHESTEN gewählt bei:\n${most.map((q) => `- ${q}`).join("\n") || "- (nie)"}\nAm WENIGSTEN gewählt bei:\n${least.map((q) => `- ${q}`).join("\n") || "- (nie)"}`;
+    }).join("\n\n");
+    return `Du schreibst die Auswertung für das Partyspiel „Wer würde am ehesten?“. Eine Gruppe von Freunden (ca. 16–25 Jahre) hat gemeinsam entschieden, wer etwas am ehesten und wer es am wenigsten tun würde. Hier ist, bei welchen Fragen jede Person gewählt wurde:
+
+${lines}
+
+Schreib für JEDE Person ein kurzes, lustiges Profil. Die Gruppe soll danach raten, wer gemeint ist.
+
+So soll es sein:
+- Werte die Antworten wirklich aus: Erkenne Muster und Widersprüche und zieh daraus Schlüsse über die Person, statt die Fragen nur nachzuerzählen. Aus „würde beim Fußball über den eigenen Fuß stolpern“ wird nicht „schlecht in Fußball“, sondern etwas wie „Koordination im Energiesparmodus“. Kombiniere gern Gegensätze, z. B. „der langsamste, aber stärkste Mensch der Runde“.
+- „Am wenigsten“ heißt das Gegenteil: Wer am wenigsten „pünktlich sein“ würde, ist unpünktlich.
+- Überwiegend frech und roastig, ruhig mit einer positiven Seite dazwischen – aber nie wirklich verletzend. Keine Witze über Aussehen, Körper, Gewicht, Herkunft, Religion, Sexualität oder Krankheiten.
+- Lockere deutsche Jugendsprache, natürlich und nicht übertrieben (ab und zu Wörter wie „lowkey“, „safe“, „Main Character“, „NPC“, „random“, „cringe“, „Vibe“ – nicht in jedem Satz).
+- Sprich die Person mit „du“ an. Nenne keinen Namen und verwende keine Pronomen wie er/sie.
+- Jeder Text: 2–3 Sätze, höchstens 45 Wörter. Dazu ein Titel: 2–5 Wörter, wie ein Spitzname (z. B. „Chaos mit WLAN-Anschluss“).
+- Wurde jemand selten oder nie gewählt, mach daraus etwas Lustiges (z. B. „unauffällig wie ein Geheimagent“).
+- Die Profile sollen sich deutlich voneinander unterscheiden, damit man sie zuordnen kann.
+
+Antworte nur mit einem JSON-Array, ein Objekt pro Person in derselben Reihenfolge wie oben:
+[{"name": "<Name genau wie oben>", "titel": "…", "text": "…"}]`;
+  }
+
+  const AI_ERRORS = {
+    not_granted: "Ohne deine Erlaubnis kann Claude keine Profile schreiben.",
+    sampling_disabled: "Claude ist für dieses Konto gerade nicht verfügbar.",
+    rate_limited: "Gerade zu viele Anfragen – versuch es gleich noch einmal.",
+    session_expired: "Bitte melde dich bei claude.ai neu an.",
+    refused: "Claude wollte dazu nichts schreiben. Spielt noch ein paar Fragen und versucht es erneut.",
+    invalid_json: "Die Antwort war unvollständig. Versuch es noch einmal."
+  };
+  const HIDE_FOR_GOOD = ["not_granted", "sampling_disabled", "not_declared", "capability_disabled", "capability_removed"];
+
+  async function createProfiles(fresh) {
+    const sample = await samplePromise;
+    if (!sample || aiCall || game.picks.length < MIN_FOR_AI) return;
+    aiCall = new AbortController();
+    const status = $("wwae-ai-status");
+    $("wwae-ai").hidden = false;
+    $("wwae-ai-start").disabled = true;
+    $("wwae-ai-again").hidden = true;
+    $("wwae-ai-stop").hidden = false;
+    status.hidden = false;
+    status.className = "lu-hint";
+    status.textContent = "Claude liest eure Antworten und denkt nach …";
+    try {
+      const opts = { signal: aiCall.signal, onText: () => { status.textContent = "Claude schreibt die Profile …"; } };
+      if (fresh) opts.cache = false; // „Neue Profile“ soll wirklich neu fragen
+      const data = await sample.json(buildPrompt(), opts);
+      const list = Array.isArray(data) ? data : [];
+      const byName = new Map(list.filter((x) => x && typeof x === "object").map((x) => [normalize(String(x.name || "")), x]));
+      const profiles = game.players.map((name, i) => {
+        const p = byName.get(normalize(name)) || list[i] || {};
+        return { player: i, title: String(p.titel || p.title || "Ein Rätsel"), text: String(p.text || "Zu dir fiel selbst Claude nichts ein."), guess: null };
+      });
+      game.profiles = shuffle(profiles);
+      game.revealed = false;
+      status.hidden = true;
+      $("wwae-ai").hidden = true;
+    } catch (e) {
+      const code = e && e.code;
+      if (code === "cancelled") {
+        status.textContent = "Abgebrochen.";
+      } else {
+        status.className = "lu-hint bad";
+        status.textContent = AI_ERRORS[code] || "Das hat gerade nicht geklappt. Versuch es noch einmal.";
+        if (HIDE_FOR_GOOD.includes(code)) $("wwae-ai-start").hidden = true;
+      }
+    } finally {
+      aiCall = null;
+      $("wwae-ai-stop").hidden = true;
+      $("wwae-ai-start").disabled = false;
+      renderProfiles();
+    }
+  }
+
+  function renderProfiles() {
+    const wrap = $("wwae-profiles");
+    wrap.innerHTML = "";
+    const list = game.profiles;
+    $("wwae-reveal").hidden = !list || game.revealed;
+    $("wwae-ai-again").hidden = !list || !game.revealed;
+    $("wwae-score").hidden = !list || !game.revealed;
+    if (!list) return;
+    list.forEach((p, k) => {
+      const card = document.createElement("div");
+      card.className = "card wwae-profile";
+      if (game.revealed) card.classList.add(p.guess === p.player ? "right" : "wrong");
+      card.innerHTML = `
+        <span class="role-label">Profil ${k + 1}</span>
+        <h2 class="wwae-profile-title"></h2>
+        <p class="wwae-profile-text"></p>
+        <span class="muted small">${game.revealed ? "Das war:" : "Wer ist das?"}</span>
+        <div class="chips wwae-guess"></div>`;
+      card.querySelector(".wwae-profile-title").textContent = p.title;
+      card.querySelector(".wwae-profile-text").textContent = p.text;
+      const chipsBox = card.querySelector(".wwae-guess");
+      if (game.revealed) {
+        const answer = document.createElement("span");
+        answer.className = "wwae-answer";
+        answer.textContent = game.players[p.player] + (p.guess === p.player ? " – richtig geraten!" : p.guess === null ? "" : ` (geraten: ${game.players[p.guess]})`);
+        chipsBox.appendChild(answer);
+      } else {
+        game.players.forEach((name, i) => {
+          chipsBox.appendChild(makeChip(name, p.guess === i, () => {
+            p.guess = p.guess === i ? null : i;
+            renderProfiles();
+          }));
+        });
+      }
+      wrap.appendChild(card);
+    });
+    if (game.revealed) {
+      const right = list.filter((p) => p.guess === p.player).length;
+      $("wwae-score").textContent = `${right} von ${list.length} richtig zugeordnet`;
+    }
+  }
+
+  function renderStats() {
     const wrap = $("wwae-results");
     wrap.innerHTML = "";
     const stats = game.players.map((name, i) => ({
@@ -170,6 +319,10 @@ const WWAE = (() => {
     $("wwae-skip").addEventListener("click", () => next(true));
     $("wwae-finish").addEventListener("click", finish);
     $("wwae-continue").addEventListener("click", () => { renderGame(); showScreen("wwae-game", "game"); });
+    $("wwae-ai-start").addEventListener("click", () => createProfiles(false));
+    $("wwae-ai-again").addEventListener("click", () => { game.profiles = null; createProfiles(true); });
+    $("wwae-ai-stop").addEventListener("click", () => aiCall && aiCall.abort());
+    $("wwae-reveal").addEventListener("click", () => { game.revealed = true; renderProfiles(); window.scrollTo(0, 0); });
     $("wwae-new").addEventListener("click", openSetup);
   });
 

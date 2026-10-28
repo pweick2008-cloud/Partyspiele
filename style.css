@@ -1254,3 +1254,15 @@ html[data-theme="ehesten"] .title h1 { font-weight: 800; text-transform: upperca
 .wwae-list ul { margin: 6px 0 0; padding-left: 20px; }
 .wwae-list li { margin: 3px 0; }
 @media (prefers-reduced-motion: reduce) { .wwae-card.pop { animation: none; } }
+.wwae-ai { display: flex; flex-direction: column; gap: 10px; }
+.wwae-ai h2 { margin: 0; }
+.wwae-profile { display: flex; flex-direction: column; gap: 8px; }
+.wwae-profile-title { margin: 0; font-size: 1.35rem; color: var(--primary); }
+.wwae-profile-text { margin: 0; font-size: 1.05rem; line-height: 1.45; }
+.wwae-profile.right { box-shadow: 0 0 0 2px var(--primary); }
+.wwae-profile.wrong { box-shadow: 0 0 0 2px #b48cff; }
+.wwae-answer { font-weight: 800; font-size: 1.1rem; }
+.wwae-score { text-align: center; font-weight: 800; font-size: 1.2rem; margin: 4px 0; }
+.wwae-details summary { cursor: pointer; font-weight: 700; }
+.wwae-details .wwae-results { margin-top: 12px; }
+.wwae-details .wwae-person { background: var(--bg-2); }
