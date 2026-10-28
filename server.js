@@ -47,6 +47,8 @@ const STATIC = {
   "/draw-online.js": ["draw-online.js", "text/javascript; charset=utf-8"],
   "/verraeter-hints.js": ["verraeter-hints.js", "text/javascript; charset=utf-8"],
   "/kontext-images.js": ["kontext-images.js", "text/javascript; charset=utf-8"],
+  "/ehesten.js": ["ehesten.js", "text/javascript; charset=utf-8"],
+  "/ehesten-fragen.js": ["ehesten-fragen.js", "text/javascript; charset=utf-8"],
   "/kontext-online.js": ["kontext-online.js", "text/javascript; charset=utf-8"]
 };
 
