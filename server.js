@@ -1948,7 +1948,8 @@ function kxCheck(lobby, leaving = null) {
 }
 
 function kxPublicItem(it, i, withTwister) {
-  const out = { idx: i, mode: it.mode, authorId: it.authorId, prompt: it.prompt, text: it.text, image: it.image, twist: it.twist };
+  // Die ursprüngliche Frage verlässt den Server nie – sie bleibt auch hinterher geheim
+  const out = { idx: i, mode: it.mode, authorId: it.authorId, text: it.text, image: it.image, twist: it.twist };
   if (withTwister) Object.assign(out, { twisterId: it.twisterId, votes: it.votes, points: it.points, winner: it.winner });
   return out;
 }
