@@ -1,7 +1,7 @@
 "use strict";
 
 /* =========================================================
-   Geheime Auktion – Online (2 bis 12 Spieler, jeder am eigenen Handy)
+   Geheime Auktion – Online (2 bis 20 Spieler, jeder am eigenen Handy)
    Der Server entscheidet über Zeit und Zuschlag; hier wird nur
    angezeigt und geboten.
    ========================================================= */

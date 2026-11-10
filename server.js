@@ -23,7 +23,7 @@ const { DRAW_POOLS, LEVELS: DR_LEVELS, LEVEL_NAMES: DR_LEVEL_NAMES } = require("
 const PORT = process.env.PORT || 3000;
 const MIN_PLAYERS = 3; // Verräter
 const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3, auktion: 2 };
-const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12, auktion: 12 };
+const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12, auktion: 20 };
 const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie", "auktion"];
 const MAX_PLAYERS = 20;
 const LOBBY_IDLE_MS = 30 * 60 * 1000; // leere Lobbys werden nach 30 Min. gelöscht
@@ -2387,7 +2387,7 @@ Object.assign(handlers, {
 });
 
 /* =========================================================
-   Geheime Auktion – online (2 bis 12 Spieler, jeder am eigenen Handy)
+   Geheime Auktion – online (2 bis 20 Spieler, jeder am eigenen Handy)
    Ablauf und Wertung wie beim Tablet in der Mitte (auktion-rules.js).
    Der Server entscheidet über Zeit und Zuschlag; was ein Los wirklich
    ist, verlässt den Server erst bei der Auflösung.

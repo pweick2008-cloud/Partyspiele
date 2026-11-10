@@ -7,7 +7,7 @@ Neun Spiele:
 - **SPIEGEL** – Karten, Lügen und Fallen für genau 2 Spieler. Pass & Play oder online.
 - **Stadt Land Fluss** – ein Buchstabe, eigene Kategorien, Zeitdruck. Nur online, 1 bis 20 Spieler.
 - **Kritzeln** – einer zeichnet, alle anderen raten. Nur online, 2 bis 20 Spieler.
-- **Geheime Auktion** – Lose ersteigern: echt, gefälscht oder ein verkannter Schatz? Ein Tablet in der Mitte (2–4 Spieler) oder online (2–12).
+- **Geheime Auktion** – Lose ersteigern: echt, gefälscht oder ein verkannter Schatz? Ein Tablet in der Mitte (2–4 Spieler) oder online (2–20, jeder am eigenen Handy).
 - **Galerie** – jeder schreibt einen Begriff, alle zeichnen ihn gleichzeitig, die beste Zeichnung gewinnt. Nur online, 3 bis 12 Spieler.
 - **Wer würde am ehesten?** – einer liest vor, die Gruppe entscheidet. Nur Pass & Play, 3 bis 20 Spieler.
 - **Kontextlos** – harmlose Antworten werden aus dem Zusammenhang gerissen (angelehnt an *Survive the Internet*). Nur online, 3 bis 12 Spieler.
@@ -112,7 +112,7 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Zoom:** Beim Zeichner wird ein bestehender Zoom zurückgesetzt und Zwei-Finger- sowie Doppeltipp-Zoom gesperrt, solange er zeichnet. Danach ist Zoomen wieder möglich.
 - Die Wortliste (749 Begriffe: 278 einfach, 120 mittel, 171 schwer, 180 sehr schwer) steht in `draw-words.js` und liegt nur auf dem Server.
 
-## Geheime Auktion (Tablet in der Mitte für 2–4 Spieler, online für 2–12)
+## Geheime Auktion (Tablet in der Mitte für 2–4 Spieler, online für 2–20)
 
 - **Lose:** Jedes Los hat einen Katalogtext, eine Kategorie und einen Schätzpreis. Was es wirklich ist, erfährt man erst am Ende:
   - **Echt:** Der Wert liegt bei Schätzpreis ±15 %.
