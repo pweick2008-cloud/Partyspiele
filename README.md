@@ -130,7 +130,7 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Online:** Alle schreiben und stimmen gleichzeitig ab, angezeigt wird, auf wen noch gewartet wird. Der Host schaltet weiter. Die offizielle Antwort verlässt den Server erst beim Aufdecken, Zusammenlegen und Wertung laufen dort.
 - **Einstellbar:** 4–15 Fragen, Standard 8. Keine Frage kommt in einem Spiel doppelt, zuletzt gespielte kommen erst später wieder.
 - **Ende:** Rangliste und Rundenlog mit Frage, echter Antwort und bester Fälschung samt Autor. Danach „Nochmal spielen“ mit neuen Fragen.
-- Die Fragen stehen in `faelscher-fragen.js` (Felder id, typ, frage, antwort, erklaerung), die Regeln in `faelscher-rules.js`.
+- Die 295 Fragen (je 60 Wörter, Geschichte, Herkunft und Natur, 55 Ereignisse) stehen in `faelscher-fragen.js` (Felder id, typ, frage, antwort, erklaerung), die Regeln in `faelscher-rules.js`.
 
 ## Geheime Auktion (Tablet in der Mitte für 2–4 Spieler, online für 2–20)
 
