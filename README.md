@@ -123,7 +123,7 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Tablet in der Mitte:** Jeder Spieler hat ein Bieterfeld an seiner Tischseite, zu ihm gedreht. Die Plätze sind 1 unten, 2 oben, 3 links, 4 rechts. Die Loskarte in der Mitte lässt sich mit „Karte drehen“ zu jedem Spieler drehen.
 - **Online:** Jeder bietet am eigenen Handy. Der Server entscheidet über Zeit und Zuschlag. Was ein Los wirklich ist, verlässt den Server erst bei der Auflösung.
 - **Auflösung:** Die Lose werden nacheinander aufgedeckt, mit Erklärung, worin die Fälschung bzw. der übersehene Schatz bestand. Gewinner ist, wer am meisten hat: Restgeld plus echter Wert der ersteigerten Lose.
-- Die Lose stehen in `auktion-lose.js`, die Regeln (Mischung, Werte, Endstand) in `auktion-rules.js`.
+- Die 179 Lose (davon 43 auch als möglicher verkannter Schatz) stammen aus 14 Bereichen: Physik, Chemie, Astronomie, Naturkunde, Geschichte, Politik, Kunst, Musik, Literatur, Wirtschaft, Schmuck, Technik, Alltag & Design und Sport. Sie stehen in `auktion-lose.js`, die Regeln (Mischung, Werte, Endstand) in `auktion-rules.js`.
 
 ## Galerie (nur online, 3–12 Spieler)
 
