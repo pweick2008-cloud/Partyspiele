@@ -180,10 +180,11 @@
     if (screen === lastScreen) return;
     if (screen !== "draw-game" && typeof DrawOnline !== "undefined") DrawOnline.release();
     if (screen !== "gal-draw" && typeof GalOnline !== "undefined") GalOnline.release();
+    if (screen !== "auk-online" && typeof AukOnline !== "undefined") AukOnline.release();
     if (screen === "o-reveal") roleShown = false;
     if (screen === "o-game") myRoleShown = false;
     lastScreen = screen;
-    const phase = { lobby: "setup", "o-reveal": "reveal", "o-game": "game", "wo-assign": "assign", "wo-game": "game", "lu-setup": "trap", "lu-game": "game", "slf-write": "write", "slf-review": "review", "slf-scores": "scores", "draw-game": "game", "kx-write": "write", "kx-twist": "twist", "kx-reveal": "reveal", "kx-vote": "reveal", "kx-results": "scores", "gal-write": "write", "gal-draw": "draw", "gal-vote": "vote", "gal-results": "scores" }[screen];
+    const phase = { lobby: "setup", "o-reveal": "reveal", "o-game": "game", "wo-assign": "assign", "wo-game": "game", "lu-setup": "trap", "lu-game": "game", "slf-write": "write", "slf-review": "review", "slf-scores": "scores", "draw-game": "game", "kx-write": "write", "kx-twist": "twist", "kx-reveal": "reveal", "kx-vote": "reveal", "kx-results": "scores", "gal-write": "write", "gal-draw": "draw", "gal-vote": "vote", "gal-results": "scores", "auk-online": "auktion", "auk-oreveal": "reveal" }[screen];
     showScreen(screen, phase);
   }
 
@@ -194,7 +195,9 @@
     currentGame = state.gameType;
     window.inviteMode = false;
     const g = state.game;
-    if (g && g.inGame && g.type === "galerie") {
+    if (g && g.inGame && g.type === "auktion") {
+      goto(AukOnline.render(state));
+    } else if (g && g.inGame && g.type === "galerie") {
       goto(GalOnline.render(state));
     } else if (g && g.inGame && g.type === "kontext") {
       goto(KXOnline.render(state));
@@ -277,6 +280,8 @@
     if (state.gameType === "slf") SLFOnline.renderLobbySettings(state);
     $("draw-settings").hidden = state.gameType !== "draw";
     if (state.gameType === "draw") DrawOnline.renderLobbySettings(state);
+    $("auk-settings").hidden = state.gameType !== "auktion";
+    if (state.gameType === "auktion") AukOnline.renderLobbySettings(state);
     $("gal-settings").hidden = state.gameType !== "galerie";
     if (state.gameType === "galerie") GalOnline.renderLobbySettings(state);
     $("kx-settings").hidden = state.gameType !== "kontext";

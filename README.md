@@ -1,12 +1,13 @@
 # Partyspiele
 
-Acht Spiele:
+Neun Spiele:
 
 - **Verräter** – alle kennen einen geheimen Begriff, nur die Verräter nicht. Pass & Play oder online.
 - **Wer bin ich?** – jeder bekommt eine Person, die alle kennen außer ihm selbst. Pass & Play oder online.
 - **SPIEGEL** – Karten, Lügen und Fallen für genau 2 Spieler. Pass & Play oder online.
 - **Stadt Land Fluss** – ein Buchstabe, eigene Kategorien, Zeitdruck. Nur online, 1 bis 20 Spieler.
 - **Kritzeln** – einer zeichnet, alle anderen raten. Nur online, 2 bis 20 Spieler.
+- **Geheime Auktion** – Lose ersteigern: echt, gefälscht oder ein verkannter Schatz? Ein Tablet in der Mitte (2–4 Spieler) oder online (2–12).
 - **Galerie** – jeder schreibt einen Begriff, alle zeichnen ihn gleichzeitig, die beste Zeichnung gewinnt. Nur online, 3 bis 12 Spieler.
 - **Wer würde am ehesten?** – einer liest vor, die Gruppe entscheidet. Nur Pass & Play, 3 bis 20 Spieler.
 - **Kontextlos** – harmlose Antworten werden aus dem Zusammenhang gerissen (angelehnt an *Survive the Internet*). Nur online, 3 bis 12 Spieler.
@@ -110,6 +111,19 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Apple Pencil:** Die Strichstärke folgt dem Druck. Es wird immer nur ein Strich gleichzeitig gezeichnet; sobald der Stift erkannt wurde, werden Finger und Handballen ignoriert. Setzt der Handballen vor dem Stift auf, wird dieser Strich wieder entfernt.
 - **Zoom:** Beim Zeichner wird ein bestehender Zoom zurückgesetzt und Zwei-Finger- sowie Doppeltipp-Zoom gesperrt, solange er zeichnet. Danach ist Zoomen wieder möglich.
 - Die Wortliste (749 Begriffe: 278 einfach, 120 mittel, 171 schwer, 180 sehr schwer) steht in `draw-words.js` und liegt nur auf dem Server.
+
+## Geheime Auktion (Tablet in der Mitte für 2–4 Spieler, online für 2–12)
+
+- **Lose:** Jedes Los hat einen Katalogtext, eine Kategorie und einen Schätzpreis. Was es wirklich ist, erfährt man erst am Ende:
+  - **Echt:** Der Wert liegt bei Schätzpreis ±15 %.
+  - **Fälschung:** Es bleibt nur der Materialwert. Ein gefälschtes Goldobjekt ist noch Gold wert, ein gefälschter Brief 0.
+  - **Verkannter Schatz:** Das Auktionshaus hat ein Detail übersehen, das Los ist viel mehr wert.
+- **Mischung pro Spiel:** Bei 10 Losen sind etwa 4 echt, 5 gefälscht und 1 ein Schatz. Jedes Los gibt es als echte und als gefälschte Version, die sich nur in einem kleinen Detail unterscheiden, manche zusätzlich als Schatz. Welche Version drankommt, wird jedes Spiel neu ausgelost. Zuletzt gespielte Lose kommen erst später wieder.
+- **Bieten:** Jeder startet mit 1000. Die Knöpfe +5, +10, +20, +50, +100 und +200 erhöhen das Höchstgebot. Nach jedem Gebot läuft „Zum Ersten, zum Zweiten, zum Dritten“ (4 Sekunden). Bietet keiner mehr, ist das Los verkauft. Für das erste Gebot bleiben 20 Sekunden, sonst geht das Los zurück. Mehr bieten, als man hat, geht nicht.
+- **Tablet in der Mitte:** Jeder Spieler hat ein Bieterfeld an seiner Tischseite, zu ihm gedreht. Die Plätze sind 1 unten, 2 oben, 3 links, 4 rechts. Die Loskarte in der Mitte lässt sich mit „Karte drehen“ zu jedem Spieler drehen.
+- **Online:** Jeder bietet am eigenen Handy. Der Server entscheidet über Zeit und Zuschlag. Was ein Los wirklich ist, verlässt den Server erst bei der Auflösung.
+- **Auflösung:** Die Lose werden nacheinander aufgedeckt, mit Erklärung, worin die Fälschung bzw. der übersehene Schatz bestand. Gewinner ist, wer am meisten hat: Restgeld plus echter Wert der ersteigerten Lose.
+- Die Lose stehen in `auktion-lose.js`, die Regeln (Mischung, Werte, Endstand) in `auktion-rules.js`.
 
 ## Galerie (nur online, 3–12 Spieler)
 

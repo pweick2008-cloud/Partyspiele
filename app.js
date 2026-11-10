@@ -85,6 +85,7 @@ const GAMES = {
   slf: { icon: "", svg: "map", name: "Stadt Land Fluss", sub: "Ein Buchstabe, eigene Kategorien, Zeitdruck.", onlineOnly: true },
   draw: { icon: "", svg: "pencil", name: "Kritzeln", sub: "Einer zeichnet, alle anderen raten.", onlineOnly: true },
   ehesten: { icon: "", svg: "crowd", name: "Wer würde am ehesten?", sub: "Einer liest vor, alle entscheiden gemeinsam.", localOnly: true },
+  auktion: { icon: "", svg: "gavel", name: "Geheime Auktion", sub: "Echt, gefälscht oder ein verkannter Schatz?" },
   galerie: { icon: "", svg: "frame", name: "Galerie", sub: "Alle zeichnen denselben Begriff – die beste Zeichnung gewinnt.", onlineOnly: true },
   kontext: { icon: "", svg: "bubble", name: "Kontextlos", sub: "Harmlose Antworten, fiese neue Zusammenhänge.", onlineOnly: true }
 };
@@ -102,6 +103,8 @@ const STEP_PLANS = {
   "draw-local": [["setup", "Lobby"], ["game", "Spiel"]],
   "draw-online": [["setup", "Lobby"], ["game", "Spiel"]],
   "ehesten-local": [["setup", "Start"], ["game", "Fragen"], ["end", "Auswertung"]],
+  "auktion-local": [["setup", "Start"], ["auktion", "Auktion"], ["reveal", "Auflösung"]],
+  "auktion-online": [["setup", "Lobby"], ["auktion", "Auktion"], ["reveal", "Auflösung"]],
   "galerie-local": [["setup", "Lobby"], ["write", "Begriffe"], ["draw", "Zeichnen"], ["vote", "Galerie"], ["scores", "Punkte"]],
   "galerie-online": [["setup", "Lobby"], ["write", "Begriffe"], ["draw", "Zeichnen"], ["vote", "Galerie"], ["scores", "Punkte"]],
   "kontext-local": [["setup", "Lobby"], ["write", "Antworten"], ["twist", "Verdrehen"], ["reveal", "Enthüllen"], ["scores", "Punkte"]],
@@ -770,6 +773,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     if (currentGame === "ehesten") {
       WWAE.openSetup();
+      return;
+    }
+    if (currentGame === "auktion") {
+      LocalAuktion.openSetup();
       return;
     }
     renderSetup();

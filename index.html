@@ -20,6 +20,7 @@
     <symbol id="ico-bubble" viewBox="0 0 48 48"><path d="M9 9h30a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H22l-9 7v-7H9a4 4 0 0 1-4-4V13a4 4 0 0 1 4-4z"/><path d="M15 18l3 3-3 3M23 24h9"/></symbol>
     <symbol id="ico-crowd" viewBox="0 0 48 48"><circle cx="11" cy="28" r="4.5"/><circle cx="24" cy="28" r="4.5"/><circle cx="37" cy="28" r="4.5"/><path d="M4 43c0-5 3-8 7-8s7 3 7 8M17 43c0-5 3-8 7-8s7 3 7 8M30 43c0-5 3-8 7-8s7 3 7 8"/><path d="M24 4v13M18.5 11.5L24 17l5.5-5.5"/></symbol>
     <symbol id="ico-frame" viewBox="0 0 48 48"><rect x="6" y="8" width="36" height="32" rx="2"/><rect x="12" y="14" width="24" height="20"/><path d="M12 30l7-7 5 5 4-4 8 8"/><circle cx="30" cy="20" r="2"/></symbol>
+    <symbol id="ico-gavel" viewBox="0 0 48 48"><path d="M21 6l12 12M15 12l12 12M18 9l12 12"/><path d="M24 21L9 36a3 3 0 0 0 4 4l15-15"/><path d="M28 42h14"/></symbol>
     <symbol id="ico-pencil" viewBox="0 0 48 48"><path d="M32.5 7.5l8 8L17.5 38.5 7 41l2.5-10.5z"/><path d="M28.5 11.5l8 8"/><path d="M9.5 30.5l8 8"/><path d="M8.3 35.5l4.2 4.2"/></symbol>
     <symbol id="ico-handoff" viewBox="0 0 48 48"><rect x="13" y="6" width="19" height="34" rx="4"/><path d="M20 35h5"/><path d="M36.5 15.5c3.5 3 3.5 9 0 12"/><path d="M36.5 27.5l-3.3-.2M36.5 27.5l.6-3.2"/></symbol>
     <symbol id="ico-globe" viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M8 24h32"/><path d="M24 8c5 4.4 7 10 7 16s-2 11.6-7 16c-5-4.4-7-10-7-16s2-11.6 7-16z"/></symbol>
@@ -83,6 +84,13 @@
         <span class="mode-text">
           <span class="mode-title">Kritzeln</span>
           <span class="mode-desc">Einer zeichnet, alle anderen raten im Chat. Je schneller, desto mehr Punkte.</span>
+        </span>
+      </button>
+      <button class="mode-card game-card" type="button" data-game="auktion">
+        <span class="mode-icon"><svg class="ico"><use href="#ico-gavel"/></svg></span>
+        <span class="mode-text">
+          <span class="mode-title">Geheime Auktion</span>
+          <span class="mode-desc">Echt, gefälscht oder ein verkannter Schatz? Wer sich auskennt, bietet klug – und lässt die anderen zu viel zahlen.</span>
         </span>
       </button>
       <button class="mode-card game-card" type="button" data-game="galerie">
@@ -766,6 +774,122 @@
       <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>
     </section>
 
+    <!-- ============ GEHEIME AUKTION ============ -->
+    <section id="screen-auk-setup" class="screen">
+      <button class="back-link" type="button" data-back="menu">← Menü</button>
+      <header class="title">
+        <h1>Geheime Auktion</h1>
+        <p class="sub">Ein Tablet in der Mitte · jeder bietet an seiner Seite</p>
+      </header>
+      <div class="card">
+        <div class="row-between">
+          <h2>Bieter</h2>
+          <div class="stepper" id="auk-stepper">
+            <button type="button" data-dir="-1" aria-label="Bieter entfernen">−</button>
+            <span id="auk-count">2</span>
+            <button type="button" data-dir="1" aria-label="Bieter hinzufügen">+</button>
+          </div>
+        </div>
+        <div id="auk-players" class="player-list"></div>
+        <p class="muted small">Reihenfolge der Plätze: 1 unten, 2 oben, 3 links, 4 rechts.</p>
+      </div>
+      <div class="card">
+        <h2>Anzahl Lose</h2>
+        <div id="auk-lot-count" class="chips"></div>
+        <p class="muted small">Jeder startet mit 1000. Etwa die Hälfte der Lose ist gefälscht, ungefähr jedes zehnte ist ein verkannter Schatz. Was was ist, erfahrt ihr erst am Ende.</p>
+      </div>
+      <p id="auk-error" class="error" hidden></p>
+      <button id="auk-start" class="btn primary big" type="button">Auktion eröffnen</button>
+    </section>
+
+    <section id="screen-auk-board" class="screen auk-screen">
+      <div class="auk-board" id="auk-board">
+        <div class="auk-seat top" id="auk-seat-top" hidden></div>
+        <div class="auk-seat left" id="auk-seat-left" hidden></div>
+        <div class="auk-center" id="auk-center">
+          <div class="auk-card" id="auk-card">
+            <span class="auk-lot-num" id="auk-lot-num"></span>
+            <h2 class="auk-lot-title" id="auk-lot-title"></h2>
+            <p class="auk-lot-desc" id="auk-lot-desc"></p>
+            <span class="auk-lot-estimate" id="auk-lot-estimate"></span>
+          </div>
+          <div class="auk-status">
+            <span class="auk-bid" id="auk-bid">–</span>
+            <span class="auk-bidder" id="auk-bidder"></span>
+            <span class="auk-going" id="auk-going"></span>
+            <span class="auk-meter-track"><span class="auk-meter" id="auk-meter"></span></span>
+            <button id="auk-next" class="btn primary" type="button" hidden>Nächstes Los</button>
+          </div>
+          <div class="auk-tools">
+            <button id="auk-turn" class="btn ghost small-btn" type="button">Karte drehen</button>
+            <button id="auk-quit" class="btn ghost small-btn" type="button">Beenden</button>
+          </div>
+        </div>
+        <div class="auk-seat right" id="auk-seat-right" hidden></div>
+        <div class="auk-seat bottom" id="auk-seat-bottom" hidden></div>
+      </div>
+    </section>
+
+    <section id="screen-auk-reveal" class="screen">
+      <header class="title">
+        <h1>Auflösung</h1>
+        <p class="sub">Was war echt, was gefälscht – und wer hat den Schatz?</p>
+      </header>
+      <div id="auk-reveal-list" class="auk-reveal-list"></div>
+      <button id="auk-reveal-next" class="btn primary big" type="button">Erstes Los aufdecken</button>
+      <button id="auk-reveal-all" class="btn ghost" type="button">Alle aufdecken</button>
+      <div class="card" hidden>
+        <h2>Endstand</h2>
+        <ol id="auk-ranking" class="slf-ranking"></ol>
+      </div>
+      <button id="auk-again" class="btn ghost" type="button">Neue Auktion</button>
+      <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>
+    </section>
+
+    <section id="screen-auk-online" class="screen">
+      <div class="auk-card auk-ocard">
+        <span class="auk-lot-num" id="auk-olot-num"></span>
+        <h2 class="auk-lot-title" id="auk-olot-title"></h2>
+        <p class="auk-lot-desc" id="auk-olot-desc"></p>
+        <span class="auk-lot-estimate" id="auk-olot-estimate"></span>
+      </div>
+      <div class="card auk-ocenter" id="auk-ocenter">
+        <span class="auk-bid" id="auk-obid">–</span>
+        <span class="auk-bidder" id="auk-obidder"></span>
+        <span class="auk-going" id="auk-ogoing"></span>
+        <span class="auk-meter-track"><span class="auk-meter" id="auk-ometer"></span></span>
+      </div>
+      <div class="card auk-obids">
+        <div class="auk-seat-head"><strong>Dein Geld</strong><span class="auk-money" id="auk-omoney"></span></div>
+        <div class="auk-steps auk-osteps" id="auk-osteps"></div>
+      </div>
+      <button id="auk-onext" class="btn primary" type="button" hidden>Nächstes Los (Host)</button>
+      <div class="card">
+        <h2>Bieter</h2>
+        <ul id="auk-oplayers" class="lobby-players"></ul>
+      </div>
+      <button id="auk-ofinish" class="btn ghost" type="button" hidden>Auktion beenden (Host)</button>
+      <button class="btn ghost auk-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-auk-oreveal" class="screen">
+      <header class="title">
+        <h1>Auflösung</h1>
+        <p class="sub">Was war echt, was gefälscht – und wer hat den Schatz?</p>
+      </header>
+      <div id="auk-oreveal-list" class="auk-reveal-list"></div>
+      <button id="auk-oreveal-next" class="btn primary big" type="button">Erstes Los aufdecken</button>
+      <button id="auk-oreveal-all" class="btn ghost" type="button">Alle aufdecken</button>
+      <p id="auk-oreveal-wait" class="muted small center" hidden>Der Host deckt die Lose nacheinander auf …</p>
+      <div class="card" hidden>
+        <h2>Endstand</h2>
+        <ol id="auk-oranking" class="slf-ranking"></ol>
+      </div>
+      <button id="auk-oagain" class="btn primary big" type="button" hidden>Neue Auktion</button>
+      <button id="auk-oto-lobby" class="btn ghost" type="button" hidden>Zurück zur Lobby</button>
+      <button class="btn ghost auk-leave" type="button">Lobby verlassen</button>
+    </section>
+
     <!-- ============ GALERIE (NUR ONLINE) ============ -->
     <section id="screen-gal-write" class="screen">
       <header class="title">
@@ -1086,6 +1210,16 @@
         </div>
       </div>
 
+      <div class="card" id="auk-settings" hidden>
+        <div class="row-between">
+          <h2>Einstellungen</h2>
+          <span class="pill" id="auk-host-pill"></span>
+        </div>
+        <span class="muted small">Anzahl Lose</span>
+        <div id="auk-olots" class="chips"></div>
+        <p class="muted small">Jeder startet mit 1000. Etwa die Hälfte der Lose ist gefälscht, ungefähr jedes zehnte ist ein verkannter Schatz. Was was ist, erfahrt ihr erst am Ende.</p>
+      </div>
+
       <div class="card" id="gal-settings" hidden>
         <div class="row-between">
           <h2>Einstellungen</h2>
@@ -1293,6 +1427,8 @@
   <script src="words.js"></script>
   <script src="shared.js"></script>
   <script src="app.js"></script>
+  <script src="auktion-rules.js"></script>
+  <script src="auktion-local.js"></script>
   <script src="ehesten-fragen.js"></script>
   <script src="ehesten.js"></script>
   <script src="wbi.js"></script>
@@ -1307,5 +1443,6 @@
   <script src="kontext-images.js"></script>
   <script src="kontext-online.js"></script>
   <script src="galerie-online.js"></script>
+  <script src="auktion-online.js"></script>
 </body>
 </html>

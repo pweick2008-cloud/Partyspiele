@@ -1339,3 +1339,129 @@ html[data-theme="galerie"] .step .dot { color: var(--text); }
 .gal-item.selected .gal-label { color: var(--primary); font-weight: 700; }
 .gal-plate { margin-top: 4px; background: #faf8f4; border: 1px solid var(--border); padding: 6px 10px; text-align: center; display: flex; flex-direction: column; font-size: .85rem; min-width: 70%; }
 .gal-plate span { color: var(--muted); font-size: .8rem; }
+
+/* ---------- Geheime Auktion: Startkarte wie ein Auktionskatalog ---------- */
+.game-card[data-game="auktion"] {
+  background: radial-gradient(circle at 20% 0%, rgba(226, 184, 100, .18), transparent 60%), #13261e;
+  color: #f1ead8; border: 1px solid #c9a45c; outline: 1px solid rgba(201, 164, 92, .35); outline-offset: -6px;
+}
+.game-card[data-game="auktion"]:hover, .game-card[data-game="auktion"]:focus-visible { border-color: #e2b864; }
+.game-card[data-game="auktion"] .mode-icon { color: #e2b864; }
+.game-card[data-game="auktion"] .mode-title { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-variant: small-caps; letter-spacing: .06em; font-size: 1.45rem; color: #f0d48f; }
+.game-card[data-game="auktion"] .mode-desc { color: #c3c9b8; }
+
+/* ---------- Geheime Auktion im Spiel: Auktionssaal ---------- */
+html[data-theme="auktion"] {
+  --bg: #0e1a15;
+  --bg-2: #1a2c24;
+  --card: #142520;
+  --border: #2c4439;
+  --text: #f1ead8;
+  --muted: #a9b3a2;
+  --primary: #e2b864;
+  --primary-2: #f0d48f;
+  --on-primary: #241a06;
+  --glow: rgba(226, 184, 100, .2);
+  --danger: #e0685c;
+  --tint-good: #1d3a2b;
+  --tint-bad: #3a1d1a;
+  --tint-accent: #24382c;
+  --display: "Fraunces", Georgia, serif;
+  --page-glow: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(226, 184, 100, .12), transparent 70%);
+}
+html[data-theme="auktion"] .title h1 { font-weight: 600; font-variant: small-caps; letter-spacing: .04em; }
+
+/* Das Brett: ganzer Bildschirm, Bieterfelder an den Rändern */
+.auk-screen.active { position: fixed; inset: 0; z-index: 6; background: var(--page-glow), var(--bg); padding: 0; margin: 0; max-width: none; animation: none; }
+.auk-board {
+  --edge: 124px; --side: 0px;
+  height: 100vh; height: 100dvh; width: 100vw;
+  display: grid; grid-template-columns: var(--side) minmax(0, 1fr) var(--side); grid-template-rows: var(--edge) minmax(0, 1fr) var(--edge);
+  user-select: none; -webkit-user-select: none; touch-action: manipulation;
+}
+.auk-board[data-players="3"], .auk-board[data-players="4"] { --side: 132px; }
+.auk-seat { position: relative; overflow: hidden; }
+.auk-seat[hidden] { display: none; }
+.auk-seat.top { grid-column: 1 / 4; grid-row: 1; }
+.auk-seat.bottom { grid-column: 1 / 4; grid-row: 3; }
+.auk-seat.left { grid-column: 1; grid-row: 2; }
+.auk-seat.right { grid-column: 3; grid-row: 2; }
+.auk-center { grid-column: 2; grid-row: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 10px; min-height: 0; overflow: hidden; }
+
+.auk-seat-inner {
+  position: absolute; left: 50%; top: 50%; width: 100%; height: 100%; transform: translate(-50%, -50%);
+  display: flex; flex-direction: column; justify-content: center; gap: 8px; padding: 10px 14px;
+  background: var(--card); border: 1px solid var(--border); border-radius: 18px; box-sizing: border-box;
+  transition: box-shadow .15s, border-color .15s;
+}
+.auk-seat.top .auk-seat-inner { transform: translate(-50%, -50%) rotate(180deg); }
+.auk-seat.left .auk-seat-inner, .auk-seat.right .auk-seat-inner { width: calc(100dvh - 2 * var(--edge)); height: var(--side); }
+.auk-seat.left .auk-seat-inner { transform: translate(-50%, -50%) rotate(90deg); }
+.auk-seat.right .auk-seat-inner { transform: translate(-50%, -50%) rotate(-90deg); }
+.auk-seat.top, .auk-seat.bottom { padding: 6px 8px; }
+.auk-seat.top .auk-seat-inner, .auk-seat.bottom .auk-seat-inner { position: static; transform: none; height: 100%; width: 100%; }
+.auk-seat.top .auk-seat-inner { transform: rotate(180deg); }
+.auk-seat.leading .auk-seat-inner { border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary), 0 0 24px var(--glow); }
+.auk-seat.won .auk-seat-inner { border-color: #7fd39b; box-shadow: 0 0 0 2px #7fd39b; }
+.auk-seat-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 1.05rem; }
+.auk-seat-head strong { font-family: var(--display); font-size: 1.2rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.auk-money { font-family: var(--mono); font-weight: 700; color: var(--primary); }
+.auk-money::after { content: " €"; font-size: .8em; opacity: .7; }
+.auk-steps { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; }
+.auk-step {
+  min-height: 52px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-2); color: var(--text);
+  font: 700 1.05rem var(--mono); cursor: pointer; touch-action: manipulation;
+}
+.auk-step:active:not(:disabled) { background: var(--primary); color: var(--on-primary); transform: scale(.96); }
+.auk-step:disabled { opacity: .3; cursor: default; }
+
+.auk-card {
+  --turn: 0deg; transform: rotate(var(--turn)); transition: transform .35s ease;
+  width: min(520px, 100%); max-height: 100%; overflow: auto; text-align: center;
+  background: linear-gradient(180deg, #fbf6ea, #f1e8d3); color: #2a2216; border-radius: 6px;
+  padding: 16px 20px; box-shadow: 0 0 0 1px #c9a45c, 0 12px 30px rgba(0, 0, 0, .45);
+}
+.auk-lot-num { font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: #8a7350; }
+.auk-lot-title { margin: 6px 0; font-family: "Fraunces", Georgia, serif; font-size: 1.35rem; font-weight: 600; color: #2a2216; }
+.auk-lot-desc { margin: 0 0 8px; font-size: 1rem; line-height: 1.45; }
+.auk-lot-estimate { display: inline-block; padding: 3px 10px; border: 1px solid #c9a45c; border-radius: 999px; font-size: .85rem; color: #6b5532; }
+.auk-status { display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 220px; }
+.auk-bid { font-family: var(--mono); font-size: 2.6rem; font-weight: 800; color: var(--primary); line-height: 1.1; }
+.auk-bidder { font-weight: 700; }
+.auk-going { color: var(--muted); min-height: 1.3em; font-family: var(--display); font-style: italic; font-size: 1.1rem; }
+.auk-going.hot { color: var(--danger); }
+.auk-meter-track { width: 220px; height: 5px; border-radius: 3px; background: var(--bg-2); overflow: hidden; margin: 4px 0 6px; }
+.auk-meter { display: block; height: 100%; background: var(--primary); transform-origin: left; }
+.auk-center.sold .auk-bid { color: #7fd39b; }
+.auk-tools { display: flex; gap: 8px; }
+
+.auk-reveal-list { display: flex; flex-direction: column; gap: 12px; }
+.auk-result { display: flex; flex-direction: column; gap: 6px; border-left: 4px solid var(--border); animation: kx-pop .4s ease both; }
+.auk-result.echt { border-left-color: #7fd39b; }
+.auk-result.faelschung { border-left-color: var(--danger); }
+.auk-result.schatz { border-left-color: var(--primary); box-shadow: 0 0 22px var(--glow); }
+.auk-verdict { font-weight: 800; font-size: .9rem; text-transform: uppercase; letter-spacing: .06em; }
+.auk-result.echt .auk-verdict { color: #7fd39b; }
+.auk-result.faelschung .auk-verdict { color: var(--danger); }
+.auk-result.schatz .auk-verdict { color: var(--primary); }
+.auk-result-title { margin: 0; font-family: var(--display); font-size: 1.2rem; }
+.auk-result-desc { margin: 0; color: var(--muted); font-size: .92rem; }
+.auk-result-explain { margin: 0; }
+.auk-result-nums { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .9rem; color: var(--muted); }
+.auk-result-nums strong { color: var(--text); font-family: var(--mono); }
+.auk-diff { font-family: var(--mono); font-weight: 800; }
+.auk-diff.plus { color: #7fd39b; }
+.auk-diff.minus { color: var(--danger); }
+@media (max-width: 700px) {
+  .auk-board { --edge: 112px; }
+  .auk-step { min-height: 44px; font-size: .9rem; }
+  .auk-bid { font-size: 2rem; }
+  .auk-lot-desc { font-size: .9rem; }
+}
+.auk-ocard { width: 100%; }
+.auk-ocenter { align-items: center; text-align: center; gap: 2px; }
+.auk-ocenter.mine { box-shadow: 0 0 0 2px var(--primary), 0 0 22px var(--glow); }
+.auk-obids { gap: 10px; }
+.auk-osteps { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.auk-osteps .auk-step { min-height: 58px; font-size: 1.2rem; }
+.lobby-player.leading { box-shadow: 0 0 0 2px var(--primary); }

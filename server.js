@@ -15,14 +15,16 @@ const { shuffle, pick, normalize, levenshtein, isCorrectGuess, displayWord, pick
 const { SpiegelRules } = require("./spiegel-rules.js");
 const { verraeterHint } = require("./verraeter-hints.js");
 const { KX_PROMPTS } = require("./kontext-prompts.js");
+const { AUK, aukBuildCatalog, aukPublicLot } = require("./auktion-rules.js");
+const { AUKTION_LOSE } = require("./auktion-lose.js");
 const { KX_IMAGE_IDS } = require("./kontext-images.js");
 const { DRAW_POOLS, LEVELS: DR_LEVELS, LEVEL_NAMES: DR_LEVEL_NAMES } = require("./draw-words.js");
 
 const PORT = process.env.PORT || 3000;
 const MIN_PLAYERS = 3; // Verräter
-const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3 };
-const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12 };
-const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie"];
+const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3, auktion: 2 };
+const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12, auktion: 12 };
+const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie", "auktion"];
 const MAX_PLAYERS = 20;
 const LOBBY_IDLE_MS = 30 * 60 * 1000; // leere Lobbys werden nach 30 Min. gelöscht
 
@@ -50,7 +52,11 @@ const STATIC = {
   "/ehesten.js": ["ehesten.js", "text/javascript; charset=utf-8"],
   "/ehesten-fragen.js": ["ehesten-fragen.js", "text/javascript; charset=utf-8"],
   "/kontext-online.js": ["kontext-online.js", "text/javascript; charset=utf-8"],
-  "/galerie-online.js": ["galerie-online.js", "text/javascript; charset=utf-8"]
+  "/galerie-online.js": ["galerie-online.js", "text/javascript; charset=utf-8"],
+  "/auktion-rules.js": ["auktion-rules.js", "text/javascript; charset=utf-8"],
+  "/auktion-local.js": ["auktion-local.js", "text/javascript; charset=utf-8"],
+  "/auktion-online.js": ["auktion-online.js", "text/javascript; charset=utf-8"],
+  "/auktion-lose.js": ["auktion-lose.js", "text/javascript; charset=utf-8"]
 };
 
 const server = http.createServer((req, res) => {
@@ -156,6 +162,7 @@ function viewFor(lobby, me) {
     drawSettings: lobby.drawSettings,
     kxSettings: lobby.kxSettings,
     galSettings: lobby.galSettings,
+    aukSettings: lobby.aukSettings,
     players: lobby.players.map((p) => ({ id: p.id, name: p.name, connected: p.connected })),
     game: null
   };
@@ -170,6 +177,10 @@ function viewFor(lobby, me) {
   }
   if (g.type === "galerie") {
     view.game = galView(lobby, g, me);
+    return view;
+  }
+  if (g.type === "auktion") {
+    view.game = aukView(lobby, g, me);
     return view;
   }
   if (g.type === "slf") {
@@ -471,6 +482,8 @@ const handlers = {
       drawSettings: { ...DR_DEFAULTS },
       kxSettings: { ...KX_DEFAULTS, modes: [...KX_DEFAULTS.modes] },
       galSettings: { ...GAL_DEFAULTS },
+      aukSettings: { lots: 10 },
+      aukUsed: [],
       game: null,
       usedWords: [],
       emptySince: null
@@ -546,6 +559,7 @@ const handlers = {
     if (lobby.gameType === "draw") drStart(lobby);
     else if (lobby.gameType === "kontext") kxStart(lobby);
     else if (lobby.gameType === "galerie") galStart(lobby);
+    else if (lobby.gameType === "auktion") aukStart(lobby);
     else if (lobby.gameType === "slf") slfStart(lobby);
     else if (lobby.gameType === "luegen") luStart(lobby);
     else if (lobby.gameType === "werbinich") wbiStart(lobby);
@@ -2368,6 +2382,160 @@ Object.assign(handlers, {
     else if (g.phase === "draw") galToVote(lobby);
     else if (g.phase === "vote") galToResults(lobby);
     else fail("Das geht gerade nicht.");
+    return lobby;
+  }
+});
+
+/* =========================================================
+   Geheime Auktion – online (2 bis 12 Spieler, jeder am eigenen Handy)
+   Ablauf und Wertung wie beim Tablet in der Mitte (auktion-rules.js).
+   Der Server entscheidet über Zeit und Zuschlag; was ein Los wirklich
+   ist, verlässt den Server erst bei der Auflösung.
+   ========================================================= */
+const AUK_SOLD_MS = 6000; // so lange bleibt „Verkauft an …“ stehen
+
+function aukStart(lobby) {
+  const lots = aukBuildCatalog(AUKTION_LOSE, lobby.aukSettings.lots, lobby.aukUsed || []);
+  lobby.aukUsed = [...(lobby.aukUsed || []), ...lots.map((l) => l.id)].slice(-Math.floor(AUKTION_LOSE.length * 0.6));
+  lobby.game = {
+    type: "auktion",
+    gameId: crypto.randomBytes(3).toString("hex"),
+    ids: lobby.players.map((p) => p.id),
+    names: Object.fromEntries(lobby.players.map((p) => [p.id, p.name])),
+    money: Object.fromEntries(lobby.players.map((p) => [p.id, AUK.START_MONEY])),
+    lots,
+    index: -1,
+    phase: "open",
+    bid: 0,
+    bidder: null,
+    endsAt: null,
+    seq: 0,
+    revealed: 0
+  };
+  aukNextLot(lobby);
+}
+
+// Zeitschaltung: jede Änderung bekommt eine neue Nummer, alte Timer verfallen
+function aukSchedule(lobby, ms, fn) {
+  const g = lobby.game;
+  const seq = ++g.seq;
+  setTimeout(() => {
+    if (lobby.game !== g || g.seq !== seq || !lobbies.has(lobby.code)) return;
+    fn();
+    broadcastState(lobby);
+  }, ms);
+}
+
+function aukNextLot(lobby) {
+  const g = lobby.game;
+  g.index++;
+  if (g.index >= g.lots.length) {
+    g.phase = "reveal";
+    g.endsAt = null;
+    g.seq++;
+    return;
+  }
+  Object.assign(g, { phase: "open", bid: 0, bidder: null, endsAt: Date.now() + AUK.OPEN_MS });
+  aukSchedule(lobby, AUK.OPEN_MS + 150, () => aukHammer(lobby));
+}
+
+function aukHammer(lobby) {
+  const g = lobby.game;
+  const lot = g.lots[g.index];
+  if (g.bidder) {
+    lot.buyer = g.bidder;
+    lot.price = g.bid;
+    g.money[g.bidder] -= g.bid;
+  } else {
+    lot.buyer = null;
+    lot.price = 0;
+  }
+  g.phase = "sold";
+  g.endsAt = Date.now() + AUK_SOLD_MS;
+  aukSchedule(lobby, AUK_SOLD_MS, () => aukNextLot(lobby));
+}
+
+function aukView(lobby, g, me) {
+  const lot = g.lots[g.index];
+  const view = {
+    type: "auktion",
+    gameId: g.gameId,
+    phase: g.phase,
+    inGame: g.ids.includes(me.id),
+    index: g.index,
+    count: g.lots.length,
+    bid: g.bid,
+    bidder: g.bidder,
+    endsAt: g.endsAt,
+    now: Date.now(),
+    players: g.ids.map((id) => {
+      const p = lobby.players.find((x) => x.id === id);
+      return { id, name: g.names[id], connected: !!(p && p.connected), money: g.money[id], lots: g.lots.filter((l) => l.buyer === id).length };
+    })
+  };
+  if (g.phase !== "reveal") {
+    view.lot = lot ? aukPublicLot(lot) : null;
+    if (g.phase === "sold") view.sold = { buyer: lot.buyer, price: lot.price };
+  } else {
+    // Auflösung: der Host deckt nacheinander auf, bis dahin bleibt der Rest geheim
+    view.revealed = g.revealed;
+    view.lots = g.lots.slice(0, g.revealed).map((l) => ({ ...l }));
+    if (g.revealed >= g.lots.length) view.allLots = true;
+  }
+  return view;
+}
+
+Object.assign(handlers, {
+  aukSettings(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    if (lobby.game && lobby.game.phase !== "over" && lobby.game.phase !== "reveal") fail("Während des Spiels können die Einstellungen nicht geändert werden.");
+    const n = Number((msg.settings || {}).lots);
+    if (!AUK.LOT_COUNTS.includes(n)) fail("Ungültige Anzahl Lose.");
+    lobby.aukSettings = { lots: n };
+    return lobby;
+  },
+
+  aukBid(ws, msg, lobby, me) {
+    const g = lobby.game;
+    if (!g || g.type !== "auktion" || (g.phase !== "open" && g.phase !== "going")) fail("Gerade wird nicht geboten.");
+    if (!g.ids.includes(me.id)) fail("Du bietest in dieser Auktion nicht mit.");
+    const step = Number(msg.step);
+    if (!AUK.STEPS.includes(step)) fail("Ungültiger Betrag.");
+    if (msg.lot !== g.index) return null; // Klick vom vorigen Los
+    if (g.bidder === me.id) fail("Du hast schon das Höchstgebot.");
+    const amount = g.bid + step;
+    if (amount > g.money[me.id]) fail("So viel Geld hast du nicht mehr.");
+    Object.assign(g, { bid: amount, bidder: me.id, phase: "going", endsAt: Date.now() + AUK.GOING_MS });
+    aukSchedule(lobby, AUK.GOING_MS + 150, () => aukHammer(lobby));
+    return lobby;
+  },
+
+  // Host: sofort zum nächsten Los (nach dem Zuschlag)
+  aukNext(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    const g = requireGame(lobby, "sold", "auktion");
+    g.seq++;
+    aukNextLot(lobby);
+    return lobby;
+  },
+
+  // Host: Auktion vorzeitig beenden → Auflösung
+  aukFinish(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    const g = lobby.game;
+    if (!g || g.type !== "auktion" || g.phase === "reveal") fail("Das geht gerade nicht.");
+    if (g.phase === "going" && g.bidder) aukHammer(lobby);
+    g.lots = g.lots.slice(0, g.index + 1).filter((l) => l.buyer !== undefined);
+    g.phase = "reveal";
+    g.endsAt = null;
+    g.seq++;
+    return lobby;
+  },
+
+  aukReveal(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    const g = requireGame(lobby, "reveal", "auktion");
+    g.revealed = msg.all ? g.lots.length : Math.min(g.lots.length, g.revealed + 1);
     return lobby;
   }
 });
