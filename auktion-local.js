@@ -10,12 +10,13 @@
 const LocalAuktion = (() => {
   const STORE = "auktion-v1";
   const USED = "auktion-used-v1";
-  const SEATS = ["bottom", "top", "left", "right"];
+  // Ecken: 1 unten links, 2 gegenüber oben rechts, 3 unten rechts, 4 oben links
+  const SEATS = ["bl", "tr", "br", "tl"];
 
   let setup = { names: ["", ""], lots: 10 };
   let game = null;
   let timer = null;
-  let cardTurn = 0; // Drehung der Loskarte in der Mitte (0–3 × 90°)
+  let cardTurn = 0; // Loskarte in der Mitte: 0 = zu den unteren, 1 = zu den oberen Spielern
   let losePromise = null;
 
   const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) || d; } catch (e) { return d; } };
@@ -84,6 +85,8 @@ const LocalAuktion = (() => {
     };
     cardTurn = 0;
     nextLot();
+    // Mehrere Finger gleichzeitig auf dem Tablet sollen nicht zoomen
+    DrawCanvas.lockZoom();
     showScreen("auk-board", "auktion");
   }
 
@@ -147,7 +150,7 @@ const LocalAuktion = (() => {
     $("auk-lot-title").textContent = lot.title;
     $("auk-lot-desc").textContent = lot.desc;
     $("auk-lot-estimate").textContent = `Schätzpreis ${lot.estimate}`;
-    $("auk-card").style.setProperty("--turn", `${cardTurn * 90}deg`);
+    $("auk-card").style.setProperty("--turn", `${cardTurn * 180}deg`);
     // Gebot und Countdown
     const left = Math.max(0, game.endsAt - Date.now());
     const bidder = game.bidder !== null ? game.players[game.bidder].name : null;
@@ -198,6 +201,7 @@ const LocalAuktion = (() => {
     // Lose, die nicht mehr versteigert wurden, fallen weg
     game.lots = game.lots.filter((l) => l.buyer !== undefined);
     game.phase = "done";
+    DrawCanvas.unlockZoom();
     revealed = 0;
     renderReveal();
     showScreen("auk-reveal", "reveal");
@@ -229,7 +233,7 @@ const LocalAuktion = (() => {
     });
     $("auk-start").addEventListener("click", start);
     $("auk-next").addEventListener("click", () => nextLot());
-    $("auk-turn").addEventListener("click", () => { cardTurn = (cardTurn + 1) % 4; render(); });
+    $("auk-turn").addEventListener("click", () => { cardTurn = 1 - cardTurn; render(); });
     $("auk-quit").addEventListener("click", async () => {
       const ok = await showModal({ emoji: "", title: "Auktion beenden?", text: "Die restlichen Lose werden nicht mehr versteigert. Danach kommt die Auflösung.", ok: "Beenden", cancel: "Weiter bieten" });
       if (ok) finish();

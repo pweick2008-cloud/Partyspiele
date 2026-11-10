@@ -1373,34 +1373,44 @@ html[data-theme="auktion"] .title h1 { font-weight: 600; font-variant: small-cap
 
 /* Das Brett: ganzer Bildschirm, Bieterfelder an den Rändern */
 .auk-screen.active { position: fixed; inset: 0; z-index: 6; background: var(--page-glow), var(--bg); padding: 0; margin: 0; max-width: none; animation: none; }
+/* Vier gleich große Ecken: zwei Spieler sitzen unten, zwei oben (um 180° gedreht) */
 .auk-board {
-  --edge: 124px; --side: 0px;
-  height: 100vh; height: 100dvh; width: 100vw;
-  display: grid; grid-template-columns: var(--side) minmax(0, 1fr) var(--side); grid-template-rows: var(--edge) minmax(0, 1fr) var(--edge);
-  user-select: none; -webkit-user-select: none; touch-action: manipulation;
+  height: 100vh; height: 100dvh; width: 100vw; box-sizing: border-box; padding: 10px; gap: 10px;
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr) minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; touch-action: none;
 }
-.auk-board[data-players="3"], .auk-board[data-players="4"] { --side: 132px; }
-.auk-seat { position: relative; overflow: hidden; }
-.auk-seat[hidden] { display: none; }
-.auk-seat.top { grid-column: 1 / 4; grid-row: 1; }
-.auk-seat.bottom { grid-column: 1 / 4; grid-row: 3; }
-.auk-seat.left { grid-column: 1; grid-row: 2; }
-.auk-seat.right { grid-column: 3; grid-row: 2; }
-.auk-center { grid-column: 2; grid-row: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 10px; min-height: 0; overflow: hidden; }
+.auk-seat { position: relative; min-width: 0; min-height: 0; }
+.auk-seat[hidden] { display: block; visibility: hidden; }
+.auk-seat.tl { grid-column: 1; grid-row: 1; }
+.auk-seat.tr { grid-column: 3; grid-row: 1; }
+.auk-seat.bl { grid-column: 1; grid-row: 2; }
+.auk-seat.br { grid-column: 3; grid-row: 2; }
+.auk-center { grid-column: 2; grid-row: 1 / 3; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 4px; min-height: 0; overflow: hidden; }
 
 .auk-seat-inner {
-  position: absolute; left: 50%; top: 50%; width: 100%; height: 100%; transform: translate(-50%, -50%);
-  display: flex; flex-direction: column; justify-content: center; gap: 8px; padding: 10px 14px;
-  background: var(--card); border: 1px solid var(--border); border-radius: 18px; box-sizing: border-box;
+  height: 100%; width: 100%; box-sizing: border-box;
+  display: flex; flex-direction: column; gap: 10px; padding: 12px;
+  background: var(--card); border: 1px solid var(--border); border-radius: 18px;
   transition: box-shadow .15s, border-color .15s;
 }
-.auk-seat.top .auk-seat-inner { transform: translate(-50%, -50%) rotate(180deg); }
-.auk-seat.left .auk-seat-inner, .auk-seat.right .auk-seat-inner { width: calc(100dvh - 2 * var(--edge)); height: var(--side); }
-.auk-seat.left .auk-seat-inner { transform: translate(-50%, -50%) rotate(90deg); }
-.auk-seat.right .auk-seat-inner { transform: translate(-50%, -50%) rotate(-90deg); }
-.auk-seat.top, .auk-seat.bottom { padding: 6px 8px; }
-.auk-seat.top .auk-seat-inner, .auk-seat.bottom .auk-seat-inner { position: static; transform: none; height: 100%; width: 100%; }
-.auk-seat.top .auk-seat-inner { transform: rotate(180deg); }
+.auk-seat.tl .auk-seat-inner, .auk-seat.tr .auk-seat-inner { transform: rotate(180deg); }
+.auk-seat .auk-steps { flex: 1; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: minmax(0, 1fr); }
+.auk-seat .auk-step { min-height: 0; height: 100%; font-size: 1.35rem; }
+/* Hochkant (z. B. Handy): Ecken oben und unten, Karte dazwischen */
+@media (orientation: portrait) {
+  .auk-board { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: minmax(0, .65fr) minmax(0, 1.7fr) minmax(0, .65fr); }
+  .auk-center { gap: 6px; }
+  .auk-card { padding: 10px 14px; }
+  .auk-lot-title { font-size: 1.1rem; margin: 4px 0; }
+  .auk-bid { font-size: 1.8rem; }
+  .auk-seat.tl { grid-column: 1; grid-row: 1; }
+  .auk-seat.tr { grid-column: 2; grid-row: 1; }
+  .auk-seat.bl { grid-column: 1; grid-row: 3; }
+  .auk-seat.br { grid-column: 2; grid-row: 3; }
+  .auk-center { grid-column: 1 / 3; grid-row: 2; }
+  .auk-seat .auk-step { font-size: 1.05rem; }
+  .auk-seat-inner { padding: 8px; gap: 6px; }
+}
 .auk-seat.leading .auk-seat-inner { border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary), 0 0 24px var(--glow); }
 .auk-seat.won .auk-seat-inner { border-color: #7fd39b; box-shadow: 0 0 0 2px #7fd39b; }
 .auk-seat-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 1.05rem; }
@@ -1453,7 +1463,6 @@ html[data-theme="auktion"] .title h1 { font-weight: 600; font-variant: small-cap
 .auk-diff.plus { color: #7fd39b; }
 .auk-diff.minus { color: var(--danger); }
 @media (max-width: 700px) {
-  .auk-board { --edge: 112px; }
   .auk-step { min-height: 44px; font-size: .9rem; }
   .auk-bid { font-size: 2rem; }
   .auk-lot-desc { font-size: .9rem; }
