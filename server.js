@@ -17,14 +17,16 @@ const { verraeterHint } = require("./verraeter-hints.js");
 const { KX_PROMPTS } = require("./kontext-prompts.js");
 const { AUK, aukBuildCatalog, aukPublicLot } = require("./auktion-rules.js");
 const { AUKTION_LOSE } = require("./auktion-lose.js");
+const { FZ, fzBuildRound, fzChoices, fzScore, fzRanking, fzPickQuestions } = require("./faelscher-rules.js");
+const { FAELSCHER_FRAGEN } = require("./faelscher-fragen.js");
 const { KX_IMAGE_IDS } = require("./kontext-images.js");
 const { DRAW_POOLS, LEVELS: DR_LEVELS, LEVEL_NAMES: DR_LEVEL_NAMES } = require("./draw-words.js");
 
 const PORT = process.env.PORT || 3000;
 const MIN_PLAYERS = 3; // Verräter
-const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3, auktion: 2 };
-const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12, auktion: 20 };
-const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie", "auktion"];
+const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3, auktion: 2, faelscher: 3 };
+const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12, auktion: 20, faelscher: 8 };
+const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie", "auktion", "faelscher"];
 const MAX_PLAYERS = 20;
 const LOBBY_IDLE_MS = 30 * 60 * 1000; // leere Lobbys werden nach 30 Min. gelöscht
 
@@ -56,7 +58,11 @@ const STATIC = {
   "/auktion-rules.js": ["auktion-rules.js", "text/javascript; charset=utf-8"],
   "/auktion-local.js": ["auktion-local.js", "text/javascript; charset=utf-8"],
   "/auktion-online.js": ["auktion-online.js", "text/javascript; charset=utf-8"],
-  "/auktion-lose.js": ["auktion-lose.js", "text/javascript; charset=utf-8"]
+  "/auktion-lose.js": ["auktion-lose.js", "text/javascript; charset=utf-8"],
+  "/faelscher-rules.js": ["faelscher-rules.js", "text/javascript; charset=utf-8"],
+  "/faelscher-local.js": ["faelscher-local.js", "text/javascript; charset=utf-8"],
+  "/faelscher-online.js": ["faelscher-online.js", "text/javascript; charset=utf-8"],
+  "/faelscher-fragen.js": ["faelscher-fragen.js", "text/javascript; charset=utf-8"]
 };
 
 const server = http.createServer((req, res) => {
@@ -163,6 +169,7 @@ function viewFor(lobby, me) {
     kxSettings: lobby.kxSettings,
     galSettings: lobby.galSettings,
     aukSettings: lobby.aukSettings,
+    fzSettings: lobby.fzSettings,
     players: lobby.players.map((p) => ({ id: p.id, name: p.name, connected: p.connected })),
     game: null
   };
@@ -181,6 +188,10 @@ function viewFor(lobby, me) {
   }
   if (g.type === "auktion") {
     view.game = aukView(lobby, g, me);
+    return view;
+  }
+  if (g.type === "faelscher") {
+    view.game = fzView(lobby, g, me);
     return view;
   }
   if (g.type === "slf") {
@@ -410,6 +421,7 @@ function dropFromGame(lobby, id) {
   if (g && g.type === "draw") return drDrop(lobby, id);
   if (g && g.type === "kontext") return kxCheck(lobby, id);
   if (g && g.type === "galerie") return galCheck(lobby, id);
+  if (g && g.type === "faelscher") return fzCheck(lobby, id);
   if (!g || g.phase === "over" || !g.order.includes(id) || g.out.has(id)) return;
   g.out.add(id);
   g.results[id] = "hat das Spiel verlassen";
@@ -483,6 +495,8 @@ const handlers = {
       kxSettings: { ...KX_DEFAULTS, modes: [...KX_DEFAULTS.modes] },
       galSettings: { ...GAL_DEFAULTS },
       aukSettings: { lots: 10 },
+      fzSettings: { count: FZ.DEFAULT_COUNT },
+      fzUsed: [],
       aukUsed: [],
       game: null,
       usedWords: [],
@@ -560,6 +574,7 @@ const handlers = {
     else if (lobby.gameType === "kontext") kxStart(lobby);
     else if (lobby.gameType === "galerie") galStart(lobby);
     else if (lobby.gameType === "auktion") aukStart(lobby);
+    else if (lobby.gameType === "faelscher") fzStart(lobby);
     else if (lobby.gameType === "slf") slfStart(lobby);
     else if (lobby.gameType === "luegen") luStart(lobby);
     else if (lobby.gameType === "werbinich") wbiStart(lobby);
@@ -2536,6 +2551,174 @@ Object.assign(handlers, {
     requireHost(lobby, me);
     const g = requireGame(lobby, "reveal", "auktion");
     g.revealed = msg.all ? g.lots.length : Math.min(g.lots.length, g.revealed + 1);
+    return lobby;
+  }
+});
+
+/* =========================================================
+   Fälscher – online (3 bis 8 Spieler)
+   Schreiben und Abstimmen laufen gleichzeitig auf allen Handys.
+   Die offizielle Antwort verlässt den Server erst beim Aufdecken;
+   Zusammenlegen und Wertung passieren hier (faelscher-rules.js).
+   ========================================================= */
+const fzActive = (lobby, g, leaving = null) => g.ids.filter((id) => id !== leaving && lobby.players.some((p) => p.id === id));
+
+function fzStart(lobby) {
+  const questions = fzPickQuestions(FAELSCHER_FRAGEN, lobby.fzSettings.count, lobby.fzUsed || []);
+  lobby.fzUsed = [...(lobby.fzUsed || []), ...questions.map((q) => q.id)].slice(-Math.floor(FAELSCHER_FRAGEN.length * 0.8));
+  lobby.game = {
+    type: "faelscher",
+    gameId: crypto.randomBytes(3).toString("hex"),
+    ids: lobby.players.map((p) => p.id),
+    names: Object.fromEntries(lobby.players.map((p) => [p.id, p.name])),
+    questions,
+    index: -1,
+    totals: Object.fromEntries(lobby.players.map((p) => [p.id, 0])),
+    log: []
+  };
+  fzNextQuestion(lobby);
+}
+
+function fzNextQuestion(lobby) {
+  const g = lobby.game;
+  g.index++;
+  if (g.index >= g.questions.length) { g.phase = "over"; return; }
+  Object.assign(g, { phase: "write", answers: {}, votes: {}, round: null, score: null });
+}
+
+function fzCloseWriting(lobby, leaving = null) {
+  const g = lobby.game;
+  const writers = fzActive(lobby, g, leaving).filter((id) => g.answers[id]);
+  const answers = Object.fromEntries(writers.map((id) => [id, g.answers[id]]));
+  g.round = fzBuildRound(g.questions[g.index].antwort, answers);
+  g.phase = "vote";
+  if (!g.round.voters.length) fzFinishRound(lobby);
+}
+
+function fzFinishRound(lobby) {
+  const g = lobby.game;
+  const q = g.questions[g.index];
+  g.score = fzScore(g.round, g.votes, g.ids);
+  for (const [id, pts] of Object.entries(g.score.points)) g.totals[id] += pts;
+  g.log.push({ frage: q.frage, antwort: q.antwort, best: g.score.best });
+  g.phase = "reveal";
+}
+
+const fzVoters = (lobby, g, leaving = null) => g.round.voters.filter((id) => fzActive(lobby, g, leaving).includes(id));
+
+function fzCheck(lobby, leaving = null) {
+  const g = lobby.game;
+  if (!g || g.type !== "faelscher") return;
+  const active = fzActive(lobby, g, leaving);
+  if (g.phase === "write" && active.length && active.every((id) => g.answers[id])) fzCloseWriting(lobby, leaving);
+  else if (g.phase === "vote" && fzVoters(lobby, g, leaving).every((id) => g.votes[id])) fzFinishRound(lobby);
+}
+
+function fzView(lobby, g, me) {
+  const active = fzActive(lobby, g);
+  const q = g.questions[g.index];
+  const doneOf = (id) => {
+    if (g.phase === "write") return !!g.answers[id];
+    if (g.phase === "vote") return g.round.voters.includes(id) ? !!g.votes[id] : null;
+    return null;
+  };
+  const view = {
+    type: "faelscher",
+    gameId: g.gameId,
+    phase: g.phase,
+    inGame: g.ids.includes(me.id),
+    index: g.index,
+    count: g.questions.length,
+    frage: q && g.phase !== "over" ? q.frage : null,
+    players: g.ids.map((id) => {
+      const p = lobby.players.find((x) => x.id === id);
+      return { id, name: g.names[id], connected: !!(p && p.connected), left: !active.includes(id), done: doneOf(id), total: g.totals[id] };
+    })
+  };
+  if (g.phase === "write") view.myAnswer = g.answers[me.id] || null;
+  if (g.phase === "vote") {
+    // Ohne jede Markierung der echten Antwort
+    view.items = g.round.items.map((it) => ({ key: it.key, text: it.text }));
+    view.allowed = g.round.voters.includes(me.id) ? fzChoices(g.round, me.id).map((it) => it.key) : [];
+    view.myVote = g.votes[me.id] || null;
+    view.merged = g.round.merged.includes(me.id);
+  }
+  if (g.phase === "reveal") {
+    view.round = g.round;
+    view.votes = g.votes;
+    view.score = g.score;
+    view.erklaerung = q.erklaerung;
+  }
+  if (g.phase === "over") view.log = g.log;
+  return view;
+}
+
+function fzRequire(lobby, phase, me) {
+  const g = requireGame(lobby, phase, "faelscher");
+  if (!g.ids.includes(me.id)) fail("Du spielst in dieser Runde nicht mit.");
+  return g;
+}
+
+Object.assign(handlers, {
+  fzSettings(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    if (lobby.game && lobby.game.phase !== "over") fail("Während des Spiels können die Einstellungen nicht geändert werden.");
+    const n = Number((msg.settings || {}).count);
+    if (!FZ.COUNTS.includes(n)) fail("Ungültige Anzahl Fragen.");
+    lobby.fzSettings = { count: n };
+    return lobby;
+  },
+
+  fzAnswer(ws, msg, lobby, me) {
+    const g = fzRequire(lobby, "write", me);
+    const text = String(msg.text || "").trim().replace(/\s+/g, " ").slice(0, FZ.MAX_TEXT);
+    if (!text) fail("Leere Antworten sind nicht erlaubt.");
+    g.answers[me.id] = text;
+    fzCheck(lobby);
+    return lobby;
+  },
+
+  fzUnanswer(ws, msg, lobby, me) {
+    const g = fzRequire(lobby, "write", me);
+    delete g.answers[me.id];
+    return lobby;
+  },
+
+  fzVote(ws, msg, lobby, me) {
+    const g = fzRequire(lobby, "vote", me);
+    if (!g.round.voters.includes(me.id)) fail("Du stimmst in dieser Runde nicht ab.");
+    if (!fzChoices(g.round, me.id).some((it) => it.key === msg.key)) fail("Diese Antwort kannst du nicht wählen.");
+    g.votes[me.id] = msg.key;
+    fzCheck(lobby);
+    return lobby;
+  },
+
+  fzNext(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    requireGame(lobby, "reveal", "faelscher");
+    fzNextQuestion(lobby);
+    return lobby;
+  },
+
+  // Host: nicht länger warten
+  fzForce(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    const g = lobby.game;
+    if (!g || g.type !== "faelscher") fail("Das geht gerade nicht.");
+    if (g.phase === "write") {
+      if (!Object.keys(g.answers).length) fail("Noch hat niemand eine Antwort geschrieben.");
+      fzCloseWriting(lobby);
+    } else if (g.phase === "vote") fzFinishRound(lobby);
+    else fail("Das geht gerade nicht.");
+    return lobby;
+  },
+
+  // Host: Spiel vorzeitig beenden → Endstand
+  fzEnd(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    const g = lobby.game;
+    if (!g || g.type !== "faelscher" || g.phase === "over") fail("Das geht gerade nicht.");
+    g.phase = "over";
     return lobby;
   }
 });

@@ -1474,3 +1474,77 @@ html[data-theme="auktion"] .title h1 { font-weight: 600; font-variant: small-cap
 .auk-osteps { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .auk-osteps .auk-step { min-height: 58px; font-size: 1.2rem; }
 .lobby-player.leading { box-shadow: 0 0 0 2px var(--primary); }
+
+/* ---------- Fälscher: Startkarte wie ein Blatt aus der Schreibmaschine ---------- */
+.game-card[data-game="faelscher"] {
+  background: repeating-linear-gradient(180deg, transparent 0 27px, rgba(255, 159, 67, .08) 27px 28px), #1f1914;
+  color: #f3e9dc; border: 1px dashed #ff9f43;
+}
+.game-card[data-game="faelscher"]:hover, .game-card[data-game="faelscher"]:focus-visible { border-color: #ffb46b; }
+.game-card[data-game="faelscher"] .mode-icon { color: #ff9f43; }
+.game-card[data-game="faelscher"] .mode-title { font-family: "JetBrains Mono", monospace; font-weight: 700; letter-spacing: .02em; font-size: 1.4rem; color: #ffb46b; }
+.game-card[data-game="faelscher"] .mode-desc { color: #c9b9a6; }
+
+/* ---------- Fälscher im Spiel: Schreibstube ---------- */
+html[data-theme="faelscher"] {
+  --bg: #15110d;
+  --bg-2: #241d16;
+  --card: #1c1611;
+  --border: #3a2e22;
+  --text: #f3e9dc;
+  --muted: #b3a390;
+  --primary: #ff9f43;
+  --primary-2: #ffbe7d;
+  --on-primary: #2a1505;
+  --glow: rgba(255, 159, 67, .2);
+  --tint-good: #1f2f22;
+  --tint-bad: #3a1d16;
+  --tint-accent: #2b2016;
+  --display: "JetBrains Mono", ui-monospace, monospace;
+  --page-glow: radial-gradient(ellipse 70% 45% at 15% -8%, rgba(255, 159, 67, .12), transparent 70%);
+}
+html[data-theme="faelscher"] .title h1 { font-weight: 700; letter-spacing: -.01em; }
+.fz-box { display: flex; flex-direction: column; gap: 14px; }
+.fz-question { gap: 6px; }
+.fz-frage { margin: 0; font-family: var(--display); font-size: 1.25rem; font-weight: 700; line-height: 1.35; }
+.fz-form { gap: 8px; }
+.fz-form textarea, .fz-oform textarea {
+  width: 100%; min-height: 96px; resize: vertical; padding: 12px; border-radius: 12px; box-sizing: border-box;
+  background: var(--bg-2); color: var(--text); border: 1px solid var(--border); font: inherit; font-size: 1.05rem;
+}
+.fz-form textarea:focus { outline: none; border-color: var(--primary); }
+.fz-count { text-align: right; }
+.fz-handoff { align-items: center; text-align: center; gap: 6px; padding: 28px 18px; }
+.fz-handoff-text { margin: 0; color: var(--muted); }
+.fz-list { margin: 0; padding: 0; list-style: none; counter-reset: fz; display: flex; flex-direction: column; gap: 10px; }
+.fz-item { counter-increment: fz; display: flex; gap: 12px; align-items: flex-start; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px; font-size: 1.05rem; line-height: 1.4; }
+.fz-item::before { content: counter(fz); font-family: var(--display); font-weight: 800; color: var(--primary); min-width: 1.4em; }
+.fz-vote { display: flex; flex-direction: column; gap: 10px; }
+.fz-choice {
+  display: flex; gap: 12px; align-items: flex-start; text-align: left; width: 100%; cursor: pointer;
+  background: var(--card); color: var(--text); border: 1px solid var(--border); border-radius: 14px; padding: 14px; font: inherit; font-size: 1.05rem; line-height: 1.4;
+}
+.fz-choice .fz-num { font-family: var(--display); font-weight: 800; color: var(--primary); min-width: 1.4em; }
+.fz-choice.selected { border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary); background: var(--tint-accent); }
+.fz-choice.own { opacity: .45; cursor: default; }
+.fz-reveal { display: flex; flex-direction: column; gap: 10px; }
+.fz-real { border-left: 4px solid var(--primary); gap: 6px; }
+.fz-real-text { margin: 0; font-size: 1.2rem; font-weight: 700; }
+.fz-expl { margin: 0; color: var(--muted); line-height: 1.45; }
+.fz-merged, .fz-bonus { margin: 0; font-weight: 700; color: var(--primary); }
+.fz-res { gap: 4px; }
+.fz-res.official { background: var(--tint-accent); border-color: var(--primary); }
+.fz-res-text { margin: 0; font-size: 1.02rem; }
+.fz-res-who { font-weight: 700; font-size: .9rem; }
+.fz-res.official .fz-res-who { color: var(--primary); }
+.fz-winner { align-items: center; text-align: center; gap: 4px; padding: 24px; }
+.fz-winner-name { font-family: var(--display); font-size: 2rem; font-weight: 800; color: var(--primary); }
+.fz-winner-pts { font-family: var(--display); font-size: 1.2rem; }
+.fz-final { display: flex; flex-direction: column; gap: 14px; }
+.fz-log { gap: 12px; }
+.fz-log-item { border-top: 1px solid var(--border); padding-top: 10px; }
+.fz-log-item p { margin: 2px 0; }
+.fz-log-q { font-weight: 700; }
+.fz-log-a { color: var(--primary); }
+.fz-log-b { color: var(--muted); font-size: .92rem; }
+.fz-wait { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }

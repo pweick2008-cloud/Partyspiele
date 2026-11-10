@@ -21,6 +21,7 @@
     <symbol id="ico-crowd" viewBox="0 0 48 48"><circle cx="11" cy="28" r="4.5"/><circle cx="24" cy="28" r="4.5"/><circle cx="37" cy="28" r="4.5"/><path d="M4 43c0-5 3-8 7-8s7 3 7 8M17 43c0-5 3-8 7-8s7 3 7 8M30 43c0-5 3-8 7-8s7 3 7 8"/><path d="M24 4v13M18.5 11.5L24 17l5.5-5.5"/></symbol>
     <symbol id="ico-frame" viewBox="0 0 48 48"><rect x="6" y="8" width="36" height="32" rx="2"/><rect x="12" y="14" width="24" height="20"/><path d="M12 30l7-7 5 5 4-4 8 8"/><circle cx="30" cy="20" r="2"/></symbol>
     <symbol id="ico-gavel" viewBox="0 0 48 48"><path d="M21 6l12 12M15 12l12 12M18 9l12 12"/><path d="M24 21L9 36a3 3 0 0 0 4 4l15-15"/><path d="M28 42h14"/></symbol>
+    <symbol id="ico-quill" viewBox="0 0 48 48"><path d="M40 6C26 8 16 18 12 34l-3 8"/><path d="M40 6c-1 10-7 18-16 22H16"/><path d="M30 12l-8 8"/><path d="M8 42h12"/></symbol>
     <symbol id="ico-pencil" viewBox="0 0 48 48"><path d="M32.5 7.5l8 8L17.5 38.5 7 41l2.5-10.5z"/><path d="M28.5 11.5l8 8"/><path d="M9.5 30.5l8 8"/><path d="M8.3 35.5l4.2 4.2"/></symbol>
     <symbol id="ico-handoff" viewBox="0 0 48 48"><rect x="13" y="6" width="19" height="34" rx="4"/><path d="M20 35h5"/><path d="M36.5 15.5c3.5 3 3.5 9 0 12"/><path d="M36.5 27.5l-3.3-.2M36.5 27.5l.6-3.2"/></symbol>
     <symbol id="ico-globe" viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M8 24h32"/><path d="M24 8c5 4.4 7 10 7 16s-2 11.6-7 16c-5-4.4-7-10-7-16s2-11.6 7-16z"/></symbol>
@@ -84,6 +85,13 @@
         <span class="mode-text">
           <span class="mode-title">Kritzeln</span>
           <span class="mode-desc">Einer zeichnet, alle anderen raten im Chat. Je schneller, desto mehr Punkte.</span>
+        </span>
+      </button>
+      <button class="mode-card game-card" type="button" data-game="faelscher">
+        <span class="mode-icon"><svg class="ico"><use href="#ico-quill"/></svg></span>
+        <span class="mode-text">
+          <span class="mode-title">Fälscher</span>
+          <span class="mode-desc">Eine obskure Frage, viele erfundene Antworten – und nur eine ist echt. Wer fällt auf deine Fälschung rein?</span>
         </span>
       </button>
       <button class="mode-card game-card" type="button" data-game="auktion">
@@ -774,6 +782,42 @@
       <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>
     </section>
 
+    <!-- ============ FÄLSCHER ============ -->
+    <section id="screen-fz-setup" class="screen">
+      <button class="back-link" type="button" data-back="menu">← Menü</button>
+      <header class="title">
+        <h1>Fälscher</h1>
+        <p class="sub">Ein Gerät · wird reihum weitergegeben</p>
+      </header>
+      <div class="card">
+        <div class="row-between">
+          <h2>Spieler</h2>
+          <div class="stepper" id="fz-stepper">
+            <button type="button" data-dir="-1" aria-label="Spieler entfernen">−</button>
+            <span id="fz-count">3</span>
+            <button type="button" data-dir="1" aria-label="Spieler hinzufügen">+</button>
+          </div>
+        </div>
+        <div id="fz-players" class="player-list"></div>
+      </div>
+      <div class="card">
+        <h2>Anzahl Fragen</h2>
+        <div id="fz-qcount" class="chips"></div>
+        <p class="muted small">Punkte: +2 für das Finden der echten Antwort, +1 für jede Stimme auf deine Fälschung.</p>
+      </div>
+      <p id="fz-error" class="error" hidden></p>
+      <button id="fz-start" class="btn primary big" type="button">Los geht's</button>
+    </section>
+
+    <section id="screen-fz-online" class="screen">
+      <div id="fz-online" class="fz-box"></div>
+      <button class="btn ghost fz-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-fz-local" class="screen">
+      <div id="fz-local" class="fz-box"></div>
+    </section>
+
     <!-- ============ GEHEIME AUKTION ============ -->
     <section id="screen-auk-setup" class="screen">
       <button class="back-link" type="button" data-back="menu">← Menü</button>
@@ -1210,6 +1254,16 @@
         </div>
       </div>
 
+      <div class="card" id="fz-settings" hidden>
+        <div class="row-between">
+          <h2>Einstellungen</h2>
+          <span class="pill" id="fz-host-pill"></span>
+        </div>
+        <span class="muted small">Anzahl Fragen</span>
+        <div id="fz-ocount" class="chips"></div>
+        <p class="muted small">Punkte: +2 für das Finden der echten Antwort, +1 für jede Stimme auf deine Fälschung.</p>
+      </div>
+
       <div class="card" id="auk-settings" hidden>
         <div class="row-between">
           <h2>Einstellungen</h2>
@@ -1429,6 +1483,8 @@
   <script src="app.js"></script>
   <script src="auktion-rules.js"></script>
   <script src="auktion-local.js"></script>
+  <script src="faelscher-rules.js"></script>
+  <script src="faelscher-local.js"></script>
   <script src="ehesten-fragen.js"></script>
   <script src="ehesten.js"></script>
   <script src="wbi.js"></script>
@@ -1444,5 +1500,6 @@
   <script src="kontext-online.js"></script>
   <script src="galerie-online.js"></script>
   <script src="auktion-online.js"></script>
+  <script src="faelscher-online.js"></script>
 </body>
 </html>

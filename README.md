@@ -1,12 +1,13 @@
 # Partyspiele
 
-Neun Spiele:
+Zehn Spiele:
 
 - **Verräter** – alle kennen einen geheimen Begriff, nur die Verräter nicht. Pass & Play oder online.
 - **Wer bin ich?** – jeder bekommt eine Person, die alle kennen außer ihm selbst. Pass & Play oder online.
 - **SPIEGEL** – Karten, Lügen und Fallen für genau 2 Spieler. Pass & Play oder online.
 - **Stadt Land Fluss** – ein Buchstabe, eigene Kategorien, Zeitdruck. Nur online, 1 bis 20 Spieler.
 - **Kritzeln** – einer zeichnet, alle anderen raten. Nur online, 2 bis 20 Spieler.
+- **Fälscher** – eine obskure Frage, viele erfundene Antworten, nur eine ist echt. Pass & Play oder online, 3 bis 8 Spieler.
 - **Geheime Auktion** – Lose ersteigern: echt, gefälscht oder ein verkannter Schatz? Ein Tablet in der Mitte (2–4 Spieler) oder online (2–20, jeder am eigenen Handy).
 - **Galerie** – jeder schreibt einen Begriff, alle zeichnen ihn gleichzeitig, die beste Zeichnung gewinnt. Nur online, 3 bis 12 Spieler.
 - **Wer würde am ehesten?** – einer liest vor, die Gruppe entscheidet. Nur Pass & Play, 3 bis 20 Spieler.
@@ -111,6 +112,25 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Apple Pencil:** Die Strichstärke folgt dem Druck. Es wird immer nur ein Strich gleichzeitig gezeichnet; sobald der Stift erkannt wurde, werden Finger und Handballen ignoriert. Setzt der Handballen vor dem Stift auf, wird dieser Strich wieder entfernt.
 - **Zoom:** Beim Zeichner wird ein bestehender Zoom zurückgesetzt und Zwei-Finger- sowie Doppeltipp-Zoom gesperrt, solange er zeichnet. Danach ist Zoomen wieder möglich.
 - Die Wortliste (749 Begriffe: 278 einfach, 120 mittel, 171 schwer, 180 sehr schwer) steht in `draw-words.js` und liegt nur auf dem Server.
+
+## Fälscher (Pass & Play oder online, 3–8 Spieler)
+
+1. **Frage:** Die App stellt eine obskure Frage, etwa „Was ist ein ‚Gongoozler‘?“ oder „Warum wurde der erste Läufer im Ziel beim olympischen Marathon 1904 disqualifiziert?“. Es gibt fünf Typen: obskure Wörter, Geschichte, kuriose Ereignisse, Namensherkunft und Natur.
+2. **Fälschen:** Jeder schreibt geheim eine glaubwürdige, aber falsche Antwort, höchstens 200 Zeichen. Leere Antworten gehen nicht.
+3. **Zusammenlegen:** Antworten werden nur zusammengelegt, wenn sie praktisch gleich geschrieben sind: normalisiert (Kleinbuchstaben, ohne Satzzeichen, Leerzeichen zusammengefasst), Levenshtein-Abstand höchstens 2, unter 15 Zeichen höchstens 1.
+   - Gleich mit der offiziellen Antwort: +2, keine Abstimmung, keine Punkte durch Stimmen.
+   - Gleich untereinander: Die Antworten erscheinen einmal in der Liste, und jeder Autor bekommt die Stimmen.
+4. **Antwortliste:** Alle Antworten erscheinen nummeriert und gemischt, die offizielle ohne Markierung. Einer liest vor.
+5. **Abstimmen:** Jeder wählt geheim eine Antwort, die eigene geht nicht. Bleibt nur die offizielle übrig, muss man sie wählen. Haben alle die echte Antwort geschrieben, entfällt die Abstimmung.
+6. **Aufdecken:** Die echte Antwort mit Erklärung, wer was geschrieben und gewählt hat, und die Punkte.
+
+**Wertung:** +2 für das Wählen der offiziellen Antwort, +2 für eine Antwort, die mit der offiziellen zusammengelegt wurde, +1 für jede Stimme auf die eigene Antwort. Wählt niemand die offizielle Antwort, bekommt jeder Autor in der Liste +1. Nur die offizielle Antwort zählt als richtig, auch wenn eine Fälschung inhaltlich stimmt. Bei Gleichstand teilen sich die Spieler den Platz.
+
+- **Pass & Play:** Beim Schreiben und Abstimmen gibt es Übergabe-Bildschirme („Gib das Handy an …“ → „Ich bin …“).
+- **Online:** Alle schreiben und stimmen gleichzeitig ab, angezeigt wird, auf wen noch gewartet wird. Der Host schaltet weiter. Die offizielle Antwort verlässt den Server erst beim Aufdecken, Zusammenlegen und Wertung laufen dort.
+- **Einstellbar:** 4–15 Fragen, Standard 8. Keine Frage kommt in einem Spiel doppelt, zuletzt gespielte kommen erst später wieder.
+- **Ende:** Rangliste und Rundenlog mit Frage, echter Antwort und bester Fälschung samt Autor. Danach „Nochmal spielen“ mit neuen Fragen.
+- Die Fragen stehen in `faelscher-fragen.js` (Felder id, typ, frage, antwort, erklaerung), die Regeln in `faelscher-rules.js`.
 
 ## Geheime Auktion (Tablet in der Mitte für 2–4 Spieler, online für 2–20)
 
