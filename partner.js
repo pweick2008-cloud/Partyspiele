@@ -141,7 +141,8 @@ const Partner = (() => {
       high: null,
       value: 1,
       result: null,
-      timer: null
+      timer: null,
+      stapel: null
     });
     render();
   }
@@ -172,6 +173,7 @@ const Partner = (() => {
     game.turn %= game.active.length;
     // Nur noch das Team mit dem Höchstgebot übrig → es muss liefern
     if (game.active.length === 1) {
+      openDeck();
       const used = load(USED, []).filter((q) => q !== task().q);
       used.push(task().q);
       save(USED, used.slice(-Math.floor(PARTNER_AUFGABEN.length * 0.7)));
@@ -188,6 +190,96 @@ const Partner = (() => {
     game.phase = "result";
     game.log.push({ q: task().q, team: team.id, doer: doerOf(team), amount: game.high.amount, unit: task().e, ok });
     render();
+  }
+
+  /* ---------- Kartenstapel ---------- */
+  let quizPromise = null;
+  function loadQuiz() {
+    if (typeof QUIZ_KATEGORIEN !== "undefined") return Promise.resolve();
+    if (!quizPromise) {
+      quizPromise = new Promise((resolve) => {
+        const el = document.createElement("script");
+        el.src = "quiz-fragen.js";
+        el.onload = resolve;
+        el.onerror = () => { quizPromise = null; resolve(); };
+        document.head.appendChild(el);
+      });
+    }
+    return quizPromise;
+  }
+
+  async function openDeck() {
+    const key = task().k;
+    game.stapel = null;
+    if (!key || typeof PartnerStapel === "undefined" || !PartnerStapel.STAPEL[key]) return;
+    if (PartnerStapel.needsQuiz(key)) await loadQuiz();
+    const def = PartnerStapel.STAPEL[key];
+    game.stapel = { key, def, state: { seen: new Set() }, right: 0, shown: false, card: null, list: null };
+    drawCard();
+  }
+
+  function drawCard() {
+    const d = game.stapel;
+    if (!d) return;
+    d.shown = false;
+    if (d.def.art === "folge") d.list = PartnerStapel.folge(d.key, game.high.amount);
+    else d.card = PartnerStapel.draw(d.key, d.state);
+    render();
+  }
+
+  function deckAnswer(ok) {
+    const d = game.stapel;
+    if (ok) {
+      d.right++;
+      if (navigator.vibrate) navigator.vibrate(20);
+    }
+    drawCard();
+  }
+
+  function renderDeck() {
+    const d = game.stapel;
+    const box = $("pk-deck");
+    box.hidden = !d || game.phase !== "do";
+    if (box.hidden) return;
+    const art = d.def.art;
+    const card = d.card || {};
+    $("pk-deck-title").textContent = art === "einzeln" ? (d.def.titel || "Vorgabe")
+      : art === "folge" ? d.def.titel
+      : d.def.zeigen ? "Dein Partner schaut aufs Display" : "Für das andere Team zum Vorlesen";
+    $("pk-deck-v").hidden = art === "folge";
+    $("pk-deck-v").textContent = card.v || "";
+    $("pk-deck-v").style.color = card.farbe || "";
+    $("pk-deck-v").classList.toggle("gross", !!card.gross);
+    $("pk-deck-v").classList.toggle("stroop", !!card.farbe);
+    const list = $("pk-deck-list");
+    list.hidden = art !== "folge";
+    if (art === "folge") {
+      list.innerHTML = "";
+      list.classList.toggle("kurz", d.key === "ziffern");
+      for (const item of d.list || []) {
+        const li = document.createElement("li");
+        li.textContent = item;
+        list.appendChild(li);
+      }
+    }
+    // Lösung: verdeckt, wenn der Partner selbst aufs Display schaut
+    const hasSolution = !!card.l && art === "karten";
+    const hidden = d.def.zeigen && !d.shown;
+    $("pk-deck-l").hidden = !hasSolution || hidden;
+    $("pk-deck-l").textContent = hasSolution ? `Lösung: ${card.l}` : "";
+    $("pk-deck-reveal").hidden = !hasSolution || !hidden;
+    const counting = art === "karten";
+    $("pk-deck-btns").hidden = !counting;
+    $("pk-deck-count").hidden = !counting;
+    if (counting) {
+      const reached = d.right >= game.high.amount;
+      $("pk-deck-count").textContent = reached
+        ? `${d.right} richtig – Gebot erreicht!`
+        : `${d.right} von ${game.high.amount} richtig`;
+      $("pk-deck-count").classList.toggle("reached", reached);
+    }
+    $("pk-deck-new").hidden = art === "karten";
+    $("pk-deck-new").textContent = art === "folge" ? "Neue Liste" : "Neu ziehen";
   }
 
   /* ---------- Uhr ---------- */
@@ -314,6 +406,7 @@ const Partner = (() => {
       $("pk-clock-start").textContent = a.m === "dauer" ? "Stoppuhr starten" : "Zeit starten";
       if (needsClock) renderClock();
       $("pk-judge").hidden = game.phase !== "do";
+      renderDeck();
       $("pk-yes").textContent = `Geschafft (+${WIN})`;
       $("pk-no").textContent = `Nicht geschafft (−${LOSE})`;
       const res = $("pk-result");
@@ -379,6 +472,10 @@ const Partner = (() => {
     $("pk-bid-pass").addEventListener("click", pass);
     $("pk-swap").addEventListener("click", swapTask);
     $("pk-clock-start").addEventListener("click", startClock);
+    $("pk-deck-right").addEventListener("click", () => deckAnswer(true));
+    $("pk-deck-skip").addEventListener("click", () => deckAnswer(false));
+    $("pk-deck-new").addEventListener("click", drawCard);
+    $("pk-deck-reveal").addEventListener("click", () => { game.stapel.shown = true; render(); });
     $("pk-yes").addEventListener("click", () => judge(true));
     $("pk-no").addEventListener("click", () => judge(false));
     $("pk-next").addEventListener("click", () => { nextTask(false); window.scrollTo(0, 0); });

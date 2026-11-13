@@ -967,6 +967,21 @@
           <span class="pk-clock-label" id="pk-clock-label"></span>
         </div>
         <button id="pk-clock-start" class="btn primary big" type="button" hidden></button>
+        <div class="pk-deck" id="pk-deck" hidden>
+          <span class="role-label" id="pk-deck-title"></span>
+          <div class="pk-deck-card" id="pk-deck-card">
+            <span class="pk-deck-v" id="pk-deck-v"></span>
+            <ol class="pk-deck-list" id="pk-deck-list" hidden></ol>
+            <span class="pk-deck-l" id="pk-deck-l"></span>
+          </div>
+          <button id="pk-deck-reveal" class="btn ghost small-btn" type="button" hidden>Lösung zeigen</button>
+          <div class="pk-deck-count" id="pk-deck-count"></div>
+          <div class="host-row" id="pk-deck-btns">
+            <button id="pk-deck-right" class="btn yes" type="button">Richtig ✓</button>
+            <button id="pk-deck-skip" class="btn ghost" type="button">Falsch / weiter</button>
+          </div>
+          <button id="pk-deck-new" class="btn ghost small-btn" type="button">Neu ziehen</button>
+        </div>
         <div class="host-row" id="pk-judge">
           <button id="pk-yes" class="btn yes" type="button"></button>
           <button id="pk-no" class="btn no" type="button"></button>
@@ -1700,6 +1715,8 @@
   <script src="ehesten.js"></script>
   <script src="quiz.js"></script>
   <script src="partner-aufgaben.js"></script>
+  <script src="partner-stapel-listen.js"></script>
+  <script src="partner-stapel.js"></script>
   <script src="partner.js"></script>
   <script src="wbi.js"></script>
   <script src="online.js"></script>

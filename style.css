@@ -1755,3 +1755,16 @@ html[data-theme="partner"] .title h1 { font-weight: 800; letter-spacing: -.01em;
 .pk-log .good { color: var(--success); }
 .pk-log .bad { color: var(--danger); }
 #pk-log-card summary { cursor: pointer; font-weight: 700; }
+
+/* Mein Partner kann: Kartenstapel */
+.pk-deck { display: flex; flex-direction: column; gap: 8px; padding: 12px; border-radius: 16px; background: var(--bg); border: 1px dashed var(--border); }
+.pk-deck .role-label { color: var(--muted); font-size: .78rem; }
+.pk-deck-card { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 10px; border-radius: 12px; background: var(--bg-2); }
+.pk-deck-v { font-family: var(--display); font-weight: 800; font-size: clamp(1.4rem, 6.5vw, 2.2rem); line-height: 1.2; overflow-wrap: anywhere; }
+.pk-deck-v.gross { font-size: clamp(4rem, 22vw, 7rem); line-height: 1.1; }
+.pk-deck-v.stroop { font-size: clamp(2.6rem, 14vw, 4.4rem); letter-spacing: .04em; }
+.pk-deck-l { color: var(--primary-2); font-weight: 600; overflow-wrap: anywhere; }
+.pk-deck-list { margin: 0; padding-left: 1.6em; text-align: left; align-self: stretch; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 4px 14px; font-weight: 600; }
+.pk-deck-list.kurz { grid-template-columns: repeat(auto-fill, minmax(52px, 1fr)); font-family: var(--mono); font-size: 1.3rem; }
+.pk-deck-count { font-family: var(--mono); font-weight: 700; color: var(--muted); }
+.pk-deck-count.reached { color: var(--success); }
