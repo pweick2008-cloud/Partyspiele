@@ -1670,3 +1670,88 @@ html[data-theme="quiz"] .title h1 { font-weight: 800; letter-spacing: -.01em; }
 }
 .quiz-buzzers.armed .quiz-buzzer { opacity: 1; filter: none; }
 .quiz-buzzers.armed .quiz-buzzer:active { transform: translateY(4px); border-bottom-width: 3px; }
+
+/* =========================================================
+   Mein Partner kann – Wettkampf: dunkles Petrol, Signalorange
+   ========================================================= */
+.game-card[data-game="partner"] {
+  background: linear-gradient(115deg, #ff8a3d 0 50%, #0f5e63 50% 100%); border: none; color: #fff;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .3);
+}
+.game-card[data-game="partner"]:hover, .game-card[data-game="partner"]:focus-visible { border: none; }
+.game-card[data-game="partner"] .mode-icon { color: #1c1206; }
+.game-card[data-game="partner"] .mode-title { font-family: "Bricolage Grotesque", sans-serif; font-weight: 800; color: #fff; text-shadow: 0 1px 8px rgba(0, 0, 0, .35); }
+.game-card[data-game="partner"] .mode-desc { color: #fff; text-shadow: 0 1px 6px rgba(0, 0, 0, .45); }
+
+html[data-theme="partner"] {
+  --bg: #0b1a1c;
+  --bg-2: #183235;
+  --card: #11272a;
+  --border: #25474b;
+  --text: #f1f6f3;
+  --muted: #93b1b0;
+  --primary: #ff8a3d;
+  --primary-2: #ffb07a;
+  --on-primary: #2a1202;
+  --glow: rgba(255, 138, 61, .25);
+  --tint-good: #143526;
+  --tint-bad: #3d1c1a;
+  --tint-accent: #1b3a3d;
+  --display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --page-glow: radial-gradient(ellipse 70% 45% at 0% -10%, rgba(255, 138, 61, .16), transparent 70%),
+               radial-gradient(ellipse 60% 40% at 100% 0%, rgba(46, 196, 182, .14), transparent 70%);
+}
+html[data-theme="partner"] .title h1 { font-weight: 800; letter-spacing: -.01em; }
+
+.pk-teams { display: flex; flex-direction: column; gap: 10px; }
+.pk-team-row { display: grid; grid-template-columns: auto minmax(0, 1fr) minmax(0, 1fr); gap: 8px; align-items: center; }
+.pk-team-num { font-family: var(--mono); font-size: .8rem; color: var(--muted); white-space: nowrap; }
+
+.pk-meta { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; font-family: var(--mono); font-size: .82rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+.pk-tags { display: flex; gap: 6px; }
+.pk-tag { padding: 4px 10px; border-radius: 999px; background: var(--bg-2); border: 1px solid var(--border); color: var(--text); letter-spacing: .04em; }
+.pk-tag[data-type="w"] { background: #23406b; border-color: #3b62a0; }
+.pk-tag[data-type="d"] { background: #4a2d6b; border-color: #7248a3; }
+.pk-tag[data-type="p"] { background: #6b3a1f; border-color: #a85e2f; }
+.pk-task { text-align: center; padding: 22px 18px; background: linear-gradient(160deg, var(--tint-accent), var(--card)); }
+.pk-question { margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(1.3rem, 5.4vw, 1.9rem); line-height: 1.2; overflow-wrap: anywhere; }
+.pk-task .small { margin: 0; }
+
+.pk-roles { display: flex; flex-direction: column; gap: 6px; }
+.pk-role { display: grid; grid-template-columns: 2.2em minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 8px 12px; border-radius: 12px; background: var(--card); border: 1px solid var(--border); font-size: .92rem; }
+.pk-role.turn { border-color: var(--primary); box-shadow: 0 0 0 3px var(--glow); }
+.pk-role.out { opacity: .45; }
+.pk-role-score { font-family: var(--mono); font-weight: 700; font-size: 1.15rem; color: var(--primary); text-align: center; }
+.pk-role-names { color: var(--muted); overflow-wrap: anywhere; }
+.pk-role-names strong { color: var(--text); }
+.pk-role-state { font-family: var(--mono); font-weight: 700; color: var(--muted); }
+.pk-role.lead .pk-role-state { color: var(--on-primary); background: var(--primary); padding: 2px 10px; border-radius: 999px; }
+
+.pk-bid { text-align: center; }
+.pk-bid .role-label { color: var(--primary); }
+.pk-bid-high { margin: 0; color: var(--muted); }
+.pk-bid-steps { display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto auto; gap: 6px; align-items: center; }
+.pk-step { appearance: none; cursor: pointer; width: 52px; height: 52px; border-radius: 14px; border: 1px solid var(--border); background: var(--bg-2); color: var(--text); font-family: var(--mono); font-weight: 700; font-size: 1rem; touch-action: manipulation; }
+.pk-step:active { transform: scale(.94); }
+.pk-bid-num { display: flex; flex-direction: column; align-items: center; min-width: 0; }
+.pk-bid-num strong { font-family: var(--display); font-weight: 800; font-size: 3.2rem; line-height: 1; color: var(--primary); font-variant-numeric: tabular-nums; }
+.pk-bid-num span { font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
+
+.pk-do { text-align: center; align-items: stretch; }
+.pk-do-who { margin: 0; font-family: var(--display); font-weight: 800; font-size: 2.2rem; line-height: 1.1; color: var(--primary); overflow-wrap: anywhere; }
+.pk-do-goal { margin: 0; font-size: 1.15rem; font-weight: 600; }
+.pk-clock { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px; border-radius: 16px; background: var(--bg); border: 2px solid var(--border); }
+.pk-clock-num { font-family: var(--mono); font-weight: 700; font-size: clamp(3.4rem, 18vw, 5.5rem); line-height: 1; font-variant-numeric: tabular-nums; }
+.pk-clock-label { color: var(--muted); font-size: .9rem; }
+.pk-clock.urgent { border-color: var(--danger); }
+.pk-clock.urgent .pk-clock-num { color: var(--danger); }
+.pk-clock.done { border-color: var(--danger); background: var(--tint-bad); }
+.pk-clock.done.good { border-color: var(--success); background: var(--tint-good); }
+.pk-clock.done .pk-clock-label { color: var(--text); font-weight: 700; }
+.pk-result { margin: 0; padding: 14px; border-radius: 14px; font-family: var(--display); font-weight: 800; font-size: 1.25rem; }
+.pk-result.good { background: var(--tint-good); color: var(--success); }
+.pk-result.bad { background: var(--tint-bad); color: var(--danger); }
+.pk-log { margin: 8px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 4px; font-size: .92rem; }
+.pk-log .good { color: var(--success); }
+.pk-log .bad { color: var(--danger); }
+#pk-log-card summary { cursor: pointer; font-weight: 700; }

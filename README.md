@@ -1,6 +1,6 @@
 # Partyspiele
 
-Elf Spiele:
+Zwölf Spiele:
 
 - **Verräter** – alle kennen einen geheimen Begriff, nur die Verräter nicht. Pass & Play oder online.
 - **Wer bin ich?** – jeder bekommt eine Person, die alle kennen außer ihm selbst. Pass & Play oder online.
@@ -12,6 +12,7 @@ Elf Spiele:
 - **Galerie** – jeder schreibt einen Begriff, alle zeichnen ihn gleichzeitig, die beste Zeichnung gewinnt. Nur online, 3 bis 12 Spieler.
 - **Wer würde am ehesten?** – einer liest vor, die Gruppe entscheidet. Nur Pass & Play, 3 bis 20 Spieler.
 - **Quizwand** – Quizfragen von 100 bis 1000 Punkten in 10 Kategorien auf zwei Seiten, Claude bewertet die Antworten (angelehnt an *Jeopardy!*). Nur Pass & Play, 1 bis 10 Spieler.
+- **Mein Partner kann** – Zweierteams überbieten sich, wie viel der eigene Partner schafft, dann muss er liefern. Nur Pass & Play, 2 bis 6 Teams.
 - **Kontextlos** – harmlose Antworten werden aus dem Zusammenhang gerissen (angelehnt an *Survive the Internet*). Nur online, 3 bis 12 Spieler.
 
 Auf der Startseite wählt man das Spiel, danach den Modus:
@@ -177,6 +178,16 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Besonderheiten:** Bei *Flaggen* wird die Flagge als Emoji gezeigt (auf Windows-PCs zeigen manche Browser statt der Flagge nur zwei Buchstaben). Bei *Minecraft-Crafting* erscheint das Rezept im 3×3-Feld. Bei *Was ist die Frage?* steht die Antwort da und man muss die passende Frage bilden („Was ist …?“).
 - **Fragen:** 1.851 Fragen in 18 Kategorien: Mathe, Chemie, Physik, Flaggen, Hauptstädte, Minecraft-Crafting, Was ist die Frage?, Musik, Filme & Serien, Tiere, Fußball, Geschichte, Weltall, Menschlicher Körper, Essen & Trinken, Videospiele, Wörter & Redewendungen, Erfindungen & Technik. Zuletzt gespielte Fragen kommen erst später wieder.
 - Die Fragen stehen als JSON in `quiz-fragen/` (Format in `quiz-fragen/FORMAT.md`). Nach Änderungen `node tools/quiz-build.js` ausführen, das erzeugt `quiz-fragen.js`.
+
+## Mein Partner kann (Pass & Play, 2–6 Zweierteams)
+
+- **Rollen:** Pro Aufgabe bietet aus jedem Team einer, der Partner muss antreten und darf beim Bieten nichts verraten. Nach jeder Aufgabe tauschen die Rollen.
+- **Bieten:** Die Aufgabe erscheint, zum Beispiel „Wie viele Länder Europas kann dein Partner aufzählen?“. Reihum überbieten sich die Bieter („Ben schafft 12!“) oder passen. Wer passt, ist für diese Aufgabe raus. Jede Runde eröffnet ein anderes Team. Solange noch niemand geboten hat, lässt sich die Aufgabe tauschen.
+- **Antreten:** Bleibt nur noch ein Team übrig, muss dessen Partner das Gebot schaffen. **Geschafft: +2 Punkte, nicht geschafft: −1.** Die anderen Teams zählen mit und entscheiden.
+- **Aufgaben:** 133 Stück in drei Arten – Wissen (48, z. B. Länder, Hunderassen, Nachkommastellen von Pi), Denken (43, z. B. Wortketten, Kopfrechnen, Ziffern merken) und Körper (42, z. B. Liegestütze, Wandsitz, Papierkugeln werfen). Die Arten lassen sich abwählen und wechseln sich im Spiel ab.
+- **Zeit:** 95 Aufgaben haben ein Zeitlimit (10 bis 90 Sekunden, die App zählt herunter und piept am Ende), 23 laufen ohne Zeit (z. B. bis zum ersten Fehler), bei 15 ist das Gebot selbst eine Zeit („Wie viele Sekunden hält dein Partner den Wandsitz?“) – dort läuft eine Stoppuhr und meldet, wenn das Ziel erreicht ist.
+- Einige Körper-Aufgaben brauchen einfache Dinge wie Papierkugeln, Münzen oder Becher; das steht im Hinweis unter der Aufgabe.
+- **Einstellbar:** 6 bis 20 Aufgaben. Die Aufgaben stehen in `partner-aufgaben.js`.
 
 ## Claude-Version
 
