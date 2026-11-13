@@ -180,16 +180,16 @@ const Quiz = (() => {
   }
 
   /* ---------- Punkte ---------- */
-  // Wer ein Feld wählt, antwortet zuerst: falsch kostet nichts.
-  // Wer danach klaut: richtig = +Wert, falsch = −Wert.
+  // Richtig = +Wert, falsch = −halber Wert – für den, der gewählt hat,
+  // genauso wie für alle, die danach klauen. „Weiß ich nicht“ kostet nichts.
   function scores() {
     const s = game.players.map(() => 0);
     for (const page of game.pages) {
       for (const col of page.cols) {
         for (const cell of col.cells) {
-          cell.attempts.forEach((a, i) => {
+          cell.attempts.forEach((a) => {
             if (a.ok === true) s[a.p] += cell.value;
-            else if (a.ok === false && i > 0) s[a.p] -= cell.value;
+            else if (a.ok === false) s[a.p] -= cell.value / 2;
           });
         }
       }
@@ -339,8 +339,8 @@ const Quiz = (() => {
     if (asking) {
       const first = cell.attempts.length === 0;
       $("quiz-answer-who").textContent = first
-        ? `${game.players[cur.answering]} antwortet`
-        : `${game.players[cur.answering]} versucht zu klauen (falsch kostet ${cell.value})`;
+        ? `${game.players[cur.answering]} antwortet (falsch kostet ${cell.value / 2})`
+        : `${game.players[cur.answering]} versucht zu klauen (falsch kostet ${cell.value / 2})`;
       $("quiz-input").placeholder = isReverse() ? "Eure Frage, z. B. „Was ist …?“" : "Antwort eintippen";
       $("quiz-input").disabled = judging;
       $("quiz-check").disabled = judging;
@@ -360,7 +360,7 @@ const Quiz = (() => {
       $("quiz-v-reason").textContent = last.reason || "";
       $("quiz-v-reason").hidden = !last.reason;
       $("quiz-v-flip").textContent = last.ok ? "Doch falsch" : "Doch richtig";
-      const pts = last.ok ? `+${cell.value}` : cell.attempts.length > 1 ? `−${cell.value}` : "0";
+      const pts = last.ok ? `+${cell.value}` : `−${cell.value / 2}`;
       $("quiz-v-points").textContent = pts;
     }
 
@@ -386,7 +386,7 @@ const Quiz = (() => {
       chips.innerHTML = "";
       for (const i of others) chips.appendChild(makeChip(game.players[i], false, () => { cur.answering = i; cur.verdict = null; renderAnswerArea(); focusInput(); }));
       $("quiz-steal-text").textContent = others.length
-        ? `Wer will klauen? Richtig gibt ${cell.value}, falsch kostet ${cell.value}.`
+        ? `Wer will klauen? Richtig gibt ${cell.value}, falsch kostet ${cell.value / 2}.`
         : "Alle haben es versucht.";
       $("quiz-nobody").textContent = others.length ? "Keiner – Lösung zeigen" : "Lösung zeigen";
     }
