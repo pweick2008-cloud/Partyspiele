@@ -1653,3 +1653,20 @@ html[data-theme="quiz"] .title h1 { font-weight: 800; letter-spacing: -.01em; }
 .quiz-solution { text-align: center; align-items: center; }
 .quiz-solution-text { margin: 0; font-family: var(--display); font-weight: 800; font-size: 1.5rem; color: var(--primary); overflow-wrap: anywhere; }
 @media (min-width: 700px) { .quiz-cell { aspect-ratio: 2 / 1; } }
+
+/* Quizwand: Buzzer zum Klauen */
+.quiz-steal { text-align: center; }
+.quiz-buzzers { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.quiz-buzzers[data-count="1"] { grid-template-columns: 1fr; }
+.quiz-buzzers[data-count="0"] { display: none; }
+@media (min-width: 700px) { .quiz-buzzers:not([data-count="1"]):not([data-count="2"]):not([data-count="4"]) { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.quiz-buzzer {
+  appearance: none; cursor: pointer; min-height: 120px; padding: 12px; border-radius: 22px;
+  border: 0; border-bottom: 7px solid rgba(0, 0, 0, .35);
+  background: var(--buzz); color: #14102a;
+  font-family: var(--display); font-weight: 800; font-size: clamp(1.3rem, 6vw, 2rem); line-height: 1.1;
+  overflow-wrap: anywhere; touch-action: manipulation; user-select: none; -webkit-user-select: none;
+  opacity: .3; filter: saturate(.4); transition: opacity .15s, filter .15s, transform .06s;
+}
+.quiz-buzzers.armed .quiz-buzzer { opacity: 1; filter: none; }
+.quiz-buzzers.armed .quiz-buzzer:active { transform: translateY(4px); border-bottom-width: 3px; }

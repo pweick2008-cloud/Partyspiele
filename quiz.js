@@ -22,6 +22,9 @@ const Quiz = (() => {
   let setup = { names: ["", ""], cats: [] };
   let game = null;
   let judgeCall = null; // AbortController der laufenden Bewertung
+  let buzzTimer = null;
+  const BUZZ_LOCK_MS = 1500; // so lange sind die Buzzer nach dem Einblenden gesperrt
+  const BUZZ_COLORS = ["#ff5ca8", "#5cc8ff", "#ffd84d", "#7be08a", "#b48cff", "#ff8a4d", "#4de0d0", "#f26d6d", "#c8f560", "#9aa4ff"];
   let dataPromise = null;
 
   const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) || d; } catch (e) { return d; } };
@@ -382,12 +385,41 @@ const Quiz = (() => {
     const canSteal = !done && cur.answering === null && !cur.manual;
     $("quiz-steal").hidden = !canSteal;
     if (canSteal) {
-      const chips = $("quiz-steal-chips");
-      chips.innerHTML = "";
-      for (const i of others) chips.appendChild(makeChip(game.players[i], false, () => { cur.answering = i; cur.verdict = null; renderAnswerArea(); focusInput(); }));
-      $("quiz-steal-text").textContent = others.length
-        ? `Wer will klauen? Richtig gibt ${cell.value}, falsch kostet ${cell.value / 2}.`
-        : "Alle haben es versucht.";
+      // Buzzer: ein großes Feld pro Spieler, der Erste, der drückt, darf antworten.
+      // Kurz gesperrt, damit alle ihren Finger bereitlegen können.
+      if (!cur.buzzAt) {
+        cur.buzzAt = Date.now() + BUZZ_LOCK_MS;
+        clearTimeout(buzzTimer);
+        buzzTimer = setTimeout(() => { if (game && game.cur === cur) renderAnswerArea(); }, BUZZ_LOCK_MS + 20);
+      }
+      const armed = Date.now() >= cur.buzzAt;
+      const box = $("quiz-buzzers");
+      box.innerHTML = "";
+      box.classList.toggle("armed", armed);
+      box.dataset.count = others.length;
+      for (const i of others) {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "quiz-buzzer";
+        b.style.setProperty("--buzz", BUZZ_COLORS[i % BUZZ_COLORS.length]);
+        b.textContent = game.players[i];
+        b.addEventListener("pointerdown", (e) => {
+          e.preventDefault();
+          // Nur der erste Druck zählt
+          if (game.cur !== cur || cur.answering !== null || Date.now() < cur.buzzAt) return;
+          if (navigator.vibrate) navigator.vibrate(30);
+          cur.answering = i;
+          cur.verdict = null;
+          cur.buzzAt = null;
+          renderAnswerArea();
+          focusInput();
+        });
+        box.appendChild(b);
+      }
+      $("quiz-steal-text").textContent = !others.length
+        ? "Alle haben es versucht."
+        : armed ? `Buzzern! Wer zuerst drückt, darf klauen: richtig +${cell.value}, falsch −${cell.value / 2}.`
+          : "Finger bereit …";
       $("quiz-nobody").textContent = others.length ? "Keiner – Lösung zeigen" : "Lösung zeigen";
     }
     $("quiz-back").hidden = !done;

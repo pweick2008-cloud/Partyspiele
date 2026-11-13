@@ -170,7 +170,7 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 ## Quizwand (Pass & Play, 1–10 Spieler)
 
 - **Kategorien:** Ihr wählt 10 von 18 Kategorien (oder lasst auffüllen). Der Zufall verteilt sie auf zwei Seiten mit je 5 Kategorien. Jede Kategorie hat 5 Fragen: 100, 200, 300, 400 und 500 Punkte. Auf Seite 2 zählt alles doppelt (200 bis 1000).
-- **Ablauf:** Reihum wählt einer ein Feld und tippt seine Antwort ein. Richtig gibt die Punkte, falsch kostet die Hälfte (bei 300 also −150), „Weiß ich nicht“ kostet nichts. Dann dürfen die anderen klauen, mit denselben Regeln. Danach ist der Nächste dran. Ist eine Seite leer gespielt (oder vorzeitig beendet), geht es zu Seite 2 und dann zum Endstand.
+- **Ablauf:** Reihum wählt einer ein Feld und tippt seine Antwort ein. Richtig gibt die Punkte, falsch kostet die Hälfte (bei 300 also −150), „Weiß ich nicht“ kostet nichts. Dann dürfen die anderen klauen, mit denselben Regeln: Jeder bekommt einen großen Buzzer auf dem Bildschirm (nach 1,5 Sekunden scharf), und wer zuerst drückt, darf antworten. Danach ist der Nächste dran. Ist eine Seite leer gespielt (oder vorzeitig beendet), geht es zu Seite 2 und dann zum Endstand.
 - **Bewertung:** Eindeutige Treffer (auch mit kleinen Tippfehlern) erkennt das Spiel selbst. Alles andere beurteilt **Claude** mit kurzer Begründung – Synonyme, andere Schreibweisen und sachlich richtige Antworten zählen. Ist die Runde anderer Meinung, dreht sie das Urteil mit „Doch richtig“ / „Doch falsch“ um.
   - Claude gibt es nur in der **Claude-Version** (claude.ai-Link). Anderswo wird die Lösung gezeigt und die Runde entscheidet selbst.
   - An Claude gehen nur die Frage, die Lösung und die getippte Antwort.
