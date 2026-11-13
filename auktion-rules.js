@@ -13,8 +13,10 @@
 const AUK = {
   START_MONEY: 1000,
   STEPS: [5, 10, 20, 50, 100, 200],
-  GOING_MS: 4000, // „Zum Ersten, zum Zweiten, zum Dritten“ nach jedem Gebot
-  OPEN_MS: 20000, // Zeit bis zum ersten Gebot (Lesen und Überlegen)
+  GOING_MS: 10000, // „Zum Ersten, zum Zweiten, zum Dritten“ nach jedem Gebot
+  READ_MS: 20000, // Lesezeit: so lange darf noch niemand bieten
+  // Danach gibt es kein Zeitlimit bis zum ersten Gebot. Will keiner,
+  // gibt man das Los mit „Keiner bietet“ zurück.
   LOT_COUNTS: [6, 8, 10, 12, 15]
 };
 

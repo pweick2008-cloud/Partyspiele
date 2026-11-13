@@ -73,7 +73,7 @@ const AukOnline = (() => {
       }
     }
     box.querySelectorAll(".auk-step").forEach((b) => {
-      b.disabled = !game.inGame || sold || game.bidder === state.you || game.bid + Number(b.dataset.step) > me.money;
+      b.disabled = !game.inGame || (game.phase !== "open" && game.phase !== "going") || game.bidder === state.you || game.bid + Number(b.dataset.step) > me.money;
     });
     // Mitbieter
     const list = $("auk-oplayers");
@@ -88,6 +88,7 @@ const AukOnline = (() => {
       list.appendChild(li);
     }
     $("auk-onext").hidden = !isHost() || !sold;
+    $("auk-opass").hidden = !isHost() || game.phase !== "open";
     $("auk-ofinish").hidden = !isHost();
     clockOffset = game.now - Date.now();
     startClock();
@@ -101,9 +102,12 @@ const AukOnline = (() => {
       const left = Math.max(0, (game.endsAt || 0) - (Date.now() + clockOffset));
       let text = "";
       let share = 0;
-      if (game.phase === "open") {
-        text = `Erstes Gebot? Noch ${Math.ceil(left / 1000)} s`;
-        share = left / AUK.OPEN_MS;
+      if (game.phase === "read") {
+        text = `Lesezeit – bieten in ${Math.ceil(left / 1000)} s`;
+        share = left / AUK.READ_MS;
+      } else if (game.phase === "open") {
+        text = "Jetzt darf geboten werden!";
+        share = 1;
       } else if (game.phase === "going") {
         const part = AUK.GOING_MS / 3;
         text = left > 2 * part ? "Zum Ersten …" : left > part ? "Zum Zweiten …" : "Zum Dritten …";
@@ -148,6 +152,7 @@ const AukOnline = (() => {
   /* ---------- Events ---------- */
   document.addEventListener("DOMContentLoaded", () => {
     $("auk-onext").addEventListener("click", () => Online.send({ type: "aukNext" }));
+    $("auk-opass").addEventListener("click", () => Online.send({ type: "aukPass" }));
     $("auk-ofinish").addEventListener("click", () =>
       Online.confirmHost("Auktion beenden?", "Die restlichen Lose werden nicht mehr versteigert. Danach kommt die Auflösung.", "aukFinish"));
     $("auk-oreveal-next").addEventListener("click", () => Online.send({ type: "aukReveal" }));

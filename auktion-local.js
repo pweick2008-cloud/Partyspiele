@@ -3,6 +3,7 @@
 /* =========================================================
    Geheime Auktion – ein Gerät in der Mitte (2 bis 4 Spieler)
    Jeder Spieler hat ein Bieterfeld an seiner Tischseite, zu ihm gedreht.
+   Erst 20 s Lesezeit, dann darf geboten werden (ohne Zeitlimit).
    Nach jedem Gebot läuft „Zum Ersten, zum Zweiten, zum Dritten“ –
    bietet keiner mehr, ist das Los verkauft.
    Die Lose (auktion-lose.js) werden erst beim Start geladen.
@@ -94,7 +95,7 @@ const LocalAuktion = (() => {
   function nextLot() {
     game.index++;
     if (game.index >= game.lots.length) return finish();
-    Object.assign(game, { phase: "open", bid: 0, bidder: null, endsAt: Date.now() + AUK.OPEN_MS });
+    Object.assign(game, { phase: "read", bid: 0, bidder: null, endsAt: Date.now() + AUK.READ_MS });
     startTimer();
     render();
   }
@@ -115,8 +116,11 @@ const LocalAuktion = (() => {
   }
 
   function tick() {
-    if (!game || (game.phase !== "open" && game.phase !== "going")) return;
-    if (Date.now() >= game.endsAt) {
+    if (!game || (game.phase !== "read" && game.phase !== "open" && game.phase !== "going")) return;
+    if (game.phase === "read" && Date.now() >= game.endsAt) {
+      // Lesezeit vorbei: ab jetzt darf geboten werden, ohne Zeitlimit
+      Object.assign(game, { phase: "open", endsAt: null });
+    } else if (game.phase === "going" && Date.now() >= game.endsAt) {
       const lot = game.lots[game.index];
       if (game.bidder !== null) {
         lot.buyer = game.bidder;
@@ -132,9 +136,21 @@ const LocalAuktion = (() => {
     render();
   }
 
+  // Keiner will bieten: Los geht zurück
+  function pass() {
+    if (!game || game.phase !== "open") return;
+    const lot = game.lots[game.index];
+    lot.buyer = null;
+    lot.price = 0;
+    game.phase = "sold";
+    clearInterval(timer);
+    render();
+  }
+
   // Text zum Countdown: nach einem Gebot „Zum Ersten … Zum Dritten“
   function goingText(left) {
-    if (game.phase === "open") return `Erstes Gebot? Noch ${Math.ceil(left / 1000)} s`;
+    if (game.phase === "read") return `Lesezeit – bieten in ${Math.ceil(left / 1000)} s`;
+    if (game.phase === "open") return "Jetzt darf geboten werden!";
     const part = AUK.GOING_MS / 3;
     if (left > 2 * part) return "Zum Ersten …";
     if (left > part) return "Zum Zweiten …";
@@ -152,7 +168,7 @@ const LocalAuktion = (() => {
     $("auk-lot-estimate").textContent = `Schätzpreis ${lot.estimate}`;
     $("auk-card").style.setProperty("--turn", `${cardTurn * 180}deg`);
     // Gebot und Countdown
-    const left = Math.max(0, game.endsAt - Date.now());
+    const left = Math.max(0, (game.endsAt || 0) - Date.now());
     const bidder = game.bidder !== null ? game.players[game.bidder].name : null;
     $("auk-bid").textContent = game.bid ? game.bid : "–";
     $("auk-bidder").textContent = game.phase === "sold"
@@ -160,8 +176,9 @@ const LocalAuktion = (() => {
       : bidder ? `Höchstgebot: ${bidder}` : "Noch kein Gebot";
     $("auk-going").textContent = game.phase === "sold" ? "" : goingText(left);
     $("auk-going").classList.toggle("hot", game.phase === "going" && left < AUK.GOING_MS / 3);
-    const total = game.phase === "open" ? AUK.OPEN_MS : AUK.GOING_MS;
-    $("auk-meter").style.transform = `scaleX(${game.phase === "sold" ? 0 : left / total})`;
+    const share = game.phase === "read" ? left / AUK.READ_MS : game.phase === "going" ? left / AUK.GOING_MS : game.phase === "open" ? 1 : 0;
+    $("auk-meter").style.transform = `scaleX(${share})`;
+    $("auk-pass").hidden = game.phase !== "open";
     $("auk-next").hidden = game.phase !== "sold";
     $("auk-next").textContent = game.index >= game.lots.length - 1 ? "Zur Auflösung" : "Nächstes Los";
     $("auk-center").classList.toggle("sold", game.phase === "sold");
@@ -177,7 +194,7 @@ const LocalAuktion = (() => {
       el.classList.toggle("won", game.bidder === p.id && game.phase === "sold");
       el.querySelectorAll(".auk-step").forEach((b) => {
         const step = Number(b.dataset.step);
-        b.disabled = game.phase === "sold" || game.bidder === p.id || game.bid + step > p.money;
+        b.disabled = (game.phase !== "open" && game.phase !== "going") || game.bidder === p.id || game.bid + step > p.money;
       });
     }
   }
@@ -233,6 +250,7 @@ const LocalAuktion = (() => {
     });
     $("auk-start").addEventListener("click", start);
     $("auk-next").addEventListener("click", () => nextLot());
+    $("auk-pass").addEventListener("click", () => pass());
     $("auk-turn").addEventListener("click", () => { cardTurn = 1 - cardTurn; render(); });
     $("auk-quit").addEventListener("click", async () => {
       const ok = await showModal({ emoji: "", title: "Auktion beenden?", text: "Die restlichen Lose werden nicht mehr versteigert. Danach kommt die Auflösung.", ok: "Beenden", cancel: "Weiter bieten" });

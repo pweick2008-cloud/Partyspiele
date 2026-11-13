@@ -2450,8 +2450,9 @@ function aukNextLot(lobby) {
     g.seq++;
     return;
   }
-  Object.assign(g, { phase: "open", bid: 0, bidder: null, endsAt: Date.now() + AUK.OPEN_MS });
-  aukSchedule(lobby, AUK.OPEN_MS + 150, () => aukHammer(lobby));
+  // Erst Lesezeit, dann darf ohne Zeitlimit geboten werden
+  Object.assign(g, { phase: "read", bid: 0, bidder: null, endsAt: Date.now() + AUK.READ_MS });
+  aukSchedule(lobby, AUK.READ_MS, () => Object.assign(g, { phase: "open", endsAt: null }));
 }
 
 function aukHammer(lobby) {
@@ -2522,6 +2523,15 @@ Object.assign(handlers, {
     if (amount > g.money[me.id]) fail("So viel Geld hast du nicht mehr.");
     Object.assign(g, { bid: amount, bidder: me.id, phase: "going", endsAt: Date.now() + AUK.GOING_MS });
     aukSchedule(lobby, AUK.GOING_MS + 150, () => aukHammer(lobby));
+    return lobby;
+  },
+
+  // Host: keiner will bieten → Los geht zurück
+  aukPass(ws, msg, lobby, me) {
+    requireHost(lobby, me);
+    const g = requireGame(lobby, "open", "auktion");
+    g.seq++;
+    aukHammer(lobby);
     return lobby;
   },
 
