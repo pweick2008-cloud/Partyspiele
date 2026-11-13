@@ -14,13 +14,21 @@ const WORD_SOURCES = {
         "Deutschland", "Frankreich", "Italien", "Spanien", "USA|Vereinigte Staaten|Amerika|Vereinigte Staaten von Amerika",
         "Großbritannien|England|Vereinigtes Königreich|UK", "China", "Japan", "Russland", "Brasilien",
         "Österreich", "Schweiz", "Türkei", "Griechenland", "Kanada", "Australien", "Mexiko",
-        "Ägypten", "Indien", "Niederlande|Holland", "Polen", "Portugal"
+        "Ägypten", "Indien", "Niederlande|Holland", "Polen", "Portugal",
+        "Ukraine", "Nordkorea", "Luxemburg", "Tunesien", "Malta", "Zypern", "Vatikanstadt|Vatikan", "Monaco",
+        "Afghanistan", "Irak", "Syrien", "Pakistan", "Nigeria", "Venezuela", "Bulgarien", "Rumänien",
+        "Serbien", "Slowakei", "Albanien", "Bosnien und Herzegowina|Bosnien",
+        "Vereinigte Arabische Emirate|VAE|Emirate", "Katar"
       ],
       mittel: [
         "Thailand", "Argentinien", "Schweden", "Norwegen", "Dänemark", "Finnland", "Irland",
         "Kroatien", "Marokko", "Südafrika", "Kenia", "Peru", "Chile", "Kolumbien", "Vietnam",
         "Indonesien", "Südkorea|Korea", "Neuseeland", "Ungarn", "Tschechien|Tschechische Republik",
-        "Island", "Kuba", "Jamaika", "Philippinen", "Saudi-Arabien", "Israel", "Iran", "Belgien"
+        "Island", "Kuba", "Jamaika", "Philippinen", "Saudi-Arabien", "Israel", "Iran", "Belgien",
+        "Madagaskar", "Slowenien", "Estland", "Lettland", "Litauen", "Belarus|Weißrussland", "Georgien",
+        "Kasachstan", "Mongolei", "Nepal", "Sri Lanka", "Malaysia", "Jordanien", "Libanon", "Malediven",
+        "Dominikanische Republik|Dom Rep|Dominikanische Rep.", "Costa Rica", "Ecuador", "Uruguay", "Panama",
+        "Äthiopien", "Tansania"
       ],
       schwer: [
         "Burkina Faso", "Bhutan", "Kirgisistan", "Tadschikistan", "Turkmenistan", "Usbekistan",
@@ -28,7 +36,10 @@ const WORD_SOURCES = {
         "Guyana", "Paraguay", "Moldau|Moldawien|Republik Moldau", "Liechtenstein", "Andorra",
         "San Marino", "Brunei", "Laos", "Myanmar|Birma", "Mauretanien", "Tuvalu", "Vanuatu",
         "Palau", "Kiribati", "Nauru", "Tschad", "Benin", "Togo", "Gabun", "Montenegro",
-        "Nordmazedonien|Mazedonien"
+        "Nordmazedonien|Mazedonien",
+        "Armenien", "Aserbaidschan", "Bangladesch", "Kuwait", "Oman", "Jemen", "Bolivien", "Guatemala",
+        "Honduras", "Haiti", "Ghana", "Senegal", "Uganda", "Ruanda", "Namibia", "Simbabwe", "Mauritius",
+        "Seychellen", "Fidschi|Fiji", "Kambodscha", "Algerien", "Somalia"
       ]
     }
   },
@@ -41,18 +52,31 @@ const WORD_SOURCES = {
         "Berlin", "Hamburg", "München|Muenchen", "Köln|Koeln", "Frankfurt|Frankfurt am Main", "Stuttgart",
         "Düsseldorf|Duesseldorf", "Dresden", "Leipzig", "Paris", "London", "Rom", "New York|New York City|NYC",
         "Wien", "Madrid", "Barcelona", "Amsterdam", "Tokio|Tokyo", "Moskau", "Istanbul", "Prag", "Venedig",
-        "Los Angeles|LA", "Dubai"
+        "Los Angeles|LA", "Dubai",
+        "Bonn", "Mainz", "Essen", "Potsdam", "Wolfsburg", "Bielefeld", "Karlsruhe", "Augsburg", "Münster",
+        "Mannheim", "Mailand|Milano|Milan", "Florenz|Firenze", "Neapel|Napoli|Naples", "Pisa", "Chicago",
+        "Miami", "Washington|Washington D.C.", "Bangkok", "Hongkong", "Seoul", "Shanghai", "Salzburg",
+        "Liverpool", "Manchester", "Jerusalem"
       ],
       mittel: [
         "Bremen", "Hannover", "Nürnberg|Nuernberg", "Dortmund", "Heidelberg", "Freiburg", "Rostock", "Kiel",
         "Lissabon", "Athen", "Kopenhagen", "Stockholm", "Oslo", "Budapest", "Warschau", "Zürich|Zuerich",
         "Brüssel|Bruessel", "Dublin", "Edinburgh", "Sydney", "Rio de Janeiro|Rio", "Kairo", "Peking|Beijing",
-        "Singapur", "Las Vegas", "San Francisco"
+        "Singapur", "Las Vegas", "San Francisco",
+        "Aachen", "Wiesbaden", "Saarbrücken", "Magdeburg", "Weimar", "Würzburg", "Ulm", "Kassel",
+        "Braunschweig", "Gelsenkirchen", "Bochum", "Konstanz", "Toronto", "Vancouver", "Boston",
+        "New Orleans", "Melbourne", "Mumbai|Bombay", "Marseille", "Nizza|Nice", "Verona",
+        "Genf|Genève|Geneva", "Dubrovnik", "Antalya", "Kiew|Kyjiw|Kyiv"
       ],
       schwer: [
         "Görlitz", "Bamberg", "Lübeck", "Erfurt", "Regensburg", "Trier", "Passau", "Flensburg", "Ljubljana",
         "Tallinn", "Riga", "Vilnius", "Krakau", "Danzig", "Porto", "Sevilla", "Marrakesch", "Reykjavík|Reykjavik",
-        "Kapstadt", "Buenos Aires", "Havanna", "Hanoi", "Kyoto", "Montreal", "Valletta"
+        "Kapstadt", "Buenos Aires", "Havanna", "Hanoi", "Kyoto", "Montreal", "Valletta",
+        "Stralsund", "Wismar", "Lüneburg", "Goslar", "Rothenburg ob der Tauber|Rothenburg", "Bayreuth",
+        "Chemnitz", "Schwerin", "Cottbus", "Quedlinburg", "Wuppertal", "Baden-Baden", "Bratislava",
+        "Belgrad|Beograd", "Sarajevo", "Bukarest|București|Bucharest", "Innsbruck",
+        "Mexiko-Stadt|Mexico City|Mexiko City", "Lima", "Nairobi", "Osaka", "Bergen", "Granada", "Bologna",
+        "Lyon"
       ]
     }
   },
@@ -261,19 +285,29 @@ const WORD_SOURCES = {
       leicht: [
         "Hund", "Katze", "Pferd", "Kuh", "Schwein", "Schaf", "Ziege", "Huhn", "Elefant", "Löwe|Loewe", "Tiger",
         "Giraffe", "Affe", "Bär|Baer", "Hase", "Maus", "Delfin|Delphin", "Hai", "Pinguin", "Krokodil", "Schlange",
-        "Frosch", "Eule", "Fuchs", "Igel"
+        "Frosch", "Eule", "Fuchs", "Igel",
+        "Ente", "Gans", "Esel", "Hamster", "Meerschweinchen", "Kaninchen", "Eichhörnchen", "Reh", "Hirsch",
+        "Wildschwein", "Spinne", "Biene", "Schmetterling", "Marienkäfer", "Ameise", "Schnecke", "Storch",
+        "Taube", "Ratte", "Fledermaus", "Eisbär", "Goldfisch"
       ],
       mittel: [
         "Känguru|Kaenguru", "Koala", "Zebra", "Nashorn", "Nilpferd|Flusspferd", "Gorilla", "Panda", "Wolf", "Luchs",
         "Biber", "Otter", "Faultier", "Flamingo", "Papagei", "Adler", "Schildkröte|Schildkroete", "Chamäleon|Chamaeleon",
         "Qualle", "Tintenfisch|Krake|Oktopus", "Robbe|Seehund", "Wal", "Kamel", "Lama", "Waschbär|Waschbaer",
-        "Erdmännchen|Erdmaennchen"
+        "Erdmännchen|Erdmaennchen",
+        "Leopard", "Hyäne", "Strauß|Vogel Strauß", "Pfau", "Specht", "Elch", "Rentier", "Walross",
+        "Seestern", "Kranich", "Libelle", "Wespe", "Maulwurf", "Wellensittich", "Kojote", "Orang-Utan",
+        "Schimpanse", "Möwe", "Eidechse", "Skorpion", "Schwan", "Krabbe"
       ],
       schwer: [
         "Axolotl", "Okapi", "Schnabeltier", "Gürteltier|Guerteltier", "Ameisenbär|Ameisenbaer", "Tapir",
         "Capybara|Wasserschwein", "Gnu", "Yak", "Komodowaran", "Narwal", "Pfeilgiftfrosch", "Seepferdchen", "Pelikan",
         "Kolibri", "Tukan", "Fennek|Wüstenfuchs", "Vielfraß|Vielfrass", "Dachs", "Hermelin", "Stachelschwein", "Mungo",
-        "Gepard", "Leguan", "Mantarochen|Manta"
+        "Gepard", "Leguan", "Mantarochen|Manta",
+        "Wombat", "Lemur|Katta", "Schneeleopard", "Vogelspinne", "Anakonda", "Piranha", "Gottesanbeterin",
+        "Kugelfisch", "Clownfisch|Anemonenfisch", "Albatros", "Feuersalamander", "Murmeltier", "Steinbock",
+        "Warzenschwein", "Pavian", "Erdferkel", "Tasmanischer Teufel|Beutelteufel", "Dingo",
+        "Siebenschläfer", "Bison|Büffel", "Uhu", "Alpaka"
       ]
     }
   },
@@ -351,21 +385,38 @@ const WORD_SOURCES = {
         "Sagrada Família|Sagrada Familia", "Akropolis", "Stonehenge", "Machu Picchu", "Niagarafälle|Niagarafaelle",
         "Grand Canyon", "Mount Everest", "Reichstagsgebäude|Reichstag", "Burj Khalifa",
         "Opernhaus Sydney|Sydney Opera House", "Tower Bridge", "Hollywood-Schriftzug|Hollywood Sign",
-        "Christusstatue|Cristo Redentor"
+        "Christusstatue|Cristo Redentor",
+        "Notre-Dame|Kathedrale Notre-Dame", "Schloss Versailles|Versailles", "Weißes Haus|White House",
+        "Mount Rushmore", "Sphinx|Große Sphinx", "Disneyland", "Central Park", "London Eye",
+        "Kilimandscharo|Kilimanjaro", "Fuji|Mount Fuji|Fudschijama", "Allianz Arena",
+        "Berliner Mauer|East Side Gallery", "Checkpoint Charlie", "Siegessäule", "Totes Meer",
+        "Tower of London", "Hollywood Walk of Fame|Walk of Fame", "Wembley-Stadion|Wembley",
+        "Brooklyn Bridge", "Kaaba"
       ],
       mittel: [
         "Zugspitze", "Elbphilharmonie", "Berliner Fernsehturm|Fernsehturm", "Hofbräuhaus|Hofbraeuhaus", "Holstentor",
         "Frauenkirche", "Zwinger", "Hermannsdenkmal", "Loreley", "Matterhorn", "Mont-Saint-Michel|Mont Saint Michel",
         "Louvre", "Triumphbogen|Arc de Triomphe", "Petersdom", "Trevi-Brunnen|Trevibrunnen", "Alhambra",
         "Buckingham Palace|Buckingham-Palast", "Empire State Building", "Times Square", "Angkor Wat", "Petra",
-        "Chichén Itzá|Chichen Itza", "Uluru|Ayers Rock", "Victoriafälle|Victoriafaelle", "Kreml"
+        "Chichén Itzá|Chichen Itza", "Uluru|Ayers Rock", "Victoriafälle|Victoriafaelle", "Kreml",
+        "Sixtinische Kapelle", "Pantheon", "Rialtobrücke|Rialto", "Markusplatz", "Stephansdom",
+        "Schloss Schönbrunn|Schönbrunn", "Hamburger Michel|Michel", "Miniatur Wunderland", "Speicherstadt",
+        "Königssee", "Nordkap", "Westminster Abbey", "Alcatraz", "Yellowstone|Yellowstone-Nationalpark",
+        "Roter Platz", "Blaue Moschee|Sultan-Ahmed-Moschee", "Burj al Arab", "Klagemauer", "Marienplatz",
+        "Palm Jumeirah", "Galápagos-Inseln|Galapagos"
       ],
       schwer: [
         "Externsteine", "Wartburg", "Bastei", "Kreidefelsen auf Rügen|Kreidefelsen", "Völkerschlachtdenkmal",
         "Porta Nigra", "Walhalla", "Schloss Sanssouci|Sanssouci", "Atomium", "Manneken Pis", "Hagia Sophia",
         "Meteora", "Plitvicer Seen", "Kappadokien", "Moai|Osterinsel-Statuen", "Halong-Bucht|Ha-Long-Bucht",
         "Borobudur", "Verbotene Stadt", "Fushimi Inari", "Salar de Uyuni", "Iguazú-Wasserfälle|Iguazu-Wasserfälle",
-        "Antelope Canyon", "Burg Eltz", "Dolomiten", "Pamukkale"
+        "Antelope Canyon", "Burg Eltz", "Dolomiten", "Pamukkale",
+        "Heidelberger Schloss|Schloss Heidelberg", "Burg Hohenzollern",
+        "Kaiser-Wilhelm-Gedächtniskirche|Gedächtniskirche", "Ulmer Münster", "Aachener Dom",
+        "Zeche Zollverein", "Brocken", "Abu Simbel", "Tal der Könige", "Hoover Dam|Hoover-Damm",
+        "Potala-Palast|Potala", "Pont du Gard", "Basilius-Kathedrale", "Großer Basar|Grand Bazaar",
+        "Cliffs of Moher", "Giant's Causeway", "Geirangerfjord", "Blaue Lagune|Blue Lagoon",
+        "Goldener Tempel", "Schloss Schwerin|Schweriner Schloss", "Kaiserdom Speyer|Speyerer Dom"
       ]
     }
   },
@@ -383,7 +434,14 @@ const WORD_SOURCES = {
         "Maler|Malerin|Anstreicher|Lackierer", "Elektriker|Elektrikerin|Elektroniker|Elektronikerin",
         "Kfz-Mechatroniker|Kfz-Mechatronikerin|Mechaniker|Mechanikerin|Automechaniker", "Briefträger|Briefträgerin|Postbote|Postbotin",
         "Gärtner|Gärtnerin|Gaertner", "Metzger|Metzgerin|Fleischer|Fleischerin|Schlachter", "Kellner|Kellnerin|Servicekraft|Bedienung",
-        "Sänger|Sängerin|Saenger", "Schauspieler|Schauspielerin", "Astronaut|Astronautin", "Bauarbeiter|Bauarbeiterin"
+        "Sänger|Sängerin|Saenger", "Schauspieler|Schauspielerin", "Astronaut|Astronautin", "Bauarbeiter|Bauarbeiterin",
+        "Tierpfleger|Tierpflegerin|Zoowärter", "Müllmann|Müllfrau|Müllwerker", "Hausmeister|Hausmeisterin",
+        "Influencer|Influencerin|Youtuber", "DJ|Discjockey|DJane", "Zauberer|Zauberin|Magier",
+        "Clown|Clownin", "Lkw-Fahrer|Lkw-Fahrerin|Trucker|Fernfahrer", "Detektiv|Detektivin|Privatdetektiv",
+        "Soldat|Soldatin", "Bademeister|Bademeisterin|Rettungsschwimmer",
+        "Notfallsanitäter|Sanitäter|Rettungssanitäter", "Fischer|Fischerin", "Kapitän|Kapitänin", "Model",
+        "Tänzer|Tänzerin", "Schneider|Schneiderin", "Reinigungskraft|Putzkraft|Putzfrau|Gebäudereiniger",
+        "Paketbote|Paketbotin|Paketzusteller", "Fußballprofi|Profifußballer"
       ],
       mittel: [
         "Architekt|Architektin", "Rechtsanwalt|Rechtsanwältin|Anwalt|Anwältin", "Richter|Richterin",
@@ -396,7 +454,17 @@ const WORD_SOURCES = {
         "Psychologe|Psychologin|Psychotherapeut|Psychotherapeutin", "Bibliothekar|Bibliothekarin", "Optiker|Optikerin|Augenoptiker",
         "Maurer|Maurerin", "Schornsteinfeger|Schornsteinfegerin|Kaminkehrer|Kaminfeger", "Taxifahrer|Taxifahrerin",
         "Lokführer|Lokführerin|Lokfuehrer|Triebfahrzeugführer", "Flugbegleiter|Flugbegleiterin|Stewardess|Steward",
-        "Pfarrer|Pfarrerin|Pastor|Pastorin|Priester"
+        "Pfarrer|Pfarrerin|Pastor|Pastorin|Priester",
+        "Tätowierer|Tätowiererin", "Kosmetiker|Kosmetikerin", "Florist|Floristin|Blumenhändler",
+        "Zugbegleiter|Zugbegleiterin|Schaffner|Schaffnerin", "Türsteher|Türsteherin",
+        "Rezeptionist|Rezeptionistin|Empfangsmitarbeiter",
+        "Fitnesstrainer|Fitnesstrainerin|Personal Trainer", "Fahrlehrer|Fahrlehrerin",
+        "Immobilienmakler|Immobilienmaklerin|Makler|Maklerin", "Bürgermeister|Bürgermeisterin",
+        "Chirurg|Chirurgin", "Grafikdesigner|Grafikdesignerin|Designer", "Moderator|Moderatorin",
+        "Regisseur|Regisseurin", "Barkeeper|Barkeeperin|Barmann", "Sekretär|Sekretärin|Assistenz",
+        "Versicherungsvertreter|Versicherungsvertreterin|Versicherungsmakler",
+        "Zollbeamter|Zollbeamtin|Zöllner", "Fliesenleger|Fliesenlegerin",
+        "Medizinische Fachangestellte|Arzthelfer|Arzthelferin|MFA", "Stuntman|Stuntfrau|Stuntwoman"
       ],
       schwer: [
         "Notar|Notarin", "Hufschmied|Hufschmiedin|Schmied", "Goldschmied|Goldschmiedin|Juwelier", "Uhrmacher|Uhrmacherin",
@@ -406,7 +474,15 @@ const WORD_SOURCES = {
         "Konditor|Konditorin", "Restaurator|Restauratorin", "Orthopädietechniker|Orthopädietechnikerin",
         "Hörakustiker|Hörakustikerin|Hörgeräteakustiker", "Glaser|Glaserin", "Raumausstatter|Raumausstatterin",
         "Zahntechniker|Zahntechnikerin", "Fluglotse|Fluglotsin", "Gerichtsvollzieher|Gerichtsvollzieherin",
-        "Böttcher|Küfer|Boettcher"
+        "Böttcher|Küfer|Boettcher",
+        "Dirigent|Dirigentin", "Leuchtturmwärter", "Bergführer|Bergführerin",
+        "Sprengmeister|Sprengmeisterin", "Töpfer|Töpferin|Keramiker", "Buchbinder|Buchbinderin",
+        "Kartograf|Kartografin|Kartograph", "Geologe|Geologin", "Astronom|Astronomin", "Butler",
+        "Croupier|Croupière", "Auktionator|Auktionatorin", "Diplomat|Diplomatin|Botschafter|Botschafterin",
+        "Rechtsmediziner|Rechtsmedizinerin|Gerichtsmediziner", "Anästhesist|Anästhesistin|Narkosearzt",
+        "Kranführer|Kranführerin", "Sattler|Sattlerin", "Tierpräparator|Präparator",
+        "Parfümeur|Parfumeur|Parfümeurin", "Glasbläser|Glasbläserin",
+        "Industriekletterer|Industriekletterin"
       ]
     }
   },
@@ -516,7 +592,16 @@ const WORD_SOURCES = {
         "Der König der Löwen|König der Löwen|Koenig der Loewen", "Die Eiskönigin|Eiskönigin|Frozen", "Shrek",
         "Findet Nemo", "Toy Story", "Jurassic Park", "Spider-Man|Spiderman", "Batman", "The Avengers|Avengers",
         "Fluch der Karibik", "James Bond", "Barbie", "Stranger Things", "Friends", "Die Simpsons|Simpsons",
-        "SpongeBob Schwammkopf|SpongeBob", "Game of Thrones", "Breaking Bad", "Squid Game", "Tatort"
+        "SpongeBob Schwammkopf|SpongeBob", "Game of Thrones", "Breaking Bad", "Squid Game", "Tatort",
+        "Ice Age", "Cars", "Minions", "Ratatouille", "Oben|Up", "Vaiana|Moana",
+        "Rapunzel – Neu verföhnt|Rapunzel|Tangled",
+        "Die Schöne und das Biest|Schöne und das Biest|Beauty and the Beast", "Aladdin",
+        "Arielle, die Meerjungfrau|Arielle|The Little Mermaid", "Coco", "Alles steht Kopf|Inside Out",
+        "Die Unglaublichen|The Incredibles",
+        "Die Tribute von Panem|Tribute von Panem|The Hunger Games|Hunger Games",
+        "Twilight|Biss zum Morgengrauen", "Iron Man", "Transformers", "Mamma Mia!", "Der Grinch|Grinch",
+        "Rocky", "Grey's Anatomy", "The Walking Dead|Walking Dead", "Peppa Wutz|Peppa Pig",
+        "Die Monster AG|Monster AG|Monsters, Inc."
       ],
       mittel: [
         "Inception", "Interstellar", "Oppenheimer", "Matrix|The Matrix", "Forrest Gump", "Der Pate|The Godfather",
@@ -524,14 +609,30 @@ const WORD_SOURCES = {
         "E.T.|ET|E.T. – Der Außerirdische", "Ghostbusters", "Kevin – Allein zu Haus|Kevin allein zu Haus|Home Alone",
         "Wednesday", "The Office", "How I Met Your Mother", "The Big Bang Theory|Big Bang Theory",
         "Haus des Geldes|La Casa de Papel", "Dark", "Babylon Berlin", "Stromberg", "Pastewka",
-        "Die Sendung mit der Maus|Sendung mit der Maus"
+        "Die Sendung mit der Maus|Sendung mit der Maus",
+        "Der weiße Hai|Weiße Hai|Jaws", "Indiana Jones", "Terminator", "Gladiator",
+        "Der Teufel trägt Prada|The Devil Wears Prada", "Pretty Woman", "Dirty Dancing", "Grease",
+        "Die Truman Show|Truman Show|The Truman Show", "Mean Girls|Girls Club", "Hangover|The Hangover",
+        "Shutter Island", "The Wolf of Wall Street|Wolf of Wall Street", "John Wick", "Deadpool",
+        "Guardians of the Galaxy", "Mission: Impossible", "Ziemlich beste Freunde|Intouchables",
+        "Keinohrhasen", "Prison Break", "Sex and the City", "Gilmore Girls", "Bridgerton", "The Crown",
+        "Dr. House|House", "Modern Family", "Brooklyn Nine-Nine|Brooklyn 99"
       ],
       schwer: [
         "Das Boot", "Lola rennt", "Good Bye, Lenin!|Good Bye Lenin|Goodbye Lenin", "Das Leben der Anderen",
         "Der Untergang", "Im Westen nichts Neues", "Toni Erdmann", "Fack ju Göhte|Fack ju Goehte",
         "Der Schuh des Manitu|Schuh des Manitu", "Parasite", "Fight Club", "Shining|The Shining", "Blade Runner",
         "Alien", "Arrival", "Whiplash", "La La Land", "Everything Everywhere All at Once", "Die Sopranos|The Sopranos",
-        "The Wire", "Mad Men", "Succession", "Severance", "The Last of Us", "Peaky Blinders"
+        "The Wire", "Mad Men", "Succession", "Severance", "The Last of Us", "Peaky Blinders",
+        "Psycho", "Der Exorzist|Exorzist|The Exorcist", "Taxi Driver",
+        "Uhrwerk Orange|A Clockwork Orange|Clockwork Orange",
+        "2001: Odyssee im Weltraum|2001|2001: A Space Odyssey", "Casablanca",
+        "Vom Winde verweht|Gone with the Wind", "Der Pianist|The Pianist",
+        "Schindlers Liste|Schindler's List",
+        "Das Schweigen der Lämmer|Schweigen der Lämmer|The Silence of the Lambs", "Memento",
+        "No Country for Old Men", "Die fabelhafte Welt der Amélie|Amélie", "Pans Labyrinth", "Get Out",
+        "Grand Budapest Hotel|The Grand Budapest Hotel", "Drive", "Black Swan", "Die Welle", "Twin Peaks",
+        "Fargo", "True Detective", "Better Call Saul", "Chernobyl|Tschernobyl", "Fleabag", "Lost", "Dexter"
       ]
     }
   },
@@ -546,7 +647,14 @@ const WORD_SOURCES = {
         "Mein Nachbar Totoro|Totoro", "Chihiros Reise ins Zauberland|Chihiro|Spirited Away", "Digimon",
         "Yu-Gi-Oh!|Yu-Gi-Oh|Yugioh", "Demon Slayer|Kimetsu no Yaiba", "My Hero Academia|Boku no Hero Academia",
         "Jujutsu Kaisen", "One Punch Man|One-Punch Man", "Tokyo Ghoul", "Fullmetal Alchemist", "Bleach", "Beyblade",
-        "Captain Tsubasa", "Doraemon", "Hunter x Hunter", "Spy x Family", "Chainsaw Man"
+        "Captain Tsubasa", "Doraemon", "Hunter x Hunter", "Spy x Family", "Chainsaw Man",
+        "Boruto", "Shin Chan|Crayon Shin-chan", "Ponyo – Das große Abenteuer am Meer|Ponyo",
+        "Tokyo Revengers", "Solo Leveling", "The Seven Deadly Sins|Seven Deadly Sins|Nanatsu no Taizai",
+        "Cyberpunk: Edgerunners|Edgerunners", "Kaiju No. 8|Kaiju Nr. 8", "Dandadan",
+        "Black Butler|Kuroshitsuji", "A Silent Voice|Koe no Katachi",
+        "Der Junge und der Reiher|The Boy and the Heron|Kimitachi wa Dō Ikiru ka",
+        "Assassination Classroom|Ansatsu Kyoshitsu", "Weathering with You|Tenki no Ko",
+        "Blue Exorcist|Ao no Exorcist"
       ],
       mittel: [
         "Heidi", "Die Biene Maja|Biene Maja", "Wickie und die starken Männer|Wickie", "Hamtaro",
@@ -554,14 +662,283 @@ const WORD_SOURCES = {
         "Kikis kleiner Lieferservice|Kiki", "Your Name|Kimi no Na wa", "Neon Genesis Evangelion|Evangelion",
         "Cowboy Bebop", "Akira", "Ghost in the Shell", "Sword Art Online", "Black Clover", "Haikyu!!|Haikyu",
         "Blue Lock", "Fairy Tail", "Inuyasha", "Code Geass", "Steins;Gate|Steins Gate", "Mob Psycho 100",
-        "Dr. Stone|Dr Stone", "Vinland Saga", "Frieren", "Oshi no Ko"
+        "Dr. Stone|Dr Stone", "Vinland Saga", "Frieren", "Oshi no Ko",
+        "Suzume", "Re:Zero", "No Game No Life", "Fruits Basket", "Konosuba", "Overlord",
+        "Meine Wiedergeburt als Schleim in einer anderen Welt|Tensura|That Time I Got Reincarnated as a Slime",
+        "Mirai Nikki|Future Diary", "Darling in the Franxx", "Kuroko's Basketball|Kuroko no Basket",
+        "Soul Eater", "Noragami", "Fire Force|Enen no Shouboutai", "Bungo Stray Dogs", "Cardcaptor Sakura",
+        "Hellsing"
       ],
       schwer: [
         "Mushishi", "Monster", "Erased|Boku dake ga Inai Machi", "Made in Abyss", "Violet Evergarden",
         "Toradora!|Toradora", "Clannad", "Nana", "Paprika", "Perfect Blue", "Ergo Proxy", "Serial Experiments Lain|Lain",
         "Samurai Champloo", "Trigun", "Berserk", "JoJo's Bizarre Adventure|JoJo", "Gintama",
         "Kaguya-sama: Love is War|Kaguya-sama", "The Promised Neverland|Promised Neverland", "Dorohedoro",
-        "Banana Fish", "Odd Taxi", "Ranma ½|Ranma 1/2|Ranma", "Slam Dunk", "Great Teacher Onizuka|GTO"
+        "Banana Fish", "Odd Taxi", "Ranma ½|Ranma 1/2|Ranma", "Slam Dunk", "Great Teacher Onizuka|GTO",
+        "Die letzten Glühwürmchen|Grave of the Fireflies|Hotaru no Haka",
+        "Nausicaä aus dem Tal der Winde|Nausicaä|Nausicaa", "Das Schloss im Himmel|Laputa|Castle in the Sky",
+        "Porco Rosso", "Ame & Yuki – Die Wolfskinder|Wolf Children|Wolfskinder", "Kakegurui", "Elfen Lied",
+        "Black Lagoon", "Initial D", "Rurouni Kenshin|Kenshin", "Yu Yu Hakusho",
+        "Saint Seiya|Saint Seiya – Die Krieger des Zodiac",
+        "Die Melancholie der Haruhi Suzumiya|Haruhi Suzumiya|Haruhi", "Anohana", "Angel Beats!",
+        "Mila Superstar", "Parasyte|Kiseijuu"
+      ]
+    }
+  },
+
+  sportarten: {
+    name: "Sportarten",
+    icon: "",
+    words: {
+      leicht: [
+        "Fußball|Soccer", "Basketball", "Tennis", "Schwimmen", "Volleyball", "Handball", "Eishockey",
+        "Skifahren|Ski alpin|Ski", "Boxen|Boxsport", "Radsport|Radfahren", "Tischtennis|Ping Pong",
+        "Badminton|Federball", "Golf", "Reiten|Reitsport", "Turnen|Gerätturnen", "Leichtathletik",
+        "Snowboarden|Snowboard", "Klettern", "Surfen|Wellenreiten", "Marathon|Marathonlauf", "Bowling",
+        "Darts|Dart", "Judo", "Karate", "Tauchen", "Eiskunstlauf|Eiskunstlaufen",
+        "Skateboarden|Skateboard|Skaten", "Beachvolleyball", "Rudern|Rudersport", "Schach"
+      ],
+      mittel: [
+        "Curling", "Rugby", "Fechten", "Biathlon", "Bobfahren|Bob|Bobsport", "Skispringen|Skisprung",
+        "Wasserball", "Kanu|Kanusport|Kanufahren", "Segeln|Segelsport", "Triathlon", "Ringen|Ringkampf",
+        "Gewichtheben", "Stabhochsprung", "Speerwurf|Speerwerfen", "Kugelstoßen", "Hürdenlauf|Hürden",
+        "American Football|Football", "Baseball", "Kitesurfen|Kitesurfing", "Billard|Pool|Poolbillard",
+        "Squash", "Langlauf|Skilanglauf", "Rodeln|Rennrodeln", "Bouldern", "Kickboxen",
+        "Synchronschwimmen|Kunstschwimmen", "Hockey|Feldhockey", "Minigolf", "Motocross", "Bogenschießen",
+        "Wasserspringen|Turmspringen|Kunstspringen", "Parkour|Freerunning"
+      ],
+      schwer: [
+        "Sepak Takraw", "Kabaddi", "Hurling", "Lacrosse", "Cricket", "Polo", "Faustball", "Sumo|Sumoringen",
+        "Skeleton", "Nordische Kombination", "Moderner Fünfkampf|Fünfkampf", "Zehnkampf",
+        "Dressurreiten|Dressur", "Schwingen|Schweizer Ringen", "Kendo", "Capoeira",
+        "Trampolinturnen|Trampolin", "Ultimate Frisbee|Ultimate", "Boule|Pétanque", "Snooker",
+        "Padel|Padel-Tennis", "Shorttrack", "Eisstockschießen|Eisstock", "Hammerwurf", "Dreisprung", "BMX",
+        "Floorball|Unihockey", "Roller Derby", "Sportschießen", "Bahnradsport|Bahnrad"
+      ]
+    }
+  },
+
+  videospiele: {
+    name: "Videospiele",
+    icon: "",
+    words: {
+      leicht: [
+        "Minecraft", "Fortnite", "Super Mario|Mario|Super Mario Bros.", "Mario Kart", "Tetris", "Pac-Man",
+        "FIFA / EA FC|FIFA|EA FC|EA Sports FC", "GTA|Grand Theft Auto", "Call of Duty|CoD",
+        "The Legend of Zelda|Zelda|Legend of Zelda", "Die Sims|Sims|The Sims", "Animal Crossing", "Among Us",
+        "Roblox", "League of Legends|LoL", "Counter-Strike|CS|CS:GO|CS2", "Sonic|Sonic the Hedgehog",
+        "Super Smash Bros.|Smash Bros|Smash", "Candy Crush|Candy Crush Saga", "Angry Birds",
+        "Clash of Clans", "Brawl Stars", "Rocket League", "Wii Sports", "Subway Surfers", "Assassin's Creed",
+        "Need for Speed|NFS", "Fall Guys", "Valorant", "Overwatch"
+      ],
+      mittel: [
+        "The Witcher|Witcher", "Red Dead Redemption|Red Dead|RDR", "Elden Ring",
+        "The Elder Scrolls|Elder Scrolls|Skyrim", "World of Warcraft|WoW", "Hogwarts Legacy", "Uncharted",
+        "God of War", "Halo", "Tomb Raider", "Resident Evil", "Donkey Kong", "Stardew Valley", "Terraria",
+        "Portal", "Diablo", "Age of Empires", "Anno", "Crash Bandicoot|Crash", "Street Fighter",
+        "Mortal Kombat", "Tekken", "Cyberpunk 2077|Cyberpunk", "Fallout", "Final Fantasy", "Gran Turismo",
+        "Just Dance", "Genshin Impact|Genshin", "Mario Party", "Dark Souls", "Kirby", "Apex Legends|Apex"
+      ],
+      schwer: [
+        "Metroid", "Shadow of the Colossus", "BioShock", "Mass Effect", "Journey", "Limbo", "Celeste",
+        "Hades", "Death Stranding", "Bloodborne", "Hollow Knight", "Undertale", "Cuphead", "Gothic", "Doom",
+        "Half-Life", "Metal Gear Solid|Metal Gear|MGS", "Banjo-Kazooie", "Pikmin", "Monkey Island", "Myst",
+        "Civilization|Civ|Sid Meier's Civilization", "SimCity", "Die Siedler|Siedler", "StarCraft",
+        "Lemmings", "Pong", "Space Invaders", "It Takes Two", "Baldur's Gate|Baldur's Gate 3"
+      ]
+    }
+  },
+
+  gegenstaende: {
+    name: "Gegenstände",
+    icon: "",
+    words: {
+      leicht: [
+        "Schere", "Kugelschreiber|Kuli", "Zahnbürste", "Handtuch", "Regenschirm|Schirm", "Brille", "Löffel",
+        "Kissen", "Schlüssel", "Lampe", "Spiegel", "Uhr", "Kamm", "Bleistift", "Rucksack", "Hammer", "Tasse",
+        "Kühlschrank", "Fernbedienung", "Wecker", "Teller", "Stuhl", "Kerze", "Taschenlampe",
+        "Föhn|Fön|Haartrockner", "Besen", "Radiergummi", "Geldbeutel|Portemonnaie|Geldbörse|Brieftasche",
+        "Lineal", "Toaster", "Mikrowelle", "Waschmaschine"
+      ],
+      mittel: [
+        "Schraubenzieher|Schraubendreher", "Zange", "Tesafilm|Klebeband|Tesa", "Locher", "Tacker|Hefter",
+        "Büroklammer", "Gießkanne", "Wäscheklammer", "Bügeleisen", "Staubsauger", "Wasserkocher",
+        "Zollstock", "Kleiderbügel", "Pinzette", "Nagelknipser|Nagelschere", "Thermometer", "Dosenöffner",
+        "Korkenzieher", "Schneebesen", "Pfanne", "Sieb", "Topflappen",
+        "Kehrschaufel|Kehrblech|Schaufel und Besen", "Wäscheständer", "Mülleimer|Mülltonne|Abfalleimer",
+        "Briefumschlag|Umschlag|Kuvert", "Textmarker", "Taschenrechner", "Bohrmaschine", "Säge", "Fußmatte"
+      ],
+      schwer: [
+        "Lupe", "Kompass", "Nudelholz|Teigrolle", "Knoblauchpresse", "Schuhlöffel",
+        "Fusselrolle|Fusselbürste", "Eieruhr|Küchenwecker", "Trichter", "Wasserwaage", "Spachtel", "Zirkel",
+        "Stimmgabel", "Sanduhr", "Pürierstab|Stabmixer", "Salatschleuder", "Kartoffelstampfer",
+        "Reibe|Küchenreibe", "Brieföffner", "Fingerhut", "Stecknadel", "Dübel",
+        "Inbusschlüssel|Inbus|Innensechskantschlüssel", "Schraubstock", "Pömpel|Saugglocke|Pümpel",
+        "Waschbrett", "Teesieb|Tee-Ei", "Klobürste|WC-Bürste", "Schuhanzieher|Stiefelknecht", "Mörser",
+        "Fernglas", "Briefwaage"
+      ]
+    }
+  },
+
+  orte: {
+    name: "Orte",
+    icon: "",
+    words: {
+      leicht: [
+        "Supermarkt", "Krankenhaus", "Schule", "Bahnhof", "Flughafen", "Kino", "Schwimmbad|Hallenbad",
+        "Freibad", "Strand", "Spielplatz", "Bäckerei", "Restaurant", "Friedhof", "Kirche", "Zoo",
+        "Bibliothek|Bücherei", "Fitnessstudio|Gym|Fitnesscenter", "Tankstelle", "Apotheke",
+        "Polizeistation|Polizeiwache|Polizeirevier", "Gefängnis|Knast|Justizvollzugsanstalt", "Park",
+        "Bauernhof", "Hotel", "Disco|Diskothek|Club", "Stadion", "Wald", "Berg", "Kindergarten|Kita",
+        "Museum", "Bank", "Universität|Uni|Hochschule"
+      ],
+      mittel: [
+        "Bowlingbahn|Bowlingcenter", "Leuchtturm", "Freizeitpark|Vergnügungspark", "Campingplatz", "Rathaus",
+        "Post|Postfiliale", "Baumarkt", "Feuerwache|Feuerwehrhaus", "Kiosk|Späti|Spätkauf", "Zahnarztpraxis",
+        "Friseursalon", "Parkhaus", "Waschstraße|Autowaschanlage", "Hafen", "Eishalle|Eisstadion", "Theater",
+        "Kneipe|Bar", "Jugendherberge", "Weihnachtsmarkt", "Autobahnraststätte|Raststätte|Rastplatz",
+        "Skigebiet", "Sauna", "Tierheim", "Kaserne", "Gericht|Gerichtsgebäude", "Insel", "Wochenmarkt|Markt",
+        "Altenheim|Seniorenheim|Pflegeheim", "Waschsalon", "Spielhalle|Spielothek"
+      ],
+      schwer: [
+        "Weinberg", "Kläranlage", "Sternwarte|Observatorium", "Schrottplatz", "Steinbruch", "Kloster",
+        "Mühle|Windmühle", "Bergwerk|Mine|Zeche", "Wertstoffhof|Recyclinghof", "Gewächshaus", "Planetarium",
+        "Schleuse", "Staudamm|Talsperre", "Botanischer Garten", "Autokino", "Kletterhalle|Boulderhalle",
+        "Reiterhof|Reitstall", "Kegelbahn", "Pfandhaus|Leihhaus", "Krematorium",
+        "Leichenhalle|Leichenschauhaus", "Tierpark|Wildpark", "Schrebergarten|Kleingarten", "Baggersee",
+        "Wasserturm", "Tropfsteinhöhle", "Seilbahnstation|Bergstation", "Escape Room", "Tattoostudio"
+      ]
+    }
+  },
+
+  figuren: {
+    name: "Figuren",
+    icon: "",
+    person: true,
+    words: {
+      leicht: [
+        "Micky Maus|Mickey Mouse|Mickey Maus", "Donald Duck", "Homer Simpson", "Bart Simpson", "Pikachu",
+        "Superman", "Hulk|Der unglaubliche Hulk", "Wonder Woman", "Rotkäppchen", "Schneewittchen",
+        "Aschenputtel|Cinderella", "Dornröschen", "Pinocchio",
+        "Hermine Granger|Hermine|Hermione Granger|Hermione", "Darth Vader", "Yoda|Meister Yoda", "Gandalf",
+        "Frodo Beutlin|Frodo|Frodo Baggins", "Elsa", "Olaf", "Simba", "Garfield", "Pumuckl",
+        "Sherlock Holmes|Sherlock", "Jack Sparrow|Captain Jack Sparrow|Käpt'n Jack Sparrow", "Asterix",
+        "Obelix", "Winnie Puuh|Winnie Pooh|Pu der Bär|Winnie the Pooh", "Patrick Star|Patrick"
+      ],
+      mittel: [
+        "Gollum|Sméagol", "Lara Croft", "Link", "Lightning McQueen|McQueen", "Buzz Lightyear|Buzz", "Woody",
+        "Dobby", "Lord Voldemort|Voldemort", "Albus Dumbledore|Dumbledore", "Legolas", "Chewbacca|Chewie",
+        "Luke Skywalker|Luke", "Prinzessin Leia|Leia|Leia Organa", "Wolverine", "Harley Quinn",
+        "Lisa Simpson", "Eric Cartman|Cartman", "Gru", "Bibi Blocksberg|Bibi", "Benjamin Blümchen",
+        "Pippi Langstrumpf|Pippi", "Mulan", "Peter Pan", "Bugs Bunny", "Snoopy", "Tarzan",
+        "Sheldon Cooper|Sheldon", "Walter White|Heisenberg"
+      ],
+      schwer: [
+        "Hannibal Lecter|Lecter", "Tyrion Lannister|Tyrion", "Daenerys Targaryen|Daenerys", "Jon Snow",
+        "Geralt von Riva|Geralt|Geralt of Rivia", "Master Chief", "Kratos", "Bowser", "Mewtu|Mewtwo", "Scar",
+        "Ursula", "Cruella de Vil|Cruella", "Maleficent|Malefiz", "Captain Hook|Käpt'n Hook|Kapitän Hook",
+        "Tinker Bell|Naseweis", "Rubeus Hagrid|Hagrid", "Severus Snape|Snape",
+        "Bilbo Beutlin|Bilbo|Bilbo Baggins", "Aragorn", "Obi-Wan Kenobi|Obi-Wan", "Han Solo",
+        "Grogu|Baby Yoda", "Graf Dracula|Dracula", "Hercule Poirot|Poirot", "Räuber Hotzenplotz|Hotzenplotz",
+        "Der kleine Prinz|Kleiner Prinz", "Jim Knopf", "Das Sams|Sams", "Rumpelstilzchen"
+      ]
+    }
+  },
+
+  fahrzeuge: {
+    name: "Fahrzeuge",
+    icon: "",
+    words: {
+      leicht: [
+        "Fahrrad|Rad|Velo", "Auto|PKW", "Bus|Linienbus", "Zug|Eisenbahn", "Flugzeug",
+        "Hubschrauber|Helikopter", "Motorrad", "Tretroller|Roller", "Straßenbahn|Tram|Bim", "U-Bahn", "Taxi",
+        "Lkw|Lastwagen|Laster", "Traktor|Trecker", "Krankenwagen|Rettungswagen|RTW",
+        "Feuerwehrauto|Feuerwehrwagen|Löschfahrzeug", "Polizeiauto|Streifenwagen|Polizeiwagen", "Rakete",
+        "Kinderwagen", "Segelboot", "Wohnmobil|Camper|Wohnwagen", "Bagger", "Müllauto|Müllwagen",
+        "Heißluftballon|Ballon", "Schlitten", "Kreuzfahrtschiff", "E-Scooter|E-Roller", "Fähre|Autofähre",
+        "Inlineskates|Inliner|Rollerblades"
+      ],
+      mittel: [
+        "U-Boot|Unterseeboot", "Zeppelin|Luftschiff", "Rikscha", "Pistenraupe", "Segelflugzeug|Segelflieger",
+        "Gleitschirm|Paraglider", "Jetski|Wassermotorrad", "Tandem", "Einrad", "Seilbahn|Gondelbahn",
+        "Kutsche|Pferdekutsche", "Floß", "Katamaran", "Containerschiff", "Panzer", "Quad", "Gabelstapler",
+        "Mähdrescher", "Schneemobil|Motorschlitten", "Luftkissenboot|Hovercraft", "Monstertruck",
+        "Doppeldeckerbus|Doppeldecker", "Tuk-Tuk", "Segway", "Kajak", "Schlauchboot", "Go-Kart|Kart",
+        "Bobby-Car", "Dampflok|Dampflokomotive", "Tretboot", "Ruderboot", "Hundeschlitten"
+      ],
+      schwer: [
+        "Draisine", "Tragschrauber|Gyrocopter", "Trike", "Liegerad", "Lastenrad|Lastenfahrrad|Cargobike",
+        "Galeere", "Dschunke", "Gondel", "Einbaum", "Postkutsche", "Planwagen", "Sänfte", "Streitwagen",
+        "Mondauto|Mondfahrzeug|Lunar Rover", "Marsrover", "Eisbrecher", "Flugzeugträger", "Schwebebahn",
+        "Zahnradbahn", "Paternoster", "Bollerwagen", "Rollstuhl", "Wasserflugzeug",
+        "Drachenflieger|Hängegleiter|Deltasegler", "Jetpack", "Tieflader", "Space Shuttle|Raumfähre",
+        "Magnetschwebebahn|Transrapid", "Velomobil", "Kettenfahrzeug|Raupenfahrzeug"
+      ]
+    }
+  },
+
+  kleidung: {
+    name: "Kleidung & Accessoires",
+    icon: "",
+    words: {
+      leicht: [
+        "T-Shirt|Shirt", "Jeans|Jeanshose", "Pullover|Pulli", "Jacke", "Mütze", "Schal",
+        "Handschuhe|Handschuh", "Socken|Socke", "Turnschuhe|Sneaker|Turnschuh", "Stiefel",
+        "Sandalen|Sandale", "Hoodie|Kapuzenpulli|Kapuzenpullover", "Kleid", "Rock", "Shorts|kurze Hose",
+        "Jogginghose", "Schlafanzug|Pyjama", "Badehose", "Bikini", "Unterhose", "BH|Büstenhalter", "Hemd",
+        "Krawatte|Schlips", "Anzug", "Gürtel", "Sonnenbrille", "Ehering", "Halskette|Kette",
+        "Ohrringe|Ohrring", "Handtasche", "Cap|Baseballcap|Basecap|Kappe", "Hausschuhe|Pantoffeln",
+        "Flip-Flops|Zehentrenner", "Bademantel", "Weste"
+      ],
+      mittel: [
+        "Smoking", "Fliege", "Strickjacke", "Blazer", "Bluse", "Poloshirt|Polohemd", "Leggings",
+        "Strumpfhose", "Overall|Latzhose", "Regenjacke", "Daunenjacke", "Mantel", "Lederjacke", "Pumps",
+        "High Heels|Stöckelschuhe", "Gummistiefel", "Ballerinas", "Badeanzug", "Stirnband",
+        "Haarreif|Haarreifen", "Haargummi", "Armband", "Brosche", "Manschettenknöpfe", "Sturmhaube",
+        "Fäustlinge|Fausthandschuhe", "Bauchtasche|Gürteltasche", "Schürze", "Dirndl", "Lederhose",
+        "Hosenträger", "Trenchcoat", "Kimono", "Turban", "Strohhut", "Zylinder", "Kopftuch", "Clogs",
+        "Fußkettchen"
+      ],
+      schwer: [
+        "Monokel", "Gamaschen", "Poncho", "Sari", "Kilt", "Sombrero", "Fes", "Baskenmütze", "Schweißband",
+        "Fascinator", "Stola", "Korsett|Korsage", "Petticoat", "Cardigan", "Chinos|Chinohose", "Cargohose",
+        "Espadrilles", "Loafer|Slipper", "Mokassins", "Plateauschuhe", "Siegelring", "Diadem|Tiara",
+        "Kummerbund", "Einstecktuch", "Krawattennadel", "Kniestrümpfe", "Overknees", "Bolero", "Tunika",
+        "Kaftan", "Muff", "Pelzmütze|Uschanka", "Beanie", "Bucket Hat|Fischerhut", "Clutch", "Medaillon",
+        "Choker"
+      ]
+    }
+  },
+
+  hobbys: {
+    name: "Hobbys & Freizeit",
+    icon: "",
+    words: {
+      leicht: [
+        "Kochen", "Backen", "Lesen", "Malen", "Zeichnen", "Fotografieren|Fotografie",
+        "Gärtnern|Gartenarbeit", "Angeln", "Camping|Campen|Zelten", "Wandern", "Puzzeln|Puzzle", "Karaoke",
+        "Tanzen", "Singen", "Stricken", "Zocken|Videospiele|Gaming", "Brettspiele",
+        "Kartenspielen|Kartenspiele", "Shoppen|Shopping", "Konzert", "Picknick", "Grillen",
+        "Spazierengehen|Spaziergang", "Musizieren|Instrument spielen", "Basteln",
+        "Serien schauen|Binge-Watching"
+      ],
+      mittel: [
+        "Häkeln", "Nähen", "Geocaching", "Sudoku", "Kreuzworträtsel", "Lasertag", "Paintball",
+        "Meditation|Meditieren", "Vogelbeobachtung|Vögel beobachten", "Sterne beobachten|Sternegucken",
+        "Pilze sammeln|Pilzsuche", "Töpfern", "Briefmarken sammeln", "Modellbau", "Lego",
+        "Pen and Paper|Pen & Paper|Rollenspiel", "Cosplay", "Poetry Slam", "Quiz|Pubquiz|Kneipenquiz",
+        "Tagebuch schreiben|Tagebuch", "Bullet Journal", "Imkern|Imkerei", "Aquaristik|Aquarium",
+        "Heimwerken", "Flohmarkt", "Drachen steigen lassen|Drachensteigen", "Kalligrafie|Kalligraphie",
+        "Thermalbad|Therme", "Trampolinpark"
+      ],
+      schwer: [
+        "Origami", "Makramee", "Sticken|Stickerei", "Patchwork", "Schnitzen", "Klöppeln", "Bonsai",
+        "Modelleisenbahn", "Metalldetektor|Sondeln", "Ahnenforschung|Genealogie", "Amateurfunk",
+        "Jonglieren", "Zaubern|Zauberei|Zaubertricks", "Bauchreden", "Speedcubing|Zauberwürfel",
+        "LARP|Live-Rollenspiel", "Mittelaltermarkt", "Kerzen gießen|Kerzenziehen",
+        "Seifen herstellen|Seifensieden", "Bierbrauen", "Fermentieren", "Glamping", "Vanlife",
+        "Urban Exploring|Urbex|Lost Places", "Krimidinner", "Kintsugi", "Linoldruck|Linolschnitt",
+        "Aquarellmalerei|Aquarell", "Graffiti", "Beatboxing|Beatbox", "Podcasten|Podcast", "Planwagenfahrt"
       ]
     }
   }

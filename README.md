@@ -212,9 +212,9 @@ Jede Runde hat vier Schritte:
 
 ## Kategorien (Verräter)
 
-10 Kategorien mit insgesamt 1.527 Begriffen, jeweils **leicht**, **mittel** und **schwer**. Kategorien und Schwierigkeiten lassen sich beliebig kombinieren (mehrere gleichzeitig antippen, „Alle“ wählt alle Kategorien). Für jede Runde wird zuerst eine der gewählten Kategorien und dann eine der gewählten Stufen ausgelost, jeweils gleich wahrscheinlich:
+18 Kategorien mit insgesamt 2.727 Begriffen, jeweils **leicht**, **mittel** und **schwer**. Kategorien und Schwierigkeiten lassen sich beliebig kombinieren (mehrere gleichzeitig antippen, „Alle“ wählt alle Kategorien). Für jede Runde wird zuerst eine der gewählten Kategorien und dann eine der gewählten Stufen ausgelost, jeweils gleich wahrscheinlich:
 
-Länder · Städte · Marken · Promis · Lebensmittel · Tiere · Sehenswürdigkeiten · Berufe · Filme & Serien · Animes
+Länder · Städte · Marken · Promis · Lebensmittel · Tiere · Sehenswürdigkeiten · Berufe · Filme & Serien · Animes · Sportarten · Videospiele · Gegenstände · Orte · Figuren · Fahrzeuge · Kleidung & Accessoires · Hobbys & Freizeit
 
 - **Marken** fasst Auto-, Mode-, Lebensmittel- und Techmarken sowie Firmen zusammen.
 - **Promis** fasst historische Persönlichkeiten, Politiker, Schauspieler, Musiker & Bands, Sportler und Fußballer zusammen. **Deutsche Streamer** kommen nur dazu, wenn *schwer* ausgewählt ist.
