@@ -88,6 +88,7 @@ const GAMES = {
   faelscher: { icon: "", svg: "quill", name: "Fälscher", sub: "Nur eine Antwort ist echt. Welche?" },
   auktion: { icon: "", svg: "gavel", name: "Geheime Auktion", sub: "Echt, gefälscht oder ein verkannter Schatz?" },
   galerie: { icon: "", svg: "frame", name: "Galerie", sub: "Alle zeichnen denselben Begriff – die beste Zeichnung gewinnt.", onlineOnly: true },
+  quiz: { icon: "", svg: "board", name: "Quizwand", sub: "Zehn Kategorien, zwei Seiten, Claude bewertet.", localOnly: true },
   kontext: { icon: "", svg: "bubble", name: "Kontextlos", sub: "Harmlose Antworten, fiese neue Zusammenhänge.", onlineOnly: true }
 };
 
@@ -104,6 +105,7 @@ const STEP_PLANS = {
   "draw-local": [["setup", "Lobby"], ["game", "Spiel"]],
   "draw-online": [["setup", "Lobby"], ["game", "Spiel"]],
   "ehesten-local": [["setup", "Start"], ["game", "Fragen"], ["end", "Auswertung"]],
+  "quiz-local": [["setup", "Start"], ["board", "Quizwand"], ["end", "Endstand"]],
   "faelscher-local": [["setup", "Start"], ["write", "Fälschen"], ["vote", "Abstimmen"], ["reveal", "Aufdecken"], ["end", "Ende"]],
   "faelscher-online": [["setup", "Lobby"], ["write", "Fälschen"], ["vote", "Abstimmen"], ["reveal", "Aufdecken"], ["end", "Ende"]],
   "auktion-local": [["setup", "Start"], ["auktion", "Auktion"], ["reveal", "Auflösung"]],
@@ -144,6 +146,7 @@ function openGameMenu(gameId) {
   if (g.localOnly) {
     currentMode = "local";
     if (gameId === "ehesten") WWAE.openSetup();
+    if (gameId === "quiz") Quiz.openSetup();
     return;
   }
   $("menu-logo").innerHTML = `<svg class="ico"><use href="#ico-${g.svg}"/></svg>`;

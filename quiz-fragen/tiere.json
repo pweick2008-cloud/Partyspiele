@@ -1,0 +1,801 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist das größte Landtier der Welt?",
+    "antwort": "Afrikanischer Elefant",
+    "akzeptiert": [
+      "Elefant",
+      "Afrikanischer Steppenelefant",
+      "Steppenelefant"
+    ],
+    "bewertung": "„Elefant“ reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein junges Pferd?",
+    "antwort": "Fohlen",
+    "akzeptiert": [
+      "Füllen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist das größte Tier der Welt?",
+    "antwort": "Blauwal",
+    "akzeptiert": [
+      "Blauwale"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein junges Schaf?",
+    "antwort": "Lamm",
+    "akzeptiert": [
+      "Lämmchen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man einen jungen Hund?",
+    "antwort": "Welpe",
+    "akzeptiert": [
+      "Welpen",
+      "Hundewelpe"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das männliche Huhn?",
+    "antwort": "Hahn",
+    "akzeptiert": [
+      "Gockel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein junges Rind?",
+    "antwort": "Kalb",
+    "akzeptiert": [
+      "Kälbchen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier hat den längsten Hals der Welt?",
+    "antwort": "Giraffe"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird aus einer Raupe, nachdem sie sich verpuppt hat?",
+    "antwort": "Schmetterling",
+    "akzeptiert": [
+      "Falter",
+      "Nachtfalter"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Vogel gilt als Symbol für den Frieden?",
+    "antwort": "Taube",
+    "akzeptiert": [
+      "Friedenstaube",
+      "weiße Taube"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches schwarz-weiße Bärentier frisst fast ausschließlich Bambus?",
+    "antwort": "Großer Panda",
+    "akzeptiert": [
+      "Panda",
+      "Pandabär",
+      "Riesenpanda"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Auf welchem Kontinent leben Kängurus in freier Wildbahn?",
+    "antwort": "Australien",
+    "akzeptiert": [
+      "Ozeanien"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Larve eines Froschs, die im Wasser lebt?",
+    "antwort": "Kaulquappe",
+    "akzeptiert": [
+      "Kaulquappen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Insekt stellt Honig her?",
+    "antwort": "Biene",
+    "akzeptiert": [
+      "Honigbiene",
+      "Bienen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher schwarz-weiße Vogel kann nicht fliegen, schwimmt aber hervorragend und lebt z. B. in der Antarktis?",
+    "antwort": "Pinguin",
+    "akzeptiert": [
+      "Kaiserpinguin",
+      "Pinguine"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man eine männliche Katze?",
+    "antwort": "Kater"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Vögel, die im Herbst in wärmere Gebiete im Süden fliegen?",
+    "antwort": "Zugvögel",
+    "akzeptiert": [
+      "Zugvogel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Sind Wale Fische oder Säugetiere?",
+    "antwort": "Säugetiere",
+    "akzeptiert": [
+      "Säugetier"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Von welchem Wildtier stammt der Haushund ab?",
+    "antwort": "Wolf",
+    "akzeptiert": [
+      "Grauwolf",
+      "Wölfe"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier wird oft „König der Tiere“ genannt?",
+    "antwort": "Löwe",
+    "akzeptiert": [
+      "Löwen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Beine hat eine Spinne?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das weibliche Schwein?",
+    "antwort": "Sau",
+    "akzeptiert": [
+      "Bache",
+      "Mutterschwein"
+    ],
+    "bewertung": "Auch „Bache“ (Wildschwein) ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Beine hat ein Insekt?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Säugetier kann als einziges aktiv fliegen?",
+    "antwort": "Fledermaus",
+    "akzeptiert": [
+      "Fledermäuse",
+      "Fledertiere",
+      "Flughund"
+    ],
+    "bewertung": "Auch „Flughund“ bzw. „Fledertiere“ ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Von den Blättern welches Baumes ernährt sich der Koala fast ausschließlich?",
+    "antwort": "Eukalyptus",
+    "akzeptiert": [
+      "Eukalyptusbaum",
+      "Eukalyptusblätter"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Reptil kann seine Farbe wechseln und seine Augen unabhängig voneinander bewegen?",
+    "antwort": "Chamäleon",
+    "akzeptiert": [
+      "Chamäleons"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Höcker hat ein Dromedar?",
+    "antwort": "1",
+    "akzeptiert": [
+      "einen",
+      "eins",
+      "ein"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der pflanzenfressende Dinosaurier mit drei Hörnern und Nackenschild?",
+    "antwort": "Triceratops"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher berühmte Raubsaurier hatte winzige Arme mit nur zwei Fingern?",
+    "antwort": "Tyrannosaurus rex",
+    "akzeptiert": [
+      "T. rex",
+      "T-Rex",
+      "Tyrannosaurus",
+      "Trex"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wohin legt der Kuckuck in Europa seine Eier?",
+    "antwort": "In fremde Nester",
+    "akzeptiert": [
+      "in die Nester anderer Vögel",
+      "fremdes Nest"
+    ],
+    "bewertung": "Jede Antwort im Sinne von „in Nester anderer Vogelarten“ ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Nagetier baut Dämme und Burgen in Flüssen?",
+    "antwort": "Biber",
+    "akzeptiert": [
+      "Europäischer Biber"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man eine Gruppe von Wölfen?",
+    "antwort": "Rudel",
+    "akzeptiert": [
+      "Wolfsrudel"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher winzige Vogel kann als einer der wenigen Vögel sogar rückwärts fliegen?",
+    "antwort": "Kolibri",
+    "akzeptiert": [
+      "Kolibris"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welchem Organ atmen Fische unter Wasser?",
+    "antwort": "Kiemen",
+    "akzeptiert": [
+      "Kieme"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Arme hat ein typischer Seestern?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man ein weibliches Pferd?",
+    "antwort": "Stute"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man Tiere, die sowohl Pflanzen als auch Fleisch fressen?",
+    "antwort": "Allesfresser",
+    "akzeptiert": [
+      "Omnivoren",
+      "Omnivore"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Stimmt es, dass Goldfische nur ein Gedächtnis von etwa 3 Sekunden haben?",
+    "antwort": "Nein",
+    "akzeptiert": [
+      "falsch",
+      "stimmt nicht",
+      "Mythos"
+    ],
+    "bewertung": "Richtig ist „Nein“ – Goldfische können sich Dinge über Wochen bis Monate merken."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Vogel kann seinen Kopf um bis zu etwa 270 Grad drehen?",
+    "antwort": "Eule",
+    "akzeptiert": [
+      "Eulen",
+      "Uhu",
+      "Schleiereule",
+      "Kauz"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche ist die größte Raubkatze der Welt?",
+    "antwort": "Tiger",
+    "akzeptiert": [
+      "Sibirischer Tiger",
+      "Amurtiger",
+      "Bengal-Tiger"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier gilt als schnellstes Landtier der Welt?",
+    "antwort": "Gepard",
+    "akzeptiert": [
+      "Cheetah"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Herzen hat ein Oktopus?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe hat die Haut unter dem Fell eines Eisbären?",
+    "antwort": "Schwarz",
+    "akzeptiert": [
+      "dunkel",
+      "schwarzgrau"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das weibliche Reh in der Jägersprache?",
+    "antwort": "Ricke",
+    "akzeptiert": [
+      "Geiß",
+      "Rehgeiß"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Mägen (genauer: Magenabschnitte) hat eine Kuh?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ],
+    "bewertung": "Pansen, Netzmagen, Blättermagen, Labmagen – nur die Zahl zählt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches ist das größte heute lebende Reptil?",
+    "antwort": "Leistenkrokodil",
+    "akzeptiert": [
+      "Salzwasserkrokodil",
+      "Krokodil"
+    ],
+    "bewertung": "„Krokodil“ allein ist auch okay."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches ist der größte und schwerste Vogel der Welt?",
+    "antwort": "Strauß",
+    "akzeptiert": [
+      "Afrikanischer Strauß",
+      "Vogel Strauß",
+      "Strauss"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches australische Säugetier hat einen Entenschnabel und legt Eier?",
+    "antwort": "Schnabeltier"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Dinosaurier hatte große Knochenplatten auf dem Rücken und Stacheln am Schwanz?",
+    "antwort": "Stegosaurus"
+  },
+  {
+    "stufe": 3,
+    "frage": "Vor etwa wie vielen Millionen Jahren starben die (nicht fliegenden) Dinosaurier aus?",
+    "antwort": "66",
+    "akzeptiert": [
+      "66 Millionen",
+      "65"
+    ],
+    "bewertung": "65 oder 66 Millionen sind richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche heute lebende Tiergruppe stammt direkt von den Dinosauriern ab?",
+    "antwort": "Vögel",
+    "akzeptiert": [
+      "Vogel"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man eine männliche Ente?",
+    "antwort": "Erpel",
+    "akzeptiert": [
+      "Enterich"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Bei welchem Meerestier werden die Männchen „schwanger“ und bringen die Jungen zur Welt?",
+    "antwort": "Seepferdchen",
+    "akzeptiert": [
+      "Seepferd"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Hai ist zugleich der größte Fisch der Welt?",
+    "antwort": "Walhai"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Land lebt der flugunfähige Vogel Kiwi?",
+    "antwort": "Neuseeland"
+  },
+  {
+    "stufe": 3,
+    "frage": "Auf welcher Insel leben Lemuren (z. B. Kattas) in freier Wildbahn?",
+    "antwort": "Madagaskar"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier tötet jedes Jahr (durch übertragene Krankheiten) die meisten Menschen?",
+    "antwort": "Mücke",
+    "akzeptiert": [
+      "Stechmücke",
+      "Moskito",
+      "Anopheles"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was speichert ein Kamel hauptsächlich in seinem Höcker?",
+    "antwort": "Fett",
+    "bewertung": "„Wasser“ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man ein junges Wildschwein?",
+    "antwort": "Frischling",
+    "akzeptiert": [
+      "Frischlinge"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die männliche Honigbiene?",
+    "antwort": "Drohne",
+    "akzeptiert": [
+      "Drohnen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das junge Känguru, das im Beutel der Mutter lebt?",
+    "antwort": "Joey",
+    "akzeptiert": [
+      "Joeys"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Vogel ist im Sturzflug das schnellste Tier der Welt?",
+    "antwort": "Wanderfalke",
+    "akzeptiert": [
+      "Falke"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man einen kastrierten Hengst?",
+    "antwort": "Wallach"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Beuteltier hat Fingerabdrücke, die denen des Menschen zum Verwechseln ähnlich sind?",
+    "antwort": "Koala",
+    "akzeptiert": [
+      "Koalabär"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche ist die längste Giftschlange der Welt?",
+    "antwort": "Königskobra"
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchen Zähnen sind die Stoßzähne eines Elefanten entstanden?",
+    "antwort": "Schneidezähne",
+    "akzeptiert": [
+      "Schneidezahn",
+      "obere Schneidezähne"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man in der Jägersprache einen weiblichen Fuchs?",
+    "antwort": "Fähe",
+    "akzeptiert": [
+      "Füchsin",
+      "Fehe"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man ein männliches Kaninchen?",
+    "antwort": "Rammler",
+    "akzeptiert": [
+      "Bock"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der regelmäßige Wechsel des Federkleids bei Vögeln?",
+    "antwort": "Mauser",
+    "akzeptiert": [
+      "Mauserung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Raubsaurier war in „Jurassic Park“ mannshoch, in Wirklichkeit aber etwa so groß wie ein Truthahn?",
+    "antwort": "Velociraptor",
+    "akzeptiert": [
+      "Raptor"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Land lebt der Komodowaran, die größte Echse der Welt?",
+    "antwort": "Indonesien"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist das lange „Horn“ des Narwals in Wirklichkeit?",
+    "antwort": "Ein Zahn",
+    "akzeptiert": [
+      "Zahn",
+      "Stoßzahn",
+      "Eckzahn"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die im Boden lebende Larve des Maikäfers?",
+    "antwort": "Engerling",
+    "akzeptiert": [
+      "Engerlinge"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Halswirbel hat eine Giraffe?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Zehen hat eine Hauskatze normalerweise an jeder Vorderpfote?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher mexikanische Schwanzlurch bleibt sein Leben lang im Larvenstadium und kann Gliedmaßen nachwachsen lassen?",
+    "antwort": "Axolotl"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche winzigen achtbeinigen Tiere überlebten 2007 sogar ungeschützt im Weltall?",
+    "antwort": "Bärtierchen",
+    "akzeptiert": [
+      "Tardigraden",
+      "Tardigrada",
+      "Wasserbären"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der berühmte „Urvogel“, dessen Fossilien in Bayern gefunden wurden?",
+    "antwort": "Archaeopteryx",
+    "akzeptiert": [
+      "Archäopteryx",
+      "Urvogel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Kreuzung aus einem Eselhengst und einer Pferdestute?",
+    "antwort": "Maultier",
+    "bewertung": "„Maulesel“ ist falsch (Pferdehengst × Eselstute)."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches australische Beuteltier ist dafür bekannt, würfelförmigen Kot zu machen?",
+    "antwort": "Wombat",
+    "akzeptiert": [
+      "Nacktnasenwombat"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Gruppe der Säugetiere, die Eier legen – zu der etwa das Schnabeltier gehört?",
+    "antwort": "Kloakentiere",
+    "akzeptiert": [
+      "Monotremata",
+      "Ursäuger",
+      "Kloakentier"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Tier hat die größten Augen im gesamten Tierreich?",
+    "antwort": "Riesenkalmar",
+    "akzeptiert": [
+      "Koloss-Kalmar",
+      "Kolosskalmar",
+      "Antarktischer Riesenkalmar"
+    ],
+    "bewertung": "Sowohl Riesenkalmar als auch Kolosskalmar gelten als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher kupferhaltige Blutfarbstoff färbt das Blut von Kraken blau?",
+    "antwort": "Hämocyanin",
+    "akzeptiert": [
+      "Hämozyanin",
+      "Hemocyanin"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Tier hat das schwerste Gehirn aller Lebewesen (rund 8 kg)?",
+    "antwort": "Pottwal"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Tiergruppe ist laut Erbgut der nächste lebende Verwandte des Flusspferds?",
+    "antwort": "Wale",
+    "akzeptiert": [
+      "Wal",
+      "Waltiere",
+      "Cetacea"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man das freiwillige Abwerfen eines Körperteils, z. B. des Schwanzes bei Eidechsen?",
+    "antwort": "Autotomie"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man es, wenn ein Tier wie der Axolotl im Larvenstadium geschlechtsreif wird?",
+    "antwort": "Neotenie"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Vogel legt im Verhältnis zu seiner Körpergröße eines der größten Eier aller Vögel?",
+    "antwort": "Kiwi"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Hai gilt mit vermutlich mehreren hundert Lebensjahren als langlebigstes Wirbeltier?",
+    "antwort": "Grönlandhai",
+    "akzeptiert": [
+      "Eishai"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher britische Naturforscher prägte 1842 den Begriff „Dinosaurier“?",
+    "antwort": "Richard Owen",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Raubsaurier mit großem Rückensegel war länger als der T. rex und fraß wohl vor allem Fische?",
+    "antwort": "Spinosaurus"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Kreuzung aus einem Löwenmännchen und einem Tigerweibchen?",
+    "antwort": "Liger"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches fast haarlose afrikanische Nagetier lebt wie Bienen in Staaten mit einer einzigen Königin?",
+    "antwort": "Nacktmull",
+    "akzeptiert": [
+      "Nacktmulle"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Krebstier kann mit seinen Fangbeinen so schnell zuschlagen, dass es Aquarienglas zerbrechen kann?",
+    "antwort": "Fangschreckenkrebs",
+    "akzeptiert": [
+      "Heuschreckenkrebs",
+      "Mantis Shrimp",
+      "Bärenkrebs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Vogel legt mit seinem jährlichen Zug zwischen Arktis und Antarktis die weiteste Wanderung aller Tiere zurück?",
+    "antwort": "Küstenseeschwalbe"
+  },
+  {
+    "stufe": 5,
+    "frage": "Kaninchen sind keine Nagetiere – zu welcher Säugetierordnung gehören sie?",
+    "antwort": "Hasenartige",
+    "akzeptiert": [
+      "Lagomorpha",
+      "Hasentiere"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchem heutigen Land stammt der Goldhamster ursprünglich?",
+    "antwort": "Syrien",
+    "akzeptiert": [
+      "Syrischer Goldhamster"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Farbstoffe aus ihrer Nahrung (Algen, Kleinkrebse) machen Flamingos rosa?",
+    "antwort": "Carotinoide",
+    "akzeptiert": [
+      "Karotinoide",
+      "Carotin",
+      "Beta-Carotin",
+      "Canthaxanthin"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Krebstier erzeugt mit seiner Schere eine Blase, deren Knall zu den lautesten Geräuschen im Meer gehört?",
+    "antwort": "Pistolenkrebs",
+    "akzeptiert": [
+      "Knallkrebs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Junge einer Gans?",
+    "antwort": "Gössel",
+    "akzeptiert": [
+      "Gänseküken"
+    ]
+  }
+]

@@ -1,0 +1,760 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Welches chemische Symbol hat Sauerstoff?",
+    "antwort": "O"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Stoff hat die chemische Formel H2O?",
+    "antwort": "Wasser"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches chemische Symbol hat Gold?",
+    "antwort": "Au"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Stoff mit der Formel CO2?",
+    "antwort": "Kohlenstoffdioxid",
+    "akzeptiert": [
+      "Kohlendioxid",
+      "Kohlenstoffdioxid"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Unter welchem Namen kennt man Natriumchlorid aus der Küche?",
+    "antwort": "Kochsalz",
+    "akzeptiert": [
+      "Salz",
+      "Speisesalz",
+      "Tafelsalz"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Bei wie viel Grad Celsius gefriert Wasser unter Normaldruck?",
+    "antwort": "0",
+    "akzeptiert": [
+      "0 °C",
+      "null"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Tabelle, in der alle chemischen Elemente geordnet sind?",
+    "antwort": "Periodensystem",
+    "akzeptiert": [
+      "Periodensystem der Elemente",
+      "PSE"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist sauer: Zitronensaft oder Seifenlauge?",
+    "antwort": "Zitronensaft"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Gas in Luftballons lässt sie aufsteigen und die Stimme beim Einatmen hoch klingen?",
+    "antwort": "Helium",
+    "akzeptiert": [
+      "He"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das kleinste Teilchen eines chemischen Elements?",
+    "antwort": "Atom"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Edelgas gab leuchtenden Reklameröhren ihren umgangssprachlichen Namen?",
+    "antwort": "Neon",
+    "akzeptiert": [
+      "Ne"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welchem rotbraunen Metall bestehen die Adern der meisten Stromkabel?",
+    "antwort": "Kupfer",
+    "akzeptiert": [
+      "Cu"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welchem Metall besteht Alufolie?",
+    "antwort": "Aluminium",
+    "akzeptiert": [
+      "Al"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Aggregatzustand liegt Wasserdampf vor?",
+    "antwort": "gasförmig",
+    "akzeptiert": [
+      "Gas",
+      "gasförmig"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches chemische Symbol hat Wasserstoff?",
+    "antwort": "H"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt Wasser im festen Aggregatzustand?",
+    "antwort": "Eis"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen die negativ geladenen Teilchen in der Atomhülle?",
+    "antwort": "Elektronen",
+    "akzeptiert": [
+      "Elektron"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den Übergang eines Stoffes von flüssig zu gasförmig?",
+    "antwort": "Verdampfen",
+    "akzeptiert": [
+      "Verdampfung",
+      "Sieden",
+      "Verdunsten",
+      "Verdunstung"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den Übergang eines Stoffes von fest zu flüssig?",
+    "antwort": "Schmelzen",
+    "akzeptiert": [
+      "Schmelze",
+      "Auftauen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man es, wenn Eisen mit Sauerstoff und Wasser reagiert und rotbraun wird?",
+    "antwort": "Rosten",
+    "akzeptiert": [
+      "Rost",
+      "Korrosion",
+      "Oxidation"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Element hat das chemische Symbol Fe?",
+    "antwort": "Eisen"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Gas macht mit rund 78 % den größten Teil der Luft aus?",
+    "antwort": "Stickstoff",
+    "akzeptiert": [
+      "N2",
+      "N"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Element hat das chemische Symbol Ag?",
+    "antwort": "Silber"
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welchem chemischen Element bestehen Diamanten?",
+    "antwort": "Kohlenstoff",
+    "akzeptiert": [
+      "C"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Element hat das chemische Symbol Na?",
+    "antwort": "Natrium"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die positiv geladenen Teilchen im Atomkern?",
+    "antwort": "Protonen",
+    "akzeptiert": [
+      "Proton"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches giftige flüssige Metall steckte früher in Fieberthermometern?",
+    "antwort": "Quecksilber",
+    "akzeptiert": [
+      "Hg"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Element hat das chemische Symbol K?",
+    "antwort": "Kalium"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher schwedische Chemiker erfand das Dynamit und stiftete einen berühmten Preis?",
+    "antwort": "Alfred Nobel",
+    "akzeptiert": [
+      "Nobel"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die elektrisch neutralen Teilchen im Atomkern?",
+    "antwort": "Neutronen",
+    "akzeptiert": [
+      "Neutron"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man den Übergang eines Stoffes von gasförmig zu flüssig?",
+    "antwort": "Kondensieren",
+    "akzeptiert": [
+      "Kondensation"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man den Übergang eines Stoffes von flüssig zu fest?",
+    "antwort": "Erstarren",
+    "akzeptiert": [
+      "Erstarrung",
+      "Gefrieren"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Element hat das chemische Symbol S?",
+    "antwort": "Schwefel"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Gas mit der Formel O3 schützt uns in der Stratosphäre vor UV-Strahlung?",
+    "antwort": "Ozon"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Gruppe der reaktionsträgen Gase Helium, Neon, Argon, Krypton und Xenon?",
+    "antwort": "Edelgase",
+    "akzeptiert": [
+      "Edelgas",
+      "8. Hauptgruppe",
+      "Gruppe 18"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Gas mit der Formel CH4, der Hauptbestandteil von Erdgas?",
+    "antwort": "Methan"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Säure gibt Essig seinen sauren Geschmack?",
+    "antwort": "Essigsäure",
+    "akzeptiert": [
+      "Ethansäure"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man allgemein die Reaktion eines Stoffes mit Sauerstoff, etwa beim Verbrennen?",
+    "antwort": "Oxidation",
+    "akzeptiert": [
+      "Oxidieren"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man Stoffe, deren wässrige Lösung einen pH-Wert unter 7 hat?",
+    "antwort": "Säuren",
+    "akzeptiert": [
+      "Säure",
+      "sauer"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Protonen hat ein Kohlenstoffatom im Kern?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welchen pH-Wert hat reines Wasser bei 25 °C?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Element hat das chemische Symbol Pb?",
+    "antwort": "Blei"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Säure ist in unserer Magensäure enthalten?",
+    "antwort": "Salzsäure",
+    "akzeptiert": [
+      "HCl",
+      "Chlorwasserstoffsäure"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Säure hat die Formel H2SO4?",
+    "antwort": "Schwefelsäure"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher russische Chemiker stellte 1869 das Periodensystem auf?",
+    "antwort": "Mendelejew",
+    "akzeptiert": [
+      "Dmitri Mendelejew",
+      "Mendeleev",
+      "Mendelejev"
+    ],
+    "bewertung": "Nachname reicht, verschiedene Transkriptionen gelten."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche chemische Formel hat Ammoniak?",
+    "antwort": "NH3"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man ein positiv geladenes Ion?",
+    "antwort": "Kation"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das geruchlose, hochgiftige Gas mit der Formel CO?",
+    "antwort": "Kohlenstoffmonoxid",
+    "akzeptiert": [
+      "Kohlenmonoxid",
+      "Kohlenstoffmonooxid"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Reaktion einer Säure mit einer Base, bei der Salz und Wasser entstehen?",
+    "antwort": "Neutralisation",
+    "akzeptiert": [
+      "Neutralisierung"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Element hat das chemische Symbol Si?",
+    "antwort": "Silicium",
+    "akzeptiert": [
+      "Silizium"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe zeigt Universalindikator in einer stark sauren Lösung?",
+    "antwort": "Rot"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Element hat das chemische Symbol Zn?",
+    "antwort": "Zink"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Gas sprudelt, wenn man Natron oder Backpulver mit Essig mischt?",
+    "antwort": "Kohlenstoffdioxid",
+    "akzeptiert": [
+      "Kohlendioxid",
+      "CO2"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus wie vielen Atomen besteht ein Wassermolekül?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Alkohol ist in Bier und Wein enthalten?",
+    "antwort": "Ethanol",
+    "akzeptiert": [
+      "Ethylalkohol",
+      "Äthanol",
+      "Ethylalkohol",
+      "C2H5OH"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Zahl der Protonen im Kern, nach der das Periodensystem geordnet ist?",
+    "antwort": "Ordnungszahl",
+    "akzeptiert": [
+      "Kernladungszahl",
+      "Protonenzahl",
+      "Atomnummer"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Elementgruppe mit Lithium, Natrium und Kalium, die heftig mit Wasser reagiert?",
+    "antwort": "Alkalimetalle",
+    "akzeptiert": [
+      "Alkalimetall",
+      "1. Hauptgruppe"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Forscherin entdeckte mit ihrem Mann die Elemente Polonium und Radium?",
+    "antwort": "Marie Curie",
+    "akzeptiert": [
+      "Curie",
+      "Marie Skłodowska-Curie"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man ein Gemisch aus Metallen wie Bronze oder Messing?",
+    "antwort": "Legierung"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Element hat das chemische Symbol W?",
+    "antwort": "Wolfram"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches chemische Element ist (nach Masse) das häufigste in der Erdkruste?",
+    "antwort": "Sauerstoff",
+    "akzeptiert": [
+      "O"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Elementgruppe aus Fluor, Chlor, Brom und Iod?",
+    "antwort": "Halogene",
+    "akzeptiert": [
+      "Halogen",
+      "7. Hauptgruppe",
+      "Gruppe 17"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Element hat das chemische Symbol Sn?",
+    "antwort": "Zinn"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Säure hat die Formel HNO3?",
+    "antwort": "Salpetersäure"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Edelgas ist mit knapp 1 % das dritthäufigste Gas der Luft?",
+    "antwort": "Argon",
+    "akzeptiert": [
+      "Ar"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Chemiker entwickelte zusammen mit Carl Bosch die großtechnische Ammoniaksynthese?",
+    "antwort": "Fritz Haber",
+    "akzeptiert": [
+      "Haber"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt ein Stoff, der eine Reaktion beschleunigt, ohne dabei selbst verbraucht zu werden?",
+    "antwort": "Katalysator",
+    "akzeptiert": [
+      "Kat"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen Atome desselben Elements mit unterschiedlicher Neutronenzahl?",
+    "antwort": "Isotope",
+    "akzeptiert": [
+      "Isotop"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche chemische Formel hat Calciumcarbonat (Kalk)?",
+    "antwort": "CaCO3"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Element hat das chemische Symbol Mn?",
+    "antwort": "Mangan"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Element mit der Ordnungszahl 92 wird als Brennstoff in Kernkraftwerken genutzt?",
+    "antwort": "Uran",
+    "akzeptiert": [
+      "U"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Unter welchem Kurznamen kennt man Natriumhydrogencarbonat (NaHCO3) aus der Küche?",
+    "antwort": "Natron",
+    "akzeptiert": [
+      "Speisenatron",
+      "Backsoda",
+      "Kaiser-Natron"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man eine Reaktion, bei der Wärme an die Umgebung abgegeben wird?",
+    "antwort": "exotherm",
+    "akzeptiert": [
+      "exotherme Reaktion"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Bindungsart hält Natrium und Chlor im Kochsalzkristall zusammen?",
+    "antwort": "Ionenbindung",
+    "akzeptiert": [
+      "ionische Bindung",
+      "Ionenbeziehung",
+      "salzartige Bindung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die SI-Einheit der Stoffmenge?",
+    "antwort": "Mol",
+    "akzeptiert": [
+      "mol"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches chemische Element ist nach Deutschland benannt?",
+    "antwort": "Germanium",
+    "akzeptiert": [
+      "Ge"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches radioaktive Edelgas kann sich in Kellern ansammeln und Lungenkrebs verursachen?",
+    "antwort": "Radon",
+    "akzeptiert": [
+      "Rn"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Gemisch aus konzentrierter Salzsäure und Salpetersäure, das sogar Gold auflösen kann?",
+    "antwort": "Königswasser",
+    "akzeptiert": [
+      "Aqua regia"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach welchem italienischen Wissenschaftler ist die Konstante 6,022 · 10^23 pro Mol benannt?",
+    "antwort": "Avogadro",
+    "akzeptiert": [
+      "Amedeo Avogadro"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Element hat die Ordnungszahl 79?",
+    "antwort": "Gold",
+    "akzeptiert": [
+      "Au"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Element hat das chemische Symbol Sb?",
+    "antwort": "Antimon"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher französische Chemiker formulierte das „Prinzip vom kleinsten Zwang“ für chemische Gleichgewichte?",
+    "antwort": "Le Chatelier",
+    "akzeptiert": [
+      "Henry Le Chatelier",
+      "Le Châtelier",
+      "Chatelier"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Gruppe der Elemente mit den Ordnungszahlen 57 bis 71 (Lanthan bis Lutetium)?",
+    "antwort": "Lanthanoide",
+    "akzeptiert": [
+      "Lanthanide",
+      "Lanthaniden"
+    ],
+    "bewertung": "„Seltene Erden“ ist nicht ganz korrekt (umfasst auch Scandium und Yttrium), daher nicht werten."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Element ist das elektronegativste des Periodensystems?",
+    "antwort": "Fluor",
+    "akzeptiert": [
+      "F"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutsche Chemiker stellte 1828 Harnstoff künstlich her und widerlegte damit die Lebenskraft-Theorie?",
+    "antwort": "Friedrich Wöhler",
+    "akzeptiert": [
+      "Wöhler",
+      "Woehler"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche räumliche Form hat ein Methanmolekül (CH4)?",
+    "antwort": "Tetraeder",
+    "akzeptiert": [
+      "tetraedrisch",
+      "tetraederförmig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Chemiker erkannte die Ringstruktur des Benzols, angeblich nach einem Traum von einer Schlange, die sich in den Schwanz beißt?",
+    "antwort": "August Kekulé",
+    "akzeptiert": [
+      "Kekulé",
+      "Kekule"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Summenformel hat Benzol?",
+    "antwort": "C6H6"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie groß ist der Bindungswinkel H–O–H im Wassermolekül ungefähr?",
+    "antwort": "104,5°",
+    "akzeptiert": [
+      "104,5",
+      "104.5",
+      "ca. 105°",
+      "105"
+    ],
+    "bewertung": "Alles zwischen 104 und 105 Grad gilt als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Element wurde 1868 zuerst im Spektrum der Sonne entdeckt, bevor man es auf der Erde fand?",
+    "antwort": "Helium",
+    "akzeptiert": [
+      "He"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Oxidationszahl hat Sauerstoff in Wasserstoffperoxid (H2O2)?",
+    "antwort": "-1",
+    "akzeptiert": [
+      "−1",
+      "minus 1",
+      "minus eins",
+      "-I"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Gesetz, das durch die Gleichung p · V = n · R · T beschrieben wird?",
+    "antwort": "ideales Gasgesetz",
+    "akzeptiert": [
+      "allgemeine Gasgleichung",
+      "Gasgleichung",
+      "ideale Gasgleichung",
+      "Zustandsgleichung idealer Gase"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man zwei Moleküle, die sich wie Bild und Spiegelbild verhalten, aber nicht deckungsgleich sind?",
+    "antwort": "Enantiomere",
+    "akzeptiert": [
+      "Enantiomer",
+      "Spiegelbildisomere",
+      "optische Isomere"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Element hat das chemische Symbol Bi?",
+    "antwort": "Bismut",
+    "akzeptiert": [
+      "Wismut"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man Stoffe wie Wasser, die sowohl als Säure als auch als Base reagieren können?",
+    "antwort": "Ampholyte",
+    "akzeptiert": [
+      "Ampholyt",
+      "amphoter",
+      "amphotere Stoffe"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher US-Chemiker erhielt als bisher einziger Mensch zwei ungeteilte Nobelpreise (Chemie und Frieden)?",
+    "antwort": "Linus Pauling",
+    "akzeptiert": [
+      "Pauling"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele chemische Elemente umfasst das Periodensystem (Stand 2026)?",
+    "antwort": "118",
+    "akzeptiert": [
+      "hundertachtzehn"
+    ]
+  }
+]

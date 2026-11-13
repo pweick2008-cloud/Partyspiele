@@ -1,6 +1,6 @@
 # Partyspiele
 
-Zehn Spiele:
+Elf Spiele:
 
 - **Verräter** – alle kennen einen geheimen Begriff, nur die Verräter nicht. Pass & Play oder online.
 - **Wer bin ich?** – jeder bekommt eine Person, die alle kennen außer ihm selbst. Pass & Play oder online.
@@ -11,6 +11,7 @@ Zehn Spiele:
 - **Geheime Auktion** – Lose ersteigern: echt, gefälscht oder ein verkannter Schatz? Ein Tablet in der Mitte (2–4 Spieler) oder online (2–20, jeder am eigenen Handy).
 - **Galerie** – jeder schreibt einen Begriff, alle zeichnen ihn gleichzeitig, die beste Zeichnung gewinnt. Nur online, 3 bis 12 Spieler.
 - **Wer würde am ehesten?** – einer liest vor, die Gruppe entscheidet. Nur Pass & Play, 3 bis 20 Spieler.
+- **Quizwand** – Quizfragen von 100 bis 1000 Punkten in 10 Kategorien auf zwei Seiten, Claude bewertet die Antworten (angelehnt an *Jeopardy!*). Nur Pass & Play, 1 bis 10 Spieler.
 - **Kontextlos** – harmlose Antworten werden aus dem Zusammenhang gerissen (angelehnt an *Survive the Internet*). Nur online, 3 bis 12 Spieler.
 
 Auf der Startseite wählt man das Spiel, danach den Modus:
@@ -165,6 +166,21 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
   - Das geht nur in der **Claude-Version** (claude.ai-Link). Die Anfrage läuft über das claude.ai-Konto der Person, die das Handy hat. Beim ersten Mal fragt claude.ai, ob die Seite Claude benutzen darf.
   - An Claude gehen nur die Namen und die Fragen, bei denen jemand gewählt wurde.
   - Auf der Render-Seite fehlt dieser Teil, dort gibt es nur die einfache Auswertung.
+
+## Quizwand (Pass & Play, 1–10 Spieler)
+
+- **Kategorien:** Ihr wählt 10 von 18 Kategorien (oder lasst auffüllen). Der Zufall verteilt sie auf zwei Seiten mit je 5 Kategorien. Jede Kategorie hat 5 Fragen: 100, 200, 300, 400 und 500 Punkte. Auf Seite 2 zählt alles doppelt (200 bis 1000).
+- **Ablauf:** Reihum wählt einer ein Feld und tippt seine Antwort ein. Falsch oder „Weiß ich nicht“ kostet ihn nichts. Dann dürfen die anderen klauen: richtig gibt die Punkte, falsch kostet sie. Danach ist der Nächste dran. Ist eine Seite leer gespielt (oder vorzeitig beendet), geht es zu Seite 2 und dann zum Endstand.
+- **Bewertung:** Eindeutige Treffer (auch mit kleinen Tippfehlern) erkennt das Spiel selbst. Alles andere beurteilt **Claude** mit kurzer Begründung – Synonyme, andere Schreibweisen und sachlich richtige Antworten zählen. Ist die Runde anderer Meinung, dreht sie das Urteil mit „Doch richtig“ / „Doch falsch“ um.
+  - Claude gibt es nur in der **Claude-Version** (claude.ai-Link). Anderswo wird die Lösung gezeigt und die Runde entscheidet selbst.
+  - An Claude gehen nur die Frage, die Lösung und die getippte Antwort.
+- **Besonderheiten:** Bei *Flaggen* wird die Flagge als Emoji gezeigt (auf Windows-PCs zeigen manche Browser statt der Flagge nur zwei Buchstaben). Bei *Minecraft-Crafting* erscheint das Rezept im 3×3-Feld. Bei *Was ist die Frage?* steht die Antwort da und man muss die passende Frage bilden („Was ist …?“).
+- **Fragen:** 1.851 Fragen in 18 Kategorien: Mathe, Chemie, Physik, Flaggen, Hauptstädte, Minecraft-Crafting, Was ist die Frage?, Musik, Filme & Serien, Tiere, Fußball, Geschichte, Weltall, Menschlicher Körper, Essen & Trinken, Videospiele, Wörter & Redewendungen, Erfindungen & Technik. Zuletzt gespielte Fragen kommen erst später wieder.
+- Die Fragen stehen als JSON in `quiz-fragen/` (Format in `quiz-fragen/FORMAT.md`). Nach Änderungen `node tools/quiz-build.js` ausführen, das erzeugt `quiz-fragen.js`.
+
+## Claude-Version
+
+`node tools/claude-bundle.js partyspiele.html` baut eine einzelne HTML-Seite mit allen Spielen für Pass & Play (ohne Server). Sie wird auf claude.ai veröffentlicht. Nur dort können Quizwand und „Wer würde am ehesten?“ Claude benutzen.
 
 ## Kontextlos (nur online, 3–12 Spieler)
 

@@ -22,6 +22,7 @@
     <symbol id="ico-frame" viewBox="0 0 48 48"><rect x="6" y="8" width="36" height="32" rx="2"/><rect x="12" y="14" width="24" height="20"/><path d="M12 30l7-7 5 5 4-4 8 8"/><circle cx="30" cy="20" r="2"/></symbol>
     <symbol id="ico-gavel" viewBox="0 0 48 48"><path d="M21 6l12 12M15 12l12 12M18 9l12 12"/><path d="M24 21L9 36a3 3 0 0 0 4 4l15-15"/><path d="M28 42h14"/></symbol>
     <symbol id="ico-quill" viewBox="0 0 48 48"><path d="M40 6C26 8 16 18 12 34l-3 8"/><path d="M40 6c-1 10-7 18-16 22H16"/><path d="M30 12l-8 8"/><path d="M8 42h12"/></symbol>
+    <symbol id="ico-board" viewBox="0 0 48 48"><rect x="5" y="8" width="38" height="32" rx="3"/><path d="M5 18h38M5 29h38M17.7 8v32M30.3 8v32"/></symbol>
     <symbol id="ico-pencil" viewBox="0 0 48 48"><path d="M32.5 7.5l8 8L17.5 38.5 7 41l2.5-10.5z"/><path d="M28.5 11.5l8 8"/><path d="M9.5 30.5l8 8"/><path d="M8.3 35.5l4.2 4.2"/></symbol>
     <symbol id="ico-handoff" viewBox="0 0 48 48"><rect x="13" y="6" width="19" height="34" rx="4"/><path d="M20 35h5"/><path d="M36.5 15.5c3.5 3 3.5 9 0 12"/><path d="M36.5 27.5l-3.3-.2M36.5 27.5l.6-3.2"/></symbol>
     <symbol id="ico-globe" viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M8 24h32"/><path d="M24 8c5 4.4 7 10 7 16s-2 11.6-7 16c-5-4.4-7-10-7-16s2-11.6 7-16z"/></symbol>
@@ -113,6 +114,14 @@
         <span class="mode-text">
           <span class="mode-title">Wer würde am ehesten?</span>
           <span class="mode-desc">Einer liest vor, alle zeigen aufeinander. Wer würde es am ehesten tun – und wer am wenigsten?</span>
+        </span>
+      </button>
+      <button class="mode-card game-card" type="button" data-game="quiz">
+        <span class="mode-icon"><svg class="ico"><use href="#ico-board"/></svg></span>
+        <span class="mode-text">
+          <span class="mode-title">Quizwand</span>
+          <span class="mode-desc">Zwei Seiten, zehn Kategorien, Fragen von 100 bis 1000 Punkten. Wählt ein Feld, tippt die Antwort ein – Claude entscheidet.</span>
+          <span class="mode-tag">Beta</span>
         </span>
       </button>
       <button class="mode-card game-card" type="button" data-game="kontext">
@@ -779,6 +788,110 @@
       </details>
       <button id="wwae-continue" class="btn primary big" type="button">Weiterspielen</button>
       <button id="wwae-new" class="btn ghost" type="button">Neues Spiel</button>
+      <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>
+    </section>
+
+    <!-- ============ QUIZWAND (PASS & PLAY) ============ -->
+    <section id="screen-quiz-setup" class="screen">
+      <button class="back-link" type="button" data-back="hub">← Spiele</button>
+      <header class="title">
+        <h1>Quizwand</h1>
+        <p class="sub" id="quiz-total"></p>
+      </header>
+      <div class="card">
+        <div class="row-between">
+          <h2>Spieler</h2>
+          <div class="stepper" id="quiz-stepper">
+            <button type="button" data-dir="-1" aria-label="Spieler entfernen">−</button>
+            <span id="quiz-count">2</span>
+            <button type="button" data-dir="1" aria-label="Spieler hinzufügen">+</button>
+          </div>
+        </div>
+        <div id="quiz-players" class="player-list"></div>
+      </div>
+      <div class="card">
+        <div class="row-between">
+          <h2>Kategorien</h2>
+          <span class="pill quiz-cat-count" id="quiz-cat-count">0 / 10</span>
+        </div>
+        <p class="small muted">Wählt 10 Kategorien. Welche auf Seite 1 und welche auf Seite 2 (doppelte Punkte) landen, entscheidet der Zufall.</p>
+        <div id="quiz-cats" class="chips"></div>
+        <div class="host-row">
+          <button id="quiz-random" class="btn ghost" type="button">Zufällig auffüllen</button>
+          <button id="quiz-clear" class="btn ghost" type="button">Leeren</button>
+        </div>
+      </div>
+      <div class="card">
+        <p class="small muted">Reihum wählt einer ein Feld und antwortet zuerst – falsch kostet ihn nichts. Danach dürfen die anderen klauen: richtig gibt die Punkte, falsch kostet sie.</p>
+        <p class="small muted" id="quiz-judge-info"></p>
+      </div>
+      <p id="quiz-error" class="error" hidden></p>
+      <button id="quiz-start" class="btn primary big" type="button">Los geht's</button>
+    </section>
+
+    <section id="screen-quiz-board" class="screen">
+      <div class="quiz-top">
+        <span class="quiz-page" id="quiz-page"></span>
+        <span class="quiz-turn" id="quiz-turn"></span>
+      </div>
+      <div class="quiz-grid" id="quiz-grid"></div>
+      <div class="quiz-scores" id="quiz-scores"></div>
+      <button id="quiz-page-next" class="btn primary big" type="button" hidden></button>
+      <button id="quiz-page-skip" class="btn ghost" type="button"></button>
+    </section>
+
+    <section id="screen-quiz-question" class="screen">
+      <div class="card quiz-q-card" id="quiz-q-card">
+        <div class="quiz-q-head"><span id="quiz-q-cat"></span><span class="quiz-q-value" id="quiz-q-value"></span></div>
+        <div class="quiz-q-emoji" id="quiz-q-emoji" hidden></div>
+        <div class="quiz-recipe" id="quiz-q-recipe" hidden></div>
+        <p class="quiz-q-text" id="quiz-q-text"></p>
+      </div>
+      <form class="card quiz-answer" id="quiz-answer" hidden>
+        <span class="role-label" id="quiz-answer-who"></span>
+        <input type="text" id="quiz-input" maxlength="120" autocomplete="off" enterkeyhint="send">
+        <button id="quiz-check" class="btn primary big" type="submit">Antwort prüfen</button>
+        <button id="quiz-pass" class="btn ghost" type="button">Weiß ich nicht</button>
+      </form>
+      <div class="card quiz-judging" id="quiz-judging" hidden>
+        <p class="lu-hint">Claude prüft die Antwort …</p>
+        <button id="quiz-stop" class="btn ghost" type="button">Abbrechen</button>
+      </div>
+      <div class="card quiz-manual" id="quiz-manual" hidden>
+        <span class="role-label">Entscheidet selbst</span>
+        <p class="quiz-v-who" id="quiz-m-who"></p>
+        <p class="small muted">Lösung: <strong id="quiz-m-solution"></strong></p>
+        <div class="host-row">
+          <button id="quiz-m-right" class="btn yes" type="button">Richtig</button>
+          <button id="quiz-m-wrong" class="btn no" type="button">Falsch</button>
+        </div>
+      </div>
+      <div class="card quiz-verdict" id="quiz-verdict" hidden>
+        <div class="row-between"><h2 id="quiz-v-title"></h2><span class="quiz-v-points" id="quiz-v-points"></span></div>
+        <p class="quiz-v-who" id="quiz-v-who"></p>
+        <p class="small muted" id="quiz-v-reason"></p>
+        <button id="quiz-v-flip" class="btn ghost small-btn" type="button"></button>
+      </div>
+      <div class="card quiz-steal" id="quiz-steal" hidden>
+        <p class="small" id="quiz-steal-text"></p>
+        <div class="chips" id="quiz-steal-chips"></div>
+        <button id="quiz-nobody" class="btn ghost" type="button"></button>
+      </div>
+      <div class="card quiz-solution" id="quiz-solution" hidden>
+        <span class="role-label">Lösung</span>
+        <p class="quiz-solution-text" id="quiz-solution-text"></p>
+      </div>
+      <button id="quiz-back" class="btn primary big" type="button" hidden>Zurück zur Wand</button>
+      <div class="quiz-scores small-scores" id="quiz-q-scores"></div>
+    </section>
+
+    <section id="screen-quiz-end" class="screen">
+      <header class="title">
+        <h1>Endstand</h1>
+        <p class="sub" id="quiz-winner"></p>
+      </header>
+      <div class="card"><ol class="slf-ranking" id="quiz-ranking"></ol></div>
+      <button id="quiz-again" class="btn primary big" type="button">Nochmal spielen</button>
       <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>
     </section>
 
@@ -1489,6 +1602,7 @@
   <script src="faelscher-local.js"></script>
   <script src="ehesten-fragen.js"></script>
   <script src="ehesten.js"></script>
+  <script src="quiz.js"></script>
   <script src="wbi.js"></script>
   <script src="online.js"></script>
   <script src="wbi-online.js"></script>

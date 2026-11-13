@@ -1,0 +1,834 @@
+[
+  {
+    "stufe": 1,
+    "frage": "In welchem Jahr fiel die Berliner Mauer?",
+    "antwort": "1989",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Seefahrer erreichte 1492 Amerika?",
+    "antwort": "Christoph Kolumbus",
+    "akzeptiert": [
+      "Kolumbus",
+      "Columbus",
+      "Christopher Columbus"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wer betrat 1969 als erster Mensch den Mond?",
+    "antwort": "Neil Armstrong",
+    "akzeptiert": [
+      "Armstrong"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Jahr wurde Deutschland wiedervereinigt?",
+    "antwort": "1990",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Volk baute die Pyramiden von Gizeh?",
+    "antwort": "Ägypter",
+    "akzeptiert": [
+      "alte Ägypter",
+      "Ägypten"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie hieß das Passagierschiff, das 1912 nach der Kollision mit einem Eisberg sank?",
+    "antwort": "Titanic",
+    "akzeptiert": [
+      "RMS Titanic"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher französische Kaiser wurde 1815 bei Waterloo endgültig besiegt?",
+    "antwort": "Napoleon",
+    "akzeptiert": [
+      "Napoleon Bonaparte",
+      "Napoleon I."
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "An welchem Datum feiert Deutschland den Tag der Deutschen Einheit?",
+    "antwort": "3. Oktober",
+    "akzeptiert": [
+      "03.10.",
+      "dritter Oktober"
+    ],
+    "bewertung": "Jahr nicht nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Stadt war von 1961 bis 1989 durch eine Mauer geteilt?",
+    "antwort": "Berlin"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches jüdische Mädchen schrieb im Versteck in Amsterdam ein berühmtes Tagebuch?",
+    "antwort": "Anne Frank",
+    "akzeptiert": [
+      "Anne",
+      "Annelies Frank"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wer war der erste Präsident der USA?",
+    "antwort": "George Washington",
+    "akzeptiert": [
+      "Washington"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wer war ab 1933 Diktator in Deutschland?",
+    "antwort": "Adolf Hitler",
+    "akzeptiert": [
+      "Hitler"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie lautete die Abkürzung von Hitlers Partei?",
+    "antwort": "NSDAP"
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welcher Region Nordeuropas stammten die Wikinger?",
+    "antwort": "Skandinavien",
+    "akzeptiert": [
+      "Nordeuropa"
+    ],
+    "bewertung": "Auch Norwegen, Dänemark oder Schweden gelten als richtig."
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Epoche lebten Ritter auf Burgen?",
+    "antwort": "Mittelalter",
+    "akzeptiert": [
+      "im Mittelalter"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land warf 1945 Atombomben auf Hiroshima und Nagasaki?",
+    "antwort": "USA",
+    "akzeptiert": [
+      "Vereinigte Staaten",
+      "Amerika",
+      "Vereinigte Staaten von Amerika"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem berühmten Amphitheater in Rom kämpften Gladiatoren?",
+    "antwort": "Kolosseum",
+    "akzeptiert": [
+      "Colosseum",
+      "Flavisches Amphitheater"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher US-Bürgerrechtler hielt 1963 die Rede „I have a dream“?",
+    "antwort": "Martin Luther King",
+    "akzeptiert": [
+      "King",
+      "Martin Luther King Jr."
+    ],
+    "bewertung": "Nicht mit Martin Luther verwechseln; ‚King‘ muss enthalten sein."
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Land fanden die Olympischen Spiele der Antike statt?",
+    "antwort": "Griechenland",
+    "akzeptiert": [
+      "antikes Griechenland",
+      "Olympia"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Abkürzung hatte der ostdeutsche Staat von 1949 bis 1990?",
+    "antwort": "DDR",
+    "akzeptiert": [
+      "Deutsche Demokratische Republik"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Jahr begann der Zweite Weltkrieg?",
+    "antwort": "1939",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher römische Feldherr und Politiker wurde an den Iden des März 44 v. Chr. ermordet?",
+    "antwort": "Julius Caesar",
+    "akzeptiert": [
+      "Caesar",
+      "Cäsar",
+      "Gaius Julius Caesar"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Jahr begann der Erste Weltkrieg?",
+    "antwort": "1914",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche römische Stadt wurde 79 n. Chr. beim Ausbruch des Vesuvs verschüttet?",
+    "antwort": "Pompeji",
+    "akzeptiert": [
+      "Pompeii",
+      "Herculaneum"
+    ],
+    "bewertung": "Auch Herculaneum wurde verschüttet und ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Jahr begann die Französische Revolution?",
+    "antwort": "1789",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nannte man die Grenze zwischen Ost- und Westeuropa im Kalten Krieg bildlich?",
+    "antwort": "Eiserner Vorhang",
+    "akzeptiert": [
+      "der Eiserne Vorhang"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer erfand um 1450 in Mainz den Buchdruck mit beweglichen Lettern?",
+    "antwort": "Johannes Gutenberg",
+    "akzeptiert": [
+      "Gutenberg"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher US-Präsident wurde 1963 in Dallas erschossen?",
+    "antwort": "John F. Kennedy",
+    "akzeptiert": [
+      "Kennedy",
+      "JFK"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer war die erste Bundeskanzlerin Deutschlands?",
+    "antwort": "Angela Merkel",
+    "akzeptiert": [
+      "Merkel"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer wurde 1994 der erste schwarze Präsident Südafrikas?",
+    "antwort": "Nelson Mandela",
+    "akzeptiert": [
+      "Mandela"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Pharaonin war die letzte Herrscherin des alten Ägypten und Geliebte von Marcus Antonius?",
+    "antwort": "Kleopatra",
+    "akzeptiert": [
+      "Cleopatra",
+      "Kleopatra VII."
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher britische Premierminister führte Großbritannien durch den Zweiten Weltkrieg?",
+    "antwort": "Winston Churchill",
+    "akzeptiert": [
+      "Churchill"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher venezianische Kaufmann reiste im 13. Jahrhundert an den Hof des Mongolenherrschers Kublai Khan?",
+    "antwort": "Marco Polo",
+    "akzeptiert": [
+      "Polo"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher makedonische König eroberte im 4. Jh. v. Chr. ein Weltreich bis nach Indien?",
+    "antwort": "Alexander der Große",
+    "akzeptiert": [
+      "Alexander",
+      "Alexander III."
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die „Jungfrau von Orléans“, die 1431 auf dem Scheiterhaufen verbrannt wurde?",
+    "antwort": "Jeanne d'Arc",
+    "akzeptiert": [
+      "Johanna von Orléans",
+      "Jeanne d’Arc",
+      "Johanna von Orleans"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer führte Indien mit gewaltfreiem Widerstand in die Unabhängigkeit von Großbritannien?",
+    "antwort": "Mahatma Gandhi",
+    "akzeptiert": [
+      "Gandhi",
+      "Mohandas Gandhi"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Staat war neben den USA die zweite Supermacht im Kalten Krieg?",
+    "antwort": "Sowjetunion",
+    "akzeptiert": [
+      "UdSSR",
+      "SU",
+      "Russland"
+    ],
+    "bewertung": "Auch ‚Russland‘ gelten lassen."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem heutigen Land liegt Tschernobyl, wo 1986 ein Atomreaktor explodierte?",
+    "antwort": "Ukraine"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Zwillingstürme in New York wurden am 11. September 2001 zerstört?",
+    "antwort": "World Trade Center",
+    "akzeptiert": [
+      "WTC",
+      "Twin Towers"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche britische Königin regierte von 1952 bis 2022?",
+    "antwort": "Elisabeth II.",
+    "akzeptiert": [
+      "Elizabeth II",
+      "Queen Elizabeth",
+      "Elisabeth"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer schlug 1517 der Überlieferung nach 95 Thesen an die Schlosskirche in Wittenberg?",
+    "antwort": "Martin Luther",
+    "akzeptiert": [
+      "Luther"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
+    "antwort": "Konrad Adenauer",
+    "akzeptiert": [
+      "Adenauer"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Jahr wurde die Berliner Mauer gebaut?",
+    "antwort": "1961",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher karthagische Feldherr überquerte mit Kriegselefanten die Alpen?",
+    "antwort": "Hannibal"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer war der erste Reichskanzler des Deutschen Kaiserreichs ab 1871?",
+    "antwort": "Otto von Bismarck",
+    "akzeptiert": [
+      "Bismarck"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Jahr erklärten die USA ihre Unabhängigkeit?",
+    "antwort": "1776",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Pariser Gefängnis wurde am 14. Juli 1789 gestürmt?",
+    "antwort": "Bastille",
+    "akzeptiert": [
+      "die Bastille"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher US-Stützpunkt auf Hawaii wurde im Dezember 1941 von Japan angegriffen?",
+    "antwort": "Pearl Harbor"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß die Widerstandsgruppe um die Geschwister Hans und Sophie Scholl?",
+    "antwort": "Weiße Rose",
+    "akzeptiert": [
+      "Die Weiße Rose"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer verübte am 20. Juli 1944 ein Bombenattentat auf Hitler?",
+    "antwort": "Claus Schenk Graf von Stauffenberg",
+    "akzeptiert": [
+      "Stauffenberg",
+      "Claus von Stauffenberg"
+    ],
+    "bewertung": "Nachname Stauffenberg reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher österreichische Thronfolger wurde 1914 in Sarajevo ermordet?",
+    "antwort": "Franz Ferdinand",
+    "akzeptiert": [
+      "Erzherzog Franz Ferdinand"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Seefahrer leitete die Expedition, die 1519–1522 als erste die Erde umsegelte?",
+    "antwort": "Ferdinand Magellan",
+    "akzeptiert": [
+      "Magellan",
+      "Fernão de Magalhães",
+      "Magalhães"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer führte 1917 die Bolschewiki in der russischen Oktoberrevolution an?",
+    "antwort": "Lenin",
+    "akzeptiert": [
+      "Wladimir Lenin",
+      "Wladimir Iljitsch Lenin"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Um welche Insel ging es 1962 bei der Krise, die die Welt an den Rand eines Atomkriegs brachte?",
+    "antwort": "Kuba"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Gladiator führte 73 v. Chr. einen großen Sklavenaufstand gegen Rom an?",
+    "antwort": "Spartacus",
+    "akzeptiert": [
+      "Spartakus"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher englische König hatte sechs Ehefrauen?",
+    "antwort": "Heinrich VIII.",
+    "akzeptiert": [
+      "Henry VIII",
+      "Heinrich der Achte"
+    ],
+    "bewertung": "Die Ordnungszahl VIII muss stimmen."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher französische König wurde „Sonnenkönig“ genannt?",
+    "antwort": "Ludwig XIV.",
+    "akzeptiert": [
+      "Louis XIV",
+      "Ludwig der Vierzehnte"
+    ],
+    "bewertung": "Die Ordnungszahl XIV muss stimmen."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Schloss wurde 1919 der Friedensvertrag mit Deutschland nach dem Ersten Weltkrieg unterzeichnet?",
+    "antwort": "Versailles",
+    "akzeptiert": [
+      "Schloss Versailles"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nannten die Berliner die Flugzeuge der Luftbrücke 1948/49?",
+    "antwort": "Rosinenbomber"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Bundeskanzler kniete 1970 am Ehrenmal für die Opfer des Warschauer Ghettos nieder?",
+    "antwort": "Willy Brandt",
+    "akzeptiert": [
+      "Brandt"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Jahr wurde Karl der Große in Rom zum Kaiser gekrönt?",
+    "antwort": "800",
+    "bewertung": "Genaues Jahr nötig (800 n. Chr.)."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Friede beendete 1648 den Dreißigjährigen Krieg?",
+    "antwort": "Westfälischer Friede",
+    "akzeptiert": [
+      "Westfälischer Frieden",
+      "Frieden von Münster und Osnabrück",
+      "Westfälischer Friedensschluss"
+    ],
+    "bewertung": "Auch ‚Friede von Münster und Osnabrück‘ ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "An welchem Datum trat 1945 die bedingungslose Kapitulation der Wehrmacht in Kraft (Kriegsende in Europa)?",
+    "antwort": "8. Mai 1945",
+    "akzeptiert": [
+      "8. Mai",
+      "08.05.1945"
+    ],
+    "bewertung": "Tag und Monat (8. Mai) nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher portugiesische Seefahrer fand 1498 den Seeweg nach Indien?",
+    "antwort": "Vasco da Gama",
+    "akzeptiert": [
+      "da Gama"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Jahr eroberten die Osmanen Konstantinopel?",
+    "antwort": "1453",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher normannische Herzog eroberte 1066 England?",
+    "antwort": "Wilhelm der Eroberer",
+    "akzeptiert": [
+      "Wilhelm I.",
+      "William the Conqueror",
+      "Wilhelm von der Normandie"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Stadt begannen 1989 die Montagsdemonstrationen in der DDR?",
+    "antwort": "Leipzig"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher SED-Politiker verkündete am 9. November 1989 auf einer Pressekonferenz die sofortige Grenzöffnung?",
+    "antwort": "Günter Schabowski",
+    "akzeptiert": [
+      "Schabowski"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Archäologe entdeckte 1922 das Grab des Tutanchamun?",
+    "antwort": "Howard Carter",
+    "akzeptiert": [
+      "Carter"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wer war der erste römische Kaiser?",
+    "antwort": "Augustus",
+    "akzeptiert": [
+      "Octavian",
+      "Oktavian",
+      "Gaius Octavius"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Jahr wurde in England die Magna Carta besiegelt?",
+    "antwort": "1215",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Stadt tagte 1919 die Nationalversammlung, nach der die erste deutsche Republik benannt ist?",
+    "antwort": "Weimar"
+  },
+  {
+    "stufe": 4,
+    "frage": "An welchem Berliner See wurde im Januar 1942 auf einer Konferenz der Holocaust organisiert?",
+    "antwort": "Wannsee",
+    "akzeptiert": [
+      "Großer Wannsee"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Kaufmann und Hobby-Archäologe grub ab 1870 nach dem antiken Troja?",
+    "antwort": "Heinrich Schliemann",
+    "akzeptiert": [
+      "Schliemann"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche König unternahm 1077 den „Gang nach Canossa“?",
+    "antwort": "Heinrich IV.",
+    "akzeptiert": [
+      "Heinrich der Vierte"
+    ],
+    "bewertung": "Die Ordnungszahl IV muss stimmen."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Stadt eroberten die Kreuzfahrer 1099 im Ersten Kreuzzug?",
+    "antwort": "Jerusalem"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wer flog 1961 als erster Mensch ins Weltall?",
+    "antwort": "Juri Gagarin",
+    "akzeptiert": [
+      "Gagarin",
+      "Yuri Gagarin"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man die 1968 von Truppen des Warschauer Pakts niedergeschlagene Reformbewegung in der Tschechoslowakei?",
+    "antwort": "Prager Frühling"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher spartanische König fiel 480 v. Chr. in der Schlacht bei den Thermopylen?",
+    "antwort": "Leonidas",
+    "akzeptiert": [
+      "Leonidas I."
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß der erste künstliche Erdsatellit, den die Sowjetunion 1957 startete?",
+    "antwort": "Sputnik",
+    "akzeptiert": [
+      "Sputnik 1"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr fand die Schlacht im Teutoburger Wald (Varusschlacht) statt?",
+    "antwort": "9 n. Chr.",
+    "akzeptiert": [
+      "9",
+      "im Jahr 9"
+    ],
+    "bewertung": "Genaues Jahr nötig: 9 n. Chr."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher germanische Heerführer besiegte in der Varusschlacht die Römer?",
+    "antwort": "Arminius",
+    "akzeptiert": [
+      "Hermann der Cherusker",
+      "Hermann"
+    ],
+    "bewertung": "Auch ‚Hermann (der Cherusker)‘ ist richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher germanische Heerführer setzte 476 den letzten weströmischen Kaiser ab?",
+    "antwort": "Odoaker",
+    "akzeptiert": [
+      "Odoacer"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher König besiegte 955 in der Schlacht auf dem Lechfeld die Ungarn?",
+    "antwort": "Otto I.",
+    "akzeptiert": [
+      "Otto der Große",
+      "Otto"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer folgte im Oktober 1989 Erich Honecker als SED-Generalsekretär?",
+    "antwort": "Egon Krenz",
+    "akzeptiert": [
+      "Krenz"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Vertrag von 1990, mit dem die vier Siegermächte der deutschen Einheit zustimmten?",
+    "antwort": "Zwei-plus-Vier-Vertrag",
+    "akzeptiert": [
+      "2+4-Vertrag",
+      "Zwei-plus-Vier"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr fand am 17. Juni der Volksaufstand in der DDR statt?",
+    "antwort": "1953",
+    "bewertung": "Genaues Jahr nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Babylonier-König ließ eine der ältesten Gesetzessammlungen auf eine Stele meißeln?",
+    "antwort": "Hammurabi",
+    "akzeptiert": [
+      "Hammurapi"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches von Bismarck gekürzte Telegramm trug 1870 zum Ausbruch des Deutsch-Französischen Kriegs bei?",
+    "antwort": "Emser Depesche",
+    "akzeptiert": [
+      "die Emser Depesche"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer erschoss 1914 in Sarajevo den österreichischen Thronfolger?",
+    "antwort": "Gavrilo Princip",
+    "akzeptiert": [
+      "Princip"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr fand die Schlacht bei Marathon statt?",
+    "antwort": "490 v. Chr.",
+    "akzeptiert": [
+      "490"
+    ],
+    "bewertung": "Genaues Jahr nötig: 490 v. Chr."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Kaiser erließ 1356 die Goldene Bulle?",
+    "antwort": "Karl IV.",
+    "akzeptiert": [
+      "Karl der Vierte"
+    ],
+    "bewertung": "Die Ordnungszahl IV muss stimmen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer sagte im Juni 1961: „Niemand hat die Absicht, eine Mauer zu errichten“?",
+    "antwort": "Walter Ulbricht",
+    "akzeptiert": [
+      "Ulbricht"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher französische König erließ 1598 das Edikt von Nantes?",
+    "antwort": "Heinrich IV.",
+    "akzeptiert": [
+      "Henri IV",
+      "Heinrich der Vierte",
+      "Henri Quatre"
+    ],
+    "bewertung": "Die Ordnungszahl IV muss stimmen."
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Vertrag teilten Spanien und Portugal 1494 die neu entdeckten Gebiete der Welt auf?",
+    "antwort": "Vertrag von Tordesillas",
+    "akzeptiert": [
+      "Tordesillas"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man das Massaker an den Hugenotten in Paris im August 1572?",
+    "antwort": "Bartholomäusnacht",
+    "akzeptiert": [
+      "Pariser Bluthochzeit"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche zwei Adelshäuser kämpften in den englischen Rosenkriegen gegeneinander?",
+    "antwort": "Lancaster und York",
+    "akzeptiert": [
+      "York und Lancaster"
+    ],
+    "bewertung": "Beide Häuser müssen genannt werden."
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach dem Tod welches Kaisers wurde das Römische Reich 395 endgültig in Ost und West geteilt?",
+    "antwort": "Theodosius I.",
+    "akzeptiert": [
+      "Theodosius",
+      "Theodosius der Große"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Pharaonin der 18. Dynastie ließ sich mit Königsbart darstellen?",
+    "antwort": "Hatschepsut",
+    "akzeptiert": [
+      "Hatshepsut"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Herrscher von Mali gilt seit seiner Pilgerreise nach Mekka 1324 als einer der reichsten Menschen der Geschichte?",
+    "antwort": "Mansa Musa",
+    "akzeptiert": [
+      "Musa I.",
+      "Musa"
+    ]
+  }
+]

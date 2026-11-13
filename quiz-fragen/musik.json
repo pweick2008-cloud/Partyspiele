@@ -1,0 +1,724 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Wie viele Saiten hat eine normale Gitarre?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher US-Sänger ist als „King of Pop“ bekannt?",
+    "antwort": "Michael Jackson",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Band hatte den Hit „Bohemian Rhapsody“?",
+    "antwort": "Queen"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher britische Sänger hatte 2017 mit „Shape of You“ einen Welthit?",
+    "antwort": "Ed Sheeran",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sängerin landete 2019 mit „Bad Guy“ einen Welthit?",
+    "antwort": "Billie Eilish",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Musikwettbewerb, bei dem jedes Jahr vor allem europäische Länder mit je einem Song gegeneinander antreten?",
+    "antwort": "Eurovision Song Contest",
+    "akzeptiert": [
+      "ESC",
+      "Eurovision",
+      "Grand Prix"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wer gilt als „King of Rock ’n’ Roll“?",
+    "antwort": "Elvis Presley",
+    "akzeptiert": [
+      "Elvis"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus wie vielen Mitgliedern bestanden die Beatles?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Schlagersängerin landete 2013 mit „Atemlos durch die Nacht“ einen Riesenhit?",
+    "antwort": "Helene Fischer",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welchem Land kommt die K-Pop-Band BTS?",
+    "antwort": "Südkorea",
+    "akzeptiert": [
+      "Korea",
+      "Republik Korea"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sängerin aus Barbados hatte Hits wie „Umbrella“ und „Diamonds“?",
+    "antwort": "Rihanna"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche britische Sängerin hatte Welthits mit „Rolling in the Deep“ und „Hello“?",
+    "antwort": "Adele"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Sänger landete 2019/2020 mit „Blinding Lights“ einen Welthit?",
+    "antwort": "The Weeknd",
+    "akzeptiert": [
+      "Weeknd"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Instrument mit schwarzen und weißen Tasten, das in vielen Wohnzimmern steht und auch „Piano“ genannt wird?",
+    "antwort": "Klavier",
+    "akzeptiert": [
+      "Piano",
+      "Flügel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher deutsche Rapper tritt mit einer Pandamaske auf?",
+    "antwort": "Cro"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Musikstück, das von genau zwei Personen gesungen wird?",
+    "antwort": "Duett",
+    "akzeptiert": [
+      "Duet"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welchem Land kommt die Girlgroup Blackpink?",
+    "antwort": "Südkorea",
+    "akzeptiert": [
+      "Korea"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Sänger hatte 2022 mit „As It Was“ einen Welthit und war früher bei One Direction?",
+    "antwort": "Harry Styles",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Schlaginstrument besteht aus mehreren Trommeln und Becken und wird vom Drummer gespielt?",
+    "antwort": "Schlagzeug",
+    "akzeptiert": [
+      "Drums",
+      "Drumset",
+      "Drum-Set"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Rapper landete 2019 mit „Old Town Road“ einen Rekord-Hit?",
+    "antwort": "Lil Nas X"
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welcher Stadt stammten die Beatles?",
+    "antwort": "Liverpool"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Sängerin veröffentlichte die Alben „1989“ und „Midnights“?",
+    "antwort": "Taylor Swift",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welchem Song gewann Lena 2010 den Eurovision Song Contest für Deutschland?",
+    "antwort": "Satellite"
+  },
+  {
+    "stufe": 2,
+    "frage": "Unter welchem Künstlernamen ist der Rapper Marshall Mathers bekannt?",
+    "antwort": "Eminem",
+    "akzeptiert": [
+      "Slim Shady"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher schwedische DJ hatte 2011 mit „Levels“ einen Welthit und starb 2018?",
+    "antwort": "Avicii",
+    "bewertung": "Bürgerlicher Name Tim Bergling ist auch richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Linien hat ein normales Notensystem?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Band hatte 1991 mit „Smells Like Teen Spirit“ einen Welthit?",
+    "antwort": "Nirvana"
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welchem Land kommt die Band ABBA?",
+    "antwort": "Schweden"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Berliner Band ist für die Songs „Du hast“ und „Sonne“ bekannt?",
+    "antwort": "Rammstein"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Komponist schrieb die Oper „Die Zauberflöte“?",
+    "antwort": "Wolfgang Amadeus Mozart",
+    "akzeptiert": [
+      "Mozart"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer war der Sänger der Band Queen?",
+    "antwort": "Freddie Mercury",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Band hat Mick Jagger als Sänger?",
+    "antwort": "The Rolling Stones",
+    "akzeptiert": [
+      "Rolling Stones",
+      "Stones"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Rapper landete 2019 mit „Roller“ einen Nummer-1-Hit in Deutschland?",
+    "antwort": "Apache 207",
+    "akzeptiert": [
+      "Apache"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Streichinstrument ist das größte und tiefste im Orchester?",
+    "antwort": "Kontrabass",
+    "akzeptiert": [
+      "Bass"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Blechblasinstrument mit drei Ventilen machte Louis Armstrong berühmt?",
+    "antwort": "Trompete"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Band machte 2005 mit „Durch den Monsun“ Bill Kaulitz bekannt?",
+    "antwort": "Tokio Hotel"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Sängerin landete 2021 mit „drivers license“ ihren ersten großen Hit?",
+    "antwort": "Olivia Rodrigo",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Gerät, das beim Üben gleichmäßig den Takt vorgibt, zum Beispiel durch Klicken?",
+    "antwort": "Metronom",
+    "akzeptiert": [
+      "Taktgeber",
+      "Click"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Stadt steht das Konzerthaus Elbphilharmonie?",
+    "antwort": "Hamburg"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Sänger hatte 2014 zusammen mit Mark Ronson den Welthit „Uptown Funk“?",
+    "antwort": "Bruno Mars",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Komponist schrieb das Klavierstück „Für Elise“?",
+    "antwort": "Ludwig van Beethoven",
+    "akzeptiert": [
+      "Beethoven"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Tasten hat ein normales Klavier?",
+    "antwort": "88",
+    "akzeptiert": [
+      "achtundachtzig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Rapper veröffentlichte 2016 zusammen mit Bonez MC das Album „Palmen aus Plastik“?",
+    "antwort": "RAF Camora",
+    "akzeptiert": [
+      "RAF 3.0",
+      "Raf"
+    ],
+    "bewertung": "Auch der bürgerliche Name Raphael Ragucci ist richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß der Sänger und Gitarrist der Band Nirvana?",
+    "antwort": "Kurt Cobain",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Stadt wurde Wolfgang Amadeus Mozart geboren?",
+    "antwort": "Salzburg"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher italienische Komponist schrieb „Die vier Jahreszeiten“?",
+    "antwort": "Antonio Vivaldi",
+    "akzeptiert": [
+      "Vivaldi"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Sänger der Band Coldplay?",
+    "antwort": "Chris Martin",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche italienische Band gewann 2021 den Eurovision Song Contest mit „Zitti e buoni“?",
+    "antwort": "Måneskin",
+    "akzeptiert": [
+      "Maneskin"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Dur-Tonart kommt ohne Vorzeichen aus und lässt sich auf dem Klavier nur mit weißen Tasten spielen?",
+    "antwort": "C-Dur",
+    "akzeptiert": [
+      "C"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Musiker spielen in einem Streichquartett?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Notenschlüssel, mit dem man meist Melodien für Geige oder die rechte Hand am Klavier notiert?",
+    "antwort": "Violinschlüssel",
+    "akzeptiert": [
+      "G-Schlüssel",
+      "Violinenschlüssel"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Unter welchem Künstlernamen ist Stefani Germanotta bekannt?",
+    "antwort": "Lady Gaga"
+  },
+  {
+    "stufe": 3,
+    "frage": "Unter welchem Künstlernamen ist der kanadische Rapper Aubrey Graham bekannt?",
+    "antwort": "Drake"
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welcher Hamburger Rap-Crew gehören Gzuz und Bonez MC?",
+    "antwort": "187 Strassenbande",
+    "akzeptiert": [
+      "187",
+      "187 Straßenbande"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welchem Altrocker nahm Apache 207 2023 den Rekord-Hit „Komet“ auf?",
+    "antwort": "Udo Lindenberg",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus welchem Land stammt die Sängerin Shakira?",
+    "antwort": "Kolumbien"
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welcher Band wurde Peter Fox bekannt, bevor er solo „Haus am See“ veröffentlichte?",
+    "antwort": "Seeed"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Rapper trug zu Beginn seiner Karriere eine silberne Totenkopfmaske?",
+    "antwort": "Sido"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bedeutet es, wenn ein Lied „a cappella“ gesungen wird?",
+    "antwort": "Ohne Instrumente",
+    "bewertung": "Sinngemäß richtig: nur Gesang, ohne Instrumentalbegleitung."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Band veröffentlichte 2003 die Rockhymne „Seven Nation Army“?",
+    "antwort": "The White Stripes",
+    "akzeptiert": [
+      "White Stripes"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Rapper heißt bürgerlich Anis Mohamed Youssef Ferchichi?",
+    "antwort": "Bushido"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Band veröffentlichte 1973 das Album „The Dark Side of the Moon“?",
+    "antwort": "Pink Floyd"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Michael-Jackson-Album von 1982, das als meistverkauftes Album aller Zeiten gilt?",
+    "antwort": "Thriller"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher französische Komponist schrieb den „Boléro“?",
+    "antwort": "Maurice Ravel",
+    "akzeptiert": [
+      "Ravel"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß der Schlagzeuger der Beatles?",
+    "antwort": "Ringo Starr",
+    "akzeptiert": [
+      "Ringo"
+    ],
+    "bewertung": "Auch Richard Starkey ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Jahr fand das legendäre Woodstock-Festival statt?",
+    "antwort": "1969"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Düsseldorfer Band veröffentlichte 1974 „Autobahn“ und gilt als Pionier der elektronischen Musik?",
+    "antwort": "Kraftwerk"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher US-Rapper erhielt 2018 als erster Rapper den Pulitzer-Preis für Musik?",
+    "antwort": "Kendrick Lamar",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Sinfonien hat Ludwig van Beethoven vollendet?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Musikpreis wurde 2018 nach dem Skandal um eine Auszeichnung für Kollegah und Farid Bang abgeschafft?",
+    "antwort": "Echo",
+    "akzeptiert": [
+      "Echo-Musikpreis",
+      "Echo Pop"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher französische Komponist schrieb die Oper „Carmen“?",
+    "antwort": "Georges Bizet",
+    "akzeptiert": [
+      "Bizet"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Sänger von Linkin Park starb im Jahr 2017?",
+    "antwort": "Chester Bennington",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Land stammt die Rockband AC/DC?",
+    "antwort": "Australien"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Zahl gibt dem „Club“ von Musikern wie Jimi Hendrix, Janis Joplin, Kurt Cobain und Amy Winehouse seinen Namen?",
+    "antwort": "27",
+    "akzeptiert": [
+      "siebenundzwanzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Brüder prägten die britische Band Oasis?",
+    "antwort": "Gallagher",
+    "akzeptiert": [
+      "Liam und Noel Gallagher",
+      "Gallagher-Brüder"
+    ],
+    "bewertung": "Nachname Gallagher reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Instrument erfand der Belgier Adolphe Sax?",
+    "antwort": "Saxophon",
+    "akzeptiert": [
+      "Saxofon",
+      "Sax"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Stuttgarter Rap-Gruppe hatte 1992 mit „Die da!?!“ einen der ersten großen Deutschrap-Hits?",
+    "antwort": "Die Fantastischen Vier",
+    "akzeptiert": [
+      "Fantastische Vier",
+      "Fanta 4",
+      "Fanta Vier"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Band veröffentlichte 1976 den Song „Hotel California“?",
+    "antwort": "Eagles",
+    "akzeptiert": [
+      "The Eagles"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Halbtonschritte umfasst eine Oktave?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Komponist schrieb den Opernzyklus „Der Ring des Nibelungen“?",
+    "antwort": "Richard Wagner",
+    "akzeptiert": [
+      "Wagner"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Sinfonien schrieb Johannes Brahms?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher russische Komponist schrieb das musikalische Märchen „Peter und der Wolf“?",
+    "antwort": "Sergei Prokofjew",
+    "akzeptiert": [
+      "Prokofjew",
+      "Prokofiev",
+      "Prokofieff"
+    ],
+    "bewertung": "Nachname reicht, Schreibweise großzügig werten."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Gitarrist der Band Queen?",
+    "antwort": "Brian May",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Deutschrapper heißt bürgerlich Felix Blume?",
+    "antwort": "Kollegah"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher tschechische Komponist schrieb das Orchesterwerk „Die Moldau“?",
+    "antwort": "Bedřich Smetana",
+    "akzeptiert": [
+      "Smetana",
+      "Bedrich Smetana"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "In welcher bayerischen Stadt finden jedes Jahr die Richard-Wagner-Festspiele statt?",
+    "antwort": "Bayreuth"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das barocke Tasteninstrument, bei dem die Saiten nicht angeschlagen, sondern gezupft werden?",
+    "antwort": "Cembalo",
+    "akzeptiert": [
+      "Harpsichord",
+      "Clavicembalo",
+      "Kielflügel"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt eine Tonleiter, die nur aus fünf verschiedenen Tönen besteht?",
+    "antwort": "Pentatonik",
+    "akzeptiert": [
+      "pentatonische Tonleiter",
+      "Pentatonische Skala"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Komponist schrieb die Melodie, die heute für die deutsche Nationalhymne verwendet wird?",
+    "antwort": "Joseph Haydn",
+    "akzeptiert": [
+      "Haydn"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Frontmann der britischen Band Radiohead?",
+    "antwort": "Thom Yorke",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Dreiklang aus Grundton, großer Terz und reiner Quinte?",
+    "antwort": "Dur-Dreiklang",
+    "akzeptiert": [
+      "Durdreiklang",
+      "Dur-Akkord",
+      "Durakkord"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Komponist schrieb die Musik zu „Ein Sommernachtstraum“ mit dem berühmten Hochzeitsmarsch?",
+    "antwort": "Felix Mendelssohn Bartholdy",
+    "akzeptiert": [
+      "Mendelssohn",
+      "Mendelssohn Bartholdy"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Album und der Film von Prince aus dem Jahr 1984?",
+    "antwort": "Purple Rain"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Orchesterinstrument hat in der Konzertversion 47 Saiten und sieben Pedale?",
+    "antwort": "Harfe",
+    "akzeptiert": [
+      "Konzertharfe",
+      "Pedalharfe"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Unter welchem bürgerlichen Namen wurde Elton John geboren?",
+    "antwort": "Reginald Dwight",
+    "akzeptiert": [
+      "Reginald Kenneth Dwight"
+    ],
+    "bewertung": "Nachname Dwight reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Sängerin von Fleetwood Mac, die den Song „Dreams“ schrieb?",
+    "antwort": "Stevie Nicks",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Musiker hält Stand 2025 den Rekord für die meisten gewonnenen Grammys?",
+    "antwort": "Beyoncé",
+    "akzeptiert": [
+      "Beyonce"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Begriff bezeichnet in der Musik „sehr leise“ und wird mit „pp“ abgekürzt?",
+    "antwort": "Pianissimo"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Kendrick Lamars Album von 2017, für das er den Pulitzer-Preis erhielt?",
+    "antwort": "DAMN.",
+    "akzeptiert": [
+      "DAMN",
+      "Damn"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welcher Stadt starb Wolfgang Amadeus Mozart im Jahr 1791?",
+    "antwort": "Wien"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Rapper Kendrick Lamars Album von 2017, für das er den Pulitzer-Preis erhielt?",
+    "antwort": "DAMN.",
+    "akzeptiert": [
+      "DAMN",
+      "Damn"
+    ]
+  }
+]

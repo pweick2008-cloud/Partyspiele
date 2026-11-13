@@ -1,0 +1,883 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 7 mal 8?",
+    "antwort": "56",
+    "akzeptiert": [
+      "sechsundfünfzig"
+    ],
+    "bewertung": "Nur die Zahl zählt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Ecken hat ein Würfel?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 9 plus 6?",
+    "antwort": "15",
+    "akzeptiert": [
+      "fünfzehn"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hälfte von 50?",
+    "antwort": "25",
+    "akzeptiert": [
+      "fünfundzwanzig"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 100 minus 37?",
+    "antwort": "63",
+    "akzeptiert": [
+      "dreiundsechzig"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 6 mal 6?",
+    "antwort": "36",
+    "akzeptiert": [
+      "sechsunddreißig"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Zentimeter hat ein Meter?",
+    "antwort": "100",
+    "akzeptiert": [
+      "hundert",
+      "einhundert"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man das Ergebnis einer Addition?",
+    "antwort": "Summe"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man das Ergebnis einer Multiplikation?",
+    "antwort": "Produkt"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel Grad hat ein rechter Winkel?",
+    "antwort": "90",
+    "akzeptiert": [
+      "90°",
+      "90 Grad",
+      "neunzig"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 12 geteilt durch 4?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Zahl kommt direkt nach 999?",
+    "antwort": "1000",
+    "akzeptiert": [
+      "1.000",
+      "tausend",
+      "eintausend"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Form mit vier gleich langen Seiten und vier rechten Winkeln?",
+    "antwort": "Quadrat",
+    "bewertung": "„Rechteck“ oder „Raute“ allein gelten nicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Ist die Zahl 17 gerade oder ungerade?",
+    "antwort": "ungerade"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 3 hoch 2 (also 3²)?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist ein Viertel von 40?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 5 mal 20?",
+    "antwort": "100",
+    "akzeptiert": [
+      "hundert",
+      "einhundert"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Gramm sind ein Kilogramm?",
+    "antwort": "1000",
+    "akzeptiert": [
+      "1.000",
+      "tausend",
+      "eintausend"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Strecke vom Mittelpunkt eines Kreises bis zu seinem Rand?",
+    "antwort": "Radius",
+    "akzeptiert": [
+      "Halbmesser"
+    ],
+    "bewertung": "„Durchmesser“ ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Zehner stecken in der Zahl 100?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel sind 25 Prozent von 80?",
+    "antwort": "20",
+    "akzeptiert": [
+      "zwanzig"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt ein Dreieck, bei dem alle drei Seiten gleich lang sind?",
+    "antwort": "gleichseitiges Dreieck",
+    "akzeptiert": [
+      "gleichseitig"
+    ],
+    "bewertung": "„Gleichseitig“ reicht. „Gleichschenklig“ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Kanten hat ein Würfel?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel ist 11 mal 11?",
+    "antwort": "121",
+    "akzeptiert": [
+      "hunderteinundzwanzig"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Quadratwurzel aus 81?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ],
+    "bewertung": "Auch „±9“ oder „-9 und 9“ gilt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel ist 15 mal 4?",
+    "antwort": "60",
+    "akzeptiert": [
+      "sechzig"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie schreibt man den Bruch 3/4 als Dezimalzahl?",
+    "antwort": "0,75",
+    "akzeptiert": [
+      "0.75",
+      ",75"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche ist die kleinste Primzahl?",
+    "antwort": "2",
+    "akzeptiert": [
+      "zwei"
+    ],
+    "bewertung": "1 ist keine Primzahl, also falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel sind 10 Prozent von 250?",
+    "antwort": "25",
+    "akzeptiert": [
+      "fünfundzwanzig"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie groß ist die Winkelsumme in einem Dreieck (in Grad)?",
+    "antwort": "180",
+    "akzeptiert": [
+      "180°",
+      "180 Grad"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt ein Winkel, der größer als 90° und kleiner als 180° ist?",
+    "antwort": "stumpfer Winkel",
+    "akzeptiert": [
+      "stumpf"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie groß ist die Fläche eines Rechtecks mit den Seiten 4 cm und 7 cm (in cm²)?",
+    "antwort": "28",
+    "akzeptiert": [
+      "28 cm²",
+      "28 Quadratzentimeter"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel ist 144 geteilt durch 12?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welchen Wert hat die römische Zahl L?",
+    "antwort": "50",
+    "akzeptiert": [
+      "fünfzig"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie groß ist der Umfang eines Quadrats mit der Seitenlänge 9 cm (in cm)?",
+    "antwort": "36",
+    "akzeptiert": [
+      "36 cm"
+    ],
+    "bewertung": "Einheit nicht nötig. 81 (Fläche) ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man das Ergebnis einer Division?",
+    "antwort": "Quotient"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel ist minus 5 plus 12?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben",
+      "+7"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel ist 2 hoch 5?",
+    "antwort": "32",
+    "akzeptiert": [
+      "zweiunddreißig"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Zahl über dem Bruchstrich?",
+    "antwort": "Zähler",
+    "bewertung": "„Nenner“ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist der Durchschnitt (Mittelwert) der Zahlen 4, 8 und 12?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist 2 hoch 10?",
+    "antwort": "1024",
+    "akzeptiert": [
+      "1.024",
+      "tausendvierundzwanzig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie groß ist die Winkelsumme in einem Viereck (in Grad)?",
+    "antwort": "360",
+    "akzeptiert": [
+      "360°",
+      "360 Grad"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist 0,5 mal 0,5?",
+    "antwort": "0,25",
+    "akzeptiert": [
+      "0.25",
+      "1/4",
+      "ein Viertel"
+    ],
+    "bewertung": "Bruch (1/4) und Dezimalzahl (0,25) gelten beide."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Quadratmeter hat ein Hektar?",
+    "antwort": "10000",
+    "akzeptiert": [
+      "10.000",
+      "zehntausend"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man eine natürliche Zahl größer als 1, die nur durch 1 und sich selbst teilbar ist?",
+    "antwort": "Primzahl"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie lautet die Kreiszahl π, gerundet auf zwei Nachkommastellen?",
+    "antwort": "3,14",
+    "akzeptiert": [
+      "3.14"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist 13 mal 7?",
+    "antwort": "91",
+    "akzeptiert": [
+      "einundneunzig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Diagonalen hat ein Fünfeck?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Ein Pulli kostet 80 €. Er wird um 20 % reduziert. Wie viel kostet er jetzt?",
+    "antwort": "64 €",
+    "akzeptiert": [
+      "64",
+      "64 Euro"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist 1/3 plus 1/6?",
+    "antwort": "1/2",
+    "akzeptiert": [
+      "0,5",
+      "0.5",
+      "ein Halb",
+      "einhalb",
+      "3/6"
+    ],
+    "bewertung": "Bruch und Dezimalzahl gelten beide, auch ungekürzt (3/6)."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die längste Seite in einem rechtwinkligen Dreieck?",
+    "antwort": "Hypotenuse",
+    "bewertung": "„Kathete“ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist 15 zum Quadrat?",
+    "antwort": "225",
+    "akzeptiert": [
+      "zweihundertfünfundzwanzig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Zahl ist die römische Zahl MMXXVI?",
+    "antwort": "2026",
+    "akzeptiert": [
+      "zweitausendsechsundzwanzig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Primzahlen gibt es zwischen 1 und 20?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ],
+    "bewertung": "Gemeint sind 2, 3, 5, 7, 11, 13, 17, 19."
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welcher Formel berechnet man den Flächeninhalt eines Kreises mit Radius r?",
+    "antwort": "π·r²",
+    "akzeptiert": [
+      "pi r²",
+      "pi*r^2",
+      "π r²",
+      "πr²",
+      "pi mal r Quadrat"
+    ],
+    "bewertung": "Jede gleichwertige Schreibweise von π·r² gilt. Auch π·d²/4 ist richtig. 2πr (Umfang) ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist 7 hoch 0?",
+    "antwort": "1",
+    "akzeptiert": [
+      "eins"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man ein Vieleck mit acht Ecken?",
+    "antwort": "Achteck",
+    "akzeptiert": [
+      "Oktogon",
+      "Oktagon"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Sekunden hat eine Stunde?",
+    "antwort": "3600",
+    "akzeptiert": [
+      "3.600",
+      "dreitausendsechshundert"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist minus 3 mal minus 4?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf",
+      "+12"
+    ],
+    "bewertung": "-12 ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist der Kehrwert von 0,25?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier",
+      "4/1"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher griechische Mathematiker ist für den Satz a² + b² = c² im rechtwinkligen Dreieck berühmt?",
+    "antwort": "Pythagoras",
+    "akzeptiert": [
+      "Pythagoras von Samos"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist 3/4 geteilt durch 1/8?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Kanten hat eine Pyramide mit quadratischer Grundfläche?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viel ist 17 zum Quadrat?",
+    "antwort": "289",
+    "akzeptiert": [
+      "zweihundertneunundachtzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die dritte Wurzel (Kubikwurzel) aus 125?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Mathematiker soll schon als Schüler blitzschnell alle Zahlen von 1 bis 100 addiert haben?",
+    "antwort": "Carl Friedrich Gauß",
+    "akzeptiert": [
+      "Gauß",
+      "Gauss",
+      "Carl Friedrich Gauss"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ergibt die Summe aller ganzen Zahlen von 1 bis 100?",
+    "antwort": "5050",
+    "akzeptiert": [
+      "5.050",
+      "fünftausendfünfzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist der größte gemeinsame Teiler (ggT) von 48 und 36?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist das kleinste gemeinsame Vielfache (kgV) von 6 und 8?",
+    "antwort": "24",
+    "akzeptiert": [
+      "vierundzwanzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie groß ist jeder Innenwinkel eines regelmäßigen Sechsecks (in Grad)?",
+    "antwort": "120",
+    "akzeptiert": [
+      "120°",
+      "120 Grad"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie schreibt man 0,125 als gekürzten Bruch?",
+    "antwort": "1/8",
+    "akzeptiert": [
+      "ein Achtel",
+      "1:8"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt ein Viereck mit (mindestens) einem Paar paralleler Seiten?",
+    "antwort": "Trapez",
+    "bewertung": "Parallelogramm, Rechteck usw. sind Spezialfälle, gemeint ist aber „Trapez“. Nur „Trapez“ zählt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Zahlenfolge 1, 1, 2, 3, 5, 8, 13, 21, …?",
+    "antwort": "Fibonacci-Folge",
+    "akzeptiert": [
+      "Fibonacci",
+      "Fibonacci-Zahlen",
+      "Fibonaccifolge"
+    ],
+    "bewertung": "„Fibonacci“ reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Ein Preis steigt um 10 % und sinkt danach um 10 %. Wie viel Prozent des ursprünglichen Preises kostet es jetzt?",
+    "antwort": "99 %",
+    "akzeptiert": [
+      "99",
+      "99 Prozent",
+      "0,99"
+    ],
+    "bewertung": "100 % ist falsch. Auch „1 % weniger“ gilt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie groß ist das Volumen eines Würfels mit 4 cm Kantenlänge (in cm³)?",
+    "antwort": "64",
+    "akzeptiert": [
+      "64 cm³",
+      "64 Kubikzentimeter"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viel ist 2 hoch minus 2?",
+    "antwort": "1/4",
+    "akzeptiert": [
+      "0,25",
+      "0.25",
+      "ein Viertel"
+    ],
+    "bewertung": "Bruch und Dezimalzahl gelten beide."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man zwei Geraden, die sich im rechten Winkel schneiden?",
+    "antwort": "senkrecht",
+    "akzeptiert": [
+      "orthogonal",
+      "rechtwinklig",
+      "lotrecht zueinander"
+    ],
+    "bewertung": "„Senkrecht“ und „orthogonal“ gelten beide. „Parallel“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Nach welchem Schweizer Mathematiker ist die Zahl e ≈ 2,718 benannt?",
+    "antwort": "Leonhard Euler",
+    "akzeptiert": [
+      "Euler"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist 1/4 plus 2/3?",
+    "antwort": "11/12",
+    "akzeptiert": [
+      "elf Zwölftel"
+    ],
+    "bewertung": "Nur der Bruch 11/12 (oder gleichwertig, z. B. 0,91666…) zählt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Ein rechtwinkliges Dreieck hat die Katheten 6 und 8. Wie lang ist die Hypotenuse?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Ableitung von x³?",
+    "antwort": "3x²",
+    "akzeptiert": [
+      "3x^2",
+      "3*x^2",
+      "3·x²",
+      "3 x²"
+    ],
+    "bewertung": "Jede gleichwertige Schreibweise von 3x² gilt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele verschiedene Reihenfolgen gibt es, 5 Personen in einer Reihe aufzustellen?",
+    "antwort": "120",
+    "akzeptiert": [
+      "5!",
+      "5 Fakultät",
+      "hundertzwanzig"
+    ],
+    "bewertung": "Auch „5!“ gilt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Flächen hat ein Ikosaeder?",
+    "antwort": "20",
+    "akzeptiert": [
+      "zwanzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet die Eulersche Zahl e, gerundet auf zwei Nachkommastellen?",
+    "antwort": "2,72",
+    "akzeptiert": [
+      "2.72"
+    ],
+    "bewertung": "Auch genauere Angaben wie 2,718 gelten. 2,71 gilt nicht (falsch gerundet)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie groß ist die Summe der Innenwinkel eines Sechsecks (in Grad)?",
+    "antwort": "720",
+    "akzeptiert": [
+      "720°",
+      "720 Grad"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Möglichkeiten gibt es, aus 6 Personen ein 2er-Team auszuwählen (Reihenfolge egal)?",
+    "antwort": "15",
+    "akzeptiert": [
+      "fünfzehn"
+    ],
+    "bewertung": "30 ist falsch (das wäre mit Reihenfolge)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist der Zehnerlogarithmus von 1000?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Ableitung von sin(x)?",
+    "antwort": "cos(x)",
+    "akzeptiert": [
+      "cos x",
+      "Kosinus",
+      "Cosinus",
+      "cosx"
+    ],
+    "bewertung": "-cos(x) ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ergibt i² (i = imaginäre Einheit)?",
+    "antwort": "-1",
+    "akzeptiert": [
+      "−1",
+      "minus eins",
+      "minus 1"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist 0! (null Fakultät)?",
+    "antwort": "1",
+    "akzeptiert": [
+      "eins"
+    ],
+    "bewertung": "0 ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Primzahlen sind kleiner als 50?",
+    "antwort": "15",
+    "akzeptiert": [
+      "fünfzehn"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie groß ist die Wahrscheinlichkeit, mit zwei normalen Würfeln zusammen genau 7 zu würfeln?",
+    "antwort": "1/6",
+    "akzeptiert": [
+      "6/36",
+      "ein Sechstel",
+      "16,7 %",
+      "16,67 %",
+      "0,167"
+    ],
+    "bewertung": "Bruch (1/6 bzw. 6/36), Dezimalzahl (≈0,167) und Prozent (≈16,7 %) gelten."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet eine Stammfunktion von f(x) = 2x?",
+    "antwort": "x²",
+    "akzeptiert": [
+      "x^2",
+      "x² + C",
+      "x^2+c"
+    ],
+    "bewertung": "Mit oder ohne Konstante + C richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher französische Mathematiker hinterließ einen berühmten „letzten Satz“, den Andrew Wiles erst 1994 bewies?",
+    "antwort": "Pierre de Fermat",
+    "akzeptiert": [
+      "Fermat"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche ist die kleinste vollkommene Zahl, also gleich der Summe ihrer echten Teiler?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viel ist 2 hoch 16?",
+    "antwort": "65536",
+    "akzeptiert": [
+      "65.536"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet der Goldene Schnitt (φ), gerundet auf zwei Nachkommastellen?",
+    "antwort": "1,62",
+    "akzeptiert": [
+      "1.62"
+    ],
+    "bewertung": "Auch 1,618 gilt. 0,62 bzw. 0,618 (Kehrwert) ebenfalls akzeptieren."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Diagonalen hat ein Zehneck?",
+    "antwort": "35",
+    "akzeptiert": [
+      "fünfunddreißig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher griechische Mathematiker bewies um 300 v. Chr., dass es unendlich viele Primzahlen gibt?",
+    "antwort": "Euklid",
+    "akzeptiert": [
+      "Euklid von Alexandria",
+      "Euclid"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist der Sinus von 30 Grad?",
+    "antwort": "0,5",
+    "akzeptiert": [
+      "0.5",
+      "1/2",
+      "ein Halb"
+    ],
+    "bewertung": "Bruch und Dezimalzahl gelten beide."
+  }
+]

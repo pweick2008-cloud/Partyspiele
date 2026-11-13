@@ -1,0 +1,1592 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "antwort": "Werkbank",
+    "akzeptiert": [
+      "Crafting Table",
+      "Craftingtisch"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Kohle",
+      "",
+      "",
+      "Stock",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "antwort": "Fackel",
+    "akzeptiert": [
+      "Torch",
+      "Fackeln"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter"
+    ],
+    "antwort": "Truhe",
+    "akzeptiert": [
+      "Chest",
+      "Kiste"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Holzbretter erhält man aus einem Holzstamm?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Fackeln ergibt ein einziges Fackel-Rezept (Kohle + Stock)?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Stock",
+      "",
+      "",
+      "Stock",
+      ""
+    ],
+    "antwort": "Holzspitzhacke",
+    "akzeptiert": [
+      "Spitzhacke",
+      "Wooden Pickaxe",
+      "Pickaxe",
+      "Holzhacke"
+    ],
+    "bewertung": "Jede Holzart gilt. ‚Spitzhacke‘ reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Bruchstein",
+      "",
+      "",
+      "Bruchstein",
+      "",
+      "",
+      "Stock",
+      ""
+    ],
+    "antwort": "Steinschwert",
+    "akzeptiert": [
+      "Stone Sword",
+      "Schwert"
+    ],
+    "bewertung": "‚Schwert‘ reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Weizen",
+      "Weizen",
+      "Weizen"
+    ],
+    "antwort": "Brot",
+    "akzeptiert": [
+      "Bread"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was erhält man, wenn man Sand im Ofen schmilzt?",
+    "antwort": "Glas",
+    "akzeptiert": [
+      "Glass"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was erhält man, wenn man Roheisen im Ofen schmilzt?",
+    "antwort": "Eisenbarren",
+    "akzeptiert": [
+      "Iron Ingot",
+      "Eisen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter"
+    ],
+    "antwort": "Boot",
+    "akzeptiert": [
+      "Boat",
+      "Holzboot"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Diamanten braucht man für einen Diamantblock?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Diamanten braucht man für eine Diamantspitzhacke?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Eisenbarren",
+      "",
+      "",
+      "Stock",
+      "",
+      "",
+      "Stock",
+      ""
+    ],
+    "antwort": "Eisenschaufel",
+    "akzeptiert": [
+      "Schaufel",
+      "Iron Shovel",
+      "Shovel"
+    ],
+    "bewertung": "‚Schaufel‘ reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "",
+      "Weiße Wolle",
+      "Weiße Wolle",
+      "Weiße Wolle",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter"
+    ],
+    "antwort": "Bett",
+    "akzeptiert": [
+      "Weißes Bett",
+      "Bed"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      ""
+    ],
+    "antwort": "Eimer",
+    "akzeptiert": [
+      "Bucket"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein"
+    ],
+    "antwort": "Ofen",
+    "akzeptiert": [
+      "Furnace"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Stöcke ergibt das Rezept aus zwei übereinander gelegten Holzbrettern?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      ""
+    ],
+    "antwort": "Holztür",
+    "akzeptiert": [
+      "Tür",
+      "Door",
+      "Wooden Door",
+      "Eichenholztür"
+    ],
+    "bewertung": "Jede Holzart gilt (z. B. Eichenholztür). ‚Tür‘ reicht, ‚Falltür‘ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Stock",
+      "",
+      "Stock",
+      "Stock",
+      "Stock",
+      "Stock",
+      "Stock",
+      "",
+      "Stock"
+    ],
+    "antwort": "Leiter",
+    "akzeptiert": [
+      "Ladder"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Milcheimer",
+      "Milcheimer",
+      "Milcheimer",
+      "Zucker",
+      "Ei",
+      "Zucker",
+      "Weizen",
+      "Weizen",
+      "Weizen"
+    ],
+    "antwort": "Kuchen",
+    "akzeptiert": [
+      "Cake",
+      "Torte"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was entsteht, wenn man einen Holzstamm im Ofen schmilzt?",
+    "antwort": "Holzkohle",
+    "akzeptiert": [
+      "Charcoal"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was entsteht, wenn man Bruchstein im Ofen schmilzt?",
+    "antwort": "Stein",
+    "akzeptiert": [
+      "Stone"
+    ],
+    "bewertung": "‚Glatter Stein‘ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Eisenbarren",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      ""
+    ],
+    "antwort": "Schild",
+    "akzeptiert": [
+      "Shield"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "Stock",
+      "",
+      "Stock",
+      "Faden",
+      "Stock",
+      "",
+      "Faden"
+    ],
+    "antwort": "Angel",
+    "akzeptiert": [
+      "Fishing Rod",
+      "Angelrute"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "antwort": "Schere",
+    "akzeptiert": [
+      "Shears"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren"
+    ],
+    "antwort": "Lore",
+    "akzeptiert": [
+      "Minecart",
+      "Minenlore"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Schwarzpulver",
+      "Sand",
+      "Schwarzpulver",
+      "Sand",
+      "Schwarzpulver",
+      "Sand",
+      "Schwarzpulver",
+      "Sand",
+      "Schwarzpulver"
+    ],
+    "antwort": "TNT",
+    "akzeptiert": [
+      "Sprengstoff",
+      "Dynamit"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "",
+      "Zuckerrohr",
+      "Zuckerrohr",
+      "Zuckerrohr",
+      "",
+      "",
+      ""
+    ],
+    "antwort": "Papier",
+    "akzeptiert": [
+      "Paper"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Buch",
+      "Buch",
+      "Buch",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter"
+    ],
+    "antwort": "Bücherregal",
+    "akzeptiert": [
+      "Bookshelf",
+      "Bücherschrank"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Diamanten braucht man für einen Diamantbrustpanzer?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Eisennuggets braucht man für einen Eisenbarren?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Eisenbarren",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Stock",
+      "",
+      "",
+      "Stock",
+      ""
+    ],
+    "antwort": "Eisenaxt",
+    "akzeptiert": [
+      "Axt",
+      "Iron Axe",
+      "Axe"
+    ],
+    "bewertung": "‚Axt‘ reicht. ‚Hacke‘ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Eisenbarren braucht man für einen Eimer?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Redstone-Staub",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      ""
+    ],
+    "antwort": "Kompass",
+    "akzeptiert": [
+      "Compass"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Stock",
+      "Faden",
+      "Stock",
+      "",
+      "Faden",
+      "",
+      "Stock",
+      "Faden"
+    ],
+    "antwort": "Bogen",
+    "akzeptiert": [
+      "Bow"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Pfeile ergibt ein Rezept aus Feuerstein, Stock und Feder?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Eisennugget",
+      "Eisennugget",
+      "Eisennugget",
+      "Eisennugget",
+      "Fackel",
+      "Eisennugget",
+      "Eisennugget",
+      "Eisennugget",
+      "Eisennugget"
+    ],
+    "antwort": "Laterne",
+    "akzeptiert": [
+      "Lantern"
+    ],
+    "bewertung": "‚Kürbislaterne‘ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Truhe",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      ""
+    ],
+    "antwort": "Trichter",
+    "akzeptiert": [
+      "Hopper"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Stock",
+      "Eisenbarren",
+      "Eisenbarren",
+      "",
+      "Eisenbarren"
+    ],
+    "antwort": "Schienen",
+    "akzeptiert": [
+      "Schiene",
+      "Rails",
+      "Rail",
+      "Gleise"
+    ],
+    "bewertung": "Nur normale Schienen; Antriebs-/Sensorschiene ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Ein Buch wird aus drei Papier und einem weiteren Item gecraftet. Welches?",
+    "antwort": "Leder",
+    "akzeptiert": [
+      "Leather"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Buch",
+      "",
+      "Diamant",
+      "Obsidian",
+      "Diamant",
+      "Obsidian",
+      "Obsidian",
+      "Obsidian"
+    ],
+    "antwort": "Zaubertisch",
+    "akzeptiert": [
+      "Enchanting Table",
+      "Verzauberungstisch"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Goldbarren",
+      "Goldbarren",
+      "Goldbarren",
+      "Goldbarren",
+      "Apfel",
+      "Goldbarren",
+      "Goldbarren",
+      "Goldbarren",
+      "Goldbarren"
+    ],
+    "antwort": "Goldener Apfel",
+    "akzeptiert": [
+      "Golden Apple",
+      "Goldapfel"
+    ],
+    "bewertung": "‚Verzauberter goldener Apfel‘ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Redstone-Staub",
+      "",
+      "",
+      "Stock",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "antwort": "Redstone-Fackel",
+    "akzeptiert": [
+      "Redstonefackel",
+      "Redstone Torch"
+    ],
+    "bewertung": "Nur ‚Fackel‘ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Stock",
+      "",
+      "",
+      "Bruchstein",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "antwort": "Hebel",
+    "akzeptiert": [
+      "Lever",
+      "Schalter"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Stock",
+      "",
+      "Stock",
+      "Kohle",
+      "Stock",
+      "Holzstamm",
+      "Holzstamm",
+      "Holzstamm"
+    ],
+    "antwort": "Lagerfeuer",
+    "akzeptiert": [
+      "Campfire"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Goldbarren",
+      "",
+      "Goldbarren",
+      "Redstone-Staub",
+      "Goldbarren",
+      "",
+      "Goldbarren",
+      ""
+    ],
+    "antwort": "Uhr",
+    "akzeptiert": [
+      "Clock"
+    ],
+    "bewertung": "‚Kompass‘ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Papier",
+      "Papier",
+      "Papier",
+      "Papier",
+      "Kompass",
+      "Papier",
+      "Papier",
+      "Papier",
+      "Papier"
+    ],
+    "antwort": "Leere Karte",
+    "akzeptiert": [
+      "Karte",
+      "Map",
+      "Empty Map"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Geschnitzter Kürbis",
+      "",
+      "",
+      "Fackel",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "antwort": "Kürbislaterne",
+    "akzeptiert": [
+      "Jack o'Lantern",
+      "Jack-o-Lantern"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "",
+      "Holzbretter",
+      "Stock",
+      "Holzbretter",
+      "Holzbretter",
+      "Stock",
+      "Holzbretter"
+    ],
+    "antwort": "Zaun",
+    "akzeptiert": [
+      "Holzzaun",
+      "Fence",
+      "Eichenholzzaun"
+    ],
+    "bewertung": "Jede Holzart gilt. ‚Zauntor‘ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Stock",
+      "Stock",
+      "Stock",
+      "Stock",
+      "Weiße Wolle",
+      "Stock",
+      "Stock",
+      "Stock",
+      "Stock"
+    ],
+    "antwort": "Gemälde",
+    "akzeptiert": [
+      "Painting",
+      "Bild"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Pilzsuppe wird aus einem braunen Pilz, einem roten Pilz und welchem dritten Item gecraftet?",
+    "antwort": "Schüssel",
+    "akzeptiert": [
+      "Bowl",
+      "Holzschüssel"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Werkzeug entsteht aus einem Eisenbarren und einem Feuerstein?",
+    "antwort": "Feuerzeug",
+    "akzeptiert": [
+      "Flint and Steel",
+      "Feuerstein und Stahl"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Items kann ein Stück Kohle im Ofen schmelzen?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Holztüren ergibt ein Rezept aus sechs Holzbrettern?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Bruchstein",
+      "Eisenbarren",
+      "Bruchstein",
+      "Bruchstein",
+      "Redstone-Staub",
+      "Bruchstein"
+    ],
+    "antwort": "Kolben",
+    "akzeptiert": [
+      "Piston"
+    ],
+    "bewertung": "Jede Holzart gilt. ‚Klebriger Kolben‘ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Eisenblock",
+      "Eisenblock",
+      "Eisenblock",
+      "",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren"
+    ],
+    "antwort": "Amboss",
+    "akzeptiert": [
+      "Anvil",
+      "Ambos"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Lohenrute",
+      "",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "",
+      "",
+      ""
+    ],
+    "antwort": "Braustand",
+    "akzeptiert": [
+      "Brewing Stand",
+      "Braustation"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Item entsteht aus einer Enderperle und Lohenstaub?",
+    "antwort": "Enderauge",
+    "akzeptiert": [
+      "Eye of Ender",
+      "Auge des Enders"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Obsidian",
+      "Obsidian",
+      "Obsidian",
+      "Obsidian",
+      "Enderauge",
+      "Obsidian",
+      "Obsidian",
+      "Obsidian",
+      "Obsidian"
+    ],
+    "antwort": "Endertruhe",
+    "akzeptiert": [
+      "Ender Chest",
+      "Enderkiste"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "",
+      "Redstone-Fackel",
+      "Redstone-Staub",
+      "Redstone-Fackel",
+      "Stein",
+      "Stein",
+      "Stein"
+    ],
+    "antwort": "Redstone-Verstärker",
+    "akzeptiert": [
+      "Verstärker",
+      "Repeater",
+      "Redstone Repeater"
+    ],
+    "bewertung": "‚Komparator‘ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "Bogen",
+      "Bruchstein",
+      "Bruchstein",
+      "Redstone-Staub",
+      "Bruchstein"
+    ],
+    "antwort": "Werfer",
+    "akzeptiert": [
+      "Dispenser"
+    ],
+    "bewertung": "‚Spender‘ (Dropper) ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Schleimball",
+      "",
+      "",
+      "Kolben",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "antwort": "Klebriger Kolben",
+    "akzeptiert": [
+      "Sticky Piston",
+      "Klebekolben"
+    ],
+    "bewertung": "Nur ‚Kolben‘ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Redstone-Staub",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter"
+    ],
+    "antwort": "Notenblock",
+    "akzeptiert": [
+      "Note Block",
+      "Musikblock"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Diamant",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter"
+    ],
+    "antwort": "Plattenspieler",
+    "akzeptiert": [
+      "Jukebox"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Eisenbarren",
+      "Eisenbarren",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      ""
+    ],
+    "antwort": "Schmiedetisch",
+    "akzeptiert": [
+      "Smithing Table",
+      "Schmiedetisch"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Holzstamm",
+      "",
+      "Holzstamm",
+      "Ofen",
+      "Holzstamm",
+      "",
+      "Holzstamm",
+      ""
+    ],
+    "antwort": "Räucherofen",
+    "akzeptiert": [
+      "Smoker",
+      "Raeucherofen"
+    ],
+    "bewertung": "Jede Holzart gilt. ‚Schmelzofen‘ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzstufe",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzstufe",
+      "Holzbretter"
+    ],
+    "antwort": "Fass",
+    "akzeptiert": [
+      "Barrel"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was entsteht, wenn man normalen Stein im Ofen schmilzt?",
+    "antwort": "Glatter Stein",
+    "akzeptiert": [
+      "Smooth Stone"
+    ],
+    "bewertung": "Nur ‚Stein‘ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welchen Barren braucht man im Schmiedetisch, um Diamantausrüstung aufzuwerten?",
+    "antwort": "Netheritbarren",
+    "akzeptiert": [
+      "Netherit",
+      "Netherite Ingot",
+      "Netherite"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Faden",
+      "Faden",
+      "",
+      "Faden",
+      "Schleimball",
+      "",
+      "",
+      "",
+      "Faden"
+    ],
+    "antwort": "Leine",
+    "akzeptiert": [
+      "Lead",
+      "Lasso"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Diamanten braucht man für eine komplette Diamantrüstung (Helm, Brustpanzer, Hose, Stiefel)?",
+    "antwort": "24",
+    "akzeptiert": [
+      "vierundzwanzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Eisenbarren braucht man für einen Kessel?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Schienen ergibt ein einziges Schienen-Rezept (6 Eisenbarren + 1 Stock)?",
+    "antwort": "16",
+    "akzeptiert": [
+      "sechzehn"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Redstone-Staub",
+      "",
+      "Redstone-Staub",
+      "Leuchtstein",
+      "Redstone-Staub",
+      "",
+      "Redstone-Staub",
+      ""
+    ],
+    "antwort": "Redstone-Lampe",
+    "akzeptiert": [
+      "Redstonelampe",
+      "Redstone Lamp",
+      "Lampe"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Glas",
+      "Glas",
+      "Glas",
+      "Glas",
+      "Netherstern",
+      "Glas",
+      "Obsidian",
+      "Obsidian",
+      "Obsidian"
+    ],
+    "antwort": "Leuchtfeuer",
+    "akzeptiert": [
+      "Beacon"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "Redstone-Staub",
+      "Redstone-Staub",
+      "Netherquarz",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein"
+    ],
+    "antwort": "Beobachter",
+    "akzeptiert": [
+      "Observer"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Redstone-Fackel",
+      "",
+      "Redstone-Fackel",
+      "Netherquarz",
+      "Redstone-Fackel",
+      "Stein",
+      "Stein",
+      "Stein"
+    ],
+    "antwort": "Redstone-Komparator",
+    "akzeptiert": [
+      "Komparator",
+      "Comparator",
+      "Redstone Comparator"
+    ],
+    "bewertung": "‚Verstärker‘ ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "",
+      "Bruchstein",
+      "Bruchstein",
+      "Redstone-Staub",
+      "Bruchstein"
+    ],
+    "antwort": "Spender",
+    "akzeptiert": [
+      "Dropper"
+    ],
+    "bewertung": "‚Werfer‘ (Dispenser) ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Glas",
+      "Glas",
+      "Glas",
+      "Netherquarz",
+      "Netherquarz",
+      "Netherquarz",
+      "Holzstufe",
+      "Holzstufe",
+      "Holzstufe"
+    ],
+    "antwort": "Tageslichtsensor",
+    "akzeptiert": [
+      "Daylight Detector",
+      "Daylight Sensor",
+      "Tageslichtdetektor"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Goldbarren braucht man (zusammen mit vier Netheritplatten) für einen Netheritbarren?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Ofen",
+      "Eisenbarren",
+      "Glatter Stein",
+      "Glatter Stein",
+      "Glatter Stein"
+    ],
+    "antwort": "Schmelzofen",
+    "akzeptiert": [
+      "Blast Furnace",
+      "Hochofen"
+    ],
+    "bewertung": "‚Räucherofen‘ ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "",
+      "",
+      "",
+      "Eisenbarren",
+      "",
+      "Stein",
+      "Stein",
+      "Stein"
+    ],
+    "antwort": "Steinsäge",
+    "akzeptiert": [
+      "Stonecutter",
+      "Steinschneider"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Papier",
+      "Papier",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      ""
+    ],
+    "antwort": "Kartentisch",
+    "akzeptiert": [
+      "Cartography Table",
+      "Kartografietisch",
+      "Kartographietisch"
+    ],
+    "bewertung": "Jede Holzart gilt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Stock",
+      "Eisenbarren",
+      "Stock",
+      "Faden",
+      "Stolperdrahthaken",
+      "Faden",
+      "",
+      "Stock",
+      ""
+    ],
+    "antwort": "Armbrust",
+    "akzeptiert": [
+      "Crossbow"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Stock",
+      "Stock",
+      "Stock",
+      "",
+      "Stock",
+      "",
+      "Stock",
+      "Glatte Steinstufe",
+      "Stock"
+    ],
+    "antwort": "Rüstungsständer",
+    "akzeptiert": [
+      "Armor Stand",
+      "Ruestungsstaender"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Goldbarren",
+      "",
+      "Goldbarren",
+      "Goldbarren",
+      "Stock",
+      "Goldbarren",
+      "Goldbarren",
+      "Redstone-Staub",
+      "Goldbarren"
+    ],
+    "antwort": "Antriebsschiene",
+    "akzeptiert": [
+      "Powered Rail",
+      "Booster Rail",
+      "Boosterschiene"
+    ],
+    "bewertung": "Normale Schienen sind falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Antriebsschienen ergibt ein einziges Rezept?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Steindruckplatte",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Redstone-Staub",
+      "Eisenbarren"
+    ],
+    "antwort": "Sensorschiene",
+    "akzeptiert": [
+      "Detector Rail",
+      "Detektorschiene"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Items kann ein Lavaeimer als Brennstoff im Ofen schmelzen?",
+    "antwort": "100",
+    "akzeptiert": [
+      "hundert",
+      "einhundert"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was entsteht, wenn man eine Chorusfrucht im Ofen schmilzt?",
+    "antwort": "Geplatzte Chorusfrucht",
+    "akzeptiert": [
+      "Popped Chorus Fruit",
+      "Gepoppte Chorusfrucht"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Amethystscherbe",
+      "",
+      "",
+      "Kupferbarren",
+      "",
+      "",
+      "Kupferbarren",
+      ""
+    ],
+    "antwort": "Fernrohr",
+    "akzeptiert": [
+      "Spyglass",
+      "Fernglas"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "",
+      "Kupferbarren",
+      "",
+      "",
+      "Kupferbarren",
+      "",
+      "",
+      "Kupferbarren",
+      ""
+    ],
+    "antwort": "Blitzableiter",
+    "akzeptiert": [
+      "Lightning Rod"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Honigwabe",
+      "Honigwabe",
+      "Honigwabe",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter"
+    ],
+    "antwort": "Bienenstock",
+    "akzeptiert": [
+      "Beehive",
+      "Bienenkorb"
+    ],
+    "bewertung": "Jede Holzart gilt. ‚Bienennest‘ ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Diamanten braucht man, um eine Netherit-Aufwertungs-Schmiedevorlage zu vervielfältigen?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben"
+    ]
+  }
+]

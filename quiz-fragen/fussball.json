@@ -1,0 +1,850 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Wie viele Spieler stehen pro Mannschaft beim Fußball gleichzeitig auf dem Feld (inklusive Torwart)?",
+    "antwort": "11",
+    "akzeptiert": [
+      "elf"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Land fand die Fußball-WM 2014 statt, die Deutschland gewann?",
+    "antwort": "Brasilien",
+    "akzeptiert": [
+      "Brazil"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Minuten dauert ein reguläres Fußballspiel ohne Nachspielzeit?",
+    "antwort": "90",
+    "akzeptiert": [
+      "neunzig",
+      "90 Minuten"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Körperteil darf nur der Torwart den Ball absichtlich spielen?",
+    "antwort": "Hände",
+    "akzeptiert": [
+      "Hand",
+      "Arme",
+      "Arm",
+      "Hände und Arme"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welchem Land kommt Cristiano Ronaldo?",
+    "antwort": "Portugal"
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welchem Land kommt Lionel Messi?",
+    "antwort": "Argentinien"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die höchste deutsche Fußball-Spielklasse der Männer?",
+    "antwort": "Bundesliga",
+    "akzeptiert": [
+      "1. Bundesliga",
+      "Erste Bundesliga"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was bekommt eine Mannschaft, wenn ihr Stürmer im gegnerischen Strafraum gefoult wird?",
+    "antwort": "Elfmeter",
+    "akzeptiert": [
+      "Strafstoß",
+      "Penalty"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Punkte bekommt eine Mannschaft in der Bundesliga für einen Sieg?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Verein trägt seine Heimspiele im Signal Iduna Park aus?",
+    "antwort": "Borussia Dortmund",
+    "akzeptiert": [
+      "Dortmund",
+      "BVB"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Stadion des FC Bayern München?",
+    "antwort": "Allianz Arena"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht die Abkürzung VAR beim Fußball (auf Deutsch)?",
+    "antwort": "Videoschiedsrichter",
+    "akzeptiert": [
+      "Video-Assistent",
+      "Video Assistant Referee",
+      "Videobeweis",
+      "Video-Assistent-Schiedsrichter"
+    ],
+    "bewertung": "Jede Antwort, die den Video-Schiedsrichter/Videobeweis meint, ist richtig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Auf welcher Position spielt Manuel Neuer?",
+    "antwort": "Torwart",
+    "akzeptiert": [
+      "Tor",
+      "Torhüter",
+      "Keeper"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land war Gastgeber der WM 2006, des „Sommermärchens“?",
+    "antwort": "Deutschland"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der europäische Vereinswettbewerb, dessen Pokal „Henkelpott“ genannt wird?",
+    "antwort": "Champions League",
+    "akzeptiert": [
+      "UEFA Champions League",
+      "Königsklasse"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man es, wenn ein Spieler in einem Spiel drei Tore schießt?",
+    "antwort": "Hattrick",
+    "akzeptiert": [
+      "Hat-Trick"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Fußballstar wird mit „CR7“ abgekürzt?",
+    "antwort": "Cristiano Ronaldo",
+    "akzeptiert": [
+      "Ronaldo"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land war Gastgeber der Europameisterschaft 2024?",
+    "antwort": "Deutschland"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Regel, nach der ein Angreifer beim Abspiel nicht näher an der Torlinie stehen darf als der vorletzte Gegenspieler?",
+    "antwort": "Abseits",
+    "akzeptiert": [
+      "Abseitsregel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land gewann die Fußball-WM 2022 in Katar?",
+    "antwort": "Argentinien"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Verein ist deutscher Rekordmeister?",
+    "antwort": "FC Bayern München",
+    "akzeptiert": [
+      "Bayern München",
+      "Bayern",
+      "FC Bayern"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Farbe hat die Karte, die ein Spieler bei einem Platzverweis sieht?",
+    "antwort": "Rot",
+    "bewertung": "Auch ‚Gelb-Rot‘ gilt als richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie oft ist die deutsche Männer-Nationalmannschaft Fußball-Weltmeister geworden?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier",
+      "viermal"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Land ist mit fünf Titeln Rekordweltmeister?",
+    "antwort": "Brasilien"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Verein hat die Champions League bzw. den Europapokal der Landesmeister am häufigsten gewonnen?",
+    "antwort": "Real Madrid",
+    "akzeptiert": [
+      "Real"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Stadt findet das Finale des DFB-Pokals jedes Jahr statt?",
+    "antwort": "Berlin"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher englische Nationalstürmer wechselte 2023 von Tottenham Hotspur zum FC Bayern?",
+    "antwort": "Harry Kane",
+    "akzeptiert": [
+      "Kane"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher norwegische Stürmer spielte von 2020 bis 2022 für Borussia Dortmund und wechselte dann zu Manchester City?",
+    "antwort": "Erling Haaland",
+    "akzeptiert": [
+      "Haaland",
+      "Håland"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Land gewann die Europameisterschaft 2024?",
+    "antwort": "Spanien"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Spieler hat den Ballon d'Or (Goldener Ball) am häufigsten gewonnen?",
+    "antwort": "Lionel Messi",
+    "akzeptiert": [
+      "Messi"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Für welchen Verein spielte Thomas Müller von 2008 bis 2025 in der Bundesliga?",
+    "antwort": "FC Bayern München",
+    "akzeptiert": [
+      "Bayern München",
+      "Bayern",
+      "FC Bayern"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man das Duell zwischen Borussia Dortmund und dem FC Schalke 04?",
+    "antwort": "Revierderby",
+    "akzeptiert": [
+      "Ruhrderby",
+      "Derby"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man ein Spiel zwischen Real Madrid und dem FC Barcelona?",
+    "antwort": "El Clásico",
+    "akzeptiert": [
+      "Clásico",
+      "Clasico",
+      "El Clasico"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher englische Verein spielt im Stadion Old Trafford?",
+    "antwort": "Manchester United",
+    "akzeptiert": [
+      "Man United",
+      "ManU",
+      "Man Utd"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer war Bundestrainer, als Deutschland 2014 Weltmeister wurde?",
+    "antwort": "Joachim Löw",
+    "akzeptiert": [
+      "Löw",
+      "Jogi Löw",
+      "Loew"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Verein wurde in der Saison 2023/24 ungeschlagen Deutscher Meister?",
+    "antwort": "Bayer 04 Leverkusen",
+    "akzeptiert": [
+      "Leverkusen",
+      "Bayer Leverkusen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher französische Superstar wechselte 2024 von Paris Saint-Germain zu Real Madrid?",
+    "antwort": "Kylian Mbappé",
+    "akzeptiert": [
+      "Mbappé",
+      "Mbappe"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Trainer gewann 2019 mit dem FC Liverpool die Champions League?",
+    "antwort": "Jürgen Klopp",
+    "akzeptiert": [
+      "Klopp"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Mannschaften spielen in der Bundesliga?",
+    "antwort": "18",
+    "akzeptiert": [
+      "achtzehn"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie lautet die Abkürzung des Fußball-Weltverbands, der die WM ausrichtet?",
+    "antwort": "FIFA"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer schoss im WM-Finale 2014 das Siegtor für Deutschland gegen Argentinien?",
+    "antwort": "Mario Götze",
+    "akzeptiert": [
+      "Götze",
+      "Goetze"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welchem Ergebnis gewann Deutschland das WM-Halbfinale 2014 gegen Brasilien?",
+    "antwort": "7:1",
+    "akzeptiert": [
+      "7-1",
+      "7 zu 1"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer war Kapitän der deutschen Nationalmannschaft beim WM-Titel 2014?",
+    "antwort": "Philipp Lahm",
+    "akzeptiert": [
+      "Lahm"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Trainer führte Bayer Leverkusen 2024 zur ersten Deutschen Meisterschaft der Vereinsgeschichte?",
+    "antwort": "Xabi Alonso",
+    "akzeptiert": [
+      "Alonso"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher deutsche Stürmer ist mit 16 Treffern Rekordtorschütze der WM-Geschichte?",
+    "antwort": "Miroslav Klose",
+    "akzeptiert": [
+      "Klose"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Stadt ist der FC Schalke 04 zu Hause?",
+    "antwort": "Gelsenkirchen"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Verein gewann 2025 mit einem 5:0 gegen Inter Mailand erstmals die Champions League?",
+    "antwort": "Paris Saint-Germain",
+    "akzeptiert": [
+      "PSG",
+      "Paris",
+      "Paris SG"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer war von 2021 bis 2023 Bundestrainer der deutschen Nationalmannschaft?",
+    "antwort": "Hansi Flick",
+    "akzeptiert": [
+      "Flick"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher englische Verein spielt an der Anfield Road?",
+    "antwort": "FC Liverpool",
+    "akzeptiert": [
+      "Liverpool",
+      "Liverpool FC"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Land wurde 2018 in Russland Fußball-Weltmeister?",
+    "antwort": "Frankreich"
+  },
+  {
+    "stufe": 3,
+    "frage": "Gegen welches Land verlor Deutschland 2018 mit 0:2 und schied als Weltmeister in der Vorrunde aus?",
+    "antwort": "Südkorea",
+    "akzeptiert": [
+      "Korea",
+      "Suedkorea"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher uruguayische Stürmer biss bei der WM 2014 einen italienischen Gegenspieler in die Schulter?",
+    "antwort": "Luis Suárez",
+    "akzeptiert": [
+      "Suárez",
+      "Suarez"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher französische Superstar sah im WM-Finale 2006 nach einem Kopfstoß die Rote Karte?",
+    "antwort": "Zinédine Zidane",
+    "akzeptiert": [
+      "Zidane",
+      "Zinedine Zidane",
+      "Zizou"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher argentinische Spieler erzielte bei der WM 1986 ein Tor mit der „Hand Gottes“?",
+    "antwort": "Diego Maradona",
+    "akzeptiert": [
+      "Maradona"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Stadt steht das Stadion San Siro (Giuseppe Meazza)?",
+    "antwort": "Mailand",
+    "akzeptiert": [
+      "Milano",
+      "Milan"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Land gewann die Europameisterschaft 2016 in Frankreich?",
+    "antwort": "Portugal"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Stadion von Real Madrid?",
+    "antwort": "Santiago Bernabéu",
+    "akzeptiert": [
+      "Bernabéu",
+      "Bernabeu",
+      "Estadio Santiago Bernabéu"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Spieler hat die meisten Tore in Länderspielen der Männer erzielt (Stand 2025)?",
+    "antwort": "Cristiano Ronaldo",
+    "akzeptiert": [
+      "Ronaldo"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Spieler erzielte im WM-Finale 2022 einen Hattrick und verlor trotzdem?",
+    "antwort": "Kylian Mbappé",
+    "akzeptiert": [
+      "Mbappé",
+      "Mbappe"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Brasilianer wechselte 2017 für die Rekordablöse von 222 Millionen Euro zu Paris Saint-Germain?",
+    "antwort": "Neymar",
+    "akzeptiert": [
+      "Neymar Jr."
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Stadion des FC Barcelona?",
+    "antwort": "Camp Nou",
+    "akzeptiert": [
+      "Nou Camp",
+      "Spotify Camp Nou"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Spieler hält mit 41 Toren in einer Saison (2020/21) den Bundesliga-Torrekord?",
+    "antwort": "Robert Lewandowski",
+    "akzeptiert": [
+      "Lewandowski"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie breit ist ein Fußballtor laut Regelwerk (in Metern)?",
+    "antwort": "7,32 Meter",
+    "akzeptiert": [
+      "7,32",
+      "7.32",
+      "7,32 m"
+    ],
+    "bewertung": "Einheit nicht nötig. Nur 7,32 ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Spieler hat mit 150 Einsätzen die meisten Länderspiele für Deutschland bestritten?",
+    "antwort": "Lothar Matthäus",
+    "akzeptiert": [
+      "Matthäus",
+      "Matthaeus"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welchen Spitznamen hatte der legendäre Torjäger Gerd Müller?",
+    "antwort": "Bomber der Nation",
+    "akzeptiert": [
+      "Der Bomber",
+      "Bomber"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Verein gewann 1997 im Finale gegen Juventus Turin die Champions League?",
+    "antwort": "Borussia Dortmund",
+    "akzeptiert": [
+      "Dortmund",
+      "BVB"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land wurde 2004 als großer Außenseiter Europameister?",
+    "antwort": "Griechenland"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Stadion des Hamburger SV?",
+    "antwort": "Volksparkstadion",
+    "akzeptiert": [
+      "Volkspark"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Berliner Verein spielt im Stadion „An der Alten Försterei“?",
+    "antwort": "1. FC Union Berlin",
+    "akzeptiert": [
+      "Union Berlin",
+      "Union",
+      "FC Union"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Jahr startete die erste Saison der Bundesliga?",
+    "antwort": "1963",
+    "bewertung": "Auch „1963/64“ ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher kroatische Mittelfeldspieler gewann 2018 den Ballon d'Or?",
+    "antwort": "Luka Modrić",
+    "akzeptiert": [
+      "Modrić",
+      "Modric",
+      "Luka Modric"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher spanische Mittelfeldspieler von Manchester City gewann 2024 den Ballon d'Or?",
+    "antwort": "Rodri",
+    "akzeptiert": [
+      "Rodrigo Hernández",
+      "Rodrigo Hernández Cascante"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Bundesligaverein trägt den Spitznamen „die Fohlen“?",
+    "antwort": "Borussia Mönchengladbach",
+    "akzeptiert": [
+      "Mönchengladbach",
+      "Gladbach",
+      "Borussia Gladbach"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wer ist mit 365 Toren Rekordtorschütze der Bundesliga?",
+    "antwort": "Gerd Müller",
+    "akzeptiert": [
+      "Müller",
+      "Mueller"
+    ],
+    "bewertung": "Nachname reicht; ‚Thomas Müller‘ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land gewann 1930 die erste Fußball-Weltmeisterschaft?",
+    "antwort": "Uruguay"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie oft wurde die deutsche Männer-Nationalmannschaft Europameister?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei",
+      "dreimal"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher englische Verein wurde 2016 als krasser Außenseiter Meister der Premier League?",
+    "antwort": "Leicester City",
+    "akzeptiert": [
+      "Leicester"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Verein wurde 2009 unter Trainer Felix Magath erstmals Deutscher Meister?",
+    "antwort": "VfL Wolfsburg",
+    "akzeptiert": [
+      "Wolfsburg"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Torwart hielt im Champions-League-Finale 2001 gegen Valencia im Elfmeterschießen drei Elfmeter für Bayern?",
+    "antwort": "Oliver Kahn",
+    "akzeptiert": [
+      "Kahn"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Mannschaften nehmen an der Fußball-WM 2026 teil?",
+    "antwort": "48",
+    "akzeptiert": [
+      "achtundvierzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Land gewann 1992 überraschend die Europameisterschaft, obwohl es erst kurzfristig nachgerückt war?",
+    "antwort": "Dänemark",
+    "akzeptiert": [
+      "Daenemark"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Spieler erzielte im WM-Finale 1954 („Wunder von Bern“) das Siegtor zum 3:2 für Deutschland?",
+    "antwort": "Helmut Rahn",
+    "akzeptiert": [
+      "Rahn"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Spieler hat mit 602 Partien die meisten Bundesliga-Einsätze?",
+    "antwort": "Karl-Heinz Körbel",
+    "akzeptiert": [
+      "Körbel",
+      "Koerbel",
+      "Charly Körbel"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Verein wurde 1964 erster Meister der Bundesliga-Geschichte?",
+    "antwort": "1. FC Köln",
+    "akzeptiert": [
+      "FC Köln",
+      "Köln",
+      "Koeln"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Tore schoss Gerd Müller in der Saison 1971/72 – ein Rekord, der bis 2021 hielt?",
+    "antwort": "40",
+    "akzeptiert": [
+      "vierzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer erzielte im EM-Finale 1996 gegen Tschechien das Golden Goal für Deutschland?",
+    "antwort": "Oliver Bierhoff",
+    "akzeptiert": [
+      "Bierhoff"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr wurde Deutschland zum ersten Mal Europameister?",
+    "antwort": "1972"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchem italienischen Spieler verpasste Zidane im WM-Finale 2006 den berühmten Kopfstoß?",
+    "antwort": "Marco Materazzi",
+    "akzeptiert": [
+      "Materazzi"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Engländer erzielte im WM-Finale 1966 das umstrittene „Wembley-Tor“?",
+    "antwort": "Geoff Hurst",
+    "akzeptiert": [
+      "Hurst",
+      "Geoffrey Hurst"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Verein gewann 1966 als erster deutscher Klub einen Europapokal (den Europapokal der Pokalsieger)?",
+    "antwort": "Borussia Dortmund",
+    "akzeptiert": [
+      "Dortmund",
+      "BVB"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Radius hat der Mittelkreis auf einem Fußballfeld (in Metern)?",
+    "antwort": "9,15 Meter",
+    "akzeptiert": [
+      "9,15",
+      "9.15",
+      "9,15 m"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher DDR-Spieler schoss bei der WM 1974 das Tor zum 1:0-Sieg der DDR gegen die Bundesrepublik?",
+    "antwort": "Jürgen Sparwasser",
+    "akzeptiert": [
+      "Sparwasser"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer ist bis heute der einzige Torwart, der den Ballon d'Or gewann (1963)?",
+    "antwort": "Lew Jaschin",
+    "akzeptiert": [
+      "Jaschin",
+      "Yashin",
+      "Lev Yashin",
+      "Lew Yashin"
+    ],
+    "bewertung": "Nachname reicht, auch in englischer Schreibweise."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen portugiesischen Verein führte José Mourinho 2004 zum Champions-League-Sieg?",
+    "antwort": "FC Porto",
+    "akzeptiert": [
+      "Porto"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welcher Stadt wurde im Jahr 1900 der Deutsche Fußball-Bund (DFB) gegründet?",
+    "antwort": "Leipzig"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Land gewann 1960 die allererste Fußball-Europameisterschaft?",
+    "antwort": "Sowjetunion",
+    "akzeptiert": [
+      "UdSSR",
+      "Russland"
+    ],
+    "bewertung": "‚Russland‘ ist großzügig auch richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Der Franzose Just Fontaine hält den Rekord für die meisten Tore bei einer einzigen WM (1958). Wie viele waren es?",
+    "antwort": "13",
+    "akzeptiert": [
+      "dreizehn"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Verein gewann in der Saison 2003/04 das Double aus Meisterschaft und DFB-Pokal?",
+    "antwort": "Werder Bremen",
+    "akzeptiert": [
+      "Bremen",
+      "SV Werder Bremen",
+      "Werder"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutsche Torwart las im WM-Viertelfinale 2006 gegen Argentinien beim Elfmeterschießen von einem Spickzettel ab?",
+    "antwort": "Jens Lehmann",
+    "akzeptiert": [
+      "Lehmann"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Spielerin ist mit 214 Einsätzen Rekordnationalspielerin der deutschen Frauen-Nationalmannschaft?",
+    "antwort": "Birgit Prinz",
+    "akzeptiert": [
+      "Prinz"
+    ],
+    "bewertung": "Nachname reicht."
+  }
+]

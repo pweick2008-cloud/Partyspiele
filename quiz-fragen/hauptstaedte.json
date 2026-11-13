@@ -1,0 +1,721 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Frankreich?",
+    "antwort": "Paris"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Italien?",
+    "antwort": "Rom",
+    "akzeptiert": ["Roma"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt der Türkei?",
+    "antwort": "Ankara",
+    "bewertung": "Istanbul ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Von welchem Land ist Canberra die Hauptstadt?",
+    "antwort": "Australien",
+    "akzeptiert": ["Australia"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Neuseeland?",
+    "antwort": "Wellington",
+    "bewertung": "Auckland ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Hessen?",
+    "antwort": "Wiesbaden",
+    "bewertung": "Frankfurt ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Georgien (im Kaukasus)?",
+    "antwort": "Tiflis",
+    "akzeptiert": ["Tbilissi", "Tbilisi"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt der Mongolei?",
+    "antwort": "Ulaanbaatar",
+    "akzeptiert": ["Ulan Bator", "Ulan-Bator", "Ulaanbatar"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Von welchem Land ist Ouagadougou die Hauptstadt?",
+    "antwort": "Burkina Faso"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt des Inselstaates Tonga?",
+    "antwort": "Nuku'alofa",
+    "akzeptiert": ["Nukualofa", "Nuku’alofa", "Nuku alofa"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Deutschland?",
+    "antwort": "Berlin"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Spanien?",
+    "antwort": "Madrid"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt des Vereinigten Königreichs?",
+    "antwort": "London"
+  },
+  {
+    "stufe": 1,
+    "frage": "Von welchem Land ist Wien die Hauptstadt?",
+    "antwort": "Österreich",
+    "akzeptiert": ["Oesterreich", "Austria"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Russland?",
+    "antwort": "Moskau",
+    "akzeptiert": ["Moskwa", "Moscow"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Japan?",
+    "antwort": "Tokio",
+    "akzeptiert": ["Tokyo"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Griechenland?",
+    "antwort": "Athen",
+    "akzeptiert": ["Athens"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Portugal?",
+    "antwort": "Lissabon",
+    "akzeptiert": ["Lisboa", "Lisbon"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt der USA?",
+    "antwort": "Washington, D.C.",
+    "akzeptiert": ["Washington", "Washington DC"],
+    "bewertung": "New York ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Ägypten?",
+    "antwort": "Kairo",
+    "akzeptiert": ["Cairo"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von China?",
+    "antwort": "Peking",
+    "akzeptiert": ["Beijing"],
+    "bewertung": "Shanghai ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Irland?",
+    "antwort": "Dublin"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Tschechien?",
+    "antwort": "Prag",
+    "akzeptiert": ["Praha", "Prague"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Ungarn?",
+    "antwort": "Budapest"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Dänemark?",
+    "antwort": "Kopenhagen",
+    "akzeptiert": ["København", "Copenhagen"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Schweden?",
+    "antwort": "Stockholm"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Norwegen?",
+    "antwort": "Oslo"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Polen?",
+    "antwort": "Warschau",
+    "akzeptiert": ["Warszawa", "Warsaw"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Belgien?",
+    "antwort": "Brüssel",
+    "akzeptiert": ["Bruessel", "Bruxelles", "Brussel", "Brussels"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Bayern?",
+    "antwort": "München",
+    "akzeptiert": ["Muenchen", "Munich"]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Mexiko?",
+    "antwort": "Mexiko-Stadt",
+    "akzeptiert": ["Mexiko City", "Mexico City", "Ciudad de México", "Mexiko"],
+    "bewertung": "Nur „Mexiko“ ohne Zusatz auch gelten lassen, da die Stadt so heißt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt von Finnland?",
+    "antwort": "Helsinki"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Baden-Württemberg?",
+    "antwort": "Stuttgart"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt der Schweiz?",
+    "antwort": "Bern",
+    "bewertung": "Bern ist offiziell „Bundesstadt“ und gilt als Hauptstadt. Zürich oder Genf sind falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Kanada?",
+    "antwort": "Ottawa",
+    "bewertung": "Toronto oder Montreal sind falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Brasilien?",
+    "antwort": "Brasília",
+    "akzeptiert": ["Brasilia"],
+    "bewertung": "Rio de Janeiro und São Paulo sind falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Argentinien?",
+    "antwort": "Buenos Aires"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Indien?",
+    "antwort": "Neu-Delhi",
+    "akzeptiert": ["New Delhi", "Neu Delhi", "Delhi"],
+    "bewertung": "Mumbai ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Südkorea?",
+    "antwort": "Seoul"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Thailand?",
+    "antwort": "Bangkok"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt der Ukraine?",
+    "antwort": "Kiew",
+    "akzeptiert": ["Kyjiw", "Kyiv", "Kiev", "Kijew"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Kroatien?",
+    "antwort": "Zagreb",
+    "akzeptiert": ["Agram"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Island?",
+    "antwort": "Reykjavík",
+    "akzeptiert": ["Reykjavik"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Schottland?",
+    "antwort": "Edinburgh",
+    "akzeptiert": ["Edinburg"],
+    "bewertung": "Glasgow ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Rumänien?",
+    "antwort": "Bukarest",
+    "akzeptiert": ["București", "Bucuresti", "Bucharest"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Kuba?",
+    "antwort": "Havanna",
+    "akzeptiert": ["Havana", "La Habana", "Habana"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Peru?",
+    "antwort": "Lima"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt des Iran?",
+    "antwort": "Teheran",
+    "akzeptiert": ["Tehran"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt des Irak?",
+    "antwort": "Bagdad",
+    "akzeptiert": ["Baghdad"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt von Luxemburg?",
+    "antwort": "Luxemburg",
+    "akzeptiert": ["Luxembourg", "Luxemburg-Stadt", "Lëtzebuerg"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Niedersachsen?",
+    "antwort": "Hannover",
+    "akzeptiert": ["Hanover"]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Sachsen?",
+    "antwort": "Dresden",
+    "bewertung": "Leipzig ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Schleswig-Holstein?",
+    "antwort": "Kiel"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Nordrhein-Westfalen?",
+    "antwort": "Düsseldorf",
+    "akzeptiert": ["Duesseldorf"],
+    "bewertung": "Köln ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Brandenburg?",
+    "antwort": "Potsdam"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Hauptstadt des Saarlandes?",
+    "antwort": "Saarbrücken",
+    "akzeptiert": ["Saarbruecken"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Marokko?",
+    "antwort": "Rabat",
+    "bewertung": "Casablanca und Marrakesch sind falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Kolumbien?",
+    "antwort": "Bogotá",
+    "akzeptiert": ["Bogota"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Chile?",
+    "antwort": "Santiago de Chile",
+    "akzeptiert": ["Santiago"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Kenia?",
+    "antwort": "Nairobi"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Bulgarien?",
+    "antwort": "Sofia",
+    "akzeptiert": ["Sofija"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Serbien?",
+    "antwort": "Belgrad",
+    "akzeptiert": ["Beograd", "Belgrade"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Vietnam?",
+    "antwort": "Hanoi",
+    "akzeptiert": ["Hà Nội", "Ha Noi"],
+    "bewertung": "Ho-Chi-Minh-Stadt (Saigon) ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt der Philippinen?",
+    "antwort": "Manila"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Venezuela?",
+    "antwort": "Caracas"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Nigeria?",
+    "antwort": "Abuja",
+    "bewertung": "Lagos ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Pakistan?",
+    "antwort": "Islamabad",
+    "bewertung": "Karatschi ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Saudi-Arabien?",
+    "antwort": "Riad",
+    "akzeptiert": ["Riyadh", "Riyad"],
+    "bewertung": "Mekka und Dschidda sind falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt der Slowakei?",
+    "antwort": "Bratislava",
+    "akzeptiert": ["Pressburg"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Slowenien?",
+    "antwort": "Ljubljana",
+    "akzeptiert": ["Laibach"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Estland?",
+    "antwort": "Tallinn",
+    "akzeptiert": ["Tallin", "Reval"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Lettland?",
+    "antwort": "Riga"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Tunesien?",
+    "antwort": "Tunis"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Äthiopien?",
+    "antwort": "Addis Abeba",
+    "akzeptiert": ["Addis Ababa", "Addis Abbeba"]
+  },
+  {
+    "stufe": 3,
+    "frage": "Von welchem Land ist Kathmandu die Hauptstadt?",
+    "antwort": "Nepal"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Rheinland-Pfalz?",
+    "antwort": "Mainz"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Thüringen?",
+    "antwort": "Erfurt"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Sachsen-Anhalt?",
+    "antwort": "Magdeburg",
+    "bewertung": "Halle ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Mecklenburg-Vorpommern?",
+    "antwort": "Schwerin",
+    "bewertung": "Rostock ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Litauen?",
+    "antwort": "Vilnius",
+    "akzeptiert": ["Wilna"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Malta?",
+    "antwort": "Valletta",
+    "akzeptiert": ["Valetta"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Syrien?",
+    "antwort": "Damaskus",
+    "akzeptiert": ["Damascus"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Albanien?",
+    "antwort": "Tirana",
+    "akzeptiert": ["Tiranë"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Nordmazedonien?",
+    "antwort": "Skopje",
+    "akzeptiert": ["Skopie"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Bosnien und Herzegowina?",
+    "antwort": "Sarajevo",
+    "akzeptiert": ["Sarajewo"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Montenegro?",
+    "antwort": "Podgorica",
+    "akzeptiert": ["Podgoriza"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Belarus (Weißrussland)?",
+    "antwort": "Minsk"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Armenien?",
+    "antwort": "Jerewan",
+    "akzeptiert": ["Eriwan", "Yerevan", "Erewan"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Aserbaidschan?",
+    "antwort": "Baku"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Kasachstan?",
+    "antwort": "Astana",
+    "akzeptiert": ["Nur-Sultan", "Nursultan"],
+    "bewertung": "Die Stadt hieß 2019–2022 Nur-Sultan, auch das gelten lassen. Almaty ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Ghana?",
+    "antwort": "Accra",
+    "akzeptiert": ["Akkra"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt des Senegal?",
+    "antwort": "Dakar"
+  },
+  {
+    "stufe": 4,
+    "frage": "Von welchem Land ist Montevideo die Hauptstadt?",
+    "antwort": "Uruguay"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Paraguay?",
+    "antwort": "Asunción",
+    "akzeptiert": ["Asuncion"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Ecuador?",
+    "antwort": "Quito",
+    "bewertung": "Guayaquil ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Jordanien?",
+    "antwort": "Amman"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt des Libanon?",
+    "antwort": "Beirut"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Afghanistan?",
+    "antwort": "Kabul"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Bangladesch?",
+    "antwort": "Dhaka",
+    "akzeptiert": ["Dakka", "Dacca"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Malaysia?",
+    "antwort": "Kuala Lumpur",
+    "bewertung": "Putrajaya ist nur Verwaltungssitz, nicht die Hauptstadt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Algerien?",
+    "antwort": "Algier",
+    "akzeptiert": ["Algiers", "Alger"]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Zypern?",
+    "antwort": "Nikosia",
+    "akzeptiert": ["Nicosia", "Lefkosia"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt der Republik Moldau?",
+    "antwort": "Chișinău",
+    "akzeptiert": ["Chisinau", "Kischinau", "Kischinjow", "Kischinew"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Kirgisistan?",
+    "antwort": "Bischkek",
+    "akzeptiert": ["Bishkek"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Tadschikistan?",
+    "antwort": "Duschanbe",
+    "akzeptiert": ["Dushanbe"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Turkmenistan?",
+    "antwort": "Aschgabat",
+    "akzeptiert": ["Ashgabat", "Aşgabat", "Aschchabad"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Usbekistan?",
+    "antwort": "Taschkent",
+    "akzeptiert": ["Tashkent", "Toshkent"],
+    "bewertung": "Samarkand ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Bhutan?",
+    "antwort": "Thimphu",
+    "akzeptiert": ["Thimpu"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Laos?",
+    "antwort": "Vientiane",
+    "akzeptiert": ["Vientian", "Viangchan"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Myanmar?",
+    "antwort": "Naypyidaw",
+    "akzeptiert": ["Naypyitaw", "Nay Pyi Taw", "Nay Pyi Daw"],
+    "bewertung": "Yangon (Rangun) war nur bis 2005 Hauptstadt und ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Mali?",
+    "antwort": "Bamako",
+    "bewertung": "Timbuktu ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt des Niger?",
+    "antwort": "Niamey"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt des Tschad?",
+    "antwort": "N'Djamena",
+    "akzeptiert": ["NDjamena", "N’Djamena", "Ndschamena"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Eritrea?",
+    "antwort": "Asmara"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Madagaskar?",
+    "antwort": "Antananarivo",
+    "akzeptiert": ["Tananarive"]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Malawi?",
+    "antwort": "Lilongwe"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Botswana?",
+    "antwort": "Gaborone"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Simbabwe?",
+    "antwort": "Harare"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Ruanda?",
+    "antwort": "Kigali"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Fidschi?",
+    "antwort": "Suva"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Samoa?",
+    "antwort": "Apia"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt des Sultanats Brunei?",
+    "antwort": "Bandar Seri Begawan"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Suriname?",
+    "antwort": "Paramaribo"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Honduras?",
+    "antwort": "Tegucigalpa"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Belize?",
+    "antwort": "Belmopan",
+    "bewertung": "Belize City ist falsch."
+  }
+]

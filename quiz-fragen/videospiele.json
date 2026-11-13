@@ -1,0 +1,744 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der grün gekleidete Bruder von Super Mario?",
+    "antwort": "Luigi"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches gelbe Elektro-Pokémon ist das Maskottchen der Pokémon-Reihe?",
+    "antwort": "Pikachu"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Firma stellt die PlayStation her?",
+    "antwort": "Sony"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Firma stellt die Xbox her?",
+    "antwort": "Microsoft"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der blaue, superschnelle Igel von Sega?",
+    "antwort": "Sonic",
+    "akzeptiert": [
+      "Sonic the Hedgehog"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die gelbe, runde Spielfigur, die im Labyrinth Punkte frisst und vor Geistern flieht?",
+    "antwort": "Pac-Man",
+    "akzeptiert": [
+      "Pacman"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Spiel springen 100 Spieler aus einem fliegenden „Battle Bus“ auf eine Insel?",
+    "antwort": "Fortnite"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt Marios großer Erzfeind, ein feuerspeiender Schildkröten-König?",
+    "antwort": "Bowser"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welchen Beruf hat Super Mario ursprünglich?",
+    "antwort": "Klempner",
+    "akzeptiert": [
+      "Installateur"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Klötzchen-Spiel schleichen grüne „Creeper“ herum und explodieren?",
+    "antwort": "Minecraft"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher große Affe wirft im Arcade-Klassiker von 1981 Fässer auf Mario?",
+    "antwort": "Donkey Kong"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt Nintendos Rennspielreihe, in der Mario und Co. mit Bananen und Panzern um die Wette fahren?",
+    "antwort": "Mario Kart"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was für ein Tier ist Marios grüner Begleiter Yoshi?",
+    "antwort": "Dinosaurier",
+    "akzeptiert": [
+      "Dino"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht die Abkürzung „GG“, die man nach einer Runde im Chat schreibt?",
+    "antwort": "Good Game"
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem rot-weißen Ball fängt man in den Spielen Pokémon?",
+    "antwort": "Pokéball",
+    "akzeptiert": [
+      "Pokeball"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Prinzessin mit rosa Kleid, die Mario immer wieder vor Bowser rettet?",
+    "antwort": "Peach",
+    "akzeptiert": [
+      "Prinzessin Peach"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Firma brachte den Game Boy heraus?",
+    "antwort": "Nintendo"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was lässt Mario wachsen, wenn er es einsammelt: ein Stern, eine Blume oder ein Pilz?",
+    "antwort": "Pilz",
+    "akzeptiert": [
+      "Superpilz"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Unter welchem Namen lief die Fußballspielreihe von EA, bevor sie 2023 in „EA Sports FC“ umbenannt wurde?",
+    "antwort": "FIFA"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die tragbare Nintendo-Konsole von 2017, die man auch an den Fernseher anschließen kann?",
+    "antwort": "Nintendo Switch",
+    "akzeptiert": [
+      "Switch"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Spieleklassiker fallen Blöcke aus vier Quadraten herunter, die man zu vollen Reihen anordnen muss?",
+    "antwort": "Tetris"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Prinzessin, die Link in der Zelda-Reihe immer wieder rettet?",
+    "antwort": "Zelda",
+    "akzeptiert": [
+      "Prinzessin Zelda"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Held der Zelda-Reihe mit grüner Mütze und Schwert?",
+    "antwort": "Link"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Abkürzung GTA?",
+    "antwort": "Grand Theft Auto"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Spielwährung in Fortnite, mit der man Skins kauft?",
+    "antwort": "V-Bucks",
+    "akzeptiert": [
+      "V-Bucks",
+      "VBucks"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Spiel muss die Crew auf einem Raumschiff herausfinden, wer der „Impostor“ ist?",
+    "antwort": "Among Us"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Sportart simuliert der Spieleklassiker Pong?",
+    "antwort": "Tischtennis",
+    "akzeptiert": [
+      "Tennis",
+      "Ping Pong"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Feuer-Pokémon kann man in Pokémon Rot und Blau als Starter wählen?",
+    "antwort": "Glumanda",
+    "akzeptiert": [
+      "Charmander"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Verbrecherbande mit Jessie und James aus Pokémon?",
+    "antwort": "Team Rocket"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Studio entwickelt die GTA-Reihe?",
+    "antwort": "Rockstar Games",
+    "akzeptiert": [
+      "Rockstar",
+      "Rockstar North"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Studio entwickelt Fortnite?",
+    "antwort": "Epic Games",
+    "akzeptiert": [
+      "Epic"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der kostenlose Battle-Royale-Modus von Call of Duty, der 2020 erschien?",
+    "antwort": "Warzone",
+    "akzeptiert": [
+      "Call of Duty: Warzone"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man in Fortnite die Zone, die sich zusammenzieht und Spielern außerhalb Schaden zufügt?",
+    "antwort": "Sturm",
+    "akzeptiert": [
+      "Storm",
+      "Sturmauge"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die kleinen braunen Pilz-Gegner, auf die Mario springt?",
+    "antwort": "Gumbas",
+    "akzeptiert": [
+      "Goombas",
+      "Gumba",
+      "Goomba"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die rosa Nintendo-Kugel, die Gegner einsaugt und ihre Fähigkeiten kopiert?",
+    "antwort": "Kirby"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Nintendo-Konsole von 2006 wurde mit Bewegungssteuerung und „Wii Sports“ berühmt?",
+    "antwort": "Wii",
+    "akzeptiert": [
+      "Nintendo Wii"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Shooter treten Terroristen gegen Counter-Terroristen an, oft mit einer Bombe?",
+    "antwort": "Counter-Strike",
+    "akzeptiert": [
+      "CS",
+      "CS:GO",
+      "CS2",
+      "Counter Strike"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher deutschen Stadt findet jährlich die Spielemesse Gamescom statt?",
+    "antwort": "Köln",
+    "akzeptiert": [
+      "Koeln",
+      "Cologne"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Archäologin und Heldin der Tomb-Raider-Reihe?",
+    "antwort": "Lara Croft",
+    "bewertung": "„Lara“ reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Nintendo-Konsole, die 2025 als Nachfolger der Switch erschien?",
+    "antwort": "Nintendo Switch 2",
+    "akzeptiert": [
+      "Switch 2"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche vier Symbole sind auf den Aktionstasten eines PlayStation-Controllers?",
+    "antwort": "Dreieck, Kreis, Kreuz, Quadrat",
+    "bewertung": "Alle vier nötig, Reihenfolge egal. „X“ statt Kreuz und „Viereck“ statt Quadrat sind ok."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Pokémon darf man in den Hauptspielen maximal gleichzeitig im Team dabeihaben?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche fiktive Stadt, angelehnt an Los Angeles, ist der Schauplatz von GTA V?",
+    "antwort": "Los Santos"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen die vier Geister, die Pac-Man im Original jagen? Nenne einen davon.",
+    "antwort": "Blinky, Pinky, Inky oder Clyde",
+    "akzeptiert": [
+      "Blinky",
+      "Pinky",
+      "Inky",
+      "Clyde"
+    ],
+    "bewertung": "Einer der vier Namen reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Pokémon wurde in einem Labor aus der DNA von Mew geklont?",
+    "antwort": "Mewtu",
+    "akzeptiert": [
+      "Mewtwo"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Pokémon-Professor, der dir in Pokémon Rot und Blau dein erstes Pokémon gibt?",
+    "antwort": "Professor Eich",
+    "akzeptiert": [
+      "Eich",
+      "Professor Oak",
+      "Oak"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher echten US-Stadt ist „Vice City“ aus GTA nachempfunden?",
+    "antwort": "Miami"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele spielbare Hauptfiguren hat die Story von GTA V?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ],
+    "bewertung": "Gemeint sind Michael, Franklin und Trevor."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Publisher bringt die Call-of-Duty-Reihe heraus?",
+    "antwort": "Activision",
+    "akzeptiert": [
+      "Activision Blizzard"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche drei Baumaterialien sammelt man im klassischen Fortnite-Battle-Royale?",
+    "antwort": "Holz, Stein, Metall",
+    "bewertung": "Alle drei nötig, Reihenfolge egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Spielmodus in FIFA bzw. EA Sports FC, in dem man Spielerkarten sammelt und sein Team baut (Abkürzung FUT)?",
+    "antwort": "Ultimate Team",
+    "akzeptiert": [
+      "FIFA Ultimate Team"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß Sonys erste Handheld-Konsole, die 2004 erschien (Abkürzung reicht)?",
+    "antwort": "PSP",
+    "akzeptiert": [
+      "PlayStation Portable"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Videospiel ist mit über 300 Millionen Exemplaren das meistverkaufte aller Zeiten?",
+    "antwort": "Minecraft"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Arcade-Klassiker von 1978 marschieren Reihen von Außerirdischen auf den Spieler herab?",
+    "antwort": "Space Invaders"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das legendäre Schwert, das Link in vielen Zelda-Spielen führt?",
+    "antwort": "Master-Schwert",
+    "akzeptiert": [
+      "Masterschwert",
+      "Master Sword"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Musikinstrument steckt im Titel des Zelda-Spiels für das Nintendo 64 von 1998?",
+    "antwort": "Okarina",
+    "akzeptiert": [
+      "Ocarina"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Spiel jagt Luigi mit einem umgebauten Staubsauger Geister in einem Spukhaus?",
+    "antwort": "Luigi's Mansion",
+    "akzeptiert": [
+      "Luigis Mansion"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Nintendos Kampfspielreihe, in der Mario, Link, Pikachu und Co. gegeneinander antreten?",
+    "antwort": "Super Smash Bros.",
+    "akzeptiert": [
+      "Smash Bros",
+      "Smash"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Firma betreibt die PC-Spieleplattform Steam?",
+    "antwort": "Valve"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der spartanische Kriegsgott und Held der Reihe „God of War“?",
+    "antwort": "Kratos"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Studio entwickelte League of Legends und Valorant?",
+    "antwort": "Riot Games",
+    "akzeptiert": [
+      "Riot"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die Gaming-Abkürzung NPC?",
+    "antwort": "Non-Player Character",
+    "akzeptiert": [
+      "Nicht-Spieler-Charakter",
+      "Non Playable Character"
+    ],
+    "bewertung": "Sinngemäß richtig zählt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welchem Pokémon entwickelt sich Glumanda in seiner letzten Entwicklungsstufe?",
+    "antwort": "Glurak",
+    "akzeptiert": [
+      "Charizard"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Sonics Erzfeind, ein schnauzbärtiger Wissenschaftler?",
+    "antwort": "Dr. Eggman",
+    "akzeptiert": [
+      "Eggman",
+      "Dr. Robotnik",
+      "Robotnik"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Unternehmen brachte 1972 das Tennis-Videospiel Pong heraus?",
+    "antwort": "Atari"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Land wurde Tetris erfunden?",
+    "antwort": "Sowjetunion",
+    "akzeptiert": [
+      "Russland",
+      "UdSSR"
+    ],
+    "bewertung": "Sowjetunion, UdSSR oder Russland zählen."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Königreich, in dem die meisten Zelda-Spiele spielen?",
+    "antwort": "Hyrule"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Fee, die Link in „Ocarina of Time“ begleitet und ständig „Hey, listen!“ ruft?",
+    "antwort": "Navi"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher japanische Spieledesigner erfand Super Mario und The Legend of Zelda?",
+    "antwort": "Shigeru Miyamoto",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Jahr erschien der Game Boy in Japan?",
+    "antwort": "1989"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht die Abkürzung der Nintendo-Konsole NES?",
+    "antwort": "Nintendo Entertainment System"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche japanische Firma veröffentlichte 1980 Pac-Man?",
+    "antwort": "Namco",
+    "akzeptiert": [
+      "Bandai Namco"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Von welchem Essen ließ sich der Erfinder von Pac-Man nach eigener Aussage für die Form der Figur inspirieren?",
+    "antwort": "Pizza",
+    "bewertung": "Gemeint ist eine Pizza, von der ein Stück fehlt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Ego-Shooter von 1993 lässt einen Space Marine auf den Mars-Monden gegen Dämonen kämpfen?",
+    "antwort": "Doom"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Krieg spielte das allererste Call of Duty von 2003?",
+    "antwort": "Zweiter Weltkrieg",
+    "akzeptiert": [
+      "2. Weltkrieg",
+      "WW2",
+      "WWII"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Konzern übernahm 2023 Activision Blizzard und damit Call of Duty?",
+    "antwort": "Microsoft"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Spiele-Engine von Epic Games, die auch Fortnite antreibt?",
+    "antwort": "Unreal Engine",
+    "akzeptiert": [
+      "Unreal"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Unter welchem Spielernamen ist der südkoreanische League-of-Legends-Star Lee Sang-hyeok weltberühmt?",
+    "antwort": "Faker"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher japanischen Stadt hat Nintendo seinen Hauptsitz?",
+    "antwort": "Kyoto",
+    "akzeptiert": [
+      "Kioto"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Land stammt CD Projekt Red, das Studio hinter „The Witcher“ und „Cyberpunk 2077“?",
+    "antwort": "Polen"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Fantasiesprache, die die Figuren in „Die Sims“ sprechen?",
+    "antwort": "Simlisch",
+    "akzeptiert": [
+      "Simlish"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Land stammt das Handyspiel „Angry Birds“?",
+    "antwort": "Finnland"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches dicke, schlafende Pokémon versperrt in Pokémon Rot und Blau den Weg und muss mit der Pokéflöte geweckt werden?",
+    "antwort": "Relaxo",
+    "akzeptiert": [
+      "Snorlax"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches lila Pokémon kann sich in jedes andere Pokémon verwandeln?",
+    "antwort": "Ditto"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Kopfgeldjägerin im Kampfanzug, Heldin der Nintendo-Reihe Metroid?",
+    "antwort": "Samus Aran",
+    "bewertung": "„Samus“ reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht „DS“ im Namen der Nintendo-Handheld-Konsole?",
+    "antwort": "Dual Screen",
+    "bewertung": "Auch sinngemäß „zwei Bildschirme“ zählt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß Super Mario in seinem ersten Auftritt im Spiel Donkey Kong von 1981?",
+    "antwort": "Jumpman"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Pokémon trägt im nationalen Pokédex die Nummer 001?",
+    "antwort": "Bisasam",
+    "akzeptiert": [
+      "Bulbasaur"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Erfinder von Pokémon und Gründer von Game Freak?",
+    "antwort": "Satoshi Tajiri",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der sowjetische Programmierer, der 1984 Tetris erfand?",
+    "antwort": "Alexei Paschitnow",
+    "akzeptiert": [
+      "Pajitnov",
+      "Paschitnow",
+      "Alexey Pajitnov"
+    ],
+    "bewertung": "Nachname in jeder Schreibweise reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der japanische Spieledesigner, der Pac-Man erfand?",
+    "antwort": "Toru Iwatani",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Unter welchem Namen erschien Pac-Man ursprünglich 1980 in Japan?",
+    "antwort": "Puck-Man",
+    "akzeptiert": [
+      "Puckman"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das russische Volkslied, das als Tetris-Melodie auf dem Game Boy weltberühmt wurde?",
+    "antwort": "Korobeiniki",
+    "akzeptiert": [
+      "Korobuschka",
+      "Korobeyniki"
+    ],
+    "bewertung": "Ähnliche Schreibweisen zählen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß die erste kommerzielle Heimvideospielkonsole der Welt von 1972?",
+    "antwort": "Magnavox Odyssey",
+    "akzeptiert": [
+      "Odyssey"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß die letzte Heimkonsole von Sega, die 1998 in Japan erschien?",
+    "antwort": "Dreamcast",
+    "akzeptiert": [
+      "Sega Dreamcast"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was stellte Nintendo bei seiner Gründung im Jahr 1889 her?",
+    "antwort": "Spielkarten",
+    "akzeptiert": [
+      "Hanafuda",
+      "Hanafuda-Karten",
+      "Karten"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Die PlayStation entstand aus einem geplatzten CD-Laufwerk-Projekt von Sony mit welcher anderen Firma?",
+    "antwort": "Nintendo"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Studio entwickelte das allererste Call of Duty von 2003?",
+    "antwort": "Infinity Ward"
+  },
+  {
+    "stufe": 5,
+    "frage": "Unter welchem Spielernamen gewann ein 16-jähriger US-Amerikaner 2019 den Solo-Titel beim ersten Fortnite World Cup und 3 Millionen Dollar?",
+    "antwort": "Bugha",
+    "akzeptiert": [
+      "Kyle Giersdorf"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das jährliche Haupt-Weltturnier im MOBA Dota 2?",
+    "antwort": "The International",
+    "akzeptiert": [
+      "TI"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die berühmte Cheat-Tastenfolge „hoch, hoch, runter, runter, links, rechts, links, rechts, B, A“?",
+    "antwort": "Konami-Code",
+    "akzeptiert": [
+      "Konami Code"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welcher schottischen Stadt sitzt Rockstar North, das Hauptstudio hinter GTA?",
+    "antwort": "Edinburgh"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Studio entwickelte das erste Halo von 2001?",
+    "antwort": "Bungie"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Power-Sterne kann man in Super Mario 64 insgesamt sammeln?",
+    "antwort": "120",
+    "akzeptiert": [
+      "hundertzwanzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr erschien das allererste FIFA-Spiel von EA („FIFA International Soccer“)?",
+    "antwort": "1993"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was für ein Tier ist Crash Bandicoot?",
+    "antwort": "Beuteldachs",
+    "akzeptiert": [
+      "Bandicoot",
+      "Nasenbeutler"
+    ]
+  }
+]

@@ -1,0 +1,787 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Welcher Planet ist der Sonne am nächsten?",
+    "antwort": "Merkur"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Planet wird wegen seiner Farbe auch „der Rote Planet“ genannt?",
+    "antwort": "Mars"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Planet ist vor allem für seine auffälligen Ringe bekannt?",
+    "antwort": "Saturn"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Planeten hat unser Sonnensystem?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Ist die Sonne ein Planet, ein Stern oder ein Mond?",
+    "antwort": "Stern",
+    "akzeptiert": [
+      "ein Stern"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht die Abkürzung ISS?",
+    "antwort": "Internationale Raumstation",
+    "akzeptiert": [
+      "International Space Station"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Himmelskörper galt bis 2006 als neunter Planet und ist heute ein Zwergplanet?",
+    "antwort": "Pluto"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Raumfahrtbehörde der USA (Abkürzung)?",
+    "antwort": "NASA"
+  },
+  {
+    "stufe": 1,
+    "frage": "Der wievielte Planet von der Sonne aus gesehen ist die Erde?",
+    "antwort": "3",
+    "akzeptiert": [
+      "dritte",
+      "der dritte",
+      "drei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man einen Himmelskörper aus Eis und Staub, der in Sonnennähe einen leuchtenden Schweif bildet?",
+    "antwort": "Komet",
+    "akzeptiert": [
+      "Schweifstern"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Planet ist nach der römischen Göttin der Liebe benannt?",
+    "antwort": "Venus"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die Leuchtspur eines Gesteinsbrockens, der in der Erdatmosphäre verglüht, umgangssprachlich?",
+    "antwort": "Sternschnuppe",
+    "akzeptiert": [
+      "Meteor"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Ist ein Lichtjahr eine Zeitangabe oder eine Entfernungsangabe?",
+    "antwort": "Entfernung",
+    "akzeptiert": [
+      "Entfernungsangabe",
+      "eine Entfernung",
+      "Strecke",
+      "Länge"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man das Gerät, mit dem man ferne Sterne und Planeten vergrößert beobachtet?",
+    "antwort": "Teleskop",
+    "akzeptiert": [
+      "Fernrohr"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie lange braucht die Erde für eine Umrundung der Sonne?",
+    "antwort": "1 Jahr",
+    "akzeptiert": [
+      "ein Jahr",
+      "365 Tage",
+      "Jahr"
+    ],
+    "bewertung": "Auch „365 Tage“ oder „365,25 Tage“ ist richtig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was für ein Himmelskörper schlug nach gängiger Theorie vor etwa 66 Millionen Jahren ein und löste das Aussterben der Dinosaurier aus?",
+    "antwort": "Asteroid",
+    "akzeptiert": [
+      "Meteorit",
+      "Komet",
+      "Meteor"
+    ],
+    "bewertung": "Asteroid, Meteorit oder Komet gelten als richtig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was müssen Astronauten bei einem Außeneinsatz im All tragen, um zu überleben?",
+    "antwort": "Raumanzug",
+    "akzeptiert": [
+      "Weltraumanzug",
+      "Astronautenanzug"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Himmelskörper verursacht hauptsächlich Ebbe und Flut auf der Erde?",
+    "antwort": "Mond",
+    "akzeptiert": [
+      "der Mond"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Lebewesen von anderen Planeten (Sammelbegriff, auch englisch)?",
+    "antwort": "Außerirdische",
+    "akzeptiert": [
+      "Aliens",
+      "Alien",
+      "Außerirdischer",
+      "Ausserirdische",
+      "Extraterrestrische"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Mondphase, in der man den Mond als komplett beleuchtete Scheibe sieht?",
+    "antwort": "Vollmond"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Planet ist der größte unseres Sonnensystems?",
+    "antwort": "Jupiter"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie hieß der erste Mensch, der den Mond betreten hat?",
+    "antwort": "Neil Armstrong",
+    "akzeptiert": [
+      "Armstrong"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Jahr betraten zum ersten Mal Menschen den Mond?",
+    "antwort": "1969"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Planet ist am weitesten von der Sonne entfernt?",
+    "antwort": "Neptun"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man Raumfahrer aus Russland bzw. der Sowjetunion?",
+    "antwort": "Kosmonauten",
+    "akzeptiert": [
+      "Kosmonaut"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer war 1961 der erste Mensch im Weltall?",
+    "antwort": "Juri Gagarin",
+    "akzeptiert": [
+      "Gagarin",
+      "Yuri Gagarin"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Raumfahrtprogramm, mit dem die USA 1969 bis 1972 Menschen auf den Mond brachten?",
+    "antwort": "Apollo",
+    "akzeptiert": [
+      "Apollo-Programm"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie hieß der erste künstliche Erdsatellit, 1957 von der Sowjetunion gestartet?",
+    "antwort": "Sputnik",
+    "akzeptiert": [
+      "Sputnik 1"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Weltraumteleskop, das 1990 gestartet wurde und nach einem US-Astronomen benannt ist?",
+    "antwort": "Hubble",
+    "akzeptiert": [
+      "Hubble-Weltraumteleskop",
+      "Hubble Space Telescope"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Astronaut war 2018 Kommandant der ISS?",
+    "antwort": "Alexander Gerst",
+    "akzeptiert": [
+      "Gerst"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Der „Große Wagen“ ist Teil welches Sternbilds?",
+    "antwort": "Großer Bär",
+    "akzeptiert": [
+      "Grosser Bär",
+      "Ursa Major"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Europäische Weltraumorganisation abgekürzt?",
+    "antwort": "ESA"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Stern steht fast genau über dem Nordpol und dient seit jeher zur Bestimmung der Nordrichtung?",
+    "antwort": "Polarstern",
+    "akzeptiert": [
+      "Polaris",
+      "Nordstern"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Ereignis, mit dem nach heutiger Vorstellung vor etwa 13,8 Milliarden Jahren das Universum entstand?",
+    "antwort": "Urknall",
+    "akzeptiert": [
+      "Big Bang"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Auf welchem Planeten tobt seit Jahrhunderten der riesige Wirbelsturm „Großer Roter Fleck“?",
+    "antwort": "Jupiter"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Planet ist der kleinste unseres Sonnensystems?",
+    "antwort": "Merkur"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Zone zwischen Mars und Jupiter, in der besonders viele kleine Gesteinskörper kreisen?",
+    "antwort": "Asteroidengürtel",
+    "akzeptiert": [
+      "Hauptgürtel",
+      "Planetoidengürtel"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man es, wenn sich der Mond zwischen Sonne und Erde schiebt und die Sonne verdeckt?",
+    "antwort": "Sonnenfinsternis",
+    "akzeptiert": [
+      "Sonnenfinsterniss",
+      "Eklipse"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches von Elon Musk gegründete Unternehmen baut die Raketen Falcon 9 und Starship?",
+    "antwort": "SpaceX",
+    "akzeptiert": [
+      "Space X"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Kraft hält die Planeten auf ihren Bahnen um die Sonne?",
+    "antwort": "Gravitation",
+    "akzeptiert": [
+      "Schwerkraft",
+      "Anziehungskraft",
+      "Massenanziehung"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Galaxie, zu der unser Sonnensystem gehört?",
+    "antwort": "Milchstraße",
+    "akzeptiert": [
+      "Milchstrasse",
+      "Milky Way"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der größte Mond des Saturn?",
+    "antwort": "Titan"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Planet ist der heißeste unseres Sonnensystems?",
+    "antwort": "Venus",
+    "bewertung": "Merkur ist falsch – die Venus ist wegen ihrer dichten CO₂-Atmosphäre heißer."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Sternbild findet man die drei markanten „Gürtelsterne“?",
+    "antwort": "Orion"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie lange braucht das Licht der Sonne ungefähr bis zur Erde?",
+    "antwort": "ca. 8 Minuten",
+    "akzeptiert": [
+      "8 Minuten",
+      "acht Minuten"
+    ],
+    "bewertung": "Genau sind es etwa 8 Minuten 20 Sekunden. Alles zwischen 8 und 8,5 Minuten gilt als richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die große Spiralgalaxie, die unserer Milchstraße am nächsten ist?",
+    "antwort": "Andromedagalaxie",
+    "akzeptiert": [
+      "Andromeda",
+      "Andromeda-Galaxie",
+      "Andromedanebel",
+      "M31"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Planet rotiert so stark gekippt, dass er quasi „auf der Seite liegt“?",
+    "antwort": "Uranus"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß der zweite Mensch, der den Mond betrat?",
+    "antwort": "Buzz Aldrin",
+    "akzeptiert": [
+      "Aldrin",
+      "Edwin Aldrin"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welcher Apollo-Mission landeten erstmals Menschen auf dem Mond? (Nummer)",
+    "antwort": "Apollo 11",
+    "akzeptiert": [
+      "11"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer flog 1978 als erster Deutscher ins All?",
+    "antwort": "Sigmund Jähn",
+    "akzeptiert": [
+      "Jähn",
+      "Jaehn"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß die Hündin, die 1957 als erstes Lebewesen die Erde in einem Raumschiff umkreiste?",
+    "antwort": "Laika"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man Planeten, die nicht um die Sonne, sondern um einen anderen Stern kreisen?",
+    "antwort": "Exoplaneten",
+    "akzeptiert": [
+      "Exoplanet",
+      "extrasolare Planeten"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches chemische Element ist das häufigste im Universum?",
+    "antwort": "Wasserstoff",
+    "akzeptiert": [
+      "H",
+      "Hydrogen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Sternbild am Nordhimmel hat die Form eines großen „W“?",
+    "antwort": "Kassiopeia",
+    "akzeptiert": [
+      "Cassiopeia",
+      "Kassiopeja"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie schnell ist das Licht im Vakuum ungefähr – in Kilometern pro Sekunde?",
+    "antwort": "ca. 300.000 km/s",
+    "akzeptiert": [
+      "300000",
+      "300.000",
+      "299.792"
+    ],
+    "bewertung": "Genau 299.792 km/s. Alles von ca. 299.000 bis 300.000 km/s gilt; Einheit nicht nötig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß die wiederverwendbare US-Raumfähre, die von 1981 bis 2011 flog?",
+    "antwort": "Space Shuttle",
+    "akzeptiert": [
+      "Shuttle",
+      "Spaceshuttle"
+    ],
+    "bewertung": "Auch einzelne Namen wie Columbia, Challenger, Discovery, Atlantis oder Endeavour gelten."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man die gewaltige Explosion eines massereichen Sterns am Ende seines Lebens?",
+    "antwort": "Supernova"
+  },
+  {
+    "stufe": 3,
+    "frage": "Bei welcher Apollo-Mission fiel der Satz „Houston, wir haben ein Problem“ und die Mondlandung musste abgebrochen werden?",
+    "antwort": "Apollo 13",
+    "akzeptiert": [
+      "13"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das große Weltraumteleskop, das Ende 2021 als Nachfolger von Hubble gestartet wurde?",
+    "antwort": "James-Webb-Weltraumteleskop",
+    "akzeptiert": [
+      "James Webb",
+      "JWST",
+      "James-Webb-Teleskop",
+      "Webb"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man den Zustand, in dem Astronauten in der ISS scheinbar schweben?",
+    "antwort": "Schwerelosigkeit",
+    "akzeptiert": [
+      "Mikrogravitation",
+      "schwerelos"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Stern ist (nach der Sonne) der hellste am Nachthimmel?",
+    "antwort": "Sirius"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die beiden Monde des Mars? Nenne beide.",
+    "antwort": "Phobos und Deimos",
+    "bewertung": "Beide Namen müssen genannt werden, Reihenfolge egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der größte Mond unseres Sonnensystems?",
+    "antwort": "Ganymed",
+    "akzeptiert": [
+      "Ganymede"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der höchste bekannte Vulkan im Sonnensystem, der auf dem Mars liegt?",
+    "antwort": "Olympus Mons"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der NASA-Marsrover, der im Februar 2021 im Jezero-Krater landete?",
+    "antwort": "Perseverance"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wer war 1963 die erste Frau im Weltall?",
+    "antwort": "Valentina Tereschkowa",
+    "akzeptiert": [
+      "Tereschkowa",
+      "Tereshkova"
+    ],
+    "bewertung": "Nachname reicht, kleine Schreibfehler tolerieren."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Jupitermond ist der vulkanisch aktivste Himmelskörper im Sonnensystem?",
+    "antwort": "Io"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß der Apollo-11-Astronaut, der in der Kapsel im Mondorbit blieb, während die anderen landeten?",
+    "antwort": "Michael Collins",
+    "akzeptiert": [
+      "Collins"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche 1977 gestartete Raumsonde ist das am weitesten von der Erde entfernte von Menschen gebaute Objekt?",
+    "antwort": "Voyager 1",
+    "bewertung": "Die Nummer 1 ist nötig – „Voyager 2“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß die sowjetische bzw. russische Raumstation, die von 1986 bis 2001 im Orbit war?",
+    "antwort": "Mir"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man die vier großen Jupitermonde Io, Europa, Ganymed und Kallisto zusammen?",
+    "antwort": "Galileische Monde",
+    "akzeptiert": [
+      "Galileische Satelliten",
+      "Galilei-Monde"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der rote Überriese, der die „Schulter“ des Sternbilds Orion bildet?",
+    "antwort": "Beteigeuze",
+    "akzeptiert": [
+      "Betelgeuse",
+      "Beteigeuse"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Zu welchem Tierkreis-Sternbild gehören die hellen Sterne Kastor und Pollux?",
+    "antwort": "Zwillinge",
+    "akzeptiert": [
+      "Gemini"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Planet dreht sich am schnellsten um die eigene Achse (ein Tag dauert nur knapp 10 Stunden)?",
+    "antwort": "Jupiter"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Farbe haben die heißesten Sterne?",
+    "antwort": "Blau",
+    "akzeptiert": [
+      "blau",
+      "blauweiß",
+      "bläulich"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Zwergplanet, der das größte Objekt im Asteroidengürtel ist?",
+    "antwort": "Ceres"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Zone aus Eiskörpern jenseits der Neptunbahn, in der auch Pluto kreist?",
+    "antwort": "Kuipergürtel",
+    "akzeptiert": [
+      "Kuiper-Gürtel",
+      "Edgeworth-Kuiper-Gürtel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Entfernungseinheit, die dem mittleren Abstand zwischen Erde und Sonne entspricht?",
+    "antwort": "Astronomische Einheit",
+    "akzeptiert": [
+      "AE",
+      "AU",
+      "Astronomical Unit"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Zu was für einem Objekt wird unsere Sonne am Ende ihres Lebens (nach der Phase als Roter Riese) werden?",
+    "antwort": "Weißer Zwerg",
+    "akzeptiert": [
+      "Weisser Zwerg"
+    ],
+    "bewertung": "Schwarzes Loch, Neutronenstern oder Supernova sind falsch – dafür ist die Sonne zu leicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Sternbild ist auf den Flaggen von Australien und Neuseeland abgebildet?",
+    "antwort": "Kreuz des Südens",
+    "akzeptiert": [
+      "Südliches Kreuz",
+      "Crux"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Stern, der der Sonne am nächsten ist?",
+    "antwort": "Proxima Centauri",
+    "akzeptiert": [
+      "Proxima"
+    ],
+    "bewertung": "Nur „Proxima (Centauri)“ voll werten. „Alpha Centauri“ allein ist nicht ganz richtig (Proxima gehört aber zu diesem Sternsystem)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Rand eines Schwarzen Lochs, ab dem nicht einmal Licht mehr entkommen kann?",
+    "antwort": "Ereignishorizont",
+    "akzeptiert": [
+      "Event Horizon"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die riesige, hypothetische Hülle aus Kometenkernen ganz am Rand des Sonnensystems?",
+    "antwort": "Oortsche Wolke",
+    "akzeptiert": [
+      "Oort'sche Wolke",
+      "Oort-Wolke",
+      "Oortwolke"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Namen trug die Mondlandefähre von Apollo 11?",
+    "antwort": "Eagle",
+    "akzeptiert": [
+      "Adler"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer war 1961 der erste US-Amerikaner im Weltall?",
+    "antwort": "Alan Shepard",
+    "akzeptiert": [
+      "Shepard"
+    ],
+    "bewertung": "Nachname reicht. John Glenn ist falsch (er war 1962 der erste Amerikaner im Erdorbit)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutsche ESA-Astronaut flog 2021 mit der Mission „Cosmic Kiss“ zur ISS?",
+    "antwort": "Matthias Maurer",
+    "akzeptiert": [
+      "Maurer"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die chinesische Raumstation?",
+    "antwort": "Tiangong",
+    "akzeptiert": [
+      "Tiangong-Raumstation",
+      "Himmelspalast"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit welcher Apollo-Mission fand 1972 die bisher letzte bemannte Mondlandung statt?",
+    "antwort": "Apollo 17",
+    "akzeptiert": [
+      "17"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Auf welchem Planeten dauert ein Tag (eine Eigendrehung) länger als ein Jahr (ein Sonnenumlauf)?",
+    "antwort": "Venus"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der größte Mond des Neptun?",
+    "antwort": "Triton"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Kilometer ist ein Lichtjahr ungefähr lang?",
+    "antwort": "ca. 9,46 Billionen km",
+    "akzeptiert": [
+      "9,5 Billionen",
+      "10 Billionen",
+      "9,46 Billionen"
+    ],
+    "bewertung": "Genau ca. 9,46 Billionen km (9,46 × 10¹² km). Werte zwischen 9 und 10 Billionen gelten. „Milliarden“ ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Grenze in etwa 100 km Höhe, die international oft als Beginn des Weltraums gilt?",
+    "antwort": "Kármán-Linie",
+    "akzeptiert": [
+      "Karman-Linie",
+      "Karmanlinie",
+      "Kármán Line"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Menschen haben bisher insgesamt den Mond betreten (Stand 2026)?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das supermassereiche Schwarze Loch im Zentrum der Milchstraße?",
+    "antwort": "Sagittarius A*",
+    "akzeptiert": [
+      "Sagittarius A",
+      "Sgr A*",
+      "Sgr A",
+      "Sagittarius A Stern"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß die ESA-Raumsonde, die 2014 den Lander „Philae“ auf einem Kometen absetzte?",
+    "antwort": "Rosetta"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Planet wurde 1846 erst durch mathematische Berechnungen vorhergesagt und dann im Teleskop gefunden?",
+    "antwort": "Neptun"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher in Deutschland geborene Astronom entdeckte 1781 den Planeten Uranus?",
+    "antwort": "Wilhelm Herschel",
+    "akzeptiert": [
+      "Herschel",
+      "William Herschel",
+      "Friedrich Wilhelm Herschel"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß die erste Raumstation der Welt, 1971 von der Sowjetunion gestartet?",
+    "antwort": "Saljut 1",
+    "akzeptiert": [
+      "Saljut",
+      "Salyut",
+      "Salyut 1"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus dem Südpol welches Saturnmonds schießen Fontänen aus Wasserdampf und Eis ins All?",
+    "antwort": "Enceladus"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer flog 1983 als erster Westdeutscher (Bundesbürger) ins All?",
+    "antwort": "Ulf Merbold",
+    "akzeptiert": [
+      "Merbold"
+    ],
+    "bewertung": "Nachname reicht. Sigmund Jähn (DDR, 1978) ist hier falsch."
+  }
+]

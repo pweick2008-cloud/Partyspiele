@@ -1,0 +1,900 @@
+[
+  {
+    "stufe": 1,
+    "frage": "In welcher Einheit wird die elektrische Spannung gemessen?",
+    "antwort": "Volt",
+    "akzeptiert": [
+      "V"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Physiker soll der Legende nach durch einen fallenden Apfel auf die Idee der Gravitation gekommen sein?",
+    "antwort": "Isaac Newton",
+    "akzeptiert": [
+      "Newton"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Einheit wird die elektrische Stromstärke gemessen?",
+    "antwort": "Ampere",
+    "akzeptiert": [
+      "A"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Physiker entwickelte die Relativitätstheorie?",
+    "antwort": "Albert Einstein",
+    "akzeptiert": [
+      "Einstein"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Bei wie viel Grad Celsius gefriert Wasser (bei Normaldruck)?",
+    "antwort": "0 °C",
+    "akzeptiert": [
+      "0",
+      "null"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen die beiden Pole eines Magneten?",
+    "antwort": "Nordpol und Südpol",
+    "akzeptiert": [
+      "Nord und Süd",
+      "N und S"
+    ],
+    "bewertung": "Beide müssen genannt werden; Plus/Minus ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist schneller: Licht oder Schall?",
+    "antwort": "Licht"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Einheit wird die Leistung angegeben, z. B. bei Staubsaugern oder Glühbirnen?",
+    "antwort": "Watt",
+    "akzeptiert": [
+      "W"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Vervollständige Einsteins berühmte Formel: E = …",
+    "antwort": "mc²",
+    "akzeptiert": [
+      "mc^2",
+      "m·c²",
+      "mc2",
+      "m mal c Quadrat"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Gerät zeigt mit seiner Nadel nach Norden?",
+    "antwort": "Kompass"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den Zustand, in dem Astronauten in der Raumstation schweben?",
+    "antwort": "Schwerelosigkeit",
+    "akzeptiert": [
+      "schwerelos",
+      "Mikrogravitation"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die SI-Grundeinheit der Länge?",
+    "antwort": "Meter",
+    "akzeptiert": [
+      "m"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche bunte Lichterscheinung sieht man, wenn die Sonne in Regentropfen scheint und man sie im Rücken hat?",
+    "antwort": "Regenbogen"
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Messgerät misst man die Temperatur?",
+    "antwort": "Thermometer"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Geräusch, das man bei einem Gewitter nach dem Blitz hört?",
+    "antwort": "Donner"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den zurückgeworfenen Schall, den man z. B. in den Bergen hört, wenn man laut ruft?",
+    "antwort": "Echo",
+    "akzeptiert": [
+      "Widerhall"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Aggregatzustand befindet sich Wasserdampf?",
+    "antwort": "gasförmig",
+    "akzeptiert": [
+      "Gas"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem optischen Instrument beobachtet man weit entfernte Sterne und Planeten?",
+    "antwort": "Teleskop",
+    "akzeptiert": [
+      "Fernrohr"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Kraft sorgt dafür, dass ein losgelassener Ball zu Boden fällt?",
+    "antwort": "Schwerkraft",
+    "akzeptiert": [
+      "Gravitation",
+      "Erdanziehung",
+      "Gewichtskraft",
+      "Anziehungskraft der Erde"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was leitet Wärme besser: Metall oder Holz?",
+    "antwort": "Metall"
+  },
+  {
+    "stufe": 2,
+    "frage": "Nach welchem Physiker ist die SI-Einheit der Kraft benannt?",
+    "antwort": "Isaac Newton",
+    "akzeptiert": [
+      "Newton"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Bei wie viel Grad Celsius siedet Wasser auf Meereshöhe (Normaldruck)?",
+    "antwort": "100 °C",
+    "akzeptiert": [
+      "100",
+      "hundert"
+    ],
+    "bewertung": "Genau 100 verlangt, Einheit nicht nötig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die SI-Einheit der Energie?",
+    "antwort": "Joule",
+    "akzeptiert": [
+      "J"
+    ],
+    "bewertung": "Kilowattstunde/Kalorie sind keine SI-Einheiten, also falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Einheit wird der elektrische Widerstand gemessen?",
+    "antwort": "Ohm",
+    "akzeptiert": [
+      "Ω"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Einheit wird die Frequenz gemessen?",
+    "antwort": "Hertz",
+    "akzeptiert": [
+      "Hz"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Physiker entdeckte 1895 die nach ihm benannten Strahlen?",
+    "antwort": "Wilhelm Conrad Röntgen",
+    "akzeptiert": [
+      "Röntgen",
+      "Roentgen"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Temperaturskala beginnt beim absoluten Nullpunkt?",
+    "antwort": "Kelvin",
+    "akzeptiert": [
+      "Kelvin-Skala"
+    ],
+    "bewertung": "Auch „Rankine“ wäre korrekt, falls genannt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Durch welchen dreieckigen Glaskörper kann man weißes Licht in Regenbogenfarben zerlegen?",
+    "antwort": "Prisma"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist schwerer: ein Kilo Federn oder ein Kilo Eisen?",
+    "antwort": "Beide gleich schwer",
+    "akzeptiert": [
+      "gleich",
+      "beide",
+      "keins"
+    ],
+    "bewertung": "Jede Antwort, die ausdrückt, dass beide gleich schwer sind."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches negativ geladene Teilchen befindet sich in der Atomhülle?",
+    "antwort": "Elektron",
+    "akzeptiert": [
+      "Elektronen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher italienische Gelehrte soll Fallversuche am Schiefen Turm von Pisa durchgeführt haben?",
+    "antwort": "Galileo Galilei",
+    "akzeptiert": [
+      "Galilei",
+      "Galileo"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was misst ein Barometer?",
+    "antwort": "Luftdruck",
+    "akzeptiert": [
+      "Druck"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher britische Physiker schrieb „Eine kurze Geschichte der Zeit“ und saß im Rollstuhl?",
+    "antwort": "Stephen Hawking",
+    "akzeptiert": [
+      "Hawking"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Einheit wird der Stromverbrauch auf der Stromrechnung angegeben?",
+    "antwort": "Kilowattstunde",
+    "akzeptiert": [
+      "kWh",
+      "Kilowattstunden"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Ist ein Lichtjahr eine Einheit für Zeit oder für Entfernung?",
+    "antwort": "Entfernung",
+    "akzeptiert": [
+      "Länge",
+      "Strecke",
+      "Distanz"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man einen Stoff, der elektrischen Strom praktisch nicht leitet, z. B. Gummi?",
+    "antwort": "Isolator",
+    "akzeptiert": [
+      "Nichtleiter"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was erzeugt ein Dynamo am Fahrrad?",
+    "antwort": "Elektrischen Strom",
+    "akzeptiert": [
+      "Strom",
+      "elektrische Energie",
+      "Spannung"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Kraft bremst einen über den Boden rollenden Ball allmählich ab?",
+    "antwort": "Reibung",
+    "akzeptiert": [
+      "Reibungskraft",
+      "Rollreibung",
+      "Rollwiderstand"
+    ],
+    "bewertung": "Auch „Luftwiderstand“ zusätzlich genannt ist ok, Hauptsache Reibung."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Einheit wird der Schallpegel (die Lautstärke) meist angegeben?",
+    "antwort": "Dezibel",
+    "akzeptiert": [
+      "dB"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das ungeladene Teilchen im Atomkern?",
+    "antwort": "Neutron",
+    "akzeptiert": [
+      "Neutronen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie schnell ist Licht im Vakuum ungefähr – in Kilometern pro Sekunde?",
+    "antwort": "300.000 km/s",
+    "akzeptiert": [
+      "299.792 km/s",
+      "3 · 10^5 km/s",
+      "dreihunderttausend"
+    ],
+    "bewertung": "Alles zwischen 299.000 und 300.000 km/s ist richtig. Wer in m/s antwortet (ca. 300.000.000 m/s / 3·10^8), ist auch richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Formel, die den Zusammenhang U = R · I beschreibt?",
+    "antwort": "Ohmsches Gesetz",
+    "akzeptiert": [
+      "Ohm'sches Gesetz",
+      "Ohm-Gesetz",
+      "Gesetz von Ohm"
+    ],
+    "bewertung": "Gemeint ist das Gesetz, nicht nur der Name „Ohm“ – „Ohm“ allein im Zweifel auch gelten lassen."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie groß ist die Erdbeschleunigung g an der Erdoberfläche ungefähr in m/s²?",
+    "antwort": "9,81 m/s²",
+    "akzeptiert": [
+      "9,81",
+      "9,8",
+      "9.81",
+      "10"
+    ],
+    "bewertung": "Werte von 9,78 bis 9,83 richtig; gerundet 10 auch gelten lassen."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Eigenschaft eines Körpers, seinen Bewegungszustand beizubehalten, solange keine Kraft wirkt?",
+    "antwort": "Trägheit",
+    "akzeptiert": [
+      "Trägheitsprinzip",
+      "Massenträgheit",
+      "Beharrungsvermögen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wo breitet sich Schall schneller aus: in Luft oder in Wasser?",
+    "antwort": "In Wasser",
+    "akzeptiert": [
+      "Wasser"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Einheit wird die elektrische Ladung gemessen?",
+    "antwort": "Coulomb",
+    "akzeptiert": [
+      "C",
+      "Amperesekunde",
+      "As"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Art von Spiegel ist ein vergrößernder Schminkspiegel: Hohlspiegel oder Wölbspiegel?",
+    "antwort": "Hohlspiegel",
+    "akzeptiert": [
+      "konkav",
+      "Konkavspiegel"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man den direkten Übergang eines Stoffes vom festen in den gasförmigen Zustand?",
+    "antwort": "Sublimation",
+    "akzeptiert": [
+      "sublimieren"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe des sichtbaren Lichts hat die größte Wellenlänge?",
+    "antwort": "Rot"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Effekt, durch den die Sirene eines vorbeifahrenden Krankenwagens erst höher und dann tiefer klingt?",
+    "antwort": "Doppler-Effekt",
+    "akzeptiert": [
+      "Dopplereffekt",
+      "Doppler"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Marie Curie erhielt Nobelpreise in zwei Fächern: Physik und …?",
+    "antwort": "Chemie"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie schnell breitet sich Schall in Luft bei Raumtemperatur ungefähr aus – in Metern pro Sekunde?",
+    "antwort": "ca. 343 m/s",
+    "akzeptiert": [
+      "343",
+      "340",
+      "330"
+    ],
+    "bewertung": "Werte von 320 bis 350 m/s gelten als richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die physikalische Größe „Masse geteilt durch Volumen“?",
+    "antwort": "Dichte",
+    "akzeptiert": [
+      "Massendichte"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche nach oben gerichtete Kraft lässt ein Stahlschiff im Wasser schwimmen?",
+    "antwort": "Auftrieb",
+    "akzeptiert": [
+      "Auftriebskraft",
+      "statischer Auftrieb"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher antike Gelehrte soll in der Badewanne „Heureka!“ gerufen haben?",
+    "antwort": "Archimedes"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche unsichtbare Strahlung machen Wärmebildkameras sichtbar?",
+    "antwort": "Infrarotstrahlung",
+    "akzeptiert": [
+      "Infrarot",
+      "IR",
+      "Wärmestrahlung"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Liefert eine Haushaltssteckdose Gleichstrom oder Wechselstrom?",
+    "antwort": "Wechselstrom",
+    "akzeptiert": [
+      "AC"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel Volt beträgt die Netzspannung einer normalen Haushaltssteckdose in Deutschland?",
+    "antwort": "230 V",
+    "akzeptiert": [
+      "230",
+      "220"
+    ],
+    "bewertung": "230 ist richtig; das veraltete 220 auch gelten lassen."
+  },
+  {
+    "stufe": 3,
+    "frage": "Nach welchem schottischen Erfinder, bekannt für die Verbesserung der Dampfmaschine, ist die Einheit der Leistung benannt?",
+    "antwort": "James Watt",
+    "akzeptiert": [
+      "Watt"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Phänomen, dass Licht beim Übergang von Luft in Wasser seine Richtung ändert?",
+    "antwort": "Brechung",
+    "akzeptiert": [
+      "Lichtbrechung",
+      "Refraktion"
+    ],
+    "bewertung": "Reflexion ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viel Grad Celsius entsprechen dem absoluten Nullpunkt (0 Kelvin)?",
+    "antwort": "−273,15 °C",
+    "akzeptiert": [
+      "-273,15",
+      "-273",
+      "minus 273"
+    ],
+    "bewertung": "−273 oder −273,15 ist richtig; das Minuszeichen muss dabei sein."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Größe gibt man in der Einheit Pascal an?",
+    "antwort": "Druck",
+    "akzeptiert": [
+      "mechanische Spannung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Elementarteilchen, dessen Nachweis 2012 am CERN gelang und das umgangssprachlich „Gottesteilchen“ genannt wird?",
+    "antwort": "Higgs-Boson",
+    "akzeptiert": [
+      "Higgs-Teilchen",
+      "Higgs"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Astronom formulierte Anfang des 17. Jahrhunderts die drei Gesetze der Planetenbewegung?",
+    "antwort": "Johannes Kepler",
+    "akzeptiert": [
+      "Kepler"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das elektronische Bauteil, das Strom nur in eine Richtung durchlässt?",
+    "antwort": "Diode",
+    "akzeptiert": [
+      "Halbleiterdiode",
+      "Gleichrichter",
+      "LED"
+    ],
+    "bewertung": "Diode (auch LED als Spezialfall) richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welcher Frequenz arbeitet das Stromnetz in Deutschland?",
+    "antwort": "50 Hertz",
+    "akzeptiert": [
+      "50",
+      "50 Hz"
+    ],
+    "bewertung": "Genau 50; Einheit nicht nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Für die Erklärung welches Effekts erhielt Albert Einstein den Nobelpreis für Physik?",
+    "antwort": "Photoelektrischer Effekt",
+    "akzeptiert": [
+      "Fotoeffekt",
+      "Photoeffekt",
+      "lichtelektrischer Effekt",
+      "photoelektrischer Effekt"
+    ],
+    "bewertung": "Relativitätstheorie ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher dänische Physiker stellte 1913 ein Atommodell mit festen Elektronenbahnen auf?",
+    "antwort": "Niels Bohr",
+    "akzeptiert": [
+      "Bohr"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Physiker schloss 1911 aus Streuversuchen mit Goldfolie, dass Atome einen winzigen Kern haben?",
+    "antwort": "Ernest Rutherford",
+    "akzeptiert": [
+      "Rutherford"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die SI-Einheit der magnetischen Flussdichte?",
+    "antwort": "Tesla",
+    "akzeptiert": [
+      "T"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Einheit wird die Kapazität eines Kondensators angegeben?",
+    "antwort": "Farad",
+    "akzeptiert": [
+      "F"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Physiker erdachte ein Gedankenexperiment mit einer Katze, die zugleich tot und lebendig ist?",
+    "antwort": "Erwin Schrödinger",
+    "akzeptiert": [
+      "Schrödinger",
+      "Schroedinger"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Nach welchem deutschen Physiker ist die Unschärferelation der Quantenmechanik benannt?",
+    "antwort": "Werner Heisenberg",
+    "akzeptiert": [
+      "Heisenberg"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher optische Effekt hält das Licht in einem Glasfaserkabel gefangen?",
+    "antwort": "Totalreflexion",
+    "akzeptiert": [
+      "totale Reflexion"
+    ],
+    "bewertung": "Nur „Reflexion“ im Zweifel gelten lassen, „Totalreflexion“ ist die Zielantwort."
+  },
+  {
+    "stufe": 4,
+    "frage": "Bei welcher Temperatur hat Wasser seine größte Dichte?",
+    "antwort": "4 °C",
+    "akzeptiert": [
+      "4",
+      "vier",
+      "3,98"
+    ],
+    "bewertung": "4 °C (genauer 3,98 °C) ist richtig; Einheit nicht nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Prinzip besagt der erste Hauptsatz der Thermodynamik?",
+    "antwort": "Energieerhaltung",
+    "akzeptiert": [
+      "Energieerhaltungssatz",
+      "Erhaltung der Energie"
+    ],
+    "bewertung": "Sinngemäß: Energie kann weder erzeugt noch vernichtet werden."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie lautet die Formel für die kinetische Energie eines Körpers mit Masse m und Geschwindigkeit v?",
+    "antwort": "E = ½ · m · v²",
+    "akzeptiert": [
+      "1/2 m v^2",
+      "0,5mv²",
+      "mv²/2",
+      "½mv²"
+    ],
+    "bewertung": "Faktor ½ und v im Quadrat müssen stimmen."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Teilchen (Quant) des Lichts?",
+    "antwort": "Photon",
+    "akzeptiert": [
+      "Foton",
+      "Lichtquant",
+      "Photonen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In der Nähe welcher Schweizer Stadt liegt das Forschungszentrum CERN?",
+    "antwort": "Genf",
+    "akzeptiert": [
+      "Genève",
+      "Geneva"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Nach welchem deutschen Erfinder und Unternehmer ist die Einheit des elektrischen Leitwerts benannt?",
+    "antwort": "Werner von Siemens",
+    "akzeptiert": [
+      "Siemens"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Lichtstreuung an Luftmolekülen, die erklärt, warum der Himmel blau ist? (Nach einem britischen Physiker benannt)",
+    "antwort": "Rayleigh-Streuung",
+    "akzeptiert": [
+      "Rayleigh"
+    ],
+    "bewertung": "Der Name Rayleigh muss vorkommen; nur „Streuung“ reicht nicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Bei welcher Temperatur zeigen die Celsius- und die Fahrenheit-Skala genau denselben Wert?",
+    "antwort": "−40",
+    "akzeptiert": [
+      "-40",
+      "minus 40",
+      "-40 °C",
+      "-40 °F"
+    ],
+    "bewertung": "Genau −40, Minuszeichen nötig, Einheit egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher englische Forscher entdeckte 1831 die elektromagnetische Induktion?",
+    "antwort": "Michael Faraday",
+    "akzeptiert": [
+      "Faraday"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Naturkonstante h mit dem Wert von ca. 6,626 · 10⁻³⁴ J·s?",
+    "antwort": "Plancksches Wirkungsquantum",
+    "akzeptiert": [
+      "Planck-Konstante",
+      "Planck'sches Wirkungsquantum",
+      "Wirkungsquantum",
+      "Plancksche Konstante"
+    ],
+    "bewertung": "„Planck-Konstante“ o. Ä. ist auch richtig; nur „Planck“ gelten lassen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Konstante mit dem Wert ca. 6,022 · 10²³ pro Mol?",
+    "antwort": "Avogadro-Konstante",
+    "akzeptiert": [
+      "Avogadro-Zahl",
+      "Avogadro",
+      "Avogadrosche Zahl",
+      "Loschmidt-Zahl"
+    ],
+    "bewertung": "Avogadro-Zahl/-Konstante richtig; in älterer deutscher Literatur auch „Loschmidt-Zahl“."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie groß ist die Elementarladung ungefähr in Coulomb?",
+    "antwort": "1,6 · 10⁻¹⁹ C",
+    "akzeptiert": [
+      "1,602 · 10^-19",
+      "1,6e-19",
+      "1,6 mal 10 hoch minus 19"
+    ],
+    "bewertung": "Mantisse 1,6 (oder 1,60/1,602) und Exponent −19 müssen stimmen; Vorzeichen der Ladung egal, Einheit nicht nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Effekt, bei dem ein Supraleiter ein Magnetfeld vollständig aus seinem Inneren verdrängt?",
+    "antwort": "Meißner-Ochsenfeld-Effekt",
+    "akzeptiert": [
+      "Meißner-Effekt",
+      "Meissner-Effekt",
+      "Meissner-Ochsenfeld-Effekt"
+    ],
+    "bewertung": "„Meißner“ reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche fast masselosen, ungeladenen Teilchen durchqueren die Erde fast ungehindert und wurden 1956 erstmals nachgewiesen?",
+    "antwort": "Neutrinos",
+    "akzeptiert": [
+      "Neutrino"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit welchem US-Detektor (Abkürzung) wurden 2015 erstmals Gravitationswellen direkt nachgewiesen?",
+    "antwort": "LIGO",
+    "akzeptiert": [
+      "Ligo"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchen Quarks besteht ein Proton?",
+    "antwort": "2 Up-Quarks und 1 Down-Quark",
+    "akzeptiert": [
+      "uud",
+      "up, up, down",
+      "zwei Up und ein Down"
+    ],
+    "bewertung": "Anzahl muss stimmen: zwei Up, ein Down."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Prinzip, nach dem zwei Elektronen in einem Atom nie im exakt gleichen Quantenzustand sein dürfen?",
+    "antwort": "Pauli-Prinzip",
+    "akzeptiert": [
+      "Paulisches Ausschließungsprinzip",
+      "Pauli-Verbot",
+      "Ausschließungsprinzip",
+      "Pauli"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was gibt man in der Einheit Becquerel an?",
+    "antwort": "Aktivität (radioaktive Zerfälle pro Sekunde)",
+    "akzeptiert": [
+      "Aktivität",
+      "Zerfälle pro Sekunde",
+      "Radioaktivität"
+    ],
+    "bewertung": "Sinngemäß Zerfälle pro Sekunde / Aktivität einer radioaktiven Quelle. Strahlendosis (Sievert/Gray) ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Minuten braucht das Sonnenlicht ungefähr bis zur Erde?",
+    "antwort": "ca. 8 Minuten",
+    "akzeptiert": [
+      "8",
+      "8,3",
+      "8 Minuten 20 Sekunden"
+    ],
+    "bewertung": "8 bis 8,5 Minuten richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutsche Physiker wies Ende der 1880er-Jahre als Erster elektromagnetische Wellen experimentell nach?",
+    "antwort": "Heinrich Hertz",
+    "akzeptiert": [
+      "Hertz"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der oft „vierter Aggregatzustand“ genannte Zustand, in dem ein Gas aus Ionen und freien Elektronen besteht?",
+    "antwort": "Plasma"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man die Gleichung p · V = n · R · T?",
+    "antwort": "Ideale Gasgleichung",
+    "akzeptiert": [
+      "allgemeine Gasgleichung",
+      "ideales Gasgesetz",
+      "thermische Zustandsgleichung idealer Gase"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher schottische Physiker fasste den Elektromagnetismus in vier berühmten Gleichungen zusammen?",
+    "antwort": "James Clerk Maxwell",
+    "akzeptiert": [
+      "Maxwell"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach wem ist der Effekt benannt, der einen angeschnittenen, rotierenden Fußball eine Kurve fliegen lässt?",
+    "antwort": "Magnus-Effekt",
+    "akzeptiert": [
+      "Magnus",
+      "Heinrich Gustav Magnus"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr – Einsteins „Wunderjahr“ – veröffentlichte er die spezielle Relativitätstheorie?",
+    "antwort": "1905"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viel Joule entspricht eine Kalorie (cal) ungefähr?",
+    "antwort": "ca. 4,2 Joule",
+    "akzeptiert": [
+      "4,184",
+      "4,19",
+      "4,2",
+      "4,1868"
+    ],
+    "bewertung": "Werte von 4,18 bis 4,2 sind richtig. Kilokalorie/4184 J nur, wenn klar auf kcal bezogen."
+  }
+]

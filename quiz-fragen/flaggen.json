@@ -1,0 +1,886 @@
+[
+  {
+    "stufe": 1,
+    "emoji": "🇩🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Deutschland",
+    "akzeptiert": [
+      "BRD",
+      "Bundesrepublik Deutschland"
+    ]
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇯🇵",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Japan"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇫🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Frankreich"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇺🇸",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "USA",
+    "akzeptiert": [
+      "Vereinigte Staaten",
+      "Vereinigte Staaten von Amerika",
+      "Amerika",
+      "US"
+    ]
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇬🇧",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Vereinigtes Königreich",
+    "akzeptiert": [
+      "Großbritannien",
+      "UK",
+      "Britannien"
+    ],
+    "bewertung": "„England“ allein ist nicht korrekt (England hat eine eigene Flagge)."
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇮🇹",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Italien"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇪🇸",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Spanien"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇨🇭",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Schweiz"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇨🇦",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Kanada"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇨🇳",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "China",
+    "akzeptiert": [
+      "Volksrepublik China"
+    ]
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇹🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Türkei"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇦🇹",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Österreich"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇬🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Griechenland"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇸🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Schweden"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇰🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Südkorea",
+    "akzeptiert": [
+      "Korea",
+      "Republik Korea"
+    ],
+    "bewertung": "„Nordkorea“ ist falsch."
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇮🇳",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Indien"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇳🇱",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Niederlande",
+    "akzeptiert": [
+      "Holland"
+    ]
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇩🇰",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Dänemark"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇺🇦",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Ukraine"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇵🇹",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Portugal"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇧🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Brasilien"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇷🇺",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Russland",
+    "akzeptiert": [
+      "Russische Föderation"
+    ]
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇳🇴",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Norwegen"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇫🇮",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Finnland"
+  },
+  {
+    "stufe": 1,
+    "emoji": "🇦🇺",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Australien",
+    "bewertung": "Neuseeland (rote Sterne, kein großer Stern unter dem Union Jack) ist falsch."
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇧🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Belgien"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇵🇱",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Polen"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇮🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Irland",
+    "bewertung": "Nicht mit der Elfenbeinküste verwechseln (umgekehrte Farbreihenfolge); nur Irland ist richtig."
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇭🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Kroatien"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇮🇱",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Israel"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇨🇿",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Tschechien",
+    "akzeptiert": [
+      "Tschechische Republik"
+    ]
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇭🇺",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Ungarn"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇪🇬",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Ägypten"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇿🇦",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Südafrika"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇯🇲",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Jamaika",
+    "akzeptiert": [
+      "Jamaica"
+    ]
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇨🇺",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Kuba"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇮🇸",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Island"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇹🇭",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Thailand"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇻🇳",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Vietnam"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇨🇱",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Chile"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇲🇦",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Marokko"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇦🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Argentinien"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇵🇰",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Pakistan"
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇰🇵",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Nordkorea",
+    "akzeptiert": [
+      "Demokratische Volksrepublik Korea"
+    ]
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇸🇦",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Saudi-Arabien",
+    "akzeptiert": [
+      "Saudi Arabien",
+      "Saudiarabien"
+    ]
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇳🇿",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Neuseeland",
+    "bewertung": "Australien (weiße Sterne) ist falsch."
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇨🇴",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Kolumbien",
+    "bewertung": "Ecuador (mit Wappen) und Venezuela (mit Sternen) sind falsch."
+  },
+  {
+    "stufe": 2,
+    "emoji": "🇮🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Iran"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Tier ist auf der Flagge von Mexiko abgebildet?",
+    "antwort": "Adler",
+    "akzeptiert": [
+      "Steinadler"
+    ],
+    "bewertung": "Gezeigt wird ein Adler mit einer Schlange auf einem Kaktus – „Adler“ reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Fabelwesen ist auf der Flagge von Wales abgebildet?",
+    "antwort": "Drache",
+    "akzeptiert": [
+      "roter Drache",
+      "Drachen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Land hat als einziges eine nicht rechteckige Nationalflagge (zwei übereinanderliegende Wimpel)?",
+    "antwort": "Nepal"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Baum ist auf der Flagge des Libanon abgebildet?",
+    "antwort": "Zeder",
+    "akzeptiert": [
+      "Libanon-Zeder",
+      "Libanonzeder"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Mittelmeer-Inselstaat zeigt den Umriss seiner Insel auf der Flagge?",
+    "antwort": "Zypern"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇵🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Peru"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇰🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Kenia",
+    "akzeptiert": [
+      "Kenya"
+    ]
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇸🇬",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Singapur"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇧🇬",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Bulgarien"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇸🇰",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Slowakei",
+    "bewertung": "Slowenien sieht ähnlich aus, ist aber falsch."
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇷🇸",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Serbien"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇵🇭",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Philippinen"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇹🇳",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Tunesien",
+    "bewertung": "Die Türkei ist falsch."
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇪🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Estland"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇱🇹",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Litauen"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇬🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Georgien"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇳🇬",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Nigeria"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇬🇭",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Ghana"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇦🇱",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Albanien"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇧🇦",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Bosnien und Herzegowina",
+    "akzeptiert": [
+      "Bosnien",
+      "Bosnien-Herzegowina"
+    ]
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇲🇾",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Malaysia"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇮🇩",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Indonesien",
+    "bewertung": "Die Flagge von Monaco sieht praktisch identisch aus – „Monaco“ ebenfalls als richtig werten."
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇻🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Venezuela"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇺🇾",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Uruguay"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇪🇹",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Äthiopien"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇰🇿",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Kasachstan"
+  },
+  {
+    "stufe": 3,
+    "emoji": "🇩🇿",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Algerien"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Farbe hat der Kreis auf der Flagge von Bangladesch?",
+    "antwort": "Rot"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche berühmte Tempelanlage ist auf der Flagge Kambodschas abgebildet?",
+    "antwort": "Angkor Wat",
+    "akzeptiert": [
+      "Angkor",
+      "Angkor Vat"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Tier hält auf der Flagge von Sri Lanka ein Schwert?",
+    "antwort": "Löwe"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇲🇳",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Mongolei"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇧🇾",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Belarus",
+    "akzeptiert": [
+      "Weißrussland"
+    ]
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇯🇴",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Jordanien"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇵🇦",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Panama"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇦🇿",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Aserbaidschan"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇦🇲",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Armenien"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇲🇰",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Nordmazedonien",
+    "akzeptiert": [
+      "Mazedonien"
+    ]
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇲🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Montenegro"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇹🇿",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Tansania"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇿🇼",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Simbabwe",
+    "akzeptiert": [
+      "Zimbabwe"
+    ]
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇷🇼",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Ruanda",
+    "akzeptiert": [
+      "Rwanda"
+    ]
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇦🇪",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Vereinigte Arabische Emirate",
+    "akzeptiert": [
+      "VAE",
+      "Emirate",
+      "UAE"
+    ]
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇩🇴",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Dominikanische Republik",
+    "akzeptiert": [
+      "Dom. Rep.",
+      "Dominikanische Rep."
+    ],
+    "bewertung": "„Dominica“ ist ein anderes Land und falsch."
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇹🇹",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Trinidad und Tobago",
+    "akzeptiert": [
+      "Trinidad"
+    ]
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇧🇸",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Bahamas"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇸🇨",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Seychellen"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇧🇧",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Barbados"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇱🇾",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Libyen"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇲🇲",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Myanmar",
+    "akzeptiert": [
+      "Birma",
+      "Burma"
+    ]
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇱🇦",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Laos"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇺🇿",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Usbekistan"
+  },
+  {
+    "stufe": 4,
+    "emoji": "🇲🇹",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Malta"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇧🇹",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Bhutan"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇰🇮",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Kiribati"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Waffe ist auf der Flagge von Mosambik abgebildet?",
+    "antwort": "Kalaschnikow",
+    "akzeptiert": [
+      "AK-47",
+      "AK 47",
+      "Sturmgewehr",
+      "Gewehr"
+    ],
+    "bewertung": "Jede Antwort, die das Gewehr/Sturmgewehr nennt, ist richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Vogel ist auf der Flagge von Uganda abgebildet?",
+    "antwort": "Kronenkranich",
+    "akzeptiert": [
+      "Kranich",
+      "Grauhals-Kronenkranich"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Vogel ist auf der Flagge von Papua-Neuguinea abgebildet?",
+    "antwort": "Paradiesvogel"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇳🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Nauru"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇹🇻",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Tuvalu"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇻🇺",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Vanuatu"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇵🇼",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Palau"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇲🇭",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Marshallinseln",
+    "akzeptiert": [
+      "Marshall-Inseln"
+    ]
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇸🇧",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Salomonen",
+    "akzeptiert": [
+      "Salomoninseln",
+      "Salomon-Inseln"
+    ]
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇹🇴",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Tonga"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇸🇿",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Eswatini",
+    "akzeptiert": [
+      "Swasiland",
+      "Swaziland"
+    ]
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇱🇸",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Lesotho"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇧🇼",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Botswana",
+    "akzeptiert": [
+      "Botsuana"
+    ]
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇪🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Eritrea"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇩🇯",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Dschibuti",
+    "akzeptiert": [
+      "Djibouti"
+    ]
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇧🇳",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Brunei"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇹🇱",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Osttimor",
+    "akzeptiert": [
+      "Timor-Leste",
+      "Ost-Timor"
+    ]
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇸🇷",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Suriname",
+    "akzeptiert": [
+      "Surinam"
+    ]
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇬🇾",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Guyana"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇧🇿",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Belize"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇱🇨",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "St. Lucia",
+    "akzeptiert": [
+      "Saint Lucia",
+      "Sankt Lucia"
+    ]
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇹🇲",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Turkmenistan"
+  },
+  {
+    "stufe": 5,
+    "emoji": "🇨🇻",
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Kap Verde",
+    "akzeptiert": [
+      "Kapverden",
+      "Cabo Verde"
+    ]
+  }
+]
