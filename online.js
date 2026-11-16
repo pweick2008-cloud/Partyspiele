@@ -184,7 +184,7 @@
     if (screen === "o-reveal") roleShown = false;
     if (screen === "o-game") myRoleShown = false;
     lastScreen = screen;
-    const phase = { lobby: "setup", "o-reveal": "reveal", "o-game": "game", "wo-assign": "assign", "wo-game": "game", "lu-setup": "trap", "lu-game": "game", "slf-write": "write", "slf-review": "review", "slf-scores": "scores", "draw-game": "game", "kx-write": "write", "kx-twist": "twist", "kx-reveal": "reveal", "kx-vote": "reveal", "kx-results": "scores", "gal-write": "write", "gal-draw": "draw", "gal-vote": "vote", "gal-results": "scores", "auk-online": "auktion", "auk-oreveal": "reveal", "fz-online": fzPhase() }[screen];
+    const phase = { lobby: "setup", "o-reveal": "reveal", "o-game": "game", "wo-assign": "assign", "wo-game": "game", "lu-setup": "trap", "lu-game": "game", "slf-write": "write", "slf-review": "review", "slf-scores": "scores", "draw-game": "game", "kx-write": "write", "kx-twist": "twist", "kx-reveal": "reveal", "kx-vote": "reveal", "kx-results": "scores", "gal-write": "write", "gal-draw": "draw", "gal-vote": "vote", "gal-results": "scores", "auk-online": "auktion", "auk-oreveal": "reveal", "fz-online": fzPhase(), "eh-online": "game", "qz-online": "board", "pk-online": "game" }[screen];
     showScreen(screen, phase);
   }
 
@@ -200,7 +200,16 @@
     currentGame = state.gameType;
     window.inviteMode = false;
     const g = state.game;
-    if (g && g.inGame && g.type === "faelscher") {
+    if (g && g.type === "ehesten") {
+      goto(EhOnline.render(state));
+      updateSteps(g.phase === "over" ? "end" : "game");
+    } else if (g && g.type === "quiz") {
+      goto(QzOnline.render(state));
+      updateSteps(g.phase === "over" ? "end" : "board");
+    } else if (g && g.type === "partner") {
+      goto(PkOnline.render(state));
+      updateSteps(g.phase === "over" ? "end" : "game");
+    } else if (g && g.inGame && g.type === "faelscher") {
       goto(FzOnline.render(state));
       updateSteps(fzPhase());
     } else if (g && g.inGame && g.type === "auktion") {
@@ -294,6 +303,11 @@
     if (state.gameType === "auktion") AukOnline.renderLobbySettings(state);
     $("gal-settings").hidden = state.gameType !== "galerie";
     if (state.gameType === "galerie") GalOnline.renderLobbySettings(state);
+    $("eh-settings").hidden = state.gameType !== "ehesten";
+    $("qz-settings").hidden = state.gameType !== "quiz";
+    if (state.gameType === "quiz") QzOnline.renderLobbySettings(state);
+    $("pkx-settings").hidden = state.gameType !== "partner";
+    if (state.gameType === "partner") PkOnline.renderLobbySettings(state);
     $("kx-settings").hidden = state.gameType !== "kontext";
     if (state.gameType === "kontext") KXOnline.renderLobbySettings(state);
     const enough = state.players.length >= state.minPlayers;
@@ -681,6 +695,7 @@
     $("o-again").addEventListener("click", () => send({ type: "start" }));
     $("o-to-lobby").addEventListener("click", () => send({ type: "endGame" }));
     $("o-leave").addEventListener("click", leaveLobby);
+    document.querySelectorAll(".x-leave").forEach((b) => b.addEventListener("click", leaveLobby));
 
     if (!ONLINE_AVAILABLE) return;
 

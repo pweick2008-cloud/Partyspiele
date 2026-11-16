@@ -10,9 +10,9 @@ Zwölf Spiele:
 - **Fälscher** – eine obskure Frage, viele erfundene Antworten, nur eine ist echt. Pass & Play oder online, 3 bis 8 Spieler.
 - **Geheime Auktion** – Lose ersteigern: echt, gefälscht oder ein verkannter Schatz? Ein Tablet in der Mitte (2–4 Spieler) oder online (2–20, jeder am eigenen Handy).
 - **Galerie** – jeder schreibt einen Begriff, alle zeichnen ihn gleichzeitig, die beste Zeichnung gewinnt. Nur online, 3 bis 12 Spieler.
-- **Wer würde am ehesten?** – einer liest vor, die Gruppe entscheidet. Nur Pass & Play, 3 bis 20 Spieler.
-- **Quizwand** – Quizfragen von 100 bis 1000 Punkten in 10 Kategorien auf zwei Seiten, Claude bewertet die Antworten (angelehnt an *Jeopardy!*). Nur Pass & Play, 1 bis 10 Spieler.
-- **Mein Partner kann** – Zweierteams überbieten sich, wie viel der eigene Partner schafft, dann muss er liefern. Nur Pass & Play, 2 bis 6 Teams.
+- **Wer würde am ehesten?** – wer würde es am ehesten tun, wer am wenigsten? Pass & Play oder online, 3 bis 20 Spieler.
+- **Quizwand** – Quizfragen von 100 bis 1000 Punkten in 10 Kategorien auf zwei Seiten, (angelehnt an *Jeopardy!*). Pass & Play (1–10, in der Claude-Version bewertet Claude die Antworten) oder online (2–10, der Host entscheidet).
+- **Mein Partner kann** – Zweierteams überbieten sich, wie viel der eigene Partner schafft, dann muss er liefern. Pass & Play oder online, 2 bis 6 Teams.
 - **Kontextlos** – harmlose Antworten werden aus dem Zusammenhang gerissen (angelehnt an *Survive the Internet*). Nur online, 3 bis 12 Spieler.
 
 Auf der Startseite wählt man das Spiel, danach den Modus:
@@ -157,7 +157,7 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - Die Zeichnungen bleiben während des Zeichnens auf dem Server. Erst zur Abstimmung werden sie unter zufälligen Kennungen an alle geschickt, die Namen kommen erst mit dem Ergebnis.
 - Fehlt jemand, kann der Host mit „Nicht länger warten“ bzw. „Zeichnen beenden“ weitermachen.
 
-## Wer würde am ehesten? (Pass & Play, 3–20 Spieler)
+## Wer würde am ehesten? (Pass & Play oder online, 3–20 Spieler)
 
 - Einer hat das Handy und liest die Frage vor, zum Beispiel „Wer würde am ehesten an einer Tür ziehen, auf der groß ‚Drücken‘ steht?“.
 - Die Gruppe entscheidet gemeinsam und tippt an, wer es **am ehesten** und wer es **am wenigsten** tun würde. Dieselbe Person kann nicht beides sein. Eine Frage lässt sich auch überspringen.
@@ -167,20 +167,22 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
   - Das geht nur in der **Claude-Version** (claude.ai-Link). Die Anfrage läuft über das claude.ai-Konto der Person, die das Handy hat. Beim ersten Mal fragt claude.ai, ob die Seite Claude benutzen darf.
   - An Claude gehen nur die Namen und die Fragen, bei denen jemand gewählt wurde.
   - Auf der Render-Seite fehlt dieser Teil, dort gibt es nur die einfache Auswertung.
+- **Online:** Die Frage erscheint bei allen, jeder wählt auf seinem Handy „am ehesten“ und „am wenigsten“. Sobald alle abgestimmt haben (oder der Host auswertet), sehen alle das Ergebnis mit Stimmen pro Person. Am Ende gibt es eine Auswertung für jeden. Die Profile von Claude gibt es online nicht.
 
-## Quizwand (Pass & Play, 1–10 Spieler)
+## Quizwand (Pass & Play 1–10 Spieler, online 2–10)
 
 - **Kategorien:** Ihr wählt 10 von 18 Kategorien (oder lasst auffüllen). Der Zufall verteilt sie auf zwei Seiten mit je 5 Kategorien. Jede Kategorie hat 5 Fragen: 100, 200, 300, 400 und 500 Punkte. Auf Seite 2 zählt alles doppelt (200 bis 1000).
 - **Ablauf:** Reihum wählt einer ein Feld und tippt seine Antwort ein. Richtig gibt die Punkte, falsch kostet die Hälfte (bei 300 also −150), „Weiß ich nicht“ kostet nichts. Dann dürfen die anderen klauen, mit denselben Regeln: Jeder bekommt einen großen Buzzer auf dem Bildschirm (nach 1,5 Sekunden scharf), und wer zuerst drückt, darf antworten. Danach ist der Nächste dran. Ist eine Seite leer gespielt (oder vorzeitig beendet), geht es zu Seite 2 und dann zum Endstand.
 - **Schwerpunkte:** Mathe, Physik und Chemie fragen nach dem Fach selbst (Rechnen, Formeln, Begriffe) statt nach Personen und Entdeckungsgeschichte. Flaggen, Hauptstädte und Geschichte sind eher leicht, Minecraft-Crafting eher schwer, Astronomie ohne Raumfahrt.
 - **Bewertung:** Eindeutige Treffer (auch mit kleinen Tippfehlern) erkennt das Spiel selbst. Alles andere beurteilt **Claude** mit kurzer Begründung – Synonyme, andere Schreibweisen und sachlich richtige Antworten zählen. Ist die Runde anderer Meinung, dreht sie das Urteil mit „Doch richtig“ / „Doch falsch“ um.
   - Claude gibt es nur in der **Claude-Version** (claude.ai-Link). Anderswo wird die Lösung gezeigt und die Runde entscheidet selbst.
+- **Online:** Alle sehen dieselbe Wand auf dem eigenen Handy. Wer dran ist, wählt ein Feld und tippt seine Antwort ein. Eindeutige Treffer erkennt der Server selbst, alles andere entscheidet der **Host** (er sieht dabei die Lösung) – online fragt das Spiel keine KI, es entstehen also keine Kosten. Ist die Antwort falsch, werden nach 1,5 Sekunden bei allen anderen die Buzzer scharf; wer zuerst drückt, darf klauen. Der Host kann ein Urteil umdrehen und „Keiner – Lösung zeigen“ wählen. Die 10 Kategorien wählt der Host in der Lobby.
   - An Claude gehen nur die Frage, die Lösung und die getippte Antwort.
 - **Besonderheiten:** Bei *Flaggen* wird die Flagge als Emoji gezeigt (auf Windows-PCs zeigen manche Browser statt der Flagge nur zwei Buchstaben). Bei *Minecraft-Crafting* erscheint das Rezept im 3×3-Feld. Bei *Was ist die Frage?* steht die Antwort da und man muss die passende Frage bilden („Was ist …?“).
 - **Fragen:** 2.859 Fragen in 18 Kategorien: Mathe, Chemie, Physik, Flaggen, Hauptstädte, Minecraft-Crafting, Was ist die Frage?, Musik, Filme & Serien, Tiere, Fußball, Geschichte, Astronomie, Menschlicher Körper, Essen & Trinken, Videospiele, Wörter & Redewendungen, Erfindungen & Technik. Zuletzt gespielte Fragen kommen erst später wieder.
 - Die Fragen stehen als JSON in `quiz-fragen/` (Format in `quiz-fragen/FORMAT.md`). Nach Änderungen `node tools/quiz-build.js` ausführen, das erzeugt `quiz-fragen.js`.
 
-## Mein Partner kann (Pass & Play, 2–6 Zweierteams)
+## Mein Partner kann (Pass & Play oder online, 2–6 Zweierteams)
 
 - **Rollen:** Pro Aufgabe bietet aus jedem Team einer, der Partner muss antreten und darf beim Bieten nichts verraten. Nach jeder Aufgabe tauschen die Rollen.
 - **Bieten:** Die Aufgabe erscheint, zum Beispiel „Wie viele Länder Europas kann dein Partner aufzählen?“. Reihum überbieten sich die Bieter („Ben schafft 12!“) oder passen. Wer passt, ist für diese Aufgabe raus. Jede Runde eröffnet ein anderes Team. Solange noch niemand geboten hat, lässt sich die Aufgabe tauschen.
@@ -188,6 +190,7 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Aufgaben:** 280 Stück in drei Arten – Wissen (103, z. B. Länder, Hunderassen, Nachkommastellen von Pi), Denken (87, z. B. Wortketten, Kopfrechnen, Ziffern merken) und Körper (90, z. B. Liegestütze, Wandsitz, Papierkugeln werfen). Die Arten lassen sich abwählen und wechseln sich im Spiel ab.
 - **Zeit:** 199 Aufgaben haben ein Zeitlimit (10 bis 120 Sekunden, die App zählt herunter und piept am Ende), 55 laufen ohne Zeit (z. B. bis zum ersten Fehler), bei 26 ist das Gebot selbst eine Zeit („Wie viele Sekunden hält dein Partner den Wandsitz?“) – dort läuft eine Stoppuhr und meldet, wenn das Ziel erreicht ist.
 - **Kartenstapel:** Bei 60 Aufgaben liefert die App das Material, das sonst ein anderes Team ausdenken müsste. Das abfragende Team sieht Vorlage und Lösung (z. B. „8 × 7 – Lösung: 56“, „Marseille – Frankreich“, „Morgenstund hat … – Gold im Mund“) und tippt bei jeder richtigen Antwort auf „Richtig“; die App zählt mit und meldet, wenn das Gebot erreicht ist. Rechenaufgaben, Buchstaben, Ziffern- und Begriffsfolgen zum Merken, Buchstabensalat, Farbwörter und Ähnliches erzeugt die App selbst, Begriffe zum Erklären kommen aus den Verräter-Listen, Flaggen, Hauptstädte und Wissensfragen aus der Quizwand. Wenn der Partner selbst aufs Display schauen muss (Flaggen, Buchstabensalat, Farbwörter, Emojis), bleibt die Lösung verdeckt, bis man sie aufdeckt. Die festen Listen stehen in `partner-stapel-listen.js`, die Stapel in `partner-stapel.js`.
+- **Online:** Die Teams ergeben sich aus der Reihenfolge in der Lobby (immer zwei nacheinander), der Host kann sie mischen; ihr braucht eine gerade Spielerzahl (4–12). Jeder Bieter bietet auf seinem eigenen Handy. Kontrollieren – Uhr starten, Karten abhaken, „Geschafft“ oder „Nicht geschafft“ – dürfen die anderen Teams und der Host. Die Karten mit Lösung sehen nur die anderen Teams; bei Erklär- und Darstell-Aufgaben sieht der Partner die Karte auf seinem Handy, sein Bieter nicht.
 - Einige Körper-Aufgaben brauchen einfache Dinge wie Papierkugeln, Münzen oder Becher; das steht im Hinweis unter der Aufgabe.
 - **Einstellbar:** 6 bis 20 Aufgaben. Die Aufgaben stehen in `partner-aufgaben.js`.
 

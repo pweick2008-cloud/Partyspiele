@@ -1033,6 +1033,21 @@
       <button id="fz-start" class="btn primary big" type="button">Los geht's</button>
     </section>
 
+    <section id="screen-eh-online" class="screen">
+      <div id="eh-online" class="fz-box"></div>
+      <button class="btn ghost x-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-qz-online" class="screen">
+      <div id="qz-online" class="fz-box"></div>
+      <button class="btn ghost x-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-pk-online" class="screen">
+      <div id="pk-online" class="fz-box"></div>
+      <button class="btn ghost x-leave" type="button">Lobby verlassen</button>
+    </section>
+
     <section id="screen-fz-online" class="screen">
       <div id="fz-online" class="fz-box"></div>
       <button class="btn ghost fz-leave" type="button">Lobby verlassen</button>
@@ -1490,6 +1505,40 @@
         <p class="muted small">Punkte: +2 für das Finden der echten Antwort, +1 für jede Stimme auf deine Fälschung.</p>
       </div>
 
+      <div class="card" id="eh-settings" hidden>
+        <h2>So geht's</h2>
+        <p class="muted small">Jede Frage erscheint bei allen. Jeder wählt auf seinem Handy, wer es am ehesten und wer es am wenigsten tun würde. Danach seht ihr, wer die meisten Stimmen bekommen hat, und am Ende gibt es eine Auswertung für jeden.</p>
+      </div>
+
+      <div class="card" id="qz-settings" hidden>
+        <div class="row-between">
+          <h2>Kategorien</h2>
+          <span class="pill" id="qz-host-pill"></span>
+        </div>
+        <div class="row-between">
+          <span class="muted small">Wählt 10 Kategorien, die Seiten lost das Spiel aus.</span>
+          <span class="pill quiz-cat-count" id="qz-ocount">0 / 10</span>
+        </div>
+        <div id="qz-ocats" class="chips"></div>
+        <button id="qz-orandom" class="btn ghost" type="button">Zufällig auffüllen</button>
+        <p class="muted small">Wer dran ist, wählt ein Feld und antwortet. Danach buzzern die anderen. Richtig gibt die Punkte, falsch kostet die Hälfte. Eindeutige Antworten erkennt das Spiel selbst, alles andere entscheidet der Host. Fehlen Kategorien, wird beim Start zufällig aufgefüllt.</p>
+      </div>
+
+      <div class="card" id="pkx-settings" hidden>
+        <div class="row-between">
+          <h2>Teams</h2>
+          <span class="pill" id="pkx-host-pill"></span>
+        </div>
+        <ul id="pkx-teams" class="lobby-players"></ul>
+        <p id="pkx-odd" class="error" hidden></p>
+        <button id="pkx-shuffle" class="btn ghost" type="button">Teams mischen</button>
+        <span class="muted small">Aufgaben</span>
+        <div id="pkx-types" class="chips"></div>
+        <span class="muted small">Anzahl</span>
+        <div id="pkx-rounds" class="chips"></div>
+        <p class="muted small">Die Teams ergeben sich aus der Reihenfolge in der Lobby. Jeder Bieter bietet auf seinem Handy, die anderen Teams kontrollieren: geschafft +2, nicht geschafft −1.</p>
+      </div>
+
       <div class="card" id="auk-settings" hidden>
         <div class="row-between">
           <h2>Einstellungen</h2>
@@ -1732,5 +1781,8 @@
   <script src="galerie-online.js"></script>
   <script src="auktion-online.js"></script>
   <script src="faelscher-online.js"></script>
+  <script src="ehesten-online.js"></script>
+  <script src="quiz-online.js"></script>
+  <script src="partner-online.js"></script>
 </body>
 </html>

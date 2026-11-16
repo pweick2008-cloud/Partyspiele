@@ -84,12 +84,12 @@ const GAMES = {
   luegen: { icon: "", svg: "joker", name: "SPIEGEL", sub: "Karten, Aussagen, Lügen und Fallen – zu zweit." },
   slf: { icon: "", svg: "map", name: "Stadt Land Fluss", sub: "Ein Buchstabe, eigene Kategorien, Zeitdruck.", onlineOnly: true },
   draw: { icon: "", svg: "pencil", name: "Kritzeln", sub: "Einer zeichnet, alle anderen raten.", onlineOnly: true },
-  ehesten: { icon: "", svg: "crowd", name: "Wer würde am ehesten?", sub: "Einer liest vor, alle entscheiden gemeinsam.", localOnly: true },
+  ehesten: { icon: "", svg: "crowd", name: "Wer würde am ehesten?", sub: "Wer würde es am ehesten tun – und wer am wenigsten?" },
   faelscher: { icon: "", svg: "quill", name: "Fälscher", sub: "Nur eine Antwort ist echt. Welche?" },
   auktion: { icon: "", svg: "gavel", name: "Geheime Auktion", sub: "Echt, gefälscht oder ein verkannter Schatz?" },
   galerie: { icon: "", svg: "frame", name: "Galerie", sub: "Alle zeichnen denselben Begriff – die beste Zeichnung gewinnt.", onlineOnly: true },
-  quiz: { icon: "", svg: "board", name: "Quizwand", sub: "Zehn Kategorien, zwei Seiten, Claude bewertet.", localOnly: true },
-  partner: { icon: "", svg: "duo", name: "Mein Partner kann", sub: "Überbieten – und der Partner muss liefern.", localOnly: true },
+  quiz: { icon: "", svg: "board", name: "Quizwand", sub: "Zehn Kategorien, zwei Seiten, Punkte von 100 bis 1000." },
+  partner: { icon: "", svg: "duo", name: "Mein Partner kann", sub: "Überbieten – und der Partner muss liefern." },
   kontext: { icon: "", svg: "bubble", name: "Kontextlos", sub: "Harmlose Antworten, fiese neue Zusammenhänge.", onlineOnly: true }
 };
 
@@ -107,6 +107,9 @@ const STEP_PLANS = {
   "draw-online": [["setup", "Lobby"], ["game", "Spiel"]],
   "ehesten-local": [["setup", "Start"], ["game", "Fragen"], ["end", "Auswertung"]],
   "partner-local": [["setup", "Start"], ["game", "Aufgaben"], ["end", "Endstand"]],
+  "partner-online": [["setup", "Lobby"], ["game", "Aufgaben"], ["end", "Endstand"]],
+  "quiz-online": [["setup", "Lobby"], ["board", "Quizwand"], ["end", "Endstand"]],
+  "ehesten-online": [["setup", "Lobby"], ["game", "Fragen"], ["end", "Auswertung"]],
   "quiz-local": [["setup", "Start"], ["board", "Quizwand"], ["end", "Endstand"]],
   "faelscher-local": [["setup", "Start"], ["write", "Fälschen"], ["vote", "Abstimmen"], ["reveal", "Aufdecken"], ["end", "Ende"]],
   "faelscher-online": [["setup", "Lobby"], ["write", "Fälschen"], ["vote", "Abstimmen"], ["reveal", "Aufdecken"], ["end", "Ende"]],
@@ -782,6 +785,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     if (currentGame === "ehesten") {
       WWAE.openSetup();
+      return;
+    }
+    if (currentGame === "quiz") {
+      Quiz.openSetup();
+      return;
+    }
+    if (currentGame === "partner") {
+      Partner.openSetup();
       return;
     }
     if (currentGame === "auktion") {

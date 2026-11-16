@@ -24,9 +24,9 @@ const { DRAW_POOLS, LEVELS: DR_LEVELS, LEVEL_NAMES: DR_LEVEL_NAMES } = require("
 
 const PORT = process.env.PORT || 3000;
 const MIN_PLAYERS = 3; // Verräter
-const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3, auktion: 2, faelscher: 3 };
-const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12, auktion: 20, faelscher: 8 };
-const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie", "auktion", "faelscher"];
+const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3, auktion: 2, faelscher: 3, ehesten: 3, quiz: 2, partner: 4 };
+const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12, auktion: 20, faelscher: 8, ehesten: 20, quiz: 10, partner: 12 };
+const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie", "auktion", "faelscher", "ehesten", "quiz", "partner"];
 const MAX_PLAYERS = 20;
 const LOBBY_IDLE_MS = 30 * 60 * 1000; // leere Lobbys werden nach 30 Min. gelöscht
 
@@ -58,6 +58,9 @@ const STATIC = {
   "/partner-aufgaben.js": ["partner-aufgaben.js", "text/javascript; charset=utf-8"],
   "/partner-stapel.js": ["partner-stapel.js", "text/javascript; charset=utf-8"],
   "/partner-stapel-listen.js": ["partner-stapel-listen.js", "text/javascript; charset=utf-8"],
+  "/ehesten-online.js": ["ehesten-online.js", "text/javascript; charset=utf-8"],
+  "/quiz-online.js": ["quiz-online.js", "text/javascript; charset=utf-8"],
+  "/partner-online.js": ["partner-online.js", "text/javascript; charset=utf-8"],
   "/quiz-fragen.js": ["quiz-fragen.js", "text/javascript; charset=utf-8"],
   "/kontext-online.js": ["kontext-online.js", "text/javascript; charset=utf-8"],
   "/galerie-online.js": ["galerie-online.js", "text/javascript; charset=utf-8"],
@@ -176,10 +179,15 @@ function viewFor(lobby, me) {
     galSettings: lobby.galSettings,
     aukSettings: lobby.aukSettings,
     fzSettings: lobby.fzSettings,
+    xSettings: EXTRA.lobbyView(lobby),
     players: lobby.players.map((p) => ({ id: p.id, name: p.name, connected: p.connected })),
     game: null
   };
   if (!g) return view;
+  if (EXTRA.games[g.type]) {
+    view.game = EXTRA.games[g.type].view(lobby, g, me);
+    return view;
+  }
   if (g.type === "draw") {
     view.game = drView(lobby, g, me);
     return view;
@@ -428,6 +436,7 @@ function dropFromGame(lobby, id) {
   if (g && g.type === "kontext") return kxCheck(lobby, id);
   if (g && g.type === "galerie") return galCheck(lobby, id);
   if (g && g.type === "faelscher") return fzCheck(lobby, id);
+  if (g && EXTRA.games[g.type]) return g.phase === "over" ? undefined : EXTRA.games[g.type].drop(lobby, id);
   if (!g || g.phase === "over" || !g.order.includes(id) || g.out.has(id)) return;
   g.out.add(id);
   g.results[id] = "hat das Spiel verlassen";
@@ -584,6 +593,7 @@ const handlers = {
     else if (lobby.gameType === "slf") slfStart(lobby);
     else if (lobby.gameType === "luegen") luStart(lobby);
     else if (lobby.gameType === "werbinich") wbiStart(lobby);
+    else if (EXTRA.games[lobby.gameType]) EXTRA.games[lobby.gameType].start(lobby);
     else startGame(lobby);
     return lobby;
   },
@@ -2738,6 +2748,11 @@ Object.assign(handlers, {
     return lobby;
   }
 });
+
+/* =========================================================
+   Wer würde am ehesten?, Quizwand und Mein Partner kann (server-extra.js)
+   ========================================================= */
+const EXTRA = require("./server-extra.js").install({ handlers, fail, requireHost, broadcastState, lobbies });
 
 /* =========================================================
    WebSocket-Verbindungen
