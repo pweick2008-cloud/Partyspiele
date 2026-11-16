@@ -70,7 +70,7 @@
     ]
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "frage": "Wie viele Fackeln ergibt ein einziges Fackel-Rezept (Kohle + Stock)?",
     "antwort": "4",
     "akzeptiert": [
@@ -326,7 +326,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "Milcheimer",
@@ -363,7 +363,7 @@
     "bewertung": "‚Glatter Stein‘ ist falsch."
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "Holzbretter",
@@ -422,7 +422,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "",
@@ -510,7 +510,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Wie viele Eisennuggets braucht man für einen Eisenbarren?",
     "antwort": "9",
     "akzeptiert": [
@@ -594,7 +594,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "Eisennugget",
@@ -614,7 +614,7 @@
     "bewertung": "‚Kürbislaterne‘ ist falsch."
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "Eisenbarren",
@@ -746,7 +746,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "",
@@ -766,7 +766,7 @@
     "bewertung": "Jede Holzart gilt."
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "",
@@ -849,7 +849,7 @@
     "bewertung": "Jede Holzart gilt. ‚Zauntor‘ ist falsch."
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "Stock",
@@ -887,7 +887,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Wie viele Items kann ein Stück Kohle im Ofen schmelzen?",
     "antwort": "8",
     "akzeptiert": [
@@ -895,7 +895,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Wie viele Holztüren ergibt ein Rezept aus sechs Holzbrettern?",
     "antwort": "3",
     "akzeptiert": [
@@ -1138,7 +1138,7 @@
     "bewertung": "Jede Holzart gilt. ‚Schmelzofen‘ ist falsch."
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "Holzbretter",
@@ -1177,7 +1177,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "Faden",
@@ -1205,7 +1205,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Wie viele Eisenbarren braucht man für einen Kessel?",
     "antwort": "7",
     "akzeptiert": [
@@ -1213,7 +1213,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Wie viele Schienen ergibt ein einziges Schienen-Rezept (6 Eisenbarren + 1 Stock)?",
     "antwort": "16",
     "akzeptiert": [
@@ -1587,6 +1587,856 @@
     "antwort": "7",
     "akzeptiert": [
       "sieben"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was entsteht, wenn man rohes Rindfleisch im Ofen brät?",
+    "antwort": "Steak",
+    "akzeptiert": [
+      "Gebratenes Rindfleisch",
+      "Cooked Beef"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Diamanten braucht man für ein Diamantschwert?",
+    "antwort": "2",
+    "akzeptiert": [
+      "zwei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Eisenhelm",
+    "akzeptiert": [
+      "Helm",
+      "Iron Helmet"
+    ],
+    "rezept": [
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was entsteht, wenn man eine Kartoffel im Ofen gart?",
+    "antwort": "Ofenkartoffel",
+    "akzeptiert": [
+      "Baked Potato",
+      "Gebackene Kartoffel"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Heuballen",
+    "akzeptiert": [
+      "Hay Bale",
+      "Strohballen",
+      "Heu"
+    ],
+    "rezept": [
+      "Weizen",
+      "Weizen",
+      "Weizen",
+      "Weizen",
+      "Weizen",
+      "Weizen",
+      "Weizen",
+      "Weizen",
+      "Weizen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Schüssel",
+    "akzeptiert": [
+      "Bowl",
+      "Holzschüssel"
+    ],
+    "rezept": [
+      "",
+      "",
+      "",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      ""
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welcher Pflanze craftet man Zucker?",
+    "antwort": "Zuckerrohr",
+    "akzeptiert": [
+      "Sugar Cane"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Schneebälle braucht man für einen Schneeblock?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Diamanten braucht man für eine Diamanthose?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Steindruckplatte",
+    "akzeptiert": [
+      "Druckplatte",
+      "Stone Pressure Plate",
+      "Pressure Plate"
+    ],
+    "rezept": [
+      "",
+      "",
+      "",
+      "Stein",
+      "Stein",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Stöcke kann man aus einem einzigen Holzstamm maximal herstellen?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Glasflasche",
+    "akzeptiert": [
+      "Flasche",
+      "Glass Bottle",
+      "Bottle"
+    ],
+    "rezept": [
+      "",
+      "",
+      "",
+      "Glas",
+      "",
+      "Glas",
+      "",
+      "Glas",
+      ""
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Zauntor",
+    "akzeptiert": [
+      "Fence Gate",
+      "Holzzauntor",
+      "Eichenholzzauntor",
+      "Tor"
+    ],
+    "rezept": [
+      "",
+      "",
+      "",
+      "Stock",
+      "Holzbretter",
+      "Stock",
+      "Stock",
+      "Holzbretter",
+      "Stock"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Eisentür",
+    "akzeptiert": [
+      "Iron Door",
+      "Tür aus Eisen"
+    ],
+    "rezept": [
+      "Eisenbarren",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Eisenbarren",
+      ""
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Goldene Karotte",
+    "akzeptiert": [
+      "Golden Carrot",
+      "Goldkarotte"
+    ],
+    "rezept": [
+      "Goldnugget",
+      "Goldnugget",
+      "Goldnugget",
+      "Goldnugget",
+      "Karotte",
+      "Goldnugget",
+      "Goldnugget",
+      "Goldnugget",
+      "Goldnugget"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Banner",
+    "akzeptiert": [
+      "Weißes Banner",
+      "White Banner",
+      "Flagge"
+    ],
+    "rezept": [
+      "Weiße Wolle",
+      "Weiße Wolle",
+      "Weiße Wolle",
+      "Weiße Wolle",
+      "Weiße Wolle",
+      "Weiße Wolle",
+      "",
+      "Stock",
+      ""
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Stufen erhält man beim Crafting aus drei Blöcken (z. B. Holzbretter)?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel Knochenmehl ergibt ein einzelner Knochen?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Fäden braucht man für einen Block Wolle?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Zutat braut man in eine Wasserflasche, um einen Seltsamen Trank zu erhalten?",
+    "antwort": "Netherwarze",
+    "akzeptiert": [
+      "Nether Wart",
+      "Netherwarzen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Item dient im Braustand als Brennstoff?",
+    "antwort": "Lohenstaub",
+    "akzeptiert": [
+      "Blaze Powder"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Zutat macht aus einem Seltsamen Trank einen Trank der Schnelligkeit?",
+    "antwort": "Zucker",
+    "akzeptiert": [
+      "Sugar"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Bücherregale braucht man rund um einen Zaubertisch, um die höchste Verzauberungsstufe zu erreichen?",
+    "antwort": "15",
+    "akzeptiert": [
+      "fünfzehn"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welchen Farbstoff erhält man, wenn man einen Kaktus im Ofen schmilzt?",
+    "antwort": "Grüner Farbstoff",
+    "akzeptiert": [
+      "Green Dye",
+      "Grün",
+      "Kaktusgrün"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Steinziegel",
+    "akzeptiert": [
+      "Stone Bricks",
+      "Steinziegelblock"
+    ],
+    "rezept": [
+      "Stein",
+      "Stein",
+      "",
+      "Stein",
+      "Stein",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was entsteht, wenn man einen Tonklumpen im Ofen brennt?",
+    "antwort": "Ziegel",
+    "akzeptiert": [
+      "Brick",
+      "Ziegelstein"
+    ],
+    "bewertung": "Gemeint ist das einzelne Item Ziegel; „Ziegelstein“ gilt auch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Stolperdrahthaken",
+    "akzeptiert": [
+      "Tripwire Hook",
+      "Stolperdraht-Haken"
+    ],
+    "rezept": [
+      "",
+      "Eisenbarren",
+      "",
+      "",
+      "Stock",
+      "",
+      "",
+      "Holzbretter",
+      ""
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Webstuhl",
+    "akzeptiert": [
+      "Loom"
+    ],
+    "rezept": [
+      "Faden",
+      "Faden",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Komposter",
+    "akzeptiert": [
+      "Composter"
+    ],
+    "rezept": [
+      "Holzstufe",
+      "",
+      "Holzstufe",
+      "Holzstufe",
+      "",
+      "Holzstufe",
+      "Holzstufe",
+      "Holzstufe",
+      "Holzstufe"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Kerze",
+    "akzeptiert": [
+      "Candle"
+    ],
+    "rezept": [
+      "",
+      "Faden",
+      "",
+      "",
+      "Honigwabe",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Seelenfackel",
+    "akzeptiert": [
+      "Soul Torch",
+      "Seelen-Fackel"
+    ],
+    "rezept": [
+      "",
+      "Kohle",
+      "",
+      "",
+      "Stock",
+      "",
+      "",
+      "Seelensand",
+      ""
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Gerüst",
+    "akzeptiert": [
+      "Scaffolding",
+      "Gerüste"
+    ],
+    "rezept": [
+      "Bambus",
+      "Faden",
+      "Bambus",
+      "Bambus",
+      "",
+      "Bambus",
+      "Bambus",
+      "",
+      "Bambus"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Karottenrute",
+    "akzeptiert": [
+      "Carrot on a Stick",
+      "Karotte an der Angel"
+    ],
+    "rezept": [
+      "Angel",
+      "",
+      "",
+      "",
+      "Karotte",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Glitzernde Melonenscheibe",
+    "akzeptiert": [
+      "Glistering Melon Slice",
+      "Glitzernde Melone",
+      "Goldene Melone"
+    ],
+    "rezept": [
+      "Goldnugget",
+      "Goldnugget",
+      "Goldnugget",
+      "Goldnugget",
+      "Melonenscheibe",
+      "Goldnugget",
+      "Goldnugget",
+      "Goldnugget",
+      "Goldnugget"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Treppen ergibt das Crafting-Rezept aus sechs Blöcken?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Glasscheiben ergibt ein Rezept aus sechs Glasblöcken?",
+    "antwort": "16",
+    "akzeptiert": [
+      "sechzehn"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viel Lohenstaub erhält man aus einer Lohenrute?",
+    "antwort": "2",
+    "akzeptiert": [
+      "zwei"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche zwei Items ergeben zusammen Magmacreme?",
+    "antwort": "Lohenstaub und Schleimball",
+    "akzeptiert": [
+      "Schleimball und Lohenstaub",
+      "Blaze Powder und Slimeball"
+    ],
+    "bewertung": "Beide Items müssen genannt sein, Reihenfolge egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Zutat braut man in einen Seltsamen Trank, um einen Trank der Heilung zu erhalten?",
+    "antwort": "Glitzernde Melonenscheibe",
+    "akzeptiert": [
+      "Glistering Melon Slice",
+      "Glitzernde Melone"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Zutat braut man in einen Seltsamen Trank, um einen Trank der Feuerresistenz zu erhalten?",
+    "antwort": "Magmacreme",
+    "akzeptiert": [
+      "Magma Cream"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Zutat braut man in einen Seltsamen Trank, um einen Trank der Nachtsicht zu erhalten?",
+    "antwort": "Goldene Karotte",
+    "akzeptiert": [
+      "Golden Carrot",
+      "Goldkarotte"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Item fügt man im Braustand hinzu, um aus einem normalen Trank einen Wurftrank zu machen?",
+    "antwort": "Schwarzpulver",
+    "akzeptiert": [
+      "Gunpowder"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Item verlängert im Braustand die Wirkungsdauer eines Tranks?",
+    "antwort": "Redstone-Staub",
+    "akzeptiert": [
+      "Redstone",
+      "Redstone Dust"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was erhält man, wenn man antiken Schrott im Ofen schmilzt?",
+    "antwort": "Netheritplatten",
+    "akzeptiert": [
+      "Netheritplatte",
+      "Netherite Scrap",
+      "Netheritschrott"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was erhält man, wenn man einen nassen Schwamm im Ofen trocknet?",
+    "antwort": "Schwamm",
+    "akzeptiert": [
+      "Sponge",
+      "Trockener Schwamm"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Steinstufen erhält man in der Steinsäge aus einem einzigen Steinblock?",
+    "antwort": "2",
+    "akzeptiert": [
+      "zwei"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Bognertisch",
+    "akzeptiert": [
+      "Fletching Table",
+      "Pfeilmachertisch"
+    ],
+    "rezept": [
+      "Feuerstein",
+      "Feuerstein",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "Holzbretter",
+      ""
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Schleifstein",
+    "akzeptiert": [
+      "Grindstone"
+    ],
+    "rezept": [
+      "Stock",
+      "Steinstufe",
+      "Stock",
+      "Holzbretter",
+      "",
+      "Holzbretter",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Lesepult",
+    "akzeptiert": [
+      "Lectern",
+      "Pult"
+    ],
+    "rezept": [
+      "Holzstufe",
+      "Holzstufe",
+      "Holzstufe",
+      "",
+      "Bücherregal",
+      "",
+      "",
+      "Holzstufe",
+      ""
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Zielblock",
+    "akzeptiert": [
+      "Target",
+      "Ziel",
+      "Zielscheibe"
+    ],
+    "rezept": [
+      "",
+      "Redstone-Staub",
+      "",
+      "Redstone-Staub",
+      "Heuballen",
+      "Redstone-Staub",
+      "",
+      "Redstone-Staub",
+      ""
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Seelenanker",
+    "akzeptiert": [
+      "Respawn Anchor",
+      "Respawn-Anker",
+      "Wiedereinstiegsanker"
+    ],
+    "rezept": [
+      "Weinender Obsidian",
+      "Weinender Obsidian",
+      "Weinender Obsidian",
+      "Leuchtstein",
+      "Leuchtstein",
+      "Leuchtstein",
+      "Weinender Obsidian",
+      "Weinender Obsidian",
+      "Weinender Obsidian"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Enderkristall",
+    "akzeptiert": [
+      "End Crystal",
+      "Endkristall"
+    ],
+    "rezept": [
+      "Glas",
+      "Glas",
+      "Glas",
+      "Glas",
+      "Enderauge",
+      "Glas",
+      "Glas",
+      "Ghastträne",
+      "Glas"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Aquisitor",
+    "akzeptiert": [
+      "Conduit",
+      "Meeresleuchte"
+    ],
+    "rezept": [
+      "Nautilusschale",
+      "Nautilusschale",
+      "Nautilusschale",
+      "Nautilusschale",
+      "Herz des Meeres",
+      "Nautilusschale",
+      "Nautilusschale",
+      "Nautilusschale",
+      "Nautilusschale"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Pinsel",
+    "akzeptiert": [
+      "Brush",
+      "Bürste"
+    ],
+    "rezept": [
+      "",
+      "Feder",
+      "",
+      "",
+      "Kupferbarren",
+      "",
+      "",
+      "Stock",
+      ""
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Eisenbarren stecken insgesamt in einem Amboss?",
+    "antwort": "31",
+    "akzeptiert": [
+      "einunddreißig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Eisenblöcke (oder andere Mineralblöcke) braucht man für eine vollständige vierstufige Leuchtfeuer-Pyramide?",
+    "antwort": "164",
+    "akzeptiert": [
+      "hundertvierundsechzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Netheritbarren braucht man, um eine komplette Diamantrüstung (vier Teile) zu Netherit aufzuwerten?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Items kann ein Kohleblock als Brennstoff im Ofen schmelzen?",
+    "antwort": "80",
+    "akzeptiert": [
+      "achtzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Für wie viele Brauvorgänge reicht ein einziger Lohenstaub im Braustand?",
+    "antwort": "20",
+    "akzeptiert": [
+      "zwanzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Zutat braut man in einen Seltsamen Trank, um einen Trank der Regeneration zu erhalten?",
+    "antwort": "Ghastträne",
+    "akzeptiert": [
+      "Ghast Tear",
+      "Ghast-Träne"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Zutat braut man in einen Seltsamen Trank, um einen Trank des sanften Falls zu erhalten?",
+    "antwort": "Phantomhaut",
+    "akzeptiert": [
+      "Phantom Membrane",
+      "Phantommembran"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Item braucht man im Braustand, um aus einem Wurftrank einen Verweiltrank zu machen?",
+    "antwort": "Drachenatem",
+    "akzeptiert": [
+      "Dragon's Breath",
+      "Drachen-Atem"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche drei Items ergeben zusammen ein fermentiertes Spinnenauge?",
+    "antwort": "Spinnenauge, brauner Pilz, Zucker",
+    "akzeptiert": [
+      "Spinnenauge, Pilz, Zucker"
+    ],
+    "bewertung": "Alle drei müssen genannt sein: Spinnenauge, brauner Pilz und Zucker, Reihenfolge egal. „Pilz“ ohne Farbe reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Farbstoff erhält man, wenn man eine Seegurke im Ofen schmilzt?",
+    "antwort": "Hellgrüner Farbstoff",
+    "akzeptiert": [
+      "Lime Dye",
+      "Hellgrün",
+      "Limettengrün"
     ]
   }
 ]

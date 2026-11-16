@@ -797,5 +797,352 @@
     "akzeptiert": [
       "Gänseküken"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein junges Huhn?",
+    "antwort": "Küken"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches afrikanische Tier sieht aus wie ein schwarz-weiß gestreiftes Pferd?",
+    "antwort": "Zebra"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier trägt sein Haus auf dem Rücken und hinterlässt eine Schleimspur?",
+    "antwort": "Schnecke",
+    "akzeptiert": [
+      "Weinbergschnecke"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man eine junge Katze?",
+    "antwort": "Kätzchen",
+    "akzeptiert": [
+      "Katzenjunges",
+      "Kitten"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches stachelige Tier rollt sich bei Gefahr zu einer Kugel zusammen?",
+    "antwort": "Igel"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier versteckt laut deutschem Brauch an Ostern die Eier?",
+    "antwort": "Osterhase",
+    "akzeptiert": [
+      "Hase"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Hai ist durch den Film „Der weiße Hai“ berühmt geworden?",
+    "antwort": "Weißer Hai"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches rotbraune Raubtier mit buschigem Schwanz gilt in Fabeln als besonders schlau?",
+    "antwort": "Fuchs",
+    "akzeptiert": [
+      "Rotfuchs"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Vogel ist das Wappentier Deutschlands?",
+    "antwort": "Adler",
+    "akzeptiert": [
+      "Bundesadler"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier mit Panzer gilt sprichwörtlich als sehr langsam und kann sehr alt werden?",
+    "antwort": "Schildkröte"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Käfer leuchten in Sommernächten?",
+    "antwort": "Glühwürmchen",
+    "akzeptiert": [
+      "Leuchtkäfer"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches südamerikanische Tier frisst mit seiner langen, klebrigen Zunge Ameisen und Termiten?",
+    "antwort": "Ameisenbär"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man ein junges Reh?",
+    "antwort": "Kitz",
+    "akzeptiert": [
+      "Rehkitz"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche bunten Vögel können menschliche Wörter nachsprechen?",
+    "antwort": "Papageien",
+    "akzeptiert": [
+      "Papagei",
+      "Wellensittich",
+      "Graupapagei"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man eine große Gruppe von Fischen, die gemeinsam schwimmt?",
+    "antwort": "Schwarm",
+    "akzeptiert": [
+      "Fischschwarm"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man ein männliches Reh?",
+    "antwort": "Rehbock",
+    "akzeptiert": [
+      "Bock"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches extrem langsame Säugetier hängt die meiste Zeit kopfüber in den Bäumen Südamerikas?",
+    "antwort": "Faultier"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Nagetier aus den Alpen hält einen besonders langen Winterschlaf – „schlafen wie ein …“?",
+    "antwort": "Murmeltier"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Vogel hämmert mit seinem Schnabel Löcher in Baumstämme?",
+    "antwort": "Specht",
+    "akzeptiert": [
+      "Buntspecht"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Tier hat eine schwarze „Maske“ um die Augen und einen geringelten Schwanz?",
+    "antwort": "Waschbär"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Beine hat ein Hummer (Scheren mitgezählt)?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches ist die größte Pinguinart der Welt?",
+    "antwort": "Kaiserpinguin"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher flugunfähige Laufvogel ist der größte Vogel Australiens?",
+    "antwort": "Emu"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Greifvogel ist das Wappentier der USA?",
+    "antwort": "Weißkopfseeadler",
+    "akzeptiert": [
+      "Weißkopf-Seeadler",
+      "Seeadler"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Landtier hat mit fast zwei Jahren die längste Tragzeit?",
+    "antwort": "Elefant"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man Tiere wie Reptilien, deren Körpertemperatur von der Umgebung abhängt?",
+    "antwort": "wechselwarm",
+    "akzeptiert": [
+      "Wechselwarme",
+      "ektotherm",
+      "Kaltblüter"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man es, wenn eine Schlange ihre alte Haut abstreift?",
+    "antwort": "Häutung"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Fisch wandert zum Laichen aus dem Meer flussaufwärts zurück zu seinem Geburtsort?",
+    "antwort": "Lachs"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Meeressäugetier knackt mit Steinen Muscheln und schläft auf dem Rücken im Wasser treibend?",
+    "antwort": "Seeotter",
+    "akzeptiert": [
+      "Otter"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man die Fähigkeit von Fledermäusen, sich mit Ultraschall-Rufen und deren Echo zu orientieren?",
+    "antwort": "Echoortung",
+    "akzeptiert": [
+      "Echolot",
+      "Echolokation",
+      "Ultraschallortung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man ein männliches Schaf?",
+    "antwort": "Widder",
+    "akzeptiert": [
+      "Schafbock",
+      "Bock"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man einen weiblichen Elefanten?",
+    "antwort": "Kuh",
+    "akzeptiert": [
+      "Elefantenkuh"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Fisch kann sich zu einer Kugel aufpumpen und ist in Japan als giftige Delikatesse „Fugu“ bekannt?",
+    "antwort": "Kugelfisch"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Schlange gilt als die längste der Welt?",
+    "antwort": "Netzpython"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Schlange gilt als die schwerste der Welt?",
+    "antwort": "Große Anakonda",
+    "akzeptiert": [
+      "Anakonda"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die größte Eulenart Europas?",
+    "antwort": "Uhu"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher ist der größte Hirsch der Welt?",
+    "antwort": "Elch"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher schwarz-weiße Rabenvogel soll laut Volksglaube glänzende Dinge stehlen?",
+    "antwort": "Elster"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Säugetier ist mit Hornschuppen bedeckt und gilt als das meistgeschmuggelte Säugetier der Welt?",
+    "antwort": "Schuppentier",
+    "akzeptiert": [
+      "Pangolin"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Paarungszeit der Hirsche, in der sie röhren und um Weibchen kämpfen?",
+    "antwort": "Brunft",
+    "akzeptiert": [
+      "Brunftzeit",
+      "Brunst"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher weiße Wal der Arktis wird wegen seiner vielen Laute auch „Kanarienvogel der Meere“ genannt?",
+    "antwort": "Beluga",
+    "akzeptiert": [
+      "Weißwal",
+      "Belugawal"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches ist das größte Nagetier der Welt?",
+    "antwort": "Wasserschwein",
+    "akzeptiert": [
+      "Capybara",
+      "Capivara"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Meerestier gilt als „biologisch unsterblich“, weil es sich wieder in ein Jugendstadium (Polyp) zurückverwandeln kann?",
+    "antwort": "Unsterbliche Qualle",
+    "akzeptiert": [
+      "Qualle",
+      "Turritopsis"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Vogel hat die größte Flügelspannweite aller heute lebenden Vögel?",
+    "antwort": "Wanderalbatros",
+    "akzeptiert": [
+      "Albatros"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Schwanz des Fuchses in der Jägersprache?",
+    "antwort": "Lunte",
+    "akzeptiert": [
+      "Rute"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher südamerikanische Fisch kann elektrische Schläge von mehreren hundert Volt erzeugen?",
+    "antwort": "Zitteraal"
+  },
+  {
+    "stufe": 5,
+    "frage": "Zu welchem Tierstamm gehören Insekten, Spinnen und Krebse gemeinsam?",
+    "antwort": "Gliederfüßer",
+    "akzeptiert": [
+      "Arthropoden"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man es, wenn frisch geschlüpfte Gänseküken dem ersten bewegten Objekt folgen, das sie sehen (erforscht von Konrad Lorenz)?",
+    "antwort": "Prägung"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher australische Vogel kann täuschend echt Geräusche wie Kettensägen und Kameraauslöser nachahmen?",
+    "antwort": "Leierschwanz"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Ameisen schneiden Blattstücke ab, um damit in ihrem Bau Pilze zu züchten?",
+    "antwort": "Blattschneiderameisen",
+    "akzeptiert": [
+      "Blattschneiderameise"
+    ]
   }
 ]

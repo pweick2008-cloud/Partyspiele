@@ -846,5 +846,402 @@
       "Prinz"
     ],
     "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe hat die Karte, die ein Spieler bei einer Verwarnung sieht?",
+    "antwort": "Gelb"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den Standard, der vom Eckpunkt des Spielfelds ausgeführt wird?",
+    "antwort": "Eckstoß",
+    "akzeptiert": [
+      "Ecke",
+      "Eckball"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In wie viele Halbzeiten ist ein reguläres Fußballspiel aufgeteilt?",
+    "antwort": "2",
+    "akzeptiert": [
+      "zwei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Tor, das ein Spieler versehentlich ins eigene Netz schießt?",
+    "antwort": "Eigentor"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie wird ein K.-o.-Spiel entschieden, wenn es auch nach der Verlängerung unentschieden steht?",
+    "antwort": "Elfmeterschießen",
+    "akzeptiert": [
+      "Elfmeter",
+      "Strafstoßschießen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Stadt ist der FC Bayern zu Hause?",
+    "antwort": "München"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die höchste Spielklasse im englischen Männerfußball?",
+    "antwort": "Premier League"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Land spielen die Vereine Juventus Turin und AC Mailand?",
+    "antwort": "Italien"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe dominiert neben Schwarz die Trikots von Borussia Dortmund?",
+    "antwort": "Gelb"
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus wie vielen Metern Entfernung wird ein Elfmeter geschossen?",
+    "antwort": "11 Meter",
+    "akzeptiert": [
+      "11",
+      "elf"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die höchste italienische Fußball-Liga?",
+    "antwort": "Serie A"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Karte zeigt der Schiedsrichter, wenn ein Spieler im selben Spiel seine zweite Gelbe Karte bekommt?",
+    "antwort": "Gelb-Rot",
+    "akzeptiert": [
+      "Gelb-Rote Karte",
+      "Gelbrot"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher ägyptische Stürmer wechselte 2017 zum FC Liverpool?",
+    "antwort": "Mohamed Salah",
+    "akzeptiert": [
+      "Salah"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Fußballer trug den Spitznamen „der Kaiser“?",
+    "antwort": "Franz Beckenbauer",
+    "akzeptiert": [
+      "Beckenbauer"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer war Bundestrainer der deutschen Nationalmannschaft bei der Heim-EM 2024?",
+    "antwort": "Julian Nagelsmann",
+    "akzeptiert": [
+      "Nagelsmann"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Verein trägt seine Heimspiele im Weserstadion aus?",
+    "antwort": "Werder Bremen",
+    "akzeptiert": [
+      "Bremen",
+      "SV Werder Bremen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Stadt steht das Wembley-Stadion?",
+    "antwort": "London"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Torwart wurde „der Titan“ genannt?",
+    "antwort": "Oliver Kahn",
+    "akzeptiert": [
+      "Kahn"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Zu welchem US-Verein wechselte Lionel Messi im Jahr 2023?",
+    "antwort": "Inter Miami",
+    "akzeptiert": [
+      "Inter Miami CF"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Land fand die Fußball-WM 2010 statt?",
+    "antwort": "Südafrika"
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welchem Verein wechselte Robert Lewandowski 2022 vom FC Bayern?",
+    "antwort": "FC Barcelona",
+    "akzeptiert": [
+      "Barcelona",
+      "Barça"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Bundesligaverein wird „die Werkself“ genannt?",
+    "antwort": "Bayer 04 Leverkusen",
+    "akzeptiert": [
+      "Leverkusen",
+      "Bayer Leverkusen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Trainer gewann 2013 mit dem FC Bayern das Triple?",
+    "antwort": "Jupp Heynckes",
+    "akzeptiert": [
+      "Heynckes"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie lautet der Spitzname der englischen Nationalmannschaft, der auf das Wappen anspielt?",
+    "antwort": "Three Lions",
+    "akzeptiert": [
+      "Die drei Löwen",
+      "Drei Löwen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welchem saudi-arabischen Verein wechselte Cristiano Ronaldo Anfang 2023?",
+    "antwort": "Al-Nassr",
+    "akzeptiert": [
+      "Al Nassr",
+      "Al-Nassr FC"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher portugiesische Trainer nannte sich selbst „The Special One“?",
+    "antwort": "José Mourinho",
+    "akzeptiert": [
+      "Mourinho",
+      "Jose Mourinho"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Berliner Bundesliga-Traditionsverein wird „die alte Dame“ genannt?",
+    "antwort": "Hertha BSC",
+    "akzeptiert": [
+      "Hertha",
+      "Hertha Berlin"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher brasilianische Spieler wurde 1958, 1962 und 1970 Weltmeister?",
+    "antwort": "Pelé",
+    "akzeptiert": [
+      "Pele"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Land gewann die Europameisterschaft 2020, die 2021 ausgetragen wurde?",
+    "antwort": "Italien"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher deutsche Spieler bezeichnete sich selbst als „Raumdeuter“?",
+    "antwort": "Thomas Müller",
+    "akzeptiert": [
+      "Müller"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welchem Verein gewann Toni Kroos fünfmal die Champions League?",
+    "antwort": "Real Madrid"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Spieler erzielte beim 5:1 gegen Schottland das erste Tor der EM 2024?",
+    "antwort": "Florian Wirtz",
+    "akzeptiert": [
+      "Wirtz"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Brüder standen sich bei der WM 2010 im Spiel Deutschland gegen Ghana als Gegner gegenüber?",
+    "antwort": "Boateng",
+    "akzeptiert": [
+      "Jérôme und Kevin-Prince Boateng",
+      "Boateng-Brüder"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hoch ist ein Fußballtor laut Regelwerk (in Metern)?",
+    "antwort": "2,44 Meter",
+    "akzeptiert": [
+      "2,44",
+      "2.44"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Trainer führte Griechenland 2004 zum EM-Titel?",
+    "antwort": "Otto Rehhagel",
+    "akzeptiert": [
+      "Rehhagel"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Trainer gewann mit Real Madrid von 2016 bis 2018 dreimal in Folge die Champions League?",
+    "antwort": "Zinédine Zidane",
+    "akzeptiert": [
+      "Zidane",
+      "Zinedine Zidane"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Verein besiegte den FC Bayern 2012 im „Finale dahoam“ in München?",
+    "antwort": "FC Chelsea",
+    "akzeptiert": [
+      "Chelsea"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land verlor 2018 das WM-Finale gegen Frankreich?",
+    "antwort": "Kroatien"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Stürmer erzielte 2015 für den FC Bayern gegen Wolfsburg fünf Tore in neun Minuten?",
+    "antwort": "Robert Lewandowski",
+    "akzeptiert": [
+      "Lewandowski"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land ist mit vier Titeln Rekord-Europameister (Stand 2024)?",
+    "antwort": "Spanien"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutsche Verein gewann 1983 mit einem 1:0 gegen Juventus Turin den Europapokal der Landesmeister?",
+    "antwort": "Hamburger SV",
+    "akzeptiert": [
+      "HSV",
+      "Hamburg"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer verwandelte im WM-Finale 1990 den Elfmeter zum 1:0-Sieg gegen Argentinien?",
+    "antwort": "Andreas Brehme",
+    "akzeptiert": [
+      "Brehme"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Gegen welches Land verlor Deutschland 1976 das EM-Finale im Elfmeterschießen?",
+    "antwort": "Tschechoslowakei",
+    "akzeptiert": [
+      "ČSSR",
+      "CSSR"
+    ],
+    "bewertung": "„Tschechien“ allein ist nicht korrekt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man einen Elfmeter, der lässig in die Tormitte gelupft wird – benannt nach einem tschechoslowakischen Spieler?",
+    "antwort": "Panenka",
+    "akzeptiert": [
+      "Panenka-Elfmeter"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Verein wurde 2007 Deutscher Meister?",
+    "antwort": "VfB Stuttgart",
+    "akzeptiert": [
+      "Stuttgart"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Länderspieltore erzielte Miroslav Klose für Deutschland?",
+    "antwort": "71",
+    "akzeptiert": [
+      "einundsiebzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer erzielte im WM-Finale 2010 in der Verlängerung das Siegtor für Spanien gegen die Niederlande?",
+    "antwort": "Andrés Iniesta",
+    "akzeptiert": [
+      "Iniesta",
+      "Andres Iniesta"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß der Löwe, der das offizielle Maskottchen der WM 2006 in Deutschland war?",
+    "antwort": "Goleo",
+    "akzeptiert": [
+      "Goleo VI"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Gegen welchen Verein verlor Bayer Leverkusen 2024 das Europa-League-Finale – die einzige Pflichtspielniederlage der Saison?",
+    "antwort": "Atalanta Bergamo",
+    "akzeptiert": [
+      "Atalanta",
+      "Atalanta BC"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher hessische Verein trägt den Spitznamen „die Lilien“?",
+    "antwort": "SV Darmstadt 98",
+    "akzeptiert": [
+      "Darmstadt",
+      "Darmstadt 98"
+    ]
   }
 ]

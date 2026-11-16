@@ -224,7 +224,7 @@
     "bewertung": "Nachname reicht."
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Welcher US-Präsident wurde 1963 in Dallas erschossen?",
     "antwort": "John F. Kennedy",
     "akzeptiert": [
@@ -234,7 +234,7 @@
     "bewertung": "Nachname reicht."
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Wer war die erste Bundeskanzlerin Deutschlands?",
     "antwort": "Angela Merkel",
     "akzeptiert": [
@@ -323,7 +323,7 @@
     "antwort": "Ukraine"
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Welche Zwillingstürme in New York wurden am 11. September 2001 zerstört?",
     "antwort": "World Trade Center",
     "akzeptiert": [
@@ -332,7 +332,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Welche britische Königin regierte von 1952 bis 2022?",
     "antwort": "Elisabeth II.",
     "akzeptiert": [
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wer schlug 1517 der Überlieferung nach 95 Thesen an die Schlosskirche in Wittenberg?",
     "antwort": "Martin Luther",
     "akzeptiert": [
@@ -407,7 +407,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wer verübte am 20. Juli 1944 ein Bombenattentat auf Hitler?",
     "antwort": "Claus Schenk Graf von Stauffenberg",
     "akzeptiert": [
@@ -417,7 +417,7 @@
     "bewertung": "Nachname Stauffenberg reicht."
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Welcher österreichische Thronfolger wurde 1914 in Sarajevo ermordet?",
     "antwort": "Franz Ferdinand",
     "akzeptiert": [
@@ -517,7 +517,7 @@
     "bewertung": "Auch ‚Friede von Münster und Osnabrück‘ ist richtig."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "An welchem Datum trat 1945 die bedingungslose Kapitulation der Wehrmacht in Kraft (Kriegsende in Europa)?",
     "antwort": "8. Mai 1945",
     "akzeptiert": [
@@ -551,7 +551,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "In welcher Stadt begannen 1989 die Montagsdemonstrationen in der DDR?",
     "antwort": "Leipzig"
   },
@@ -590,7 +590,7 @@
     "bewertung": "Genaues Jahr nötig."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "In welcher Stadt tagte 1919 die Nationalversammlung, nach der die erste deutsche Republik benannt ist?",
     "antwort": "Weimar"
   },
@@ -621,12 +621,12 @@
     "bewertung": "Die Ordnungszahl IV muss stimmen."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welche Stadt eroberten die Kreuzfahrer 1099 im Ersten Kreuzzug?",
     "antwort": "Jerusalem"
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wer flog 1961 als erster Mensch ins Weltall?",
     "antwort": "Juri Gagarin",
     "akzeptiert": [
@@ -649,7 +649,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie hieß der erste künstliche Erdsatellit, den die Sowjetunion 1957 startete?",
     "antwort": "Sputnik",
     "akzeptiert": [
@@ -667,7 +667,7 @@
     "bewertung": "Genaues Jahr nötig: 9 n. Chr."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welcher germanische Heerführer besiegte in der Varusschlacht die Römer?",
     "antwort": "Arminius",
     "akzeptiert": [
@@ -703,7 +703,7 @@
     "bewertung": "Nachname reicht."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt der Vertrag von 1990, mit dem die vier Siegermächte der deutschen Einheit zustimmten?",
     "antwort": "Zwei-plus-Vier-Vertrag",
     "akzeptiert": [
@@ -712,7 +712,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "In welchem Jahr fand am 17. Juni der Volksaufstand in der DDR statt?",
     "antwort": "1953",
     "bewertung": "Genaues Jahr nötig."
@@ -761,7 +761,7 @@
     "bewertung": "Die Ordnungszahl IV muss stimmen."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wer sagte im Juni 1961: „Niemand hat die Absicht, eine Mauer zu errichten“?",
     "antwort": "Walter Ulbricht",
     "akzeptiert": [
@@ -830,5 +830,528 @@
       "Musa I.",
       "Musa"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land überfiel Deutschland am 1. September 1939 und löste damit den Zweiten Weltkrieg aus?",
+    "antwort": "Polen"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nannte man die Könige im alten Ägypten?",
+    "antwort": "Pharao",
+    "akzeptiert": [
+      "Pharaonen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sprache sprachen die alten Römer?",
+    "antwort": "Latein"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die Kriegszüge christlicher Heere ins „Heilige Land“ im Mittelalter?",
+    "antwort": "Kreuzzüge",
+    "akzeptiert": [
+      "Kreuzzug"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Seuche, auch „Schwarzer Tod“ genannt, tötete im 14. Jahrhundert etwa ein Drittel der Menschen in Europa?",
+    "antwort": "Pest",
+    "akzeptiert": [
+      "Beulenpest"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den von den Nationalsozialisten verübten Völkermord an rund sechs Millionen Juden?",
+    "antwort": "Holocaust",
+    "akzeptiert": [
+      "Shoah",
+      "Schoah"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Konzentrations- und Vernichtungslager in Polen wurde zum Symbol des Holocaust?",
+    "antwort": "Auschwitz",
+    "akzeptiert": [
+      "Auschwitz-Birkenau"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die Konfrontation zwischen den USA und der Sowjetunion von 1947 bis 1991, die nie zu einem direkten Krieg führte?",
+    "antwort": "Kalter Krieg"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Zeichen war das Symbol der Nationalsozialisten?",
+    "antwort": "Hakenkreuz",
+    "akzeptiert": [
+      "Swastika"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die älteste Epoche der Menschheit, benannt nach dem wichtigsten Werkstoff für Werkzeuge?",
+    "antwort": "Steinzeit"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wer war von 2009 bis 2017 der erste schwarze Präsident der USA?",
+    "antwort": "Barack Obama",
+    "akzeptiert": [
+      "Obama"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Währung hatte die Bundesrepublik Deutschland vor dem Euro?",
+    "antwort": "D-Mark",
+    "akzeptiert": [
+      "Deutsche Mark",
+      "DM",
+      "Mark"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Pariser Wahrzeichen wurde zur Weltausstellung 1889 gebaut?",
+    "antwort": "Eiffelturm"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches riesige Bauwerk errichteten chinesische Kaiser zum Schutz vor Reitervölkern aus dem Norden?",
+    "antwort": "Chinesische Mauer",
+    "akzeptiert": [
+      "Große Mauer"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Stadt war die Hauptstadt der DDR?",
+    "antwort": "Ost-Berlin",
+    "akzeptiert": [
+      "Berlin"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Stadt sollen der Legende nach die Zwillinge Romulus und Remus gegründet haben?",
+    "antwort": "Rom"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem südostasiatischen Land führten die USA in den 1960er- und 70er-Jahren einen verlustreichen Krieg?",
+    "antwort": "Vietnam"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches ausgestorbene, langhaarige Rüsseltier jagten die Menschen in der Steinzeit?",
+    "antwort": "Mammut",
+    "akzeptiert": [
+      "Wollhaarmammut"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher italienische Künstler und Erfinder der Renaissance malte die Mona Lisa?",
+    "antwort": "Leonardo da Vinci",
+    "akzeptiert": [
+      "Leonardo",
+      "da Vinci"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Physiker stellte die Relativitätstheorie auf und floh 1933 vor den Nazis in die USA?",
+    "antwort": "Albert Einstein",
+    "akzeptiert": [
+      "Einstein"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Jahr endete der Erste Weltkrieg?",
+    "antwort": "1918"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer war während des Zweiten Weltkriegs Diktator der Sowjetunion?",
+    "antwort": "Josef Stalin",
+    "akzeptiert": [
+      "Stalin"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher US-Präsident schaffte im Bürgerkrieg die Sklaverei ab und wurde 1865 ermordet?",
+    "antwort": "Abraham Lincoln",
+    "akzeptiert": [
+      "Lincoln"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Stadt war von 1949 bis 1990 Hauptstadt der Bundesrepublik Deutschland?",
+    "antwort": "Bonn"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Bundeskanzler war bei der Wiedervereinigung 1990 im Amt?",
+    "antwort": "Helmut Kohl",
+    "akzeptiert": [
+      "Kohl"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Militärbündnis gründeten die USA, Kanada und westeuropäische Staaten 1949?",
+    "antwort": "NATO",
+    "akzeptiert": [
+      "Nordatlantikpakt",
+      "OTAN"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche internationale Organisation mit Hauptsitz in New York wurde 1945 zur Sicherung des Weltfriedens gegründet?",
+    "antwort": "Vereinte Nationen",
+    "akzeptiert": [
+      "UNO",
+      "UN"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Land glaubte Kolumbus 1492 erreicht zu haben?",
+    "antwort": "Indien",
+    "akzeptiert": [
+      "Asien",
+      "Ostindien"
+    ],
+    "bewertung": "Auch „Asien“ gilt als richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie hieß der faschistische Diktator Italiens, der mit Hitler verbündet war?",
+    "antwort": "Benito Mussolini",
+    "akzeptiert": [
+      "Mussolini"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Revolutionsführer regierte Kuba ab 1959 fast 50 Jahre lang?",
+    "antwort": "Fidel Castro",
+    "akzeptiert": [
+      "Castro"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wer rief 1949 die Volksrepublik China aus und führte sie bis zu seinem Tod?",
+    "antwort": "Mao Zedong",
+    "akzeptiert": [
+      "Mao",
+      "Mao Tse-tung"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Unter welchem Namen ist die Landung der Alliierten in der Normandie am 6. Juni 1944 bekannt?",
+    "antwort": "D-Day",
+    "akzeptiert": [
+      "Operation Overlord",
+      "Tag X"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Staat wurde 1949 in den drei westlichen Besatzungszonen gegründet?",
+    "antwort": "Bundesrepublik Deutschland",
+    "akzeptiert": [
+      "BRD",
+      "Westdeutschland"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher sowjetische Staatschef leitete ab 1985 mit Glasnost und Perestroika Reformen ein?",
+    "antwort": "Michail Gorbatschow",
+    "akzeptiert": [
+      "Gorbatschow"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Herrscher gründete im 13. Jahrhundert das Mongolische Reich?",
+    "antwort": "Dschingis Khan",
+    "akzeptiert": [
+      "Temüdschin"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie hießen die Angehörigen des japanischen Kriegeradels mit Schwert und Ehrenkodex?",
+    "antwort": "Samurai"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie hieß das Ministerium für Staatssicherheit der DDR umgangssprachlich?",
+    "antwort": "Stasi"
+  },
+  {
+    "stufe": 2,
+    "frage": "Unter welchem Spitznamen ist Kaiserin Elisabeth von Österreich bekannt?",
+    "antwort": "Sisi",
+    "akzeptiert": [
+      "Sissi"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem heutigen Land lag das Reich der Azteken?",
+    "antwort": "Mexiko"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches südamerikanische Volk erbaute die Bergstadt Machu Picchu?",
+    "antwort": "Inka",
+    "akzeptiert": [
+      "Inkas"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher griechische Philosoph wurde 399 v. Chr. zum Tod durch den Schierlingsbecher verurteilt?",
+    "antwort": "Sokrates"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher römische Kaiser soll der Legende nach im Jahr 64 Rom angezündet haben?",
+    "antwort": "Nero"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Land kaufte 1867 Alaska von Russland?",
+    "antwort": "USA",
+    "akzeptiert": [
+      "Vereinigte Staaten"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man den Umbruch ab dem späten 18. Jahrhundert, als in England Fabriken und Dampfmaschinen die Handarbeit ablösten?",
+    "antwort": "Industrielle Revolution",
+    "akzeptiert": [
+      "Industrialisierung"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß der letzte deutsche Kaiser, der 1918 abdankte?",
+    "antwort": "Wilhelm II.",
+    "akzeptiert": [
+      "Wilhelm der Zweite",
+      "Wilhelm"
+    ],
+    "bewertung": "„Wilhelm“ ohne Ordnungszahl gilt als richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Stadt mit der Frauenkirche wurde im Februar 1945 durch Luftangriffe weitgehend zerstört?",
+    "antwort": "Dresden"
+  },
+  {
+    "stufe": 3,
+    "frage": "Die Schlacht um welche Stadt an der Wolga 1942/43 gilt als Wendepunkt des Zweiten Weltkriegs?",
+    "antwort": "Stalingrad",
+    "akzeptiert": [
+      "Wolgograd"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die in Italien beginnende Epoche um 1500, die Kunst und Wissen der Antike wiederbelebte?",
+    "antwort": "Renaissance"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher US-Präsident trat 1974 wegen der Watergate-Affäre zurück?",
+    "antwort": "Richard Nixon",
+    "akzeptiert": [
+      "Nixon"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Kontinent wurde ab 1788 von Großbritannien als Sträflingskolonie besiedelt?",
+    "antwort": "Australien"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Stadt wurde ab 1945 den Hauptkriegsverbrechern des NS-Regimes der Prozess gemacht?",
+    "antwort": "Nürnberg"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer war im Nationalsozialismus Reichsminister für Propaganda?",
+    "antwort": "Joseph Goebbels",
+    "akzeptiert": [
+      "Goebbels"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Astronom stellte 1543 die Sonne statt der Erde in den Mittelpunkt seines Weltbilds?",
+    "antwort": "Nikolaus Kopernikus",
+    "akzeptiert": [
+      "Kopernikus"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Stadt wurden bei den Olympischen Spielen 1972 israelische Sportler von Terroristen ermordet?",
+    "antwort": "München"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Norweger erreichte 1911 als erster Mensch den Südpol?",
+    "antwort": "Roald Amundsen",
+    "akzeptiert": [
+      "Amundsen"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Wikinger erreichte um das Jahr 1000 als einer der ersten Europäer Nordamerika?",
+    "antwort": "Leif Eriksson",
+    "akzeptiert": [
+      "Leif Erikson",
+      "Leif"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welchen Grenzfluss überschritt Caesar 49 v. Chr. mit den Worten „Der Würfel ist gefallen“?",
+    "antwort": "Rubikon"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Herrscherfamilie regierte Russland bis zur Revolution 1917?",
+    "antwort": "Romanow",
+    "akzeptiert": [
+      "Romanows",
+      "Romanov"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß das Schiff, mit dem die Pilgerväter 1620 nach Nordamerika segelten?",
+    "antwort": "Mayflower"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher spanische Konquistador eroberte ab 1519 das Aztekenreich?",
+    "antwort": "Hernán Cortés",
+    "akzeptiert": [
+      "Cortés",
+      "Cortez"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Reichspräsident ernannte Hitler im Januar 1933 zum Reichskanzler?",
+    "antwort": "Paul von Hindenburg",
+    "akzeptiert": [
+      "Hindenburg"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher britische Admiral siegte 1805 bei Trafalgar und fiel in der Schlacht?",
+    "antwort": "Horatio Nelson",
+    "akzeptiert": [
+      "Nelson"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Stadt war die Hauptstadt des Inkareichs?",
+    "antwort": "Cusco",
+    "akzeptiert": [
+      "Cuzco",
+      "Cuzko"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher römische Kaiser machte 330 Byzanz zur neuen Hauptstadt und gab ihr seinen Namen?",
+    "antwort": "Konstantin der Große",
+    "akzeptiert": [
+      "Konstantin",
+      "Konstantin I."
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Theologe führte im Bauernkrieg 1525 aufständische Bauern in Thüringen an und wurde hingerichtet?",
+    "antwort": "Thomas Müntzer",
+    "akzeptiert": [
+      "Müntzer"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Ostgotenkönig herrschte ab 493 von Ravenna aus über Italien?",
+    "antwort": "Theoderich der Große",
+    "akzeptiert": [
+      "Theoderich",
+      "Dietrich von Bern"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher griechische Geschichtsschreiber des 5. Jh. v. Chr. gilt als „Vater der Geschichtsschreibung“?",
+    "antwort": "Herodot"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Konferenz in Berlin 1884/85, auf der die europäischen Mächte Regeln für die Aufteilung Afrikas festlegten?",
+    "antwort": "Kongokonferenz",
+    "akzeptiert": [
+      "Berliner Konferenz",
+      "Afrika-Konferenz"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher sowjetische Parteichef rechnete 1956 in einer Geheimrede mit den Verbrechen Stalins ab?",
+    "antwort": "Nikita Chruschtschow",
+    "akzeptiert": [
+      "Chruschtschow"
+    ],
+    "bewertung": "Nachname reicht."
   }
 ]

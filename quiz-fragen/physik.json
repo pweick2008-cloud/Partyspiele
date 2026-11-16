@@ -9,29 +9,11 @@
   },
   {
     "stufe": 1,
-    "frage": "Welcher Physiker soll der Legende nach durch einen fallenden Apfel auf die Idee der Gravitation gekommen sein?",
-    "antwort": "Isaac Newton",
-    "akzeptiert": [
-      "Newton"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 1,
     "frage": "In welcher Einheit wird die elektrische Stromstärke gemessen?",
     "antwort": "Ampere",
     "akzeptiert": [
       "A"
     ]
-  },
-  {
-    "stufe": 1,
-    "frage": "Welcher Physiker entwickelte die Relativitätstheorie?",
-    "antwort": "Albert Einstein",
-    "akzeptiert": [
-      "Einstein"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 1,
@@ -156,15 +138,6 @@
   },
   {
     "stufe": 2,
-    "frage": "Nach welchem Physiker ist die SI-Einheit der Kraft benannt?",
-    "antwort": "Isaac Newton",
-    "akzeptiert": [
-      "Newton"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 2,
     "frage": "Bei wie viel Grad Celsius siedet Wasser auf Meereshöhe (Normaldruck)?",
     "antwort": "100 °C",
     "akzeptiert": [
@@ -197,16 +170,6 @@
     "akzeptiert": [
       "Hz"
     ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Welcher deutsche Physiker entdeckte 1895 die nach ihm benannten Strahlen?",
-    "antwort": "Wilhelm Conrad Röntgen",
-    "akzeptiert": [
-      "Röntgen",
-      "Roentgen"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 2,
@@ -243,29 +206,11 @@
   },
   {
     "stufe": 2,
-    "frage": "Welcher italienische Gelehrte soll Fallversuche am Schiefen Turm von Pisa durchgeführt haben?",
-    "antwort": "Galileo Galilei",
-    "akzeptiert": [
-      "Galilei",
-      "Galileo"
-    ]
-  },
-  {
-    "stufe": 2,
     "frage": "Was misst ein Barometer?",
     "antwort": "Luftdruck",
     "akzeptiert": [
       "Druck"
     ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Welcher britische Physiker schrieb „Eine kurze Geschichte der Zeit“ und saß im Rollstuhl?",
-    "antwort": "Stephen Hawking",
-    "akzeptiert": [
-      "Hawking"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 2,
@@ -426,11 +371,6 @@
   },
   {
     "stufe": 3,
-    "frage": "Marie Curie erhielt Nobelpreise in zwei Fächern: Physik und …?",
-    "antwort": "Chemie"
-  },
-  {
-    "stufe": 3,
     "frage": "Wie schnell breitet sich Schall in Luft bei Raumtemperatur ungefähr aus – in Metern pro Sekunde?",
     "antwort": "ca. 343 m/s",
     "akzeptiert": [
@@ -459,11 +399,6 @@
   },
   {
     "stufe": 3,
-    "frage": "Welcher antike Gelehrte soll in der Badewanne „Heureka!“ gerufen haben?",
-    "antwort": "Archimedes"
-  },
-  {
-    "stufe": 3,
     "frage": "Welche unsichtbare Strahlung machen Wärmebildkameras sichtbar?",
     "antwort": "Infrarotstrahlung",
     "akzeptiert": [
@@ -489,15 +424,6 @@
       "220"
     ],
     "bewertung": "230 ist richtig; das veraltete 220 auch gelten lassen."
-  },
-  {
-    "stufe": 3,
-    "frage": "Nach welchem schottischen Erfinder, bekannt für die Verbesserung der Dampfmaschine, ist die Einheit der Leistung benannt?",
-    "antwort": "James Watt",
-    "akzeptiert": [
-      "Watt"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 3,
@@ -530,24 +456,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Wie heißt das Elementarteilchen, dessen Nachweis 2012 am CERN gelang und das umgangssprachlich „Gottesteilchen“ genannt wird?",
-    "antwort": "Higgs-Boson",
-    "akzeptiert": [
-      "Higgs-Teilchen",
-      "Higgs"
-    ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Astronom formulierte Anfang des 17. Jahrhunderts die drei Gesetze der Planetenbewegung?",
-    "antwort": "Johannes Kepler",
-    "akzeptiert": [
-      "Kepler"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
     "frage": "Wie heißt das elektronische Bauteil, das Strom nur in eine Richtung durchlässt?",
     "antwort": "Diode",
     "akzeptiert": [
@@ -569,36 +477,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Für die Erklärung welches Effekts erhielt Albert Einstein den Nobelpreis für Physik?",
-    "antwort": "Photoelektrischer Effekt",
-    "akzeptiert": [
-      "Fotoeffekt",
-      "Photoeffekt",
-      "lichtelektrischer Effekt",
-      "photoelektrischer Effekt"
-    ],
-    "bewertung": "Relativitätstheorie ist falsch."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher dänische Physiker stellte 1913 ein Atommodell mit festen Elektronenbahnen auf?",
-    "antwort": "Niels Bohr",
-    "akzeptiert": [
-      "Bohr"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Physiker schloss 1911 aus Streuversuchen mit Goldfolie, dass Atome einen winzigen Kern haben?",
-    "antwort": "Ernest Rutherford",
-    "akzeptiert": [
-      "Rutherford"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
     "frage": "Wie heißt die SI-Einheit der magnetischen Flussdichte?",
     "antwort": "Tesla",
     "akzeptiert": [
@@ -612,25 +490,6 @@
     "akzeptiert": [
       "F"
     ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Physiker erdachte ein Gedankenexperiment mit einer Katze, die zugleich tot und lebendig ist?",
-    "antwort": "Erwin Schrödinger",
-    "akzeptiert": [
-      "Schrödinger",
-      "Schroedinger"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Nach welchem deutschen Physiker ist die Unschärferelation der Quantenmechanik benannt?",
-    "antwort": "Werner Heisenberg",
-    "akzeptiert": [
-      "Heisenberg"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 4,
@@ -685,24 +544,6 @@
     ]
   },
   {
-    "stufe": 4,
-    "frage": "In der Nähe welcher Schweizer Stadt liegt das Forschungszentrum CERN?",
-    "antwort": "Genf",
-    "akzeptiert": [
-      "Genève",
-      "Geneva"
-    ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Nach welchem deutschen Erfinder und Unternehmer ist die Einheit des elektrischen Leitwerts benannt?",
-    "antwort": "Werner von Siemens",
-    "akzeptiert": [
-      "Siemens"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
     "stufe": 5,
     "frage": "Wie heißt die Lichtstreuung an Luftmolekülen, die erklärt, warum der Himmel blau ist? (Nach einem britischen Physiker benannt)",
     "antwort": "Rayleigh-Streuung",
@@ -722,15 +563,6 @@
       "-40 °F"
     ],
     "bewertung": "Genau −40, Minuszeichen nötig, Einheit egal."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher englische Forscher entdeckte 1831 die elektromagnetische Induktion?",
-    "antwort": "Michael Faraday",
-    "akzeptiert": [
-      "Faraday"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 5,
@@ -788,14 +620,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Mit welchem US-Detektor (Abkürzung) wurden 2015 erstmals Gravitationswellen direkt nachgewiesen?",
-    "antwort": "LIGO",
-    "akzeptiert": [
-      "Ligo"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Aus welchen Quarks besteht ein Proton?",
     "antwort": "2 Up-Quarks und 1 Down-Quark",
     "akzeptiert": [
@@ -840,15 +664,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher deutsche Physiker wies Ende der 1880er-Jahre als Erster elektromagnetische Wellen experimentell nach?",
-    "antwort": "Heinrich Hertz",
-    "akzeptiert": [
-      "Hertz"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt der oft „vierter Aggregatzustand“ genannte Zustand, in dem ein Gas aus Ionen und freien Elektronen besteht?",
     "antwort": "Plasma"
   },
@@ -864,26 +679,12 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher schottische Physiker fasste den Elektromagnetismus in vier berühmten Gleichungen zusammen?",
-    "antwort": "James Clerk Maxwell",
-    "akzeptiert": [
-      "Maxwell"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
     "frage": "Nach wem ist der Effekt benannt, der einen angeschnittenen, rotierenden Fußball eine Kurve fliegen lässt?",
     "antwort": "Magnus-Effekt",
     "akzeptiert": [
       "Magnus",
       "Heinrich Gustav Magnus"
     ]
-  },
-  {
-    "stufe": 5,
-    "frage": "In welchem Jahr – Einsteins „Wunderjahr“ – veröffentlichte er die spezielle Relativitätstheorie?",
-    "antwort": "1905"
   },
   {
     "stufe": 5,
@@ -896,5 +697,660 @@
       "4,1868"
     ],
     "bewertung": "Werte von 4,18 bis 4,2 sind richtig. Kilokalorie/4184 J nur, wenn klar auf kcal bezogen."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die SI-Grundeinheit der Masse?",
+    "antwort": "Kilogramm",
+    "akzeptiert": [
+      "kg"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den Übergang eines Stoffes von flüssig zu gasförmig?",
+    "antwort": "Verdampfen",
+    "akzeptiert": [
+      "Sieden",
+      "Verdunsten",
+      "Verdampfung"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den Übergang eines Stoffes von fest zu flüssig?",
+    "antwort": "Schmelzen"
+  },
+  {
+    "stufe": 1,
+    "frage": "Ziehen sich zwei Nordpole von Magneten an oder stoßen sie sich ab?",
+    "antwort": "Sie stoßen sich ab",
+    "akzeptiert": [
+      "abstoßen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Metall wird von einem Magneten angezogen: Eisen oder Kupfer?",
+    "antwort": "Eisen"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Stoffe, die elektrischen Strom gut leiten, z. B. Kupfer?",
+    "antwort": "Leiter",
+    "akzeptiert": [
+      "elektrische Leiter"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Kann sich Schall im luftleeren Weltraum ausbreiten?",
+    "antwort": "Nein"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Punkt, um den sich ein Hebel dreht?",
+    "antwort": "Drehpunkt",
+    "akzeptiert": [
+      "Drehachse"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche physikalische Größe gibt man in km/h an?",
+    "antwort": "Geschwindigkeit"
+  },
+  {
+    "stufe": 1,
+    "frage": "Dehnen sich die meisten Stoffe beim Erwärmen aus oder ziehen sie sich zusammen?",
+    "antwort": "Sie dehnen sich aus",
+    "akzeptiert": [
+      "ausdehnen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Ein Auto fährt eine Stunde lang mit 60 km/h. Wie weit kommt es?",
+    "antwort": "60 km",
+    "akzeptiert": [
+      "60"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den dunklen Bereich hinter einem Gegenstand, der Licht abblockt?",
+    "antwort": "Schatten"
+  },
+  {
+    "stufe": 1,
+    "frage": "Steigt in einem Raum warme oder kalte Luft nach oben?",
+    "antwort": "Warme Luft",
+    "akzeptiert": [
+      "warm"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den geschlossenen Weg, durch den elektrischer Strom von der Batterie zur Lampe und zurück fließt?",
+    "antwort": "Stromkreis"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die SI-Grundeinheit der Zeit?",
+    "antwort": "Sekunde",
+    "akzeptiert": [
+      "s"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Fläche wird in der Sonne schneller warm: eine schwarze oder eine weiße?",
+    "antwort": "Die schwarze",
+    "akzeptiert": [
+      "schwarz"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welcher Formel berechnet man die Geschwindigkeit aus Strecke s und Zeit t?",
+    "antwort": "v = s / t",
+    "akzeptiert": [
+      "s/t",
+      "Strecke durch Zeit"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man den Übergang von gasförmig zu flüssig, z. B. am beschlagenen Badezimmerspiegel?",
+    "antwort": "Kondensation",
+    "akzeptiert": [
+      "Kondensieren"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das positiv geladene Teilchen im Atomkern?",
+    "antwort": "Proton"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Farbe ergibt sich, wenn man alle Farben des Lichtspektrums zusammenmischt?",
+    "antwort": "Weiß"
+  },
+  {
+    "stufe": 2,
+    "frage": "Ziehen sich eine positive und eine negative elektrische Ladung an oder stoßen sie sich ab?",
+    "antwort": "Sie ziehen sich an",
+    "akzeptiert": [
+      "anziehen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man die Energie, die ein Körper aufgrund seiner Bewegung hat?",
+    "antwort": "Bewegungsenergie",
+    "akzeptiert": [
+      "kinetische Energie"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man die Energie, die ein hochgehobener Körper wegen seiner Höhe hat?",
+    "antwort": "Lageenergie",
+    "akzeptiert": [
+      "potentielle Energie",
+      "Höhenenergie",
+      "potenzielle Energie"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt eine Linse, die in der Mitte dicker ist als am Rand?",
+    "antwort": "Sammellinse",
+    "akzeptiert": [
+      "Konvexlinse",
+      "konvexe Linse"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Bei der Reflexion an einem Spiegel gilt: Einfallswinkel gleich …?",
+    "antwort": "Ausfallswinkel",
+    "akzeptiert": [
+      "Reflexionswinkel"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel wiegt ein Liter Wasser ungefähr?",
+    "antwort": "1 kg",
+    "akzeptiert": [
+      "1000 g",
+      "ein Kilogramm"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Messgerät für die elektrische Stromstärke?",
+    "antwort": "Amperemeter",
+    "akzeptiert": [
+      "Strommesser",
+      "Strommessgerät",
+      "Multimeter"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Watt sind ein Kilowatt?",
+    "antwort": "1000",
+    "akzeptiert": [
+      "tausend"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Schwimmt ein Gegenstand, dessen Dichte kleiner ist als die von Wasser, oder geht er unter?",
+    "antwort": "Er schwimmt",
+    "akzeptiert": [
+      "schwimmt"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie gelangt die Wärme der Sonne durch den leeren Weltraum zur Erde: durch Wärmeleitung, Wärmeströmung oder Wärmestrahlung?",
+    "antwort": "Wärmestrahlung",
+    "akzeptiert": [
+      "Strahlung"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Schaltung, bei der mehrere Lampen direkt hintereinander in einem Stromkreis liegen?",
+    "antwort": "Reihenschaltung",
+    "akzeptiert": [
+      "Serienschaltung"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Ton hat die höhere Frequenz: ein hoher oder ein tiefer?",
+    "antwort": "Der hohe Ton",
+    "akzeptiert": [
+      "hoch",
+      "hoher Ton"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel km/h sind 10 m/s?",
+    "antwort": "36 km/h",
+    "akzeptiert": [
+      "36"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel m/s sind 72 km/h?",
+    "antwort": "20 m/s",
+    "akzeptiert": [
+      "20"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Eine 60-Watt-Lampe brennt 10 Stunden. Wie viele Kilowattstunden verbraucht sie?",
+    "antwort": "0,6 kWh",
+    "akzeptiert": [
+      "0,6",
+      "0.6"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Zwischen Blitz und Donner vergehen 3 Sekunden. Wie weit ist das Gewitter ungefähr entfernt?",
+    "antwort": "ca. 1 km",
+    "akzeptiert": [
+      "1 km",
+      "1000 m"
+    ],
+    "bewertung": "Etwa 1 km (auch 900 m bis 1,1 km) ist richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Schaltung, bei der Lampen in getrennten Zweigen nebeneinander an derselben Spannung liegen?",
+    "antwort": "Parallelschaltung"
+  },
+  {
+    "stufe": 3,
+    "frage": "An einem Widerstand von 4 Ohm liegen 12 Volt. Wie groß ist die Stromstärke?",
+    "antwort": "3 A",
+    "akzeptiert": [
+      "3",
+      "3 Ampere"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Ein Wasserkocher wird mit 230 V betrieben, es fließen 2 A. Welche Leistung hat er?",
+    "antwort": "460 W",
+    "akzeptiert": [
+      "460",
+      "460 Watt"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie lautet die Formel für Kraft, Masse und Beschleunigung?",
+    "antwort": "F = m · a",
+    "akzeptiert": [
+      "F=ma",
+      "F = m*a"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie groß ist die Gewichtskraft auf einen 10-kg-Körper, wenn man g ≈ 10 m/s² rechnet?",
+    "antwort": "100 N",
+    "akzeptiert": [
+      "100",
+      "100 Newton"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Ein Körper hat eine Masse von 500 g und ein Volumen von 250 cm³. Wie groß ist seine Dichte in g/cm³?",
+    "antwort": "2 g/cm³",
+    "akzeptiert": [
+      "2"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt eine Linse, die in der Mitte dünner ist als am Rand?",
+    "antwort": "Zerstreuungslinse",
+    "akzeptiert": [
+      "Konkavlinse",
+      "konkave Linse"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel Kelvin sind 25 °C (gerundet)?",
+    "antwort": "298 K",
+    "akzeptiert": [
+      "298",
+      "298,15 K"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man die Wärmeübertragung, bei der erwärmte Flüssigkeit oder Luft selbst strömt und die Wärme mitnimmt?",
+    "antwort": "Wärmeströmung",
+    "akzeptiert": [
+      "Konvektion"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Die Anzahl welcher Teilchen im Atomkern legt fest, um welches chemische Element es sich handelt?",
+    "antwort": "Protonen",
+    "akzeptiert": [
+      "Proton"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man Atome desselben Elements mit unterschiedlich vielen Neutronen?",
+    "antwort": "Isotope",
+    "akzeptiert": [
+      "Isotop"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Eine Kraft von 50 N verschiebt eine Kiste um 2 m. Wie viel Arbeit wird verrichtet?",
+    "antwort": "100 J",
+    "akzeptiert": [
+      "100",
+      "100 Joule",
+      "100 Nm"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie lautet die Formel, die Ausbreitungsgeschwindigkeit c, Wellenlänge λ und Frequenz f einer Welle verbindet?",
+    "antwort": "c = λ · f",
+    "akzeptiert": [
+      "c = lambda * f",
+      "c=λf"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie lautet die Formel für die Lageenergie eines Körpers mit Masse m in der Höhe h?",
+    "antwort": "E = m · g · h",
+    "akzeptiert": [
+      "mgh",
+      "E=mgh"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Ist Schall in Luft eine Längswelle oder eine Querwelle?",
+    "antwort": "Längswelle",
+    "akzeptiert": [
+      "Longitudinalwelle"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Ein Stein fällt aus der Ruhe 2 Sekunden frei (g ≈ 10 m/s², ohne Luftwiderstand). Wie schnell ist er dann?",
+    "antwort": "20 m/s",
+    "akzeptiert": [
+      "20"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Meter fällt ein Stein in den ersten 2 Sekunden aus der Ruhe (g ≈ 10 m/s², ohne Luftwiderstand)?",
+    "antwort": "20 m",
+    "akzeptiert": [
+      "20"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie groß ist der Gesamtwiderstand, wenn 6 Ohm und 3 Ohm parallel geschaltet sind?",
+    "antwort": "2 Ω",
+    "akzeptiert": [
+      "2",
+      "2 Ohm"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie lautet die Formel für den Impuls eines Körpers mit Masse m und Geschwindigkeit v?",
+    "antwort": "p = m · v",
+    "akzeptiert": [
+      "p=mv",
+      "p = m*v"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Ein Motor verrichtet in 4 Sekunden 1200 J Arbeit. Welche Leistung hat er?",
+    "antwort": "300 W",
+    "akzeptiert": [
+      "300",
+      "300 Watt"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Schall (340 m/s) hat eine Frequenz von 170 Hz. Wie groß ist seine Wellenlänge?",
+    "antwort": "2 m",
+    "akzeptiert": [
+      "2"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die radioaktive Strahlung, die aus Heliumkernen besteht?",
+    "antwort": "Alphastrahlung",
+    "akzeptiert": [
+      "Alpha",
+      "α-Strahlung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viel Prozent eines radioaktiven Stoffes sind nach zwei Halbwertszeiten noch übrig?",
+    "antwort": "25 %",
+    "akzeptiert": [
+      "25",
+      "ein Viertel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Eine Kraft von 100 N drückt auf eine Fläche von 0,5 m². Wie groß ist der Druck in Pascal?",
+    "antwort": "200 Pa",
+    "akzeptiert": [
+      "200"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Eine Linse hat eine Brennweite von 0,5 m. Wie groß ist ihre Brechkraft in Dioptrien?",
+    "antwort": "2 dpt",
+    "akzeptiert": [
+      "2"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Gerät, das eine Wechselspannung herauf- oder heruntersetzt?",
+    "antwort": "Transformator",
+    "akzeptiert": [
+      "Trafo"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man den Vorgang, bei dem ein schwerer Atomkern wie Uran in zwei mittelschwere Kerne zerbricht?",
+    "antwort": "Kernspaltung",
+    "akzeptiert": [
+      "Spaltung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man den Vorgang in der Sonne, bei dem Wasserstoffkerne zu Helium verschmelzen?",
+    "antwort": "Kernfusion",
+    "akzeptiert": [
+      "Fusion"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wasser hat eine spezifische Wärmekapazität von etwa 4,2 kJ/(kg·K). Wie viel Energie braucht man, um 1 kg Wasser um 10 K zu erwärmen?",
+    "antwort": "42 kJ",
+    "akzeptiert": [
+      "42",
+      "42000 J",
+      "ca. 42 kJ"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie groß ist die Fluchtgeschwindigkeit von der Erdoberfläche ungefähr?",
+    "antwort": "ca. 11,2 km/s",
+    "akzeptiert": [
+      "11,2 km/s",
+      "11 km/s",
+      "ca. 40.000 km/h"
+    ],
+    "bewertung": "Etwa 11 km/s (ca. 40.000 km/h) ist richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie ändert sich die Gravitationskraft zwischen zwei Körpern, wenn man ihren Abstand verdoppelt?",
+    "antwort": "Sie sinkt auf ein Viertel",
+    "akzeptiert": [
+      "ein Viertel",
+      "1/4",
+      "viertelt sich"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet die Formel für die Zentripetalkraft bei einer Kreisbewegung (Masse m, Geschwindigkeit v, Radius r)?",
+    "antwort": "F = m · v² / r",
+    "akzeptiert": [
+      "mv²/r",
+      "F = m*v^2/r"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Um welchen Faktor steigt die Bewegungsenergie eines Autos, wenn es doppelt so schnell fährt?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vervierfacht",
+      "Faktor 4",
+      "viermal"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie ändert sich die Schwingungsdauer eines Fadenpendels, wenn man die Fadenlänge vervierfacht?",
+    "antwort": "Sie verdoppelt sich",
+    "akzeptiert": [
+      "verdoppelt",
+      "doppelt so lang",
+      "Faktor 2"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche radioaktive Strahlung durchdringt Materie am stärksten: Alpha-, Beta- oder Gammastrahlung?",
+    "antwort": "Gammastrahlung",
+    "akzeptiert": [
+      "Gamma",
+      "γ-Strahlung"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Glas hat die Brechzahl 1,5. Wie schnell ist Licht im Glas ungefähr (in km/s)?",
+    "antwort": "200.000 km/s",
+    "akzeptiert": [
+      "200000",
+      "200.000"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Joule sind eine Kilowattstunde?",
+    "antwort": "3,6 Millionen J",
+    "akzeptiert": [
+      "3.600.000",
+      "3,6 MJ",
+      "3600000"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche physikalische Größe gibt man in Elektronenvolt (eV) an?",
+    "antwort": "Energie"
+  },
+  {
+    "stufe": 5,
+    "frage": "Ein Kondensator mit 2 µF liegt an 10 V. Wie groß ist die gespeicherte Ladung?",
+    "antwort": "20 µC",
+    "akzeptiert": [
+      "20 Mikrocoulomb",
+      "2·10⁻⁵ C"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet die Formel für die Energie eines Photons mit der Frequenz f?",
+    "antwort": "E = h · f",
+    "akzeptiert": [
+      "E=hf",
+      "h*f"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Hat ein Photon mit mehr Energie eine längere oder eine kürzere Wellenlänge?",
+    "antwort": "Kürzere",
+    "akzeptiert": [
+      "kürzer"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Bei welchem Abwurfwinkel fliegt ein Ball ohne Luftwiderstand (auf ebenem Boden) am weitesten?",
+    "antwort": "45°",
+    "akzeptiert": [
+      "45",
+      "45 Grad"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Größe nimmt laut dem zweiten Hauptsatz der Thermodynamik in einem abgeschlossenen System nie ab?",
+    "antwort": "Entropie"
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit welcher Geschwindigkeit trifft ein Stein auf, der aus 5 m Höhe frei fällt (g ≈ 10 m/s², ohne Luftwiderstand)?",
+    "antwort": "10 m/s",
+    "akzeptiert": [
+      "10",
+      "36 km/h"
+    ]
   }
 ]

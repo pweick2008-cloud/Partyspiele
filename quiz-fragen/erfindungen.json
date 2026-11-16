@@ -843,5 +843,367 @@
       "Tomlinson"
     ],
     "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Messgerät bestimmt man die Temperatur?",
+    "antwort": "Thermometer"
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Gerät aus Linsen oder Spiegeln beobachtet man weit entfernte Sterne?",
+    "antwort": "Teleskop",
+    "akzeptiert": [
+      "Fernrohr"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie hieß der Kurznachrichtendienst, der 2023 in „X“ umbenannt wurde?",
+    "antwort": "Twitter"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Konzern stellt die Spielkonsole Xbox her?",
+    "antwort": "Microsoft"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Webbrowser von Google?",
+    "antwort": "Chrome",
+    "akzeptiert": [
+      "Google Chrome"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Gerät zeigt mit einer magnetischen Nadel nach Norden?",
+    "antwort": "Kompass"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Küchengerät erwärmt Essen mit elektromagnetischen Wellen?",
+    "antwort": "Mikrowelle",
+    "akzeptiert": [
+      "Mikrowellenherd"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Tablet-Computer, den Apple 2010 auf den Markt brachte?",
+    "antwort": "iPad"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht das „E“ in E-Mail?",
+    "antwort": "Electronic",
+    "akzeptiert": [
+      "elektronisch"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche runde Erfindung aus der Zeit um 3500 v. Chr. trägt bis heute Wagen und Autos?",
+    "antwort": "Rad",
+    "akzeptiert": [
+      "Das Rad"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welchem Land stammt die Video-App TikTok?",
+    "antwort": "China"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die PC-Spieleplattform der Firma Valve?",
+    "antwort": "Steam"
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welchem chemischen Element bestehen Computerchips hauptsächlich?",
+    "antwort": "Silizium",
+    "akzeptiert": [
+      "Silicium",
+      "Si"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Konzern hinter Facebook, Instagram und WhatsApp seit seiner Umbenennung 2021?",
+    "antwort": "Meta",
+    "akzeptiert": [
+      "Meta Platforms"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Code aus kurzen und langen Signalen ist nach einem US-Erfinder benannt?",
+    "antwort": "Morsecode",
+    "akzeptiert": [
+      "Morsealphabet",
+      "Morse"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Fluggerät ließen die französischen Brüder Montgolfier 1783 aufsteigen?",
+    "antwort": "Heißluftballon",
+    "akzeptiert": [
+      "Ballon",
+      "Montgolfiere"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Nach welchem deutschen Grafen sind die großen Starrluftschiffe benannt?",
+    "antwort": "Ferdinand von Zeppelin",
+    "akzeptiert": [
+      "Zeppelin",
+      "Graf Zeppelin"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches US-Unternehmen stellt die Grafikkarten der Reihe GeForce her?",
+    "antwort": "Nvidia"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht „VR“ bei VR-Brillen?",
+    "antwort": "Virtual Reality",
+    "akzeptiert": [
+      "virtuelle Realität"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Unternehmen brachte 1989 den Game Boy heraus?",
+    "antwort": "Nintendo"
+  },
+  {
+    "stufe": 3,
+    "frage": "Nürnberg und welche Stadt verband 1835 die erste deutsche Eisenbahn?",
+    "antwort": "Fürth"
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welchem brennbaren Gas war das Luftschiff „Hindenburg“ gefüllt, das 1937 in Lakehurst in Flammen aufging?",
+    "antwort": "Wasserstoff"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Danziger Physiker baute ein Quecksilberthermometer und ist Namensgeber einer Temperaturskala?",
+    "antwort": "Daniel Gabriel Fahrenheit",
+    "akzeptiert": [
+      "Fahrenheit"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Weltraumteleskop, das 1990 in die Erdumlaufbahn gebracht wurde?",
+    "antwort": "Hubble",
+    "akzeptiert": [
+      "Hubble-Weltraumteleskop"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher italienische Gelehrte entdeckte 1610 mit einem selbst gebauten Fernrohr vier Jupitermonde?",
+    "antwort": "Galileo Galilei",
+    "akzeptiert": [
+      "Galilei",
+      "Galileo"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Kleidungsstück ließen sich Levi Strauss und Jacob Davis 1873 patentieren?",
+    "antwort": "Jeans",
+    "akzeptiert": [
+      "Bluejeans",
+      "Jeanshose"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welchen Verschluss erfand der Schweizer George de Mestral nach dem Vorbild von Pflanzenkletten?",
+    "antwort": "Klettverschluss"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß das Schaf, das 1996 als erstes Säugetier aus einer erwachsenen Körperzelle geklont wurde?",
+    "antwort": "Dolly"
+  },
+  {
+    "stufe": 3,
+    "frage": "In der Nähe welcher Schweizer Stadt liegt das Forschungszentrum CERN?",
+    "antwort": "Genf"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher britische Mathematiker half im Zweiten Weltkrieg, die deutsche Verschlüsselungsmaschine Enigma zu knacken?",
+    "antwort": "Alan Turing",
+    "akzeptiert": [
+      "Turing"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Engländer baute 1829 mit seinem Sohn die berühmte Dampflokomotive „Rocket“?",
+    "antwort": "George Stephenson",
+    "akzeptiert": [
+      "Stephenson"
+    ],
+    "bewertung": "Nachname reicht. Auch Robert Stephenson gilt als richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht die Abkürzung NASA?",
+    "antwort": "National Aeronautics and Space Administration"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht die Abkürzung LCD?",
+    "antwort": "Liquid Crystal Display",
+    "akzeptiert": [
+      "Flüssigkristallanzeige"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Jahr kam die erste PlayStation in Japan auf den Markt?",
+    "antwort": "1994"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß der IBM-Computer, der 1997 Schachweltmeister Garri Kasparow in einem Wettkampf besiegte?",
+    "antwort": "Deep Blue"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Programmiersprache veröffentlichte der Niederländer Guido van Rossum 1991?",
+    "antwort": "Python"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Schotte erfand 1888 den luftgefüllten Fahrradreifen und ist Namensgeber einer Reifenmarke?",
+    "antwort": "John Boyd Dunlop",
+    "akzeptiert": [
+      "Dunlop"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher englische Physiker entdeckte 1831 die elektromagnetische Induktion?",
+    "antwort": "Michael Faraday",
+    "akzeptiert": [
+      "Faraday"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht die Abkürzung des Bildformats GIF?",
+    "antwort": "Graphics Interchange Format"
+  },
+  {
+    "stufe": 4,
+    "frage": "Nach welchem französischen Forscher ist das kurze Erhitzen von Milch zur Haltbarmachung benannt?",
+    "antwort": "Louis Pasteur",
+    "akzeptiert": [
+      "Pasteur"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was erfand der US-Ingenieur Willis Carrier 1902?",
+    "antwort": "Klimaanlage"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Schotte führte 1926 in London als Erster öffentlich ein funktionierendes Fernsehsystem vor?",
+    "antwort": "John Logie Baird",
+    "akzeptiert": [
+      "Baird"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher französische Erfinder schuf um 1826 die älteste erhaltene Fotografie?",
+    "antwort": "Joseph Nicéphore Niépce",
+    "akzeptiert": [
+      "Niépce",
+      "Niepce"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche US-Informatikerin und Marineoffizierin entwickelte einen der ersten Compiler und prägte die Sprache COBOL?",
+    "antwort": "Grace Hopper",
+    "akzeptiert": [
+      "Hopper"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutschstämmige Erfinder ließ sich 1887 das Grammophon für Schallplatten patentieren?",
+    "antwort": "Emil Berliner",
+    "akzeptiert": [
+      "Berliner"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Engländer baute 1712 die erste praktisch genutzte Dampfmaschine?",
+    "antwort": "Thomas Newcomen",
+    "akzeptiert": [
+      "Newcomen"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutsche Chemiker entwickelte das Verfahren zur Ammoniaksynthese, das Carl Bosch industriell umsetzte?",
+    "antwort": "Fritz Haber",
+    "akzeptiert": [
+      "Haber"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß die erste Heim-Videospielkonsole, die Magnavox 1972 auf den Markt brachte?",
+    "antwort": "Odyssey",
+    "akzeptiert": [
+      "Magnavox Odyssey"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Franzose entwickelte als Jugendlicher die nach ihm benannte Punktschrift für Blinde?",
+    "antwort": "Louis Braille",
+    "akzeptiert": [
+      "Braille"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutsche Unternehmer entdeckte 1866 das dynamoelektrische Prinzip und gründete einen großen Elektrokonzern?",
+    "antwort": "Werner von Siemens",
+    "akzeptiert": [
+      "Siemens"
+    ],
+    "bewertung": "Nachname reicht."
   }
 ]

@@ -1,102 +1,1371 @@
 [
-  {"stufe":1,"frage":"Dieses Tier ist das größte heute lebende Säugetier.","antwort":"Was ist der Blauwal?","akzeptiert":["Welches ist das größte Säugetier? – Der Blauwal","Blauwal"],"bewertung":"Richtig, wenn als Frage formuliert und der Blauwal gemeint ist („Was ist der Blauwal?“, „Wer ist …“). Nur „Blauwal“ ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieses rund 330 Meter hohe Bauwerk in Paris wurde zur Weltausstellung 1889 errichtet.","antwort":"Was ist der Eiffelturm?","akzeptiert":["Eiffelturm"],"bewertung":"Richtig, wenn als Frage formuliert und der Eiffelturm gemeint ist. Nur „Eiffelturm“ ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieser Vogel ist das Wappentier der Bundesrepublik Deutschland.","antwort":"Was ist der Adler?","akzeptiert":["Bundesadler","Adler"],"bewertung":"Richtig, wenn als Frage formuliert und der Adler (Bundesadler) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Diese Farbe entsteht, wenn man Blau und Gelb mischt.","antwort":"Was ist Grün?","akzeptiert":["Grün"],"bewertung":"Richtig, wenn als Frage formuliert und Grün gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Sie war von 2005 bis 2021 Bundeskanzlerin.","antwort":"Wer ist Angela Merkel?","akzeptiert":["Merkel","Angela Merkel"],"bewertung":"Richtig, wenn als Frage formuliert und Angela Merkel gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieses Getränk wird aus Wasser, Hopfen, Malz und Hefe gebraut.","antwort":"Was ist Bier?","akzeptiert":["Bier"],"bewertung":"Richtig, wenn als Frage formuliert und Bier gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieser Klempner mit roter Mütze ist das bekannteste Maskottchen von Nintendo.","antwort":"Wer ist Mario?","akzeptiert":["Super Mario","Mario"],"bewertung":"Richtig, wenn als Frage formuliert und Mario (Super Mario) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Diese Stadt ist die Hauptstadt von Italien.","antwort":"Was ist Rom?","akzeptiert":["Rom"],"bewertung":"Richtig, wenn als Frage formuliert und Rom gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieser Monat hat in einem normalen Jahr nur 28 Tage.","antwort":"Was ist der Februar?","akzeptiert":["Februar"],"bewertung":"Richtig, wenn als Frage formuliert und der Februar gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieses Organ pumpt das Blut durch unseren Körper.","antwort":"Was ist das Herz?","akzeptiert":["Herz"],"bewertung":"Richtig, wenn als Frage formuliert und das Herz gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Er wohnt in einer Ananas ganz tief im Meer.","antwort":"Wer ist SpongeBob Schwammkopf?","akzeptiert":["SpongeBob"],"bewertung":"Richtig, wenn als Frage formuliert und SpongeBob gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"112","antwort":"Was ist die Notrufnummer von Feuerwehr und Rettungsdienst?","akzeptiert":["Wie lautet der Notruf?"],"bewertung":"Richtig ist jede Frage, die sinngemäß nach der Notrufnummer (Feuerwehr/Rettungsdienst/Notruf in Europa) fragt. Rechenfragen (z. B. „Was ist 100 plus 12?“) gelten nicht. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Auf diese Zauberschule geht Harry Potter.","antwort":"Was ist Hogwarts?","akzeptiert":["Hogwarts"],"bewertung":"Richtig, wenn als Frage formuliert und Hogwarts gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieser Kontinent ist der größte der Erde.","antwort":"Was ist Asien?","akzeptiert":["Asien"],"bewertung":"Richtig, wenn als Frage formuliert und Asien gemeint ist. „Eurasien“ auch richtig. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieses Gas brauchen wir zum Atmen, es macht rund 21 % der Luft aus.","antwort":"Was ist Sauerstoff?","akzeptiert":["Sauerstoff","O2"],"bewertung":"Richtig, wenn als Frage formuliert und Sauerstoff gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"An diesem Abend am 24. Dezember gibt es in Deutschland traditionell die Geschenke.","antwort":"Was ist Heiligabend?","akzeptiert":["Heiligabend","Weihnachten","Heiliger Abend"],"bewertung":"Richtig, wenn als Frage formuliert und Heiligabend gemeint ist. „Weihnachten“ auch richtig. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Diese Sportart spielt man mit Schläger und Federball über ein Netz.","antwort":"Was ist Badminton?","akzeptiert":["Badminton","Federball"],"bewertung":"Richtig, wenn als Frage formuliert und Badminton gemeint ist. „Federball“ auch richtig. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieser Fluss fließt durch Köln und Düsseldorf.","antwort":"Was ist der Rhein?","akzeptiert":["Rhein"],"bewertung":"Richtig, wenn als Frage formuliert und der Rhein gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"„Es war einmal …“","antwort":"Wie beginnen viele Märchen?","akzeptiert":["Was ist der Anfang eines Märchens?"],"bewertung":"Richtig ist jede Frage, die sinngemäß nach dem typischen Anfang von Märchen fragt (z. B. „Wie fangen Märchen an?“). Ohne Frageform: falsch."},
-  {"stufe":1,"frage":"Dieser Superheld heißt mit bürgerlichem Namen Peter Parker.","antwort":"Wer ist Spider-Man?","akzeptiert":["Spider-Man","Spiderman","Spinnenmann"],"bewertung":"Richtig, wenn als Frage formuliert und Spider-Man gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Diese Stadt ist die Hauptstadt von Australien.","antwort":"Was ist Canberra?","akzeptiert":["Canberra"],"bewertung":"Richtig, wenn als Frage formuliert und Canberra gemeint ist. Sydney oder Melbourne: falsch. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Er malte die Mona Lisa.","antwort":"Wer ist Leonardo da Vinci?","akzeptiert":["Leonardo","da Vinci"],"bewertung":"Richtig, wenn als Frage formuliert und Leonardo da Vinci gemeint ist („Wer ist/war Leonardo?“ reicht). Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Diese Band bestand aus John, Paul, George und Ringo.","antwort":"Wer sind die Beatles?","akzeptiert":["Beatles","The Beatles"],"bewertung":"Richtig, wenn als Frage formuliert und die Beatles gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"In diesem Land liegt die Inka-Ruinenstadt Machu Picchu.","antwort":"Was ist Peru?","akzeptiert":["Peru"],"bewertung":"Richtig, wenn als Frage formuliert und Peru gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Er betrat 1969 als erster Mensch den Mond.","antwort":"Wer ist Neil Armstrong?","akzeptiert":["Armstrong","Neil Armstrong"],"bewertung":"Richtig, wenn als Frage formuliert und Neil Armstrong gemeint ist. Nachname reicht. Buzz Aldrin: falsch. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Diese Stadt ist die Hauptstadt von Kanada.","antwort":"Was ist Ottawa?","akzeptiert":["Ottawa"],"bewertung":"Richtig, wenn als Frage formuliert und Ottawa gemeint ist. Toronto oder Montreal: falsch. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"In dieser Einheit misst man die elektrische Spannung.","antwort":"Was ist Volt?","akzeptiert":["Volt","V"],"bewertung":"Richtig, wenn als Frage formuliert und Volt gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Dieses Edelmetall hat das chemische Symbol Au.","antwort":"Was ist Gold?","akzeptiert":["Gold","Aurum"],"bewertung":"Richtig, wenn als Frage formuliert und Gold gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Dieser Komponist wurde 1770 in Bonn geboren und schrieb „Für Elise“.","antwort":"Wer ist Ludwig van Beethoven?","akzeptiert":["Beethoven"],"bewertung":"Richtig, wenn als Frage formuliert und Ludwig van Beethoven gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Dieses Videospiel mit fallenden Blöcken wurde 1984 in der Sowjetunion erfunden.","antwort":"Was ist Tetris?","akzeptiert":["Tetris"],"bewertung":"Richtig, wenn als Frage formuliert und Tetris gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Dieses Instrument hat normalerweise 88 Tasten.","antwort":"Was ist das Klavier?","akzeptiert":["Klavier","Piano","Flügel"],"bewertung":"Richtig, wenn als Frage formuliert und das Klavier gemeint ist. „Piano“ oder „Flügel“ auch richtig. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Dieser Ozean ist der größte der Erde.","antwort":"Was ist der Pazifik?","akzeptiert":["Pazifik","Pazifischer Ozean","Stiller Ozean"],"bewertung":"Richtig, wenn als Frage formuliert und der Pazifik (Pazifischer/Stiller Ozean) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Diese Figur aus „Der Herr der Ringe“ nennt den Ring „Mein Schatz“.","antwort":"Wer ist Gollum?","akzeptiert":["Gollum","Sméagol","Smeagol"],"bewertung":"Richtig, wenn als Frage formuliert und Gollum gemeint ist. „Sméagol“ auch richtig. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Dieser französische Kaiser verlor 1815 die Schlacht bei Waterloo.","antwort":"Wer ist Napoleon?","akzeptiert":["Napoleon","Napoleon Bonaparte"],"bewertung":"Richtig, wenn als Frage formuliert und Napoleon (Bonaparte) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Sie ist die einzige gerade Primzahl.","antwort":"Was ist die Zwei?","akzeptiert":["2","zwei"],"bewertung":"Richtig, wenn als Frage formuliert und die Zahl 2 gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Dieses soziale Netzwerk heißt seit 2023 „X“.","antwort":"Was ist Twitter?","akzeptiert":["Twitter"],"bewertung":"Richtig, wenn als Frage formuliert und Twitter gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Dieses Bundesland ist flächenmäßig das größte Deutschlands.","antwort":"Was ist Bayern?","akzeptiert":["Bayern"],"bewertung":"Richtig, wenn als Frage formuliert und Bayern gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Er schrieb das Drama „Faust“.","antwort":"Wer ist Johann Wolfgang von Goethe?","akzeptiert":["Goethe"],"bewertung":"Richtig, wenn als Frage formuliert und Goethe gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Dieses Raubtier ist das schnellste Landtier der Welt.","antwort":"Was ist der Gepard?","akzeptiert":["Gepard"],"bewertung":"Richtig, wenn als Frage formuliert und der Gepard gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":2,"frage":"Diese Stadt hat den Spitznamen „The Big Apple“.","antwort":"Was ist New York?","akzeptiert":["New York","New York City","NYC"],"bewertung":"Richtig, wenn als Frage formuliert und New York (City) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"42","antwort":"Was ist die Antwort auf die Frage nach dem Leben, dem Universum und dem ganzen Rest?","akzeptiert":["Was ist der Sinn des Lebens?"],"bewertung":"Anspielung auf „Per Anhalter durch die Galaxis“. Richtig ist jede Frage, die sinngemäß nach dem Sinn des Lebens bzw. der Antwort auf das Leben, das Universum und den ganzen Rest fragt. Reine Rechenfragen (z. B. „Was ist 6 mal 7?“) gelten nicht."},
-  {"stufe":3,"frage":"Dieses chemische Element hat das Symbol Fe.","antwort":"Was ist Eisen?","akzeptiert":["Eisen","Ferrum"],"bewertung":"Richtig, wenn als Frage formuliert und Eisen gemeint ist (auch „Ferrum“). Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Diese Meerenge verbindet das Mittelmeer mit dem Atlantik.","antwort":"Was ist die Straße von Gibraltar?","akzeptiert":["Gibraltar","Straße von Gibraltar"],"bewertung":"Richtig, wenn als Frage formuliert und die Straße von Gibraltar gemeint ist. „Gibraltar“ reicht. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Diese Sprache ist die Amtssprache Brasiliens.","antwort":"Was ist Portugiesisch?","akzeptiert":["Portugiesisch"],"bewertung":"Richtig, wenn als Frage formuliert und Portugiesisch gemeint ist. Spanisch: falsch. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Ihm soll ein Apfel auf den Kopf gefallen sein – danach beschrieb er die Schwerkraft.","antwort":"Wer ist Isaac Newton?","akzeptiert":["Newton","Isaac Newton"],"bewertung":"Richtig, wenn als Frage formuliert und Isaac Newton gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Dieser Knochen ist der längste im menschlichen Körper.","antwort":"Was ist der Oberschenkelknochen?","akzeptiert":["Oberschenkelknochen","Femur","Oberschenkel"],"bewertung":"Richtig, wenn als Frage formuliert und der Oberschenkelknochen (Femur) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Sie erhielt als erster Mensch zwei Nobelpreise.","antwort":"Wer ist Marie Curie?","akzeptiert":["Marie Curie","Curie"],"bewertung":"Richtig, wenn als Frage formuliert und Marie Curie gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Er war der erste Präsident der Vereinigten Staaten.","antwort":"Wer ist George Washington?","akzeptiert":["Washington","George Washington"],"bewertung":"Richtig, wenn als Frage formuliert und George Washington gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Dieses als unsinkbar geltende Schiff sank 1912 nach der Kollision mit einem Eisberg.","antwort":"Was ist die Titanic?","akzeptiert":["Titanic"],"bewertung":"Richtig, wenn als Frage formuliert und die Titanic gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Diese Stadt war bis 1990 Hauptstadt der Bundesrepublik Deutschland.","antwort":"Was ist Bonn?","akzeptiert":["Bonn"],"bewertung":"Richtig, wenn als Frage formuliert und Bonn gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Dieser Rapper heißt mit bürgerlichem Namen Marshall Mathers.","antwort":"Wer ist Eminem?","akzeptiert":["Eminem","Slim Shady"],"bewertung":"Richtig, wenn als Frage formuliert und Eminem gemeint ist. „Slim Shady“ auch richtig. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"In diesem Brettspiel sind Schlossallee und Parkstraße die teuersten Straßen.","antwort":"Was ist Monopoly?","akzeptiert":["Monopoly"],"bewertung":"Richtig, wenn als Frage formuliert und Monopoly gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Dieses Land hat seit 2023 die meisten Einwohner der Welt.","antwort":"Was ist Indien?","akzeptiert":["Indien"],"bewertung":"Richtig, wenn als Frage formuliert und Indien gemeint ist. China: falsch. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Dieser niederländische Maler schnitt sich 1888 einen Teil seines Ohrs ab.","antwort":"Wer ist Vincent van Gogh?","akzeptiert":["van Gogh","Van Gogh"],"bewertung":"Richtig, wenn als Frage formuliert und Vincent van Gogh gemeint ist. „van Gogh“ reicht. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Dieser Kontinent hat keine dauerhafte einheimische Bevölkerung.","antwort":"Was ist die Antarktis?","akzeptiert":["Antarktis","Antarktika"],"bewertung":"Richtig, wenn als Frage formuliert und die Antarktis (Antarktika) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Diese Netflix-Serie spielt in Hawkins, Indiana, und handelt von der „Upside Down“.","antwort":"Was ist Stranger Things?","akzeptiert":["Stranger Things"],"bewertung":"Richtig, wenn als Frage formuliert und Stranger Things gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Sie gelten als „Kraftwerke der Zelle“.","antwort":"Was sind die Mitochondrien?","akzeptiert":["Mitochondrien","Mitochondrium"],"bewertung":"Richtig, wenn als Frage formuliert und die Mitochondrien gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"3,14159 …","antwort":"Was ist Pi?","akzeptiert":["Was ist die Kreiszahl?","Pi","π"],"bewertung":"Richtig ist jede Frage, die auf Pi bzw. die Kreiszahl zielt (z. B. „Was ist Pi?“, „Wie lautet die Kreiszahl?“, „Was ist das Verhältnis von Kreisumfang zu Durchmesser?“). Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Er soll 1517 seine 95 Thesen an die Tür der Schlosskirche in Wittenberg geschlagen haben.","antwort":"Wer ist Martin Luther?","akzeptiert":["Luther","Martin Luther"],"bewertung":"Richtig, wenn als Frage formuliert und Martin Luther gemeint ist. Nachname reicht. Martin Luther King: falsch. Ohne Frageform: falsch."},
-  {"stufe":3,"frage":"Dieses Tier ist im Logo von Ferrari zu sehen.","antwort":"Was ist ein Pferd?","akzeptiert":["Pferd","springendes Pferd","Hengst"],"bewertung":"Richtig, wenn als Frage formuliert und ein (springendes) Pferd gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"In diesem Jahr fiel die Berliner Mauer.","antwort":"Was ist 1989?","akzeptiert":["1989"],"bewertung":"Richtig, wenn als Frage formuliert und 1989 genannt wird (z. B. „Was ist 1989?“, „Wann war 1989?“ sinngemäß). Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Dieses Organ produziert das Hormon Insulin.","antwort":"Was ist die Bauchspeicheldrüse?","akzeptiert":["Bauchspeicheldrüse","Pankreas"],"bewertung":"Richtig, wenn als Frage formuliert und die Bauchspeicheldrüse (Pankreas) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"So hieß Istanbul, als es Hauptstadt des Byzantinischen Reiches war.","antwort":"Was ist Konstantinopel?","akzeptiert":["Konstantinopel","Byzanz"],"bewertung":"Richtig, wenn als Frage formuliert und Konstantinopel gemeint ist. „Byzanz“ auch richtig. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Er schrieb den Roman „1984“ mit dem „Großen Bruder“.","antwort":"Wer ist George Orwell?","akzeptiert":["Orwell","George Orwell"],"bewertung":"Richtig, wenn als Frage formuliert und George Orwell gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Diese Stadt ist der höchstgelegene Regierungssitz der Welt (Bolivien).","antwort":"Was ist La Paz?","akzeptiert":["La Paz"],"bewertung":"Richtig, wenn als Frage formuliert und La Paz gemeint ist. Sucre (offizielle Hauptstadt Boliviens): falsch. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Nach diesem Halbleiter-Element ist ein berühmtes Tal in Kalifornien benannt.","antwort":"Was ist Silizium?","akzeptiert":["Silizium","Silicium","Silicon"],"bewertung":"Richtig, wenn als Frage formuliert und Silizium (Silicon) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Dieser Bundeskanzler kniete 1970 am Denkmal für den Aufstand im Warschauer Ghetto.","antwort":"Wer ist Willy Brandt?","akzeptiert":["Brandt","Willy Brandt"],"bewertung":"Richtig, wenn als Frage formuliert und Willy Brandt gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Dieses Edelgas lässt klassische Leuchtreklamen rot-orange leuchten.","antwort":"Was ist Neon?","akzeptiert":["Neon"],"bewertung":"Richtig, wenn als Frage formuliert und Neon gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"In dieser deutschen Stadt fanden 1972 die Olympischen Sommerspiele statt.","antwort":"Was ist München?","akzeptiert":["München"],"bewertung":"Richtig, wenn als Frage formuliert und München gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"In dieser Schlacht im Jahr 9 n. Chr. besiegte Arminius die Legionen des Varus.","antwort":"Was ist die Varusschlacht?","akzeptiert":["Varusschlacht","Schlacht im Teutoburger Wald","Hermannsschlacht"],"bewertung":"Richtig, wenn als Frage formuliert und die Varusschlacht gemeint ist. „Schlacht im Teutoburger Wald“ oder „Hermannsschlacht“ auch richtig. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Er erfand um 1450 in Mainz den Buchdruck mit beweglichen Metalllettern.","antwort":"Wer ist Johannes Gutenberg?","akzeptiert":["Gutenberg","Johannes Gutenberg"],"bewertung":"Richtig, wenn als Frage formuliert und Johannes Gutenberg gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"In dieser Videospielreihe kämpft der Supersoldat Master Chief.","antwort":"Was ist Halo?","akzeptiert":["Halo"],"bewertung":"Richtig, wenn als Frage formuliert und Halo gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Er führte Regie bei „Pulp Fiction“ und „Kill Bill“.","antwort":"Wer ist Quentin Tarantino?","akzeptiert":["Tarantino","Quentin Tarantino"],"bewertung":"Richtig, wenn als Frage formuliert und Quentin Tarantino gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Dieser Fluss ist der längste Europas.","antwort":"Was ist die Wolga?","akzeptiert":["Wolga"],"bewertung":"Richtig, wenn als Frage formuliert und die Wolga gemeint ist. Donau: falsch. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Mit dieser Mission landeten 1969 die ersten Menschen auf dem Mond.","antwort":"Was ist Apollo 11?","akzeptiert":["Apollo 11"],"bewertung":"Richtig, wenn als Frage formuliert und Apollo 11 gemeint ist. Nur „Apollo“ ohne Nummer: falsch. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Dieses Fabeltier ist das Nationaltier Schottlands.","antwort":"Was ist das Einhorn?","akzeptiert":["Einhorn"],"bewertung":"Richtig, wenn als Frage formuliert und das Einhorn gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Diese größte Insel der Welt gehört politisch zum Königreich Dänemark.","antwort":"Was ist Grönland?","akzeptiert":["Grönland"],"bewertung":"Richtig, wenn als Frage formuliert und Grönland gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"In dieser Schicht der Erdatmosphäre liegt die Ozonschicht.","antwort":"Was ist die Stratosphäre?","akzeptiert":["Stratosphäre"],"bewertung":"Richtig, wenn als Frage formuliert und die Stratosphäre gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Dieser Staat ist der flächenmäßig kleinste der Welt.","antwort":"Was ist der Vatikan?","akzeptiert":["Vatikan","Vatikanstadt"],"bewertung":"Richtig, wenn als Frage formuliert und der Vatikan (Vatikanstadt) gemeint ist. Monaco: falsch. Ohne Frageform: falsch."},
-  {"stufe":4,"frage":"Diese Hauptstadt hieß bis 1868 Edo.","antwort":"Was ist Tokio?","akzeptiert":["Tokio","Tokyo"],"bewertung":"Richtig, wenn als Frage formuliert und Tokio gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Dieser Friedensschluss beendete 1648 den Dreißigjährigen Krieg.","antwort":"Was ist der Westfälische Friede?","akzeptiert":["Westfälischer Frieden","Frieden von Münster und Osnabrück"],"bewertung":"Richtig, wenn als Frage formuliert und der Westfälische Friede gemeint ist (auch „Frieden von Münster/Osnabrück“). Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Dieses Land hat – mit seinen Überseegebieten – die meisten Zeitzonen der Welt.","antwort":"Was ist Frankreich?","akzeptiert":["Frankreich"],"bewertung":"Richtig, wenn als Frage formuliert und Frankreich gemeint ist. Russland oder USA: falsch. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"So nennt man die Wissenschaft von den Pilzen.","antwort":"Was ist die Mykologie?","akzeptiert":["Mykologie","Pilzkunde"],"bewertung":"Richtig, wenn als Frage formuliert und die Mykologie (Pilzkunde) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Dieser „Fürst der Mathematiker“ war auf dem 10-D-Mark-Schein abgebildet.","antwort":"Wer ist Carl Friedrich Gauß?","akzeptiert":["Gauß","Gauss","Carl Friedrich Gauß"],"bewertung":"Richtig, wenn als Frage formuliert und Carl Friedrich Gauß gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Rund 300.000 Kilometer pro Sekunde","antwort":"Was ist die Lichtgeschwindigkeit?","akzeptiert":["Wie schnell ist das Licht?"],"bewertung":"Richtig ist jede Frage, die sinngemäß nach der Lichtgeschwindigkeit (im Vakuum) fragt, z. B. „Wie schnell ist Licht?“. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Dieses Land führte 1893 als erstes Land das landesweite Frauenwahlrecht ein.","antwort":"Was ist Neuseeland?","akzeptiert":["Neuseeland"],"bewertung":"Richtig, wenn als Frage formuliert und Neuseeland gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Er wurde im Jahr 800 in Rom zum Kaiser gekrönt.","antwort":"Wer ist Karl der Große?","akzeptiert":["Karl der Große","Charlemagne"],"bewertung":"Richtig, wenn als Frage formuliert und Karl der Große gemeint ist. „Charlemagne“ auch richtig. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Die Hauptstadt dieses Landes ist Ulan Bator.","antwort":"Was ist die Mongolei?","akzeptiert":["Mongolei"],"bewertung":"Richtig, wenn als Frage formuliert und die Mongolei gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Sie schrieb 1818 den Roman „Frankenstein“.","antwort":"Wer ist Mary Shelley?","akzeptiert":["Mary Shelley","Shelley"],"bewertung":"Richtig, wenn als Frage formuliert und Mary Shelley gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Dieser deutsche Physiker formulierte 1927 die Unschärferelation.","antwort":"Wer ist Werner Heisenberg?","akzeptiert":["Heisenberg"],"bewertung":"Richtig, wenn als Frage formuliert und Werner Heisenberg gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Dieses Edelgas ist das häufigste in der Erdatmosphäre (knapp 1 %).","antwort":"Was ist Argon?","akzeptiert":["Argon"],"bewertung":"Richtig, wenn als Frage formuliert und Argon gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Er erhielt 1901 den allerersten Nobelpreis für Physik – für die Entdeckung einer Strahlung.","antwort":"Wer ist Wilhelm Conrad Röntgen?","akzeptiert":["Röntgen"],"bewertung":"Richtig, wenn als Frage formuliert und Wilhelm Conrad Röntgen gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Diese Kunstrichtung begründeten Pablo Picasso und Georges Braque.","antwort":"Was ist der Kubismus?","akzeptiert":["Kubismus"],"bewertung":"Richtig, wenn als Frage formuliert und der Kubismus gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Dieser Stoff macht Chilischoten scharf.","antwort":"Was ist Capsaicin?","akzeptiert":["Capsaicin","Capsaizin"],"bewertung":"Richtig, wenn als Frage formuliert und Capsaicin gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Diese Wüste in Chile gilt als trockenste nicht-polare Wüste der Erde.","antwort":"Was ist die Atacama?","akzeptiert":["Atacama","Atacama-Wüste"],"bewertung":"Richtig, wenn als Frage formuliert und die Atacama(-Wüste) gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"1066","antwort":"In welchem Jahr war die Schlacht bei Hastings?","akzeptiert":["Wann eroberten die Normannen England?"],"bewertung":"Richtig ist jede Frage, die sinngemäß nach dem Jahr der Schlacht bei Hastings bzw. der normannischen Eroberung Englands (Wilhelm der Eroberer) fragt. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"„Heureka!“ – angeblich in der Badewanne gerufen","antwort":"Wer ist Archimedes?","akzeptiert":["Was rief Archimedes?","Archimedes"],"bewertung":"Richtig ist jede Frage, die auf Archimedes zielt, z. B. „Wer ist Archimedes?“ oder „Was rief Archimedes, als er das Auftriebsprinzip entdeckte?“. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Er war der letzte Staatschef der Sowjetunion.","antwort":"Wer ist Michail Gorbatschow?","akzeptiert":["Gorbatschow","Gorbi"],"bewertung":"Richtig, wenn als Frage formuliert und Michail Gorbatschow gemeint ist. Nachname reicht. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Dieses Metall ist als einziges bei Raumtemperatur flüssig.","antwort":"Was ist Quecksilber?","akzeptiert":["Quecksilber","Hg"],"bewertung":"Richtig, wenn als Frage formuliert und Quecksilber gemeint ist. Ohne Frageform: falsch."},
-  {"stufe":5,"frage":"Dieser Planet rotiert wegen einer Achsneigung von rund 98 Grad quasi „liegend“.","antwort":"Was ist Uranus?","akzeptiert":["Uranus"],"bewertung":"Richtig, wenn als Frage formuliert und Uranus gemeint ist. Ohne Frageform: falsch."}
+  {
+    "stufe": 1,
+    "frage": "Dieses Tier ist das größte heute lebende Säugetier.",
+    "antwort": "Was ist der Blauwal?",
+    "akzeptiert": [
+      "Welches ist das größte Säugetier? – Der Blauwal",
+      "Blauwal"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Blauwal gemeint ist („Was ist der Blauwal?“, „Wer ist …“). Nur „Blauwal“ ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieses rund 330 Meter hohe Bauwerk in Paris wurde zur Weltausstellung 1889 errichtet.",
+    "antwort": "Was ist der Eiffelturm?",
+    "akzeptiert": [
+      "Eiffelturm"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Eiffelturm gemeint ist. Nur „Eiffelturm“ ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieser Vogel ist das Wappentier der Bundesrepublik Deutschland.",
+    "antwort": "Was ist der Adler?",
+    "akzeptiert": [
+      "Bundesadler",
+      "Adler"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Adler (Bundesadler) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Diese Farbe entsteht, wenn man Blau und Gelb mischt.",
+    "antwort": "Was ist Grün?",
+    "akzeptiert": [
+      "Grün"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Grün gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Sie war von 2005 bis 2021 Bundeskanzlerin.",
+    "antwort": "Wer ist Angela Merkel?",
+    "akzeptiert": [
+      "Merkel",
+      "Angela Merkel"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Angela Merkel gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieses Getränk wird aus Wasser, Hopfen, Malz und Hefe gebraut.",
+    "antwort": "Was ist Bier?",
+    "akzeptiert": [
+      "Bier"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Bier gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieser Klempner mit roter Mütze ist das bekannteste Maskottchen von Nintendo.",
+    "antwort": "Wer ist Mario?",
+    "akzeptiert": [
+      "Super Mario",
+      "Mario"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Mario (Super Mario) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Diese Stadt ist die Hauptstadt von Italien.",
+    "antwort": "Was ist Rom?",
+    "akzeptiert": [
+      "Rom"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Rom gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieser Monat hat in einem normalen Jahr nur 28 Tage.",
+    "antwort": "Was ist der Februar?",
+    "akzeptiert": [
+      "Februar"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Februar gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieses Organ pumpt das Blut durch unseren Körper.",
+    "antwort": "Was ist das Herz?",
+    "akzeptiert": [
+      "Herz"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und das Herz gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Er wohnt in einer Ananas ganz tief im Meer.",
+    "antwort": "Wer ist SpongeBob Schwammkopf?",
+    "akzeptiert": [
+      "SpongeBob"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und SpongeBob gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "112",
+    "antwort": "Was ist die Notrufnummer von Feuerwehr und Rettungsdienst?",
+    "akzeptiert": [
+      "Wie lautet der Notruf?"
+    ],
+    "bewertung": "Richtig ist jede Frage, die sinngemäß nach der Notrufnummer (Feuerwehr/Rettungsdienst/Notruf in Europa) fragt. Rechenfragen (z. B. „Was ist 100 plus 12?“) gelten nicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Auf diese Zauberschule geht Harry Potter.",
+    "antwort": "Was ist Hogwarts?",
+    "akzeptiert": [
+      "Hogwarts"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Hogwarts gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieser Kontinent ist der größte der Erde.",
+    "antwort": "Was ist Asien?",
+    "akzeptiert": [
+      "Asien"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Asien gemeint ist. „Eurasien“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieses Gas brauchen wir zum Atmen, es macht rund 21 % der Luft aus.",
+    "antwort": "Was ist Sauerstoff?",
+    "akzeptiert": [
+      "Sauerstoff",
+      "O2"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Sauerstoff gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "An diesem Abend am 24. Dezember gibt es in Deutschland traditionell die Geschenke.",
+    "antwort": "Was ist Heiligabend?",
+    "akzeptiert": [
+      "Heiligabend",
+      "Weihnachten",
+      "Heiliger Abend"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Heiligabend gemeint ist. „Weihnachten“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Diese Sportart spielt man mit Schläger und Federball über ein Netz.",
+    "antwort": "Was ist Badminton?",
+    "akzeptiert": [
+      "Badminton",
+      "Federball"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Badminton gemeint ist. „Federball“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieser Fluss fließt durch Köln und Düsseldorf.",
+    "antwort": "Was ist der Rhein?",
+    "akzeptiert": [
+      "Rhein"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Rhein gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "„Es war einmal …“",
+    "antwort": "Wie beginnen viele Märchen?",
+    "akzeptiert": [
+      "Was ist der Anfang eines Märchens?"
+    ],
+    "bewertung": "Richtig ist jede Frage, die sinngemäß nach dem typischen Anfang von Märchen fragt (z. B. „Wie fangen Märchen an?“). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieser Superheld heißt mit bürgerlichem Namen Peter Parker.",
+    "antwort": "Wer ist Spider-Man?",
+    "akzeptiert": [
+      "Spider-Man",
+      "Spiderman",
+      "Spinnenmann"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Spider-Man gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese Stadt ist die Hauptstadt von Australien.",
+    "antwort": "Was ist Canberra?",
+    "akzeptiert": [
+      "Canberra"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Canberra gemeint ist. Sydney oder Melbourne: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Er malte die Mona Lisa.",
+    "antwort": "Wer ist Leonardo da Vinci?",
+    "akzeptiert": [
+      "Leonardo",
+      "da Vinci"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Leonardo da Vinci gemeint ist („Wer ist/war Leonardo?“ reicht). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese Band bestand aus John, Paul, George und Ringo.",
+    "antwort": "Wer sind die Beatles?",
+    "akzeptiert": [
+      "Beatles",
+      "The Beatles"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Beatles gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "In diesem Land liegt die Inka-Ruinenstadt Machu Picchu.",
+    "antwort": "Was ist Peru?",
+    "akzeptiert": [
+      "Peru"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Peru gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Er betrat 1969 als erster Mensch den Mond.",
+    "antwort": "Wer ist Neil Armstrong?",
+    "akzeptiert": [
+      "Armstrong",
+      "Neil Armstrong"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Neil Armstrong gemeint ist. Nachname reicht. Buzz Aldrin: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese Stadt ist die Hauptstadt von Kanada.",
+    "antwort": "Was ist Ottawa?",
+    "akzeptiert": [
+      "Ottawa"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Ottawa gemeint ist. Toronto oder Montreal: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "In dieser Einheit misst man die elektrische Spannung.",
+    "antwort": "Was ist Volt?",
+    "akzeptiert": [
+      "Volt",
+      "V"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Volt gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieses Edelmetall hat das chemische Symbol Au.",
+    "antwort": "Was ist Gold?",
+    "akzeptiert": [
+      "Gold",
+      "Aurum"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Gold gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieser Komponist wurde 1770 in Bonn geboren und schrieb „Für Elise“.",
+    "antwort": "Wer ist Ludwig van Beethoven?",
+    "akzeptiert": [
+      "Beethoven"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Ludwig van Beethoven gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieses Videospiel mit fallenden Blöcken wurde 1984 in der Sowjetunion erfunden.",
+    "antwort": "Was ist Tetris?",
+    "akzeptiert": [
+      "Tetris"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Tetris gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieses Instrument hat normalerweise 88 Tasten.",
+    "antwort": "Was ist das Klavier?",
+    "akzeptiert": [
+      "Klavier",
+      "Piano",
+      "Flügel"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und das Klavier gemeint ist. „Piano“ oder „Flügel“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieser Ozean ist der größte der Erde.",
+    "antwort": "Was ist der Pazifik?",
+    "akzeptiert": [
+      "Pazifik",
+      "Pazifischer Ozean",
+      "Stiller Ozean"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Pazifik (Pazifischer/Stiller Ozean) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese Figur aus „Der Herr der Ringe“ nennt den Ring „Mein Schatz“.",
+    "antwort": "Wer ist Gollum?",
+    "akzeptiert": [
+      "Gollum",
+      "Sméagol",
+      "Smeagol"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Gollum gemeint ist. „Sméagol“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieser französische Kaiser verlor 1815 die Schlacht bei Waterloo.",
+    "antwort": "Wer ist Napoleon?",
+    "akzeptiert": [
+      "Napoleon",
+      "Napoleon Bonaparte"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Napoleon (Bonaparte) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Sie ist die einzige gerade Primzahl.",
+    "antwort": "Was ist die Zwei?",
+    "akzeptiert": [
+      "2",
+      "zwei"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Zahl 2 gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieses soziale Netzwerk heißt seit 2023 „X“.",
+    "antwort": "Was ist Twitter?",
+    "akzeptiert": [
+      "Twitter"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Twitter gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieses Bundesland ist flächenmäßig das größte Deutschlands.",
+    "antwort": "Was ist Bayern?",
+    "akzeptiert": [
+      "Bayern"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Bayern gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Er schrieb das Drama „Faust“.",
+    "antwort": "Wer ist Johann Wolfgang von Goethe?",
+    "akzeptiert": [
+      "Goethe"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Goethe gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieses Raubtier ist das schnellste Landtier der Welt.",
+    "antwort": "Was ist der Gepard?",
+    "akzeptiert": [
+      "Gepard"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Gepard gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese Stadt hat den Spitznamen „The Big Apple“.",
+    "antwort": "Was ist New York?",
+    "akzeptiert": [
+      "New York",
+      "New York City",
+      "NYC"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und New York (City) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "42",
+    "antwort": "Was ist die Antwort auf die Frage nach dem Leben, dem Universum und dem ganzen Rest?",
+    "akzeptiert": [
+      "Was ist der Sinn des Lebens?"
+    ],
+    "bewertung": "Anspielung auf „Per Anhalter durch die Galaxis“. Richtig ist jede Frage, die sinngemäß nach dem Sinn des Lebens bzw. der Antwort auf das Leben, das Universum und den ganzen Rest fragt. Reine Rechenfragen (z. B. „Was ist 6 mal 7?“) gelten nicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieses chemische Element hat das Symbol Fe.",
+    "antwort": "Was ist Eisen?",
+    "akzeptiert": [
+      "Eisen",
+      "Ferrum"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Eisen gemeint ist (auch „Ferrum“). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Diese Meerenge verbindet das Mittelmeer mit dem Atlantik.",
+    "antwort": "Was ist die Straße von Gibraltar?",
+    "akzeptiert": [
+      "Gibraltar",
+      "Straße von Gibraltar"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Straße von Gibraltar gemeint ist. „Gibraltar“ reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Diese Sprache ist die Amtssprache Brasiliens.",
+    "antwort": "Was ist Portugiesisch?",
+    "akzeptiert": [
+      "Portugiesisch"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Portugiesisch gemeint ist. Spanisch: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Ihm soll ein Apfel auf den Kopf gefallen sein – danach beschrieb er die Schwerkraft.",
+    "antwort": "Wer ist Isaac Newton?",
+    "akzeptiert": [
+      "Newton",
+      "Isaac Newton"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Isaac Newton gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieser Knochen ist der längste im menschlichen Körper.",
+    "antwort": "Was ist der Oberschenkelknochen?",
+    "akzeptiert": [
+      "Oberschenkelknochen",
+      "Femur",
+      "Oberschenkel"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Oberschenkelknochen (Femur) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Sie erhielt als erster Mensch zwei Nobelpreise.",
+    "antwort": "Wer ist Marie Curie?",
+    "akzeptiert": [
+      "Marie Curie",
+      "Curie"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Marie Curie gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Er war der erste Präsident der Vereinigten Staaten.",
+    "antwort": "Wer ist George Washington?",
+    "akzeptiert": [
+      "Washington",
+      "George Washington"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und George Washington gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieses als unsinkbar geltende Schiff sank 1912 nach der Kollision mit einem Eisberg.",
+    "antwort": "Was ist die Titanic?",
+    "akzeptiert": [
+      "Titanic"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Titanic gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Diese Stadt war bis 1990 Hauptstadt der Bundesrepublik Deutschland.",
+    "antwort": "Was ist Bonn?",
+    "akzeptiert": [
+      "Bonn"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Bonn gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieser Rapper heißt mit bürgerlichem Namen Marshall Mathers.",
+    "antwort": "Wer ist Eminem?",
+    "akzeptiert": [
+      "Eminem",
+      "Slim Shady"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Eminem gemeint ist. „Slim Shady“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "In diesem Brettspiel sind Schlossallee und Parkstraße die teuersten Straßen.",
+    "antwort": "Was ist Monopoly?",
+    "akzeptiert": [
+      "Monopoly"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Monopoly gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieses Land hat seit 2023 die meisten Einwohner der Welt.",
+    "antwort": "Was ist Indien?",
+    "akzeptiert": [
+      "Indien"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Indien gemeint ist. China: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieser niederländische Maler schnitt sich 1888 einen Teil seines Ohrs ab.",
+    "antwort": "Wer ist Vincent van Gogh?",
+    "akzeptiert": [
+      "van Gogh",
+      "Van Gogh"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Vincent van Gogh gemeint ist. „van Gogh“ reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieser Kontinent hat keine dauerhafte einheimische Bevölkerung.",
+    "antwort": "Was ist die Antarktis?",
+    "akzeptiert": [
+      "Antarktis",
+      "Antarktika"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Antarktis (Antarktika) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Diese Netflix-Serie spielt in Hawkins, Indiana, und handelt von der „Upside Down“.",
+    "antwort": "Was ist Stranger Things?",
+    "akzeptiert": [
+      "Stranger Things"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Stranger Things gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Sie gelten als „Kraftwerke der Zelle“.",
+    "antwort": "Was sind die Mitochondrien?",
+    "akzeptiert": [
+      "Mitochondrien",
+      "Mitochondrium"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Mitochondrien gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "3,14159 …",
+    "antwort": "Was ist Pi?",
+    "akzeptiert": [
+      "Was ist die Kreiszahl?",
+      "Pi",
+      "π"
+    ],
+    "bewertung": "Richtig ist jede Frage, die auf Pi bzw. die Kreiszahl zielt (z. B. „Was ist Pi?“, „Wie lautet die Kreiszahl?“, „Was ist das Verhältnis von Kreisumfang zu Durchmesser?“). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Er soll 1517 seine 95 Thesen an die Tür der Schlosskirche in Wittenberg geschlagen haben.",
+    "antwort": "Wer ist Martin Luther?",
+    "akzeptiert": [
+      "Luther",
+      "Martin Luther"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Martin Luther gemeint ist. Nachname reicht. Martin Luther King: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieses Tier ist im Logo von Ferrari zu sehen.",
+    "antwort": "Was ist ein Pferd?",
+    "akzeptiert": [
+      "Pferd",
+      "springendes Pferd",
+      "Hengst"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und ein (springendes) Pferd gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "In diesem Jahr fiel die Berliner Mauer.",
+    "antwort": "Was ist 1989?",
+    "akzeptiert": [
+      "1989"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und 1989 genannt wird (z. B. „Was ist 1989?“, „Wann war 1989?“ sinngemäß). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Organ produziert das Hormon Insulin.",
+    "antwort": "Was ist die Bauchspeicheldrüse?",
+    "akzeptiert": [
+      "Bauchspeicheldrüse",
+      "Pankreas"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Bauchspeicheldrüse (Pankreas) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "So hieß Istanbul, als es Hauptstadt des Byzantinischen Reiches war.",
+    "antwort": "Was ist Konstantinopel?",
+    "akzeptiert": [
+      "Konstantinopel",
+      "Byzanz"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Konstantinopel gemeint ist. „Byzanz“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Er schrieb den Roman „1984“ mit dem „Großen Bruder“.",
+    "antwort": "Wer ist George Orwell?",
+    "akzeptiert": [
+      "Orwell",
+      "George Orwell"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und George Orwell gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Diese Stadt ist der höchstgelegene Regierungssitz der Welt (Bolivien).",
+    "antwort": "Was ist La Paz?",
+    "akzeptiert": [
+      "La Paz"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und La Paz gemeint ist. Sucre (offizielle Hauptstadt Boliviens): falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Nach diesem Halbleiter-Element ist ein berühmtes Tal in Kalifornien benannt.",
+    "antwort": "Was ist Silizium?",
+    "akzeptiert": [
+      "Silizium",
+      "Silicium",
+      "Silicon"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Silizium (Silicon) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieser Bundeskanzler kniete 1970 am Denkmal für den Aufstand im Warschauer Ghetto.",
+    "antwort": "Wer ist Willy Brandt?",
+    "akzeptiert": [
+      "Brandt",
+      "Willy Brandt"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Willy Brandt gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Edelgas lässt klassische Leuchtreklamen rot-orange leuchten.",
+    "antwort": "Was ist Neon?",
+    "akzeptiert": [
+      "Neon"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Neon gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "In dieser deutschen Stadt fanden 1972 die Olympischen Sommerspiele statt.",
+    "antwort": "Was ist München?",
+    "akzeptiert": [
+      "München"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und München gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "In dieser Schlacht im Jahr 9 n. Chr. besiegte Arminius die Legionen des Varus.",
+    "antwort": "Was ist die Varusschlacht?",
+    "akzeptiert": [
+      "Varusschlacht",
+      "Schlacht im Teutoburger Wald",
+      "Hermannsschlacht"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Varusschlacht gemeint ist. „Schlacht im Teutoburger Wald“ oder „Hermannsschlacht“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Er erfand um 1450 in Mainz den Buchdruck mit beweglichen Metalllettern.",
+    "antwort": "Wer ist Johannes Gutenberg?",
+    "akzeptiert": [
+      "Gutenberg",
+      "Johannes Gutenberg"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Johannes Gutenberg gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "In dieser Videospielreihe kämpft der Supersoldat Master Chief.",
+    "antwort": "Was ist Halo?",
+    "akzeptiert": [
+      "Halo"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Halo gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Er führte Regie bei „Pulp Fiction“ und „Kill Bill“.",
+    "antwort": "Wer ist Quentin Tarantino?",
+    "akzeptiert": [
+      "Tarantino",
+      "Quentin Tarantino"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Quentin Tarantino gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieser Fluss ist der längste Europas.",
+    "antwort": "Was ist die Wolga?",
+    "akzeptiert": [
+      "Wolga"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Wolga gemeint ist. Donau: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit dieser Mission landeten 1969 die ersten Menschen auf dem Mond.",
+    "antwort": "Was ist Apollo 11?",
+    "akzeptiert": [
+      "Apollo 11"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Apollo 11 gemeint ist. Nur „Apollo“ ohne Nummer: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Fabeltier ist das Nationaltier Schottlands.",
+    "antwort": "Was ist das Einhorn?",
+    "akzeptiert": [
+      "Einhorn"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und das Einhorn gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Diese größte Insel der Welt gehört politisch zum Königreich Dänemark.",
+    "antwort": "Was ist Grönland?",
+    "akzeptiert": [
+      "Grönland"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Grönland gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "In dieser Schicht der Erdatmosphäre liegt die Ozonschicht.",
+    "antwort": "Was ist die Stratosphäre?",
+    "akzeptiert": [
+      "Stratosphäre"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Stratosphäre gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieser Staat ist der flächenmäßig kleinste der Welt.",
+    "antwort": "Was ist der Vatikan?",
+    "akzeptiert": [
+      "Vatikan",
+      "Vatikanstadt"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Vatikan (Vatikanstadt) gemeint ist. Monaco: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Diese Hauptstadt hieß bis 1868 Edo.",
+    "antwort": "Was ist Tokio?",
+    "akzeptiert": [
+      "Tokio",
+      "Tokyo"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Tokio gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser Friedensschluss beendete 1648 den Dreißigjährigen Krieg.",
+    "antwort": "Was ist der Westfälische Friede?",
+    "akzeptiert": [
+      "Westfälischer Frieden",
+      "Frieden von Münster und Osnabrück"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Westfälische Friede gemeint ist (auch „Frieden von Münster/Osnabrück“). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieses Land hat – mit seinen Überseegebieten – die meisten Zeitzonen der Welt.",
+    "antwort": "Was ist Frankreich?",
+    "akzeptiert": [
+      "Frankreich"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Frankreich gemeint ist. Russland oder USA: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "So nennt man die Wissenschaft von den Pilzen.",
+    "antwort": "Was ist die Mykologie?",
+    "akzeptiert": [
+      "Mykologie",
+      "Pilzkunde"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Mykologie (Pilzkunde) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser „Fürst der Mathematiker“ war auf dem 10-D-Mark-Schein abgebildet.",
+    "antwort": "Wer ist Carl Friedrich Gauß?",
+    "akzeptiert": [
+      "Gauß",
+      "Gauss",
+      "Carl Friedrich Gauß"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Carl Friedrich Gauß gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Rund 300.000 Kilometer pro Sekunde",
+    "antwort": "Was ist die Lichtgeschwindigkeit?",
+    "akzeptiert": [
+      "Wie schnell ist das Licht?"
+    ],
+    "bewertung": "Richtig ist jede Frage, die sinngemäß nach der Lichtgeschwindigkeit (im Vakuum) fragt, z. B. „Wie schnell ist Licht?“. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieses Land führte 1893 als erstes Land das landesweite Frauenwahlrecht ein.",
+    "antwort": "Was ist Neuseeland?",
+    "akzeptiert": [
+      "Neuseeland"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Neuseeland gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Er wurde im Jahr 800 in Rom zum Kaiser gekrönt.",
+    "antwort": "Wer ist Karl der Große?",
+    "akzeptiert": [
+      "Karl der Große",
+      "Charlemagne"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Karl der Große gemeint ist. „Charlemagne“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Die Hauptstadt dieses Landes ist Ulan Bator.",
+    "antwort": "Was ist die Mongolei?",
+    "akzeptiert": [
+      "Mongolei"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Mongolei gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Sie schrieb 1818 den Roman „Frankenstein“.",
+    "antwort": "Wer ist Mary Shelley?",
+    "akzeptiert": [
+      "Mary Shelley",
+      "Shelley"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Mary Shelley gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser deutsche Physiker formulierte 1927 die Unschärferelation.",
+    "antwort": "Wer ist Werner Heisenberg?",
+    "akzeptiert": [
+      "Heisenberg"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Werner Heisenberg gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieses Edelgas ist das häufigste in der Erdatmosphäre (knapp 1 %).",
+    "antwort": "Was ist Argon?",
+    "akzeptiert": [
+      "Argon"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Argon gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Er erhielt 1901 den allerersten Nobelpreis für Physik – für die Entdeckung einer Strahlung.",
+    "antwort": "Wer ist Wilhelm Conrad Röntgen?",
+    "akzeptiert": [
+      "Röntgen"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Wilhelm Conrad Röntgen gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Diese Kunstrichtung begründeten Pablo Picasso und Georges Braque.",
+    "antwort": "Was ist der Kubismus?",
+    "akzeptiert": [
+      "Kubismus"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Kubismus gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser Stoff macht Chilischoten scharf.",
+    "antwort": "Was ist Capsaicin?",
+    "akzeptiert": [
+      "Capsaicin",
+      "Capsaizin"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Capsaicin gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Diese Wüste in Chile gilt als trockenste nicht-polare Wüste der Erde.",
+    "antwort": "Was ist die Atacama?",
+    "akzeptiert": [
+      "Atacama",
+      "Atacama-Wüste"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Atacama(-Wüste) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "1066",
+    "antwort": "In welchem Jahr war die Schlacht bei Hastings?",
+    "akzeptiert": [
+      "Wann eroberten die Normannen England?"
+    ],
+    "bewertung": "Richtig ist jede Frage, die sinngemäß nach dem Jahr der Schlacht bei Hastings bzw. der normannischen Eroberung Englands (Wilhelm der Eroberer) fragt. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "„Heureka!“ – angeblich in der Badewanne gerufen",
+    "antwort": "Wer ist Archimedes?",
+    "akzeptiert": [
+      "Was rief Archimedes?",
+      "Archimedes"
+    ],
+    "bewertung": "Richtig ist jede Frage, die auf Archimedes zielt, z. B. „Wer ist Archimedes?“ oder „Was rief Archimedes, als er das Auftriebsprinzip entdeckte?“. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Er war der letzte Staatschef der Sowjetunion.",
+    "antwort": "Wer ist Michail Gorbatschow?",
+    "akzeptiert": [
+      "Gorbatschow",
+      "Gorbi"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Michail Gorbatschow gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieses Metall ist als einziges bei Raumtemperatur flüssig.",
+    "antwort": "Was ist Quecksilber?",
+    "akzeptiert": [
+      "Quecksilber",
+      "Hg"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Quecksilber gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser Planet rotiert wegen einer Achsneigung von rund 98 Grad quasi „liegend“.",
+    "antwort": "Was ist Uranus?",
+    "akzeptiert": [
+      "Uranus"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Uranus gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieses gelbe Elektro-Pokémon ist der ständige Begleiter von Ash.",
+    "antwort": "Was ist Pikachu?",
+    "akzeptiert": [
+      "Wer ist Pikachu?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Pikachu gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Diese App hat einen weißen Geist auf gelbem Grund als Logo.",
+    "antwort": "Was ist Snapchat?",
+    "akzeptiert": [
+      "Welche App ist Snapchat?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Snapchat gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Diese Jahreszeit folgt auf den Sommer.",
+    "antwort": "Was ist der Herbst?",
+    "akzeptiert": [
+      "Was ist Herbst?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Herbst gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieser Stern ist der Erde am nächsten.",
+    "antwort": "Was ist die Sonne?",
+    "akzeptiert": [
+      "Was ist Sonne?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Sonne gemeint ist. Proxima Centauri: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "In diesem Spiel baut man aus Blöcken und wird von explodierenden Creepern angegriffen.",
+    "antwort": "Was ist Minecraft?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Minecraft gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieses Märchenmädchen verliert um Mitternacht einen gläsernen Schuh.",
+    "antwort": "Wer ist Aschenputtel?",
+    "akzeptiert": [
+      "Wer ist Cinderella?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Aschenputtel gemeint ist. „Cinderella“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "56",
+    "antwort": "Was ist 7 mal 8?",
+    "akzeptiert": [
+      "Was ist 8 mal 7?"
+    ],
+    "bewertung": "Richtig ist jede Frage, deren Ergebnis 56 ist (z. B. „Was ist 7 mal 8?“, „Was ist 50 plus 6?“). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Er bringt in der Nacht zum 6. Dezember Süßigkeiten in die geputzten Stiefel.",
+    "antwort": "Wer ist der Nikolaus?",
+    "akzeptiert": [
+      "Wer ist Nikolaus?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Nikolaus gemeint ist. Weihnachtsmann: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "0 Grad Celsius",
+    "antwort": "Was ist der Gefrierpunkt von Wasser?",
+    "akzeptiert": [
+      "Bei welcher Temperatur gefriert Wasser?"
+    ],
+    "bewertung": "Richtig ist jede Frage, die sinngemäß nach dem Gefrier- bzw. Schmelzpunkt von Wasser fragt. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Bei dieser Sportart dürfen nur die Torhüter den Ball mit der Hand spielen, elf gegen elf.",
+    "antwort": "Was ist Fußball?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Fußball gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieser Planet ist der Sonne am nächsten.",
+    "antwort": "Was ist der Merkur?",
+    "akzeptiert": [
+      "Was ist Merkur?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Merkur gemeint ist. Venus: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese Stadt ist die Hauptstadt von Spanien.",
+    "antwort": "Was ist Madrid?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Madrid gemeint ist. Barcelona: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Er schrieb „Romeo und Julia“.",
+    "antwort": "Wer ist William Shakespeare?",
+    "akzeptiert": [
+      "Wer ist Shakespeare?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und William Shakespeare gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Er gründete 1975 zusammen mit Paul Allen die Firma Microsoft.",
+    "antwort": "Wer ist Bill Gates?",
+    "akzeptiert": [
+      "Wer ist Gates?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Bill Gates gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieser Physiker entwickelte die Relativitätstheorie und die Formel E = mc².",
+    "antwort": "Wer ist Albert Einstein?",
+    "akzeptiert": [
+      "Wer ist Einstein?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Albert Einstein gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieser sprechende Schneemann aus „Die Eiskönigin“ liebt warme Umarmungen.",
+    "antwort": "Wer ist Olaf?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Olaf gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese Baleareninsel mit der Hauptstadt Palma ist bei Deutschen besonders beliebt.",
+    "antwort": "Was ist Mallorca?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Mallorca gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieses schwarz-weiße Tier ist das Logo der Naturschutzorganisation WWF.",
+    "antwort": "Was ist der Panda?",
+    "akzeptiert": [
+      "Was ist der Große Panda?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der (Große) Panda gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Ihre „Eras Tour“ (2023–2024) wurde zur umsatzstärksten Konzerttournee aller Zeiten.",
+    "antwort": "Wer ist Taylor Swift?",
+    "akzeptiert": [
+      "Wer ist Swift?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Taylor Swift gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese Währung gibt es in Deutschland seit 2002 als Bargeld.",
+    "antwort": "Was ist der Euro?",
+    "akzeptiert": [
+      "Was ist Euro?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Euro gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieses Säugetier ist das einzige, das aktiv fliegen kann.",
+    "antwort": "Was ist die Fledermaus?",
+    "akzeptiert": [
+      "Was sind Fledertiere?",
+      "Was ist der Flughund?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Fledermaus gemeint ist. Fledertiere oder Flughund auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieses chemische Element mit dem Symbol H ist das häufigste im Universum.",
+    "antwort": "Was ist Wasserstoff?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Wasserstoff gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Diese Stadt ist die Hauptstadt der Türkei.",
+    "antwort": "Was ist Ankara?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Ankara gemeint ist. Istanbul: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Er malte die Decke der Sixtinischen Kapelle.",
+    "antwort": "Wer ist Michelangelo?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Michelangelo (Buonarroti) gemeint ist. Leonardo da Vinci oder Raffael: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieser höchste Berg Deutschlands ist 2.962 Meter hoch.",
+    "antwort": "Was ist die Zugspitze?",
+    "akzeptiert": [
+      "Was ist Zugspitze?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Zugspitze gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Diese Organisation mit Sitz in New York hat 193 Mitgliedstaaten.",
+    "antwort": "Was sind die Vereinten Nationen?",
+    "akzeptiert": [
+      "Was ist die UNO?",
+      "Was ist die UN?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die UNO (Vereinte Nationen) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "206",
+    "antwort": "Wie viele Knochen hat ein erwachsener Mensch?",
+    "akzeptiert": [
+      "Wie viele Knochen hat der Mensch?"
+    ],
+    "bewertung": "Richtig ist jede Frage, die sinngemäß nach der Zahl der Knochen im (erwachsenen) menschlichen Skelett fragt. Rechenfragen gelten nicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieser griechische Held war nur an seiner Ferse verwundbar.",
+    "antwort": "Wer ist Achilles?",
+    "akzeptiert": [
+      "Wer ist Achill?",
+      "Wer ist Achilleus?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Achilles gemeint ist. Auch „Achill“/„Achilleus“ richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Er war von 1949 bis 1963 der erste Bundeskanzler der Bundesrepublik.",
+    "antwort": "Wer ist Konrad Adenauer?",
+    "akzeptiert": [
+      "Wer ist Adenauer?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Konrad Adenauer gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Er komponierte die Oper „Die Zauberflöte“.",
+    "antwort": "Wer ist Wolfgang Amadeus Mozart?",
+    "akzeptiert": [
+      "Wer ist Mozart?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Wolfgang Amadeus Mozart gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Er schrieb „Die Verwandlung“, in der Gregor Samsa als Ungeziefer erwacht.",
+    "antwort": "Wer ist Franz Kafka?",
+    "akzeptiert": [
+      "Wer ist Kafka?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Franz Kafka gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Diese Stadt ist die Hauptstadt von Neuseeland.",
+    "antwort": "Was ist Wellington?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Wellington gemeint ist. Auckland: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Organ ist die größte Drüse des menschlichen Körpers.",
+    "antwort": "Was ist die Leber?",
+    "akzeptiert": [
+      "Was ist Leber?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Leber gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "In dieser Stadt verhandelten die Siegermächte 1945 im Schloss Cecilienhof.",
+    "antwort": "Was ist Potsdam?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Potsdam gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Element mit der Ordnungszahl 6 ist die Grundlage aller organischen Verbindungen.",
+    "antwort": "Was ist Kohlenstoff?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Kohlenstoff gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Diese Programmiersprache ist nach einer britischen Komikergruppe benannt.",
+    "antwort": "Was ist Python?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Python gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Diese Seuche, der „Schwarze Tod“, tötete im 14. Jahrhundert etwa ein Drittel der Europäer.",
+    "antwort": "Was ist die Pest?",
+    "akzeptiert": [
+      "Was ist die Beulenpest?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Pest gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Gebirge gilt im Osten Russlands als Grenze zwischen Europa und Asien.",
+    "antwort": "Was ist der Ural?",
+    "akzeptiert": [
+      "Was ist Ural?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Ural gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieser norwegische Maler schuf „Der Schrei“.",
+    "antwort": "Wer ist Edvard Munch?",
+    "akzeptiert": [
+      "Wer ist Munch?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Edvard Munch gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "1492",
+    "antwort": "In welchem Jahr erreichte Kolumbus Amerika?",
+    "akzeptiert": [
+      "Wann entdeckte Kolumbus Amerika?"
+    ],
+    "bewertung": "Richtig ist jede Frage, die sinngemäß nach dem Jahr der Ankunft von Christoph Kolumbus in Amerika fragt. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser Staat ist vollständig von Südafrika umschlossen.",
+    "antwort": "Was ist Lesotho?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Lesotho gemeint ist. Eswatini (Swasiland): falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser britische Mathematiker bewies in den 1990er-Jahren den Großen Fermatschen Satz.",
+    "antwort": "Wer ist Andrew Wiles?",
+    "akzeptiert": [
+      "Wer ist Wiles?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Andrew Wiles gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieses Metall hat den höchsten Schmelzpunkt aller Metalle (über 3.400 °C).",
+    "antwort": "Was ist Wolfram?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Wolfram gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser Königsberger Philosoph schrieb die „Kritik der reinen Vernunft“.",
+    "antwort": "Wer ist Immanuel Kant?",
+    "akzeptiert": [
+      "Wer ist Kant?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Immanuel Kant gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Diese Insel ist die größte im Mittelmeer.",
+    "antwort": "Was ist Sizilien?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Sizilien gemeint ist. Sardinien: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser römische Kaiser soll beim Brand Roms im Jahr 64 gesungen haben.",
+    "antwort": "Wer ist Nero?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Nero gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Diese Säure ist der Hauptbestandteil des Magensafts.",
+    "antwort": "Was ist Salzsäure?",
+    "akzeptiert": [
+      "Was ist HCl?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Salzsäure gemeint ist. „Chlorwasserstoffsäure“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser deutsche Physiker gilt als Begründer der Quantenphysik; nach ihm ist das Wirkungsquantum h benannt.",
+    "antwort": "Wer ist Max Planck?",
+    "akzeptiert": [
+      "Wer ist Planck?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Max Planck gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser venezianische Barockkomponist schrieb „Die vier Jahreszeiten“.",
+    "antwort": "Wer ist Antonio Vivaldi?",
+    "akzeptiert": [
+      "Wer ist Vivaldi?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Antonio Vivaldi gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "NaCl",
+    "antwort": "Was ist die chemische Formel von Kochsalz?",
+    "akzeptiert": [
+      "Was ist Natriumchlorid?"
+    ],
+    "bewertung": "Richtig ist jede Frage, die auf Kochsalz/Natriumchlorid zielt (z. B. „Was ist Kochsalz?“, „Wie lautet die Formel von Kochsalz?“). Ohne Frageform: falsch."
+  }
 ]

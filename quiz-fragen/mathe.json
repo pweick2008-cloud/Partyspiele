@@ -509,14 +509,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welcher griechische Mathematiker ist für den Satz a² + b² = c² im rechtwinkligen Dreieck berühmt?",
-    "antwort": "Pythagoras",
-    "akzeptiert": [
-      "Pythagoras von Samos"
-    ]
-  },
-  {
-    "stufe": 4,
     "frage": "Was ist 3/4 geteilt durch 1/8?",
     "antwort": "6",
     "akzeptiert": [
@@ -546,17 +538,6 @@
     "akzeptiert": [
       "fünf"
     ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher deutsche Mathematiker soll schon als Schüler blitzschnell alle Zahlen von 1 bis 100 addiert haben?",
-    "antwort": "Carl Friedrich Gauß",
-    "akzeptiert": [
-      "Gauß",
-      "Gauss",
-      "Carl Friedrich Gauss"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 4,
@@ -661,15 +642,6 @@
       "lotrecht zueinander"
     ],
     "bewertung": "„Senkrecht“ und „orthogonal“ gelten beide. „Parallel“ ist falsch."
-  },
-  {
-    "stufe": 4,
-    "frage": "Nach welchem Schweizer Mathematiker ist die Zahl e ≈ 2,718 benannt?",
-    "antwort": "Leonhard Euler",
-    "akzeptiert": [
-      "Euler"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 4,
@@ -820,15 +792,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher französische Mathematiker hinterließ einen berühmten „letzten Satz“, den Andrew Wiles erst 1994 bewies?",
-    "antwort": "Pierre de Fermat",
-    "akzeptiert": [
-      "Fermat"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
     "frage": "Welche ist die kleinste vollkommene Zahl, also gleich der Summe ihrer echten Teiler?",
     "antwort": "6",
     "akzeptiert": [
@@ -862,15 +825,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher griechische Mathematiker bewies um 300 v. Chr., dass es unendlich viele Primzahlen gibt?",
-    "antwort": "Euklid",
-    "akzeptiert": [
-      "Euklid von Alexandria",
-      "Euclid"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Was ist der Sinus von 30 Grad?",
     "antwort": "0,5",
     "akzeptiert": [
@@ -879,5 +833,581 @@
       "ein Halb"
     ],
     "bewertung": "Bruch und Dezimalzahl gelten beide."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 9 mal 7?",
+    "antwort": "63"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 48 plus 25?",
+    "antwort": "73"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 500 minus 125?",
+    "antwort": "375"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Flächen hat ein Würfel?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Millimeter sind ein Zentimeter?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist das Doppelte von 35?",
+    "antwort": "70"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 8 mal 9?",
+    "antwort": "72"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man das Ergebnis einer Subtraktion?",
+    "antwort": "Differenz"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 81 geteilt durch 9?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt ein Winkel, der kleiner als 90° ist?",
+    "antwort": "spitzer Winkel",
+    "akzeptiert": [
+      "spitz"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Meter hat ein Kilometer?",
+    "antwort": "1000",
+    "akzeptiert": [
+      "tausend"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Strecke, die durch den Mittelpunkt eines Kreises von Rand zu Rand verläuft?",
+    "antwort": "Durchmesser"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist ein Drittel von 27?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt ein Viereck mit vier rechten Winkeln, bei dem nur die gegenüberliegenden Seiten gleich lang sind?",
+    "antwort": "Rechteck"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel Grad hat ein voller Kreis?",
+    "antwort": "360",
+    "akzeptiert": [
+      "360°"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel sind 50 Prozent von 64?",
+    "antwort": "32"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel ist 12 mal 12?",
+    "antwort": "144"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel ist 3 hoch 3?",
+    "antwort": "27"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Quadratwurzel aus 144?",
+    "antwort": "12"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie schreibt man den Bruch 2/5 als Dezimalzahl?",
+    "antwort": "0,4",
+    "akzeptiert": [
+      "0.4"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel sind 20 Prozent von 150?",
+    "antwort": "30"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie groß ist der Flächeninhalt eines Quadrats mit 7 cm Seitenlänge (in cm²)?",
+    "antwort": "49",
+    "akzeptiert": [
+      "49 cm²"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Zahl unter dem Bruchstrich?",
+    "antwort": "Nenner"
+  },
+  {
+    "stufe": 2,
+    "frage": "Löse die Gleichung: x + 7 = 19. Wie groß ist x?",
+    "antwort": "12",
+    "akzeptiert": [
+      "x = 12"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel ist minus 8 minus 5?",
+    "antwort": "-13",
+    "akzeptiert": [
+      "−13",
+      "minus 13"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt ein Dreieck, das einen 90°-Winkel hat?",
+    "antwort": "rechtwinkliges Dreieck",
+    "akzeptiert": [
+      "rechtwinklig"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was sind drei Viertel von 20?",
+    "antwort": "15"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie groß ist die Wahrscheinlichkeit, mit einem normalen Würfel eine 6 zu würfeln?",
+    "antwort": "1/6",
+    "akzeptiert": [
+      "ein Sechstel",
+      "16,7 %"
+    ],
+    "bewertung": "Auch ca. 16,7 % ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Zahl kommt als Nächstes: 2, 4, 8, 16, …?",
+    "antwort": "32"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist 1/2 plus 1/4?",
+    "antwort": "3/4",
+    "akzeptiert": [
+      "0,75",
+      "drei Viertel"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie groß ist der Umfang eines Rechtecks mit den Seiten 5 cm und 3 cm (in cm)?",
+    "antwort": "16",
+    "akzeptiert": [
+      "16 cm"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Körper mit kreisförmiger Grundfläche, der nach oben in einer Spitze zuläuft?",
+    "antwort": "Kegel"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Quadratzentimeter hat ein Quadratmeter?",
+    "antwort": "10000",
+    "akzeptiert": [
+      "10.000",
+      "zehntausend"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie lautet der Median der Zahlen 3, 9, 4, 1 und 7?",
+    "antwort": "4"
+  },
+  {
+    "stufe": 3,
+    "frage": "Löse die Gleichung: 3x − 5 = 16. Wie groß ist x?",
+    "antwort": "7",
+    "akzeptiert": [
+      "x = 7"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist 25 mal 24?",
+    "antwort": "600"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie groß ist der Flächeninhalt eines Dreiecks mit Grundseite 10 cm und Höhe 6 cm (in cm²)?",
+    "antwort": "30",
+    "akzeptiert": [
+      "30 cm²"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Zahl kommt als Nächstes: 1, 4, 9, 16, 25, …?",
+    "antwort": "36"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie groß ist die Wahrscheinlichkeit, bei zwei Münzwürfen zweimal Kopf zu werfen?",
+    "antwort": "1/4",
+    "akzeptiert": [
+      "25 %",
+      "0,25",
+      "ein Viertel"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist 2/3 mal 3/4?",
+    "antwort": "1/2",
+    "akzeptiert": [
+      "0,5",
+      "ein Halb"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt ein Viereck mit vier gleich langen Seiten, dessen Winkel aber keine rechten Winkel sein müssen?",
+    "antwort": "Raute",
+    "akzeptiert": [
+      "Rhombus"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Steigung hat die Gerade y = 3x + 2?",
+    "antwort": "3"
+  },
+  {
+    "stufe": 3,
+    "frage": "An welcher Stelle schneidet die Gerade y = 2x − 4 die y-Achse?",
+    "antwort": "-4",
+    "akzeptiert": [
+      "−4",
+      "bei −4",
+      "(0|−4)"
+    ],
+    "bewertung": "Der y-Wert −4 genügt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel Prozent sind 4/5?",
+    "antwort": "80 %",
+    "akzeptiert": [
+      "80",
+      "80 Prozent"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist (−2) hoch 3?",
+    "antwort": "-8",
+    "akzeptiert": [
+      "−8",
+      "minus 8"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie groß ist das Volumen eines Quaders mit den Kanten 3 cm, 4 cm und 5 cm (in cm³)?",
+    "antwort": "60",
+    "akzeptiert": [
+      "60 cm³"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Graph einer quadratischen Funktion wie f(x) = x²?",
+    "antwort": "Parabel",
+    "akzeptiert": [
+      "Normalparabel"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Ein Winkel ist 65° groß. Wie groß ist sein Nebenwinkel?",
+    "antwort": "115°",
+    "akzeptiert": [
+      "115"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Kanten hat ein Prisma mit dreieckiger Grundfläche?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche beiden Lösungen hat die Gleichung x² = 49?",
+    "antwort": "7 und −7",
+    "akzeptiert": [
+      "±7",
+      "-7 und 7",
+      "7 und -7"
+    ],
+    "bewertung": "Beide Lösungen nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Es gilt x + y = 10 und x − y = 4. Wie groß ist x?",
+    "antwort": "7",
+    "akzeptiert": [
+      "x = 7"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viel ist 18 zum Quadrat?",
+    "antwort": "324"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viel ist der Logarithmus von 64 zur Basis 2?",
+    "antwort": "6"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie groß ist die Wahrscheinlichkeit, mit zwei Würfen eines normalen Würfels zweimal eine 6 zu würfeln?",
+    "antwort": "1/36",
+    "akzeptiert": [
+      "ein Sechsunddreißigstel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Zahl kommt als Nächstes: 3, 7, 15, 31, …?",
+    "antwort": "63"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Ableitung einer konstanten Funktion wie f(x) = 7?",
+    "antwort": "0",
+    "akzeptiert": [
+      "null",
+      "f'(x) = 0"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Diagonalen hat ein Sechseck?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welcher Formel berechnet man das Volumen eines Zylinders mit Radius r und Höhe h?",
+    "antwort": "π·r²·h",
+    "akzeptiert": [
+      "V = π r² h",
+      "pi r² h"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie schreibt man 3/8 als Dezimalzahl?",
+    "antwort": "0,375",
+    "akzeptiert": [
+      "0.375"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist der Kosinus von 0 Grad?",
+    "antwort": "1",
+    "akzeptiert": [
+      "eins"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "An welcher Stelle hat die Funktion f(x) = 2x − 6 ihre Nullstelle?",
+    "antwort": "x = 3",
+    "akzeptiert": [
+      "3"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Eine Gerade geht durch die Punkte (0|1) und (2|5). Welche Steigung hat sie?",
+    "antwort": "2"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie groß ist der Umfang eines Kreises mit 10 cm Durchmesser, wenn man π ≈ 3,14 rechnet (in cm)?",
+    "antwort": "31,4",
+    "akzeptiert": [
+      "31,4 cm",
+      "31.4"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Für welches x gilt 2 hoch x = 32?",
+    "antwort": "5",
+    "akzeptiert": [
+      "x = 5"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Ableitung von eˣ?",
+    "antwort": "eˣ",
+    "akzeptiert": [
+      "e^x",
+      "e hoch x"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Ableitung von ln(x)?",
+    "antwort": "1/x"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Ableitung von cos(x)?",
+    "antwort": "−sin(x)",
+    "akzeptiert": [
+      "-sin(x)",
+      "minus sin x"
+    ],
+    "bewertung": "Das Minuszeichen ist nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Ableitung von 1/x?",
+    "antwort": "−1/x²",
+    "akzeptiert": [
+      "-1/x²",
+      "-x^-2",
+      "−x⁻²"
+    ],
+    "bewertung": "Das Minuszeichen ist nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Ableitung von f(x) = (2x + 1)²?",
+    "antwort": "8x + 4",
+    "akzeptiert": [
+      "4(2x+1)",
+      "8x+4"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele verschiedene Buchstabenfolgen kann man aus den Buchstaben des Wortes OTTO bilden?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist der natürliche Logarithmus von e³?",
+    "antwort": "3"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist der Tangens von 45 Grad?",
+    "antwort": "1",
+    "akzeptiert": [
+      "eins"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Gegen welchen Wert strebt die unendliche Summe 1 + 1/2 + 1/4 + 1/8 + …?",
+    "antwort": "2"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie groß ist das Integral von 0 bis 3 über 2x dx?",
+    "antwort": "9"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie groß ist die Wahrscheinlichkeit, bei drei Münzwürfen mindestens einmal Kopf zu werfen?",
+    "antwort": "7/8",
+    "akzeptiert": [
+      "87,5 %",
+      "0,875"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie groß ist der Betrag der komplexen Zahl 3 + 4i?",
+    "antwort": "5"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Lösungen hat die Gleichung x² − 5x + 6 = 0?",
+    "antwort": "2 und 3",
+    "akzeptiert": [
+      "x = 2 und x = 3",
+      "3 und 2"
+    ],
+    "bewertung": "Beide Lösungen nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele positive Teiler hat die Zahl 36?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Punkt eines Funktionsgraphen, an dem er von einer Links- in eine Rechtskrümmung wechselt (oder umgekehrt)?",
+    "antwort": "Wendepunkt"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Erwartungswert hat die Augenzahl beim Wurf eines normalen Würfels?",
+    "antwort": "3,5",
+    "akzeptiert": [
+      "3.5"
+    ]
   }
 ]

@@ -720,5 +720,393 @@
       "DAMN",
       "Damn"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sängerin landete 2023 mit „Flowers“ einen Welthit?",
+    "antwort": "Miley Cyrus",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher kanadische Sänger wurde als Teenager mit „Baby“ berühmt und hatte später Hits wie „Sorry“?",
+    "antwort": "Justin Bieber",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sängerin wird „Queen of Pop“ genannt und hatte Hits wie „Like a Prayer“?",
+    "antwort": "Madonna"
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welcher Boyband stammen Harry Styles, Niall Horan und Louis Tomlinson?",
+    "antwort": "One Direction",
+    "akzeptiert": [
+      "1D"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches große Tasteninstrument mit vielen Pfeifen steht meist in Kirchen?",
+    "antwort": "Orgel",
+    "akzeptiert": [
+      "Kirchenorgel",
+      "Pfeifenorgel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sängerin hatte 2024 mit „Espresso“ einen Sommerhit?",
+    "antwort": "Sabrina Carpenter",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche US-Sängerin wurde mit „…Baby One More Time“ und „Toxic“ zur Pop-Ikone?",
+    "antwort": "Britney Spears",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Song des Südkoreaners PSY, zu dem 2012 die halbe Welt einen „Pferdetanz“ machte?",
+    "antwort": "Gangnam Style"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sängerin war Teil von Destiny’s Child und hatte solo Hits wie „Single Ladies“ und „Crazy in Love“?",
+    "antwort": "Beyoncé",
+    "akzeptiert": [
+      "Beyonce",
+      "Beyoncé Knowles"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Streichinstrument klemmt man sich beim Spielen unters Kinn?",
+    "antwort": "Geige",
+    "akzeptiert": [
+      "Violine"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher puerto-ricanische Sänger hatte 2017 zusammen mit Daddy Yankee den Welthit „Despacito“?",
+    "antwort": "Luis Fonsi",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Blackpink-Sängerin landete 2024 zusammen mit Bruno Mars den Hit „APT.“?",
+    "antwort": "Rosé",
+    "akzeptiert": [
+      "Rose",
+      "Roseanne Park"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Rekord-Tournee, mit der Taylor Swift 2023 und 2024 um die Welt tourte?",
+    "antwort": "The Eras Tour",
+    "akzeptiert": [
+      "Eras Tour",
+      "Eras"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche britische Band hatte 1995 mit „Wonderwall“ einen Riesenhit?",
+    "antwort": "Oasis"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Düsseldorfer Punkrockband um Campino singt „Tage wie diese“?",
+    "antwort": "Die Toten Hosen",
+    "akzeptiert": [
+      "Toten Hosen",
+      "Tote Hosen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Berliner Band um Farin Urlaub und Bela B. veröffentlichte „Schrei nach Liebe“?",
+    "antwort": "Die Ärzte",
+    "akzeptiert": [
+      "Ärzte"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Von welcher US-Band stammen die Songs „Numb“ und „In the End“?",
+    "antwort": "Linkin Park"
+  },
+  {
+    "stufe": 2,
+    "frage": "Für welchen Kinofilm von 2023 schrieb Billie Eilish den Song „What Was I Made For?“?",
+    "antwort": "Barbie"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Rapperin aus Trinidad und Tobago hatte Hits wie „Super Bass“ und „Anaconda“?",
+    "antwort": "Nicki Minaj",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche US-Künstlerin hatte 2023 mit „Paint the Town Red“ einen Hit?",
+    "antwort": "Doja Cat"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche deutsche Sängerin wurde 1983 mit „99 Luftballons“ weltweit bekannt?",
+    "antwort": "Nena"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Saiten hat ein normaler E-Bass?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ],
+    "bewertung": "Nur die Zahl zählt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher britische Musiker trat in den 1970ern als Kunstfigur „Ziggy Stardust“ auf?",
+    "antwort": "David Bowie",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher deutsche Sänger hatte Hits wie „Männer“ und „Bochum“?",
+    "antwort": "Herbert Grönemeyer",
+    "akzeptiert": [
+      "Groenemeyer"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Land gewann den Eurovision Song Contest 2024 mit Nemo und „The Code“?",
+    "antwort": "Schweiz",
+    "akzeptiert": [
+      "die Schweiz"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche britische Rockband veröffentlichte 1971 „Stairway to Heaven“?",
+    "antwort": "Led Zeppelin"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches französische Elektro-Duo trat stets mit Roboterhelmen auf?",
+    "antwort": "Daft Punk"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Land findet das Elektro-Festival „Tomorrowland“ statt?",
+    "antwort": "Belgien"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Ex-Beatle veröffentlichte 1971 den Song „Imagine“?",
+    "antwort": "John Lennon",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche britische Sängerin hatte Hits wie „Rehab“ und „Back to Black“?",
+    "antwort": "Amy Winehouse",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das große Rockfestival, das jedes Jahr am Nürburgring in der Eifel stattfindet?",
+    "antwort": "Rock am Ring"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Taktart wird ein Walzer gespielt?",
+    "antwort": "3/4-Takt",
+    "akzeptiert": [
+      "Dreivierteltakt",
+      "3/4",
+      "drei Viertel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Sängerin gewann den Eurovision Song Contest 2023 mit „Tattoo“ für Schweden?",
+    "antwort": "Loreen"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Sänger war Frontmann und Bassist von The Police, bevor er solo erfolgreich wurde?",
+    "antwort": "Sting"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche US-Band besteht unter anderem aus Sänger Anthony Kiedis und Bassist Flea?",
+    "antwort": "Red Hot Chili Peppers",
+    "akzeptiert": [
+      "RHCP",
+      "Chili Peppers"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Taylor-Swift-Album, das im April 2024 erschien?",
+    "antwort": "The Tortured Poets Department",
+    "akzeptiert": [
+      "Tortured Poets Department",
+      "TTPD"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Unter welchem Künstlernamen ist der US-Rapper Calvin Broadus bekannt?",
+    "antwort": "Snoop Dogg",
+    "akzeptiert": [
+      "Snoop Dog",
+      "Snoop Doggy Dogg",
+      "Snoop Lion",
+      "Snoop"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche norwegische Band hatte 1985 mit „Take On Me“ einen Welthit?",
+    "antwort": "a-ha",
+    "akzeptiert": [
+      "aha"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Sänger hatte 1983 mit „Major Tom (völlig losgelöst)“ einen Hit?",
+    "antwort": "Peter Schilling",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher österreichische Komponist schrieb den Walzer „An der schönen blauen Donau“?",
+    "antwort": "Johann Strauss (Sohn)",
+    "akzeptiert": [
+      "Johann Strauss",
+      "Johann Strauß",
+      "Strauss",
+      "Strauß"
+    ],
+    "bewertung": "„Strauss“ reicht; „Richard Strauss“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher US-Rockmusiker wird „The Boss“ genannt und sang „Born in the U.S.A.“?",
+    "antwort": "Bruce Springsteen",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welcher Band wurde Ozzy Osbourne in den 1970ern als Sänger berühmt?",
+    "antwort": "Black Sabbath"
+  },
+  {
+    "stufe": 4,
+    "frage": "Unter welchem Künstlernamen ist der US-Rapper Shawn Carter bekannt, der mit Beyoncé verheiratet ist?",
+    "antwort": "Jay-Z",
+    "akzeptiert": [
+      "Jay Z",
+      "JayZ"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welcher thüringischen Stadt wurde Johann Sebastian Bach 1685 geboren?",
+    "antwort": "Eisenach"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher russische Komponist schrieb den „Hummelflug“?",
+    "antwort": "Nikolai Rimski-Korsakow",
+    "akzeptiert": [
+      "Rimski-Korsakow",
+      "Rimsky-Korsakov"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutsche Komponist schrieb die Tondichtung „Also sprach Zarathustra“?",
+    "antwort": "Richard Strauss",
+    "akzeptiert": [
+      "Richard Strauß"
+    ],
+    "bewertung": "Nur „Strauss“ ohne Vorname ist nicht eindeutig; „Johann Strauss“ ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "In welcher US-Stadt liegt Graceland, das Anwesen von Elvis Presley?",
+    "antwort": "Memphis"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher italienische Violinvirtuose wurde wegen seines Spiels „Teufelsgeiger“ genannt?",
+    "antwort": "Niccolò Paganini",
+    "akzeptiert": [
+      "Paganini",
+      "Niccolo Paganini"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher deutsche Komponist schrieb die „Carmina Burana“ mit dem berühmten „O Fortuna“?",
+    "antwort": "Carl Orff",
+    "akzeptiert": [
+      "Orff"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Komponist vertonte Goethes Ballade „Erlkönig“ als berühmtes Lied?",
+    "antwort": "Franz Schubert",
+    "akzeptiert": [
+      "Schubert"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Instrument spielt der weltberühmte Musiker Yo-Yo Ma?",
+    "antwort": "Cello",
+    "akzeptiert": [
+      "Violoncello"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautete der Geburtsname von Queen-Sänger Freddie Mercury?",
+    "antwort": "Farrokh Bulsara",
+    "akzeptiert": [
+      "Bulsara",
+      "Farookh Bulsara"
+    ],
+    "bewertung": "Nachname „Bulsara“ reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher englische Komponist schrieb die Orchestersuite „Die Planeten“?",
+    "antwort": "Gustav Holst",
+    "akzeptiert": [
+      "Holst"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Gitarrist von Guns N’ Roses, der fast immer mit Zylinder auftritt?",
+    "antwort": "Slash"
   }
 ]

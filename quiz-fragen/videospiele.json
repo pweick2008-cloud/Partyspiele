@@ -740,5 +740,367 @@
       "Bandicoot",
       "Nasenbeutler"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Auf welcher Online-Plattform bauen Spieler eigene Spiele für andere und bezahlen mit „Robux“?",
+    "antwort": "Roblox"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe hat Marios Mütze?",
+    "antwort": "Rot",
+    "akzeptiert": [
+      "rot"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Buchstabe steht auf Marios Mütze?",
+    "antwort": "M"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Handyspiel rennt man über Bahngleise vor einem Inspektor und seinem Hund davon?",
+    "antwort": "Subway Surfers"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Spiel schießen Autos einen riesigen Ball ins gegnerische Tor?",
+    "antwort": "Rocket League"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt Pikachus Trainer im Pokémon-Anime?",
+    "antwort": "Ash",
+    "akzeptiert": [
+      "Ash Ketchum"
+    ],
+    "bewertung": "Vorname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Handyspiel tauscht man bunte Süßigkeiten, um Dreierreihen zu bilden?",
+    "antwort": "Candy Crush",
+    "akzeptiert": [
+      "Candy Crush Saga"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht die Gaming-Abkürzung „AFK“?",
+    "antwort": "Away from Keyboard",
+    "akzeptiert": [
+      "Away from keyboard",
+      "nicht an der Tastatur"
+    ],
+    "bewertung": "Sinngemäße deutsche Übersetzung zählt auch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welchen Boss muss man in Minecraft im Ende besiegen?",
+    "antwort": "Enderdrache",
+    "akzeptiert": [
+      "Ender Dragon",
+      "Drache",
+      "Enderdrachen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht „PS“ im Namen der Konsole PS5?",
+    "antwort": "PlayStation",
+    "akzeptiert": [
+      "Playstation"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Nintendos Spielreihe, in der man in einem Dorf voller sprechender Tiere lebt?",
+    "antwort": "Animal Crossing"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Wasser-Pokémon kann man in Pokémon Rot und Blau als Starter wählen?",
+    "antwort": "Schiggy",
+    "akzeptiert": [
+      "Squirtle"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Spiel von 2023, in dem man als Schüler die Zauberschule von Harry Potter erkundet?",
+    "antwort": "Hogwarts Legacy"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die männliche Standard-Spielfigur in Minecraft?",
+    "antwort": "Steve"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Nintendos Spielreihe mit Brettspielfeld und vielen Minispielen rund um Mario?",
+    "antwort": "Mario Party"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Sonics gelber Fuchs-Freund mit zwei Schwänzen?",
+    "antwort": "Tails",
+    "akzeptiert": [
+      "Miles Prower",
+      "Miles „Tails“ Prower"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Marios fieser Rivale mit gelber Mütze und lila Latzhose?",
+    "antwort": "Wario"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man das Spielgenre, in dem viele Spieler gegeneinander kämpfen, bis nur einer übrig bleibt?",
+    "antwort": "Battle Royale"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Spiele-Abo von Microsoft für Xbox und PC?",
+    "antwort": "Game Pass",
+    "akzeptiert": [
+      "Xbox Game Pass",
+      "PC Game Pass"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Genre-Abkürzung „FPS“ bei Shootern wie Call of Duty?",
+    "antwort": "First-Person-Shooter",
+    "akzeptiert": [
+      "First Person Shooter",
+      "Ego-Shooter"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Spiel erbt man von seinem Großvater eine Farm in Pelican Town?",
+    "antwort": "Stardew Valley"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Gerudo-König und Erzfeind von Link in der Zelda-Reihe?",
+    "antwort": "Ganondorf",
+    "akzeptiert": [
+      "Ganon"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Hexer, die Hauptfigur der Witcher-Spiele?",
+    "antwort": "Geralt",
+    "akzeptiert": [
+      "Geralt von Riva",
+      "Geralt of Rivia"
+    ],
+    "bewertung": "Vorname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Supersoldat in grüner Rüstung, Held der Halo-Reihe?",
+    "antwort": "Master Chief",
+    "akzeptiert": [
+      "John-117",
+      "Chief"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Studio entwickelte „The Elder Scrolls V: Skyrim“?",
+    "antwort": "Bethesda",
+    "akzeptiert": [
+      "Bethesda Game Studios",
+      "Bethesda Softworks"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Spiel von 2013 ziehen Joel und Ellie durch ein von Pilz-Infizierten verwüstetes Amerika?",
+    "antwort": "The Last of Us"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Hauptcharakter von „Red Dead Redemption 2“?",
+    "antwort": "Arthur Morgan",
+    "akzeptiert": [
+      "Arthur"
+    ],
+    "bewertung": "Vorname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Währung in der Zelda-Reihe?",
+    "antwort": "Rubine",
+    "akzeptiert": [
+      "Rupien",
+      "Rupees",
+      "Rubin"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die Genre-Abkürzung „RPG“?",
+    "antwort": "Role-Playing Game",
+    "akzeptiert": [
+      "Rollenspiel",
+      "Roleplaying Game"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das schwedische Studio, das Minecraft entwickelt?",
+    "antwort": "Mojang",
+    "akzeptiert": [
+      "Mojang Studios"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches japanische Studio entwickelte „Dark Souls“ und „Elden Ring“?",
+    "antwort": "FromSoftware",
+    "akzeptiert": [
+      "From Software"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Unter welchem Spitznamen ist Markus Persson bekannt, der Minecraft erfand?",
+    "antwort": "Notch"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Links Pferd in „Ocarina of Time“?",
+    "antwort": "Epona"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Konzern kaufte 2014 das Minecraft-Studio Mojang?",
+    "antwort": "Microsoft"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher fiktiven Stadt spielt „Cyberpunk 2077“?",
+    "antwort": "Night City"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Physiker mit Brecheisen, Held der Half-Life-Reihe?",
+    "antwort": "Gordon Freeman",
+    "akzeptiert": [
+      "Freeman"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches legendäre Pokémon ist auf dem Cover von Pokémon Gold abgebildet?",
+    "antwort": "Ho-Oh",
+    "akzeptiert": [
+      "Ho Oh"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Firma entwickelte „World of Warcraft“ und „Overwatch“?",
+    "antwort": "Blizzard",
+    "akzeptiert": [
+      "Blizzard Entertainment"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die bösartige KI, die einen in „Portal“ durch Testkammern schickt?",
+    "antwort": "GLaDOS",
+    "akzeptiert": [
+      "Glados"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Sohn von Kratos in „God of War“ (2018)?",
+    "antwort": "Atreus",
+    "akzeptiert": [
+      "Loki"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Pokémon gab es in der ersten Generation (Rot und Blau)?",
+    "antwort": "151",
+    "akzeptiert": [
+      "hunderteinundfünfzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß das Spiel von 1958, das auf einem Oszilloskop lief und als eines der ersten Videospiele gilt?",
+    "antwort": "Tennis for Two"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet laut Nintendo-Erfinder Shigeru Miyamoto der Nachname von Mario und Luigi?",
+    "antwort": "Mario",
+    "bewertung": "Nur „Mario“ ist richtig („Mario Mario“ zählt)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Unter welchem Namen erschien Segas Mega Drive in Nordamerika?",
+    "antwort": "Genesis",
+    "akzeptiert": [
+      "Sega Genesis"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Prinzessin, die Mario in „Super Mario Land“ (Game Boy, 1989) rettet?",
+    "antwort": "Daisy",
+    "akzeptiert": [
+      "Prinzessin Daisy"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Atari-Spiel von 1982 floppte so stark, dass Tausende Kopien in der Wüste von New Mexico vergraben wurden?",
+    "antwort": "E.T.",
+    "akzeptiert": [
+      "E.T. the Extra-Terrestrial",
+      "ET"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr erschien „Super Mario Bros.“ für das NES in Japan?",
+    "antwort": "1985"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Atari-2600-Spiel von 1980 enthielt eines der ersten bekannten Easter Eggs, einen versteckten Raum mit dem Namen des Entwicklers?",
+    "antwort": "Adventure"
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr erschien die erste PlayStation in Japan?",
+    "antwort": "1994"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß das Weltraum-Duell-Spiel, das 1962 am MIT entwickelt wurde?",
+    "antwort": "Spacewar!",
+    "akzeptiert": [
+      "Spacewar",
+      "Space War"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das legendäre Vogel-Pokémon auf dem Cover von Pokémon Silber?",
+    "antwort": "Lugia"
   }
 ]
