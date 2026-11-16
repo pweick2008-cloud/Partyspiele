@@ -18,7 +18,7 @@ const KATEGORIEN = [
   ["tiere", "Tiere"],
   ["fussball", "Fußball"],
   ["geschichte", "Geschichte"],
-  ["weltall", "Weltall"],
+  ["weltall", "Astronomie"],
   ["koerper", "Menschlicher Körper"],
   ["essen", "Essen & Trinken"],
   ["videospiele", "Videospiele"],
