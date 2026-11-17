@@ -135,14 +135,6 @@
   },
   {
     "stufe": 1,
-    "frage": "In welchem Anime will Ash Ketchum mit Pikachu der beste Trainer der Welt werden?",
-    "antwort": "Pokémon",
-    "akzeptiert": [
-      "Pokemon"
-    ]
-  },
-  {
-    "stufe": 1,
     "frage": "Welches Tier ist Disneys Dumbo, der mit seinen riesigen Ohren fliegen kann?",
     "antwort": "Elefant",
     "akzeptiert": [
@@ -251,21 +243,6 @@
   },
   {
     "stufe": 2,
-    "frage": "Welche Piratenfigur spielt Johnny Depp in „Fluch der Karibik“?",
-    "antwort": "Jack Sparrow",
-    "akzeptiert": [
-      "Captain Jack Sparrow",
-      "Käpt'n Jack Sparrow",
-      "Sparrow"
-    ]
-  },
-  {
-    "stufe": 2,
-    "frage": "In welchem Anime will der Gummimensch Ruffy König der Piraten werden?",
-    "antwort": "One Piece"
-  },
-  {
-    "stufe": 2,
     "frage": "Zu welcher Familie gehört Wednesday aus der gleichnamigen Netflix-Serie?",
     "antwort": "Addams",
     "akzeptiert": [
@@ -279,7 +256,7 @@
     "antwort": "Krypton"
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Wie heißt der Ex-Knacki, der in „Fack ju Göhte“ als Aushilfslehrer an einer Gesamtschule landet?",
     "antwort": "Zeki Müller",
     "akzeptiert": [
@@ -394,16 +371,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Wie heißt die Hauptfigur des Animes „Attack on Titan“, die alle Titanen vernichten will?",
-    "antwort": "Eren Jäger",
-    "akzeptiert": [
-      "Eren",
-      "Eren Yeager",
-      "Eren Jaeger"
-    ]
-  },
-  {
-    "stufe": 4,
     "frage": "Wie lautet der Nachname von „Doc“ Emmett, dem Erfinder in „Zurück in die Zukunft“?",
     "antwort": "Brown",
     "akzeptiert": [
@@ -415,25 +382,6 @@
     "stufe": 4,
     "frage": "In welcher Stadt in New Mexico spielt „Breaking Bad“?",
     "antwort": "Albuquerque"
-  },
-  {
-    "stufe": 4,
-    "frage": "Wie heißt die Figur, die Marlon Brando in „Der Pate“ (1972) spielt?",
-    "antwort": "Vito Corleone",
-    "akzeptiert": [
-      "Don Vito Corleone",
-      "Don Corleone",
-      "Corleone"
-    ],
-    "bewertung": "„Corleone“ allein reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Wie heißt Narutos Rivale und bester Freund aus dem Uchiha-Clan?",
-    "antwort": "Sasuke",
-    "akzeptiert": [
-      "Sasuke Uchiha"
-    ]
   },
   {
     "stufe": 4,
@@ -494,37 +442,11 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt der Androide mit dem gelblichen Gesicht in „Star Trek: Das nächste Jahrhundert“?",
-    "antwort": "Data",
-    "akzeptiert": [
-      "Lieutenant Commander Data"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt der Bordcomputer, der in „2001: Odyssee im Weltraum“ die Crew bedroht?",
     "antwort": "HAL 9000",
     "akzeptiert": [
       "HAL",
       "Hal"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie lautet Son-Gokus Saiyajin-Geburtsname in „Dragon Ball“ (deutsche Fassung)?",
-    "antwort": "Kakarott",
-    "akzeptiert": [
-      "Kakarot",
-      "Kakarotto"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt die hüpfende Schreibtischlampe aus dem Pixar-Logo (und Pixars Kurzfilm von 1986)?",
-    "antwort": "Luxo Jr.",
-    "akzeptiert": [
-      "Luxo",
-      "Luxo Junior"
     ]
   },
   {
@@ -546,22 +468,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt das Raumschiff in Ridley Scotts „Alien“ (1979)?",
-    "antwort": "Nostromo",
-    "akzeptiert": [
-      "USCSS Nostromo"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt Ash Ketchums Heimatort im deutschen Pokémon-Anime?",
-    "antwort": "Alabastia",
-    "akzeptiert": [
-      "Pallet Town"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt das Gasthaus in Bree, in dem die Hobbits in „Der Herr der Ringe“ Aragorn treffen?",
     "antwort": "Zum Tänzelnden Pony",
     "akzeptiert": [
@@ -569,11 +475,6 @@
       "Tänzelndes Pony",
       "The Prancing Pony"
     ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt Fritz Langs Stummfilm-Klassiker von 1927 mit der Maschinen-Maria?",
-    "antwort": "Metropolis"
   },
   {
     "stufe": 1,
@@ -778,19 +679,11 @@
   },
   {
     "stufe": 4,
-    "frage": "In welchem Anime kämpft Tanjiro Kamado gegen Dämonen, nachdem seine Schwester Nezuko zu einer wurde?",
-    "antwort": "Demon Slayer",
-    "akzeptiert": [
-      "Kimetsu no Yaiba"
-    ]
-  },
-  {
-    "stufe": 4,
     "frage": "Wie heißt der fiktive Kontinent, auf dem der Großteil von „Game of Thrones“ spielt?",
     "antwort": "Westeros"
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "In welcher Stadt finden die Filmfestspiele statt, bei denen der Goldene Bär verliehen wird?",
     "antwort": "Berlin"
   },
@@ -808,14 +701,6 @@
     "stufe": 5,
     "frage": "In welcher HBO-Serie streiten die Kinder von Medienmogul Logan Roy um die Nachfolge in seinem Konzern?",
     "antwort": "Succession"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der von Alan Rickman gespielte Bösewicht in „Stirb langsam“ (1988)?",
-    "antwort": "Hans Gruber",
-    "akzeptiert": [
-      "Gruber"
-    ]
   },
   {
     "stufe": 1,
@@ -1580,21 +1465,191 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt Roses reicher Verlobter in „Titanic“?",
-    "antwort": "Cal Hockley",
-    "akzeptiert": [
-      "Caledon Hockley",
-      "Cal"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt Doc Browns Hund im ersten „Zurück in die Zukunft“-Film?",
     "antwort": "Einstein"
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt Rapunzels Chamäleon im Disney-Film „Rapunzel – Neu verföhnt“?",
     "antwort": "Pascal"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der chaotische Piratenkäpt’n mit Dreadlocks aus „Fluch der Karibik“, dessen Kompass nicht nach Norden zeigt?",
+    "antwort": "Jack Sparrow",
+    "akzeptiert": [
+      "Captain Jack Sparrow",
+      "Käpt'n Jack Sparrow",
+      "Sparrow"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die düstere Parallelwelt in „Stranger Things“, im Original „Upside Down“?",
+    "antwort": "Die andere Seite",
+    "akzeptiert": [
+      "andere Seite",
+      "Upside Down",
+      "Schattenwelt"
+    ],
+    "bewertung": "Deutscher oder englischer Name zählt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Hauself, der Harry Potter immer wieder warnt und am Ende eine Socke geschenkt bekommt?",
+    "antwort": "Dobby"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das erste tödliche Spiel in „Squid Game“, bei dem sich niemand bewegen darf, wenn die Puppe sich umdreht?",
+    "antwort": "Rotes Licht, grünes Licht",
+    "akzeptiert": [
+      "Red Light, Green Light",
+      "Ochs am Berg",
+      "Rotes Licht Grünes Licht"
+    ],
+    "bewertung": "Auch die deutsche Spielvariante „Ochs am Berg“ zählt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Häsin, die in Disneys „Zoomania“ die erste Hasen-Polizistin wird?",
+    "antwort": "Judy Hopps",
+    "akzeptiert": [
+      "Judy"
+    ],
+    "bewertung": "Vorname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Ausruf aus „Ein Minecraft Film“ (2025) brachte Kinosäle weltweit zum Ausrasten?",
+    "antwort": "Chicken Jockey",
+    "akzeptiert": [
+      "Chicken Jockey!",
+      "Hühnerjockey"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Supermans weißer Hund mit rotem Umhang im „Superman“-Film von 2025?",
+    "antwort": "Krypto"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie lautet in „Harry Potter“ der tödliche Fluch, den nur Harry überlebt hat?",
+    "antwort": "Avada Kedavra",
+    "akzeptiert": [
+      "Avada Kadavra"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Girlgroup, die im Netflix-Hit „KPop Demon Hunters“ (2025) heimlich Dämonen jagt?",
+    "antwort": "Huntr/x",
+    "akzeptiert": [
+      "Huntrix",
+      "HUNTR/X",
+      "Huntr x"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche riesigen Kreaturen bewegen sich in „Dune“ durch den Sand von Arrakis?",
+    "antwort": "Sandwürmer",
+    "akzeptiert": [
+      "Sandwurm",
+      "Würmer",
+      "Shai-Hulud"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Präsident von Panem in „Die Tribute von Panem“, der Rosen liebt?",
+    "antwort": "Snow",
+    "akzeptiert": [
+      "Coriolanus Snow",
+      "Präsident Snow"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bedeutet „Hakuna Matata“ laut dem Lied aus „Der König der Löwen“?",
+    "antwort": "Keine Sorgen",
+    "akzeptiert": [
+      "Es gibt keine Sorgen",
+      "Keine Probleme",
+      "Mach dir keine Sorgen",
+      "No worries"
+    ],
+    "bewertung": "Sinngemäß „keine Sorgen“ zählt."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Kate-Bush-Song rettet Max in Staffel 4 von „Stranger Things“ vor Vecna?",
+    "antwort": "Running Up That Hill",
+    "akzeptiert": [
+      "Running Up That Hill (A Deal with God)"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Wednesdays jüngerer Bruder in der Netflix-Serie „Wednesday“?",
+    "antwort": "Pugsley",
+    "akzeptiert": [
+      "Pugsley Addams"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der dreiköpfige Hund, der im ersten „Harry Potter“-Teil die Falltür bewacht?",
+    "antwort": "Fluffy"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß Gollum in „Der Herr der Ringe“, bevor der Ring ihn verdarb?",
+    "antwort": "Sméagol",
+    "akzeptiert": [
+      "Smeagol"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Black Panthers jüngere Schwester, das Technik-Genie von Wakanda?",
+    "antwort": "Shuri"
+  },
+  {
+    "stufe": 4,
+    "frage": "Unter welchem Sith-Namen kennt man Imperator Palpatine in „Star Wars“?",
+    "antwort": "Darth Sidious",
+    "akzeptiert": [
+      "Sidious"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Hagrids großer Saurüdenhund in „Harry Potter“?",
+    "antwort": "Fang"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Elphabas jüngere Schwester im Film „Wicked“, die im Rollstuhl sitzt?",
+    "antwort": "Nessarose",
+    "akzeptiert": [
+      "Nessa",
+      "Nessarose Thropp"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr spielt die erste Staffel von „Stranger Things“?",
+    "antwort": "1983"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die dämonische Boyband, gegen die die Heldinnen in „KPop Demon Hunters“ (2025) antreten?",
+    "antwort": "Saja Boys",
+    "akzeptiert": [
+      "Saja"
+    ]
   }
 ]

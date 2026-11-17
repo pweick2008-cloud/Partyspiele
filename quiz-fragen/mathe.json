@@ -154,14 +154,6 @@
     "bewertung": "„Durchmesser“ ist falsch."
   },
   {
-    "stufe": 1,
-    "frage": "Wie viele Zehner stecken in der Zahl 100?",
-    "antwort": "10",
-    "akzeptiert": [
-      "zehn"
-    ]
-  },
-  {
     "stufe": 2,
     "frage": "Wie viel sind 25 Prozent von 80?",
     "antwort": "20",
@@ -612,7 +604,7 @@
     "bewertung": "100 % ist falsch. Auch „1 % weniger“ gilt."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie groß ist das Volumen eines Würfels mit 4 cm Kantenlänge (in cm³)?",
     "antwort": "64",
     "akzeptiert": [
@@ -633,7 +625,7 @@
     "bewertung": "Bruch und Dezimalzahl gelten beide."
   },
   {
-    "stufe": 4,
+    "stufe": 2,
     "frage": "Wie nennt man zwei Geraden, die sich im rechten Winkel schneiden?",
     "antwort": "senkrecht",
     "akzeptiert": [
@@ -720,7 +712,7 @@
     "bewertung": "30 ist falsch (das wäre mit Reihenfolge)."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Was ist der Zehnerlogarithmus von 1000?",
     "antwort": "3",
     "akzeptiert": [
@@ -760,14 +752,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie viele Primzahlen sind kleiner als 50?",
-    "antwort": "15",
-    "akzeptiert": [
-      "fünfzehn"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie groß ist die Wahrscheinlichkeit, mit zwei normalen Würfeln zusammen genau 7 zu würfeln?",
     "antwort": "1/6",
     "akzeptiert": [
@@ -800,14 +784,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie viel ist 2 hoch 16?",
-    "antwort": "65536",
-    "akzeptiert": [
-      "65.536"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie lautet der Goldene Schnitt (φ), gerundet auf zwei Nachkommastellen?",
     "antwort": "1,62",
     "akzeptiert": [
@@ -824,7 +800,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Was ist der Sinus von 30 Grad?",
     "antwort": "0,5",
     "akzeptiert": [
@@ -1306,27 +1282,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Was ist die Ableitung von cos(x)?",
-    "antwort": "−sin(x)",
-    "akzeptiert": [
-      "-sin(x)",
-      "minus sin x"
-    ],
-    "bewertung": "Das Minuszeichen ist nötig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Ableitung von 1/x?",
-    "antwort": "−1/x²",
-    "akzeptiert": [
-      "-1/x²",
-      "-x^-2",
-      "−x⁻²"
-    ],
-    "bewertung": "Das Minuszeichen ist nötig."
-  },
-  {
-    "stufe": 5,
     "frage": "Was ist die Ableitung von f(x) = (2x + 1)²?",
     "antwort": "8x + 4",
     "akzeptiert": [
@@ -1348,7 +1303,7 @@
     "antwort": "3"
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Was ist der Tangens von 45 Grad?",
     "antwort": "1",
     "akzeptiert": [
@@ -1408,6 +1363,222 @@
     "antwort": "3,5",
     "akzeptiert": [
       "3.5"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Felder hat ein Schachbrett?",
+    "antwort": "64",
+    "akzeptiert": [
+      "vierundsechzig"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Nullen hat eine Million?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Ecken hat ein Stoppschild?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Quersumme von 2026?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Für welche Zahl steht die römische Ziffer M?",
+    "antwort": "1000",
+    "akzeptiert": [
+      "1.000",
+      "tausend",
+      "eintausend"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Augen hat ein normaler Spielwürfel auf allen sechs Seiten zusammen?",
+    "antwort": "21",
+    "akzeptiert": [
+      "einundzwanzig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Augenzahl liegt auf einem normalen Spielwürfel der 1 gegenüber?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ],
+    "bewertung": "Gegenüberliegende Seiten ergeben zusammen immer 7."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welchen Winkel bilden Stunden- und Minutenzeiger einer Uhr genau um 4 Uhr?",
+    "antwort": "120°",
+    "akzeptiert": [
+      "120",
+      "120 Grad"
+    ],
+    "bewertung": "Einheit nicht nötig. Auch 240° (der äußere Winkel) gilt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Stunden hat eine Woche?",
+    "antwort": "168",
+    "akzeptiert": [
+      "hundertachtundsechzig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Ein Zahlenschloss hat 4 Räder mit den Ziffern 0 bis 9. Wie viele verschiedene Kombinationen gibt es?",
+    "antwort": "10000",
+    "akzeptiert": [
+      "10.000",
+      "zehntausend"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Zahl ist die römische Zahl XLII?",
+    "antwort": "42",
+    "akzeptiert": [
+      "zweiundvierzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was hat mehr Pizza: eine Pizza mit 30 cm Durchmesser oder zwei Pizzen mit je 20 cm Durchmesser?",
+    "antwort": "Die eine 30-cm-Pizza",
+    "akzeptiert": [
+      "30 cm",
+      "die große",
+      "eine 30er"
+    ],
+    "bewertung": "Fläche ca. 707 cm² gegen 2 × 314 = 628 cm²."
+  },
+  {
+    "stufe": 4,
+    "frage": "Schläger und Ball kosten zusammen 1,10 €. Der Schläger kostet 1 € mehr als der Ball. Was kostet der Ball?",
+    "antwort": "5 Cent",
+    "akzeptiert": [
+      "0,05 €",
+      "5 ct",
+      "0,05"
+    ],
+    "bewertung": "10 Cent ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Seerosen verdoppeln täglich ihre Fläche und bedecken nach 48 Tagen den ganzen Teich. Nach wie vielen Tagen war der Teich halb bedeckt?",
+    "antwort": "47",
+    "akzeptiert": [
+      "nach 47 Tagen",
+      "siebenundvierzig"
+    ],
+    "bewertung": "24 ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "3 Katzen fangen 3 Mäuse in 3 Minuten. Wie lange brauchen 100 Katzen für 100 Mäuse?",
+    "antwort": "3 Minuten",
+    "akzeptiert": [
+      "3",
+      "drei Minuten"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "5 Leute geben sich zur Begrüßung alle gegenseitig genau einmal die Hand. Wie viele Handschläge sind das?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ],
+    "bewertung": "20 oder 25 ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viel ist 7 + 7 : 7 + 7 · 7 − 7 (Punkt vor Strich)?",
+    "antwort": "50",
+    "akzeptiert": [
+      "fünfzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Sekunden hat ein Tag?",
+    "antwort": "86400",
+    "akzeptiert": [
+      "86.400"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Ziegenproblem: Du wählst eins von 3 Toren, der Moderator öffnet ein anderes mit einer Ziege. Mit welcher Wahrscheinlichkeit gewinnst du das Auto, wenn du wechselst?",
+    "antwort": "2/3",
+    "akzeptiert": [
+      "zwei Drittel",
+      "66,7 %",
+      "67 %",
+      "0,67"
+    ],
+    "bewertung": "1/2 ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Ein klassischer Fußball besteht aus Fünfecken und Sechsecken. Wie viele Fünfecke sind es?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf"
+    ],
+    "bewertung": "20 (die Sechsecke) ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viel ist 1111 mal 1111?",
+    "antwort": "1234321",
+    "akzeptiert": [
+      "1.234.321"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach welcher Zahl – einer 1 mit 100 Nullen – ist Google benannt?",
+    "antwort": "Googol",
+    "akzeptiert": [
+      "Gugol",
+      "Googel"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Winkel bilden Stunden- und Minutenzeiger einer Uhr genau um halb vier (3:30 Uhr)?",
+    "antwort": "75°",
+    "akzeptiert": [
+      "75",
+      "75 Grad"
+    ],
+    "bewertung": "Einheit nicht nötig. 90° ist falsch (der Stundenzeiger steht zwischen 3 und 4). Auch 285° (äußerer Winkel) gilt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche ist die kleinste Zahl größer als 1, die zugleich Quadratzahl und Kubikzahl ist?",
+    "antwort": "64",
+    "akzeptiert": [
+      "vierundsechzig"
     ]
   }
 ]

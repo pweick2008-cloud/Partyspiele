@@ -10,7 +10,7 @@
     "antwort": "Wasser"
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "frage": "Welches chemische Symbol hat Gold?",
     "antwort": "Au"
   },
@@ -455,11 +455,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welches Element hat das chemische Symbol Mn?",
-    "antwort": "Mangan"
-  },
-  {
-    "stufe": 4,
     "frage": "Welches Element mit der Ordnungszahl 92 wird als Brennstoff in Kernkraftwerken genutzt?",
     "antwort": "Uran",
     "akzeptiert": [
@@ -536,21 +531,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welches Element hat das chemische Symbol Sb?",
-    "antwort": "Antimon"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt die Gruppe der Elemente mit den Ordnungszahlen 57 bis 71 (Lanthan bis Lutetium)?",
-    "antwort": "Lanthanoide",
-    "akzeptiert": [
-      "Lanthanide",
-      "Lanthaniden"
-    ],
-    "bewertung": "„Seltene Erden“ ist nicht ganz korrekt (umfasst auch Scandium und Yttrium), daher nicht werten."
-  },
-  {
-    "stufe": 5,
     "frage": "Welches Element ist das elektronegativste des Periodensystems?",
     "antwort": "Fluor",
     "akzeptiert": [
@@ -573,29 +553,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie groß ist der Bindungswinkel H–O–H im Wassermolekül ungefähr?",
-    "antwort": "104,5°",
-    "akzeptiert": [
-      "104,5",
-      "104.5",
-      "ca. 105°",
-      "105"
-    ],
-    "bewertung": "Alles zwischen 104 und 105 Grad gilt als richtig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welche Oxidationszahl hat Sauerstoff in Wasserstoffperoxid (H2O2)?",
-    "antwort": "-1",
-    "akzeptiert": [
-      "−1",
-      "minus 1",
-      "minus eins",
-      "-I"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt das Gesetz, das durch die Gleichung p · V = n · R · T beschrieben wird?",
     "antwort": "ideales Gasgesetz",
     "akzeptiert": [
@@ -603,34 +560,6 @@
       "Gasgleichung",
       "ideale Gasgleichung",
       "Zustandsgleichung idealer Gase"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie nennt man zwei Moleküle, die sich wie Bild und Spiegelbild verhalten, aber nicht deckungsgleich sind?",
-    "antwort": "Enantiomere",
-    "akzeptiert": [
-      "Enantiomer",
-      "Spiegelbildisomere",
-      "optische Isomere"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welches Element hat das chemische Symbol Bi?",
-    "antwort": "Bismut",
-    "akzeptiert": [
-      "Wismut"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie nennt man Stoffe wie Wasser, die sowohl als Säure als auch als Base reagieren können?",
-    "antwort": "Ampholyte",
-    "akzeptiert": [
-      "Ampholyt",
-      "amphoter",
-      "amphotere Stoffe"
     ]
   },
   {
@@ -805,11 +734,6 @@
   },
   {
     "stufe": 2,
-    "frage": "Welches Element hat das chemische Symbol Mg?",
-    "antwort": "Magnesium"
-  },
-  {
-    "stufe": 2,
     "frage": "Welches Element hat das chemische Symbol Ca?",
     "antwort": "Calcium",
     "akzeptiert": [
@@ -846,11 +770,6 @@
       "Hauptgruppen",
       "Gruppe"
     ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Welches Element hat das chemische Symbol P?",
-    "antwort": "Phosphor"
   },
   {
     "stufe": 2,
@@ -1034,7 +953,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie heißt die wässrige Lösung von Natriumhydroxid (NaOH)?",
     "antwort": "Natronlauge"
   },
@@ -1145,14 +1064,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welche Hybridisierung hat das Kohlenstoffatom im Methanmolekül?",
-    "antwort": "sp3",
-    "akzeptiert": [
-      "sp³"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie nennt man Verbindungen mit gleicher Summenformel, aber unterschiedlicher Struktur?",
     "antwort": "Isomere",
     "akzeptiert": [
@@ -1162,7 +1073,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt die funktionelle Gruppe –OH, die Alkohole kennzeichnet?",
     "antwort": "Hydroxygruppe",
     "akzeptiert": [
@@ -1184,7 +1095,7 @@
     "antwort": "Phenolphthalein"
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt das Verfahren, bei dem man die Konzentration einer Säure durch tropfenweise Zugabe einer Base bekannter Konzentration bestimmt?",
     "antwort": "Titration",
     "akzeptiert": [
@@ -1211,18 +1122,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie viel Gramm Kochsalz (NaCl) braucht man ungefähr für einen Liter einer 1-molaren Lösung?",
-    "antwort": "58,5",
-    "akzeptiert": [
-      "58",
-      "59",
-      "58,4",
-      "58,44"
-    ],
-    "bewertung": "Werte zwischen 58 und 59 g sind richtig; Einheit nicht nötig."
-  },
-  {
-    "stufe": 5,
     "frage": "Welches Volumen nimmt ein Mol eines idealen Gases bei 0 °C und Normaldruck ungefähr ein (in Litern)?",
     "antwort": "22,4",
     "akzeptiert": [
@@ -1241,5 +1140,224 @@
       "H-Brücken",
       "Wasserstoffbindungen"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Stoff in Kaffee und Energydrinks macht wach?",
+    "antwort": "Koffein",
+    "akzeptiert": [
+      "Coffein",
+      "Caffein",
+      "Teein"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Säure steckt – wie der Name schon sagt – in Zitronen?",
+    "antwort": "Zitronensäure",
+    "akzeptiert": [
+      "Citronensäure"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Bei wie viel Grad Celsius siedet Wasser auf Meereshöhe?",
+    "antwort": "100",
+    "akzeptiert": [
+      "100 °C",
+      "hundert"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Chemielehrer, der in der Serie „Breaking Bad“ zum Drogenkoch wird?",
+    "antwort": "Walter White",
+    "akzeptiert": [
+      "Heisenberg",
+      "Walt"
+    ],
+    "bewertung": "Nachname „White“ oder „Heisenberg“ reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Edelgas trägt denselben Namen wie Supermans Heimatplanet?",
+    "antwort": "Krypton",
+    "akzeptiert": [
+      "Kr"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Nach welchem leichten Metall sind die Akkus in Handys und E-Autos benannt?",
+    "antwort": "Lithium",
+    "akzeptiert": [
+      "Li",
+      "Lithium-Ionen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Ein Bleistift enthält gar kein Blei. Woraus besteht seine Mine hauptsächlich?",
+    "antwort": "Graphit",
+    "akzeptiert": [
+      "Grafit",
+      "Kohlenstoff"
+    ],
+    "bewertung": "Graphit oder Kohlenstoff ist richtig (meist mit Ton gemischt), Blei ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was nimmt man zum Entkalken des Wasserkochers: eine Säure oder eine Lauge?",
+    "antwort": "Säure",
+    "akzeptiert": [
+      "eine Säure",
+      "sauer"
+    ],
+    "bewertung": "Konkrete Säuren wie Essig oder Zitronensäure auch richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche chemische Formel hat Kochsalz (Natriumchlorid)?",
+    "antwort": "NaCl"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Element ist nach dem Zwergplaneten Pluto benannt?",
+    "antwort": "Plutonium",
+    "akzeptiert": [
+      "Pu"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Säure spritzen Ameisen, wenn sie sich wehren?",
+    "antwort": "Ameisensäure",
+    "akzeptiert": [
+      "Methansäure"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches chemische Element ist das häufigste im ganzen Universum?",
+    "antwort": "Wasserstoff",
+    "akzeptiert": [
+      "H"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Warum streut man im Winter Salz auf Straßen: Was passiert dadurch mit dem Gefrierpunkt des Wassers?",
+    "antwort": "Er sinkt",
+    "akzeptiert": [
+      "sinkt",
+      "wird niedriger",
+      "Gefrierpunktserniedrigung"
+    ],
+    "bewertung": "Sinngemäß „er sinkt/wird niedriger“ ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Farbe bekommt die Flamme des Bunsenbrenners, wenn man Kochsalz hineinhält?",
+    "antwort": "Gelb",
+    "akzeptiert": [
+      "Gelborange",
+      "Orange",
+      "Orangegelb"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Stoff, der Chilis scharf macht?",
+    "antwort": "Capsaicin",
+    "akzeptiert": [
+      "Kapsaicin",
+      "Capsaicinoide"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Metall bestehen olympische Goldmedaillen zum größten Teil?",
+    "antwort": "Silber",
+    "akzeptiert": [
+      "Ag"
+    ],
+    "bewertung": "Sie sind nur vergoldet; „Gold“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Für welche beiden Elemente stehen die Symbole Br und Ba im Logo von „Breaking Bad“?",
+    "antwort": "Brom und Barium",
+    "akzeptiert": [
+      "Barium und Brom"
+    ],
+    "bewertung": "Beide Elemente müssen genannt werden."
+  },
+  {
+    "stufe": 4,
+    "frage": "Marie Curie benannte ein von ihr entdecktes Element nach ihrem Heimatland. Wie heißt es?",
+    "antwort": "Polonium",
+    "akzeptiert": [
+      "Po"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Reaktion, die beim Braten Steaks und beim Backen Brotkrusten braun und aromatisch macht?",
+    "antwort": "Maillard-Reaktion",
+    "akzeptiert": [
+      "Maillard",
+      "Maillardreaktion"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Element sorgt im Feuerwerk für leuchtend rote Farbe?",
+    "antwort": "Strontium",
+    "akzeptiert": [
+      "Sr",
+      "Lithium"
+    ],
+    "bewertung": "Strontium ist der Klassiker; Lithium (färbt auch rot) ebenfalls gelten lassen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wegen welches Elements sind Bananen ganz leicht radioaktiv?",
+    "antwort": "Kalium",
+    "akzeptiert": [
+      "K",
+      "Kalium-40"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Element heißt übersetzt „Lichtträger“, weil es in seiner weißen Form im Dunkeln leuchtet?",
+    "antwort": "Phosphor",
+    "akzeptiert": [
+      "P",
+      "weißer Phosphor"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher russische Chemiker stellte 1869 das Periodensystem auf?",
+    "antwort": "Mendelejew",
+    "akzeptiert": [
+      "Dmitri Mendelejew",
+      "Mendeleev",
+      "Mendelejev",
+      "Mendelejeff"
+    ],
+    "bewertung": "Nachname reicht, Schreibweise großzügig. Lothar Meyer auch gelten lassen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach welchem Wissenschaftler ist die Zahl der Teilchen in einem Mol (ca. 6 · 10²³) benannt?",
+    "antwort": "Avogadro",
+    "akzeptiert": [
+      "Amedeo Avogadro",
+      "Avogadro-Konstante",
+      "Avogadro-Zahl"
+    ],
+    "bewertung": "Loschmidt auch gelten lassen."
   }
 ]

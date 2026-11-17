@@ -140,7 +140,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Welches Land ist für Sushi bekannt?",
     "antwort": "Japan"
   },
@@ -171,7 +171,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Von welchem Tier stammt die Milch für den echten „Mozzarella di Bufala“?",
     "antwort": "Büffel",
     "akzeptiert": [
@@ -195,7 +195,7 @@
     "antwort": "Schweiz"
   },
   {
-    "stufe": 2,
+    "stufe": 5,
     "frage": "Echter Kaviar ist der Rogen welches Fisches?",
     "antwort": "Stör"
   },
@@ -219,12 +219,7 @@
     ]
   },
   {
-    "stufe": 2,
-    "frage": "Welche Frucht heißt auf Englisch „pineapple“?",
-    "antwort": "Ananas"
-  },
-  {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Welches gelbe Gewürz gibt Currypulver seine typische Farbe?",
     "antwort": "Kurkuma",
     "akzeptiert": [
@@ -242,7 +237,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Woraus bestehen italienische Gnocchi hauptsächlich?",
     "antwort": "Kartoffeln",
     "akzeptiert": [
@@ -258,7 +253,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Aus welchem Land stammt Bubble Tea?",
     "antwort": "Taiwan"
   },
@@ -273,12 +268,12 @@
     "antwort": "Safran"
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Aus welchem Land stammt das Gericht Paella?",
     "antwort": "Spanien"
   },
   {
-    "stufe": 3,
+    "stufe": 5,
     "frage": "Welche Beeren geben Gin seinen typischen Geschmack?",
     "antwort": "Wacholder",
     "akzeptiert": [
@@ -286,12 +281,12 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "In welcher Stadt wurde die Currywurst 1949 erfunden (Herta Heuwer)?",
     "antwort": "Berlin"
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Aus welcher Bohne wird Tofu hergestellt?",
     "antwort": "Sojabohne",
     "akzeptiert": [
@@ -309,12 +304,12 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Aus welchem Land kommt der Käse Feta mit geschützter Ursprungsbezeichnung?",
     "antwort": "Griechenland"
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie heißt die scharfe grüne Paste zum Sushi, auch „japanischer Meerrettich“ genannt?",
     "antwort": "Wasabi"
   },
@@ -327,7 +322,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Was kommt neben Butter als Hauptzutat in eine Sauce Hollandaise?",
     "antwort": "Eigelb",
     "akzeptiert": [
@@ -337,27 +332,27 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 1,
     "frage": "Aus welchem Land stammt Scotch Whisky?",
     "antwort": "Schottland"
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie heißt das Schweizer Gericht aus geriebenen, in der Pfanne gebratenen Kartoffeln?",
     "antwort": "Rösti"
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Wie heißt die kalte spanische Gemüsesuppe aus Tomaten, Gurken und Paprika?",
     "antwort": "Gazpacho"
   },
   {
-    "stufe": 3,
+    "stufe": 1,
     "frage": "Aus welchem Land stammt das Nudelgericht Pad Thai?",
     "antwort": "Thailand"
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Welches Gemüse heißt in Österreich „Paradeiser“?",
     "antwort": "Tomate",
     "akzeptiert": [
@@ -365,7 +360,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie heißt das feine japanische Pulver aus gemahlenem Grüntee?",
     "antwort": "Matcha"
   },
@@ -383,17 +378,17 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 1,
     "frage": "Welche Bonner Firma erfand in den 1920ern die Gummibärchen?",
     "antwort": "Haribo"
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie heißt das italienische Reisgericht, das unter Rühren nach und nach mit Brühe gegart wird?",
     "antwort": "Risotto"
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welcher Käse wird traditionell für ein echtes Tiramisu verwendet?",
     "antwort": "Mascarpone"
   },
@@ -403,28 +398,12 @@
     "antwort": "Umami"
   },
   {
-    "stufe": 4,
-    "frage": "Wie heißt der skandinavische Lachs, der mit Salz, Zucker und Dill gebeizt wird?",
-    "antwort": "Graved Lachs",
-    "akzeptiert": [
-      "Gravad Lax",
-      "Gravlax",
-      "Gravlaks",
-      "Graved Lax"
-    ]
-  },
-  {
-    "stufe": 4,
+    "stufe": 2,
     "frage": "Aus welcher französischen Region stammt echter Champagner?",
     "antwort": "Champagne"
   },
   {
-    "stufe": 4,
-    "frage": "Wie heißt die indische Gewürzmischung, deren Name „warme Mischung“ bedeutet?",
-    "antwort": "Garam Masala"
-  },
-  {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Woraus wird Couscous hergestellt?",
     "antwort": "Hartweizengrieß",
     "akzeptiert": [
@@ -435,18 +414,9 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welches Land ist der größte Kaffeeproduzent der Welt?",
     "antwort": "Brasilien"
-  },
-  {
-    "stufe": 4,
-    "frage": "Welches afrikanische Land produziert die meisten Kakaobohnen der Welt?",
-    "antwort": "Elfenbeinküste",
-    "akzeptiert": [
-      "Côte d'Ivoire",
-      "Cote d'Ivoire"
-    ]
   },
   {
     "stufe": 4,
@@ -457,7 +427,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie heißt der teure, unterirdisch wachsende Edelpilz, der mit Hunden oder Schweinen gesucht wird?",
     "antwort": "Trüffel"
   },
@@ -472,7 +442,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 2,
     "frage": "Welches Gewürz wird aus der getrockneten Rinde eines Baumes gewonnen und rollt sich zu Stangen?",
     "antwort": "Zimt"
   },
@@ -482,12 +452,12 @@
     "antwort": "Carpaccio"
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Aus welchem Land stammt die Nudelsuppe Pho?",
     "antwort": "Vietnam"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Was bedeutet „Latte macchiato“ wörtlich übersetzt?",
     "antwort": "Gefleckte Milch",
     "akzeptiert": [
@@ -497,18 +467,9 @@
     "bewertung": "Sinngemäß ‚gefleckte/befleckte Milch‘ ist richtig."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Aus welchem Grundnahrungsmittel wird japanischer Sake gebraut?",
     "antwort": "Reis"
-  },
-  {
-    "stufe": 4,
-    "frage": "Welches Gemüse ist die Hauptzutat des orientalischen Dips Baba Ghanoush?",
-    "antwort": "Aubergine",
-    "akzeptiert": [
-      "Auberginen",
-      "Melanzani"
-    ]
   },
   {
     "stufe": 4,
@@ -540,7 +501,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 3,
     "frage": "Aus welcher Pflanze wird Tequila hergestellt?",
     "antwort": "Agave",
     "akzeptiert": [
@@ -548,7 +509,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt die französische Kochtechnik, bei der Lebensmittel vakuumverpackt bei niedriger Temperatur im Wasserbad gegart werden?",
     "antwort": "Sous-vide",
     "akzeptiert": [
@@ -571,30 +532,11 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt das Gewürz aus dem getrockneten Samenmantel der Muskatnuss?",
-    "antwort": "Macis",
-    "akzeptiert": [
-      "Muskatblüte",
-      "Mazis"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher kleine Fisch ist eine Zutat der Worcestershiresauce?",
-    "antwort": "Sardellen",
-    "akzeptiert": [
-      "Sardelle",
-      "Anchovis",
-      "Anchovi"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Welches südamerikanische Land gilt als Heimat des Fischgerichts Ceviche?",
     "antwort": "Peru"
   },
   {
-    "stufe": 5,
+    "stufe": 3,
     "frage": "Welche Kerne gehören neben Basilikum, Parmesan und Olivenöl ins klassische Pesto alla genovese?",
     "antwort": "Pinienkerne",
     "akzeptiert": [
@@ -602,27 +544,7 @@
     ]
   },
   {
-    "stufe": 5,
-    "frage": "Aus welchem Obst wird der französische Brand Calvados hauptsächlich hergestellt?",
-    "antwort": "Äpfel",
-    "akzeptiert": [
-      "Apfel",
-      "Apfelwein",
-      "Cidre"
-    ],
-    "bewertung": "Birnen sind als Beimischung erlaubt, aber Äpfel ist die erwartete Antwort."
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt die chemische Reaktion, die beim Anbraten von Fleisch für Bräunung und Röstaromen sorgt?",
-    "antwort": "Maillard-Reaktion",
-    "akzeptiert": [
-      "Maillard",
-      "Maillardreaktion"
-    ]
-  },
-  {
-    "stufe": 5,
+    "stufe": 3,
     "frage": "Wie heißt die Skala, mit der die Schärfe von Chilis gemessen wird?",
     "antwort": "Scoville-Skala",
     "akzeptiert": [
@@ -630,7 +552,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welcher Stoff macht Chilischoten scharf?",
     "antwort": "Capsaicin",
     "akzeptiert": [
@@ -639,7 +561,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welches Gewürz gibt Ouzo und Raki ihren typischen Geschmack?",
     "antwort": "Anis",
     "akzeptiert": [
@@ -660,12 +582,7 @@
     ]
   },
   {
-    "stufe": 5,
-    "frage": "Wie heißt in der Küchensprache das Schneiden von Gemüse in winzige Würfel von 1–2 mm?",
-    "antwort": "Brunoise"
-  },
-  {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie nennt man das kurze Garen in kochendem Wasser mit anschließendem Abschrecken in Eiswasser?",
     "antwort": "Blanchieren"
   },
@@ -677,20 +594,6 @@
       "Cassava",
       "Kassava",
       "Yuca"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Kobe-Rind ist eine besondere Form welcher japanischen Rinderart bzw. Fleischbezeichnung?",
-    "antwort": "Wagyu"
-  },
-  {
-    "stufe": 5,
-    "frage": "Aus der Milch welches Tieres wird der französische Blauschimmelkäse Roquefort hergestellt?",
-    "antwort": "Schaf",
-    "akzeptiert": [
-      "Schafsmilch",
-      "Schafmilch"
     ]
   },
   {
@@ -761,7 +664,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Nach welcher italienischen Stadt ist die Sauce Bolognese benannt?",
     "antwort": "Bologna"
   },
@@ -782,7 +685,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Aus welchem Land stammt Gyros?",
     "antwort": "Griechenland"
   },
@@ -792,7 +695,7 @@
     "antwort": "Radler"
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Wie heißt die griechische Sauce aus Joghurt, Gurke und Knoblauch?",
     "antwort": "Tsatsiki",
     "akzeptiert": [
@@ -806,7 +709,7 @@
     "antwort": "Tapas"
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Wie heißen die schwäbischen Eiernudeln, die traditionell vom Brett ins Wasser geschabt werden?",
     "antwort": "Spätzle",
     "akzeptiert": [
@@ -859,17 +762,17 @@
     "antwort": "Arabica"
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie heißt das französische Schmorgericht aus Auberginen, Zucchini, Paprika und Tomaten?",
     "antwort": "Ratatouille"
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie heißt das spanische frittierte Spritzgebäck, das gern in heiße Schokolade getunkt wird?",
     "antwort": "Churros"
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie heißt das Klebereiweiß im Weizen, das Menschen mit Zöliakie nicht vertragen?",
     "antwort": "Gluten"
   },
@@ -891,31 +794,14 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Aus welchem Land stammt der Grillkäse Halloumi?",
     "antwort": "Zypern"
   },
   {
-    "stufe": 4,
-    "frage": "Welcher Zuckerrohrschnaps ist die Basis des brasilianischen Cocktails Caipirinha?",
-    "antwort": "Cachaça",
-    "akzeptiert": [
-      "Cachaca"
-    ]
-  },
-  {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie heißt das fermentierte, leicht säuerliche Teegetränk, das mit einem „Teepilz“ hergestellt wird?",
     "antwort": "Kombucha"
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Obstbrand gehört in eine echte Schwarzwälder Kirschtorte?",
-    "antwort": "Kirschwasser",
-    "akzeptiert": [
-      "Kirschbrand",
-      "Kirschschnaps"
-    ]
   },
   {
     "stufe": 4,
@@ -937,17 +823,17 @@
     "antwort": "Tempura"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Aus welchem Getreide wird das westfälische Pumpernickel gebacken?",
     "antwort": "Roggen"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Aus welchem Land stammt Poutine, Pommes mit Käsebruch und Bratensoße?",
     "antwort": "Kanada"
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welche italienische Nudelsorte heißt übersetzt „Schmetterlinge“?",
     "antwort": "Farfalle"
   },
@@ -968,21 +854,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt die japanische Grundbrühe aus Kombu-Algen und Bonitoflocken?",
-    "antwort": "Dashi"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißen in der griechischen Küche mit Reis gefüllte Weinblätter?",
-    "antwort": "Dolmades",
-    "akzeptiert": [
-      "Dolmadakia",
-      "Dolma",
-      "Dolmathes"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Was genau sind Kapern botanisch gesehen?",
     "antwort": "Blütenknospen",
     "akzeptiert": [
@@ -991,32 +862,7 @@
     ]
   },
   {
-    "stufe": 5,
-    "frage": "Welche italienische Nudelsorte heißt übersetzt „kleine Zungen“?",
-    "antwort": "Linguine"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der salzige britische Brotaufstrich aus Hefeextrakt?",
-    "antwort": "Marmite",
-    "akzeptiert": [
-      "Vegemite"
-    ],
-    "bewertung": "Vegemite (australisch) auch gelten lassen."
-  },
-  {
-    "stufe": 5,
-    "frage": "Zu welcher Pflanzenfamilie gehört die Erdnuss botanisch?",
-    "antwort": "Hülsenfrüchtler",
-    "akzeptiert": [
-      "Hülsenfrüchte",
-      "Hülsenfrucht",
-      "Leguminosen",
-      "Schmetterlingsblütler"
-    ]
-  },
-  {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welcher Fisch wird für klassische britische Fish and Chips am häufigsten verwendet?",
     "antwort": "Kabeljau",
     "akzeptiert": [
@@ -1026,8 +872,499 @@
     "bewertung": "Auch Schellfisch gilt als richtig."
   },
   {
-    "stufe": 5,
+    "stufe": 3,
     "frage": "Wie heißen die getrockneten Algenblätter, in die Sushi-Rollen gewickelt werden?",
     "antwort": "Nori"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Fast-Food-Kette verkauft den „Whopper“?",
+    "antwort": "Burger King",
+    "akzeptiert": [
+      "BK",
+      "Burgerking"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Schokoriegel trägt den Namen eines Planeten?",
+    "antwort": "Mars"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist auf der Verpackung von Milka-Schokolade abgebildet?",
+    "antwort": "Kuh",
+    "akzeptiert": [
+      "lila Kuh",
+      "Milka-Kuh"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der McDonald's-Burger mit zwei Patties und einer Brötchenscheibe in der Mitte?",
+    "antwort": "Big Mac",
+    "akzeptiert": [
+      "BigMac"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche bunten Schokolinsen tragen einen kleinen Buchstaben „m“ auf der Hülle?",
+    "antwort": "M&M's",
+    "akzeptiert": [
+      "M&Ms",
+      "M and Ms",
+      "MMs",
+      "M&M"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Energydrink „verleiht Flügel“?",
+    "antwort": "Red Bull",
+    "akzeptiert": [
+      "Redbull"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Kaffeehauskette mit einer grünen Meerjungfrau im Logo?",
+    "antwort": "Starbucks"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen die weichen, weißen Süßigkeiten, die man am Lagerfeuer auf Stöcken röstet?",
+    "antwort": "Marshmallows",
+    "akzeptiert": [
+      "Marshmallow",
+      "Mäusespeck"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Getränk aus Apfelsaft, gemischt mit Sprudelwasser?",
+    "antwort": "Apfelschorle",
+    "akzeptiert": [
+      "Apfelsaftschorle",
+      "Schorle"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Menschen, die gar keine tierischen Produkte essen – also auch keine Milch und keine Eier?",
+    "antwort": "Veganer",
+    "akzeptiert": [
+      "vegan",
+      "Veganerin"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Frucht liegt auf einer Pizza Hawaii, über die sich viele streiten?",
+    "antwort": "Ananas"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher asiatischen Pfanne mit gewölbtem Boden wird gern unter Rühren gebraten?",
+    "antwort": "Wok"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches dreieckige Schweizer Schokoladenprodukt mit Honig-Mandel-Nougat ist weltbekannt?",
+    "antwort": "Toblerone"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Mischgetränk aus Cola und Orangenlimonade?",
+    "antwort": "Spezi",
+    "akzeptiert": [
+      "Mezzo Mix",
+      "Cola-Mix",
+      "Colamix"
+    ],
+    "bewertung": "Markennamen wie Mezzo Mix oder Paulaner Spezi sind auch richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Abkürzung der Fast-Food-Kette KFC?",
+    "antwort": "Kentucky Fried Chicken"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Nuss steckt im Schokoriegel Snickers?",
+    "antwort": "Erdnuss",
+    "akzeptiert": [
+      "Erdnüsse"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Füllung hat ein Bounty-Riegel?",
+    "antwort": "Kokos",
+    "akzeptiert": [
+      "Kokosnuss",
+      "Kokosraspel",
+      "Kokosflocken"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Wurst isst man in Bayern traditionell nur vor zwölf Uhr mittags?",
+    "antwort": "Weißwurst",
+    "akzeptiert": [
+      "Weißwürste",
+      "Weißwurscht"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt ein Brötchen in Bayern und Österreich?",
+    "antwort": "Semmel",
+    "akzeptiert": [
+      "Semmeln",
+      "Semmerl"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die zusammengeklappte, gefüllte Pizza?",
+    "antwort": "Calzone",
+    "akzeptiert": [
+      "Pizza Calzone"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die frittierten Bällchen aus Kichererbsen oder Bohnen aus dem Orient?",
+    "antwort": "Falafel"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die dünne, mit Hackfleisch belegte „türkische Pizza“?",
+    "antwort": "Lahmacun",
+    "akzeptiert": [
+      "Lahmajoun"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die schwedischen Fleischbällchen, die man auch bei IKEA essen kann?",
+    "antwort": "Köttbullar",
+    "akzeptiert": [
+      "Kottbullar"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Schweizer Käsegericht, bei dem geschmolzener Käse abgeschabt oder in Pfännchen überbacken wird?",
+    "antwort": "Raclette"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Weihnachtskuchen mit Rosinen und Puderzucker, für den Dresden berühmt ist?",
+    "antwort": "Stollen",
+    "akzeptiert": [
+      "Christstollen",
+      "Dresdner Stollen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel Gramm sind ein Pfund?",
+    "antwort": "500",
+    "akzeptiert": [
+      "500 g",
+      "500 Gramm",
+      "fünfhundert"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man es, wenn man Fleisch vor dem Braten in Mehl, Ei und Paniermehl wälzt?",
+    "antwort": "Panieren",
+    "akzeptiert": [
+      "paniert",
+      "Panade"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welchem süßen Sirup aus Kanada isst man gern Pancakes?",
+    "antwort": "Ahornsirup",
+    "akzeptiert": [
+      "Ahorn",
+      "Maple Syrup"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Fast-Food-Kette hat Colonel Sanders als Gesicht im Logo?",
+    "antwort": "KFC",
+    "akzeptiert": [
+      "Kentucky Fried Chicken"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Discounter ist in zwei getrennte Unternehmen „Nord“ und „Süd“ aufgeteilt?",
+    "antwort": "Aldi"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welchen Milchzucker vertragen viele Menschen nicht?",
+    "antwort": "Laktose",
+    "akzeptiert": [
+      "Lactose",
+      "Milchzucker"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht der Name „Haribo“?",
+    "antwort": "Hans Riegel Bonn",
+    "bewertung": "Alle drei Teile (Hans, Riegel, Bonn) müssen erkennbar sein."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bekommt man, wenn man im Ruhrgebiet „Pommes Schranke“ bestellt?",
+    "antwort": "Pommes mit Ketchup und Mayo",
+    "akzeptiert": [
+      "Pommes rot-weiß",
+      "rot-weiß",
+      "Ketchup und Mayo",
+      "Ketchup und Mayonnaise"
+    ],
+    "bewertung": "Richtig, wenn Ketchup und Mayo (rot-weiß) genannt werden."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der mit Marmelade gefüllte „Berliner“ in Berlin selbst?",
+    "antwort": "Pfannkuchen",
+    "akzeptiert": [
+      "Pfannkuchen (Berliner)"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Brötchen in Berlin?",
+    "antwort": "Schrippe",
+    "akzeptiert": [
+      "Schrippen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Enthält bayerischer Leberkäse normalerweise Leber oder Käse?",
+    "antwort": "Nein, keins von beiden",
+    "akzeptiert": [
+      "nein",
+      "weder noch",
+      "keins",
+      "weder Leber noch Käse"
+    ],
+    "bewertung": "Richtig ist nur: weder Leber noch Käse."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß Capri-Sun in Deutschland bis 2017?",
+    "antwort": "Capri-Sonne",
+    "akzeptiert": [
+      "Capri Sonne",
+      "Caprisonne"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches italienische Dessert heißt übersetzt „Zieh mich hoch“?",
+    "antwort": "Tiramisu"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Nachbarland Deutschlands ist stolz auf seine „Frieten“ und behauptet, die Pommes erfunden zu haben?",
+    "antwort": "Belgien"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Schokolade enthält keine Kakaomasse, sondern nur Kakaobutter?",
+    "antwort": "Weiße Schokolade",
+    "akzeptiert": [
+      "weiße",
+      "weiß"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bedeutet die Abkürzung „Msp.“ in Rezepten?",
+    "antwort": "Messerspitze"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Rum-Cocktail mit Minze, Limette, Zucker und Soda aus Kuba?",
+    "antwort": "Mojito"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der indische Joghurtdrink, den es oft mit Mango gibt?",
+    "antwort": "Lassi",
+    "akzeptiert": [
+      "Mango Lassi",
+      "Mango-Lassi"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen die italienischen gerösteten Brotscheiben mit Tomaten, Knoblauch und Basilikum?",
+    "antwort": "Bruschetta",
+    "akzeptiert": [
+      "Bruschette"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Lebensmittel verdirbt praktisch nie und wurde sogar in Pharaonengräbern noch essbar gefunden?",
+    "antwort": "Honig"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man einen Espresso, der mit heißem Wasser verlängert wird?",
+    "antwort": "Americano",
+    "akzeptiert": [
+      "Caffè Americano",
+      "Caffe Americano"
+    ],
+    "bewertung": "„Verlängerter“ (Österreich) und „Lungo“ gelten auch als richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß der Schokoriegel Twix in Deutschland bis 1991?",
+    "antwort": "Raider"
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Land stammt die Pizza Hawaii ursprünglich – erfunden von einem griechischstämmigen Koch?",
+    "antwort": "Kanada"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Land wurde das Spaghettieis erfunden?",
+    "antwort": "Deutschland",
+    "bewertung": "Erfunden 1969 in Mannheim."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht der Name „Hanuta“?",
+    "antwort": "Haselnusstafel",
+    "akzeptiert": [
+      "Haselnuss-Tafel",
+      "Haselnuss Tafel"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Land wurde die Limonade Fanta 1940 erfunden?",
+    "antwort": "Deutschland"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die japanischen Teigtaschen, die meist in der Pfanne angebraten werden?",
+    "antwort": "Gyoza",
+    "akzeptiert": [
+      "Gyōza",
+      "Gyozas"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was sind Edamame?",
+    "antwort": "Junge Sojabohnen",
+    "akzeptiert": [
+      "Sojabohnen",
+      "Soja",
+      "Sojabohne",
+      "grüne Sojabohnen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die scharfe italienische Tomatensoße, deren Name „wütend“ bedeutet?",
+    "antwort": "Arrabbiata",
+    "akzeptiert": [
+      "Arrabiata",
+      "all'arrabbiata"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher US-Stadt wurde Starbucks gegründet?",
+    "antwort": "Seattle"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man Eier, die ohne Schale in siedendem Wasser gegart werden?",
+    "antwort": "Pochierte Eier",
+    "akzeptiert": [
+      "pochiert",
+      "verlorene Eier",
+      "Poached Eggs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Nuss hängt in einer Schale unter einer apfelähnlichen Scheinfrucht, die man ebenfalls essen kann?",
+    "antwort": "Cashewkern",
+    "akzeptiert": [
+      "Cashew",
+      "Cashewnuss",
+      "Cashewnüsse",
+      "Cashews"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Von welchem Kontinent stammt die Kartoffel ursprünglich?",
+    "antwort": "Südamerika",
+    "akzeptiert": [
+      "Amerika"
+    ],
+    "bewertung": "„Amerika“ reicht nicht ganz, ist aber zu akzeptieren."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das französische Dessert, dessen Name „gebrannte Creme“ bedeutet?",
+    "antwort": "Crème brûlée",
+    "akzeptiert": [
+      "Creme brulee",
+      "Crème brulée",
+      "Creme Brûlée"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Botanisch ist die Erdbeere keine Beere. Was sind die kleinen „Kerne“ außen auf ihr eigentlich?",
+    "antwort": "Nüsschen",
+    "akzeptiert": [
+      "Nüsse",
+      "Früchte",
+      "Sammelnussfrucht",
+      "Nuss"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Die Tomate gehört botanisch zu welcher Fruchtart – genau wie Banane und Gurke?",
+    "antwort": "Beere",
+    "akzeptiert": [
+      "Beeren"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Getränk ist die Basis der koffeinhaltigen Limo „Club-Mate“?",
+    "antwort": "Mate-Tee",
+    "akzeptiert": [
+      "Mate",
+      "Matetee",
+      "Yerba Mate"
+    ]
   }
 ]

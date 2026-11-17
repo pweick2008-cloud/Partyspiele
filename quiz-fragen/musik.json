@@ -136,7 +136,7 @@
     ]
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "frage": "Welcher Rapper landete 2019 mit „Old Town Road“ einen Rekord-Hit?",
     "antwort": "Lil Nas X"
   },
@@ -375,7 +375,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Mit welchem Altrocker nahm Apache 207 2023 den Rekord-Hit „Komet“ auf?",
     "antwort": "Udo Lindenberg",
     "bewertung": "Nachname reicht."
@@ -420,7 +420,7 @@
     "antwort": "Pink Floyd"
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie heißt das Michael-Jackson-Album von 1982, das als meistverkauftes Album aller Zeiten gilt?",
     "antwort": "Thriller"
   },
@@ -559,14 +559,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie viele Sinfonien schrieb Johannes Brahms?",
-    "antwort": "4",
-    "akzeptiert": [
-      "vier"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Welcher russische Komponist schrieb das musikalische Märchen „Peter und der Wolf“?",
     "antwort": "Sergei Prokofjew",
     "akzeptiert": [
@@ -672,15 +664,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Unter welchem bürgerlichen Namen wurde Elton John geboren?",
-    "antwort": "Reginald Dwight",
-    "akzeptiert": [
-      "Reginald Kenneth Dwight"
-    ],
-    "bewertung": "Nachname Dwight reicht."
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt die Sängerin von Fleetwood Mac, die den Song „Dreams“ schrieb?",
     "antwort": "Stevie Nicks",
     "bewertung": "Nachname reicht."
@@ -694,7 +677,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welcher Begriff bezeichnet in der Musik „sehr leise“ und wird mit „pp“ abgekürzt?",
     "antwort": "Pianissimo"
   },
@@ -713,15 +696,6 @@
     "antwort": "Wien"
   },
   {
-    "stufe": 5,
-    "frage": "Wie heißt der Rapper Kendrick Lamars Album von 2017, für das er den Pulitzer-Preis erhielt?",
-    "antwort": "DAMN.",
-    "akzeptiert": [
-      "DAMN",
-      "Damn"
-    ]
-  },
-  {
     "stufe": 1,
     "frage": "Welche Sängerin landete 2023 mit „Flowers“ einen Welthit?",
     "antwort": "Miley Cyrus",
@@ -734,7 +708,7 @@
     "bewertung": "Nachname reicht."
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "frage": "Welche Sängerin wird „Queen of Pop“ genannt und hatte Hits wie „Like a Prayer“?",
     "antwort": "Madonna"
   },
@@ -871,7 +845,7 @@
     "bewertung": "Nur die Zahl zählt."
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Welcher britische Musiker trat in den 1970ern als Kunstfigur „Ziggy Stardust“ auf?",
     "antwort": "David Bowie",
     "bewertung": "Nachname reicht."
@@ -894,7 +868,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Welche britische Rockband veröffentlichte 1971 „Stairway to Heaven“?",
     "antwort": "Led Zeppelin"
   },
@@ -984,12 +958,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welcher deutsche Sänger hatte 1983 mit „Major Tom (völlig losgelöst)“ einen Hit?",
-    "antwort": "Peter Schilling",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
     "frage": "Welcher österreichische Komponist schrieb den Walzer „An der schönen blauen Donau“?",
     "antwort": "Johann Strauss (Sohn)",
     "akzeptiert": [
@@ -1012,7 +980,7 @@
     "antwort": "Black Sabbath"
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Unter welchem Künstlernamen ist der US-Rapper Shawn Carter bekannt, der mit Beyoncé verheiratet ist?",
     "antwort": "Jay-Z",
     "akzeptiert": [
@@ -1024,16 +992,6 @@
     "stufe": 5,
     "frage": "In welcher thüringischen Stadt wurde Johann Sebastian Bach 1685 geboren?",
     "antwort": "Eisenach"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher russische Komponist schrieb den „Hummelflug“?",
-    "antwort": "Nikolai Rimski-Korsakow",
-    "akzeptiert": [
-      "Rimski-Korsakow",
-      "Rimsky-Korsakov"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 5,
@@ -1086,27 +1044,70 @@
     ]
   },
   {
-    "stufe": 5,
-    "frage": "Wie lautete der Geburtsname von Queen-Sänger Freddie Mercury?",
-    "antwort": "Farrokh Bulsara",
-    "akzeptiert": [
-      "Bulsara",
-      "Farookh Bulsara"
-    ],
-    "bewertung": "Nachname „Bulsara“ reicht."
+    "stufe": 4,
+    "frage": "Wie heißt der Gitarrist von Guns N’ Roses, der fast immer mit Zylinder auftritt?",
+    "antwort": "Slash"
   },
   {
-    "stufe": 5,
-    "frage": "Welcher englische Komponist schrieb die Orchestersuite „Die Planeten“?",
-    "antwort": "Gustav Holst",
+    "stufe": 1,
+    "frage": "Wie heißt Elsas berühmtes Lied aus „Die Eiskönigin“, das im Original „Let It Go“ heißt – auf Deutsch?",
+    "antwort": "Lass jetzt los",
     "akzeptiert": [
-      "Holst"
+      "Let It Go"
+    ],
+    "bewertung": "Deutscher oder englischer Titel ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welchem Song von Rick Astley wird man beim „Rickroll“ hereingelegt?",
+    "antwort": "Never Gonna Give You Up",
+    "akzeptiert": [
+      "Never Gonna Give You Up"
+    ],
+    "bewertung": "Sinngemäß richtiger Titel reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher berühmte Komponist wurde im Laufe seines Lebens fast völlig taub, komponierte aber trotzdem weiter?",
+    "antwort": "Ludwig van Beethoven",
+    "akzeptiert": [
+      "Beethoven"
     ],
     "bewertung": "Nachname reicht."
   },
   {
+    "stufe": 3,
+    "frage": "Welcher US-Rapper trat im Februar 2025 in der Halbzeitshow des Super Bowl auf und rappte dort „Not Like Us“?",
+    "antwort": "Kendrick Lamar",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche US-Band hatte 1982 den Hit „Africa“, der Jahrzehnte später zum Internet-Meme wurde?",
+    "antwort": "Toto"
+  },
+  {
+    "stufe": 4,
+    "frage": "Für welchen Song aus dem Film „8 Mile“ gewann Eminem 2003 einen Oscar?",
+    "antwort": "Lose Yourself"
+  },
+  {
     "stufe": 5,
-    "frage": "Wie heißt der Gitarrist von Guns N’ Roses, der fast immer mit Zylinder auftritt?",
-    "antwort": "Slash"
+    "frage": "Welcher Musiker ersetzte 1993 aus Streit mit seiner Plattenfirma seinen Namen durch ein unaussprechliches Symbol?",
+    "antwort": "Prince"
+  },
+  {
+    "stufe": 5,
+    "frage": "Zu welchem Marsch von Johann Strauss (Vater) klatscht das Publikum beim Wiener Neujahrskonzert traditionell mit?",
+    "antwort": "Radetzky-Marsch",
+    "akzeptiert": [
+      "Radetzkymarsch",
+      "Radetzky"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchem Musical von Andrew Lloyd Webber stammt das Lied „Memory“?",
+    "antwort": "Cats"
   }
 ]

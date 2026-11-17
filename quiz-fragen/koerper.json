@@ -176,7 +176,7 @@
     "antwort": "Haut"
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Wie viele Knochen hat ein erwachsener Mensch normalerweise?",
     "antwort": "206",
     "bewertung": "Genau 206; Werte von 200 bis 215 als „ungefähr“ ebenfalls gelten lassen."
@@ -549,11 +549,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welcher Knochen heißt auf Latein „Scapula“?",
-    "antwort": "Schulterblatt"
-  },
-  {
-    "stufe": 4,
     "frage": "Welcher Knochen heißt auf Latein „Tibia“?",
     "antwort": "Schienbein"
   },
@@ -614,7 +609,7 @@
     "antwort": "Skorbut"
   },
   {
-    "stufe": 5,
+    "stufe": 3,
     "frage": "Wie heißt der Muskel, der durch Kontraktion die Einatmung hauptsächlich antreibt und Brust- von Bauchraum trennt?",
     "antwort": "Zwerchfell",
     "akzeptiert": [
@@ -658,55 +653,8 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt der kleinste Muskel des menschlichen Körpers?",
-    "antwort": "Steigbügelmuskel",
-    "akzeptiert": [
-      "Musculus stapedius",
-      "Stapedius"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Wissenschaftler entdeckte im Jahr 1901 die Blutgruppen des AB0-Systems?",
-    "antwort": "Karl Landsteiner",
-    "akzeptiert": [
-      "Landsteiner"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der einzige Knochen des Menschen, der mit keinem anderen Knochen gelenkig verbunden ist?",
-    "antwort": "Zungenbein",
-    "akzeptiert": [
-      "Os hyoideum"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der natürliche Taktgeber des Herzens im rechten Vorhof?",
-    "antwort": "Sinusknoten",
-    "akzeptiert": [
-      "Sinuatrialknoten"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt die Hirnanhangdrüse mit Fachbegriff?",
     "antwort": "Hypophyse"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie viele Knochen hat eine menschliche Hand (inklusive Handwurzel)?",
-    "antwort": "27",
-    "akzeptiert": [
-      "siebenundzwanzig"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt Schluckauf mit medizinischem Fachbegriff?",
-    "antwort": "Singultus"
   },
   {
     "stufe": 5,
@@ -725,27 +673,6 @@
       "20 %"
     ],
     "bewertung": "Werte von 15 bis 25 Prozent gelten als richtig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welches Vitamin wird auch Thiamin genannt?",
-    "antwort": "Vitamin B1",
-    "akzeptiert": [
-      "B1"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt Kurzsichtigkeit mit medizinischem Fachbegriff?",
-    "antwort": "Myopie"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißen die winzigen Filtereinheiten der Niere?",
-    "antwort": "Nephrone",
-    "akzeptiert": [
-      "Nephron"
-    ]
   },
   {
     "stufe": 5,
@@ -969,25 +896,12 @@
   },
   {
     "stufe": 3,
-    "frage": "Wie viele Lendenwirbel hat ein Mensch normalerweise?",
-    "antwort": "5",
-    "akzeptiert": [
-      "fünf"
-    ]
-  },
-  {
-    "stufe": 3,
     "frage": "Wie heißen die Äste, in die sich die Luftröhre zu den Lungenflügeln aufteilt?",
     "antwort": "Bronchien",
     "akzeptiert": [
       "Bronchen",
       "Hauptbronchien"
     ]
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Knochen heißt auf Latein „Humerus“?",
-    "antwort": "Oberarmknochen"
   },
   {
     "stufe": 3,
@@ -998,7 +912,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Welches Enzym im Speichel beginnt mit der Verdauung von Stärke?",
     "antwort": "Amylase",
     "akzeptiert": [
@@ -1006,16 +920,6 @@
       "Speichelamylase",
       "alpha-Amylase"
     ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Knochen heißt auf Latein „Clavicula“?",
-    "antwort": "Schlüsselbein"
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Knochen heißt auf Latein „Sternum“?",
-    "antwort": "Brustbein"
   },
   {
     "stufe": 4,
@@ -1042,15 +946,7 @@
     "antwort": "Neuron"
   },
   {
-    "stufe": 4,
-    "frage": "Wie viele Brustwirbel hat ein Mensch normalerweise?",
-    "antwort": "12",
-    "akzeptiert": [
-      "zwölf"
-    ]
-  },
-  {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Welches Hormon der Bauchspeicheldrüse ist der Gegenspieler des Insulins und erhöht den Blutzucker?",
     "antwort": "Glukagon",
     "akzeptiert": [
@@ -1058,7 +954,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie heißen die Zellbestandteile, die als „Kraftwerke der Zelle“ Energie bereitstellen?",
     "antwort": "Mitochondrien",
     "akzeptiert": [
@@ -1071,24 +967,6 @@
     "antwort": "Kreuzband",
     "akzeptiert": [
       "vorderes Kreuzband"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt die Herzklappe zwischen linkem Vorhof und linker Herzkammer?",
-    "antwort": "Mitralklappe",
-    "akzeptiert": [
-      "Bikuspidalklappe",
-      "Zweizipfelklappe"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der kräftige Kaumuskel am Unterkiefer mit Fachbegriff?",
-    "antwort": "Masseter",
-    "akzeptiert": [
-      "Musculus masseter",
-      "Kaumuskel"
     ]
   },
   {
@@ -1116,38 +994,183 @@
     "antwort": "Pepsin"
   },
   {
-    "stufe": 5,
-    "frage": "Aus wie vielen verschmolzenen Wirbeln besteht das Kreuzbein?",
-    "antwort": "5",
+    "stufe": 1,
+    "frage": "Wovon ist der Bauchnabel ein Überbleibsel?",
+    "antwort": "Nabelschnur",
     "akzeptiert": [
-      "fünf"
+      "von der Nabelschnur"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Ungefähr so groß wie welcher Körperteil ist das eigene Herz?",
+    "antwort": "Faust",
+    "akzeptiert": [
+      "die eigene Faust",
+      "geballte Faust"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Wochen dauert eine Schwangerschaft ungefähr?",
+    "antwort": "40",
+    "akzeptiert": [
+      "vierzig",
+      "40 Wochen"
+    ],
+    "bewertung": "Werte von 38 bis 42 gelten als richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Zahnkrankheit, bei der Bakterien Löcher in die Zähne fressen?",
+    "antwort": "Karies",
+    "akzeptiert": [
+      "Zahnfäule"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wächst schneller: Fingernägel oder Fußnägel?",
+    "antwort": "Fingernägel"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Darmabschnitt ist länger: Dünndarm oder Dickdarm?",
+    "antwort": "Dünndarm"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Teil des Ohrs sitzt der Gleichgewichtssinn?",
+    "antwort": "Innenohr",
+    "akzeptiert": [
+      "im Innenohr",
+      "Gleichgewichtsorgan"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer hat häufiger eine Rot-Grün-Schwäche: Männer oder Frauen?",
+    "antwort": "Männer"
+  },
+  {
+    "stufe": 4,
+    "frage": "Hat ein Neugeborenes mehr oder weniger Knochen als ein Erwachsener?",
+    "antwort": "Mehr",
+    "bewertung": "Viele Knochen wachsen später zusammen."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Organ spürt selbst keinen Schmerz, sodass man daran sogar bei wachen Patienten operieren kann?",
+    "antwort": "Gehirn",
+    "akzeptiert": [
+      "Hirn"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches „Kuschelhormon“ schüttet der Körper beim Umarmen und Kuscheln aus?",
+    "antwort": "Oxytocin",
+    "akzeptiert": [
+      "Oxytozin"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches ist das beweglichste Gelenk des menschlichen Körpers?",
+    "antwort": "Schultergelenk",
+    "akzeptiert": [
+      "Schulter"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das typische Stresshormon, das bei Dauerstress erhöht ist?",
+    "antwort": "Cortisol",
+    "akzeptiert": [
+      "Kortisol",
+      "Hydrocortison"
+    ],
+    "bewertung": "Adrenalin knapp nicht gelten lassen (Akutstress)."
+  },
+  {
+    "stufe": 4,
+    "frage": "Ein klassischer gesunder Blutdruck lautet „120 zu …“?",
+    "antwort": "80",
+    "akzeptiert": [
+      "achtzig",
+      "120/80"
     ]
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt die Bauchspeicheldrüse mit Fachbegriff?",
-    "antwort": "Pankreas"
+    "frage": "Wie oft schlägt das Herz eines Erwachsenen ungefähr pro Tag?",
+    "antwort": "100.000",
+    "akzeptiert": [
+      "100000",
+      "hunderttausend"
+    ],
+    "bewertung": "Werte von 80.000 bis 130.000 gelten als richtig."
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt das verlängerte Mark, das u. a. Atmung und Herzschlag steuert, mit lateinischem Fachbegriff?",
-    "antwort": "Medulla oblongata",
+    "frage": "Welcher Teil des Auges hat keine Blutgefäße und holt sich Sauerstoff direkt aus der Luft?",
+    "antwort": "Hornhaut",
     "akzeptiert": [
-      "Medulla"
+      "Cornea",
+      "Kornea"
     ]
   },
   {
     "stufe": 5,
-    "frage": "Wie heißen die Gaumenmandeln mit Fachbegriff?",
-    "antwort": "Tonsillen",
+    "frage": "Wie viel wiegt das Gehirn eines Erwachsenen ungefähr?",
+    "antwort": "1,4 kg",
     "akzeptiert": [
-      "Tonsillae palatinae",
-      "Tonsille"
-    ]
+      "1,3 kg",
+      "1,5 kg",
+      "1400 g",
+      "1,4 Kilo"
+    ],
+    "bewertung": "Werte von 1,2 bis 1,6 kg gelten als richtig."
   },
   {
     "stufe": 5,
-    "frage": "Wie heißen die Zellen, die Knochensubstanz abbauen?",
-    "antwort": "Osteoklasten"
+    "frage": "Wie oft blinzelt ein Mensch ungefähr pro Minute?",
+    "antwort": "15",
+    "akzeptiert": [
+      "15 Mal",
+      "fünfzehn"
+    ],
+    "bewertung": "Werte von 10 bis 25 gelten als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viel Liter Speichel produziert ein Mensch ungefähr pro Tag?",
+    "antwort": "1 bis 1,5",
+    "akzeptiert": [
+      "1",
+      "1,5",
+      "ein Liter",
+      "1 Liter"
+    ],
+    "bewertung": "Werte von 0,5 bis 2 Litern gelten als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Blutgruppe (AB0) ist in Deutschland am häufigsten?",
+    "antwort": "A",
+    "akzeptiert": [
+      "A positiv",
+      "A+"
+    ],
+    "bewertung": "Nur A ist richtig (knapp vor 0)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht die Abkürzung DNS (englisch DNA) ausgeschrieben auf Deutsch?",
+    "antwort": "Desoxyribonukleinsäure",
+    "akzeptiert": [
+      "Desoxyribonucleinsäure"
+    ],
+    "bewertung": "Kleine Schreibfehler tolerieren."
   }
 ]

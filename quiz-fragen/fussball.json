@@ -166,7 +166,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Welche Farbe hat die Karte, die ein Spieler bei einem Platzverweis sieht?",
     "antwort": "Rot",
     "bewertung": "Auch ‚Gelb-Rot‘ gilt als richtig."
@@ -496,7 +496,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie heißt das Stadion des FC Barcelona?",
     "antwort": "Camp Nou",
     "akzeptiert": [
@@ -687,27 +687,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher Spieler hat mit 602 Partien die meisten Bundesliga-Einsätze?",
-    "antwort": "Karl-Heinz Körbel",
-    "akzeptiert": [
-      "Körbel",
-      "Koerbel",
-      "Charly Körbel"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Verein wurde 1964 erster Meister der Bundesliga-Geschichte?",
-    "antwort": "1. FC Köln",
-    "akzeptiert": [
-      "FC Köln",
-      "Köln",
-      "Koeln"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie viele Tore schoss Gerd Müller in der Saison 1971/72 – ein Rekord, der bis 2021 hielt?",
     "antwort": "40",
     "akzeptiert": [
@@ -725,36 +704,12 @@
   },
   {
     "stufe": 5,
-    "frage": "In welchem Jahr wurde Deutschland zum ersten Mal Europameister?",
-    "antwort": "1972"
-  },
-  {
-    "stufe": 5,
     "frage": "Welchem italienischen Spieler verpasste Zidane im WM-Finale 2006 den berühmten Kopfstoß?",
     "antwort": "Marco Materazzi",
     "akzeptiert": [
       "Materazzi"
     ],
     "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Engländer erzielte im WM-Finale 1966 das umstrittene „Wembley-Tor“?",
-    "antwort": "Geoff Hurst",
-    "akzeptiert": [
-      "Hurst",
-      "Geoffrey Hurst"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Verein gewann 1966 als erster deutscher Klub einen Europapokal (den Europapokal der Pokalsieger)?",
-    "antwort": "Borussia Dortmund",
-    "akzeptiert": [
-      "Dortmund",
-      "BVB"
-    ]
   },
   {
     "stufe": 5,
@@ -769,54 +724,10 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher DDR-Spieler schoss bei der WM 1974 das Tor zum 1:0-Sieg der DDR gegen die Bundesrepublik?",
-    "antwort": "Jürgen Sparwasser",
-    "akzeptiert": [
-      "Sparwasser"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Wer ist bis heute der einzige Torwart, der den Ballon d'Or gewann (1963)?",
-    "antwort": "Lew Jaschin",
-    "akzeptiert": [
-      "Jaschin",
-      "Yashin",
-      "Lev Yashin",
-      "Lew Yashin"
-    ],
-    "bewertung": "Nachname reicht, auch in englischer Schreibweise."
-  },
-  {
-    "stufe": 5,
     "frage": "Welchen portugiesischen Verein führte José Mourinho 2004 zum Champions-League-Sieg?",
     "antwort": "FC Porto",
     "akzeptiert": [
       "Porto"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "In welcher Stadt wurde im Jahr 1900 der Deutsche Fußball-Bund (DFB) gegründet?",
-    "antwort": "Leipzig"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welches Land gewann 1960 die allererste Fußball-Europameisterschaft?",
-    "antwort": "Sowjetunion",
-    "akzeptiert": [
-      "UdSSR",
-      "Russland"
-    ],
-    "bewertung": "‚Russland‘ ist großzügig auch richtig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Der Franzose Just Fontaine hält den Rekord für die meisten Tore bei einer einzigen WM (1958). Wie viele waren es?",
-    "antwort": "13",
-    "akzeptiert": [
-      "dreizehn"
     ]
   },
   {
@@ -1138,7 +1049,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welches Land verlor 2018 das WM-Finale gegen Frankreich?",
     "antwort": "Kroatien"
   },
@@ -1158,31 +1069,12 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher deutsche Verein gewann 1983 mit einem 1:0 gegen Juventus Turin den Europapokal der Landesmeister?",
-    "antwort": "Hamburger SV",
-    "akzeptiert": [
-      "HSV",
-      "Hamburg"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wer verwandelte im WM-Finale 1990 den Elfmeter zum 1:0-Sieg gegen Argentinien?",
     "antwort": "Andreas Brehme",
     "akzeptiert": [
       "Brehme"
     ],
     "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Gegen welches Land verlor Deutschland 1976 das EM-Finale im Elfmeterschießen?",
-    "antwort": "Tschechoslowakei",
-    "akzeptiert": [
-      "ČSSR",
-      "CSSR"
-    ],
-    "bewertung": "„Tschechien“ allein ist nicht korrekt."
   },
   {
     "stufe": 5,
@@ -1198,14 +1090,6 @@
     "antwort": "VfB Stuttgart",
     "akzeptiert": [
       "Stuttgart"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie viele Länderspieltore erzielte Miroslav Klose für Deutschland?",
-    "antwort": "71",
-    "akzeptiert": [
-      "einundsiebzig"
     ]
   },
   {
@@ -1242,6 +1126,62 @@
     "akzeptiert": [
       "Darmstadt",
       "Darmstadt 98"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Gegen welchen Verein verlor der FC Bayern 1999 das Champions-League-Finale durch zwei Gegentore in der Nachspielzeit?",
+    "antwort": "Manchester United",
+    "akzeptiert": [
+      "Man United",
+      "ManU",
+      "Man Utd"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Gegen welchen Verein gewann der FC Bayern 2020 im Champions-League-Viertelfinale sensationell mit 8:2?",
+    "antwort": "FC Barcelona",
+    "akzeptiert": [
+      "Barcelona",
+      "Barça",
+      "Barca"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Bären-Maskottchen des FC Bayern München?",
+    "antwort": "Bernie",
+    "akzeptiert": [
+      "Berni"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Geißbock, das lebende Maskottchen des 1. FC Köln?",
+    "antwort": "Hennes",
+    "akzeptiert": [
+      "Hennes IX.",
+      "Hennes IX"
+    ],
+    "bewertung": "Name reicht, Nummer nicht nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Verein drehte 2005 im „Wunder von Istanbul“ das Champions-League-Finale gegen AC Mailand nach 0:3-Rückstand zur Pause?",
+    "antwort": "FC Liverpool",
+    "akzeptiert": [
+      "Liverpool",
+      "Liverpool FC"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Bundesliga-Traditionsverein wird wegen seiner Bergbau-Wurzeln „die Knappen“ genannt?",
+    "antwort": "FC Schalke 04",
+    "akzeptiert": [
+      "Schalke",
+      "Schalke 04"
     ]
   }
 ]

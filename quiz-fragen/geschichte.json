@@ -394,7 +394,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Welcher US-Stützpunkt auf Hawaii wurde im Dezember 1941 von Japan angegriffen?",
     "antwort": "Pearl Harbor"
   },
@@ -407,7 +407,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Wer verübte am 20. Juli 1944 ein Bombenattentat auf Hitler?",
     "antwort": "Claus Schenk Graf von Stauffenberg",
     "akzeptiert": [
@@ -417,7 +417,7 @@
     "bewertung": "Nachname Stauffenberg reicht."
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Welcher österreichische Thronfolger wurde 1914 in Sarajevo ermordet?",
     "antwort": "Franz Ferdinand",
     "akzeptiert": [
@@ -535,7 +535,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "In welchem Jahr eroberten die Osmanen Konstantinopel?",
     "antwort": "1453",
     "bewertung": "Genaues Jahr nötig."
@@ -584,12 +584,6 @@
     ]
   },
   {
-    "stufe": 4,
-    "frage": "In welchem Jahr wurde in England die Magna Carta besiegelt?",
-    "antwort": "1215",
-    "bewertung": "Genaues Jahr nötig."
-  },
-  {
     "stufe": 3,
     "frage": "In welcher Stadt tagte 1919 die Nationalversammlung, nach der die erste deutsche Republik benannt ist?",
     "antwort": "Weimar"
@@ -612,7 +606,7 @@
     "bewertung": "Nachname reicht."
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Welcher deutsche König unternahm 1077 den „Gang nach Canossa“?",
     "antwort": "Heinrich IV.",
     "akzeptiert": [
@@ -678,23 +672,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher germanische Heerführer setzte 476 den letzten weströmischen Kaiser ab?",
-    "antwort": "Odoaker",
-    "akzeptiert": [
-      "Odoacer"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher König besiegte 955 in der Schlacht auf dem Lechfeld die Ungarn?",
-    "antwort": "Otto I.",
-    "akzeptiert": [
-      "Otto der Große",
-      "Otto"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wer folgte im Oktober 1989 Erich Honecker als SED-Generalsekretär?",
     "antwort": "Egon Krenz",
     "akzeptiert": [
@@ -743,24 +720,6 @@
     "bewertung": "Nachname reicht."
   },
   {
-    "stufe": 5,
-    "frage": "In welchem Jahr fand die Schlacht bei Marathon statt?",
-    "antwort": "490 v. Chr.",
-    "akzeptiert": [
-      "490"
-    ],
-    "bewertung": "Genaues Jahr nötig: 490 v. Chr."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Kaiser erließ 1356 die Goldene Bulle?",
-    "antwort": "Karl IV.",
-    "akzeptiert": [
-      "Karl der Vierte"
-    ],
-    "bewertung": "Die Ordnungszahl IV muss stimmen."
-  },
-  {
     "stufe": 4,
     "frage": "Wer sagte im Juni 1961: „Niemand hat die Absicht, eine Mauer zu errichten“?",
     "antwort": "Walter Ulbricht",
@@ -768,25 +727,6 @@
       "Ulbricht"
     ],
     "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher französische König erließ 1598 das Edikt von Nantes?",
-    "antwort": "Heinrich IV.",
-    "akzeptiert": [
-      "Henri IV",
-      "Heinrich der Vierte",
-      "Henri Quatre"
-    ],
-    "bewertung": "Die Ordnungszahl IV muss stimmen."
-  },
-  {
-    "stufe": 5,
-    "frage": "In welchem Vertrag teilten Spanien und Portugal 1494 die neu entdeckten Gebiete der Welt auf?",
-    "antwort": "Vertrag von Tordesillas",
-    "akzeptiert": [
-      "Tordesillas"
-    ]
   },
   {
     "stufe": 5,
@@ -804,15 +744,6 @@
       "York und Lancaster"
     ],
     "bewertung": "Beide Häuser müssen genannt werden."
-  },
-  {
-    "stufe": 5,
-    "frage": "Nach dem Tod welches Kaisers wurde das Römische Reich 395 endgültig in Ost und West geteilt?",
-    "antwort": "Theodosius I.",
-    "akzeptiert": [
-      "Theodosius",
-      "Theodosius der Große"
-    ]
   },
   {
     "stufe": 5,
@@ -1153,7 +1084,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie nennt man den Umbruch ab dem späten 18. Jahrhundert, als in England Fabriken und Dampfmaschinen die Handarbeit ablösten?",
     "antwort": "Industrielle Revolution",
     "akzeptiert": [
@@ -1315,24 +1246,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher Theologe führte im Bauernkrieg 1525 aufständische Bauern in Thüringen an und wurde hingerichtet?",
-    "antwort": "Thomas Müntzer",
-    "akzeptiert": [
-      "Müntzer"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Ostgotenkönig herrschte ab 493 von Ravenna aus über Italien?",
-    "antwort": "Theoderich der Große",
-    "akzeptiert": [
-      "Theoderich",
-      "Dietrich von Bern"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Welcher griechische Geschichtsschreiber des 5. Jh. v. Chr. gilt als „Vater der Geschichtsschreibung“?",
     "antwort": "Herodot"
   },
@@ -1351,6 +1264,87 @@
     "antwort": "Nikita Chruschtschow",
     "akzeptiert": [
       "Chruschtschow"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher französischen Königin wird der Satz „Dann sollen sie doch Kuchen essen!“ zugeschrieben?",
+    "antwort": "Marie Antoinette",
+    "akzeptiert": [
+      "Marie-Antoinette",
+      "Maria Antonia"
+    ],
+    "bewertung": "Der Satz ist nur zugeschrieben – gefragt ist Marie Antoinette."
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Stadt bei Berlin trafen sich im Sommer 1945 die Siegermächte, um über die Zukunft Deutschlands zu entscheiden?",
+    "antwort": "Potsdam",
+    "akzeptiert": [
+      "Schloss Cecilienhof",
+      "Cecilienhof"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Stadt mit dem Holstentor galt im Mittelalter als „Königin der Hanse“?",
+    "antwort": "Lübeck"
+  },
+  {
+    "stufe": 5,
+    "frage": "Der kürzeste Krieg der Geschichte (Großbritannien gegen Sansibar, 1896) dauerte ungefähr wie lange?",
+    "antwort": "ca. 40 Minuten",
+    "akzeptiert": [
+      "38 Minuten",
+      "45 Minuten",
+      "unter einer Stunde"
+    ],
+    "bewertung": "Etwa 38–45 Minuten; Antworten zwischen 30 Minuten und einer Stunde gelten als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher römische Kaiser soll geplant haben, sein Lieblingspferd zum Konsul zu machen?",
+    "antwort": "Caligula",
+    "akzeptiert": [
+      "Gaius Caesar"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Jahre dauerte der Hundertjährige Krieg zwischen England und Frankreich tatsächlich ungefähr?",
+    "antwort": "116 Jahre",
+    "akzeptiert": [
+      "116"
+    ],
+    "bewertung": "1337–1453 = 116 Jahre; Antworten von 110 bis 120 gelten als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß der letzte russische Zar, der 1918 mit seiner Familie erschossen wurde?",
+    "antwort": "Nikolaus II.",
+    "akzeptiert": [
+      "Nikolai II.",
+      "Nikolaus der Zweite",
+      "Nikolaus"
+    ],
+    "bewertung": "„Nikolaus“ ohne Ordnungszahl gilt als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach welchem römischen Kaiser ist der Grenzwall quer durch Nordengland benannt?",
+    "antwort": "Hadrian",
+    "akzeptiert": [
+      "Hadrianswall",
+      "Kaiser Hadrian"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher britische Premierminister verkündete 1938 nach dem Münchner Abkommen „Frieden für unsere Zeit“?",
+    "antwort": "Neville Chamberlain",
+    "akzeptiert": [
+      "Chamberlain"
     ],
     "bewertung": "Nachname reicht."
   }

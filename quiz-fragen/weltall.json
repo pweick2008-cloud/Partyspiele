@@ -152,7 +152,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Der „Große Wagen“ ist Teil welches Sternbilds?",
     "antwort": "Großer Bär",
     "akzeptiert": [
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie heißt die Galaxie, zu der unser Sonnensystem gehört?",
     "antwort": "Milchstraße",
     "akzeptiert": [
@@ -225,7 +225,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Wie heißt der größte Mond des Saturn?",
     "antwort": "Titan"
   },
@@ -262,7 +262,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Welcher Planet rotiert so stark gekippt, dass er quasi „auf der Seite liegt“?",
     "antwort": "Uranus"
   },
@@ -285,7 +285,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Welches Sternbild am Nordhimmel hat die Form eines großen „W“?",
     "antwort": "Kassiopeia",
     "akzeptiert": [
@@ -326,7 +326,7 @@
     "antwort": "Sirius"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Wie heißen die beiden Monde des Mars? Nenne beide.",
     "antwort": "Phobos und Deimos",
     "bewertung": "Beide Namen müssen genannt werden, Reihenfolge egal."
@@ -345,7 +345,7 @@
     "antwort": "Olympus Mons"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Welcher Jupitermond ist der vulkanisch aktivste Himmelskörper im Sonnensystem?",
     "antwort": "Io"
   },
@@ -391,7 +391,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Wie heißt der Zwergplanet, der das größte Objekt im Asteroidengürtel ist?",
     "antwort": "Ceres"
   },
@@ -433,7 +433,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt der Stern, der der Sonne am nächsten ist?",
     "antwort": "Proxima Centauri",
     "akzeptiert": [
@@ -442,7 +442,7 @@
     "bewertung": "Nur „Proxima (Centauri)“ voll werten. „Alpha Centauri“ allein ist nicht ganz richtig (Proxima gehört aber zu diesem Sternsystem)."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt der Rand eines Schwarzen Lochs, ab dem nicht einmal Licht mehr entkommen kann?",
     "antwort": "Ereignishorizont",
     "akzeptiert": [
@@ -605,11 +605,6 @@
   },
   {
     "stufe": 1,
-    "frage": "Welcher Planet kreist zwischen der Erde und dem Jupiter um die Sonne?",
-    "antwort": "Mars"
-  },
-  {
-    "stufe": 1,
     "frage": "Wie heißt die Mondphase, bei der genau eine Hälfte der Mondscheibe beleuchtet ist?",
     "antwort": "Halbmond",
     "akzeptiert": [
@@ -680,7 +675,7 @@
     "bewertung": "„Kernspaltung“ ist falsch."
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Welcher Astronom stellte im 16. Jahrhundert die Sonne statt der Erde in den Mittelpunkt des Weltbilds?",
     "antwort": "Nikolaus Kopernikus",
     "akzeptiert": [
@@ -709,7 +704,7 @@
     "antwort": "Sonnenflecken"
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Welcher Planet ist der siebte von der Sonne aus gezählt?",
     "antwort": "Uranus"
   },
@@ -822,7 +817,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Welcher Planet hat eine geringere mittlere Dichte als Wasser und würde theoretisch in einer riesigen Badewanne schwimmen?",
     "antwort": "Saturn"
   },
@@ -888,17 +883,7 @@
     "bewertung": "Etwa 360.000 bis 410.000 km ist richtig."
   },
   {
-    "stufe": 4,
-    "frage": "Unter welchem deutschen Namen ist der Sternhaufen der Plejaden im Sternbild Stier bekannt?",
-    "antwort": "Siebengestirn"
-  },
-  {
-    "stufe": 4,
-    "frage": "Wie heißt die scheinbare Bahn, auf der die Sonne im Laufe eines Jahres vor dem Sternenhintergrund wandert?",
-    "antwort": "Ekliptik"
-  },
-  {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Wie nennt man es, dass das Licht sich entfernender Galaxien zu längeren Wellenlängen verschoben ist?",
     "antwort": "Rotverschiebung"
   },
@@ -961,7 +946,7 @@
     "bewertung": "Hauptsache Eis wird genannt."
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Wie heißt der größte Mond des Zwergplaneten Pluto?",
     "antwort": "Charon"
   },
@@ -976,12 +961,12 @@
     "antwort": "Sommerdreieck"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Wie heißt die Galaxiengruppe, zu der die Milchstraße und die Andromedagalaxie gehören?",
     "antwort": "Lokale Gruppe"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Wie heißen die beiden Begleitgalaxien der Milchstraße, die man am Südhimmel mit bloßem Auge sehen kann?",
     "antwort": "Magellansche Wolken",
     "akzeptiert": [
@@ -1014,34 +999,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt die lange, stabile Lebensphase eines Sterns, in der er in seinem Kern Wasserstoff zu Helium fusioniert?",
-    "antwort": "Hauptreihe",
-    "akzeptiert": [
-      "Hauptreihenphase",
-      "Hauptreihenstern"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt das Diagramm, in dem Sterne nach ihrer Leuchtkraft und Temperatur (bzw. Farbe) eingetragen werden?",
-    "antwort": "Hertzsprung-Russell-Diagramm",
-    "akzeptiert": [
-      "HR-Diagramm",
-      "HRD"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt das Maß für die Helligkeit von Sternen, bei dem kleinere Zahlen hellere Sterne bedeuten?",
-    "antwort": "Magnitude",
-    "akzeptiert": [
-      "Größenklasse",
-      "scheinbare Helligkeit",
-      "mag"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Welche astronomische Entfernungseinheit entspricht etwa 3,26 Lichtjahren?",
     "antwort": "Parsec",
     "akzeptiert": [
@@ -1051,59 +1008,8 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie nennt man die leuchtende Gashülle, die ein sterbender sonnenähnlicher Stern abstößt – trotz des irreführenden Namens hat sie nichts mit Planeten zu tun?",
-    "antwort": "Planetarischer Nebel"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt die Massengrenze von etwa 1,4 Sonnenmassen, oberhalb derer ein Weißer Zwerg nicht stabil bleiben kann?",
-    "antwort": "Chandrasekhar-Grenze",
-    "akzeptiert": [
-      "Chandrasekhar-Masse",
-      "Chandrasekhar"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der rötliche, hellste Stern im Sternbild Stier?",
-    "antwort": "Aldebaran"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der blauweiße Überriese, der den „Fuß“ des Sternbilds Orion bildet?",
-    "antwort": "Rigel"
-  },
-  {
-    "stufe": 5,
     "frage": "Welcher 2005 entdeckte Zwergplanet ist fast so groß wie Pluto und löste die Debatte um Plutos Planetenstatus aus?",
     "antwort": "Eris"
-  },
-  {
-    "stufe": 5,
-    "frage": "Etwa wie viele Lichtjahre ist die Andromedagalaxie von uns entfernt?",
-    "antwort": "ca. 2,5 Millionen",
-    "akzeptiert": [
-      "2,5 Millionen Lichtjahre",
-      "2,5 Mio."
-    ],
-    "bewertung": "Etwa 2 bis 3 Millionen Lichtjahre ist richtig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie nennt man ein auffälliges Sternmuster, das kein offizielles Sternbild ist – wie der Große Wagen?",
-    "antwort": "Asterismus",
-    "akzeptiert": [
-      "Asterism"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie nennt man Sterne, die von einem bestimmten Beobachtungsort aus niemals unter den Horizont sinken?",
-    "antwort": "Zirkumpolarsterne",
-    "akzeptiert": [
-      "zirkumpolar",
-      "Zirkumpolarstern"
-    ]
   },
   {
     "stufe": 5,
@@ -1114,5 +1020,149 @@
       "1,28 s"
     ],
     "bewertung": "Etwa 1 bis 1,5 Sekunden ist richtig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie hieß der erste Mensch, der 1969 den Mond betreten hat?",
+    "antwort": "Neil Armstrong",
+    "akzeptiert": [
+      "Armstrong"
+    ],
+    "bewertung": "Nachname reicht. Buzz Aldrin ist falsch (er war der Zweite)."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die große Raumstation, die seit 1998 um die Erde kreist (Abkürzung mit drei Buchstaben)?",
+    "antwort": "ISS",
+    "akzeptiert": [
+      "Internationale Raumstation",
+      "International Space Station"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Jahr landeten zum ersten Mal Menschen auf dem Mond?",
+    "antwort": "1969"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie hieß das NASA-Raumfahrtprogramm, mit dem Menschen zum Mond flogen (z. B. Mission Nummer 11)?",
+    "antwort": "Apollo",
+    "akzeptiert": [
+      "Apollo-Programm",
+      "Apollo 11"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß der sowjetische Kosmonaut, der 1961 als erster Mensch ins Weltall flog?",
+    "antwort": "Juri Gagarin",
+    "akzeptiert": [
+      "Gagarin",
+      "Yuri Gagarin"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß die Hündin, die 1957 als erstes Lebewesen die Erde in einem Raumschiff umkreiste?",
+    "antwort": "Laika",
+    "akzeptiert": [
+      "Lajka"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Satelliten-Internet von Elon Musks Raumfahrtfirma SpaceX?",
+    "antwort": "Starlink"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der deutsche ESA-Astronaut, der 2018 als erster Deutscher Kommandant der ISS wurde?",
+    "antwort": "Alexander Gerst",
+    "akzeptiert": [
+      "Gerst"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Nach welchem Apollo-11-Astronauten ist Buzz Lightyear aus „Toy Story“ benannt?",
+    "antwort": "Buzz Aldrin",
+    "akzeptiert": [
+      "Aldrin",
+      "Edwin Aldrin"
+    ],
+    "bewertung": "Nachname reicht. Neil Armstrong ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Himmelskörper entstand nach gängiger Theorie, als ein marsgroßer Körper namens Theia mit der jungen Erde zusammenstieß?",
+    "antwort": "Mond",
+    "akzeptiert": [
+      "der Mond",
+      "Erdmond"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die 1977 gestartete NASA-Raumsonde, die als erstes von Menschen gebautes Objekt den interstellaren Raum erreichte?",
+    "antwort": "Voyager 1",
+    "akzeptiert": [
+      "Voyager",
+      "Voyager-1"
+    ],
+    "bewertung": "„Voyager“ ohne Nummer gilt auch. „Voyager 2“ knapp daneben, aber falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Menschen haben bis Ende 2025 insgesamt den Mond betreten?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf"
+    ],
+    "bewertung": "Nur 12 ist richtig (Apollo 11 bis 17, sechs Landungen mit je zwei Astronauten)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer flog 1978 als erster Deutscher ins Weltall?",
+    "antwort": "Sigmund Jähn",
+    "akzeptiert": [
+      "Jähn",
+      "Jaehn"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Sternbild liegt ebenfalls auf der Sonnenbahn, wird aber nicht als Sternzeichen im Horoskop verwendet – das „13. Sternzeichen“?",
+    "antwort": "Schlangenträger",
+    "akzeptiert": [
+      "Ophiuchus",
+      "Schlangentraeger"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der NASA-Rover, der 2021 auf dem Mars landete und einen kleinen Hubschrauber namens Ingenuity mitbrachte?",
+    "antwort": "Perseverance",
+    "akzeptiert": [
+      "Percy"
+    ],
+    "bewertung": "Curiosity ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Element ist das zweithäufigste im Universum und wurde zuerst im Licht der Sonne entdeckt – daher sein Name?",
+    "antwort": "Helium",
+    "akzeptiert": [
+      "He"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Planet hat die meisten bekannten Monde im Sonnensystem (Stand 2025)?",
+    "antwort": "Saturn",
+    "bewertung": "Jupiter ist falsch (Stand 2025 hat Saturn über 270, Jupiter knapp 100 bekannte Monde)."
   }
 ]

@@ -428,7 +428,7 @@
     "bewertung": "Gilt als aus dem südchinesischen Hokkien stammend, evtl. über das Malaiische; beides zählt."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welches Wort war 2012 Jugendwort des Jahres – eine englische Abkürzung für „Man lebt nur einmal“?",
     "antwort": "YOLO",
     "akzeptiert": [
@@ -473,7 +473,7 @@
     "antwort": "Hebräisch"
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wofür steht die Abkürzung „TÜV“?",
     "antwort": "Technischer Überwachungsverein",
     "akzeptiert": [
@@ -492,7 +492,7 @@
     "bewertung": "Sinngemäß reicht: ehrlich sein, die (unangenehme) Wahrheit sagen."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welcher Fall folgt laut Standardgrammatik auf „wegen“ (z. B. „wegen des Regens“)?",
     "antwort": "Genitiv",
     "akzeptiert": [
@@ -578,18 +578,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Womit fing man früher Vögel auf Ästen – worauf die Redewendung „Pech gehabt“ zurückgehen soll?",
-    "antwort": "Pech",
-    "akzeptiert": [
-      "Leim",
-      "Vogelleim",
-      "Leimrute",
-      "Baumharz"
-    ],
-    "bewertung": "Pech bzw. Leim/Leimrute zählt."
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt die Zeitform in „Ich werde gegessen haben“?",
     "antwort": "Futur II",
     "akzeptiert": [
@@ -616,16 +604,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Aus welcher Sprache stammt das Wort „Tabu“ (von James Cook nach Europa gebracht)?",
-    "antwort": "Tongaisch",
-    "akzeptiert": [
-      "Polynesisch",
-      "Tonga"
-    ],
-    "bewertung": "Auch „polynesische Sprache“ zählt."
-  },
-  {
-    "stufe": 5,
     "frage": "Was meint man, wenn man sagt: „Mach keine Fisimatenten!“?",
     "antwort": "keine Umstände/Ausflüchte machen",
     "akzeptiert": [
@@ -644,19 +622,9 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welches englische Wort für coole Ausstrahlung wurde 2011 Jugendwort des Jahres?",
     "antwort": "Swag"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welches Jugendwort des Jahres 2010 beschreibt das ständige Absinken des Niveaus?",
-    "antwort": "Niveaulimbo"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welches Jugendwort des Jahres 2008 bezeichnete eine Ü30-Party?",
-    "antwort": "Gammelfleischparty"
   },
   {
     "stufe": 5,
@@ -687,19 +655,6 @@
       "Tautologie"
     ],
     "bewertung": "Fachlich korrekt ist Pleonasmus; „Tautologie“ wird umgangssprachlich oft gleich verwendet und zählt auch."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welches Jugendwort des Jahres 2009 bedeutet „arbeitslos sein, rumhängen“ und spielt auf eine Sozialreform an?",
-    "antwort": "hartzen"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welches englische Wort wurde 2016 Jugendwort des Jahres („… sein“ = abgehoben, besonders gut)?",
-    "antwort": "fly",
-    "akzeptiert": [
-      "fly sein"
-    ]
   },
   {
     "stufe": 5,
@@ -1073,12 +1028,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt das Stilmittel einer dreigliedrigen Wortfolge wie „Veni, vidi, vici“?",
-    "antwort": "Trikolon",
-    "bewertung": "Auch „Dreierfigur“ zählt. Klimax: falsch."
-  },
-  {
-    "stufe": 5,
     "frage": "Aus welcher Sprache stammt „Schmiere“ in „Schmiere stehen“ (Wache halten)?",
     "antwort": "Hebräisch",
     "akzeptiert": [
@@ -1128,5 +1077,47 @@
       "Bagatelle"
     ],
     "bewertung": "Sinngemäß reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Spiel stammt der Begriff „Zugzwang“, den sogar Engländer auf Deutsch benutzen?",
+    "antwort": "Schach"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches deutsche Wort für Reiselust bzw. Fernweh benutzen auch Englischsprachige gern, etwa in Instagram-Posts?",
+    "antwort": "Wanderlust",
+    "bewertung": "Kleine Tippfehler sind okay."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welcher Sprache stammt das Wort „Tomate“ ursprünglich?",
+    "antwort": "Nahuatl",
+    "akzeptiert": [
+      "Aztekisch",
+      "Sprache der Azteken"
+    ],
+    "bewertung": "Nahuatl bzw. „Aztekisch“ zählt; Spanisch (nur Vermittler) ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welcher Sprache stammt das Wort „Paradies“ ursprünglich (bedeutete dort „umzäunter Garten“)?",
+    "antwort": "Persisch",
+    "akzeptiert": [
+      "Altpersisch",
+      "Avestisch",
+      "Altiranisch"
+    ],
+    "bewertung": "Persisch/Altiranisch zählt; Griechisch und Latein waren nur Vermittler und sind falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Zu welcher Wortart gehören Wörter wie „autsch“, „hurra“ und „igitt“?",
+    "antwort": "Interjektion",
+    "akzeptiert": [
+      "Interjektionen",
+      "Ausrufewort",
+      "Empfindungswort"
+    ]
   }
 ]

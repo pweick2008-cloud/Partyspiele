@@ -151,7 +151,7 @@
     ]
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "frage": "Wie heißt das berühmte US-Showteam, das mit Basketball-Tricks um die Welt tourt?",
     "antwort": "Harlem Globetrotters",
     "akzeptiert": [
@@ -228,7 +228,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "In wie viele Abschnitte (Viertel) ist ein reguläres Basketballspiel eingeteilt?",
     "antwort": "4",
     "akzeptiert": [
@@ -446,7 +446,7 @@
     "bewertung": "Vorname oder Nachname reicht, kleine Schreibfehler okay."
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Wie hieß der Sportlehrer, der 1891 den Basketball erfand?",
     "antwort": "James Naismith",
     "akzeptiert": [
@@ -584,14 +584,6 @@
       "Wilt"
     ],
     "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "In welcher Stadt fand das Finale der Basketball-WM 2023 statt?",
-    "antwort": "Manila",
-    "akzeptiert": [
-      "Manila, Philippinen"
-    ]
   },
   {
     "stufe": 4,
@@ -777,14 +769,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher Spieler gewann als aktiver Spieler die meisten NBA-Titel, nämlich elf?",
-    "antwort": "Bill Russell",
-    "akzeptiert": [
-      "Russell"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt die Trophäe, die der NBA-Meister erhält?",
     "antwort": "Larry O’Brien Trophy",
     "akzeptiert": [
@@ -797,15 +781,6 @@
     "stufe": 5,
     "frage": "Aus welcher Stadt zogen die Lakers 1960 nach Los Angeles?",
     "antwort": "Minneapolis"
-  },
-  {
-    "stufe": 5,
-    "frage": "Unter welchem Geburtsnamen begann Kareem Abdul-Jabbar seine Karriere?",
-    "antwort": "Lew Alcindor",
-    "akzeptiert": [
-      "Alcindor",
-      "Ferdinand Lewis Alcindor"
-    ]
   },
   {
     "stufe": 5,
@@ -825,21 +800,11 @@
   },
   {
     "stufe": 5,
-    "frage": "In welchem Jahr wurde Dirk Nowitzki als erster Europäer zum MVP der regulären NBA-Saison gewählt?",
-    "antwort": "2007"
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt Dirk Nowitzkis langjähriger Mentor und Privattrainer?",
     "antwort": "Holger Geschwindner",
     "akzeptiert": [
       "Geschwindner"
     ]
-  },
-  {
-    "stufe": 5,
-    "frage": "In welcher Stadt wurde Dennis Schröder geboren?",
-    "antwort": "Braunschweig"
   },
   {
     "stufe": 5,
@@ -882,11 +847,6 @@
   },
   {
     "stufe": 5,
-    "frage": "In welchem Jahr wurde Deutschland erstmals Basketball-Europameister der Männer?",
-    "antwort": "1993"
-  },
-  {
-    "stufe": 5,
     "frage": "In welcher Stadt fanden 1936 die Olympischen Spiele statt, bei denen Basketball erstmals offizielle Disziplin war?",
     "antwort": "Berlin"
   },
@@ -908,30 +868,12 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie viele Sekunden beträgt die Shot Clock im 3x3-Basketball?",
-    "antwort": "12",
-    "akzeptiert": [
-      "zwölf",
-      "12 Sekunden"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie weit ist die Dreierlinie nach FIBA-Regeln vom Korb entfernt?",
     "antwort": "6,75 m",
     "akzeptiert": [
       "6,75",
       "6.75 m",
       "675 cm"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie lang ist ein Basketballfeld nach FIBA-Regeln?",
-    "antwort": "28 m",
-    "akzeptiert": [
-      "28",
-      "28 Meter"
     ]
   },
   {
@@ -949,6 +891,65 @@
     "antwort": "45",
     "akzeptiert": [
       "fünfundvierzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Team wurde 2025 NBA-Meister?",
+    "antwort": "Oklahoma City Thunder",
+    "akzeptiert": [
+      "Thunder",
+      "OKC",
+      "Oklahoma City",
+      "OKC Thunder"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Spieler der Philadelphia 76ers trug den Spitznamen „The Answer“?",
+    "antwort": "Allen Iverson",
+    "akzeptiert": [
+      "Iverson",
+      "AI"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Maskottchen der Chicago Bulls?",
+    "antwort": "Benny the Bull",
+    "akzeptiert": [
+      "Benny",
+      "Benny der Bulle"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Team stellte 2016 mit 73 Siegen und nur 9 Niederlagen den Rekord für die beste reguläre NBA-Saison auf?",
+    "antwort": "Golden State Warriors",
+    "akzeptiert": [
+      "Warriors",
+      "Golden State",
+      "GSW"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man es, wenn ein Spieler einen Kontakt übertrieben theatralisch darstellt, um ein Foul zu ziehen?",
+    "antwort": "Flopping",
+    "akzeptiert": [
+      "Flop",
+      "Schwalbe"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man in der NBA den besten Einwechselspieler, der dafür eine eigene Auszeichnung bekommt?",
+    "antwort": "Sixth Man",
+    "akzeptiert": [
+      "Sixth Man of the Year",
+      "Sechster Mann",
+      "6th Man"
     ]
   }
 ]

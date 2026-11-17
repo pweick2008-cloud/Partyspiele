@@ -366,7 +366,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Wie heißt das weibliche Reh in der Jägersprache?",
     "antwort": "Ricke",
     "akzeptiert": [
@@ -384,7 +384,7 @@
     "bewertung": "Pansen, Netzmagen, Blättermagen, Labmagen – nur die Zahl zählt."
   },
   {
-    "stufe": 3,
+    "stufe": 5,
     "frage": "Welches ist das größte heute lebende Reptil?",
     "antwort": "Leistenkrokodil",
     "akzeptiert": [
@@ -539,15 +539,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Wie nennt man in der Jägersprache einen weiblichen Fuchs?",
-    "antwort": "Fähe",
-    "akzeptiert": [
-      "Füchsin",
-      "Fehe"
-    ]
-  },
-  {
-    "stufe": 4,
     "frage": "Wie nennt man ein männliches Kaninchen?",
     "antwort": "Rammler",
     "akzeptiert": [
@@ -610,7 +601,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welcher mexikanische Schwanzlurch bleibt sein Leben lang im Larvenstadium und kann Gliedmaßen nachwachsen lassen?",
     "antwort": "Axolotl"
   },
@@ -670,15 +661,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher kupferhaltige Blutfarbstoff färbt das Blut von Kraken blau?",
-    "antwort": "Hämocyanin",
-    "akzeptiert": [
-      "Hämozyanin",
-      "Hemocyanin"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Welches Tier hat das schwerste Gehirn aller Lebewesen (rund 8 kg)?",
     "antwort": "Pottwal"
   },
@@ -694,16 +676,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie nennt man das freiwillige Abwerfen eines Körperteils, z. B. des Schwanzes bei Eidechsen?",
-    "antwort": "Autotomie"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie nennt man es, wenn ein Tier wie der Axolotl im Larvenstadium geschlechtsreif wird?",
-    "antwort": "Neotenie"
-  },
-  {
-    "stufe": 5,
     "frage": "Welcher Vogel legt im Verhältnis zu seiner Körpergröße eines der größten Eier aller Vögel?",
     "antwort": "Kiwi"
   },
@@ -716,23 +688,17 @@
     ]
   },
   {
-    "stufe": 5,
-    "frage": "Welcher britische Naturforscher prägte 1842 den Begriff „Dinosaurier“?",
-    "antwort": "Richard Owen",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welcher Raubsaurier mit großem Rückensegel war länger als der T. rex und fraß wohl vor allem Fische?",
     "antwort": "Spinosaurus"
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt die Kreuzung aus einem Löwenmännchen und einem Tigerweibchen?",
     "antwort": "Liger"
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welches fast haarlose afrikanische Nagetier lebt wie Bienen in Staaten mit einer einzigen Königin?",
     "antwort": "Nacktmull",
     "akzeptiert": [
@@ -773,29 +739,10 @@
   },
   {
     "stufe": 5,
-    "frage": "Welche Farbstoffe aus ihrer Nahrung (Algen, Kleinkrebse) machen Flamingos rosa?",
-    "antwort": "Carotinoide",
-    "akzeptiert": [
-      "Karotinoide",
-      "Carotin",
-      "Beta-Carotin",
-      "Canthaxanthin"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Welches Krebstier erzeugt mit seiner Schere eine Blase, deren Knall zu den lautesten Geräuschen im Meer gehört?",
     "antwort": "Pistolenkrebs",
     "akzeptiert": [
       "Knallkrebs"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt das Junge einer Gans?",
-    "antwort": "Gössel",
-    "akzeptiert": [
-      "Gänseküken"
     ]
   },
   {
@@ -935,7 +882,7 @@
     "antwort": "Waschbär"
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Wie viele Beine hat ein Hummer (Scheren mitgezählt)?",
     "antwort": "10",
     "akzeptiert": [
@@ -977,7 +924,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie nennt man es, wenn eine Schlange ihre alte Haut abstreift?",
     "antwort": "Häutung"
   },
@@ -1005,7 +952,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 2,
     "frage": "Wie nennt man ein männliches Schaf?",
     "antwort": "Widder",
     "akzeptiert": [
@@ -1022,12 +969,12 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welcher Fisch kann sich zu einer Kugel aufpumpen und ist in Japan als giftige Delikatesse „Fugu“ bekannt?",
     "antwort": "Kugelfisch"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Welche Schlange gilt als die längste der Welt?",
     "antwort": "Netzpython"
   },
@@ -1040,22 +987,22 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie heißt die größte Eulenart Europas?",
     "antwort": "Uhu"
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welcher ist der größte Hirsch der Welt?",
     "antwort": "Elch"
   },
   {
-    "stufe": 4,
+    "stufe": 2,
     "frage": "Welcher schwarz-weiße Rabenvogel soll laut Volksglaube glänzende Dinge stehlen?",
     "antwort": "Elster"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Welches Säugetier ist mit Hornschuppen bedeckt und gilt als das meistgeschmuggelte Säugetier der Welt?",
     "antwort": "Schuppentier",
     "akzeptiert": [
@@ -1072,7 +1019,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welcher weiße Wal der Arktis wird wegen seiner vielen Laute auch „Kanarienvogel der Meere“ genannt?",
     "antwort": "Beluga",
     "akzeptiert": [
@@ -1081,7 +1028,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 3,
     "frage": "Welches ist das größte Nagetier der Welt?",
     "antwort": "Wasserschwein",
     "akzeptiert": [
@@ -1099,7 +1046,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welcher Vogel hat die größte Flügelspannweite aller heute lebenden Vögel?",
     "antwort": "Wanderalbatros",
     "akzeptiert": [
@@ -1107,15 +1054,7 @@
     ]
   },
   {
-    "stufe": 5,
-    "frage": "Wie heißt der Schwanz des Fuchses in der Jägersprache?",
-    "antwort": "Lunte",
-    "akzeptiert": [
-      "Rute"
-    ]
-  },
-  {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welcher südamerikanische Fisch kann elektrische Schläge von mehreren hundert Volt erzeugen?",
     "antwort": "Zitteraal"
   },
@@ -1128,7 +1067,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie nennt man es, wenn frisch geschlüpfte Gänseküken dem ersten bewegten Objekt folgen, das sie sehen (erforscht von Konrad Lorenz)?",
     "antwort": "Prägung"
   },
@@ -1138,11 +1077,111 @@
     "antwort": "Leierschwanz"
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welche Ameisen schneiden Blattstücke ab, um damit in ihrem Bau Pilze zu züchten?",
     "antwort": "Blattschneiderameisen",
     "akzeptiert": [
       "Blattschneiderameise"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe hat das Blut von Kraken und Tintenfischen?",
+    "antwort": "Blau",
+    "akzeptiert": [
+      "blau",
+      "bläulich"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Warum sind Flamingos rosa – wegen ihrer Gene oder wegen ihrer Nahrung?",
+    "antwort": "Wegen ihrer Nahrung",
+    "akzeptiert": [
+      "Nahrung",
+      "Futter",
+      "Essen"
+    ],
+    "bewertung": "Richtig ist alles, was sagt, dass es an der Nahrung/dem Futter (Krebstiere, Algen) liegt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Meerestier hat weder Gehirn noch Herz noch Blut und besteht zu rund 95 % aus Wasser?",
+    "antwort": "Qualle",
+    "akzeptiert": [
+      "Quallen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Hoftier kann sogar im Stehen schlafen?",
+    "antwort": "Pferd",
+    "akzeptiert": [
+      "Pferde"
+    ],
+    "bewertung": "Auch Kuh/Rind ist nicht falsch, aber gemeint ist das Pferd. „Pferd“ ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Meeressäugetier schläft, indem immer nur eine Gehirnhälfte ruht, damit es weiter zum Atmen auftauchen kann?",
+    "antwort": "Delfin",
+    "akzeptiert": [
+      "Delphin",
+      "Delfine",
+      "Wal"
+    ],
+    "bewertung": "Auch „Wal“ gilt als richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Farbe hat die lange Zunge einer Giraffe größtenteils?",
+    "antwort": "Dunkelblau bis schwarz",
+    "akzeptiert": [
+      "blau",
+      "schwarz",
+      "dunkelblau",
+      "lila",
+      "violett",
+      "blauschwarz",
+      "dunkel"
+    ],
+    "bewertung": "Jede Antwort, die dunkel/blau/schwarz/violett nennt, ist richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher heimische Vogel verbringt fast sein ganzes Leben in der Luft und schläft sogar im Flug?",
+    "antwort": "Mauersegler",
+    "akzeptiert": [
+      "Segler"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Hoftiere haben waagerechte, fast rechteckige Pupillen?",
+    "antwort": "Ziegen",
+    "akzeptiert": [
+      "Ziege",
+      "Schaf",
+      "Schafe"
+    ],
+    "bewertung": "Ziege oder Schaf ist richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Augen hat eine Honigbiene insgesamt (große Facettenaugen plus kleine Punktaugen)?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf"
+    ],
+    "bewertung": "Nur 5 ist richtig (2 Facettenaugen + 3 Punktaugen)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Tier ist neben dem Emu auf dem Wappen Australiens zu sehen?",
+    "antwort": "Känguru",
+    "akzeptiert": [
+      "Kängurus",
+      "Rotes Riesenkänguru"
     ]
   }
 ]

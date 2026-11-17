@@ -916,19 +916,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt Ash Ketchum im japanischen Original des Pokémon-Animes?",
-    "antwort": "Satoshi"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wofür steht die Abkürzung „OVA“ bei Animes?",
-    "antwort": "Original Video Animation",
-    "akzeptiert": [
-      "Original Video Anime"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt die Manga-Zielgruppe für erwachsene Männer, zu der z. B. „Berserk“ gehört?",
     "antwort": "Seinen"
   },
@@ -963,5 +950,69 @@
     "stufe": 4,
     "frage": "Wie nennt man das Anime-Genre, in dem die Hauptfigur in eine andere Welt versetzt oder dort wiedergeboren wird?",
     "antwort": "Isekai"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Anime will Ash Ketchum mit Pikachu der beste Trainer der Welt werden?",
+    "antwort": "Pokémon",
+    "akzeptiert": [
+      "Pokemon"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Narutos Rivale und bester Freund aus dem Uchiha-Clan?",
+    "antwort": "Sasuke",
+    "akzeptiert": [
+      "Sasuke Uchiha",
+      "Uchiha Sasuke"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Ash Ketchums Heimatort im deutschen Pokémon-Anime?",
+    "antwort": "Alabastia",
+    "akzeptiert": [
+      "Pallet Town"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie lautet Son-Gokus Saiyajin-Geburtsname in der deutschen Fassung von „Dragon Ball“?",
+    "antwort": "Kakarott",
+    "akzeptiert": [
+      "Kakarot",
+      "Kakarotto"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die besondere Titanenkraft in „Attack on Titan“, die Eren neben dem Angriffstitan besitzt und mit der man alle Eldia steuern kann?",
+    "antwort": "Urtitan",
+    "akzeptiert": [
+      "Gründer-Titan",
+      "Founding Titan",
+      "Ur-Titan",
+      "Gründertitan"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Urdämon in „Demon Slayer“, der Tanjiros Familie getötet hat?",
+    "antwort": "Muzan Kibutsuji",
+    "akzeptiert": [
+      "Muzan",
+      "Kibutsuji Muzan"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wen muss Zorro in „One Piece“ besiegen, um der beste Schwertkämpfer der Welt zu werden?",
+    "antwort": "Mihawk",
+    "akzeptiert": [
+      "Dulacre Mihawk",
+      "Falkenauge",
+      "Dracule Mihawk"
+    ]
   }
 ]

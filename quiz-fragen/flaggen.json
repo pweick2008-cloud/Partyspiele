@@ -200,7 +200,7 @@
     "bewertung": "Nicht mit der Elfenbeinküste verwechseln (umgekehrte Farbreihenfolge); nur Irland ist richtig."
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "emoji": "🇭🇷",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Kroatien"
@@ -367,7 +367,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Welcher Mittelmeer-Inselstaat zeigt den Umriss seiner Insel auf der Flagge?",
     "antwort": "Zypern"
   },
@@ -425,13 +425,13 @@
     "bewertung": "Die Türkei ist falsch."
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "emoji": "🇪🇪",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Estland"
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "emoji": "🇱🇹",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Litauen"
@@ -461,7 +461,7 @@
     "antwort": "Albanien"
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "emoji": "🇧🇦",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Bosnien und Herzegowina",
@@ -478,19 +478,12 @@
   },
   {
     "stufe": 3,
-    "emoji": "🇮🇩",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Indonesien",
-    "bewertung": "Die Flagge von Monaco sieht praktisch identisch aus – „Monaco“ ebenfalls als richtig werten."
-  },
-  {
-    "stufe": 3,
     "emoji": "🇻🇪",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Venezuela"
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "emoji": "🇺🇾",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Uruguay"
@@ -602,7 +595,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "emoji": "🇷🇼",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Ruanda",
@@ -633,7 +626,7 @@
     "bewertung": "„Dominica“ ist ein anderes Land und falsch."
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "emoji": "🇹🇹",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Trinidad und Tobago",
@@ -648,13 +641,13 @@
     "antwort": "Bahamas"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "emoji": "🇸🇨",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Seychellen"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "emoji": "🇧🇧",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Barbados"
@@ -666,7 +659,7 @@
     "antwort": "Libyen"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "emoji": "🇲🇲",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Myanmar",
@@ -676,13 +669,13 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "emoji": "🇱🇦",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Laos"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "emoji": "🇺🇿",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Usbekistan"
@@ -694,16 +687,10 @@
     "antwort": "Malta"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "emoji": "🇧🇹",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Bhutan"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇰🇮",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Kiribati"
   },
   {
     "stufe": 4,
@@ -733,71 +720,6 @@
   },
   {
     "stufe": 5,
-    "emoji": "🇳🇷",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Nauru"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇹🇻",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Tuvalu"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇻🇺",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Vanuatu"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇵🇼",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Palau"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇲🇭",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Marshallinseln",
-    "akzeptiert": [
-      "Marshall-Inseln"
-    ]
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇸🇧",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Salomonen",
-    "akzeptiert": [
-      "Salomoninseln",
-      "Salomon-Inseln"
-    ]
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇹🇴",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Tonga"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇸🇿",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Eswatini",
-    "akzeptiert": [
-      "Swasiland",
-      "Swaziland"
-    ]
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇱🇸",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Lesotho"
-  },
-  {
-    "stufe": 4,
     "emoji": "🇧🇼",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Botswana",
@@ -807,74 +729,12 @@
   },
   {
     "stufe": 5,
-    "emoji": "🇪🇷",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Eritrea"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇩🇯",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Dschibuti",
-    "akzeptiert": [
-      "Djibouti"
-    ]
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇧🇳",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Brunei"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇹🇱",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Osttimor",
-    "akzeptiert": [
-      "Timor-Leste",
-      "Ost-Timor"
-    ]
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇸🇷",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Suriname",
-    "akzeptiert": [
-      "Surinam"
-    ]
-  },
-  {
-    "stufe": 4,
-    "emoji": "🇬🇾",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Guyana"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇧🇿",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Belize"
-  },
-  {
-    "stufe": 5,
-    "emoji": "🇱🇨",
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "St. Lucia",
-    "akzeptiert": [
-      "Saint Lucia",
-      "Sankt Lucia"
-    ]
-  },
-  {
-    "stufe": 5,
     "emoji": "🇹🇲",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Turkmenistan"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "emoji": "🇨🇻",
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Kap Verde",
@@ -1152,7 +1012,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Luxemburg",
     "akzeptiert": [
@@ -1172,7 +1032,7 @@
     "emoji": "🇷🇴"
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Katar",
     "akzeptiert": [
@@ -1331,34 +1191,366 @@
     "emoji": "🇦🇴"
   },
   {
-    "stufe": 5,
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Kirgisistan",
-    "akzeptiert": [
-      "Kirgistan",
-      "Kirgisien"
-    ],
-    "emoji": "🇰🇬"
-  },
-  {
-    "stufe": 5,
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Benin",
-    "emoji": "🇧🇯"
-  },
-  {
-    "stufe": 5,
-    "frage": "Zu welchem Land gehört diese Flagge?",
-    "antwort": "Gabun",
-    "akzeptiert": [
-      "Gabon"
-    ],
-    "emoji": "🇬🇦"
-  },
-  {
     "stufe": 4,
     "frage": "Zu welchem Land gehört diese Flagge?",
     "antwort": "Malediven",
     "emoji": "🇲🇻"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was bedeutet es, wenn im Krieg eine weiße Flagge gehisst wird?",
+    "antwort": "Kapitulation",
+    "akzeptiert": [
+      "Aufgabe",
+      "Ergeben",
+      "Waffenstillstand",
+      "Frieden"
+    ],
+    "bewertung": "Sinngemäß „wir ergeben uns / wollen verhandeln“ gilt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was bedeutet es, wenn eine Flagge auf halbmast hängt?",
+    "antwort": "Trauer",
+    "akzeptiert": [
+      "Staatstrauer",
+      "Gedenken"
+    ],
+    "bewertung": "Sinngemäß Trauer/Gedenken an Verstorbene gilt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist auf der Flagge von Berlin abgebildet?",
+    "antwort": "Bär",
+    "akzeptiert": [
+      "Berliner Bär"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches deutsche Bundesland hat ein weiß-blaues Rautenmuster auf seiner Flagge?",
+    "antwort": "Bayern"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe ist auf der deutschen Flagge ganz oben?",
+    "antwort": "Schwarz"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land hat 1969 als erstes seine Flagge auf dem Mond aufgestellt?",
+    "antwort": "USA",
+    "akzeptiert": [
+      "Vereinigte Staaten",
+      "Amerika"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farben hat die Flagge von Polen?",
+    "antwort": "Weiß und Rot",
+    "akzeptiert": [
+      "Rot und Weiß",
+      "Weiß-Rot"
+    ],
+    "bewertung": "Reihenfolge egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Muster hat die Zielflagge, die im Motorsport das Rennende anzeigt?",
+    "antwort": "Schwarz-weiß kariert",
+    "akzeptiert": [
+      "Kariert",
+      "Schachbrettmuster",
+      "Karo"
+    ],
+    "bewertung": "„Kariert“ oder „Schachbrett“ reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Farbe hat am Strand die Flagge, die Badeverbot bedeutet?",
+    "antwort": "Rot"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Flagge ist oben links auf den Flaggen von Australien und Neuseeland zu sehen?",
+    "antwort": "Union Jack",
+    "akzeptiert": [
+      "Britische Flagge",
+      "Flagge des Vereinigten Königreichs",
+      "Großbritannien"
+    ],
+    "bewertung": "Jede Nennung der britischen Flagge gilt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Hintergrundfarbe hat die Flagge von Brasilien?",
+    "antwort": "Grün"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür stehen die 50 Sterne auf der Flagge der USA?",
+    "antwort": "Die 50 Bundesstaaten",
+    "akzeptiert": [
+      "Bundesstaaten",
+      "Staaten"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bedeutet im Motorsport eine rote Flagge?",
+    "antwort": "Rennabbruch",
+    "akzeptiert": [
+      "Abbruch",
+      "Unterbrechung",
+      "Rennunterbrechung"
+    ],
+    "bewertung": "Sinngemäß „Rennen/Session wird gestoppt“ gilt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche fünf Farben haben die Olympischen Ringe?",
+    "antwort": "Blau, Gelb, Schwarz, Grün, Rot",
+    "bewertung": "Alle fünf Farben müssen genannt werden, Reihenfolge egal. Weiß (Hintergrund) muss nicht genannt werden."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Grundfarbe hat die Flagge der Vereinten Nationen?",
+    "antwort": "Hellblau",
+    "akzeptiert": [
+      "Blau",
+      "UN-Blau"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist in der Mitte der Flagge Argentiniens abgebildet?",
+    "antwort": "Eine Sonne",
+    "akzeptiert": [
+      "Sonne",
+      "Maisonne",
+      "Sol de Mayo"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farben hat die Flagge von Schottland?",
+    "antwort": "Blau und Weiß",
+    "akzeptiert": [
+      "Weiß und Blau"
+    ],
+    "bewertung": "Reihenfolge egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier ist auf der Flagge des Bundeslandes Brandenburg abgebildet?",
+    "antwort": "Adler",
+    "akzeptiert": [
+      "Roter Adler"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches große Land in Südostasien hat eine rot-weiße Flagge – wie Polen, nur umgedreht (Rot oben)?",
+    "antwort": "Indonesien"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher US-Bundesstaat trägt wegen des einzelnen Sterns auf seiner Flagge den Spitznamen „Lone Star State“?",
+    "antwort": "Texas"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land hat angeblich die älteste noch genutzte Nationalflagge (seit dem 13. Jahrhundert)?",
+    "antwort": "Dänemark",
+    "bewertung": "Gemeint ist der Dannebrog."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist in der Mitte der roten Flagge von Marokko abgebildet?",
+    "antwort": "Ein grüner Stern",
+    "akzeptiert": [
+      "Stern",
+      "Grüner Stern",
+      "Pentagramm",
+      "Fünfzackiger Stern"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher US-Bundesstaat hat einen Bären auf seiner Flagge?",
+    "antwort": "Kalifornien",
+    "akzeptiert": [
+      "California"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Flaggenfarbe zeigt in der Formel 1 einem Fahrer, dass er ein schnelleres Auto vorbeilassen muss?",
+    "antwort": "Blau"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was hält der Adler auf der Flagge Mexikos im Schnabel?",
+    "antwort": "Eine Schlange",
+    "akzeptiert": [
+      "Schlange"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was steht in weißer Schrift auf der grünen Flagge Saudi-Arabiens?",
+    "antwort": "Das islamische Glaubensbekenntnis",
+    "akzeptiert": [
+      "Glaubensbekenntnis",
+      "Schahada",
+      "Shahada"
+    ],
+    "bewertung": "Sinngemäß „Es gibt keinen Gott außer Gott, Mohammed ist sein Prophet“ gilt auch. Nur „Schwert“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche italienische Insel hat wie die Isle of Man drei Beine (mit einem Medusenkopf) auf ihrer Flagge?",
+    "antwort": "Sizilien"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist auf der rot-weißen Flagge von Hamburg abgebildet?",
+    "antwort": "Eine Burg",
+    "akzeptiert": [
+      "Burg",
+      "Tor",
+      "Stadttor",
+      "Festung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Stadtstaat an der Côte d'Azur hat fast die gleiche Flagge wie Indonesien?",
+    "antwort": "Monaco"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Sterne hatte die erste Flagge der USA?",
+    "antwort": "13",
+    "akzeptiert": [
+      "dreizehn"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Taiwan",
+    "akzeptiert": [
+      "Republik China"
+    ],
+    "emoji": "🇹🇼"
+  },
+  {
+    "stufe": 4,
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Irak",
+    "emoji": "🇮🇶"
+  },
+  {
+    "stufe": 4,
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Bolivien",
+    "emoji": "🇧🇴"
+  },
+  {
+    "stufe": 4,
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Liechtenstein",
+    "emoji": "🇱🇮"
+  },
+  {
+    "stufe": 4,
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Somalia",
+    "emoji": "🇸🇴"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Land hat als einziges eine Nationalflagge mit unterschiedlicher Vorder- und Rückseite?",
+    "antwort": "Paraguay"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Pflanze ist auf der Flagge von Zypern unter dem Umriss der Insel abgebildet?",
+    "antwort": "Olivenzweige",
+    "akzeptiert": [
+      "Olivenzweig",
+      "Olive",
+      "Ölzweig",
+      "Olivenbaum"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher US-Bundesstaat hat als einziger den Union Jack in seiner Flagge?",
+    "antwort": "Hawaii"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Spruch steht auf der Flagge Brasiliens?",
+    "antwort": "Ordem e Progresso",
+    "akzeptiert": [
+      "Ordnung und Fortschritt"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Flagge Dänemarks?",
+    "antwort": "Dannebrog",
+    "akzeptiert": [
+      "Danebrog"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die japanische Flagge auf Japanisch (übersetzt „Sonnenscheibe“)?",
+    "antwort": "Hinomaru",
+    "akzeptiert": [
+      "Nisshōki",
+      "Nisshoki",
+      "Hi no maru"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Für welche Bevölkerungsgruppe steht die Farbe Orange auf der irischen Flagge?",
+    "antwort": "Protestanten",
+    "akzeptiert": [
+      "Die Protestanten",
+      "Protestantische Iren"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches afrikanische Land hat eine Flagge wie Irland, nur spiegelverkehrt (Orange-Weiß-Grün)?",
+    "antwort": "Elfenbeinküste",
+    "akzeptiert": [
+      "Côte d'Ivoire",
+      "Cote d'Ivoire"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches afrikanische Land hat eine fast identische Flagge wie Rumänien?",
+    "antwort": "Tschad"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches europäische Land zeigt neben Zypern ebenfalls seinen Landesumriss auf der Flagge?",
+    "antwort": "Kosovo"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele verschiedene Farben hat die Flagge Südafrikas?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
   }
 ]

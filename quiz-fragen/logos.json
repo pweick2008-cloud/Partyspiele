@@ -389,7 +389,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Welche Bank hat ein rotes ‚S‘ mit einem Punkt darüber als Logo?",
     "antwort": "Sparkasse"
   },
@@ -553,11 +553,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welche Plattform für Programmierer hat eine Katze mit Krakenarmen als Logo?",
-    "antwort": "GitHub"
-  },
-  {
-    "stufe": 4,
     "frage": "Wie sah das Apple-Logo von 1977 bis 1998 farblich aus?",
     "antwort": "Regenbogenfarben",
     "akzeptiert": [
@@ -619,7 +614,7 @@
     "antwort": "Duo"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Welche Outdoor-Marke hat ein Logo, das die Felskuppel ‚Half Dome‘ im Yosemite-Nationalpark andeutet?",
     "antwort": "The North Face",
     "akzeptiert": [
@@ -655,36 +650,11 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt das Michelin-Männchen?",
-    "antwort": "Bibendum",
-    "akzeptiert": [
-      "Bib"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie hieß der blaue Vogel im alten Twitter-Logo?",
-    "antwort": "Larry",
-    "akzeptiert": [
-      "Larry the Bird"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Welcher Wissenschaftler war auf dem allerersten Apple-Logo von 1976 zu sehen?",
     "antwort": "Isaac Newton",
     "akzeptiert": [
       "Newton"
     ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt die Studentin, die 1971 den Nike-Swoosh entwarf?",
-    "antwort": "Carolyn Davidson",
-    "akzeptiert": [
-      "Davidson"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 5,
@@ -716,15 +686,6 @@
     "akzeptiert": [
       "acht"
     ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Basketballspieler soll die Silhouette im NBA-Logo sein?",
-    "antwort": "Jerry West",
-    "akzeptiert": [
-      "West"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 5,
@@ -761,38 +722,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt der Geist im Snapchat-Logo?",
-    "antwort": "Ghostface Chillah",
-    "akzeptiert": [
-      "Ghostface Chilla"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt das Alien-Maskottchen von Reddit?",
-    "antwort": "Snoo"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der Mann mit Schnurrbart im Pringles-Logo?",
-    "antwort": "Julius Pringles",
-    "akzeptiert": [
-      "Mr. P",
-      "Mister P",
-      "Julius"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Von welchem italienischen Jagdflieger des Ersten Weltkriegs stammt das Pferd im Ferrari-Logo?",
-    "antwort": "Francesco Baracca",
-    "akzeptiert": [
-      "Baracca"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
     "frage": "Welcher Sternhaufen ist im Logo von Subaru abgebildet?",
     "antwort": "Plejaden",
     "akzeptiert": [
@@ -818,6 +747,191 @@
       "Flügelschuh",
       "geflügelter Fuß",
       "Schuh mit Flügeln"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Getränkemarke schreibt ihren Namen in weißer, geschwungener Schreibschrift auf rotem Grund?",
+    "antwort": "Coca-Cola",
+    "akzeptiert": [
+      "Coca Cola",
+      "Cola",
+      "Coke"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Spielzeugmarke hat einen weißen Schriftzug mit schwarz-gelbem Rand auf einem roten Quadrat als Logo?",
+    "antwort": "LEGO",
+    "akzeptiert": [
+      "Lego"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Pflegemarke hat einen weißen Schriftzug auf dunkelblauem Grund und ist für ihre blaue Cremedose bekannt?",
+    "antwort": "Nivea"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche deutsche Automarke hat einen Blitz in einem Kreis als Logo?",
+    "antwort": "Opel"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Paketdienst hat rote, schräge Buchstaben auf gelbem Grund als Logo?",
+    "antwort": "DHL",
+    "akzeptiert": [
+      "Deutsche Post DHL"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Automarke hat ein blaues Oval mit ihrem Namen in weißer Schreibschrift als Logo?",
+    "antwort": "Ford"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Bezahldienst hat zwei leicht versetzte, blaue ‚P‘ als Logo?",
+    "antwort": "PayPal"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Discounter hat ein großes, aus Streifen gebildetes ‚A‘ im Logo?",
+    "antwort": "Aldi",
+    "akzeptiert": [
+      "Aldi Süd",
+      "Aldi Nord"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Automarke hat eine Raute (Rhombus) als Logo?",
+    "antwort": "Renault"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Luxus-Uhrenmarke hat eine goldene Krone mit fünf Zacken als Logo?",
+    "antwort": "Rolex"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Stuttgarter Automarke hat ein Wappen mit schwarzem Pferd, Hirschgeweihen und rot-schwarzen Streifen?",
+    "antwort": "Porsche"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Paketdienst hat ein braun-goldenes Schild als Logo?",
+    "antwort": "UPS",
+    "akzeptiert": [
+      "United Parcel Service"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Modemarke hat einen Polospieler auf einem Pferd als Logo?",
+    "antwort": "Ralph Lauren",
+    "akzeptiert": [
+      "Polo Ralph Lauren",
+      "Polo"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche britische Automarke hat eine springende Raubkatze als Logo und Kühlerfigur?",
+    "antwort": "Jaguar"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Spielefirma schreibt ihren Namen in ein abgerundetes rotes bzw. rot umrandetes Oval?",
+    "antwort": "Nintendo"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Sandwich-Kette hat einen grün-gelben Schriftzug mit kleinen Pfeilen am ersten und letzten Buchstaben?",
+    "antwort": "Subway"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Marke hat die Silhouette eines Basketballspielers im Sprung mit gespreizten Beinen als Logo?",
+    "antwort": "Jordan",
+    "akzeptiert": [
+      "Air Jordan",
+      "Jumpman",
+      "Nike"
+    ],
+    "bewertung": "Jordan ist eine Marke von Nike, daher auch „Nike“ werten."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Bank hat ein blaues Quadrat mit einem schrägen Strich darin als Logo?",
+    "antwort": "Deutsche Bank"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Luxus-Automarke hat zwei überlappende ‚R‘ als Logo?",
+    "antwort": "Rolls-Royce",
+    "akzeptiert": [
+      "Rolls Royce"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Tankstellenmarke hat eine grün-gelbe Sonnenblume als Logo?",
+    "antwort": "BP",
+    "akzeptiert": [
+      "British Petroleum"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Mobilfunkmarke hat ein weißes Anführungszeichen in einem roten Kreis als Logo?",
+    "antwort": "Vodafone"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche deutsche Tankstellenkette hat einen weißen Schriftzug in einem blauen Quadrat als Logo?",
+    "antwort": "Aral"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche japanische Automarke hat drei rote Rauten, die sternförmig zusammenstoßen, als Logo?",
+    "antwort": "Mitsubishi"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Automarke hat ein schräg gestelltes ‚H‘ in einem Oval als Logo?",
+    "antwort": "Hyundai",
+    "bewertung": "Honda (aufrechtes H ohne Oval) ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Motorradmarke hat ein orange-schwarzes Schild mit einem Balken als Logo?",
+    "antwort": "Harley-Davidson",
+    "akzeptiert": [
+      "Harley Davidson",
+      "Harley"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Gaming-Zubehörmarke hat drei grüne, ineinander verschlungene Schlangen als Logo?",
+    "antwort": "Razer"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche japanische Sportmarke ist für sich überkreuzende Streifen an der Seite ihrer Laufschuhe bekannt?",
+    "antwort": "Asics",
+    "akzeptiert": [
+      "ASICS"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Buchstabe steht im Logo der BMW-Sportabteilung vor den Streifen in Hellblau, Dunkelblau und Rot?",
+    "antwort": "M",
+    "akzeptiert": [
+      "BMW M"
     ]
   }
 ]

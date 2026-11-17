@@ -49,7 +49,7 @@
     "antwort": "Siri"
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Wofür steht die Abkürzung USB?",
     "antwort": "Universal Serial Bus",
     "bewertung": "Alle drei Wörter nötig, kleine Schreibfehler okay."
@@ -61,7 +61,7 @@
     "bewertung": "Alle drei Wörter nötig, kleine Schreibfehler okay."
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Wofür steht die Abkürzung SMS?",
     "antwort": "Short Message Service",
     "bewertung": "Alle drei Wörter nötig, kleine Schreibfehler okay."
@@ -141,29 +141,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Wofür steht die Abkürzung DVD?",
-    "antwort": "Digital Versatile Disc",
-    "akzeptiert": [
-      "Digital Video Disc",
-      "Digital Versatile Disk",
-      "Digital Video Disk"
-    ],
-    "bewertung": "„Versatile“ und „Video“ beide richtig."
-  },
-  {
-    "stufe": 4,
-    "frage": "Wofür steht der Firmenname IBM?",
-    "antwort": "International Business Machines",
-    "bewertung": "Kleine Schreibfehler okay."
-  },
-  {
-    "stufe": 4,
-    "frage": "Wofür steht „SIM“ in SIM-Karte?",
-    "antwort": "Subscriber Identity Module",
-    "bewertung": "Kleine Schreibfehler okay."
-  },
-  {
-    "stufe": 4,
     "frage": "Unter welchem Markennamen wurde der 1938 zufällig entdeckte Kunststoff für Antihaft-Pfannen bekannt?",
     "antwort": "Teflon",
     "akzeptiert": [
@@ -185,15 +162,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Wofür steht die Abkürzung HTTP?",
-    "antwort": "Hypertext Transfer Protocol",
-    "akzeptiert": [
-      "Hyper Text Transfer Protocol"
-    ],
-    "bewertung": "Kleine Schreibfehler okay."
-  },
-  {
-    "stufe": 4,
     "frage": "Wofür steht die Abkürzung RAM beim Computer?",
     "antwort": "Random Access Memory",
     "akzeptiert": [
@@ -202,19 +170,13 @@
     "bewertung": "Englische Langform; „Arbeitsspeicher“ ebenfalls richtig."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wofür steht die Auto-Abkürzung ABS?",
     "antwort": "Antiblockiersystem",
     "akzeptiert": [
       "Anti-Blockier-System",
       "Antiblockiersystem für Bremsen"
     ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wofür steht die Abkürzung des Bildformats JPEG?",
-    "antwort": "Joint Photographic Experts Group",
-    "bewertung": "Kleine Schreibfehler okay, alle vier Wörter nötig."
   },
   {
     "stufe": 5,
@@ -347,24 +309,6 @@
     "antwort": "Genf"
   },
   {
-    "stufe": 4,
-    "frage": "Wofür steht die Abkürzung NASA?",
-    "antwort": "National Aeronautics and Space Administration"
-  },
-  {
-    "stufe": 4,
-    "frage": "Wofür steht die Abkürzung LCD?",
-    "antwort": "Liquid Crystal Display",
-    "akzeptiert": [
-      "Flüssigkristallanzeige"
-    ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Wofür steht die Abkürzung des Bildformats GIF?",
-    "antwort": "Graphics Interchange Format"
-  },
-  {
     "stufe": 1,
     "frage": "Wofür steht das „G“ in 5G?",
     "antwort": "Generation",
@@ -434,7 +378,7 @@
     ]
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "frage": "In welcher Einheit wird der Stromverbrauch auf der Stromrechnung abgerechnet?",
     "antwort": "Kilowattstunde",
     "akzeptiert": [
@@ -725,14 +669,6 @@
   },
   {
     "stufe": 3,
-    "frage": "Wofür steht das „IP“ in IP-Adresse?",
-    "antwort": "Internet Protocol",
-    "akzeptiert": [
-      "Internetprotokoll"
-    ]
-  },
-  {
-    "stufe": 3,
     "frage": "Wofür steht die Abkürzung VPN?",
     "antwort": "Virtual Private Network",
     "akzeptiert": [
@@ -754,7 +690,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Wie heißt das europäische Satellitennavigationssystem, das Konkurrenz zum US-amerikanischen GPS macht?",
     "antwort": "Galileo"
   },
@@ -765,14 +701,6 @@
     "akzeptiert": [
       "Takt",
       "Taktrate"
-    ]
-  },
-  {
-    "stufe": 3,
-    "frage": "Wofür steht die Abkürzung GPU?",
-    "antwort": "Graphics Processing Unit",
-    "akzeptiert": [
-      "Grafikprozessor"
     ]
   },
   {
@@ -868,7 +796,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Wie heißt der in Deutschland übliche Steckdosentyp mit seitlichen Schutzkontakten?",
     "antwort": "Schuko",
     "akzeptiert": [
@@ -913,7 +841,7 @@
     "antwort": "256"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Was übersetzt das DNS im Internet?",
     "antwort": "Domainnamen in IP-Adressen",
     "akzeptiert": [
@@ -923,32 +851,10 @@
   },
   {
     "stufe": 4,
-    "frage": "Wie heißt der in Europa genormte Stecker zum Laden von E-Autos mit Wechselstrom?",
-    "antwort": "Typ 2",
-    "akzeptiert": [
-      "Typ-2-Stecker",
-      "Mennekes"
-    ]
-  },
-  {
-    "stufe": 4,
     "frage": "Wie nennt man es, wenn ein E-Auto beim Bremsen Energie zurück in den Akku speist?",
     "antwort": "Rekuperation",
     "akzeptiert": [
       "Bremsenergierückgewinnung"
-    ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Wofür steht die Auto-Abkürzung ESP?",
-    "antwort": "Elektronisches Stabilitätsprogramm"
-  },
-  {
-    "stufe": 4,
-    "frage": "Wie heißt das automatische Notrufsystem, das seit 2018 für neue Automodelle in der EU Pflicht ist?",
-    "antwort": "eCall",
-    "akzeptiert": [
-      "E-Call"
     ]
   },
   {
@@ -977,7 +883,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Wie heißt der verbreitete Standard für kabelloses Laden von Smartphones?",
     "antwort": "Qi"
   },
@@ -1053,26 +959,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie viele Bit lang ist eine IPv4-Adresse?",
-    "antwort": "32"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie viele Bit lang ist eine IPv6-Adresse?",
-    "antwort": "128"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welchen Standard-Port nutzt HTTPS?",
-    "antwort": "443"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wofür steht die Abkürzung DSL beim Internetanschluss?",
-    "antwort": "Digital Subscriber Line"
-  },
-  {
-    "stufe": 5,
     "frage": "Wie viele Wattstunden speichert ein Akku mit 5000 mAh bei 3,7 Volt?",
     "antwort": "18,5 Wh",
     "akzeptiert": [
@@ -1091,48 +977,12 @@
   },
   {
     "stufe": 5,
-    "frage": "Wofür steht die Akku-Abkürzung LFP?",
-    "antwort": "Lithium-Eisenphosphat",
-    "akzeptiert": [
-      "Lithium Ferrophosphat",
-      "Lithium-Eisen-Phosphat",
-      "LiFePO4"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher ältere Akkutyp ist für den „Memory-Effekt“ berüchtigt?",
-    "antwort": "Nickel-Cadmium",
-    "akzeptiert": [
-      "NiCd",
-      "NiCad"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Was ist beim Festkörperakku anders als beim herkömmlichen Lithium-Ionen-Akku?",
     "antwort": "Fester Elektrolyt",
     "akzeptiert": [
       "Elektrolyt ist fest"
     ],
     "bewertung": "Sinngemäß: Elektrolyt fest statt flüssig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Mit wie viel Volt Wechselspannung fahren Züge der Deutschen Bahn in der Oberleitung?",
-    "antwort": "15.000 Volt",
-    "akzeptiert": [
-      "15 kV",
-      "15000"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie viele Millimeter beträgt die Normalspur bei Eisenbahnen?",
-    "antwort": "1435 mm",
-    "akzeptiert": [
-      "1435"
-    ]
   },
   {
     "stufe": 5,
@@ -1147,36 +997,10 @@
   },
   {
     "stufe": 5,
-    "frage": "Mit welcher Frequenz arbeiten Haushaltsmikrowellen meist?",
-    "antwort": "2,45 GHz",
-    "akzeptiert": [
-      "2,45",
-      "2,4 GHz"
-    ],
-    "bewertung": "2,4 bis 2,5 GHz gelten als richtig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Ab wie viel Milliampere Fehlerstrom löst ein FI-Schalter für normale Steckdosenkreise aus?",
-    "antwort": "30 mA",
-    "akzeptiert": [
-      "30"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wofür steht GPT, z. B. in ChatGPT?",
     "antwort": "Generative Pre-trained Transformer",
     "akzeptiert": [
       "Generative Pretrained Transformer"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wofür steht die Abkürzung RFID?",
-    "antwort": "Radio-Frequency Identification",
-    "akzeptiert": [
-      "Radio Frequency Identification"
     ]
   },
   {
@@ -1204,26 +1028,102 @@
   },
   {
     "stufe": 5,
-    "frage": "Wofür steht die Abkürzung ASCII?",
-    "antwort": "American Standard Code for Information Interchange"
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der in Europa übliche Steckerstandard zum Schnellladen von E-Autos mit Gleichstrom?",
-    "antwort": "CCS",
-    "akzeptiert": [
-      "Combined Charging System",
-      "CCS2",
-      "Combo 2"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Bis zu wie viel Watt Wechselrichterleistung dürfen Balkonkraftwerke in Deutschland seit 2024 haben?",
     "antwort": "800 Watt",
     "akzeptiert": [
       "800",
       "800 VA"
     ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Bis zu wie viel Prozent laden viele Handys den Akku im Schonmodus höchstens auf?",
+    "antwort": "80 Prozent",
+    "akzeptiert": [
+      "80",
+      "80 %"
+    ],
+    "bewertung": "80 % ist die erwartete Antwort; 85 % (manche Samsung-Geräte) ebenfalls gelten lassen."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Zeichen durfte ein Tweet auf Twitter ursprünglich höchstens haben?",
+    "antwort": "140",
+    "akzeptiert": [
+      "140 Zeichen"
+    ],
+    "bewertung": "Nur 140 ist richtig (280 kam erst 2017)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Tier ist im Logo des Browsers Firefox eigentlich gemeint (der Name verrät es nicht)?",
+    "antwort": "Roter Panda",
+    "akzeptiert": [
+      "Katzenbär",
+      "Kleiner Panda",
+      "Feuerfuchs"
+    ],
+    "bewertung": "Gemeint ist der Rote Panda (engl. „firefox“); nur „Fuchs“ ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Zeichen passen höchstens in eine einzelne klassische SMS?",
+    "antwort": "160",
+    "akzeptiert": [
+      "160 Zeichen"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Pixel ist ein 4K-UHD-Bild (wie bei Fernsehern) breit?",
+    "antwort": "3840",
+    "akzeptiert": [
+      "3840 Pixel",
+      "3840 × 2160",
+      "3840x2160"
+    ],
+    "bewertung": "Nur 3840 ist richtig (doppelt so breit wie Full HD); 4096 ist Kino-4K und gilt nicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchen zwei englischen Wörtern ist das Wort „Pixel“ zusammengesetzt?",
+    "antwort": "Picture Element",
+    "akzeptiert": [
+      "Picture und Element",
+      "Pictures Element"
+    ],
+    "bewertung": "Beide Wörter nötig; „pix“ für „picture“ gilt auch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchen zwei englischen Wörtern ist das Kunstwort „Bit“ gebildet?",
+    "antwort": "Binary Digit",
+    "akzeptiert": [
+      "binary digit",
+      "Binärziffer"
+    ],
+    "bewertung": "Sinngemäß „Binärziffer“ ist auch richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Sensor schaltet beim Telefonieren das Handydisplay aus, sobald man es ans Ohr hält?",
+    "antwort": "Näherungssensor",
+    "akzeptiert": [
+      "Annäherungssensor",
+      "Proximity-Sensor",
+      "Abstandssensor"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Sensor im Handy erkennt Drehungen, z. B. damit sich das Bild beim Querhalten mitdreht?",
+    "antwort": "Gyroskop",
+    "akzeptiert": [
+      "Gyrosensor",
+      "Lagesensor",
+      "Beschleunigungssensor",
+      "Kreiselsensor"
+    ],
+    "bewertung": "Gyroskop oder Beschleunigungs-/Lagesensor gelten beide."
   }
 ]

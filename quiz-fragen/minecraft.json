@@ -257,7 +257,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "Bruchstein",
@@ -422,7 +422,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "",
@@ -510,7 +510,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 2,
     "frage": "Wie viele Eisennuggets braucht man für einen Eisenbarren?",
     "antwort": "9",
     "akzeptiert": [
@@ -963,7 +963,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welches Item entsteht aus einer Enderperle und Lohenstaub?",
     "antwort": "Enderauge",
     "akzeptiert": [
@@ -1034,7 +1034,7 @@
     "bewertung": "‚Spender‘ (Dropper) ist falsch."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "",
@@ -1167,7 +1167,7 @@
     "bewertung": "Nur ‚Stein‘ ist falsch."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welchen Barren braucht man im Schmiedetisch, um Diamantausrüstung aufzuwerten?",
     "antwort": "Netheritbarren",
     "akzeptiert": [
@@ -1344,7 +1344,7 @@
     "bewertung": "Jede Holzart gilt."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie viele Goldbarren braucht man (zusammen mit vier Netheritplatten) für einen Netheritbarren?",
     "antwort": "4",
     "akzeptiert": [
@@ -1454,7 +1454,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "Goldbarren",
@@ -1542,7 +1542,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Was wird hier gecraftet?",
     "rezept": [
       "",
@@ -1677,7 +1677,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Aus welcher Pflanze craftet man Zucker?",
     "antwort": "Zuckerrohr",
     "akzeptiert": [
@@ -2370,7 +2370,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 3,
     "frage": "Wie viele Netheritbarren braucht man, um eine komplette Diamantrüstung (vier Teile) zu Netherit aufzuwerten?",
     "antwort": "4",
     "akzeptiert": [
@@ -2383,14 +2383,6 @@
     "antwort": "80",
     "akzeptiert": [
       "achtzig"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Für wie viele Brauvorgänge reicht ein einziger Lohenstaub im Braustand?",
-    "antwort": "20",
-    "akzeptiert": [
-      "zwanzig"
     ]
   },
   {
@@ -2438,5 +2430,81 @@
       "Hellgrün",
       "Limettengrün"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Holzbretter",
+    "akzeptiert": [
+      "Bretter",
+      "Planks",
+      "Wooden Planks"
+    ],
+    "bewertung": "Jede Holzart gilt.",
+    "rezept": [
+      "",
+      "",
+      "",
+      "",
+      "Holzstamm",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Stock",
+    "akzeptiert": [
+      "Stöcke",
+      "Stick",
+      "Sticks"
+    ],
+    "bewertung": "Jede Holzart gilt.",
+    "rezept": [
+      "",
+      "Holzbretter",
+      "",
+      "",
+      "Holzbretter",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Diamantspitzhacke",
+    "akzeptiert": [
+      "Diamond Pickaxe",
+      "Diamant-Spitzhacke"
+    ],
+    "bewertung": "Nur ‚Spitzhacke‘ ohne Material ist zu ungenau.",
+    "rezept": [
+      "Diamant",
+      "Diamant",
+      "Diamant",
+      "",
+      "Stock",
+      "",
+      "",
+      "Stock",
+      ""
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was entsteht, wenn man rohes Hähnchen im Ofen brät?",
+    "antwort": "Gebratenes Hähnchen",
+    "akzeptiert": [
+      "Cooked Chicken",
+      "Gebratenes Huhn",
+      "Hähnchen"
+    ],
+    "bewertung": "Sinngemäß ‚gebratenes Hähnchen/Huhn‘ zählt."
   }
 ]

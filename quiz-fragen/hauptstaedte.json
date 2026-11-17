@@ -63,16 +63,6 @@
     "antwort": "Burkina Faso"
   },
   {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt des Inselstaates Tonga?",
-    "antwort": "Nuku'alofa",
-    "akzeptiert": [
-      "Nukualofa",
-      "Nuku’alofa",
-      "Nuku alofa"
-    ]
-  },
-  {
     "stufe": 1,
     "frage": "Was ist die Hauptstadt von Deutschland?",
     "antwort": "Berlin"
@@ -371,7 +361,7 @@
     ]
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "frage": "Was ist die Hauptstadt von Luxemburg?",
     "antwort": "Luxemburg",
     "akzeptiert": [
@@ -444,7 +434,7 @@
     ]
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Was ist die Hauptstadt von Kenia?",
     "antwort": "Nairobi"
   },
@@ -486,7 +476,7 @@
     "antwort": "Caracas"
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Was ist die Hauptstadt von Nigeria?",
     "antwort": "Abuja",
     "bewertung": "Lagos ist falsch."
@@ -508,7 +498,7 @@
     "bewertung": "Mekka und Dschidda sind falsch."
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Was ist die Hauptstadt der Slowakei?",
     "antwort": "Bratislava",
     "akzeptiert": [
@@ -543,7 +533,7 @@
     "antwort": "Tunis"
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "Was ist die Hauptstadt von Äthiopien?",
     "antwort": "Addis Abeba",
     "akzeptiert": [
@@ -627,7 +617,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Was ist die Hauptstadt von Montenegro?",
     "antwort": "Podgorica",
     "akzeptiert": [
@@ -640,7 +630,7 @@
     "antwort": "Minsk"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Was ist die Hauptstadt von Armenien?",
     "antwort": "Jerewan",
     "akzeptiert": [
@@ -683,7 +673,7 @@
     "antwort": "Uruguay"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Was ist die Hauptstadt von Paraguay?",
     "antwort": "Asunción",
     "akzeptiert": [
@@ -745,7 +735,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Was ist die Hauptstadt der Republik Moldau?",
     "antwort": "Chișinău",
     "akzeptiert": [
@@ -757,32 +747,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Kirgisistan?",
-    "antwort": "Bischkek",
-    "akzeptiert": [
-      "Bishkek"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Tadschikistan?",
-    "antwort": "Duschanbe",
-    "akzeptiert": [
-      "Dushanbe"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Turkmenistan?",
-    "antwort": "Aschgabat",
-    "akzeptiert": [
-      "Ashgabat",
-      "Aşgabat",
-      "Aschchabad"
-    ]
-  },
-  {
-    "stufe": 4,
     "frage": "Was ist die Hauptstadt von Usbekistan?",
     "antwort": "Taschkent",
     "akzeptiert": [
@@ -790,23 +754,6 @@
       "Toshkent"
     ],
     "bewertung": "Samarkand ist falsch."
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Bhutan?",
-    "antwort": "Thimphu",
-    "akzeptiert": [
-      "Thimpu"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Laos?",
-    "antwort": "Vientiane",
-    "akzeptiert": [
-      "Vientian",
-      "Viangchan"
-    ]
   },
   {
     "stufe": 5,
@@ -821,32 +768,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Mali?",
-    "antwort": "Bamako",
-    "bewertung": "Timbuktu ist falsch."
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt des Niger?",
-    "antwort": "Niamey"
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt des Tschad?",
-    "antwort": "N'Djamena",
-    "akzeptiert": [
-      "NDjamena",
-      "N’Djamena",
-      "Ndschamena"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Eritrea?",
-    "antwort": "Asmara"
-  },
-  {
-    "stufe": 5,
     "frage": "Was ist die Hauptstadt von Madagaskar?",
     "antwort": "Antananarivo",
     "akzeptiert": [
@@ -855,54 +776,18 @@
   },
   {
     "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Malawi?",
-    "antwort": "Lilongwe"
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Botswana?",
-    "antwort": "Gaborone"
-  },
-  {
-    "stufe": 4,
     "frage": "Was ist die Hauptstadt von Simbabwe?",
     "antwort": "Harare"
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Was ist die Hauptstadt von Ruanda?",
     "antwort": "Kigali"
   },
   {
     "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Fidschi?",
-    "antwort": "Suva"
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Samoa?",
-    "antwort": "Apia"
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt des Sultanats Brunei?",
-    "antwort": "Bandar Seri Begawan"
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Suriname?",
-    "antwort": "Paramaribo"
-  },
-  {
-    "stufe": 5,
     "frage": "Was ist die Hauptstadt von Honduras?",
     "antwort": "Tegucigalpa"
-  },
-  {
-    "stufe": 5,
-    "frage": "Was ist die Hauptstadt von Belize?",
-    "antwort": "Belmopan",
-    "bewertung": "Belize City ist falsch."
   },
   {
     "stufe": 1,
@@ -1281,7 +1166,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Welche ist die nördlichste Hauptstadt eines unabhängigen Staates?",
     "antwort": "Reykjavík",
     "akzeptiert": [
@@ -1306,7 +1191,7 @@
     "bewertung": "Beide müssen genannt werden."
   },
   {
-    "stufe": 4,
+    "stufe": 5,
     "frage": "Welche Hauptstadt hieß bis 1924 Christiania (bzw. Kristiania)?",
     "antwort": "Oslo"
   },
@@ -1347,5 +1232,175 @@
       "Jamussukro"
     ],
     "bewertung": "Abidjan ist nur Regierungssitz/Wirtschaftszentrum und gilt nicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Durch welche Hauptstadt fließt die Themse?",
+    "antwort": "London"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Landeshauptstadt findet das Oktoberfest statt?",
+    "antwort": "München",
+    "akzeptiert": [
+      "Muenchen",
+      "Munich"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Hauptstadt wird „die Ewige Stadt“ genannt?",
+    "antwort": "Rom",
+    "akzeptiert": [
+      "Roma"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Hauptstadt entstand 1873 aus den Städten Buda, Óbuda und Pest?",
+    "antwort": "Budapest"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Hauptstadt ist der Fußballklub Ajax zu Hause?",
+    "antwort": "Amsterdam"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt des Vatikans?",
+    "antwort": "Vatikanstadt",
+    "akzeptiert": [
+      "Vatikan",
+      "Città del Vaticano"
+    ],
+    "bewertung": "Der Vatikan ist ein Stadtstaat. „Rom“ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Durch welche Hauptstadt fließt der Tiber?",
+    "antwort": "Rom",
+    "akzeptiert": [
+      "Roma"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Hauptstadt steht die Karlsbrücke?",
+    "antwort": "Prag",
+    "akzeptiert": [
+      "Praha",
+      "Prague"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Hauptstadt fanden 1896 die ersten Olympischen Spiele der Neuzeit statt?",
+    "antwort": "Athen",
+    "akzeptiert": [
+      "Athens"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Hauptstadt steht die Brunnenfigur Manneken Pis?",
+    "antwort": "Brüssel",
+    "akzeptiert": [
+      "Bruessel",
+      "Bruxelles",
+      "Brussels"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Hauptstadt spielt der Banküberfall in der ersten Staffel von „Haus des Geldes“?",
+    "antwort": "Madrid"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Hauptstadt ist der Fußballklub Benfica zu Hause?",
+    "antwort": "Lissabon",
+    "akzeptiert": [
+      "Lisboa",
+      "Lisbon"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Hauptstadt hat den längsten offiziellen Namen der Welt (beginnt mit „Krung Thep“)?",
+    "antwort": "Bangkok"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Hauptstadt liegt nur rund 55 km von Wien entfernt?",
+    "antwort": "Bratislava",
+    "akzeptiert": [
+      "Pressburg"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Stadt war bis 1960 die Hauptstadt Brasiliens?",
+    "antwort": "Rio de Janeiro",
+    "akzeptiert": [
+      "Rio"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Stadt war bis 1923 die Hauptstadt des Osmanischen Reiches, bevor Ankara Hauptstadt der Türkei wurde?",
+    "antwort": "Istanbul",
+    "akzeptiert": [
+      "Konstantinopel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Hauptstädte hat Südafrika?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ],
+    "bewertung": "Pretoria, Kapstadt und Bloemfontein – die Zahl reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Stadt war über 1000 Jahre lang die Hauptstadt Japans, bevor Tokio es wurde?",
+    "antwort": "Kyoto",
+    "akzeptiert": [
+      "Kioto",
+      "Kyōto"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Stadt sitzt die Regierung der Niederlande, obwohl Amsterdam die Hauptstadt ist?",
+    "antwort": "Den Haag",
+    "akzeptiert": [
+      "Haag",
+      "The Hague",
+      "'s-Gravenhage"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Regierungssitz ist mit rund 3.600 m der höchstgelegene der Welt?",
+    "antwort": "La Paz",
+    "bewertung": "Regierungssitz Boliviens; Sucre ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche afrikanische Hauptstadt ist nach dem US-Präsidenten James Monroe benannt?",
+    "antwort": "Monrovia"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt des US-Bundesstaates New York?",
+    "antwort": "Albany",
+    "bewertung": "New York City ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche ist die südlichste Hauptstadt eines unabhängigen Staates?",
+    "antwort": "Wellington"
   }
 ]

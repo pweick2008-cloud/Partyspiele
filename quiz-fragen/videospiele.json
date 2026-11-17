@@ -258,15 +258,6 @@
   },
   {
     "stufe": 3,
-    "frage": "Wie viele spielbare Hauptfiguren hat die Story von GTA V?",
-    "antwort": "3",
-    "akzeptiert": [
-      "drei"
-    ],
-    "bewertung": "Gemeint sind Michael, Franklin und Trevor."
-  },
-  {
-    "stufe": 3,
     "frage": "Welche drei Baumaterialien sammelt man im klassischen Fortnite-Battle-Royale?",
     "antwort": "Holz, Stein, Metall",
     "bewertung": "Alle drei nötig, Reihenfolge egal."
@@ -376,7 +367,7 @@
     "bewertung": "„Samus“ reicht."
   },
   {
-    "stufe": 5,
+    "stufe": 3,
     "frage": "Welches Pokémon trägt im nationalen Pokédex die Nummer 001?",
     "antwort": "Bisasam",
     "akzeptiert": [
@@ -389,14 +380,6 @@
     "antwort": "Bugha",
     "akzeptiert": [
       "Kyle Giersdorf"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt das jährliche Haupt-Weltturnier im MOBA Dota 2?",
-    "antwort": "The International",
-    "akzeptiert": [
-      "TI"
     ]
   },
   {
@@ -631,7 +614,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie viele Pokémon gab es in der ersten Generation (Rot und Blau)?",
     "antwort": "151",
     "akzeptiert": [
@@ -779,7 +762,7 @@
     "bewertung": "Eins von beiden reicht."
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "frage": "Welche zwei Pokémon-Hauptspiele erschienen 2022 für die Switch und sind nach Farbtönen benannt? Nenne eins.",
     "antwort": "Karmesin oder Purpur",
     "akzeptiert": [
@@ -807,7 +790,7 @@
     "bewertung": "Sinngemäß richtig reicht, z. B. „herunterladbarer Inhalt“."
   },
   {
-    "stufe": 1,
+    "stufe": 2,
     "frage": "In welchem Spiel von 2024, oft „Pokémon mit Waffen“ genannt, fängt man Wesen namens „Pals“?",
     "antwort": "Palworld"
   },
@@ -925,7 +908,7 @@
     "antwort": "Elden Ring"
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Wie heißt das schwebende, kleine Begleitwesen, das in Genshin Impact ständig neben einem herfliegt?",
     "antwort": "Paimon"
   },
@@ -986,7 +969,7 @@
     "bewertung": "Einer der drei Namen reicht."
   },
   {
-    "stufe": 2,
+    "stufe": 3,
     "frage": "Wie heißt die Heilerin mit Engelsflügeln und Heilstab aus Overwatch?",
     "antwort": "Mercy",
     "akzeptiert": [
@@ -1390,7 +1373,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt die böse Supermarktkette in Stardew Valley, gegen deren Laden man das Gemeinschaftszentrum restaurieren kann?",
     "antwort": "Joja",
     "akzeptiert": [
@@ -1413,7 +1396,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 3,
     "frage": "Wie heißt der Gegenstand, mit dem Counter-Terroristen in Counter-Strike die Bombe schneller entschärfen?",
     "antwort": "Entschärfungskit",
     "akzeptiert": [
@@ -1424,7 +1407,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt die höchste Rangstufe in Valorant?",
     "antwort": "Radiant",
     "akzeptiert": [
@@ -1510,5 +1493,61 @@
       "Haaland"
     ],
     "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Koop-Horrorspiel von 2023 sammelt man auf verlassenen Monden Schrott, um die Quote für „die Firma“ zu erfüllen?",
+    "antwort": "Lethal Company"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Mario-Kart-Spiel mit offener Welt erschien 2025 zum Start der Switch 2?",
+    "antwort": "Mario Kart World"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welchen Ausruf von Jack Black feierten Kinobesucher beim „Minecraft“-Film 2025 so laut, dass er zum Meme wurde?",
+    "antwort": "Chicken Jockey",
+    "akzeptiert": [
+      "Chicken Jockey!"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Roblox-Spiel von 2025, das Rekorde bei gleichzeitigen Spielern brach, pflanzt man Samen an und verkauft die Ernte?",
+    "antwort": "Grow a Garden"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Roblox-Hit von 2025 klaut man anderen Spielern Figuren wie „Tralalero Tralala“ aus der Basis?",
+    "antwort": "Steal a Brainrot"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Koop-Spiel von 2025 der „It Takes Two“-Macher, in dem zwei Autorinnen in ihren eigenen Geschichten gefangen sind?",
+    "antwort": "Split Fiction"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Stadt spielt „Pokémon-Legenden: Z-A“ (2025)?",
+    "antwort": "Illumina City",
+    "akzeptiert": [
+      "Lumiose City",
+      "Illumina"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Heldin von „Ghost of Yōtei“ (2025)?",
+    "antwort": "Atsu"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Held von „Kingdom Come: Deliverance II“ (2025), Sohn eines Schmieds?",
+    "antwort": "Heinrich",
+    "akzeptiert": [
+      "Henry",
+      "Heinrich von Skalitz"
+    ]
   }
 ]

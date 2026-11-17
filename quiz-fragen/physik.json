@@ -186,7 +186,7 @@
     "antwort": "Prisma"
   },
   {
-    "stufe": 2,
+    "stufe": 1,
     "frage": "Was ist schwerer: ein Kilo Federn oder ein Kilo Eisen?",
     "antwort": "Beide gleich schwer",
     "akzeptiert": [
@@ -329,7 +329,7 @@
     ]
   },
   {
-    "stufe": 3,
+    "stufe": 4,
     "frage": "In welcher Einheit wird die elektrische Ladung gemessen?",
     "antwort": "Coulomb",
     "akzeptiert": [
@@ -485,14 +485,6 @@
   },
   {
     "stufe": 4,
-    "frage": "In welcher Einheit wird die Kapazität eines Kondensators angegeben?",
-    "antwort": "Farad",
-    "akzeptiert": [
-      "F"
-    ]
-  },
-  {
-    "stufe": 4,
     "frage": "Welcher optische Effekt hält das Licht in einem Glasfaserkabel gefangen?",
     "antwort": "Totalreflexion",
     "akzeptiert": [
@@ -545,15 +537,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt die Lichtstreuung an Luftmolekülen, die erklärt, warum der Himmel blau ist? (Nach einem britischen Physiker benannt)",
-    "antwort": "Rayleigh-Streuung",
-    "akzeptiert": [
-      "Rayleigh"
-    ],
-    "bewertung": "Der Name Rayleigh muss vorkommen; nur „Streuung“ reicht nicht."
-  },
-  {
-    "stufe": 5,
     "frage": "Bei welcher Temperatur zeigen die Celsius- und die Fahrenheit-Skala genau denselben Wert?",
     "antwort": "−40",
     "akzeptiert": [
@@ -601,17 +584,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie heißt der Effekt, bei dem ein Supraleiter ein Magnetfeld vollständig aus seinem Inneren verdrängt?",
-    "antwort": "Meißner-Ochsenfeld-Effekt",
-    "akzeptiert": [
-      "Meißner-Effekt",
-      "Meissner-Effekt",
-      "Meissner-Ochsenfeld-Effekt"
-    ],
-    "bewertung": "„Meißner“ reicht."
-  },
-  {
-    "stufe": 5,
     "frage": "Welche fast masselosen, ungeladenen Teilchen durchqueren die Erde fast ungehindert und wurden 1956 erstmals nachgewiesen?",
     "antwort": "Neutrinos",
     "akzeptiert": [
@@ -652,7 +624,7 @@
     "bewertung": "Sinngemäß Zerfälle pro Sekunde / Aktivität einer radioaktiven Quelle. Strahlendosis (Sievert/Gray) ist falsch."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie viele Minuten braucht das Sonnenlicht ungefähr bis zur Erde?",
     "antwort": "ca. 8 Minuten",
     "akzeptiert": [
@@ -663,7 +635,7 @@
     "bewertung": "8 bis 8,5 Minuten richtig."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Wie heißt der oft „vierter Aggregatzustand“ genannte Zustand, in dem ein Gas aus Ionen und freien Elektronen besteht?",
     "antwort": "Plasma"
   },
@@ -1086,7 +1058,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie lautet die Formel für die Lageenergie eines Körpers mit Masse m in der Höhe h?",
     "antwort": "E = m · g · h",
     "akzeptiert": [
@@ -1196,7 +1168,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie nennt man den Vorgang, bei dem ein schwerer Atomkern wie Uran in zwei mittelschwere Kerne zerbricht?",
     "antwort": "Kernspaltung",
     "akzeptiert": [
@@ -1204,7 +1176,7 @@
     ]
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Wie nennt man den Vorgang in der Sonne, bei dem Wasserstoffkerne zu Helium verschmelzen?",
     "antwort": "Kernfusion",
     "akzeptiert": [
@@ -1272,7 +1244,7 @@
     ]
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Welche radioaktive Strahlung durchdringt Materie am stärksten: Alpha-, Beta- oder Gammastrahlung?",
     "antwort": "Gammastrahlung",
     "akzeptiert": [
@@ -1351,6 +1323,130 @@
     "akzeptiert": [
       "10",
       "36 km/h"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welchem berühmten Physiker soll laut Legende ein Apfel auf den Kopf gefallen sein?",
+    "antwort": "Isaac Newton",
+    "akzeptiert": [
+      "Newton"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Gedankenexperiment mit einer Katze in einer Kiste, die zugleich tot und lebendig sein soll?",
+    "antwort": "Schrödingers Katze",
+    "akzeptiert": [
+      "Schrödinger",
+      "Schrödinger-Katze"
+    ],
+    "bewertung": "„Schrödinger“ reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Warum platzt eine volle Glasflasche mit Wasser im Gefrierfach?",
+    "antwort": "Wasser dehnt sich beim Gefrieren aus",
+    "akzeptiert": [
+      "Eis braucht mehr Platz",
+      "Ausdehnung",
+      "Eis hat größeres Volumen"
+    ],
+    "bewertung": "Sinngemäß: Eis nimmt mehr Volumen ein als flüssiges Wasser."
+  },
+  {
+    "stufe": 3,
+    "frage": "Im Vakuum lässt man gleichzeitig eine Feder und eine Bowlingkugel fallen. Welche kommt zuerst unten an?",
+    "antwort": "Beide gleichzeitig",
+    "akzeptiert": [
+      "gleichzeitig",
+      "beide",
+      "gleich schnell",
+      "keine"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Kraft, die einen im Karussell oder in einer schnellen Kurve scheinbar nach außen drückt?",
+    "antwort": "Fliehkraft",
+    "akzeptiert": [
+      "Zentrifugalkraft",
+      "Fliehkräfte"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welchen Bruchteil seines Gewichts auf der Erde hat ein Mensch ungefähr auf dem Mond?",
+    "antwort": "ein Sechstel",
+    "akzeptiert": [
+      "1/6",
+      "16 %",
+      "17 %",
+      "16,5 %"
+    ],
+    "bewertung": "Ungefähr 1/6 (ca. 16–17 %) ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Kocht Wasser auf dem Gipfel des Mount Everest bei mehr oder bei weniger als 100 °C?",
+    "antwort": "Bei weniger",
+    "akzeptiert": [
+      "weniger",
+      "unter 100 °C",
+      "ca. 70 °C"
+    ],
+    "bewertung": "Wegen des geringeren Luftdrucks (ca. 70 °C)."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Farbe haben die heißesten Sterne: rot oder blau?",
+    "antwort": "Blau",
+    "akzeptiert": [
+      "blau",
+      "bläulich",
+      "blauweiß"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Sekunden braucht Licht ungefähr vom Mond zur Erde (Abstand ca. 384.000 km)?",
+    "antwort": "ca. 1,3 Sekunden",
+    "akzeptiert": [
+      "1,3",
+      "1,28",
+      "etwa 1 Sekunde"
+    ],
+    "bewertung": "Werte von 1 bis 1,5 Sekunden gelten."
+  },
+  {
+    "stufe": 5,
+    "frage": "Ein Eiswürfel schwimmt in einem randvollen Glas Wasser. Was passiert, wenn er schmilzt: läuft das Glas über, sinkt der Wasserstand oder bleibt er gleich?",
+    "antwort": "Er bleibt gleich",
+    "akzeptiert": [
+      "gleich",
+      "bleibt gleich",
+      "nichts"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Eine Eiskunstläuferin dreht sich schneller, wenn sie die Arme anzieht. Welche Erhaltungsgröße steckt dahinter?",
+    "antwort": "Drehimpuls",
+    "akzeptiert": [
+      "Drehimpulserhaltung",
+      "Erhaltung des Drehimpulses"
+    ],
+    "bewertung": "Energieerhaltung ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Du stehst in einem Aufzug auf einer Waage. Der Aufzug fährt an und beschleunigt nach oben. Zeigt die Waage mehr oder weniger an als im Stillstand?",
+    "antwort": "Mehr",
+    "akzeptiert": [
+      "mehr",
+      "höher",
+      "schwerer"
     ]
   }
 ]

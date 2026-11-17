@@ -581,7 +581,7 @@
     "bewertung": "Richtig, wenn als Frage formuliert und ein (springendes) Pferd gemeint ist. Ohne Frageform: falsch."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "In diesem Jahr fiel die Berliner Mauer.",
     "antwort": "Was ist 1989?",
     "akzeptiert": [
@@ -679,7 +679,7 @@
     "bewertung": "Richtig, wenn als Frage formuliert und die Varusschlacht gemeint ist. „Schlacht im Teutoburger Wald“ oder „Hermannsschlacht“ auch richtig. Ohne Frageform: falsch."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Er erfand um 1450 in Mainz den Buchdruck mit beweglichen Metalllettern.",
     "antwort": "Wer ist Johannes Gutenberg?",
     "akzeptiert": [
@@ -717,7 +717,7 @@
     "bewertung": "Richtig, wenn als Frage formuliert und die Wolga gemeint ist. Donau: falsch. Ohne Frageform: falsch."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Mit dieser Mission landeten 1969 die ersten Menschen auf dem Mond.",
     "antwort": "Was ist Apollo 11?",
     "akzeptiert": [
@@ -753,7 +753,7 @@
     "bewertung": "Richtig, wenn als Frage formuliert und die Stratosphäre gemeint ist. Ohne Frageform: falsch."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Dieser Staat ist der flächenmäßig kleinste der Welt.",
     "antwort": "Was ist der Vatikan?",
     "akzeptiert": [
@@ -813,7 +813,7 @@
     "bewertung": "Richtig, wenn als Frage formuliert und Carl Friedrich Gauß gemeint ist. Nachname reicht. Ohne Frageform: falsch."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Rund 300.000 Kilometer pro Sekunde",
     "antwort": "Was ist die Lichtgeschwindigkeit?",
     "akzeptiert": [
@@ -917,15 +917,6 @@
   },
   {
     "stufe": 5,
-    "frage": "1066",
-    "antwort": "In welchem Jahr war die Schlacht bei Hastings?",
-    "akzeptiert": [
-      "Wann eroberten die Normannen England?"
-    ],
-    "bewertung": "Richtig ist jede Frage, die sinngemäß nach dem Jahr der Schlacht bei Hastings bzw. der normannischen Eroberung Englands (Wilhelm der Eroberer) fragt. Ohne Frageform: falsch."
-  },
-  {
-    "stufe": 5,
     "frage": "„Heureka!“ – angeblich in der Badewanne gerufen",
     "antwort": "Wer ist Archimedes?",
     "akzeptiert": [
@@ -945,7 +936,7 @@
     "bewertung": "Richtig, wenn als Frage formuliert und Michail Gorbatschow gemeint ist. Nachname reicht. Ohne Frageform: falsch."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Dieses Metall ist als einziges bei Raumtemperatur flüssig.",
     "antwort": "Was ist Quecksilber?",
     "akzeptiert": [
@@ -1255,22 +1246,13 @@
     "bewertung": "Richtig, wenn als Frage formuliert und Python gemeint ist. Ohne Frageform: falsch."
   },
   {
-    "stufe": 4,
+    "stufe": 3,
     "frage": "Diese Seuche, der „Schwarze Tod“, tötete im 14. Jahrhundert etwa ein Drittel der Europäer.",
     "antwort": "Was ist die Pest?",
     "akzeptiert": [
       "Was ist die Beulenpest?"
     ],
     "bewertung": "Richtig, wenn als Frage formuliert und die Pest gemeint ist. Ohne Frageform: falsch."
-  },
-  {
-    "stufe": 4,
-    "frage": "Dieses Gebirge gilt im Osten Russlands als Grenze zwischen Europa und Asien.",
-    "antwort": "Was ist der Ural?",
-    "akzeptiert": [
-      "Was ist Ural?"
-    ],
-    "bewertung": "Richtig, wenn als Frage formuliert und der Ural gemeint ist. Ohne Frageform: falsch."
   },
   {
     "stufe": 4,
@@ -1298,15 +1280,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Dieser britische Mathematiker bewies in den 1990er-Jahren den Großen Fermatschen Satz.",
-    "antwort": "Wer ist Andrew Wiles?",
-    "akzeptiert": [
-      "Wer ist Wiles?"
-    ],
-    "bewertung": "Richtig, wenn als Frage formuliert und Andrew Wiles gemeint ist. Nachname reicht. Ohne Frageform: falsch."
-  },
-  {
-    "stufe": 5,
     "frage": "Dieses Metall hat den höchsten Schmelzpunkt aller Metalle (über 3.400 °C).",
     "antwort": "Was ist Wolfram?",
     "bewertung": "Richtig, wenn als Frage formuliert und Wolfram gemeint ist. Ohne Frageform: falsch."
@@ -1321,7 +1294,7 @@
     "bewertung": "Richtig, wenn als Frage formuliert und Immanuel Kant gemeint ist. Nachname reicht. Ohne Frageform: falsch."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Diese Insel ist die größte im Mittelmeer.",
     "antwort": "Was ist Sizilien?",
     "bewertung": "Richtig, wenn als Frage formuliert und Sizilien gemeint ist. Sardinien: falsch. Ohne Frageform: falsch."
@@ -1351,7 +1324,7 @@
     "bewertung": "Richtig, wenn als Frage formuliert und Max Planck gemeint ist. Nachname reicht. Ohne Frageform: falsch."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "Dieser venezianische Barockkomponist schrieb „Die vier Jahreszeiten“.",
     "antwort": "Wer ist Antonio Vivaldi?",
     "akzeptiert": [
@@ -1360,12 +1333,55 @@
     "bewertung": "Richtig, wenn als Frage formuliert und Antonio Vivaldi gemeint ist. Nachname reicht. Ohne Frageform: falsch."
   },
   {
-    "stufe": 5,
+    "stufe": 4,
     "frage": "NaCl",
     "antwort": "Was ist die chemische Formel von Kochsalz?",
     "akzeptiert": [
       "Was ist Natriumchlorid?"
     ],
     "bewertung": "Richtig ist jede Frage, die auf Kochsalz/Natriumchlorid zielt (z. B. „Was ist Kochsalz?“, „Wie lautet die Formel von Kochsalz?“). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Gebirge zieht sich von Nord nach Süd durch Russland und gilt als Grenze zwischen Europa und Asien.",
+    "antwort": "Was ist der Ural?",
+    "akzeptiert": [
+      "Was ist Ural?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Ural gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Meerestier hat drei Herzen und blaues Blut.",
+    "antwort": "Was ist der Oktopus?",
+    "akzeptiert": [
+      "Was ist der Krake?",
+      "Was ist ein Tintenfisch?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und ein Oktopus/Krake oder allgemein ein Tintenfisch (Kopffüßer) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "In diesem afrikanischen Land stehen mehr Pyramiden als in Ägypten.",
+    "antwort": "Was ist der Sudan?",
+    "akzeptiert": [
+      "Was ist Sudan?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und der Sudan gemeint ist (nicht Südsudan). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser schottische Arzt entdeckte 1928 das Penicillin – dank einer vergessenen, verschimmelten Bakterienschale.",
+    "antwort": "Wer ist Alexander Fleming?",
+    "akzeptiert": [
+      "Wer ist Fleming?"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Alexander Fleming gemeint ist. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieses Land hat als einziges eine Nationalflagge, die nicht rechteckig ist.",
+    "antwort": "Was ist Nepal?",
+    "bewertung": "Richtig, wenn als Frage formuliert und Nepal gemeint ist. Ohne Frageform: falsch."
   }
 ]
