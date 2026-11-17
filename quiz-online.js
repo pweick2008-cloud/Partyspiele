@@ -125,7 +125,7 @@ const QzOnline = (() => {
     list.forEach((a, i) => {
       const row = el("div", "qz-attempt " + (a.ok === true ? "right" : a.ok === false ? "wrong" : "pass"));
       row.appendChild(el("span", "qz-who", nameOf(a.p)));
-      row.appendChild(el("span", "qz-ans", a.ok === null ? "weiß es nicht" : `„${a.answer}“`));
+      row.appendChild(el("span", "qz-ans", a.pass || a.ok === null ? "weiß es nicht" : `„${a.answer}“`));
       const pts = a.ok === true ? `+${cur.value}` : a.ok === false ? `−${cur.value / 2}` : "0";
       row.appendChild(el("span", "qz-pts", pts));
       card.appendChild(row);
@@ -155,7 +155,7 @@ const QzOnline = (() => {
         const submit = el("button", "btn primary big", "Antwort abgeben");
         submit.type = "submit";
         form.appendChild(submit);
-        form.appendChild(button("Weiß ich nicht", "ghost", () => Online.send({ type: "qzPass" })));
+        if (first) form.appendChild(button(`Weiß ich nicht (−${cur.value / 2})`, "ghost", () => Online.send({ type: "qzPass" })));
         form.addEventListener("submit", (e) => {
           e.preventDefault();
           const v = input.value.trim();
@@ -210,7 +210,7 @@ const QzOnline = (() => {
       if (!armed) buzzTimer = setTimeout(() => render(state), Math.max(50, cur.buzzAt - (Date.now() + offset) + 30));
       if (isHost()) {
         card.appendChild(button("Keiner – Lösung zeigen (Host)", "ghost", () => Online.send({ type: "qzNobody" })));
-        const last = [...cur.attempts].reverse().find((a) => a.ok !== null);
+        const last = [...cur.attempts].reverse().find((a) => a.ok !== null && !a.pass);
         if (last) card.appendChild(button("Letztes Urteil umdrehen (Host)", "ghost small-btn", () => Online.send({ type: "qzFlip" })));
       }
       box.appendChild(card);
@@ -221,7 +221,7 @@ const QzOnline = (() => {
       sol.appendChild(el("span", "role-label", "Lösung"));
       sol.appendChild(el("p", "quiz-solution-text", cur.solution || ""));
       box.appendChild(sol);
-      const last = [...cur.attempts].reverse().find((a) => a.ok !== null);
+      const last = [...cur.attempts].reverse().find((a) => a.ok !== null && !a.pass);
       if (isHost() && last) box.appendChild(button(last.ok ? `Doch falsch (${nameOf(last.p)})` : `Doch richtig (${nameOf(last.p)})`, "ghost small-btn", () => Online.send({ type: "qzFlip" })));
       if (isHost() || game.turn === me()) box.appendChild(button("Zurück zur Wand", "primary big", () => Online.send({ type: "qzBack" })));
       else box.appendChild(el("p", "muted small center", "Gleich geht es zurück zur Wand."));

@@ -23,7 +23,10 @@ const KATEGORIEN = [
   ["essen", "Essen & Trinken"],
   ["videospiele", "Videospiele"],
   ["sprache", "Wörter & Redewendungen"],
-  ["erfindungen", "Erfindungen & Technik"]
+  ["erfindungen", "Erfindungen & Technik"],
+  ["logos", "Logos"],
+  ["basketball", "Basketball"],
+  ["animes", "Animes"]
 ];
 
 const dir = path.join(__dirname, "..", "quiz-fragen");

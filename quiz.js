@@ -184,7 +184,7 @@ const Quiz = (() => {
 
   /* ---------- Punkte ---------- */
   // Richtig = +Wert, falsch = −halber Wert – für den, der gewählt hat,
-  // genauso wie für alle, die danach klauen. „Weiß ich nicht“ kostet nichts.
+  // genauso wie für alle, die danach klauen. Auch „Weiß ich nicht“ zählt als falsch.
   function scores() {
     const s = game.players.map(() => 0);
     for (const page of game.pages) {
@@ -348,7 +348,9 @@ const Quiz = (() => {
       $("quiz-input").disabled = judging;
       $("quiz-check").disabled = judging;
       $("quiz-pass").disabled = judging;
-      $("quiz-pass").textContent = first ? "Weiß ich nicht" : "Doch nicht";
+      // Wer gebuzzert hat, muss antworten – ein Zurück gibt es nicht
+      $("quiz-pass").hidden = !first;
+      $("quiz-pass").textContent = `Weiß ich nicht (−${cell.value / 2})`;
     }
     $("quiz-judging").hidden = !judging;
 
@@ -505,10 +507,9 @@ const Quiz = (() => {
   function pass() {
     const cell = curCell();
     const p = game.cur.answering;
-    if (cell.attempts.length === 0) {
-      // Wer gewählt hat und nicht antworten will: kein Abzug, die anderen dürfen
-      cell.attempts.push({ p, answer: "(weiß ich nicht)", ok: null, reason: "" });
-    }
+    if (cell.attempts.length) return; // nur wer gewählt hat, kann „Weiß ich nicht“ sagen
+    // Zählt wie eine falsche Antwort (halbe Punktzahl Abzug), danach dürfen die anderen
+    cell.attempts.push({ p, answer: "(weiß ich nicht)", ok: false, reason: "" });
     game.cur.answering = null;
     game.cur.verdict = null;
     const tried = triedBy(cell);

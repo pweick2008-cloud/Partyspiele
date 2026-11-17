@@ -237,7 +237,7 @@ function install(ctx) {
           phase: g.cur.phase, c: g.cur.c, row: g.cur.row, cat: col.name, value: cell.value,
           frage: cell.q.f, emoji: cell.q.e || null, rezept: cell.q.r || null, reverse: col.id === "wasistdiefrage",
           answering: g.cur.answering, buzzAt: g.cur.buzzAt || null,
-          attempts: cell.attempts.map((a) => ({ p: a.p, answer: a.answer, ok: a.ok, auto: !!a.auto })),
+          attempts: cell.attempts.map((a) => ({ p: a.p, answer: a.answer, ok: a.ok, auto: !!a.auto, pass: !!a.pass })),
           pending: g.cur.pending || null,
           remaining: qz.remaining(lobby, g, cell),
           // Die Lösung sieht nur der Host beim Prüfen, alle anderen erst am Ende
@@ -288,10 +288,12 @@ function install(ctx) {
       }
       return lobby;
     },
+    // „Weiß ich nicht“ gibt es nur für den, der gewählt hat, und es kostet die halbe Punktzahl
     qzPass(ws, msg, lobby, me) {
       const g = qzCur(lobby, ["answer"]);
       if (g.cur.answering !== me.id) fail("Du bist gerade nicht dran.");
-      qz.cell(g).attempts.push({ p: me.id, answer: "(weiß ich nicht)", ok: null });
+      if (qz.cell(g).attempts.length) fail("Wer gebuzzert hat, muss antworten.");
+      qz.cell(g).attempts.push({ p: me.id, answer: "(weiß ich nicht)", ok: false, pass: true });
       qz.afterAnswer(lobby);
       return lobby;
     },
@@ -309,7 +311,7 @@ function install(ctx) {
       requireHost(lobby, me);
       const g = qzCur(lobby, ["done", "buzz"]);
       const cell = qz.cell(g);
-      const last = [...cell.attempts].reverse().find((a) => a.ok !== null);
+      const last = [...cell.attempts].reverse().find((a) => a.ok !== null && !a.pass);
       if (!last) fail("Es gibt kein Urteil zum Umdrehen.");
       last.ok = !last.ok;
       last.auto = false;
