@@ -207,6 +207,39 @@ function install(ctx) {
       g.cur.buzzAt = Date.now() + QZ_BUZZ_LOCK;
     },
     reverse: (g) => g.pages[g.page].cols[g.cur.c].id === "wasistdiefrage",
+    // Abstimmen dürfen alle Anwesenden außer dem, der geantwortet hat
+    voters: (lobby, g, leaving = null) => g.ids.filter((id) => present(lobby, id) && id !== leaving && id !== g.cur.pending.p),
+    // Schwellen: 2 Stimmen dafür reichen, ⅔ dagegen kippen das „Richtig“
+    need(n) {
+      const no = Math.ceil((n * 2) / 3);
+      // „dafür“ reicht auch schon, sobald ⅔ dagegen nicht mehr erreichbar sind
+      return { yes: Math.max(1, Math.min(2, n - no + 1)), no };
+    },
+    evaluate(lobby, leaving = null) {
+      const g = lobby.game;
+      const voters = qz.voters(lobby, g, leaving);
+      const votes = voters.map((id) => g.cur.votes[id]).filter((v) => v !== undefined);
+      const yes = votes.filter((v) => v).length, no = votes.length - yes;
+      const open = voters.length - votes.length;
+      const need = qz.need(voters.length);
+      if (!voters.length) return qz.settle(lobby, true);
+      if (no >= need.no) return qz.settle(lobby, false);
+      // Dafür genug Stimmen – oder ⅔ dagegen sind nicht mehr erreichbar
+      if (yes >= need.yes || no + open < need.no) return qz.settle(lobby, true);
+      if (!open) return qz.settle(lobby, true);
+    },
+    settle(lobby, ok) {
+      const g = lobby.game;
+      const cell = qz.cell(g);
+      const p = g.cur.pending;
+      cell.attempts.push({ p: p.p, answer: p.answer, ok, voted: true });
+      g.cur.pending = null;
+      g.cur.lastVote = { ok, votes: g.cur.votes };
+      g.cur.votes = null;
+      // Abgelehnt: alle kennen die Lösung schon, also kein Klauen mehr
+      if (!ok) cell.closed = true;
+      g.cur.phase = "done";
+    },
     localMatch(answer, q) {
       const targets = [q.a, ...(q.ak || [])];
       const a = normalize(answer);
@@ -241,8 +274,16 @@ function install(ctx) {
           pending: g.cur.pending || null,
           remaining: qz.remaining(lobby, g, cell),
           // Die Lösung sieht nur der Host beim Prüfen, alle anderen erst am Ende
-          solution: done || (host && g.cur.phase === "judge") ? cell.q.a : null,
-          hint: host && g.cur.phase === "judge" ? [cell.q.ak && cell.q.ak.length ? `Auch richtig: ${cell.q.ak.join(", ")}` : "", cell.q.b || ""].filter(Boolean).join(" · ") : null
+          // Die Lösung sieht beim Selbstbewerten nur, wer geantwortet hat; beim Abstimmen alle
+          solution: done || g.cur.phase === "vote" || (g.cur.phase === "self" && g.cur.pending && g.cur.pending.p === me.id) ? cell.q.a : null,
+          hint: (g.cur.phase === "vote" || (g.cur.phase === "self" && g.cur.pending && g.cur.pending.p === me.id))
+            ? [cell.q.ak && cell.q.ak.length ? `Auch richtig: ${cell.q.ak.join(", ")}` : "", cell.q.b || ""].filter(Boolean).join(" · ") : null,
+          vote: g.cur.phase === "vote" ? (() => {
+            const voters = qz.voters(lobby, g);
+            const v = voters.map((id) => g.cur.votes[id]).filter((x) => x !== undefined);
+            return { voters, need: qz.need(voters.length), yes: v.filter((x) => x).length, no: v.filter((x) => !x).length, mine: g.cur.votes[me.id] === undefined ? null : g.cur.votes[me.id] };
+          })() : null,
+          lastVote: g.cur.lastVote ? { ok: g.cur.lastVote.ok, yes: Object.values(g.cur.lastVote.votes).filter((x) => x).length, no: Object.values(g.cur.lastVote.votes).filter((x) => !x).length } : null
         };
       }
       if (g.phase === "over") v.final = true;
@@ -253,6 +294,14 @@ function install(ctx) {
       const g = lobby.game;
       if (!g.cur || g.cur.phase === "done") return;
       if (g.cur.answering === id && g.cur.phase === "answer") qz.afterAnswer(lobby);
+      else if (g.cur.phase === "self" && g.cur.pending.p === id) {
+        qz.cell(g).attempts.push({ p: id, answer: g.cur.pending.answer, ok: false });
+        g.cur.pending = null;
+        qz.afterAnswer(lobby);
+      } else if (g.cur.phase === "vote") {
+        if (g.cur.pending.p === id) qz.settle(lobby, false);
+        else { delete g.cur.votes[id]; qz.evaluate(lobby, id); }
+      }
     }
   };
 
@@ -283,8 +332,9 @@ function install(ctx) {
         cell.attempts.push({ p: me.id, answer, ok: true, auto: true });
         g.cur.phase = "done";
       } else {
+        // Wer geantwortet hat, sieht jetzt die Lösung und bewertet sich selbst
         g.cur.pending = { p: me.id, answer };
-        g.cur.phase = "judge";
+        g.cur.phase = "self";
       }
       return lobby;
     },
@@ -297,26 +347,36 @@ function install(ctx) {
       qz.afterAnswer(lobby);
       return lobby;
     },
-    qzJudge(ws, msg, lobby, me) {
-      requireHost(lobby, me);
-      const g = qzCur(lobby, ["judge"]);
+    // Selbstbewertung: „Falsch“ gilt sofort, „Richtig“ geht in die Abstimmung
+    qzSelf(ws, msg, lobby, me) {
+      const g = qzCur(lobby, ["self"]);
       const p = g.cur.pending;
-      qz.cell(g).attempts.push({ p: p.p, answer: p.answer, ok: !!msg.ok });
-      g.cur.pending = null;
-      qz.afterAnswer(lobby);
+      if (p.p !== me.id) fail("Das entscheidet, wer geantwortet hat.");
+      if (!msg.ok) {
+        qz.cell(g).attempts.push({ p: p.p, answer: p.answer, ok: false });
+        g.cur.pending = null;
+        qz.afterAnswer(lobby);
+      } else {
+        g.cur.phase = "vote";
+        g.cur.votes = {};
+        qz.evaluate(lobby);
+      }
       return lobby;
     },
-    // Host dreht das letzte Urteil um
-    qzFlip(ws, msg, lobby, me) {
+    qzVote(ws, msg, lobby, me) {
+      const g = qzCur(lobby, ["vote"]);
+      if (!qz.voters(lobby, g).includes(me.id)) fail("Du stimmst hier nicht ab.");
+      if (g.cur.votes[me.id] !== undefined) fail("Du hast schon abgestimmt.");
+      g.cur.votes[me.id] = !!msg.ok;
+      qz.evaluate(lobby);
+      return lobby;
+    },
+    // Host: Abstimmung beenden (z. B. wenn jemand nicht mehr reagiert)
+    qzVoteEnd(ws, msg, lobby, me) {
       requireHost(lobby, me);
-      const g = qzCur(lobby, ["done", "buzz"]);
-      const cell = qz.cell(g);
-      const last = [...cell.attempts].reverse().find((a) => a.ok !== null && !a.pass);
-      if (!last) fail("Es gibt kein Urteil zum Umdrehen.");
-      last.ok = !last.ok;
-      last.auto = false;
-      cell.closed = false;
-      qz.afterAnswer(lobby);
+      const g = qzCur(lobby, ["vote"]);
+      const v = Object.values(g.cur.votes);
+      qz.settle(lobby, !(v.filter((x) => !x).length > v.filter((x) => x).length));
       return lobby;
     },
     qzBuzz(ws, msg, lobby, me) {

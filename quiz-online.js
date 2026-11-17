@@ -167,22 +167,48 @@ const QzOnline = (() => {
       } else {
         box.appendChild(el("p", "qz-status", `${nameOf(cur.answering)} ${cur.attempts.length ? "klaut" : "antwortet"} …`));
       }
-    } else if (cur.phase === "judge") {
+    } else if (cur.phase === "self") {
       if (att) box.appendChild(att);
       const card = el("div", "card qz-judge");
       card.appendChild(el("span", "role-label", "Antwort"));
       card.appendChild(el("p", "quiz-v-who", `${nameOf(cur.pending.p)}: „${cur.pending.answer}“`));
-      if (isHost()) {
+      if (cur.pending.p === me()) {
         card.appendChild(el("p", "small muted", "Lösung:"));
         card.appendChild(el("p", "quiz-solution-text", cur.solution || ""));
         if (cur.hint) card.appendChild(el("p", "small muted", cur.hint));
+        card.appendChild(el("p", "small", "War deine Antwort richtig? Sei ehrlich – bei „Richtig“ stimmen die anderen ab."));
         const row = el("div", "host-row");
-        row.appendChild(button("Richtig", "yes", () => Online.send({ type: "qzJudge", ok: true })));
-        row.appendChild(button("Falsch", "no", () => Online.send({ type: "qzJudge", ok: false })));
+        row.appendChild(button("Richtig", "yes", () => Online.send({ type: "qzSelf", ok: true })));
+        row.appendChild(button("Falsch", "no", () => Online.send({ type: "qzSelf", ok: false })));
         card.appendChild(row);
       } else {
-        card.appendChild(el("p", "small muted", "Der Host prüft die Antwort …"));
+        card.appendChild(el("p", "small muted", `${nameOf(cur.pending.p)} sieht die Lösung und bewertet sich selbst …`));
       }
+      box.appendChild(card);
+    } else if (cur.phase === "vote") {
+      if (att) box.appendChild(att);
+      const v = cur.vote;
+      const card = el("div", "card qz-judge");
+      card.appendChild(el("span", "role-label", "Abstimmung"));
+      card.appendChild(el("p", "quiz-v-who", `${nameOf(cur.pending.p)}: „${cur.pending.answer}“ – sagt: richtig`));
+      card.appendChild(el("p", "small muted", "Lösung:"));
+      card.appendChild(el("p", "quiz-solution-text", cur.solution || ""));
+      if (cur.hint) card.appendChild(el("p", "small muted", cur.hint));
+      card.appendChild(el("p", "small", `Gilt als richtig bei ${v.need.yes} ${v.need.yes === 1 ? "Stimme" : "Stimmen"} dafür, als falsch bei ${v.need.no} dagegen.`));
+      card.appendChild(el("p", "qz-tally", `👍 ${v.yes}   ·   👎 ${v.no}`));
+      if (v.voters.includes(me())) {
+        if (v.mine === null) {
+          const row = el("div", "host-row");
+          row.appendChild(button("Zählt", "yes", () => Online.send({ type: "qzVote", ok: true })));
+          row.appendChild(button("Zählt nicht", "no", () => Online.send({ type: "qzVote", ok: false })));
+          card.appendChild(row);
+        } else {
+          card.appendChild(el("p", "small muted", `Du hast „${v.mine ? "zählt" : "zählt nicht"}“ gestimmt.`));
+        }
+      } else {
+        card.appendChild(el("p", "small muted", "Die anderen stimmen ab …"));
+      }
+      if (isHost()) card.appendChild(button("Abstimmung beenden (Host)", "ghost small-btn", () => Online.confirmHost("Abstimmung beenden?", "Es zählt die Mehrheit der bisherigen Stimmen, bei Gleichstand gilt die Antwort.", "qzVoteEnd")));
       box.appendChild(card);
     } else if (cur.phase === "buzz") {
       if (att) box.appendChild(att);
@@ -210,8 +236,6 @@ const QzOnline = (() => {
       if (!armed) buzzTimer = setTimeout(() => render(state), Math.max(50, cur.buzzAt - (Date.now() + offset) + 30));
       if (isHost()) {
         card.appendChild(button("Keiner – Lösung zeigen (Host)", "ghost", () => Online.send({ type: "qzNobody" })));
-        const last = [...cur.attempts].reverse().find((a) => a.ok !== null && !a.pass);
-        if (last) card.appendChild(button("Letztes Urteil umdrehen (Host)", "ghost small-btn", () => Online.send({ type: "qzFlip" })));
       }
       box.appendChild(card);
     } else {
@@ -221,8 +245,7 @@ const QzOnline = (() => {
       sol.appendChild(el("span", "role-label", "Lösung"));
       sol.appendChild(el("p", "quiz-solution-text", cur.solution || ""));
       box.appendChild(sol);
-      const last = [...cur.attempts].reverse().find((a) => a.ok !== null && !a.pass);
-      if (isHost() && last) box.appendChild(button(last.ok ? `Doch falsch (${nameOf(last.p)})` : `Doch richtig (${nameOf(last.p)})`, "ghost small-btn", () => Online.send({ type: "qzFlip" })));
+      if (cur.lastVote) box.appendChild(el("p", "small muted center", `Abstimmung: ${cur.lastVote.ok ? "zählt" : "zählt nicht"} (👍 ${cur.lastVote.yes} · 👎 ${cur.lastVote.no})`));
       if (isHost() || game.turn === me()) box.appendChild(button("Zurück zur Wand", "primary big", () => Online.send({ type: "qzBack" })));
       else box.appendChild(el("p", "muted small center", "Gleich geht es zurück zur Wand."));
     }
