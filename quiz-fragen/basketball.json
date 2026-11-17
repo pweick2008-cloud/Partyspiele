@@ -1,1 +1,954 @@
-[]
+[
+  {
+    "stufe": 1,
+    "frage": "Wie viele Spieler pro Mannschaft stehen beim Basketball gleichzeitig auf dem Feld?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Punkte zählt ein Treffer von hinter der Dreierlinie?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Punkte zählt ein verwandelter Freiwurf?",
+    "antwort": "1",
+    "akzeptiert": [
+      "einen",
+      "eins"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Punkte zählt ein normaler Korb aus dem Spiel heraus innerhalb der Dreierlinie?",
+    "antwort": "2",
+    "akzeptiert": [
+      "zwei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die bekannteste Basketball-Profiliga der Männer in Nordamerika (Abkürzung)?",
+    "antwort": "NBA",
+    "akzeptiert": [
+      "National Basketball Association"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man es, wenn ein Spieler den Ball von oben mit Wucht in den Korb stopft?",
+    "antwort": "Dunk",
+    "akzeptiert": [
+      "Slam Dunk",
+      "Dunking",
+      "Stopfer"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt es, wenn ein Spieler nach einem verfehlten Wurf den abprallenden Ball sichert?",
+    "antwort": "Rebound",
+    "akzeptiert": [
+      "Abpraller"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man im Basketball den letzten Pass, der direkt zu einem Korb führt?",
+    "antwort": "Assist",
+    "akzeptiert": [
+      "Vorlage",
+      "Korbvorlage"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher deutsche Basketballer spielte 21 Saisons lang für die Dallas Mavericks?",
+    "antwort": "Dirk Nowitzki",
+    "akzeptiert": [
+      "Nowitzki",
+      "Dirk"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Rückennummer machte Michael Jordan bei den Chicago Bulls berühmt?",
+    "antwort": "23",
+    "akzeptiert": [
+      "dreiundzwanzig"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Stadt spielen die Lakers?",
+    "antwort": "Los Angeles",
+    "akzeptiert": [
+      "LA",
+      "L.A."
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land wurde 2023 Basketball-Weltmeister der Männer?",
+    "antwort": "Deutschland",
+    "akzeptiert": [
+      "Germany",
+      "DBB-Team"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Basketballstar trägt den Spitznamen „King James“?",
+    "antwort": "LeBron James",
+    "akzeptiert": [
+      "LeBron",
+      "James"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Spieler der Golden State Warriors gilt als bester Dreierschütze aller Zeiten?",
+    "antwort": "Stephen Curry",
+    "akzeptiert": [
+      "Steph Curry",
+      "Curry"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Für welches NBA-Team spielte Kobe Bryant seine gesamte Profikarriere?",
+    "antwort": "Los Angeles Lakers",
+    "akzeptiert": [
+      "Lakers",
+      "LA Lakers"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe hat ein klassischer Basketball?",
+    "antwort": "Orange",
+    "akzeptiert": [
+      "Orangebraun",
+      "Braun-orange"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man es, wenn man den Ball beim Laufen immer wieder auf den Boden prellt?",
+    "antwort": "Dribbeln",
+    "akzeptiert": [
+      "Dribbling",
+      "Dribbel",
+      "Prellen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das berühmte US-Showteam, das mit Basketball-Tricks um die Welt tourt?",
+    "antwort": "Harlem Globetrotters",
+    "akzeptiert": [
+      "Globetrotters"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Land wurde Basketball erfunden?",
+    "antwort": "USA",
+    "akzeptiert": [
+      "Vereinigte Staaten",
+      "Amerika",
+      "United States"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man im Basketball eine Regelwidrigkeit durch unerlaubten Körperkontakt?",
+    "antwort": "Foul",
+    "akzeptiert": [
+      "Persönliches Foul"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Für welches NBA-Team gewann Michael Jordan seine sechs Meisterschaften?",
+    "antwort": "Chicago Bulls",
+    "akzeptiert": [
+      "Bulls"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Stadt spielen die Celtics?",
+    "antwort": "Boston"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Regelverstoß, wenn ein Spieler mit dem Ball in der Hand zu viele Schritte macht?",
+    "antwort": "Schrittfehler",
+    "akzeptiert": [
+      "Travelling",
+      "Traveling",
+      "Schritte"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Fehler, wenn ein Spieler aufhört zu dribbeln, den Ball aufnimmt und dann erneut dribbelt?",
+    "antwort": "Doppeldribbling",
+    "akzeptiert": [
+      "Doppeldribbel",
+      "Double Dribble"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Basketball-Variante mit drei Spielern pro Team auf nur einen Korb ist seit Tokio 2020 olympisch?",
+    "antwort": "3x3",
+    "akzeptiert": [
+      "3x3-Basketball",
+      "Drei gegen drei",
+      "3 gegen 3"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Minuten dauert ein Viertel in der NBA?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf",
+      "12 Minuten"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In wie viele Abschnitte (Viertel) ist ein reguläres Basketballspiel eingeteilt?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier",
+      "Viertel"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man es, wenn ein Spieler in einem Spiel in drei Statistik-Kategorien (z. B. Punkte, Rebounds, Assists) zweistellig ist?",
+    "antwort": "Triple-Double",
+    "akzeptiert": [
+      "Triple Double"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Spielzug, bei dem ein Spieler den Ball in der Luft fängt und ihn noch im Sprung in den Korb legt oder dunkt?",
+    "antwort": "Alley-oop",
+    "akzeptiert": [
+      "Alley oop",
+      "Alley-Hoop"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man es, wenn ein Verteidiger einen Wurf des Gegners mit der Hand abwehrt?",
+    "antwort": "Block",
+    "akzeptiert": [
+      "Blocked Shot",
+      "Blocken"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Flügelspieler, jüngerer Bruder von Moritz, spielt (Stand 2024) für die Orlando Magic?",
+    "antwort": "Franz Wagner",
+    "akzeptiert": [
+      "Wagner",
+      "Franz"
+    ],
+    "bewertung": "Vorname Franz muss erkennbar sein; nur ‚Moritz Wagner‘ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Spielmacher war Kapitän bei der WM 2023 und wurde zum besten Spieler (MVP) des Turniers gewählt?",
+    "antwort": "Dennis Schröder",
+    "akzeptiert": [
+      "Schröder",
+      "Schroder",
+      "Schroeder"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die höchste Basketball-Liga der Männer in Deutschland?",
+    "antwort": "Basketball-Bundesliga",
+    "akzeptiert": [
+      "BBL",
+      "Bundesliga",
+      "easyCredit BBL"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welcher Stadt kommt das NBA-Team „Heat“?",
+    "antwort": "Miami"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie wurde die US-Olympiamannschaft von 1992 mit Michael Jordan, Magic Johnson und Larry Bird genannt?",
+    "antwort": "Dream Team",
+    "akzeptiert": [
+      "Dreamteam"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Stadt spielen die Knicks?",
+    "antwort": "New York",
+    "akzeptiert": [
+      "New York City",
+      "NYC"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Sekunden hat ein Team in der NBA maximal Zeit für einen Angriff (Shot Clock)?",
+    "antwort": "24",
+    "akzeptiert": [
+      "vierundzwanzig",
+      "24 Sekunden"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Basketballer hatte den Spitznamen „Black Mamba“?",
+    "antwort": "Kobe Bryant",
+    "akzeptiert": [
+      "Kobe",
+      "Bryant"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Spieler hat seit 2023 die meisten Punkte der NBA-Geschichte erzielt?",
+    "antwort": "LeBron James",
+    "akzeptiert": [
+      "LeBron",
+      "James"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Unter welchem Kurznamen ist der Center Shaquille O’Neal bekannt?",
+    "antwort": "Shaq",
+    "akzeptiert": [
+      "Shaq O'Neal"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher NBA-Star spielte 1996 im Film „Space Jam“ an der Seite von Bugs Bunny?",
+    "antwort": "Michael Jordan",
+    "akzeptiert": [
+      "Jordan"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird bei Gleichstand nach Ende der regulären Spielzeit im Basketball gespielt?",
+    "antwort": "Verlängerung",
+    "akzeptiert": [
+      "Overtime",
+      "OT",
+      "Nachspielzeit"
+    ],
+    "bewertung": "Kein Unentschieden – Verlängerung ist gemeint."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Wurf aus dem Lauf, bei dem man den Ball nah am Korb hochlegt, oft über das Brett?",
+    "antwort": "Korbleger",
+    "akzeptiert": [
+      "Layup",
+      "Lay-up",
+      "Lay up"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Profiliga der Frauen in den USA (Abkürzung)?",
+    "antwort": "WNBA",
+    "akzeptiert": [
+      "Women's National Basketball Association"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hoch hängt der Basketballkorb (Oberkante Ring) über dem Boden?",
+    "antwort": "3,05 m",
+    "akzeptiert": [
+      "3,05",
+      "3.05 m",
+      "305 cm",
+      "10 Fuß",
+      "10 feet"
+    ],
+    "bewertung": "Kleine Rundung wie ‚3 Meter‘ ist nicht genau genug; 3,05 m bzw. 10 Fuß."
+  },
+  {
+    "stufe": 3,
+    "frage": "Nach wie vielen persönlichen Fouls muss ein Spieler in der NBA das Spiel verlassen?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs",
+      "sechstes"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man einen Wurf, der nur das Netz berührt, ohne Ring oder Brett zu treffen?",
+    "antwort": "Swish",
+    "akzeptiert": [
+      "Nothing but net"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man einen Wurf, der weder Ring noch Brett noch Netz berührt?",
+    "antwort": "Airball",
+    "akzeptiert": [
+      "Air Ball"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche beiden Rückennummern trug Kobe Bryant bei den Lakers?",
+    "antwort": "8 und 24",
+    "akzeptiert": [
+      "24 und 8",
+      "8, 24"
+    ],
+    "bewertung": "Beide Nummern nötig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher NBA-Star aus Griechenland trägt den Spitznamen „The Greek Freak“?",
+    "antwort": "Giannis Antetokounmpo",
+    "akzeptiert": [
+      "Giannis",
+      "Antetokounmpo"
+    ],
+    "bewertung": "Vorname oder Nachname reicht, kleine Schreibfehler okay."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß der Sportlehrer, der 1891 den Basketball erfand?",
+    "antwort": "James Naismith",
+    "akzeptiert": [
+      "Naismith"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man einen Wurf, der mit dem Ertönen der Schlusssirene noch in den Korb geht?",
+    "antwort": "Buzzer Beater",
+    "akzeptiert": [
+      "Buzzerbeater",
+      "Buzzer-Beater"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Spielposition des Aufbauspielers auf Englisch?",
+    "antwort": "Point Guard",
+    "akzeptiert": [
+      "PG",
+      "Pointguard"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welchem Team gewann LeBron James 2016 die NBA-Meisterschaft nach 1:3-Rückstand in den Finals?",
+    "antwort": "Cleveland Cavaliers",
+    "akzeptiert": [
+      "Cavaliers",
+      "Cavs",
+      "Cleveland"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Jahr gewann Dirk Nowitzki mit den Dallas Mavericks die NBA-Meisterschaft?",
+    "antwort": "2011"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele NBA-Meistertitel gewann Michael Jordan?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Teams spielen in der NBA?",
+    "antwort": "30",
+    "akzeptiert": [
+      "dreißig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Minuten dauert ein Viertel nach den internationalen FIBA-Regeln, z. B. in der BBL?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn",
+      "10 Minuten"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Gegen welches Land gewann Deutschland 2023 das WM-Finale?",
+    "antwort": "Serbien",
+    "akzeptiert": [
+      "Serbia"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das NBA-Team aus San Antonio?",
+    "antwort": "Spurs",
+    "akzeptiert": [
+      "San Antonio Spurs"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Für welches NBA-Team spielte Larry Bird seine gesamte Karriere?",
+    "antwort": "Boston Celtics",
+    "akzeptiert": [
+      "Celtics"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches ist das einzige NBA-Team aus Kanada?",
+    "antwort": "Toronto Raptors",
+    "akzeptiert": [
+      "Raptors",
+      "Toronto"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus welchem Land kommt der Center Nikola Jokić?",
+    "antwort": "Serbien",
+    "akzeptiert": [
+      "Serbia"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Land gewann bei Olympia 2024 in Paris Gold im Basketball der Männer?",
+    "antwort": "USA",
+    "akzeptiert": [
+      "Vereinigte Staaten",
+      "Amerika"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Sportart betrieb Michael Jordan 1994 professionell während seiner ersten NBA-Pause?",
+    "antwort": "Baseball"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Netflix-Dokuserie von 2020 über Michael Jordans letzte Meistersaison mit den Bulls?",
+    "antwort": "The Last Dance",
+    "akzeptiert": [
+      "Last Dance"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Spieler erzielte 1962 als einziger 100 Punkte in einem NBA-Spiel?",
+    "antwort": "Wilt Chamberlain",
+    "akzeptiert": [
+      "Chamberlain",
+      "Wilt"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Stadt fand das Finale der Basketball-WM 2023 statt?",
+    "antwort": "Manila",
+    "akzeptiert": [
+      "Manila, Philippinen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Team schlug Deutschland im Halbfinale der WM 2023 mit 113:111?",
+    "antwort": "USA",
+    "akzeptiert": [
+      "Vereinigte Staaten",
+      "Amerika",
+      "Team USA"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Sekunden hat ein Team Zeit, den Ball aus der eigenen Hälfte über die Mittellinie zu bringen?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht",
+      "8 Sekunden"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Nach wie vielen persönlichen Fouls scheidet ein Spieler nach FIBA-Regeln (z. B. in der BBL) aus?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf",
+      "fünftes"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Sekunden darf sich ein Angreifer höchstens ununterbrochen in der Zone unter dem gegnerischen Korb aufhalten?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei",
+      "3 Sekunden"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der ältere Bruder von Franz Wagner, der ebenfalls in der NBA spielt?",
+    "antwort": "Moritz Wagner",
+    "akzeptiert": [
+      "Moritz",
+      "Moe Wagner"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welcher deutschen Stadt stammt Dirk Nowitzki?",
+    "antwort": "Würzburg",
+    "akzeptiert": [
+      "Wuerzburg"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Rückennummer trug Dirk Nowitzki bei den Dallas Mavericks?",
+    "antwort": "41",
+    "akzeptiert": [
+      "einundvierzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Medaille gewann die deutsche Männer-Nationalmannschaft bei der EM 2022, deren Finalrunde in Berlin stattfand?",
+    "antwort": "Bronze",
+    "akzeptiert": [
+      "Bronzemedaille",
+      "Dritter",
+      "Platz 3"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Team wurde 2024 NBA-Meister?",
+    "antwort": "Boston Celtics",
+    "akzeptiert": [
+      "Celtics",
+      "Boston"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Team wurde 2023 erstmals NBA-Meister?",
+    "antwort": "Denver Nuggets",
+    "akzeptiert": [
+      "Nuggets",
+      "Denver"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Franzose wurde im NBA-Draft 2023 an Position 1 von den San Antonio Spurs ausgewählt?",
+    "antwort": "Victor Wembanyama",
+    "akzeptiert": [
+      "Wembanyama",
+      "Wemby"
+    ],
+    "bewertung": "Kleine Schreibfehler okay."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Team hat (Stand 2024) die meisten NBA-Meisterschaften gewonnen?",
+    "antwort": "Boston Celtics",
+    "akzeptiert": [
+      "Celtics",
+      "Boston"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Spieler diente als Vorlage für die Silhouette im NBA-Logo?",
+    "antwort": "Jerry West",
+    "akzeptiert": [
+      "West"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wessen Punkterekord (38.387 Punkte) brach LeBron James im Jahr 2023?",
+    "antwort": "Kareem Abdul-Jabbar",
+    "akzeptiert": [
+      "Kareem",
+      "Abdul-Jabbar"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Gegen welches Team gewannen die Dallas Mavericks 2011 die NBA Finals?",
+    "antwort": "Miami Heat",
+    "akzeptiert": [
+      "Heat",
+      "Miami"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Punkte zählt im 3x3-Basketball ein Treffer von außerhalb des Bogens?",
+    "antwort": "2",
+    "akzeptiert": [
+      "zwei"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Basketball-Variante gewannen deutsche Frauen bei Olympia 2024 Gold?",
+    "antwort": "3x3",
+    "akzeptiert": [
+      "3x3-Basketball",
+      "Drei gegen drei",
+      "3 gegen 3"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Spielzug, bei dem ein Spieler für den Ballführer einen Block stellt und danach zum Korb abrollt?",
+    "antwort": "Pick and Roll",
+    "akzeptiert": [
+      "Pick & Roll",
+      "Pick-and-Roll",
+      "Pick'n'Roll"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man es, wenn ein Spieler beim Wurf gefoult wird, trotzdem trifft und einen Zusatz-Freiwurf bekommt?",
+    "antwort": "And-One",
+    "akzeptiert": [
+      "And One",
+      "And 1",
+      "Bonusfreiwurf"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welchem Team gewann Tim Duncan alle seine fünf NBA-Titel?",
+    "antwort": "San Antonio Spurs",
+    "akzeptiert": [
+      "Spurs",
+      "San Antonio"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Spieler gewann als aktiver Spieler die meisten NBA-Titel, nämlich elf?",
+    "antwort": "Bill Russell",
+    "akzeptiert": [
+      "Russell"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Trophäe, die der NBA-Meister erhält?",
+    "antwort": "Larry O’Brien Trophy",
+    "akzeptiert": [
+      "Larry O'Brien Trophy",
+      "Larry O'Brien",
+      "O'Brien Trophy"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welcher Stadt zogen die Lakers 1960 nach Los Angeles?",
+    "antwort": "Minneapolis"
+  },
+  {
+    "stufe": 5,
+    "frage": "Unter welchem Geburtsnamen begann Kareem Abdul-Jabbar seine Karriere?",
+    "antwort": "Lew Alcindor",
+    "akzeptiert": [
+      "Alcindor",
+      "Ferdinand Lewis Alcindor"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Punkte erzielte Kobe Bryant 2006 in seinem besten NBA-Spiel gegen die Toronto Raptors?",
+    "antwort": "81",
+    "akzeptiert": [
+      "einundachtzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Deutsche spielte schon vor Nowitzki in der NBA und wurde u. a. bei den Seattle SuperSonics All-Star?",
+    "antwort": "Detlef Schrempf",
+    "akzeptiert": [
+      "Schrempf"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr wurde Dirk Nowitzki als erster Europäer zum MVP der regulären NBA-Saison gewählt?",
+    "antwort": "2007"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Dirk Nowitzkis langjähriger Mentor und Privattrainer?",
+    "antwort": "Holger Geschwindner",
+    "akzeptiert": [
+      "Geschwindner"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welcher Stadt wurde Dennis Schröder geboren?",
+    "antwort": "Braunschweig"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Platz belegten die deutschen Basketball-Männer bei Olympia 2024 in Paris?",
+    "antwort": "4",
+    "akzeptiert": [
+      "Vierter",
+      "vierten",
+      "Platz 4",
+      "4. Platz"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Verein ist deutscher Basketball-Rekordmeister der Männer?",
+    "antwort": "Bayer Leverkusen",
+    "akzeptiert": [
+      "Leverkusen",
+      "Bayer Giants Leverkusen",
+      "Bayer 04 Leverkusen"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Verein wurde 2023 überraschend deutscher Basketballmeister?",
+    "antwort": "ratiopharm Ulm",
+    "akzeptiert": [
+      "Ulm",
+      "Ratiopharm Ulm"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer war Bundestrainer der deutschen Männer, als sie 2023 Weltmeister wurden?",
+    "antwort": "Gordon Herbert",
+    "akzeptiert": [
+      "Gordie Herbert",
+      "Herbert"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Jahr wurde Deutschland erstmals Basketball-Europameister der Männer?",
+    "antwort": "1993"
+  },
+  {
+    "stufe": 5,
+    "frage": "In welcher Stadt fanden 1936 die Olympischen Spiele statt, bei denen Basketball erstmals offizielle Disziplin war?",
+    "antwort": "Berlin"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der legendäre Streetball-Platz in Harlem, New York?",
+    "antwort": "Rucker Park",
+    "akzeptiert": [
+      "Rucker"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Bis zu welchem Punktestand wird im 3x3-Basketball gespielt, bevor das Spiel vorzeitig endet?",
+    "antwort": "21",
+    "akzeptiert": [
+      "einundzwanzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Sekunden beträgt die Shot Clock im 3x3-Basketball?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf",
+      "12 Sekunden"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie weit ist die Dreierlinie nach FIBA-Regeln vom Korb entfernt?",
+    "antwort": "6,75 m",
+    "akzeptiert": [
+      "6,75",
+      "6.75 m",
+      "675 cm"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lang ist ein Basketballfeld nach FIBA-Regeln?",
+    "antwort": "28 m",
+    "akzeptiert": [
+      "28",
+      "28 Meter"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Auf wie viele Sekunden wird die Shot Clock nach einem Offensiv-Rebound (Ball hat den Ring berührt) zurückgesetzt?",
+    "antwort": "14",
+    "akzeptiert": [
+      "vierzehn",
+      "14 Sekunden"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Rückennummer trug Michael Jordan direkt nach seinem Comeback 1995 zunächst?",
+    "antwort": "45",
+    "akzeptiert": [
+      "fünfundvierzig"
+    ]
+  }
+]

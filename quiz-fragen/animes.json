@@ -1,1 +1,967 @@
-[]
+[
+  {
+    "stufe": 1,
+    "frage": "Aus welchem Land stammen Animes ursprünglich?",
+    "antwort": "Japan"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man japanische Comics, die oft als Vorlage für Animes dienen?",
+    "antwort": "Manga",
+    "akzeptiert": [
+      "Mangas"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Anime über einen blonden Ninja, der den Neunschwänzigen Fuchs in sich trägt und Hokage werden will?",
+    "antwort": "Naruto",
+    "akzeptiert": [
+      "Naruto Shippuden"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Hauptfigur von „Dragon Ball“, ein Saiyajin mit Stachelfrisur?",
+    "antwort": "Son Goku",
+    "akzeptiert": [
+      "Goku",
+      "Son-Goku",
+      "Kakarott"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Dragon Balls muss man sammeln, um den Drachen Shenlong zu rufen?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt Gokus berühmteste Energieattacke, die er mit beiden Händen abfeuert?",
+    "antwort": "Kamehameha",
+    "akzeptiert": [
+      "Kamehame-Ha"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Haarfarbe bekommt Goku, wenn er sich zum ersten Mal in einen Super-Saiyajin verwandelt?",
+    "antwort": "Blond",
+    "akzeptiert": [
+      "Gold",
+      "golden",
+      "gelb"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Kopfbedeckung trägt Ruffy aus „One Piece“ ständig?",
+    "antwort": "Strohhut",
+    "akzeptiert": [
+      "Strohhüte"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welchem Material besteht Ruffys Körper, nachdem er die Gum-Gum-Frucht gegessen hat?",
+    "antwort": "Gummi",
+    "akzeptiert": [
+      "Kautschuk"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Notizbuch, mit dem Light Yagami Menschen tötet, indem er ihre Namen hineinschreibt?",
+    "antwort": "Death Note",
+    "akzeptiert": [
+      "Todesnotizbuch"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Anime leben die Menschen hinter riesigen Mauern, um sich vor menschenfressenden Riesen zu schützen?",
+    "antwort": "Attack on Titan",
+    "akzeptiert": [
+      "Shingeki no Kyojin",
+      "AoT"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Anime wird Izuku „Deku“ Midoriya ohne Superkraft geboren, will aber trotzdem Held werden?",
+    "antwort": "My Hero Academia",
+    "akzeptiert": [
+      "Boku no Hero Academia",
+      "MHA"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Anime besiegt der glatzköpfige Saitama jeden Gegner mit nur einem einzigen Schlag?",
+    "antwort": "One Punch Man",
+    "akzeptiert": [
+      "One-Punch Man",
+      "Onepunchman"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der stolze Prinz der Saiyajins und Gokus ewiger Rivale?",
+    "antwort": "Vegeta"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Pokémon weigert sich im Anime, in seinen Pokéball zu gehen, und sitzt lieber auf Ashs Schulter?",
+    "antwort": "Pikachu"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man es, wenn sich Fans als ihre Lieblingsfiguren aus Animes verkleiden?",
+    "antwort": "Cosplay",
+    "akzeptiert": [
+      "Cosplayen",
+      "Cosplayer"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was bedeutet das japanische Wort „kawaii“, das Anime-Fans oft benutzen?",
+    "antwort": "niedlich",
+    "akzeptiert": [
+      "süß",
+      "putzig",
+      "cute"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie spricht man in Animes typischerweise einen Lehrer oder Meister an?",
+    "antwort": "Sensei"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Anime spielt Yugi Muto ein Sammelkartenspiel, in dem Monster wie der Schwarze Magier kämpfen?",
+    "antwort": "Yu-Gi-Oh!",
+    "akzeptiert": [
+      "Yu-Gi-Oh",
+      "Yugioh"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher geschrumpfte Detektiv ist in Wahrheit der Oberschüler Shinichi Kudo?",
+    "antwort": "Conan",
+    "akzeptiert": [
+      "Detektiv Conan",
+      "Conan Edogawa",
+      "Edogawa Conan"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Streamingdienst mit orangefarbenem Logo, der sich auf Animes spezialisiert hat?",
+    "antwort": "Crunchyroll"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches japanische Nudelsuppengericht ist Narutos absolutes Lieblingsessen?",
+    "antwort": "Ramen",
+    "akzeptiert": [
+      "Ramen-Suppe",
+      "Nudelsuppe"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Studio produzierte „Mein Nachbar Totoro“ und „Prinzessin Mononoke“?",
+    "antwort": "Studio Ghibli",
+    "akzeptiert": [
+      "Ghibli"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die Früchte in „One Piece“, die Superkräfte verleihen, aber einen schwimmunfähig machen?",
+    "antwort": "Teufelsfrüchte",
+    "akzeptiert": [
+      "Teufelsfrucht",
+      "Devil Fruit",
+      "Devil Fruits"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Navigatorin der Strohhutbande, die Orangen und Geld liebt?",
+    "antwort": "Nami"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Schiffsarzt der Strohhutbande, ein Rentier mit blauer Nase?",
+    "antwort": "Chopper",
+    "akzeptiert": [
+      "Tony Tony Chopper",
+      "Tony Chopper"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Schwertkämpfer der Strohhutbande, der mit drei Schwertern kämpft?",
+    "antwort": "Zorro",
+    "akzeptiert": [
+      "Lorenor Zorro",
+      "Zoro",
+      "Roronoa Zoro"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Ninja-Dorf lebt Naruto?",
+    "antwort": "Konoha",
+    "akzeptiert": [
+      "Konohagakure",
+      "Dorf versteckt hinter den Blättern",
+      "Blattdorf"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Narutos Lehrer mit silbernen Haaren, Maske und Vorliebe für Schmuddelromane?",
+    "antwort": "Kakashi",
+    "akzeptiert": [
+      "Kakashi Hatake",
+      "Hatake Kakashi"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Narutos Signaturtechnik, eine wirbelnde Chakrakugel in der Handfläche?",
+    "antwort": "Rasengan"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Gokus erster Sohn?",
+    "antwort": "Son Gohan",
+    "akzeptiert": [
+      "Gohan"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Unter welchem Namen feiert die Öffentlichkeit in „Death Note“ den unbekannten Mörder Light Yagami?",
+    "antwort": "Kira"
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welchem einzelnen Buchstaben nennt sich der geniale Detektiv, der in „Death Note“ Jagd auf Kira macht?",
+    "antwort": "L"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Obst liebt der Todesgott Ryuk in „Death Note“ über alles?",
+    "antwort": "Äpfel",
+    "akzeptiert": [
+      "Apfel"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Erens Adoptivschwester mit dem roten Schal in „Attack on Titan“?",
+    "antwort": "Mikasa",
+    "akzeptiert": [
+      "Mikasa Ackerman",
+      "Mikasa Ackermann"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der kleine, aber als „stärkster Soldat der Menschheit“ bekannte Hauptmann in „Attack on Titan“?",
+    "antwort": "Levi",
+    "akzeptiert": [
+      "Levi Ackerman",
+      "Levi Ackermann",
+      "Rivaille"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was trägt Nezuko in „Demon Slayer“ ständig im Mund?",
+    "antwort": "Bambus",
+    "akzeptiert": [
+      "Bambusstab",
+      "Bambusrohr",
+      "Bambusknebel",
+      "Maulkorb aus Bambus"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wodurch werden Dämonen in „Demon Slayer“ neben dem Köpfen mit speziellen Schwertern vernichtet?",
+    "antwort": "Sonnenlicht",
+    "akzeptiert": [
+      "Sonne"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Lehrer mit weißen Haaren und Augenbinde, der in „Jujutsu Kaisen“ als stärkster Zauberer gilt?",
+    "antwort": "Satoru Gojo",
+    "akzeptiert": [
+      "Gojo",
+      "Gojo Satoru",
+      "Satoru"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Held Nummer 1 in „My Hero Academia“, der Deku seine Kraft vererbt?",
+    "antwort": "All Might"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Fähigkeit hat das Mädchen Anya in „Spy x Family“?",
+    "antwort": "Gedankenlesen",
+    "akzeptiert": [
+      "Gedanken lesen",
+      "Telepathie",
+      "Gedanken hören"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Sportart steht im Mittelpunkt des Animes „Haikyu!!“?",
+    "antwort": "Volleyball"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Richtung liest man einen japanischen Manga im Original?",
+    "antwort": "von rechts nach links",
+    "akzeptiert": [
+      "rechts nach links"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man den Titelsong, der zu Beginn jeder Anime-Folge läuft?",
+    "antwort": "Opening",
+    "akzeptiert": [
+      "Intro",
+      "OP",
+      "Vorspann"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Bösewicht tötete auf dem Planeten Namek Krillin, woraufhin Goku zum ersten Mal zum Super-Saiyajin wurde?",
+    "antwort": "Freezer",
+    "akzeptiert": [
+      "Frieza",
+      "Freeza"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Gokus Attacke, für die er Energie von allen Lebewesen in seiner Umgebung sammelt?",
+    "antwort": "Genkidama",
+    "akzeptiert": [
+      "Genki-Dama",
+      "Spirit Bomb",
+      "Geistbombe"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der alte Kampfkunstmeister mit Sonnenbrille und Schildkrötenpanzer, der Goku trainierte?",
+    "antwort": "Muten Roshi",
+    "akzeptiert": [
+      "Herr der Schildkröten",
+      "Master Roshi",
+      "Kame-Sennin",
+      "Muten-Roshi"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer erfand in „Dragon Ball“ den Dragon Radar, mit dem man die Dragon Balls aufspüren kann?",
+    "antwort": "Bulma"
+  },
+  {
+    "stufe": 3,
+    "frage": "Von welchem Planeten stammt Piccolo in „Dragon Ball“?",
+    "antwort": "Namek",
+    "akzeptiert": [
+      "Namekianer",
+      "Planet Namek"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Ruffys älterer Bruder, der die Feuer-Feuer-Frucht gegessen hat?",
+    "antwort": "Ace",
+    "akzeptiert": [
+      "Puma D. Ace",
+      "Portgas D. Ace"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Buchstabe steht in Ruffys vollem Namen „Monkey ___ Ruffy“?",
+    "antwort": "D",
+    "akzeptiert": [
+      "D."
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Koch der Strohhutbande, der nur mit den Beinen kämpft?",
+    "antwort": "Sanji",
+    "akzeptiert": [
+      "Vinsmoke Sanji"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Organisation abtrünniger Ninjas in „Naruto“, die schwarze Mäntel mit roten Wolken trägt?",
+    "antwort": "Akatsuki"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das rote Auge mit schwarzen Mustern, das Mitglieder des Uchiha-Clans besitzen?",
+    "antwort": "Sharingan"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Sasukes älterer Bruder, der in „Naruto“ fast den ganzen Uchiha-Clan auslöschte?",
+    "antwort": "Itachi",
+    "akzeptiert": [
+      "Itachi Uchiha",
+      "Uchiha Itachi"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Narutos Sohn, nach dem auch eine eigene Nachfolgeserie benannt ist?",
+    "antwort": "Boruto",
+    "akzeptiert": [
+      "Boruto Uzumaki",
+      "Uzumaki Boruto"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Todesgott (Shinigami), der sein Death Note in die Menschenwelt fallen lässt?",
+    "antwort": "Ryuk",
+    "akzeptiert": [
+      "Ryuuk"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Dämonenjäger in „Demon Slayer“ trägt ständig einen Wildschweinkopf als Maske?",
+    "antwort": "Inosuke",
+    "akzeptiert": [
+      "Inosuke Hashibira",
+      "Hashibira Inosuke"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was verschluckt Yuji Itadori in „Jujutsu Kaisen“, wodurch der Fluchkönig Sukuna in ihm erwacht?",
+    "antwort": "Sukunas Finger",
+    "akzeptiert": [
+      "Finger",
+      "einen Finger von Sukuna",
+      "Finger von Sukuna"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die von Generation zu Generation weitergegebene Kraft, die Deku in „My Hero Academia“ erbt?",
+    "antwort": "One For All",
+    "akzeptiert": [
+      "One for All"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Teufel ist Denjis Hund Pochita in „Chainsaw Man“?",
+    "antwort": "Kettensägen-Teufel",
+    "akzeptiert": [
+      "Kettensägenteufel",
+      "Chainsaw Devil",
+      "Kettensäge"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Gons bester Freund in „Hunter x Hunter“, der aus einer Familie von Auftragsmördern stammt?",
+    "antwort": "Killua",
+    "akzeptiert": [
+      "Killua Zoldyck"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Edward Elrics jüngerer Bruder, dessen Seele in einer Ritterrüstung gebunden ist?",
+    "antwort": "Alphonse",
+    "akzeptiert": [
+      "Alphonse Elric",
+      "Al"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was für ein Wesen ist die Magierin Frieren, die über tausend Jahre alt ist?",
+    "antwort": "Elfe",
+    "akzeptiert": [
+      "Elf",
+      "Elbin"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Ghibli-Film wird das Mädchen Sophie von einer Hexe in eine alte Frau verwandelt?",
+    "antwort": "Das wandelnde Schloss",
+    "akzeptiert": [
+      "Howl's Moving Castle",
+      "Howls wandelndes Schloss",
+      "Hauru no Ugoku Shiro"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man Mangas und Animes, die sich vor allem an Jungen richten, z. B. „Naruto“ oder „One Piece“?",
+    "antwort": "Shōnen",
+    "akzeptiert": [
+      "Shonen",
+      "Shounen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Mangaka, der „One Piece“ erschaffen hat?",
+    "antwort": "Eiichiro Oda",
+    "akzeptiert": [
+      "Oda",
+      "Eiichirō Oda"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Mangaka, der „Dragon Ball“ erschaffen hat und 2024 starb?",
+    "antwort": "Akira Toriyama",
+    "akzeptiert": [
+      "Toriyama"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man in „One Piece“ die Willenskraft, die es als Rüstungs-, Observations- und Königs-Variante gibt?",
+    "antwort": "Haki"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wer war vor Ruffy der König der Piraten, dessen Hinrichtung das große Piratenzeitalter auslöste?",
+    "antwort": "Gol D. Roger",
+    "akzeptiert": [
+      "Gold Roger",
+      "Gol D Roger",
+      "Roger"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß das erste Schiff der Strohhutbande, bevor sie die Thousand Sunny bekam?",
+    "antwort": "Going Merry",
+    "akzeptiert": [
+      "Flying Lamb",
+      "Merry",
+      "Going Merry-Go"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Neunschwänzige Fuchs, der in Naruto versiegelt ist, mit Eigennamen?",
+    "antwort": "Kurama",
+    "akzeptiert": [
+      "Kyubi",
+      "Kyuubi"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wer ist Narutos Vater, der als Vierter Hokage das Dorf rettete?",
+    "antwort": "Minato",
+    "akzeptiert": [
+      "Minato Namikaze",
+      "Namikaze Minato",
+      "Yondaime"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Von welchem Planeten stammen die Saiyajins in „Dragon Ball“ ursprünglich (benannt nach ihrem König)?",
+    "antwort": "Vegeta",
+    "akzeptiert": [
+      "Planet Vegeta"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Gokus Zustand aus „Dragon Ball Super“, in dem sein Körper ohne Nachdenken reagiert und seine Haare silbern werden?",
+    "antwort": "Ultra Instinct",
+    "akzeptiert": [
+      "Migatte no Gokui",
+      "Ultra-Instinkt",
+      "Ultra Instinkt"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die äußerste der drei Mauern in „Attack on Titan“?",
+    "antwort": "Wall Maria",
+    "akzeptiert": [
+      "Maria",
+      "Mauer Maria"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Insel, auf der die Mauern in „Attack on Titan“ stehen?",
+    "antwort": "Paradis",
+    "akzeptiert": [
+      "Paradis Island",
+      "Insel Paradis"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie werden die neun stärksten Dämonenjäger in „Demon Slayer“ genannt?",
+    "antwort": "Hashira",
+    "akzeptiert": [
+      "Säulen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Flammen-Hashira stirbt in „Demon Slayer: Mugen Train“?",
+    "antwort": "Rengoku",
+    "akzeptiert": [
+      "Kyojuro Rengoku",
+      "Kyōjurō Rengoku",
+      "Rengoku Kyojuro"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Finger von Sukuna gibt es in „Jujutsu Kaisen“ insgesamt?",
+    "antwort": "20",
+    "akzeptiert": [
+      "zwanzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man in „Jujutsu Kaisen“ die Technik, bei der ein Zauberer einen eigenen Raum erschafft, in dem seine Angriffe garantiert treffen?",
+    "antwort": "Domain Expansion",
+    "akzeptiert": [
+      "Gebietserweiterung",
+      "Ryoiki Tenkai",
+      "Domäne",
+      "Domänenerweiterung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Fähigkeit hat der große weiße Hund Bond in „Spy x Family“?",
+    "antwort": "in die Zukunft sehen",
+    "akzeptiert": [
+      "Zukunft sehen",
+      "Hellsehen",
+      "Vorhersehen",
+      "Präkognition"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Körperteile verlor Edward Elric in „Fullmetal Alchemist“ durch die missglückte Menschentransmutation?",
+    "antwort": "Arm und Bein",
+    "akzeptiert": [
+      "Bein und Arm",
+      "rechter Arm und linkes Bein"
+    ],
+    "bewertung": "Beide Körperteile müssen genannt sein."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Grundgesetz der Alchemie in „Fullmetal Alchemist“, nach dem man für alles etwas Gleichwertiges geben muss?",
+    "antwort": "Äquivalenter Tausch",
+    "akzeptiert": [
+      "Gesetz des äquivalenten Tausches",
+      "Equivalent Exchange",
+      "Äquivalenzprinzip"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Haarfarbe bekommt Ken Kaneki in „Tokyo Ghoul“ nach der Folter durch Jason?",
+    "antwort": "Weiß",
+    "akzeptiert": [
+      "weiss",
+      "silber"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Land entstand die Webnovel bzw. der Webcomic, auf dem „Solo Leveling“ basiert?",
+    "antwort": "Südkorea",
+    "akzeptiert": [
+      "Korea"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Von welchen Tieren wurde San in „Prinzessin Mononoke“ aufgezogen?",
+    "antwort": "Wölfe",
+    "akzeptiert": [
+      "Wolf",
+      "Wölfin",
+      "Wolfsgöttin"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Feuerdämon, der in „Das wandelnde Schloss“ das Schloss antreibt?",
+    "antwort": "Calcifer",
+    "akzeptiert": [
+      "Calzifer",
+      "Karushifā"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Ruffys Teufelsfrucht seit ihrer Enthüllung in „One Piece“ in Wahrheit (Modellname)?",
+    "antwort": "Nika",
+    "akzeptiert": [
+      "Mensch-Mensch-Frucht Modell Nika",
+      "Hito Hito no Mi Modell Nika",
+      "Sonnengott Nika"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Ruffys Großvater, ein berühmter Vizeadmiral der Marine?",
+    "antwort": "Garp",
+    "akzeptiert": [
+      "Monkey D. Garp"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer erschuf den Manga „Naruto“?",
+    "antwort": "Masashi Kishimoto",
+    "akzeptiert": [
+      "Kishimoto"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Fusion aus Goku und Vegeta, die durch die Potara-Ohrringe entsteht?",
+    "antwort": "Vegetto",
+    "akzeptiert": [
+      "Vegito",
+      "Vegerot"
+    ],
+    "bewertung": "„Gogeta“ ist falsch (Fusionstanz)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer ist in „Attack on Titan“ der gepanzerte Titan?",
+    "antwort": "Reiner",
+    "akzeptiert": [
+      "Reiner Braun"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Urahnin aller Titanen in „Attack on Titan“?",
+    "antwort": "Ymir",
+    "akzeptiert": [
+      "Ymir Fritz"
+    ],
+    "bewertung": "Nicht zu verwechseln mit der jüngeren Ymir; Antwort „Ymir“ reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet L's vollständiger Name in „Death Note“?",
+    "antwort": "L Lawliet",
+    "akzeptiert": [
+      "Lawliet"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Sekunden dauert es laut den Regeln des Death Note, bis jemand nach dem Eintrag seines Namens ohne Todesursache stirbt?",
+    "antwort": "40",
+    "akzeptiert": [
+      "vierzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Gojos Domain Expansion in „Jujutsu Kaisen“?",
+    "antwort": "Unendliche Leere",
+    "akzeptiert": [
+      "Infinite Void",
+      "Unlimited Void",
+      "Muryokusho",
+      "Muryōkūsho",
+      "Grenzenlose Leere",
+      "Unbegrenzte Leere"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Studio animierte sowohl „Jujutsu Kaisen“ als auch „Chainsaw Man“?",
+    "antwort": "MAPPA",
+    "akzeptiert": [
+      "Mappa"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Studio animierte den Anime „Demon Slayer“?",
+    "antwort": "ufotable",
+    "akzeptiert": [
+      "Ufotable"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Gons Vater in „Hunter x Hunter“, ein legendärer Hunter?",
+    "antwort": "Ging",
+    "akzeptiert": [
+      "Ging Freecss",
+      "Ging Freeks"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Diebesbande in „Hunter x Hunter“, die Kurapikas Clan auslöschte?",
+    "antwort": "Phantom Troupe",
+    "akzeptiert": [
+      "Spinne",
+      "Genei Ryodan",
+      "Gen'ei Ryodan",
+      "Phantomtruppe",
+      "Spinnen"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Held, mit dem Frieren einst den Dämonenkönig besiegte und um den sie später trauert?",
+    "antwort": "Himmel"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Teufel ist Makima in „Chainsaw Man“ in Wahrheit?",
+    "antwort": "Kontroll-Teufel",
+    "akzeptiert": [
+      "Kontrollteufel",
+      "Control Devil",
+      "Herrschafts-Teufel"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Position spielt Tobio Kageyama im Volleyball-Anime „Haikyu!!“?",
+    "antwort": "Zuspieler",
+    "akzeptiert": [
+      "Setter",
+      "Passeur"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Oberschule von Shoyo Hinata in „Haikyu!!“?",
+    "antwort": "Karasuno",
+    "akzeptiert": [
+      "Karasuno High",
+      "Karasuno-Oberschule"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Ghibli-Film gewann 2024 den Oscar als bester Animationsfilm?",
+    "antwort": "Der Junge und der Reiher",
+    "akzeptiert": [
+      "The Boy and the Heron",
+      "Kimitachi wa Dō Ikiru ka",
+      "Wie wollt ihr leben"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet der japanische Originaltitel von „Your Name.“?",
+    "antwort": "Kimi no Na wa",
+    "akzeptiert": [
+      "Kimi no Na wa.",
+      "Kimi no na wa"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Ash Ketchum im japanischen Original des Pokémon-Animes?",
+    "antwort": "Satoshi"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht die Abkürzung „OVA“ bei Animes?",
+    "antwort": "Original Video Animation",
+    "akzeptiert": [
+      "Original Video Anime"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Manga-Zielgruppe für erwachsene Männer, zu der z. B. „Berserk“ gehört?",
+    "antwort": "Seinen"
+  },
+  {
+    "stufe": 2,
+    "frage": "Um welche Sportart geht es im Anime „Blue Lock“?",
+    "antwort": "Fußball",
+    "akzeptiert": [
+      "Fussball",
+      "Soccer"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Krankenschwester, die im Pokémon-Anime in jedem Pokémon-Center arbeitet?",
+    "antwort": "Schwester Joy",
+    "akzeptiert": [
+      "Joy",
+      "Nurse Joy"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier dient in „Mein Nachbar Totoro“ gleichzeitig als Bus?",
+    "antwort": "Katze",
+    "akzeptiert": [
+      "Katzenbus",
+      "Kater"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man das Anime-Genre, in dem die Hauptfigur in eine andere Welt versetzt oder dort wiedergeboren wird?",
+    "antwort": "Isekai"
+  }
+]

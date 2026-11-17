@@ -1,1 +1,823 @@
-[]
+[
+  {
+    "stufe": 1,
+    "frage": "Welche Marke hat einen angebissenen Apfel als Logo?",
+    "antwort": "Apple"
+  },
+  {
+    "stufe": 1,
+    "frage": "Zu welcher Marke gehört ein gelbes ‚M‘ aus zwei Bögen auf rotem Grund?",
+    "antwort": "McDonald's",
+    "akzeptiert": [
+      "McDonalds",
+      "McDoof",
+      "Mäckes"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Automobil-Logo zeigt vier ineinander verschlungene Ringe?",
+    "antwort": "Audi"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist im Logo von Lacoste?",
+    "antwort": "Krokodil",
+    "akzeptiert": [
+      "Alligator"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe hat das Logo von Spotify?",
+    "antwort": "Grün",
+    "akzeptiert": [
+      "Grün und Schwarz"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sportmarke hat einen geschwungenen Haken (‚Swoosh‘) als Logo?",
+    "antwort": "Nike"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sportmarke ist für ihr Logo mit drei Streifen bekannt?",
+    "antwort": "Adidas"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Plattform hatte bis 2023 einen kleinen blauen Vogel als Logo?",
+    "antwort": "Twitter",
+    "akzeptiert": [
+      "X"
+    ],
+    "bewertung": "Auch „X“ ist richtig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche App hat einen weißen Telefonhörer in einer Sprechblase auf grünem Grund als Logo?",
+    "antwort": "WhatsApp"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche App hat einen weißen Geist auf gelbem Grund als Logo?",
+    "antwort": "Snapchat"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Plattform hat ein weißes Play-Dreieck in einem roten abgerundeten Rechteck als Logo?",
+    "antwort": "YouTube"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Kaffeehauskette hat eine grün-weiße Meerjungfrau mit Krone im Logo?",
+    "antwort": "Starbucks"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist im Logo von Ferrari zu sehen?",
+    "antwort": "Pferd",
+    "akzeptiert": [
+      "aufbäumendes Pferd",
+      "Hengst",
+      "Cavallino Rampante"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche App hat eine weiße Kamera-Umrisslinie auf einem Farbverlauf von Gelb über Pink zu Lila als Logo?",
+    "antwort": "Instagram"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Plattform hat ein weißes kleines ‚f‘ auf blauem Grund als Logo?",
+    "antwort": "Facebook",
+    "akzeptiert": [
+      "Meta"
+    ],
+    "bewertung": "Auch „Meta“ gilt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Marke zeigt zwei rote Stiere, die vor einer gelben Sonne aufeinander losgehen?",
+    "antwort": "Red Bull"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Automarke hat einen dreizackigen Stern in einem Kreis als Logo?",
+    "antwort": "Mercedes-Benz",
+    "akzeptiert": [
+      "Mercedes",
+      "Daimler"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Suchmaschine schreibt ihren Namen in den Farben Blau, Rot, Gelb, Blau, Grün und Rot?",
+    "antwort": "Google"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Streamingdienst hat ein rotes ‚N‘ auf schwarzem Grund als App-Logo?",
+    "antwort": "Netflix"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche App hat eine Musiknote mit türkisem und pinkem Schatten auf schwarzem Grund als Logo?",
+    "antwort": "TikTok"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Möbelhaus hat einen blauen Schriftzug in einem gelben Oval auf blauem Rechteck als Logo?",
+    "antwort": "IKEA"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Mineralölkonzern hat eine gelb-rote Muschel als Logo?",
+    "antwort": "Shell"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Sportmarke hat eine springende Raubkatze als Logo?",
+    "antwort": "Puma"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Firma hat ein Logo aus vier Quadraten in Rot, Grün, Blau und Gelb?",
+    "antwort": "Microsoft",
+    "akzeptiert": [
+      "Windows"
+    ],
+    "bewertung": "Auch „Windows“ ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Onlinehändler hat einen orangefarbenen Pfeil unter seinem Namen, der wie ein Lächeln aussieht?",
+    "antwort": "Amazon"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Getränk hat einen Kreis als Logo, oben rot, unten blau, mit einer weißen Welle dazwischen?",
+    "antwort": "Pepsi",
+    "akzeptiert": [
+      "Pepsi-Cola"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Automarke hat einen Kreis aus blauen und weißen Vierteln in einem schwarzen Ring als Logo?",
+    "antwort": "BMW"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Automarke hat ein ‚V‘ über einem ‚W‘ in einem Kreis als Logo?",
+    "antwort": "Volkswagen",
+    "akzeptiert": [
+      "VW"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Tier ist im Logo von Lamborghini?",
+    "antwort": "Stier",
+    "akzeptiert": [
+      "Bulle"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Tier ist im Logo von Peugeot?",
+    "antwort": "Löwe"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Discounter hat einen gelben Kreis mit rotem Rand auf blauem Quadrat als Logo?",
+    "antwort": "Lidl"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Chat-App für Gamer hat ein weißes Gesicht, das an einen Gamecontroller erinnert, auf blau-lila Grund als Logo?",
+    "antwort": "Discord"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Messenger hat einen weißen Papierflieger in einem hellblauen Kreis als Logo?",
+    "antwort": "Telegram"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Smartphone-Betriebssystem hat einen grünen Roboter als Logo?",
+    "antwort": "Android"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Logo besteht aus einem aufrecht stehenden ‚P‘ und einem flach liegenden ‚S‘?",
+    "antwort": "PlayStation",
+    "akzeptiert": [
+      "Sony PlayStation",
+      "Sony"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Spielkonsole hat einen grünen Kreis mit einem weißen ‚X‘ als Logo?",
+    "antwort": "Xbox",
+    "akzeptiert": [
+      "Microsoft Xbox"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Browser hat einen orangefarbenen Fuchs als Logo, der sich um eine Weltkugel legt?",
+    "antwort": "Firefox",
+    "akzeptiert": [
+      "Mozilla Firefox"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Browser hat einen Kreis aus Rot, Gelb und Grün mit einem blauen Punkt in der Mitte als Logo?",
+    "antwort": "Google Chrome",
+    "akzeptiert": [
+      "Chrome"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Dating-App hat eine Flamme als Logo?",
+    "antwort": "Tinder"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Sprachlern-App hat eine grüne Eule als Maskottchen?",
+    "antwort": "Duolingo"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Tier ist das bekannte Maskottchen von Haribo?",
+    "antwort": "Bär",
+    "akzeptiert": [
+      "Goldbär",
+      "Gummibär"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Schokoladenmarke hat eine lila Kuh als Markenzeichen?",
+    "antwort": "Milka"
+  },
+  {
+    "stufe": 2,
+    "frage": "Bei welcher Fast-Food-Kette steht der Name zwischen zwei Brötchenhälften?",
+    "antwort": "Burger King"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Fast-Food-Kette hat einen älteren Mann mit weißem Bart, Brille und Fliege im Logo?",
+    "antwort": "KFC",
+    "akzeptiert": [
+      "Kentucky Fried Chicken"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Tier ist auf dem Etikett von Jägermeister zu sehen?",
+    "antwort": "Hirsch"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Telekommunikationsunternehmen hat ein magentafarbenes ‚T‘ als Logo?",
+    "antwort": "Telekom",
+    "akzeptiert": [
+      "Deutsche Telekom",
+      "T-Mobile"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Gebäude ist im Logo von Walt Disney zu sehen?",
+    "antwort": "Schloss",
+    "akzeptiert": [
+      "Märchenschloss",
+      "Burg",
+      "Dornröschenschloss"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Bundesligist hat blau-weiße Rauten in der Mitte seines Vereinswappens?",
+    "antwort": "FC Bayern München",
+    "akzeptiert": [
+      "Bayern München",
+      "Bayern",
+      "FC Bayern"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe hat der Hintergrund des Ferrari-Schilds mit dem schwarzen Pferd?",
+    "antwort": "Gelb"
+  },
+  {
+    "stufe": 3,
+    "frage": "Die Farben im BMW-Logo stammen aus der Flagge welches Bundeslandes?",
+    "antwort": "Bayern",
+    "akzeptiert": [
+      "Freistaat Bayern"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Automarke hat drei ineinander liegende Ellipsen als Logo?",
+    "antwort": "Toyota"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Automarke hat zwei übereinanderliegende Winkel (Doppelwinkel) als Logo?",
+    "antwort": "Citroën",
+    "akzeptiert": [
+      "Citroen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Plattform hat ein weißes ‚P‘, das an eine Stecknadel erinnert, auf rotem Kreis als Logo?",
+    "antwort": "Pinterest"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Plattform hat einen weißen Alien-Kopf mit Antenne auf orangem Grund als Logo?",
+    "antwort": "Reddit"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Schuhmarke hat einen fünfzackigen Stern im Logo, oft auf einem runden Aufnäher am Knöchel?",
+    "antwort": "Converse"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Modehaus hat zwei verschlungene ‚C‘, die Rücken an Rücken stehen, als Logo?",
+    "antwort": "Chanel"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Modehaus hat zwei ineinandergreifende ‚G‘, eins davon spiegelverkehrt, als Logo?",
+    "antwort": "Gucci"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier ist im Logo von Bacardi?",
+    "antwort": "Fledermaus"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Biermarke hat einen roten Stern im Logo und eine grüne Flasche?",
+    "antwort": "Heineken"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Vogel ist im Logo der Lufthansa?",
+    "antwort": "Kranich"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Instrument ist im Logo der Deutschen Post?",
+    "antwort": "Posthorn",
+    "akzeptiert": [
+      "Horn"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Bank hat ein rotes ‚S‘ mit einem Punkt darüber als Logo?",
+    "antwort": "Sparkasse"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier brüllt im Vorspann der Filme des Studios Metro-Goldwyn-Mayer?",
+    "antwort": "Löwe"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Gegenstand hüpft im Vorspann von Pixar auf den Buchstaben ‚I‘?",
+    "antwort": "Schreibtischlampe",
+    "akzeptiert": [
+      "Lampe",
+      "Luxo Jr."
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier ist das Maskottchen des Betriebssystems Linux?",
+    "antwort": "Pinguin",
+    "akzeptiert": [
+      "Tux"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Browser hat einen Kompass als Logo?",
+    "antwort": "Safari"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier ist im Wappen von Eintracht Frankfurt?",
+    "antwort": "Adler"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier ist das Maskottchen des 1. FC Köln und steht in dessen Wappen vor dem Dom?",
+    "antwort": "Geißbock",
+    "akzeptiert": [
+      "Ziegenbock",
+      "Bock",
+      "Ziege",
+      "Hennes"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Figur ist im Wappen von Manchester United zu sehen?",
+    "antwort": "Teufel",
+    "akzeptiert": [
+      "roter Teufel",
+      "Red Devil"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Bauwerk ist im Wappen von Paris Saint-Germain zu sehen?",
+    "antwort": "Eiffelturm"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Bundesligist hat eine grüne Raute mit einem weißen ‚W‘ als Wappen?",
+    "antwort": "Werder Bremen",
+    "akzeptiert": [
+      "Werder",
+      "SV Werder Bremen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Reifenmarke hat ein Männchen aus weißen Reifen als Maskottchen?",
+    "antwort": "Michelin"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Punkte hat der Dominostein im Logo von Domino's Pizza?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Tier ist auf der rechten Hälfte des Alfa-Romeo-Logos zu sehen?",
+    "antwort": "Schlange",
+    "akzeptiert": [
+      "Drache",
+      "Biscione"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Tier ist im Logo von Abarth?",
+    "antwort": "Skorpion"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Automarke hat einen Dreizack als Logo?",
+    "antwort": "Maserati"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche tschechische Automarke hat einen geflügelten Pfeil als Logo?",
+    "antwort": "Škoda",
+    "akzeptiert": [
+      "Skoda"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche US-Automarke hat ein goldenes Logo in Form einer Fliege (‚Bowtie‘)?",
+    "antwort": "Chevrolet",
+    "akzeptiert": [
+      "Chevy"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Automarke nutzt das Symbol für Eisen bzw. Mars – einen Kreis mit einem Pfeil nach rechts oben?",
+    "antwort": "Volvo"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Sportmarke hat einen Mann und eine Frau, die Rücken an Rücken sitzen, als Logo?",
+    "antwort": "Kappa"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Figur aus der griechischen Mythologie ist im Logo von Versace?",
+    "antwort": "Medusa"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Vogel ist im Logo von Hollister?",
+    "antwort": "Möwe",
+    "akzeptiert": [
+      "Seemöwe"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Tier ist im Logo von Abercrombie & Fitch?",
+    "antwort": "Elch"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Gegenstand ist im Logo der Biermarke Beck's zu sehen?",
+    "antwort": "Schlüssel",
+    "akzeptiert": [
+      "Bremer Schlüssel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Filmstudio hat einen Jungen als Logo, der auf einer Mondsichel sitzt und angelt?",
+    "antwort": "DreamWorks",
+    "akzeptiert": [
+      "DreamWorks Animation"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Plattform für Programmierer hat eine Katze mit Krakenarmen als Logo?",
+    "antwort": "GitHub"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie sah das Apple-Logo von 1977 bis 1998 farblich aus?",
+    "antwort": "Regenbogenfarben",
+    "akzeptiert": [
+      "Regenbogen",
+      "bunt gestreift",
+      "bunte Streifen"
+    ],
+    "bewertung": "Jede Antwort, die bunte/Regenbogen-Streifen beschreibt, ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür stehen laut Mercedes-Benz die drei Zacken des Mercedes-Sterns?",
+    "antwort": "Land, Wasser, Luft",
+    "akzeptiert": [
+      "Land, Wasser und Luft"
+    ],
+    "bewertung": "Alle drei Bereiche müssen genannt werden, Reihenfolge egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Tier steht auf einem Fußball im Wappen von Tottenham Hotspur?",
+    "antwort": "Hahn"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Tier säugt im Wappen der AS Rom zwei Kinder?",
+    "antwort": "Wölfin",
+    "akzeptiert": [
+      "Wolf",
+      "Kapitolinische Wölfin"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist im Logo von Nestlé zu sehen?",
+    "antwort": "Vogelnest",
+    "akzeptiert": [
+      "Nest",
+      "Nest mit Vögeln",
+      "Vögel im Nest"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Person ist im Logo der Münchner Brauerei Paulaner zu sehen?",
+    "antwort": "Mönch",
+    "akzeptiert": [
+      "Franz von Paola"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Grafikkarten-Firma hat ein grünes Logo mit einem stilisierten Auge?",
+    "antwort": "Nvidia"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die grüne Eule, das Maskottchen von Duolingo?",
+    "antwort": "Duo"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Outdoor-Marke hat ein Logo, das die Felskuppel ‚Half Dome‘ im Yosemite-Nationalpark andeutet?",
+    "antwort": "The North Face",
+    "akzeptiert": [
+      "North Face"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welchen Sport betrieb René Lacoste, der Gründer der Marke mit dem Krokodil-Logo?",
+    "antwort": "Tennis"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Filmstudio hat eine Frau im Gewand mit erhobener Fackel als Logo?",
+    "antwort": "Columbia Pictures",
+    "akzeptiert": [
+      "Columbia"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Jeansmarke hat auf ihrem Leder-Etikett zwei Pferde, die an einer Jeans ziehen?",
+    "antwort": "Levi's",
+    "akzeptiert": [
+      "Levis",
+      "Levi Strauss"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche britische Modemarke hat einen Lorbeerkranz als Logo?",
+    "antwort": "Fred Perry"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Michelin-Männchen?",
+    "antwort": "Bibendum",
+    "akzeptiert": [
+      "Bib"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß der blaue Vogel im alten Twitter-Logo?",
+    "antwort": "Larry",
+    "akzeptiert": [
+      "Larry the Bird"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Wissenschaftler war auf dem allerersten Apple-Logo von 1976 zu sehen?",
+    "antwort": "Isaac Newton",
+    "akzeptiert": [
+      "Newton"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Studentin, die 1971 den Nike-Swoosh entwarf?",
+    "antwort": "Carolyn Davidson",
+    "akzeptiert": [
+      "Davidson"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Zu welcher Automarke gehört die Kühlerfigur ‚Spirit of Ecstasy‘?",
+    "antwort": "Rolls-Royce",
+    "akzeptiert": [
+      "Rolls Royce"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Tier steht im Wappen von Atlético Madrid an einem Baum?",
+    "antwort": "Bär"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wessen Kopf ist im Wappen von Ajax Amsterdam zu sehen?",
+    "antwort": "Ajax",
+    "akzeptiert": [
+      "Aias",
+      "Ajax der Große"
+    ],
+    "bewertung": "Gemeint ist der griechische Held Ajax/Aias."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus wie vielen Sternen besteht der Ball im Logo der Champions League?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Basketballspieler soll die Silhouette im NBA-Logo sein?",
+    "antwort": "Jerry West",
+    "akzeptiert": [
+      "West"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche englische Sportmarke hat eine doppelte Raute als Logo?",
+    "antwort": "Umbro"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Tier ist im Logo der dänischen Supermarktkette Netto zu sehen?",
+    "antwort": "Hund",
+    "akzeptiert": [
+      "Scottish Terrier",
+      "Terrier",
+      "Scotchterrier"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Die Initialen welches Wikingerkönigs bilden in Runenschrift das Bluetooth-Logo?",
+    "antwort": "Harald Blauzahn",
+    "akzeptiert": [
+      "Harald Bluetooth",
+      "Harald Gormsson",
+      "Harald"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Waffe aus der römischen Mythologie soll das USB-Symbol darstellen?",
+    "antwort": "Dreizack",
+    "akzeptiert": [
+      "Neptuns Dreizack"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Geist im Snapchat-Logo?",
+    "antwort": "Ghostface Chillah",
+    "akzeptiert": [
+      "Ghostface Chilla"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Alien-Maskottchen von Reddit?",
+    "antwort": "Snoo"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Mann mit Schnurrbart im Pringles-Logo?",
+    "antwort": "Julius Pringles",
+    "akzeptiert": [
+      "Mr. P",
+      "Mister P",
+      "Julius"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Von welchem italienischen Jagdflieger des Ersten Weltkriegs stammt das Pferd im Ferrari-Logo?",
+    "antwort": "Francesco Baracca",
+    "akzeptiert": [
+      "Baracca"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Sternhaufen ist im Logo von Subaru abgebildet?",
+    "antwort": "Plejaden",
+    "akzeptiert": [
+      "Siebengestirn",
+      "Subaru"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Tier ist im Berg auf der Toblerone-Verpackung versteckt?",
+    "antwort": "Bär"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches versteckte Symbol entsteht im FedEx-Logo zwischen dem ‚E‘ und dem ‚x‘?",
+    "antwort": "Pfeil"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist zwischen ‚Good‘ und ‚Year‘ im Goodyear-Logo zu sehen?",
+    "antwort": "Geflügelter Schuh",
+    "akzeptiert": [
+      "Flügelschuh",
+      "geflügelter Fuß",
+      "Schuh mit Flügeln"
+    ]
+  }
+]

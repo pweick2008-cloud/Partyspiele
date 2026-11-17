@@ -15,72 +15,10 @@
   },
   {
     "stufe": 1,
-    "frage": "Wer gründete 1975 zusammen mit Paul Allen die Firma Microsoft?",
-    "antwort": "Bill Gates",
-    "akzeptiert": [
-      "Gates",
-      "William Gates"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 1,
-    "frage": "Welcher US-Amerikaner gilt als Erfinder der Glühbirne?",
-    "antwort": "Thomas Edison",
-    "akzeptiert": [
-      "Edison",
-      "Thomas Alva Edison"
-    ],
-    "bewertung": "Nachname reicht. Auch Joseph Swan oder Heinrich Göbel gelten als richtig (umstrittene Erfinderschaft)."
-  },
-  {
-    "stufe": 1,
-    "frage": "Welche Suchmaschine gründeten Larry Page und Sergey Brin?",
-    "antwort": "Google"
-  },
-  {
-    "stufe": 1,
-    "frage": "Welcher Deutsche ließ sich 1886 seinen Motorwagen patentieren und ist Namensgeber einer bekannten Automarke?",
-    "antwort": "Carl Benz",
-    "akzeptiert": [
-      "Benz",
-      "Karl Benz"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 1,
     "frage": "Welches Unternehmen entwickelt das Smartphone-Betriebssystem Android?",
     "antwort": "Google",
     "akzeptiert": [
       "Alphabet"
-    ]
-  },
-  {
-    "stufe": 1,
-    "frage": "Wer gründete 2002 das Raumfahrtunternehmen SpaceX?",
-    "antwort": "Elon Musk",
-    "akzeptiert": [
-      "Musk"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 1,
-    "frage": "Welches Gerät ließ sich Alexander Graham Bell 1876 patentieren?",
-    "antwort": "Telefon",
-    "akzeptiert": [
-      "Telephon",
-      "Fernsprecher"
-    ]
-  },
-  {
-    "stufe": 1,
-    "frage": "Wie heißt die Spielkonsolen-Reihe von Sony?",
-    "antwort": "PlayStation",
-    "akzeptiert": [
-      "Playstation",
-      "PS"
     ]
   },
   {
@@ -91,28 +29,9 @@
   },
   {
     "stufe": 1,
-    "frage": "Wer gründete 1994 den Onlinehändler Amazon?",
-    "antwort": "Jeff Bezos",
-    "akzeptiert": [
-      "Bezos"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 1,
     "frage": "Wofür steht die Abkürzung PC?",
     "antwort": "Personal Computer",
     "bewertung": "Auch „persönlicher Computer“ ist richtig."
-  },
-  {
-    "stufe": 1,
-    "frage": "Welche Strahlen entdeckte Wilhelm Conrad Röntgen 1895?",
-    "antwort": "Röntgenstrahlen",
-    "akzeptiert": [
-      "X-Strahlen",
-      "X-Rays",
-      "Röntgenstrahlung"
-    ]
   },
   {
     "stufe": 1,
@@ -121,57 +40,13 @@
   },
   {
     "stufe": 1,
-    "frage": "Welches Fortbewegungsmittel ließen die Brüder Wright 1903 erstmals erfolgreich abheben?",
-    "antwort": "Flugzeug",
-    "akzeptiert": [
-      "Motorflugzeug",
-      "Flieger"
-    ]
-  },
-  {
-    "stufe": 1,
     "frage": "Wofür steht die Abkürzung KI?",
     "antwort": "Künstliche Intelligenz"
   },
   {
     "stufe": 1,
-    "frage": "Welche Videoplattform kaufte Google im Jahr 2006?",
-    "antwort": "YouTube",
-    "akzeptiert": [
-      "Youtube"
-    ]
-  },
-  {
-    "stufe": 1,
     "frage": "Wie heißt der Sprachassistent von Apple?",
     "antwort": "Siri"
-  },
-  {
-    "stufe": 1,
-    "frage": "Welches Unternehmen kaufte 2014 den Messenger WhatsApp?",
-    "antwort": "Facebook",
-    "akzeptiert": [
-      "Meta",
-      "Meta Platforms"
-    ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Wer gründete 2004 zusammen mit Kommilitonen das soziale Netzwerk Facebook?",
-    "antwort": "Mark Zuckerberg",
-    "akzeptiert": [
-      "Zuckerberg"
-    ],
-    "bewertung": "Nachname reicht. Mitgründer wie Eduardo Saverin, Dustin Moskovitz, Chris Hughes oder Andrew McCollum ebenfalls richtig."
-  },
-  {
-    "stufe": 2,
-    "frage": "Welcher Mainzer erfand um 1450 den Buchdruck mit beweglichen Metalllettern?",
-    "antwort": "Johannes Gutenberg",
-    "akzeptiert": [
-      "Gutenberg"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 2,
@@ -181,56 +56,9 @@
   },
   {
     "stufe": 2,
-    "frage": "Welcher deutsche Ingenieur entwickelte den nach ihm benannten Selbstzündungsmotor?",
-    "antwort": "Rudolf Diesel",
-    "akzeptiert": [
-      "Diesel"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 2,
-    "frage": "Wie hieß der tragbare Kassettenspieler, den Sony 1979 auf den Markt brachte?",
-    "antwort": "Walkman",
-    "akzeptiert": [
-      "Sony Walkman"
-    ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Welches Fortbewegungsmittel, einen Vorläufer des Fahrrads, erfand Karl Drais 1817?",
-    "antwort": "Laufmaschine",
-    "akzeptiert": [
-      "Draisine",
-      "Laufrad",
-      "Fahrrad",
-      "Veloziped"
-    ],
-    "bewertung": "Laufmaschine, Draisine, Laufrad oder Fahrrad gelten als richtig."
-  },
-  {
-    "stufe": 2,
-    "frage": "Wer gründete 1976 zusammen mit Steve Wozniak die Firma Apple?",
-    "antwort": "Steve Jobs",
-    "akzeptiert": [
-      "Jobs"
-    ],
-    "bewertung": "Nachname reicht. Auch Ronald Wayne (dritter Gründer) ist richtig."
-  },
-  {
-    "stufe": 2,
     "frage": "Wofür steht die Abkürzung GPS?",
     "antwort": "Global Positioning System",
     "bewertung": "Alle drei Wörter nötig, kleine Schreibfehler okay."
-  },
-  {
-    "stufe": 2,
-    "frage": "Welcher schwedische Erfinder des Dynamits stiftete mit seinem Vermögen einen berühmten Preis?",
-    "antwort": "Alfred Nobel",
-    "akzeptiert": [
-      "Nobel"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 2,
@@ -248,51 +76,6 @@
   },
   {
     "stufe": 2,
-    "frage": "Welcher Schotte verbesserte die Dampfmaschine so entscheidend, dass die Einheit der Leistung nach ihm benannt ist?",
-    "antwort": "James Watt",
-    "akzeptiert": [
-      "Watt"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 2,
-    "frage": "Wie heißt die Nintendo-Konsole von 2017, die man am Fernseher und unterwegs spielen kann?",
-    "antwort": "Nintendo Switch",
-    "akzeptiert": [
-      "Switch"
-    ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Wie hieß der Gründer des Sportartikelherstellers Adidas?",
-    "antwort": "Adolf Dassler",
-    "akzeptiert": [
-      "Adi Dassler",
-      "Dassler"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 2,
-    "frage": "Welches Antibiotikum entdeckte Alexander Fleming 1928?",
-    "antwort": "Penicillin",
-    "akzeptiert": [
-      "Penizillin"
-    ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Was erfand die Dresdnerin Melitta Bentz 1908?",
-    "antwort": "Kaffeefilter",
-    "akzeptiert": [
-      "Filtertüte",
-      "Kaffeefiltertüte",
-      "Kaffeefiltersystem"
-    ]
-  },
-  {
-    "stufe": 2,
     "frage": "Von welchem englischen Wort ist „App“ die Abkürzung?",
     "antwort": "Application",
     "akzeptiert": [
@@ -301,43 +84,10 @@
     ]
   },
   {
-    "stufe": 2,
-    "frage": "Welches Unternehmen veröffentlichte im November 2022 den Chatbot ChatGPT?",
-    "antwort": "OpenAI",
-    "akzeptiert": [
-      "Open AI"
-    ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Welche Firma veröffentlichte 1985 die erste Version des Betriebssystems Windows?",
-    "antwort": "Microsoft"
-  },
-  {
-    "stufe": 2,
-    "frage": "Wie heißt die freie Online-Enzyklopädie, die Jimmy Wales und Larry Sanger 2001 starteten?",
-    "antwort": "Wikipedia"
-  },
-  {
-    "stufe": 3,
-    "frage": "In welchem Jahr stellte Steve Jobs das erste iPhone vor?",
-    "antwort": "2007",
-    "bewertung": "Nur 2007 ist richtig (vorgestellt Januar 2007, Verkaufsstart Juni 2007)."
-  },
-  {
     "stufe": 3,
     "frage": "Wofür steht die Abkürzung PDF?",
     "antwort": "Portable Document Format",
     "bewertung": "Alle drei Wörter nötig, kleine Schreibfehler okay."
-  },
-  {
-    "stufe": 3,
-    "frage": "Wer gründete 1975 zusammen mit Bill Gates die Firma Microsoft?",
-    "antwort": "Paul Allen",
-    "akzeptiert": [
-      "Allen"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 3,
@@ -352,33 +102,12 @@
   },
   {
     "stufe": 3,
-    "frage": "In welchem Jahr wurde die Firma Google gegründet?",
-    "antwort": "1998",
-    "bewertung": "Nur 1998 ist richtig."
-  },
-  {
-    "stufe": 3,
     "frage": "Wofür steht die Abkürzung HTML?",
     "antwort": "Hypertext Markup Language",
     "akzeptiert": [
       "Hyper Text Markup Language"
     ],
     "bewertung": "Kleine Schreibfehler okay."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Erfinder trieb den Wechselstrom voran und ist Namensgeber einer bekannten Elektroautomarke?",
-    "antwort": "Nikola Tesla",
-    "akzeptiert": [
-      "Tesla"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
-    "frage": "In welchem Jahr landeten mit Apollo 11 erstmals Menschen auf dem Mond?",
-    "antwort": "1969",
-    "bewertung": "Nur 1969 ist richtig."
   },
   {
     "stufe": 3,
@@ -393,71 +122,6 @@
   },
   {
     "stufe": 3,
-    "frage": "Wie hieß das Ford-Auto, das ab 1908 als erstes Auto am Fließband massenhaft gebaut wurde?",
-    "antwort": "Model T",
-    "akzeptiert": [
-      "Ford Model T",
-      "Tin Lizzie",
-      "Modell T"
-    ]
-  },
-  {
-    "stufe": 3,
-    "frage": "Nach welchem Kölner Erfinder ist der Viertakt-Benzinmotor benannt?",
-    "antwort": "Nikolaus August Otto",
-    "akzeptiert": [
-      "Otto",
-      "Nikolaus Otto"
-    ],
-    "bewertung": "Nachname reicht (Ottomotor)."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Erfinder stellte 1877 den Phonographen vor, das erste Gerät zum Aufnehmen und Abspielen von Tönen?",
-    "antwort": "Thomas Edison",
-    "akzeptiert": [
-      "Edison",
-      "Thomas Alva Edison"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher deutsche Flugpionier unternahm ab 1891 erfolgreiche Gleitflüge?",
-    "antwort": "Otto Lilienthal",
-    "akzeptiert": [
-      "Lilienthal"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
-    "frage": "Was verkaufte Amazon ursprünglich, als es Mitte der 1990er online ging?",
-    "antwort": "Bücher",
-    "akzeptiert": [
-      "Buch"
-    ]
-  },
-  {
-    "stufe": 3,
-    "frage": "Wie viele Zeichen durfte ein Tweet bei Twitter ursprünglich maximal haben?",
-    "antwort": "140",
-    "akzeptiert": [
-      "hundertvierzig"
-    ]
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Musikstreamingdienst wurde 2006 in Schweden gegründet?",
-    "antwort": "Spotify"
-  },
-  {
-    "stufe": 3,
-    "frage": "Welche Schutzvorrichtung gegen Gewitter erfand Benjamin Franklin um 1752?",
-    "antwort": "Blitzableiter"
-  },
-  {
-    "stufe": 3,
     "frage": "Aus welchem Land stammt der Handyhersteller Nokia?",
     "antwort": "Finnland"
   },
@@ -467,59 +131,6 @@
     "antwort": "Quick Response",
     "akzeptiert": [
       "schnelle Antwort"
-    ]
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher heutige Videospielkonzern begann 1889 in Japan als Hersteller von Spielkarten?",
-    "antwort": "Nintendo"
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher deutsche Ingenieur baute 1941 mit der Z3 den ersten funktionsfähigen, programmgesteuerten Computer?",
-    "antwort": "Konrad Zuse",
-    "akzeptiert": [
-      "Zuse"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher britische Physiker erfand 1989 am CERN das World Wide Web?",
-    "antwort": "Tim Berners-Lee",
-    "akzeptiert": [
-      "Berners-Lee",
-      "Berners Lee",
-      "Timothy Berners-Lee"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Italiener gilt als Pionier der drahtlosen Telegrafie (Radio) und erhielt 1909 den Physik-Nobelpreis?",
-    "antwort": "Guglielmo Marconi",
-    "akzeptiert": [
-      "Marconi"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher deutsche Ingenieur baute 1885 zusammen mit Wilhelm Maybach den „Reitwagen“, das erste Motorrad?",
-    "antwort": "Gottlieb Daimler",
-    "akzeptiert": [
-      "Daimler"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welches Befestigungsteil aus Kunststoff erfand der Schwarzwälder Artur Fischer 1958?",
-    "antwort": "Dübel",
-    "akzeptiert": [
-      "Spreizdübel",
-      "Fischerdübel",
-      "Kunststoffdübel"
     ]
   },
   {
@@ -544,24 +155,6 @@
     "frage": "Wofür steht der Firmenname IBM?",
     "antwort": "International Business Machines",
     "bewertung": "Kleine Schreibfehler okay."
-  },
-  {
-    "stufe": 4,
-    "frage": "Unter welchem Pseudonym veröffentlichte der unbekannte Erfinder von Bitcoin 2008 sein Konzept?",
-    "antwort": "Satoshi Nakamoto",
-    "akzeptiert": [
-      "Nakamoto",
-      "Satoshi"
-    ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher italienische Physiker baute um 1800 die erste Batterie und ist Namensgeber einer elektrischen Einheit?",
-    "antwort": "Alessandro Volta",
-    "akzeptiert": [
-      "Volta"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 4,
@@ -592,21 +185,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welche französischen Brüder führten 1895 in Paris erstmals Filme vor zahlendem Publikum vor?",
-    "antwort": "Lumière",
-    "akzeptiert": [
-      "Brüder Lumière",
-      "Auguste und Louis Lumière",
-      "Lumiere"
-    ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Für welche Firma führte Martin Cooper 1973 das erste Telefonat mit einem Handy?",
-    "antwort": "Motorola"
-  },
-  {
-    "stufe": 4,
     "frage": "Wofür steht die Abkürzung HTTP?",
     "antwort": "Hypertext Transfer Protocol",
     "akzeptiert": [
@@ -625,34 +203,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welcher Staat schoss 1957 mit Sputnik den ersten künstlichen Satelliten ins All?",
-    "antwort": "Sowjetunion",
-    "akzeptiert": [
-      "UdSSR",
-      "SU"
-    ],
-    "bewertung": "„Russland“ mit Kulanz ebenfalls richtig."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welche beiden Elektronikfirmen entwickelten gemeinsam die Audio-CD?",
-    "antwort": "Philips und Sony",
-    "akzeptiert": [
-      "Sony und Philips"
-    ],
-    "bewertung": "Beide Firmen nötig."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welches Unternehmen kaufte 2012 die Foto-App Instagram?",
-    "antwort": "Facebook",
-    "akzeptiert": [
-      "Meta",
-      "Meta Platforms"
-    ]
-  },
-  {
-    "stufe": 4,
     "frage": "Wofür steht die Auto-Abkürzung ABS?",
     "antwort": "Antiblockiersystem",
     "akzeptiert": [
@@ -662,159 +212,9 @@
   },
   {
     "stufe": 5,
-    "frage": "Welches deutsche Forschungsinstitut entwickelte maßgeblich das Audioformat MP3?",
-    "antwort": "Fraunhofer-Institut",
-    "akzeptiert": [
-      "Fraunhofer",
-      "Fraunhofer IIS",
-      "Fraunhofer-Gesellschaft"
-    ],
-    "bewertung": "„Fraunhofer“ reicht. Auch die Nennung von Karlheinz Brandenburg als Hauptentwickler gilt als richtig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie hieß das Computernetz des US-Verteidigungsministeriums, aus dem ab 1969 das Internet hervorging?",
-    "antwort": "ARPANET",
-    "akzeptiert": [
-      "Arpanet",
-      "ARPA-Net"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher deutsche Physiker entwickelte Anfang der 1930er-Jahre das Elektronenmikroskop und erhielt dafür 1986 den Nobelpreis?",
-    "antwort": "Ernst Ruska",
-    "akzeptiert": [
-      "Ruska"
-    ],
-    "bewertung": "Nachname reicht. Max Knoll (Mitentwickler) ebenfalls richtig."
-  },
-  {
-    "stufe": 5,
     "frage": "Wofür steht die Abkürzung des Bildformats JPEG?",
     "antwort": "Joint Photographic Experts Group",
     "bewertung": "Kleine Schreibfehler okay, alle vier Wörter nötig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher US-Erfinder reichte 1876 am selben Tag wie Alexander Graham Bell Unterlagen zu einem Telefon beim Patentamt ein?",
-    "antwort": "Elisha Gray",
-    "akzeptiert": [
-      "Gray"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Tübinger Professor baute 1623 mit der „Rechenuhr“ eine der ersten mechanischen Rechenmaschinen?",
-    "antwort": "Wilhelm Schickard",
-    "akzeptiert": [
-      "Schickard"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Unter welchem Namen startete die Suchmaschine Google 1996 als Uni-Projekt?",
-    "antwort": "BackRub",
-    "akzeptiert": [
-      "Backrub",
-      "Back Rub"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie heißt der erste vollsynthetische Kunststoff, den Leo Baekeland 1907 erfand?",
-    "antwort": "Bakelit",
-    "akzeptiert": [
-      "Bakelite"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welches japanische Unternehmen, eine Toyota-Tochter, entwickelte 1994 den QR-Code?",
-    "antwort": "Denso Wave",
-    "akzeptiert": [
-      "Denso"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher deutsche Physiker entwickelte 1897 die nach ihm benannte Kathodenstrahlröhre, Grundlage späterer Fernsehbildschirme?",
-    "antwort": "Karl Ferdinand Braun",
-    "akzeptiert": [
-      "Braun",
-      "Ferdinand Braun"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Intel-Mitgründer sagte 1965 voraus, dass sich die Zahl der Transistoren auf Chips regelmäßig verdoppelt?",
-    "antwort": "Gordon Moore",
-    "akzeptiert": [
-      "Moore"
-    ],
-    "bewertung": "Nachname reicht (Mooresches Gesetz)."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welche Mathematikerin schrieb im 19. Jahrhundert für Charles Babbages Analytical Engine das erste Computerprogramm?",
-    "antwort": "Ada Lovelace",
-    "akzeptiert": [
-      "Lovelace",
-      "Ada King",
-      "Augusta Ada King"
-    ],
-    "bewertung": "Nachname oder „Ada“ reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher deutsche Lehrer stellte 1861 in Frankfurt ein frühes „Telephon“ vor?",
-    "antwort": "Philipp Reis",
-    "akzeptiert": [
-      "Reis",
-      "Johann Philipp Reis"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher deutsche Ingenieur entwickelte das Strahltriebwerk der Heinkel He 178, des ersten Düsenflugzeugs (1939)?",
-    "antwort": "Hans von Ohain",
-    "akzeptiert": [
-      "von Ohain",
-      "Ohain",
-      "Hans Joachim Pabst von Ohain"
-    ],
-    "bewertung": "Nachname reicht. Frank Whittle (unabhängiger britischer Erfinder des Strahltriebwerks) mit Kulanz ebenfalls richtig."
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie hieß der grafische Webbrowser von 1993, der das Web populär machte und aus dem später Netscape hervorging?",
-    "antwort": "Mosaic",
-    "akzeptiert": [
-      "NCSA Mosaic"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welche Erfindung meldeten die Deutschen Jürgen Dethloff und Helmut Gröttrup Ende der 1960er-Jahre zum Patent an?",
-    "antwort": "Chipkarte",
-    "akzeptiert": [
-      "Smartcard",
-      "Smart Card",
-      "Karte mit Chip"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Wie hieß das 1994 erschienene Gerät von IBM, das oft als erstes Smartphone bezeichnet wird?",
-    "antwort": "Simon",
-    "akzeptiert": [
-      "IBM Simon",
-      "Simon Personal Communicator"
-    ]
   },
   {
     "stufe": 5,
@@ -823,26 +223,9 @@
   },
   {
     "stufe": 5,
-    "frage": "Wie hieß der erste kommerzielle Mikroprozessor, den Intel 1971 vorstellte?",
-    "antwort": "Intel 4004",
-    "akzeptiert": [
-      "4004"
-    ]
-  },
-  {
-    "stufe": 5,
     "frage": "Wofür steht die Abkürzung LASER?",
     "antwort": "Light Amplification by Stimulated Emission of Radiation",
     "bewertung": "Sinngemäß richtig reicht, auch auf Deutsch (Lichtverstärkung durch stimulierte Emission von Strahlung)."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher US-Programmierer verschickte 1971 die erste E-Mail zwischen zwei Computern und führte dafür das @-Zeichen ein?",
-    "antwort": "Ray Tomlinson",
-    "akzeptiert": [
-      "Tomlinson"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 1,
@@ -861,11 +244,6 @@
     "stufe": 1,
     "frage": "Wie hieß der Kurznachrichtendienst, der 2023 in „X“ umbenannt wurde?",
     "antwort": "Twitter"
-  },
-  {
-    "stufe": 1,
-    "frage": "Welcher Konzern stellt die Spielkonsole Xbox her?",
-    "antwort": "Microsoft"
   },
   {
     "stufe": 1,
@@ -899,14 +277,6 @@
     "antwort": "Electronic",
     "akzeptiert": [
       "elektronisch"
-    ]
-  },
-  {
-    "stufe": 1,
-    "frage": "Welche runde Erfindung aus der Zeit um 3500 v. Chr. trägt bis heute Wagen und Autos?",
-    "antwort": "Rad",
-    "akzeptiert": [
-      "Das Rad"
     ]
   },
   {
@@ -947,25 +317,6 @@
   },
   {
     "stufe": 2,
-    "frage": "Welches Fluggerät ließen die französischen Brüder Montgolfier 1783 aufsteigen?",
-    "antwort": "Heißluftballon",
-    "akzeptiert": [
-      "Ballon",
-      "Montgolfiere"
-    ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Nach welchem deutschen Grafen sind die großen Starrluftschiffe benannt?",
-    "antwort": "Ferdinand von Zeppelin",
-    "akzeptiert": [
-      "Zeppelin",
-      "Graf Zeppelin"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 2,
     "frage": "Welches US-Unternehmen stellt die Grafikkarten der Reihe GeForce her?",
     "antwort": "Nvidia"
   },
@@ -978,30 +329,6 @@
     ]
   },
   {
-    "stufe": 2,
-    "frage": "Welches Unternehmen brachte 1989 den Game Boy heraus?",
-    "antwort": "Nintendo"
-  },
-  {
-    "stufe": 3,
-    "frage": "Nürnberg und welche Stadt verband 1835 die erste deutsche Eisenbahn?",
-    "antwort": "Fürth"
-  },
-  {
-    "stufe": 3,
-    "frage": "Mit welchem brennbaren Gas war das Luftschiff „Hindenburg“ gefüllt, das 1937 in Lakehurst in Flammen aufging?",
-    "antwort": "Wasserstoff"
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Danziger Physiker baute ein Quecksilberthermometer und ist Namensgeber einer Temperaturskala?",
-    "antwort": "Daniel Gabriel Fahrenheit",
-    "akzeptiert": [
-      "Fahrenheit"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
     "stufe": 3,
     "frage": "Wie heißt das Weltraumteleskop, das 1990 in die Erdumlaufbahn gebracht wurde?",
     "antwort": "Hubble",
@@ -1011,54 +338,13 @@
   },
   {
     "stufe": 3,
-    "frage": "Welcher italienische Gelehrte entdeckte 1610 mit einem selbst gebauten Fernrohr vier Jupitermonde?",
-    "antwort": "Galileo Galilei",
-    "akzeptiert": [
-      "Galilei",
-      "Galileo"
-    ]
-  },
-  {
-    "stufe": 3,
-    "frage": "Welches Kleidungsstück ließen sich Levi Strauss und Jacob Davis 1873 patentieren?",
-    "antwort": "Jeans",
-    "akzeptiert": [
-      "Bluejeans",
-      "Jeanshose"
-    ]
-  },
-  {
-    "stufe": 3,
     "frage": "Welchen Verschluss erfand der Schweizer George de Mestral nach dem Vorbild von Pflanzenkletten?",
     "antwort": "Klettverschluss"
   },
   {
     "stufe": 3,
-    "frage": "Wie hieß das Schaf, das 1996 als erstes Säugetier aus einer erwachsenen Körperzelle geklont wurde?",
-    "antwort": "Dolly"
-  },
-  {
-    "stufe": 3,
     "frage": "In der Nähe welcher Schweizer Stadt liegt das Forschungszentrum CERN?",
     "antwort": "Genf"
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher britische Mathematiker half im Zweiten Weltkrieg, die deutsche Verschlüsselungsmaschine Enigma zu knacken?",
-    "antwort": "Alan Turing",
-    "akzeptiert": [
-      "Turing"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Engländer baute 1829 mit seinem Sohn die berühmte Dampflokomotive „Rocket“?",
-    "antwort": "George Stephenson",
-    "akzeptiert": [
-      "Stephenson"
-    ],
-    "bewertung": "Nachname reicht. Auch Robert Stephenson gilt als richtig."
   },
   {
     "stufe": 4,
@@ -1075,135 +361,869 @@
   },
   {
     "stufe": 4,
-    "frage": "In welchem Jahr kam die erste PlayStation in Japan auf den Markt?",
-    "antwort": "1994"
-  },
-  {
-    "stufe": 4,
-    "frage": "Wie hieß der IBM-Computer, der 1997 Schachweltmeister Garri Kasparow in einem Wettkampf besiegte?",
-    "antwort": "Deep Blue"
-  },
-  {
-    "stufe": 4,
-    "frage": "Welche Programmiersprache veröffentlichte der Niederländer Guido van Rossum 1991?",
-    "antwort": "Python"
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Schotte erfand 1888 den luftgefüllten Fahrradreifen und ist Namensgeber einer Reifenmarke?",
-    "antwort": "John Boyd Dunlop",
-    "akzeptiert": [
-      "Dunlop"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher englische Physiker entdeckte 1831 die elektromagnetische Induktion?",
-    "antwort": "Michael Faraday",
-    "akzeptiert": [
-      "Faraday"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
     "frage": "Wofür steht die Abkürzung des Bildformats GIF?",
     "antwort": "Graphics Interchange Format"
   },
   {
+    "stufe": 1,
+    "frage": "Wofür steht das „G“ in 5G?",
+    "antwort": "Generation",
+    "bewertung": "„Generation“ (auch englisch) reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welcher Funktechnik werden kabellose Kopfhörer meist mit dem Handy verbunden?",
+    "antwort": "Bluetooth"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Gerät, das zu Hause das WLAN bereitstellt und mit dem Internet verbindet?",
+    "antwort": "Router",
+    "akzeptiert": [
+      "WLAN-Router",
+      "Fritzbox"
+    ],
+    "bewertung": "Auch Markennamen wie Fritzbox gelten."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche zwei Ziffern verwendet das Binärsystem?",
+    "antwort": "0 und 1",
+    "akzeptiert": [
+      "Null und Eins"
+    ],
+    "bewertung": "Beide Ziffern nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Auto, das sowohl einen Verbrennungs- als auch einen Elektromotor hat?",
+    "antwort": "Hybrid",
+    "akzeptiert": [
+      "Hybridauto",
+      "Hybridfahrzeug"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Gerät hören Ärzte Herz und Lunge ab?",
+    "antwort": "Stethoskop"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Gerät soll bei einem Herzstillstand per Stromstoß helfen und hängt oft in Bahnhöfen?",
+    "antwort": "Defibrillator",
+    "akzeptiert": [
+      "Defi",
+      "AED"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem bildgebenden Verfahren schaut man sich meist ein ungeborenes Baby im Bauch an?",
+    "antwort": "Ultraschall",
+    "akzeptiert": [
+      "Sonografie"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Steckeranschluss ist seit Ende 2024 in der EU Pflicht-Ladeanschluss für neue Handys?",
+    "antwort": "USB-C",
+    "akzeptiert": [
+      "USB Typ C"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Einheit wird der Stromverbrauch auf der Stromrechnung abgerechnet?",
+    "antwort": "Kilowattstunde",
+    "akzeptiert": [
+      "kWh"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Luftkissen bläst sich bei einem Autounfall in Sekundenbruchteilen auf?",
+    "antwort": "Airbag"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht die Abkürzung PS bei Autos?",
+    "antwort": "Pferdestärke",
+    "akzeptiert": [
+      "Pferdestärken"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht „MP“ bei Kameraangaben wie „48 MP“?",
+    "antwort": "Megapixel"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen die einzelnen Bildpunkte eines Displays?",
+    "antwort": "Pixel"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Aktion löst die Tastenkombination Strg + Z meist aus?",
+    "antwort": "Rückgängig machen",
+    "akzeptiert": [
+      "Rückgängig",
+      "Undo"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Gesichtserkennung, mit der man iPhones entsperrt?",
+    "antwort": "Face ID"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Sprachassistent von Amazon?",
+    "antwort": "Alexa"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Gerät piept bei Qualm und ist in deutschen Schlafzimmern Pflicht?",
+    "antwort": "Rauchmelder",
+    "akzeptiert": [
+      "Rauchwarnmelder"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Gegenteil von Download?",
+    "antwort": "Upload"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man es, wenn Daten auf Servern im Internet statt auf dem eigenen Gerät gespeichert werden?",
+    "antwort": "Cloud",
+    "akzeptiert": [
+      "Cloud-Speicher",
+      "Cloud Computing"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was erzeugt eine Solarzelle aus Sonnenlicht?",
+    "antwort": "Strom",
+    "akzeptiert": [
+      "elektrische Energie",
+      "Elektrizität"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Betriebssystem von Apples Mac-Computern?",
+    "antwort": "macOS",
+    "akzeptiert": [
+      "Mac OS",
+      "OS X"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel Volt Spannung hat eine normale Haushaltssteckdose in Deutschland?",
+    "antwort": "230 Volt",
+    "akzeptiert": [
+      "230",
+      "230 V"
+    ],
+    "bewertung": "220 bis 240 Volt gelten als richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Bits hat ein Byte?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welchen Apple-Anschluss hat USB-C beim iPhone 15 ersetzt?",
+    "antwort": "Lightning",
+    "akzeptiert": [
+      "Lightning-Anschluss"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Funktechnik mit kurzer Reichweite steckt hinter dem kontaktlosen Bezahlen mit dem Handy?",
+    "antwort": "NFC",
+    "akzeptiert": [
+      "Near Field Communication",
+      "Nahfeldkommunikation"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht das „S“ in „https“?",
+    "antwort": "Secure",
+    "akzeptiert": [
+      "sicher"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Verschlüsselung, bei der nur Sender und Empfänger eine Nachricht lesen können?",
+    "antwort": "Ende-zu-Ende-Verschlüsselung",
+    "akzeptiert": [
+      "E2E",
+      "End-to-End-Verschlüsselung"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Abkürzung 2FA beim Login?",
+    "antwort": "Zwei-Faktor-Authentifizierung",
+    "akzeptiert": [
+      "Two-Factor Authentication",
+      "Zwei-Faktor-Authentisierung"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Nach welchem Leichtmetall sind die Akkus in Smartphones und E-Autos benannt?",
+    "antwort": "Lithium",
+    "akzeptiert": [
+      "Lithium-Ionen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel Volt hat eine normale AA-Batterie?",
+    "antwort": "1,5 Volt",
+    "akzeptiert": [
+      "1,5",
+      "1.5 V"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die fest im Handy eingebaute, digitale SIM-Karte?",
+    "antwort": "eSIM",
+    "akzeptiert": [
+      "embedded SIM"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man gefälschte E-Mails oder Webseiten, die Passwörter abgreifen sollen?",
+    "antwort": "Phishing"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches freie Betriebssystem hat einen Pinguin als Maskottchen?",
+    "antwort": "Linux"
+  },
+  {
+    "stufe": 2,
+    "frage": "Für welche drei Farben steht RGB?",
+    "antwort": "Rot, Grün, Blau",
+    "akzeptiert": [
+      "Red, Green, Blue"
+    ],
+    "bewertung": "Alle drei Farben nötig, Reihenfolge egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Liefert die Steckdose Gleichstrom oder Wechselstrom?",
+    "antwort": "Wechselstrom",
+    "akzeptiert": [
+      "AC"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Heizung holt sich wie ein umgekehrter Kühlschrank Wärme aus Luft, Erde oder Grundwasser?",
+    "antwort": "Wärmepumpe"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Element wird in Kernkraftwerken als Brennstoff gespalten?",
+    "antwort": "Uran",
+    "akzeptiert": [
+      "Uran-235"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Gas reagiert in einer Brennstoffzelle mit Sauerstoff zu Wasser?",
+    "antwort": "Wasserstoff",
+    "akzeptiert": [
+      "H2"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Einheit misst man den elektrischen Widerstand?",
+    "antwort": "Ohm"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Benzin-Kraftstoff, dem bis zu 10 Prozent Bioethanol beigemischt sind?",
+    "antwort": "E10",
+    "akzeptiert": [
+      "Super E10"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht ICE bei der Deutschen Bahn?",
+    "antwort": "Intercity-Express",
+    "akzeptiert": [
+      "InterCityExpress"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches eingepflanzte Gerät gibt dem Herzen elektrische Impulse, wenn es zu langsam schlägt?",
+    "antwort": "Herzschrittmacher",
+    "akzeptiert": [
+      "Schrittmacher"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was gibt die Hertz-Angabe (z. B. 144 Hz) bei einem Monitor an?",
+    "antwort": "Bildwiederholrate",
+    "akzeptiert": [
+      "Bildwiederholfrequenz",
+      "Bilder pro Sekunde"
+    ],
+    "bewertung": "Sinngemäß: wie oft pro Sekunde das Bild neu aufgebaut wird."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was gibt die Einheit mAh bei Akkus an?",
+    "antwort": "Kapazität",
+    "akzeptiert": [
+      "Ladungsmenge",
+      "Milliamperestunden"
+    ],
+    "bewertung": "Sinngemäß richtig: gespeicherte Ladung / Akkukapazität."
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welcher Frequenz in Hertz arbeitet das Stromnetz in Deutschland?",
+    "antwort": "50 Hertz",
+    "akzeptiert": [
+      "50",
+      "50 Hz"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die Abkürzung SSD bei Speichern?",
+    "antwort": "Solid State Drive",
+    "akzeptiert": [
+      "Solid-State-Disk"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht das „IP“ in IP-Adresse?",
+    "antwort": "Internet Protocol",
+    "akzeptiert": [
+      "Internetprotokoll"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die Abkürzung VPN?",
+    "antwort": "Virtual Private Network",
+    "akzeptiert": [
+      "virtuelles privates Netzwerk"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Unter welchem Kürzel ist die vierte Mobilfunkgeneration (4G) bekannt?",
+    "antwort": "LTE"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Auflösung in Pixeln hat Full HD?",
+    "antwort": "1920 × 1080",
+    "akzeptiert": [
+      "1920x1080",
+      "1080p"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das europäische Satellitennavigationssystem, das Konkurrenz zum US-amerikanischen GPS macht?",
+    "antwort": "Galileo"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was gibt die GHz-Angabe bei einem Prozessor an?",
+    "antwort": "Taktfrequenz",
+    "akzeptiert": [
+      "Takt",
+      "Taktrate"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die Abkürzung GPU?",
+    "antwort": "Graphics Processing Unit",
+    "akzeptiert": [
+      "Grafikprozessor"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die Abkürzung LAN?",
+    "antwort": "Local Area Network",
+    "akzeptiert": [
+      "lokales Netzwerk"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Einheit gibt man an, wie hell eine Lampe leuchtet (Lichtstrom)?",
+    "antwort": "Lumen",
+    "akzeptiert": [
+      "lm"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel Grad Celsius sollte ein Gefrierschrank mindestens kalt sein?",
+    "antwort": "-18 °C",
+    "akzeptiert": [
+      "minus 18",
+      "-18"
+    ],
+    "bewertung": "Minus 18 Grad (oder kälter) ist richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Moleküle im Essen bringt eine Mikrowelle vor allem in Schwingung?",
+    "antwort": "Wasser",
+    "akzeptiert": [
+      "Wassermoleküle"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die Abkürzung MRT?",
+    "antwort": "Magnetresonanztomographie",
+    "akzeptiert": [
+      "Magnetresonanztomografie"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die Abkürzung EKG?",
+    "antwort": "Elektrokardiogramm",
+    "akzeptiert": [
+      "Elektrokardiographie",
+      "Elektrokardiografie"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Bis zu welcher Geschwindigkeit unterstützt der Motor eines Pedelecs beim Treten?",
+    "antwort": "25 km/h",
+    "akzeptiert": [
+      "25"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie schnell darf ein E-Scooter in Deutschland höchstens fahren?",
+    "antwort": "20 km/h",
+    "akzeptiert": [
+      "20"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel Volt hat eine normale Autobatterie im Pkw?",
+    "antwort": "12 Volt",
+    "akzeptiert": [
+      "12",
+      "12 V"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Schadsoftware, die Daten verschlüsselt und Lösegeld fordert?",
+    "antwort": "Ransomware",
+    "akzeptiert": [
+      "Erpressungstrojaner"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches geruchlose, giftige Gas erkennt ein CO-Melder?",
+    "antwort": "Kohlenmonoxid",
+    "akzeptiert": [
+      "CO"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der in Deutschland übliche Steckdosentyp mit seitlichen Schutzkontakten?",
+    "antwort": "Schuko",
+    "akzeptiert": [
+      "Schutzkontakt",
+      "Schuko-Steckdose",
+      "Typ F"
+    ]
+  },
+  {
     "stufe": 4,
-    "frage": "Nach welchem französischen Forscher ist das kurze Erhitzen von Milch zur Haltbarmachung benannt?",
-    "antwort": "Louis Pasteur",
+    "frage": "Welche zwei Frequenzbänder nutzt WLAN klassischerweise?",
+    "antwort": "2,4 und 5 GHz",
     "akzeptiert": [
-      "Pasteur"
+      "2,4 GHz und 5 GHz"
     ],
-    "bewertung": "Nachname reicht."
+    "bewertung": "Beide nötig; zusätzlich 6 GHz zu nennen ist auch richtig."
   },
   {
-    "stufe": 5,
-    "frage": "Was erfand der US-Ingenieur Willis Carrier 1902?",
-    "antwort": "Klimaanlage"
+    "stufe": 4,
+    "frage": "Wofür steht die Abkürzung HDMI?",
+    "antwort": "High-Definition Multimedia Interface"
   },
   {
-    "stufe": 5,
-    "frage": "Welcher Schotte führte 1926 in London als Erster öffentlich ein funktionierendes Fernsehsystem vor?",
-    "antwort": "John Logie Baird",
+    "stufe": 4,
+    "frage": "Wofür steht die Abkürzung OLED?",
+    "antwort": "Organic Light Emitting Diode",
     "akzeptiert": [
-      "Baird"
+      "organische Leuchtdiode"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht HDR bei Fernsehern und Fotos?",
+    "antwort": "High Dynamic Range",
+    "akzeptiert": [
+      "hoher Dynamikumfang"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele verschiedene Werte kann ein Byte darstellen?",
+    "antwort": "256"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was übersetzt das DNS im Internet?",
+    "antwort": "Domainnamen in IP-Adressen",
+    "akzeptiert": [
+      "Webadressen in IP-Adressen"
     ],
-    "bewertung": "Nachname reicht."
+    "bewertung": "Sinngemäß: Namen wie google.de in IP-Adressen."
   },
   {
-    "stufe": 5,
-    "frage": "Welcher französische Erfinder schuf um 1826 die älteste erhaltene Fotografie?",
-    "antwort": "Joseph Nicéphore Niépce",
+    "stufe": 4,
+    "frage": "Wie heißt der in Europa genormte Stecker zum Laden von E-Autos mit Wechselstrom?",
+    "antwort": "Typ 2",
     "akzeptiert": [
-      "Niépce",
-      "Niepce"
+      "Typ-2-Stecker",
+      "Mennekes"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man es, wenn ein E-Auto beim Bremsen Energie zurück in den Akku speist?",
+    "antwort": "Rekuperation",
+    "akzeptiert": [
+      "Bremsenergierückgewinnung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht die Auto-Abkürzung ESP?",
+    "antwort": "Elektronisches Stabilitätsprogramm"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das automatische Notrufsystem, das seit 2018 für neue Automodelle in der EU Pflicht ist?",
+    "antwort": "eCall",
+    "akzeptiert": [
+      "E-Call"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wandelt der Wechselrichter einer Solaranlage um?",
+    "antwort": "Gleichstrom in Wechselstrom",
+    "akzeptiert": [
+      "DC in AC"
     ],
-    "bewertung": "Nachname reicht."
+    "bewertung": "Richtung muss stimmen."
   },
   {
-    "stufe": 5,
-    "frage": "Welche US-Informatikerin und Marineoffizierin entwickelte einen der ersten Compiler und prägte die Sprache COBOL?",
-    "antwort": "Grace Hopper",
+    "stufe": 4,
+    "frage": "Wie viel Watt nimmt ein Gerät auf, das bei 230 Volt 2 Ampere Strom zieht?",
+    "antwort": "460 Watt",
     "akzeptiert": [
-      "Hopper"
+      "460"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Akku-Metall wird wegen der Abbaubedingungen im Kongo besonders kritisiert?",
+    "antwort": "Kobalt",
+    "akzeptiert": [
+      "Cobalt"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der verbreitete Standard für kabelloses Laden von Smartphones?",
+    "antwort": "Qi"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was gibt der ISO-Wert bei einer Kamera an?",
+    "antwort": "Lichtempfindlichkeit",
+    "akzeptiert": [
+      "Empfindlichkeit des Sensors"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Art von Strahlung nutzt ein CT (Computertomograph)?",
+    "antwort": "Röntgenstrahlung",
+    "akzeptiert": [
+      "Röntgenstrahlen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was misst ein Pulsoximeter, das man an den Finger klemmt?",
+    "antwort": "Sauerstoffsättigung",
+    "akzeptiert": [
+      "Sauerstoffsättigung des Blutes",
+      "SpO2"
     ],
-    "bewertung": "Nachname reicht."
+    "bewertung": "Puls zusätzlich zu nennen ist okay; nur „Puls“ reicht nicht."
   },
   {
-    "stufe": 5,
-    "frage": "Welcher deutschstämmige Erfinder ließ sich 1887 das Grammophon für Schallplatten patentieren?",
-    "antwort": "Emil Berliner",
+    "stufe": 4,
+    "frage": "Welches Implantat übernimmt bei Gehörlosen die Aufgabe der Hörschnecke im Innenohr?",
+    "antwort": "Cochlea-Implantat",
     "akzeptiert": [
-      "Berliner"
-    ],
-    "bewertung": "Nachname reicht."
+      "CI",
+      "Cochleaimplantat"
+    ]
   },
   {
-    "stufe": 5,
-    "frage": "Welcher Engländer baute 1712 die erste praktisch genutzte Dampfmaschine?",
-    "antwort": "Thomas Newcomen",
+    "stufe": 4,
+    "frage": "Wofür steht die KI-Abkürzung LLM?",
+    "antwort": "Large Language Model",
     "akzeptiert": [
-      "Newcomen"
-    ],
-    "bewertung": "Nachname reicht."
+      "großes Sprachmodell"
+    ]
   },
   {
-    "stufe": 5,
-    "frage": "Welcher deutsche Chemiker entwickelte das Verfahren zur Ammoniaksynthese, das Carl Bosch industriell umsetzte?",
-    "antwort": "Fritz Haber",
+    "stufe": 4,
+    "frage": "Welches Zahlensystem nutzt die Ziffern 0–9 und die Buchstaben A–F?",
+    "antwort": "Hexadezimalsystem",
     "akzeptiert": [
-      "Haber"
-    ],
-    "bewertung": "Nachname reicht."
+      "hexadezimal",
+      "Sechzehnersystem",
+      "Hex"
+    ]
   },
   {
-    "stufe": 5,
-    "frage": "Wie hieß die erste Heim-Videospielkonsole, die Magnavox 1972 auf den Markt brachte?",
-    "antwort": "Odyssey",
+    "stufe": 4,
+    "frage": "In welcher Einheit gibt man die Farbtemperatur von Lampen (warmweiß, kaltweiß) an?",
+    "antwort": "Kelvin",
     "akzeptiert": [
-      "Magnavox Odyssey"
+      "K"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was gibt die Angabe ppi bei Displays an?",
+    "antwort": "Pixeldichte",
+    "akzeptiert": [
+      "Pixel pro Zoll",
+      "pixels per inch"
     ]
   },
   {
     "stufe": 5,
-    "frage": "Welcher Franzose entwickelte als Jugendlicher die nach ihm benannte Punktschrift für Blinde?",
-    "antwort": "Louis Braille",
-    "akzeptiert": [
-      "Braille"
-    ],
-    "bewertung": "Nachname reicht."
+    "frage": "Wie viele Bit lang ist eine IPv4-Adresse?",
+    "antwort": "32"
   },
   {
     "stufe": 5,
-    "frage": "Welcher deutsche Unternehmer entdeckte 1866 das dynamoelektrische Prinzip und gründete einen großen Elektrokonzern?",
-    "antwort": "Werner von Siemens",
+    "frage": "Wie viele Bit lang ist eine IPv6-Adresse?",
+    "antwort": "128"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Standard-Port nutzt HTTPS?",
+    "antwort": "443"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht die Abkürzung DSL beim Internetanschluss?",
+    "antwort": "Digital Subscriber Line"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Wattstunden speichert ein Akku mit 5000 mAh bei 3,7 Volt?",
+    "antwort": "18,5 Wh",
     "akzeptiert": [
-      "Siemens"
+      "18,5",
+      "18.5"
     ],
-    "bewertung": "Nachname reicht."
+    "bewertung": "18 bis 19 Wh gelten als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Bis zu wie viel Wattstunden dürfen Powerbanks ohne Genehmigung der Airline ins Handgepäck?",
+    "antwort": "100 Wh",
+    "akzeptiert": [
+      "100"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht die Akku-Abkürzung LFP?",
+    "antwort": "Lithium-Eisenphosphat",
+    "akzeptiert": [
+      "Lithium Ferrophosphat",
+      "Lithium-Eisen-Phosphat",
+      "LiFePO4"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher ältere Akkutyp ist für den „Memory-Effekt“ berüchtigt?",
+    "antwort": "Nickel-Cadmium",
+    "akzeptiert": [
+      "NiCd",
+      "NiCad"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist beim Festkörperakku anders als beim herkömmlichen Lithium-Ionen-Akku?",
+    "antwort": "Fester Elektrolyt",
+    "akzeptiert": [
+      "Elektrolyt ist fest"
+    ],
+    "bewertung": "Sinngemäß: Elektrolyt fest statt flüssig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit wie viel Volt Wechselspannung fahren Züge der Deutschen Bahn in der Oberleitung?",
+    "antwort": "15.000 Volt",
+    "akzeptiert": [
+      "15 kV",
+      "15000"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Millimeter beträgt die Normalspur bei Eisenbahnen?",
+    "antwort": "1435 mm",
+    "akzeptiert": [
+      "1435"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viel Kilowatt entspricht ungefähr 1 PS?",
+    "antwort": "0,735 kW",
+    "akzeptiert": [
+      "0,74",
+      "0,73",
+      "0,7355"
+    ],
+    "bewertung": "Werte von 0,73 bis 0,74 gelten als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit welcher Frequenz arbeiten Haushaltsmikrowellen meist?",
+    "antwort": "2,45 GHz",
+    "akzeptiert": [
+      "2,45",
+      "2,4 GHz"
+    ],
+    "bewertung": "2,4 bis 2,5 GHz gelten als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Ab wie viel Milliampere Fehlerstrom löst ein FI-Schalter für normale Steckdosenkreise aus?",
+    "antwort": "30 mA",
+    "akzeptiert": [
+      "30"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht GPT, z. B. in ChatGPT?",
+    "antwort": "Generative Pre-trained Transformer",
+    "akzeptiert": [
+      "Generative Pretrained Transformer"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht die Abkürzung RFID?",
+    "antwort": "Radio-Frequency Identification",
+    "akzeptiert": [
+      "Radio Frequency Identification"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Satelliten braucht ein GPS-Empfänger mindestens für eine Positionsbestimmung in 3D?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht das „K“ im Druckfarbmodell CMYK?",
+    "antwort": "Key",
+    "akzeptiert": [
+      "Schwarz",
+      "Key (Schwarz)"
+    ],
+    "bewertung": "„Key“ oder „Schwarz“ gilt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Dezimalzahl entspricht die Hexadezimalzahl FF?",
+    "antwort": "255"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht die Abkürzung ASCII?",
+    "antwort": "American Standard Code for Information Interchange"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der in Europa übliche Steckerstandard zum Schnellladen von E-Autos mit Gleichstrom?",
+    "antwort": "CCS",
+    "akzeptiert": [
+      "Combined Charging System",
+      "CCS2",
+      "Combo 2"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Bis zu wie viel Watt Wechselrichterleistung dürfen Balkonkraftwerke in Deutschland seit 2024 haben?",
+    "antwort": "800 Watt",
+    "akzeptiert": [
+      "800",
+      "800 VA"
+    ]
   }
 ]

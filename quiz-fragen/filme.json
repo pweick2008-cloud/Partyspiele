@@ -235,12 +235,6 @@
   },
   {
     "stufe": 2,
-    "frage": "Welche Schauspielerin spielte Hermine Granger in den Harry-Potter-Filmen?",
-    "antwort": "Emma Watson",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 2,
     "frage": "Wie heißt Batmans treuer Butler?",
     "antwort": "Alfred",
     "akzeptiert": [
@@ -300,12 +294,6 @@
   },
   {
     "stufe": 3,
-    "frage": "Welcher Regisseur drehte sowohl „Titanic“ als auch „Avatar“?",
-    "antwort": "James Cameron",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
     "frage": "Aus welchem fiktiven Metall besteht der Schild von Captain America (im MCU)?",
     "antwort": "Vibranium"
   },
@@ -320,26 +308,8 @@
   },
   {
     "stufe": 3,
-    "frage": "Welcher Schauspieler spielt Sherlock Holmes in der BBC-Serie „Sherlock“?",
-    "antwort": "Benedict Cumberbatch",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Schauspieler spielte den Joker im Film „Joker“ von 2019?",
-    "antwort": "Joaquin Phoenix",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
     "frage": "Wie heißt das fiktive afrikanische Land, dessen König Black Panther ist?",
     "antwort": "Wakanda"
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Regisseur drehte „E.T. – Der Außerirdische“ und „Jurassic Park“?",
-    "antwort": "Steven Spielberg",
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 3,
@@ -391,23 +361,6 @@
   },
   {
     "stufe": 3,
-    "frage": "Welcher britische Regisseur drehte „Inception“, „Interstellar“ und „Oppenheimer“?",
-    "antwort": "Christopher Nolan",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Film gewann 2024 den Oscar als bester Film?",
-    "antwort": "Oppenheimer"
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Regisseur drehte „Pulp Fiction“ und „Kill Bill“?",
-    "antwort": "Quentin Tarantino",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
     "frage": "Wie heißt das Raumschiff von Han Solo und Chewbacca?",
     "antwort": "Millennium Falke",
     "akzeptiert": [
@@ -426,20 +379,6 @@
     ]
   },
   {
-    "stufe": 3,
-    "frage": "Welche Schauspielerin spielt die Titelrolle in der Netflix-Serie „Wednesday“ (2022)?",
-    "antwort": "Jenna Ortega",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Film gewann 2020 als erster nicht-englischsprachiger Film den Oscar für den besten Film?",
-    "antwort": "Parasite",
-    "akzeptiert": [
-      "Gisaengchung"
-    ]
-  },
-  {
     "stufe": 4,
     "frage": "Welcher deutsche Komponist schrieb die Filmmusik zu „Der König der Löwen“ und „Interstellar“?",
     "antwort": "Hans Zimmer",
@@ -451,16 +390,6 @@
     "antwort": "Tatooine",
     "akzeptiert": [
       "Tatooin"
-    ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Für welchen Film gewann Leonardo DiCaprio 2016 endlich seinen ersten Oscar als bester Hauptdarsteller?",
-    "antwort": "The Revenant",
-    "akzeptiert": [
-      "The Revenant – Der Rückkehrer",
-      "Revenant",
-      "Der Rückkehrer"
     ]
   },
   {
@@ -500,22 +429,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welcher deutsche Film über die Stasi gewann 2007 den Oscar als bester fremdsprachiger Film?",
-    "antwort": "Das Leben der Anderen",
-    "akzeptiert": [
-      "Leben der Anderen"
-    ]
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher deutsche Film gewann 2023 vier Oscars, darunter den für den besten internationalen Film?",
-    "antwort": "Im Westen nichts Neues",
-    "akzeptiert": [
-      "All Quiet on the Western Front"
-    ]
-  },
-  {
-    "stufe": 4,
     "frage": "Wie heißt Narutos Rivale und bester Freund aus dem Uchiha-Clan?",
     "antwort": "Sasuke",
     "akzeptiert": [
@@ -543,12 +456,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welcher Schauspieler spielte Hannibal Lecter in „Das Schweigen der Lämmer“?",
-    "antwort": "Anthony Hopkins",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
     "frage": "Wie lautet Harry Potters zweiter Vorname?",
     "antwort": "James"
   },
@@ -564,26 +471,8 @@
   },
   {
     "stufe": 4,
-    "frage": "Welcher österreichische Schauspieler gewann einen Oscar für die Rolle des SS-Offiziers Hans Landa in „Inglourious Basterds“?",
-    "antwort": "Christoph Waltz",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher Schauspieler spielt Walter White in „Breaking Bad“?",
-    "antwort": "Bryan Cranston",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
     "frage": "Aus welchem fiktiven Metall besteht Wolverines Skelett samt Krallen?",
     "antwort": "Adamantium"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher deutsche Regisseur drehte „Das Boot“ und später in Hollywood „Troja“?",
-    "antwort": "Wolfgang Petersen",
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 5,
@@ -640,23 +529,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher Teil der „Herr der Ringe“-Trilogie gewann 11 Oscars?",
-    "antwort": "Die Rückkehr des Königs",
-    "akzeptiert": [
-      "Rückkehr des Königs",
-      "The Return of the King",
-      "Der Herr der Ringe: Die Rückkehr des Königs",
-      "Teil 3"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher japanische Regisseur drehte „Chihiros Reise ins Zauberland“?",
-    "antwort": "Hayao Miyazaki",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
     "frage": "Welche Hausnummer hat das Haus der Dursleys im Ligusterweg?",
     "antwort": "4",
     "akzeptiert": [
@@ -690,33 +562,6 @@
   },
   {
     "stufe": 5,
-    "frage": "Welche Schauspielerin rennt in Tom Tykwers „Lola rennt“ (1998) als Lola um das Leben ihres Freundes?",
-    "antwort": "Franka Potente",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Wer führte Regie bei „Good Bye, Lenin!“ (2003)?",
-    "antwort": "Wolfgang Becker",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Wer führte Regie beim Oscar-Gewinner „Parasite“?",
-    "antwort": "Bong Joon-ho",
-    "akzeptiert": [
-      "Bong Joon Ho",
-      "Bong"
-    ]
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Schauspieler verkörperte Gollum in den „Herr der Ringe“-Filmen per Motion Capture?",
-    "antwort": "Andy Serkis",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
     "frage": "Wie heißt das Gasthaus in Bree, in dem die Hobbits in „Der Herr der Ringe“ Aragorn treffen?",
     "antwort": "Zum Tänzelnden Pony",
     "akzeptiert": [
@@ -729,12 +574,6 @@
     "stufe": 5,
     "frage": "Wie heißt Fritz Langs Stummfilm-Klassiker von 1927 mit der Maschinen-Maria?",
     "antwort": "Metropolis"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Schauspieler spielte James Bond im allerersten offiziellen Bond-Kinofilm „James Bond jagt Dr. No“ (1962)?",
-    "antwort": "Sean Connery",
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 1,
@@ -824,12 +663,6 @@
   },
   {
     "stufe": 2,
-    "frage": "Welche Schauspielerin spielte 2023 die Titelrolle im Film „Barbie“?",
-    "antwort": "Margot Robbie",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 2,
     "frage": "In welcher Sitcom wohnt der Physiker Sheldon Cooper mit seinem Mitbewohner Leonard?",
     "antwort": "The Big Bang Theory",
     "akzeptiert": [
@@ -845,22 +678,6 @@
       "neundreiviertel",
       "9¾"
     ]
-  },
-  {
-    "stufe": 2,
-    "frage": "Welcher Schauspieler spielt Tony Stark alias Iron Man im Marvel Cinematic Universe?",
-    "antwort": "Robert Downey Jr.",
-    "akzeptiert": [
-      "Robert Downey Junior",
-      "Robert Downey"
-    ],
-    "bewertung": "„Downey“ reicht."
-  },
-  {
-    "stufe": 2,
-    "frage": "Welcher Schauspieler spielt Jack Dawson im Film „Titanic“ (1997)?",
-    "antwort": "Leonardo DiCaprio",
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 2,
@@ -895,35 +712,8 @@
   },
   {
     "stufe": 3,
-    "frage": "Welcher Schauspieler spielte den Joker in „The Dark Knight“ (2008)?",
-    "antwort": "Heath Ledger",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
     "frage": "Wie heißt der große Löwe in „Die Chroniken von Narnia“?",
     "antwort": "Aslan"
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Schauspieler spielte Ken im Film „Barbie“ (2023)?",
-    "antwort": "Ryan Gosling",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Schauspieler spielt Paul Atreides in den „Dune“-Filmen von 2021 und 2024?",
-    "antwort": "Timothée Chalamet",
-    "akzeptiert": [
-      "Timothee Chalamet"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Schauspieler spielte die Titelrolle in „Forrest Gump“ (1994)?",
-    "antwort": "Tom Hanks",
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 3,
@@ -935,42 +725,12 @@
   },
   {
     "stufe": 3,
-    "frage": "Welcher Schauspieler spielt Neo in „Matrix“?",
-    "antwort": "Keanu Reeves",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
     "frage": "Wie viele Infinity-Steine gibt es im Marvel Cinematic Universe?",
     "antwort": "6",
     "akzeptiert": [
       "sechs"
     ],
     "bewertung": "Nur die Zahl zählt."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Schauspieler spielt Deadpool, zuletzt 2024 in „Deadpool & Wolverine“?",
-    "antwort": "Ryan Reynolds",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welcher Schauspieler spielt den Agenten Ethan Hunt in der „Mission: Impossible“-Reihe?",
-    "antwort": "Tom Cruise",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 3,
-    "frage": "Welche Schauspielerin spielt Katniss Everdeen in „Die Tribute von Panem“?",
-    "antwort": "Jennifer Lawrence",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
-    "frage": "Wer führte Regie beim Film „Barbie“ (2023)?",
-    "antwort": "Greta Gerwig",
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 4,
@@ -1003,12 +763,6 @@
   },
   {
     "stufe": 4,
-    "frage": "Welcher irische Schauspieler spielte die Titelrolle in „Oppenheimer“ und Thomas Shelby in „Peaky Blinders“?",
-    "antwort": "Cillian Murphy",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 4,
     "frage": "Wie wird der Kopf der Räuberbande in „Haus des Geldes“ genannt?",
     "antwort": "Der Professor",
     "akzeptiert": [
@@ -1021,12 +775,6 @@
     "stufe": 4,
     "frage": "Welche Spielernummer trägt Hauptfigur Seong Gi-hun in „Squid Game“?",
     "antwort": "456"
-  },
-  {
-    "stufe": 4,
-    "frage": "Welcher australische Schauspieler spielt Wolverine in den „X-Men“-Filmen?",
-    "antwort": "Hugh Jackman",
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 4,
@@ -1053,38 +801,8 @@
   },
   {
     "stufe": 5,
-    "frage": "Welcher Film gewann bei den Oscars im März 2025 den Preis als bester Film?",
-    "antwort": "Anora"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher US-Regisseur drehte „Grand Budapest Hotel“ (2014)?",
-    "antwort": "Wes Anderson",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher Schauspieler spielte in „Der Pate – Teil II“ den jungen Vito Corleone?",
-    "antwort": "Robert De Niro",
-    "akzeptiert": [
-      "De Niro",
-      "DeNiro"
-    ],
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
     "frage": "In welches Jahr reist Marty McFly im ersten „Zurück in die Zukunft“-Film?",
     "antwort": "1955"
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher japanische Regisseur drehte den Anime-Film „Your Name.“ (2016)?",
-    "antwort": "Makoto Shinkai",
-    "akzeptiert": [
-      "Shinkai"
-    ],
-    "bewertung": "Nachname reicht."
   },
   {
     "stufe": 5,
@@ -1100,23 +818,783 @@
     ]
   },
   {
-    "stufe": 5,
-    "frage": "Welcher Film gewann 2002 den allerersten Oscar für den besten Animationsfilm?",
-    "antwort": "Shrek"
+    "stufe": 1,
+    "frage": "Wie heißt Elsas jüngere Schwester in „Die Eiskönigin“?",
+    "antwort": "Anna"
   },
   {
-    "stufe": 5,
-    "frage": "Welche Schauspielerin gewann 2024 den Oscar als beste Hauptdarstellerin für „Poor Things“?",
-    "antwort": "Emma Stone",
-    "bewertung": "Nachname reicht."
-  },
-  {
-    "stufe": 5,
-    "frage": "Welcher kanadische Regisseur drehte die „Dune“-Filme von 2021 und 2024?",
-    "antwort": "Denis Villeneuve",
+    "stufe": 1,
+    "frage": "Wie heißt der vergessliche blaue Fisch, der Marlin in „Findet Nemo“ bei der Suche hilft?",
+    "antwort": "Dorie",
     "akzeptiert": [
-      "Villeneuve"
+      "Dory"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Hautfarbe haben die großen Ureinwohner im Film „Avatar“?",
+    "antwort": "Blau"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist Remy, der in „Ratatouille“ ein großer Koch werden will?",
+    "antwort": "Ratte"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Pixar-Film fliegt der alte Carl mit seinem Haus an tausenden Luftballons davon?",
+    "antwort": "Oben",
+    "akzeptiert": [
+      "Up"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe hat das Lichtschwert von Darth Vader?",
+    "antwort": "Rot"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt Thors Adoptivbruder, der Gott des Schabernacks, in den Marvel-Filmen?",
+    "antwort": "Loki"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welchen Satz sagt der Baum-Held aus „Guardians of the Galaxy“ fast immer?",
+    "antwort": "Ich bin Groot",
+    "akzeptiert": [
+      "I am Groot"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Weihnachtsfilm, in dem der kleine Kevin sein Haus mit Fallen gegen zwei Einbrecher verteidigt?",
+    "antwort": "Kevin – Allein zu Haus",
+    "akzeptiert": [
+      "Kevin allein zu Haus",
+      "Home Alone"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Form hat die Narbe auf Harry Potters Stirn?",
+    "antwort": "Blitz",
+    "akzeptiert": [
+      "Blitzform"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Frucht vergiftet die böse Königin, um Schneewittchen zu töten?",
+    "antwort": "Apfel"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was verliert Cinderella um Mitternacht auf der Treppe des Schlosses?",
+    "antwort": "Ihren gläsernen Schuh",
+    "akzeptiert": [
+      "Schuh",
+      "Glasschuh",
+      "Glaspantoffel"
     ],
-    "bewertung": "Nachname reicht."
+    "bewertung": "„Schuh“ reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das rote Rennauto mit der Startnummer 95 aus „Cars“?",
+    "antwort": "Lightning McQueen",
+    "akzeptiert": [
+      "McQueen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt Gollum in „Der Herr der Ringe“ den Einen Ring?",
+    "antwort": "Mein Schatz",
+    "akzeptiert": [
+      "Schatz",
+      "My Precious"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist Shreks quasselnder Begleiter?",
+    "antwort": "Esel"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Fast-Food-Restaurant, in dem SpongeBob Krabbenburger brät?",
+    "antwort": "Krosse Krabbe",
+    "akzeptiert": [
+      "Krusty Krab"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welchem Gegenstand jagt das Säbelzahn-Eichhörnchen Scrat in „Ice Age“ ständig hinterher?",
+    "antwort": "Eichel",
+    "akzeptiert": [
+      "Nuss"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Halbriese und Wildhüter, der Harry erzählt, dass er ein Zauberer ist?",
+    "antwort": "Hagrid",
+    "akzeptiert": [
+      "Rubeus Hagrid"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Film über den „Vater der Atombombe“ startete 2023 am selben Tag wie „Barbie“ („Barbenheimer“)?",
+    "antwort": "Oppenheimer"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Stadt lebt Peter Parker alias Spider-Man?",
+    "antwort": "New York",
+    "akzeptiert": [
+      "New York City",
+      "NYC"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Häuser gibt es an der Zauberschule Hogwarts?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welcher Waffe kämpft Katniss Everdeen in „Die Tribute von Panem“?",
+    "antwort": "Pfeil und Bogen",
+    "akzeptiert": [
+      "Bogen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die riesige Kampfstation des Imperiums in „Star Wars“, die ganze Planeten zerstören kann?",
+    "antwort": "Todesstern",
+    "akzeptiert": [
+      "Death Star"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie hieß Darth Vader, bevor er auf die dunkle Seite der Macht wechselte?",
+    "antwort": "Anakin Skywalker",
+    "akzeptiert": [
+      "Anakin"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Unter welchem Decknamen ist Walter White in „Breaking Bad“ in der Drogenszene bekannt?",
+    "antwort": "Heisenberg"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Walter Whites junger Partner und Ex-Schüler in „Breaking Bad“?",
+    "antwort": "Jesse Pinkman",
+    "akzeptiert": [
+      "Jesse"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches italienische Partisanenlied singen die Räuber in „Haus des Geldes“?",
+    "antwort": "Bella Ciao"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Junge verschwindet in der ersten Staffel von „Stranger Things“ spurlos?",
+    "antwort": "Will Byers",
+    "akzeptiert": [
+      "Will"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Mond, auf dem der Film „Avatar“ spielt?",
+    "antwort": "Pandora"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das finstere Land des dunklen Herrschers Sauron in „Der Herr der Ringe“?",
+    "antwort": "Mordor"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der kleine goldene Ball mit Flügeln beim Quidditch?",
+    "antwort": "Goldener Schnatz",
+    "akzeptiert": [
+      "Schnatz",
+      "Snitch"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welchem Zauberspruch lässt man in „Harry Potter“ Gegenstände schweben?",
+    "antwort": "Wingardium Leviosa"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wo muss Harry Potter bei den Dursleys anfangs schlafen?",
+    "antwort": "Im Schrank unter der Treppe",
+    "akzeptiert": [
+      "Schrank unter der Treppe",
+      "Besenschrank"
+    ],
+    "bewertung": "„Schrank unter der Treppe“ oder sinngemäß."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Piratenschiff mit den schwarzen Segeln aus „Fluch der Karibik“?",
+    "antwort": "Black Pearl",
+    "akzeptiert": [
+      "Die schwarze Perle",
+      "Schwarze Perle"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Heimatwelt der nordischen Götter um Thor und Odin in den Marvel-Filmen?",
+    "antwort": "Asgard"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie lautet der bürgerliche Name von Captain America?",
+    "antwort": "Steve Rogers"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Spider-Mans Tante, bei der Peter Parker aufwächst?",
+    "antwort": "May",
+    "akzeptiert": [
+      "Tante May"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Pixar-Film, in dem der Junge Miguel in das bunte Reich der Toten gelangt?",
+    "antwort": "Coco"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Stadt spielt der Pixar-Film „Ratatouille“?",
+    "antwort": "Paris"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie möchte James Bond seinen Martini haben?",
+    "antwort": "Geschüttelt, nicht gerührt",
+    "akzeptiert": [
+      "geschüttelt"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Die Vorgeschichte welches Klassikers erzählt das Musical und der Film „Wicked“ (2024)?",
+    "antwort": "Der Zauberer von Oz",
+    "akzeptiert": [
+      "Zauberer von Oz",
+      "Wizard of Oz"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Drachen hat Daenerys Targaryen in „Game of Thrones“?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der weise Mandrill, der in „Der König der Löwen“ den kleinen Simba hochhält?",
+    "antwort": "Rafiki"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welchen Himmelskörper will Gru in „Ich – Einfach unverbesserlich“ stehlen?",
+    "antwort": "Mond",
+    "akzeptiert": [
+      "den Mond"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches neue Gefühl übernimmt in „Alles steht Kopf 2“ (2024) die Kontrolle in Rileys Kopf?",
+    "antwort": "Zweifel",
+    "akzeptiert": [
+      "Anxiety"
+    ],
+    "bewertung": "Gemeint ist das orange Gefühl, im Original „Anxiety“. „Angst“ ist falsch (das ist ein anderes Gefühl)."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die grünhäutige Hexe, die Hauptfigur von „Wicked“?",
+    "antwort": "Elphaba"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Teenager aus Brooklyn, der in „Spider-Man: A New Universe“ zu Spider-Man wird?",
+    "antwort": "Miles Morales",
+    "akzeptiert": [
+      "Miles"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Monster aus der anderen Dimension, das in Staffel 4 von „Stranger Things“ Jugendliche tötet?",
+    "antwort": "Vecna",
+    "akzeptiert": [
+      "Henry Creel",
+      "Nr. 1",
+      "One"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Tiefkühlwaffeln liebt Eleven in „Stranger Things“?",
+    "antwort": "Eggo",
+    "akzeptiert": [
+      "Eggo-Waffeln",
+      "Eggos"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Fantasy-Rollenspiel spielen Mike, Dustin, Lucas und Will in „Stranger Things“?",
+    "antwort": "Dungeons & Dragons",
+    "akzeptiert": [
+      "D&D",
+      "Dungeons and Dragons"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Internat für Außenseiter, das Wednesday Addams in der Netflix-Serie besucht?",
+    "antwort": "Nevermore",
+    "akzeptiert": [
+      "Nevermore Academy"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die lebendige Hand der Familie Addams, die Wednesday hilft?",
+    "antwort": "Eiskaltes Händchen",
+    "akzeptiert": [
+      "Thing",
+      "Händchen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe haben die Overalls der maskierten Wächter in „Squid Game“?",
+    "antwort": "Pink",
+    "akzeptiert": [
+      "Rosa",
+      "Rot"
+    ],
+    "bewertung": "Auch „Rot“ gelten lassen."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die begehrte Substanz, um die sich in „Dune“ alles dreht?",
+    "antwort": "Spice",
+    "akzeptiert": [
+      "Gewürz",
+      "Melange"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe hat das besonders reine Meth von Walter White in „Breaking Bad“?",
+    "antwort": "Blau"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Spin-off von „Breaking Bad“ über den Anwalt Jimmy McGill?",
+    "antwort": "Better Call Saul"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Räuberin, die in „Haus des Geldes“ die Geschichte erzählt?",
+    "antwort": "Tokio",
+    "akzeptiert": [
+      "Tokyo"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Truppe, die die Mauer bewacht, tritt Jon Snow in „Game of Thrones“ bei?",
+    "antwort": "Nachtwache",
+    "akzeptiert": [
+      "Die Nachtwache",
+      "Night's Watch"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Um welches Adelshaus geht es in der „Game of Thrones“-Vorgeschichte „House of the Dragon“?",
+    "antwort": "Targaryen",
+    "akzeptiert": [
+      "Haus Targaryen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das KI-System, das Tony Stark in den ersten Iron-Man-Filmen hilft?",
+    "antwort": "J.A.R.V.I.S.",
+    "akzeptiert": [
+      "Jarvis"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welchen Satz sagt Tony Stark in „Avengers: Endgame“, bevor er mit den Infinity-Steinen schnipst?",
+    "antwort": "Ich bin Iron Man",
+    "akzeptiert": [
+      "I am Iron Man"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Zauberergefängnis in „Harry Potter“, das von Dementoren bewacht wird?",
+    "antwort": "Askaban",
+    "akzeptiert": [
+      "Azkaban"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus wie vielen Mitgliedern besteht die Gemeinschaft des Rings?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Luke Skywalkers erster Jedi-Lehrer, den er als „alten Ben“ kennt?",
+    "antwort": "Obi-Wan Kenobi",
+    "akzeptiert": [
+      "Obi-Wan",
+      "Kenobi"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das kleine Mädchen, das in „Die Monster AG“ in die Monsterwelt gelangt?",
+    "antwort": "Boo"
+  },
+  {
+    "stufe": 3,
+    "frage": "Über welches Familienmitglied spricht man laut Lied in „Encanto“ nicht?",
+    "antwort": "Bruno"
+  },
+  {
+    "stufe": 4,
+    "frage": "Zwischen High Heels und welcher Sandale muss Barbie im Film „Barbie“ (2023) wählen?",
+    "antwort": "Birkenstock"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist laut Ken im Film „Barbie“ (2023) sein „Job“?",
+    "antwort": "Beach",
+    "akzeptiert": [
+      "Strand"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welchen Rufnamen trägt der Sohn von Goose in „Top Gun: Maverick“?",
+    "antwort": "Rooster"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Wüstenvolk auf Arrakis in „Dune“, dem sich Paul anschließt?",
+    "antwort": "Fremen"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die mit den Atreides verfeindete Adelsfamilie in „Dune“, angeführt von einem schwebenden Baron?",
+    "antwort": "Harkonnen",
+    "akzeptiert": [
+      "Haus Harkonnen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welcher Zucker-Süßigkeit müssen die Spieler in „Squid Game“ Formen herauslösen?",
+    "antwort": "Dalgona",
+    "akzeptiert": [
+      "Zuckerwabe",
+      "Honigwabe",
+      "Ppopgi"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Form muss Gi-hun in „Squid Game“ aus der Zucker-Süßigkeit herauslösen?",
+    "antwort": "Regenschirm",
+    "akzeptiert": [
+      "Schirm"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche drei Symbole tragen die Wächter in „Squid Game“ auf ihren Masken?",
+    "antwort": "Kreis, Dreieck, Quadrat",
+    "bewertung": "Alle drei Formen müssen genannt sein, Reihenfolge egal; „Viereck“ statt Quadrat ist okay."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Joels jüngerer Bruder in „The Last of Us“?",
+    "antwort": "Tommy"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Hähnchen-Fastfoodkette von Gus Fring in „Breaking Bad“?",
+    "antwort": "Los Pollos Hermanos",
+    "akzeptiert": [
+      "Pollos Hermanos"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Bank überfallen die Räuber ab Staffel 3 von „Haus des Geldes“?",
+    "antwort": "Bank von Spanien",
+    "akzeptiert": [
+      "Banco de España",
+      "Spanische Nationalbank"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Polizeichef von Hawkins in „Stranger Things“?",
+    "antwort": "Jim Hopper",
+    "akzeptiert": [
+      "Hopper"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Hund im Deadpool-Kostüm aus „Deadpool & Wolverine“ (2024)?",
+    "antwort": "Dogpool",
+    "akzeptiert": [
+      "Peggy"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Spider-Variante aus „Spider-Man: A New Universe“ ist ein Comic-Schwein?",
+    "antwort": "Spider-Ham",
+    "akzeptiert": [
+      "Peter Porker"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Infinity-Stein steckt in der Stirn des Androiden Vision?",
+    "antwort": "Gedankenstein",
+    "akzeptiert": [
+      "Mind Stone"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Avengerin opfert sich in „Avengers: Endgame“ für den Seelenstein?",
+    "antwort": "Black Widow",
+    "akzeptiert": [
+      "Natasha Romanoff",
+      "Natasha"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Gestalt hat Harry Potters Patronus?",
+    "antwort": "Hirsch"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Feuerdämon tritt Gandalf in den Minen von Moria auf der Brücke entgegen?",
+    "antwort": "Balrog"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der blaue Diamant an Roses Kette in „Titanic“?",
+    "antwort": "Herz des Ozeans",
+    "akzeptiert": [
+      "Heart of the Ocean"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Meilen pro Stunde muss der DeLorean für eine Zeitreise erreichen?",
+    "antwort": "88"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Arya Starks schmales Schwert in „Game of Thrones“?",
+    "antwort": "Nadel",
+    "akzeptiert": [
+      "Needle"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Namen geben die Fremen Paul Atreides in „Dune“?",
+    "antwort": "Muad'Dib",
+    "akzeptiert": [
+      "Usul"
+    ],
+    "bewertung": "Auch „Usul“ (sein Name innerhalb der Gemeinschaft) zählt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Codenamen trägt der erste Atombombentest im Film „Oppenheimer“?",
+    "antwort": "Trinity"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches wertvolle Mineral wollen die Menschen in „Avatar“ auf Pandora abbauen?",
+    "antwort": "Unobtanium"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viel Preisgeld gibt es in der ersten Staffel von „Squid Game“ insgesamt zu gewinnen?",
+    "antwort": "45,6 Milliarden Won",
+    "akzeptiert": [
+      "45,6 Mrd. Won"
+    ],
+    "bewertung": "Die Zahl 45,6 Milliarden muss stimmen, „Won“ nicht nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Einkaufszentrum in Staffel 3 von „Stranger Things“?",
+    "antwort": "Starcourt Mall",
+    "akzeptiert": [
+      "Starcourt"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welches Monster verwandelt sich Tyler in der ersten Staffel von „Wednesday“?",
+    "antwort": "Hyde",
+    "akzeptiert": [
+      "ein Hyde"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Autowaschanlage, die Walter und Skyler White in „Breaking Bad“ kaufen?",
+    "antwort": "A1A Car Wash",
+    "akzeptiert": [
+      "A1A"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet der bürgerliche Name des „Professors“ in „Haus des Geldes“?",
+    "antwort": "Sergio Marquina",
+    "akzeptiert": [
+      "Sergio"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Zeitbehörde aus der Serie „Loki“, die auch in „Deadpool & Wolverine“ auftaucht?",
+    "antwort": "TVA",
+    "akzeptiert": [
+      "Time Variance Authority"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Auf welchem Planeten liegt im MCU der Seelenstein?",
+    "antwort": "Vormir"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welchen Planeten zerstört der Todesstern im ersten „Star Wars“-Film?",
+    "antwort": "Alderaan"
+  },
+  {
+    "stufe": 5,
+    "frage": "Auf welchem Sumpfplaneten lebt Yoda im Exil?",
+    "antwort": "Dagobah"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Hermine Grangers Kater?",
+    "antwort": "Krummbein",
+    "akzeptiert": [
+      "Crookshanks"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Babydrache, den Hagrid im ersten „Harry Potter“-Teil ausbrütet?",
+    "antwort": "Norbert"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Aragorns neu geschmiedetes Schwert in „Der Herr der Ringe“?",
+    "antwort": "Andúril",
+    "akzeptiert": [
+      "Anduril"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Gandalfs weißes Pferd in „Der Herr der Ringe“?",
+    "antwort": "Schattenfell",
+    "akzeptiert": [
+      "Shadowfax"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Neo in „Matrix“ mit bürgerlichem Namen?",
+    "antwort": "Thomas Anderson",
+    "akzeptiert": [
+      "Thomas A. Anderson",
+      "Mr. Anderson"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Experimentnummer trägt Stitch aus „Lilo & Stitch“?",
+    "antwort": "626"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Rileys imaginärer Freund in „Alles steht Kopf“ (2015)?",
+    "antwort": "Bing Bong"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Roses reicher Verlobter in „Titanic“?",
+    "antwort": "Cal Hockley",
+    "akzeptiert": [
+      "Caledon Hockley",
+      "Cal"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Doc Browns Hund im ersten „Zurück in die Zukunft“-Film?",
+    "antwort": "Einstein"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Rapunzels Chamäleon im Disney-Film „Rapunzel – Neu verföhnt“?",
+    "antwort": "Pascal"
   }
 ]
