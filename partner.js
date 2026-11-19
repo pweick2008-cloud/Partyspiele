@@ -14,12 +14,12 @@ const Partner = (() => {
   const MIN_TEAMS = 2;
   const MAX_TEAMS = 6;
   const ROUNDS = [6, 8, 10, 12, 16, 20];
-  const TYPES = [["w", "Wissen"], ["d", "Denken"], ["p", "Körper"]];
-  const TYPE_LABEL = { w: "Wissen", d: "Denken", p: "Körper" };
+  const TYPES = [["w", "Wissen"], ["d", "Denken"], ["p", "Körper"], ["s", "Spaß"]];
+  const TYPE_LABEL = { w: "Wissen", d: "Denken", p: "Körper", s: "Spaß" };
   const WIN = 2;
   const LOSE = 1;
 
-  let setup = { teams: [["", ""], ["", ""]], types: ["w", "d", "p"], rounds: 10 };
+  let setup = { teams: [["", ""], ["", ""]], types: ["w", "d", "p", "s"], rounds: 10 };
   let game = null;
   let clock = null;
   let audio = null;
@@ -33,6 +33,8 @@ const Partner = (() => {
     if (saved && Array.isArray(saved.teams)) setup = { ...setup, ...saved };
     setup.teams = setup.teams.slice(0, MAX_TEAMS).map((t) => [String(t[0] || ""), String(t[1] || "")]);
     while (setup.teams.length < MIN_TEAMS) setup.teams.push(["", ""]);
+    // Die neue Art „Spaß“ einmalig auch in alten Einstellungen einschalten
+    if (saved && !saved.mitSpass) { setup.types = [...new Set([...(setup.types || []), "s"])]; setup.mitSpass = true; save(STORE, setup); }
     setup.types = setup.types.filter((t) => TYPE_LABEL[t]);
     if (!setup.types.length) setup.types = ["w", "d", "p"];
     if (!ROUNDS.includes(setup.rounds)) setup.rounds = 10;

@@ -1713,6 +1713,7 @@ html[data-theme="partner"] .title h1 { font-weight: 800; letter-spacing: -.01em;
 .pk-tag[data-type="w"] { background: #23406b; border-color: #3b62a0; }
 .pk-tag[data-type="d"] { background: #4a2d6b; border-color: #7248a3; }
 .pk-tag[data-type="p"] { background: #6b3a1f; border-color: #a85e2f; }
+.pk-tag[data-type="s"] { background: #6b1f55; border-color: #b0388f; }
 .pk-task { text-align: center; padding: 22px 18px; background: linear-gradient(160deg, var(--tint-accent), var(--card)); }
 .pk-question { margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(1.3rem, 5.4vw, 1.9rem); line-height: 1.2; overflow-wrap: anywhere; }
 .pk-task .small { margin: 0; }

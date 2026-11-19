@@ -185,6 +185,18 @@ const PartnerStapel = (() => {
     },
     begriffe: { art: "karten", gen: () => ({ v: any(wordPool(["gegenstaende", "tiere", "berufe", "sportarten", "fahrzeuge", "hobbys", "orte"])) }) },
     begriffleicht: { art: "karten", gen: () => ({ v: any(wordPool(["gegenstaende", "tiere", "berufe", "fahrzeuge"], ["leicht"])) }) },
+    // Zum Vor- und Nachmachen: bekannte Begriffe aus den Verräter-Listen
+    wsTiere: { art: "karten", gen: () => ({ v: any(wordPool(["tiere"], ["leicht"])) }) },
+    wsBerufe: { art: "karten", gen: () => ({ v: any(wordPool(["berufe"], ["leicht"])) }) },
+    wsSport: { art: "karten", gen: () => ({ v: any(wordPool(["sportarten"], ["leicht"])) }) },
+    wsPromis: { art: "karten", gen: () => ({ v: any(wordPool(["schauspieler", "musiker", "sportler", "fussballer", "geschichte"], ["leicht"])) }) },
+    wsFilme: { art: "karten", gen: () => ({ v: any(wordPool(["filme"], ["leicht"])) }) },
+    wsFiguren: { art: "karten", gen: () => ({ v: any(wordPool(["figuren"], ["leicht"])) }) },
+    wsGegenstaende: { art: "karten", gen: () => ({ v: any(wordPool(["gegenstaende"], ["leicht"])) }) },
+    wsFahrzeuge: { art: "karten", gen: () => ({ v: any(wordPool(["fahrzeuge"], ["leicht", "mittel"])) }) },
+    wsHobbys: { art: "karten", gen: () => ({ v: any(wordPool(["hobbys"], ["leicht"])) }) },
+    wsOrte: { art: "karten", gen: () => ({ v: any(wordPool(["orte"], ["leicht"])) }) },
+    wsLaender: { art: "karten", gen: () => ({ v: any(wordPool(["laender"], ["leicht"])) }) },
     tiere: { art: "karten", gen: () => ({ v: any(wordPool(["tiere"], ["leicht"])) }) },
     laenge: { art: "karten", gen: () => { const w = any(wordPool(["gegenstaende", "tiere"])).split(" ")[0]; return { v: w, l: `${w.replace(/[^A-Za-zÄÖÜäöüß]/g, "").length} Buchstaben` }; } },
     tieroder: {

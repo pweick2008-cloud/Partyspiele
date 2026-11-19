@@ -29,12 +29,12 @@ const QZ_CATS = 10;
 const QZ_BUZZ_LOCK = 1500;
 const qzPlayable = (k) => [1, 2, 3, 4, 5].every((s) => k.fragen.some((q) => q.s === s));
 const PK_ROUNDS = [6, 8, 10, 12, 16, 20];
-const PK_TYPES = ["w", "d", "p"];
+const PK_TYPES = ["w", "d", "p", "s"];
 
 const DEFAULTS = {
   ehesten: {},
   quiz: { cats: [] },
-  partner: { types: ["w", "d", "p"], rounds: 10, order: [] }
+  partner: { types: ["w", "d", "p", "s"], rounds: 10, order: [] }
 };
 
 function install(ctx) {

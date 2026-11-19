@@ -21,7 +21,7 @@ const PkOnline = (() => {
     for (const t of g().teams) for (const m of t.members) if (m.id === id) return m.name;
     return "?";
   };
-  const TYPE = { w: "Wissen", d: "Denken", p: "Körper" };
+  const TYPE = { w: "Wissen", d: "Denken", p: "Körper", s: "Spaß" };
   const teamName = (t) => t.members.map((m) => m.name).join(" & ");
 
   const el = (tag, cls, text) => {
@@ -298,7 +298,7 @@ const PkOnline = (() => {
   function renderLobbySettings(s) {
     state = s;
     const host = isHost();
-    const st = (s.xSettings && s.xSettings.partner) || { types: ["w", "d", "p"], rounds: 10 };
+    const st = (s.xSettings && s.xSettings.partner) || { types: ["w", "d", "p", "s"], rounds: 10 };
     const teams = (s.xSettings && s.xSettings.partnerTeams) || [];
     const name = (id) => (s.players.find((p) => p.id === id) || {}).name || "?";
     $("pkx-host-pill").textContent = host ? "Du bist Host" : "Nur der Host kann ändern";
@@ -317,7 +317,7 @@ const PkOnline = (() => {
     $("pkx-shuffle").onclick = () => Online.send({ type: "pkSettings", settings: { shuffle: true } });
     const types = $("pkx-types");
     types.innerHTML = "";
-    for (const [id, label] of [["w", "Wissen"], ["d", "Denken"], ["p", "Körper"]]) {
+    for (const [id, label] of [["w", "Wissen"], ["d", "Denken"], ["p", "Körper"], ["s", "Spaß"]]) {
       const on = st.types.includes(id);
       types.appendChild(makeChip(label, on, host ? () => {
         if (on && st.types.length === 1) return showToast("Mindestens eine Art muss gewählt sein.");
