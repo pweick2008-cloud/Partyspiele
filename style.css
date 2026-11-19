@@ -1798,3 +1798,6 @@ html[data-theme="partner"] .title h1 { font-weight: 800; letter-spacing: -.01em;
 .quiz-score.left { opacity: .45; }
 .pk-role.mine { border-style: dashed; }
 .qz-tally { margin: 2px 0; font-family: var(--mono); font-weight: 700; font-size: 1.1rem; }
+.quiz-group-head { flex-basis: 100%; display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); font-weight: 700; }
+.quiz-group-head:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.quiz-group-head:first-child:empty, .quiz-group-head:first-child span:empty { display: none; }

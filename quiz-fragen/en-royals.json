@@ -1,0 +1,92 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Who was Queen of the United Kingdom from 1952 to 2022?",
+    "antwort": "Elizabeth II",
+    "akzeptiert": [
+      "Queen Elizabeth",
+      "Elizabeth the Second",
+      "Elizabeth"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Who became King after Queen Elizabeth II died?",
+    "antwort": "Charles III",
+    "akzeptiert": [
+      "King Charles",
+      "Charles"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "In which London palace does the British monarch officially live?",
+    "antwort": "Buckingham Palace",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What are the names of King Charles's two sons?",
+    "antwort": "William and Harry",
+    "akzeptiert": [
+      "Harry and William"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Whom did Prince William marry in 2011?",
+    "antwort": "Kate Middleton",
+    "akzeptiert": [
+      "Catherine Middleton",
+      "Kate",
+      "Catherine"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which American actress did Prince Harry marry in 2018?",
+    "antwort": "Meghan Markle",
+    "akzeptiert": [
+      "Meghan"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What was the name of King Charles's first wife, who died in a car crash in Paris in 1997?",
+    "antwort": "Diana",
+    "akzeptiert": [
+      "Princess Diana",
+      "Lady Diana"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "In which London church was King Charles III crowned in 2023?",
+    "antwort": "Westminster Abbey",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the family name of the British royal family, chosen in 1917?",
+    "antwort": "Windsor",
+    "akzeptiert": [
+      "House of Windsor"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Who is second in line to the throne, after Prince William?",
+    "antwort": "Prince George",
+    "akzeptiert": [
+      "George"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  }
+]

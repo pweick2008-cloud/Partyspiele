@@ -1,0 +1,95 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Which politician lives at 10 Downing Street?",
+    "antwort": "the Prime Minister",
+    "akzeptiert": [
+      "Prime Minister",
+      "the British Prime Minister",
+      "PM"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "In which building does the US President live and work?",
+    "antwort": "the White House",
+    "akzeptiert": [
+      "White House"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What are the two main political parties in the USA?",
+    "antwort": "Democrats and Republicans",
+    "akzeptiert": [
+      "Republicans and Democrats",
+      "Democratic and Republican Party"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Who is the head of state of the United Kingdom?",
+    "antwort": "the King",
+    "akzeptiert": [
+      "the monarch",
+      "King Charles",
+      "Charles III"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Gemeint ist der König bzw. die Monarchin, nicht der Premierminister."
+  },
+  {
+    "stufe": 3,
+    "frage": "How many years is one term of the US President?",
+    "antwort": "4",
+    "akzeptiert": [
+      "four"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What are the two houses of the British Parliament?",
+    "antwort": "House of Commons and House of Lords",
+    "akzeptiert": [
+      "the Commons and the Lords"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What are the two chambers of the US Congress?",
+    "antwort": "the Senate and the House of Representatives",
+    "akzeptiert": [
+      "Senate and House of Representatives",
+      "House and Senate"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call a system in which a king or queen is head of state, but Parliament makes the laws?",
+    "antwort": "constitutional monarchy",
+    "akzeptiert": [
+      "parliamentary monarchy"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "How many senators does each US state have?",
+    "antwort": "2",
+    "akzeptiert": [
+      "two"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the name of the group of people who formally elect the US President?",
+    "antwort": "Electoral College",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  }
+]

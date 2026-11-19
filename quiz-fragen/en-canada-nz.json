@@ -1,0 +1,77 @@
+[
+  {
+    "stufe": 1,
+    "frage": "What is the capital of Canada?",
+    "antwort": "Ottawa",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which kind of leaf is shown on the Canadian flag?",
+    "antwort": "maple leaf",
+    "akzeptiert": [
+      "maple"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What are the indigenous people of New Zealand called?",
+    "antwort": "Māori",
+    "akzeptiert": [
+      "Maori"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which small flightless bird is a national symbol of New Zealand?",
+    "antwort": "kiwi",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which two official languages does Canada have?",
+    "antwort": "English and French",
+    "akzeptiert": [
+      "French and English"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which famous film trilogy about hobbits was filmed in New Zealand?",
+    "antwort": "The Lord of the Rings",
+    "akzeptiert": [
+      "Lord of the Rings"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the capital of New Zealand?",
+    "antwort": "Wellington",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "In which Canadian province do most people speak French?",
+    "antwort": "Quebec",
+    "akzeptiert": [
+      "Québec"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the traditional Māori dance that New Zealand's rugby team performs before games?",
+    "antwort": "haka",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the name of Canada's northernmost territory, where many Inuit live?",
+    "antwort": "Nunavut",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  }
+]

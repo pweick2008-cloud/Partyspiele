@@ -1,0 +1,75 @@
+[
+  {
+    "stufe": 1,
+    "frage": "What is the capital of the United Kingdom?",
+    "antwort": "London",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "How many states does the USA have?",
+    "antwort": "50",
+    "akzeptiert": [
+      "fifty"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "In which US state is Hollywood?",
+    "antwort": "California",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which river flows through London?",
+    "antwort": "Thames",
+    "akzeptiert": [
+      "the Thames",
+      "River Thames"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which four countries make up the United Kingdom?",
+    "antwort": "England, Scotland, Wales and Northern Ireland",
+    "akzeptiert": [
+      "England Scotland Wales Northern Ireland"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Alle vier müssen genannt sein, die Reihenfolge ist egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the capital of Australia?",
+    "antwort": "Canberra",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the highest mountain in the UK?",
+    "antwort": "Ben Nevis",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the name of the narrow sea between England and France?",
+    "antwort": "English Channel",
+    "akzeptiert": [
+      "the Channel"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which US city is known as 'the Windy City'?",
+    "antwort": "Chicago",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the capital of Wales?",
+    "antwort": "Cardiff",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  }
+]

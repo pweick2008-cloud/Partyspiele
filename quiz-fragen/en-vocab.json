@@ -1,0 +1,78 @@
+[
+  {
+    "stufe": 1,
+    "frage": "What is the English word for „Schmetterling“?",
+    "antwort": "butterfly",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the English word for „Kühlschrank“?",
+    "antwort": "fridge",
+    "akzeptiert": [
+      "refrigerator"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the English word for „Umwelt“?",
+    "antwort": "environment",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Someone sneezes. What do you say in English?",
+    "antwort": "Bless you!",
+    "akzeptiert": [
+      "Bless you",
+      "God bless you"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the English word for „Nachhaltigkeit“?",
+    "antwort": "sustainability",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do British people call a „Handy“?",
+    "antwort": "mobile phone",
+    "akzeptiert": [
+      "mobile"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the English word for „Gleichberechtigung“?",
+    "antwort": "equality",
+    "akzeptiert": [
+      "equal rights"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the English word for „Vorurteil“?",
+    "antwort": "prejudice",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the English word for „Zuverlässigkeit“?",
+    "antwort": "reliability",
+    "akzeptiert": [
+      "dependability"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the English word for „Verantwortung“?",
+    "antwort": "responsibility",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  }
+]

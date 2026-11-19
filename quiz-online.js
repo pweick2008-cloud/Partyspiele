@@ -309,7 +309,26 @@ const QzOnline = (() => {
     const box = $("qz-ocats");
     box.innerHTML = "";
     const playable = QUIZ_KATEGORIEN.filter((k) => [1, 2, 3, 4, 5].every((st) => k.fragen.some((q) => q.s === st)));
+    let group = null;
     for (const k of playable) {
+      if ((k.gruppe || null) !== group) {
+        group = k.gruppe || null;
+        const ids = playable.filter((x) => x.gruppe === group).map((x) => x.id);
+        const head = document.createElement("div");
+        head.className = "quiz-group-head";
+        const label = document.createElement("span");
+        label.textContent = group;
+        head.appendChild(label);
+        if (host) {
+          const pack = document.createElement("button");
+          pack.type = "button";
+          pack.className = "btn ghost small-btn";
+          pack.textContent = ids.length === 10 ? `Nur ${group} spielen` : `${group} auswählen`;
+          pack.addEventListener("click", () => Online.send({ type: "qzSettings", cats: ids.slice(0, 10) }));
+          head.appendChild(pack);
+        }
+        box.appendChild(head);
+      }
       const on = chosen.includes(k.id);
       box.appendChild(makeChip(k.name, on, host ? () => {
         if (!on && chosen.length >= 10) return showToast("Es sind schon 10 Kategorien gewählt.");
@@ -319,7 +338,7 @@ const QzOnline = (() => {
     box.classList.toggle("static", !host);
     $("qz-orandom").hidden = !host;
     $("qz-orandom").onclick = () => {
-      const rest = shuffle(playable.map((k) => k.id).filter((id) => !chosen.includes(id)));
+      const rest = shuffle(playable.filter((k) => !k.gruppe).map((k) => k.id).filter((id) => !chosen.includes(id)));
       Online.send({ type: "qzSettings", cats: [...chosen, ...rest].slice(0, 10) });
     };
   }

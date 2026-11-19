@@ -26,13 +26,24 @@ const KATEGORIEN = [
   ["erfindungen", "Erfindungen & Technik"],
   ["logos", "Logos"],
   ["basketball", "Basketball"],
-  ["animes", "Animes"]
+  ["animes", "Animes"],
+  // Themenpaket für den Englischunterricht (eigener Bereich in der Auswahl)
+  ["en-sustainability", "Sustainability", "Englischunterricht"],
+  ["en-us-history", "History of the USA", "Englischunterricht"],
+  ["en-uk-history", "History of the UK", "Englischunterricht"],
+  ["en-canada-nz", "Canada & New Zealand", "Englischunterricht"],
+  ["en-mediation", "Mediation", "Englischunterricht"],
+  ["en-vocab", "Vocabulary", "Englischunterricht"],
+  ["en-royals", "British Royals", "Englischunterricht"],
+  ["en-grammar", "Grammar", "Englischunterricht"],
+  ["en-geography", "Geography", "Englischunterricht"],
+  ["en-politics", "Politics (UK & USA)", "Englischunterricht"]
 ];
 
 const dir = path.join(__dirname, "..", "quiz-fragen");
 const out = [];
 const problems = [];
-for (const [id, name] of KATEGORIEN) {
+for (const [id, name, gruppe] of KATEGORIEN) {
   const file = path.join(dir, id + ".json");
   if (!fs.existsSync(file)) { problems.push(`${id}: Datei fehlt`); continue; }
   let list;
@@ -54,7 +65,7 @@ for (const [id, name] of KATEGORIEN) {
     if (q.rezept) f.r = q.rezept.map(String);
     fragen.push(f);
   }
-  out.push({ id, name, fragen });
+  out.push(gruppe ? { id, name, gruppe, fragen } : { id, name, fragen });
 }
 
 const total = out.reduce((s, k) => s + k.fragen.length, 0);

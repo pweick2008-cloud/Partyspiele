@@ -1,0 +1,103 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Translate into English: „Ich habe Hunger.“",
+    "antwort": "I am hungry.",
+    "akzeptiert": [
+      "I'm hungry"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Translate into English: „Wie spät ist es?“",
+    "antwort": "What time is it?",
+    "akzeptiert": [
+      "What's the time?"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Translate into English: „Kannst du mir bitte helfen?“",
+    "antwort": "Can you help me, please?",
+    "akzeptiert": [
+      "Could you help me please",
+      "Can you please help me"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Translate into English: „Wo ist der Bahnhof?“",
+    "antwort": "Where is the train station?",
+    "akzeptiert": [
+      "Where is the station?",
+      "Where's the railway station?"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Translate into English: „Ich freue mich auf die Ferien.“",
+    "antwort": "I'm looking forward to the holidays.",
+    "akzeptiert": [
+      "I am looking forward to the holidays",
+      "I'm looking forward to the vacation"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. „I'm happy about the holidays“ ist zu ungenau, „looking forward to“ ist gemeint."
+  },
+  {
+    "stufe": 3,
+    "frage": "Explain in English: „Es regnet in Strömen.“",
+    "antwort": "It's raining cats and dogs.",
+    "akzeptiert": [
+      "It's pouring",
+      "It is pouring with rain",
+      "It's raining heavily"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Translate into English: „Ich wohne seit drei Jahren in Berlin.“",
+    "antwort": "I have lived in Berlin for three years.",
+    "akzeptiert": [
+      "I have been living in Berlin for three years",
+      "I've lived in Berlin for three years"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. Wichtig ist das Present Perfect mit „for“; „I live in Berlin since three years“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Translate into English: „Wenn ich Zeit hätte, würde ich dich besuchen.“",
+    "antwort": "If I had time, I would visit you.",
+    "akzeptiert": [
+      "If I had time I'd visit you",
+      "If I had the time, I would visit you"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. Gefordert ist der Conditional Type 2 (If I had …, I would …)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Explain in English what this means (not word for word): „Das ist nicht mein Bier.“",
+    "antwort": "That's not my problem.",
+    "akzeptiert": [
+      "That's none of my business",
+      "Not my business",
+      "That's not my concern"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Translate into English (as people really say it): „Ich drücke dir die Daumen.“",
+    "antwort": "I'll keep my fingers crossed for you.",
+    "akzeptiert": [
+      "Fingers crossed",
+      "I'll cross my fingers for you",
+      "I'm keeping my fingers crossed"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  }
+]

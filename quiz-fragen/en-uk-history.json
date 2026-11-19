@@ -1,0 +1,83 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Which British Prime Minister led the country during World War II?",
+    "antwort": "Winston Churchill",
+    "akzeptiert": [
+      "Churchill"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which union did the United Kingdom leave in 2020 after the Brexit vote?",
+    "antwort": "European Union",
+    "akzeptiert": [
+      "EU",
+      "the EU"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which English king had six wives?",
+    "antwort": "Henry VIII",
+    "akzeptiert": [
+      "Henry the Eighth",
+      "Henry 8"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "In which year did the Battle of Hastings take place?",
+    "antwort": "1066",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call the time in the 18th and 19th century when machines and factories changed Britain?",
+    "antwort": "Industrial Revolution",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which wall did the Romans build across northern England?",
+    "antwort": "Hadrian's Wall",
+    "akzeptiert": [
+      "Hadrians Wall"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Who was the first female Prime Minister of the UK?",
+    "antwort": "Margaret Thatcher",
+    "akzeptiert": [
+      "Thatcher"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "In which year did the British people vote in the Brexit referendum?",
+    "antwort": "2016",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which famous document, signed by King John in 1215, limited the power of the king?",
+    "antwort": "Magna Carta",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What do we call the plan of 1605 to blow up Parliament, remembered every year on 5 November?",
+    "antwort": "Gunpowder Plot",
+    "akzeptiert": [
+      "Guy Fawkes Night",
+      "Guy Fawkes plot"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  }
+]

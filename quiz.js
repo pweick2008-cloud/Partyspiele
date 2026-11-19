@@ -108,7 +108,24 @@ const Quiz = (() => {
     const need = CATS_PER_PAGE * PAGES;
     const box = $("quiz-cats");
     box.innerHTML = "";
+    let group = null;
     for (const k of QUIZ_KATEGORIEN) {
+      // Themenpakete (z. B. Englischunterricht) bekommen einen eigenen Abschnitt
+      if ((k.gruppe || null) !== group) {
+        group = k.gruppe || null;
+        const ids = QUIZ_KATEGORIEN.filter((x) => x.gruppe === group && playable(x)).map((x) => x.id);
+        const head = document.createElement("div");
+        head.className = "quiz-group-head";
+        head.innerHTML = `<span></span>`;
+        head.firstChild.textContent = group;
+        const pack = document.createElement("button");
+        pack.type = "button";
+        pack.className = "btn ghost small-btn";
+        pack.textContent = ids.length === need ? `Nur ${group} spielen` : `${group} auswählen`;
+        pack.addEventListener("click", () => { setup.cats = ids.slice(0, need); save(STORE, setup); renderCats(); });
+        head.appendChild(pack);
+        box.appendChild(head);
+      }
       const ok = playable(k);
       const on = setup.cats.includes(k.id);
       const chip = makeChip(k.name, on, ok ? () => {
@@ -130,8 +147,9 @@ const Quiz = (() => {
 
   function randomCats() {
     const need = CATS_PER_PAGE * PAGES;
-    const pool = QUIZ_KATEGORIEN.filter(playable).map((k) => k.id);
-    const keep = setup.cats.filter((id) => pool.includes(id));
+    // Themenpakete werden nicht zufällig in eine normale Runde gemischt
+    const pool = QUIZ_KATEGORIEN.filter((k) => playable(k) && !k.gruppe).map((k) => k.id);
+    const keep = setup.cats.filter((id) => QUIZ_KATEGORIEN.some((k) => k.id === id && playable(k)));
     const rest = shuffle(pool.filter((id) => !keep.includes(id)));
     // Schon gewählte bleiben, der Rest wird zufällig aufgefüllt
     setup.cats = keep.length >= need ? shuffle(pool).slice(0, need) : [...keep, ...rest].slice(0, need);

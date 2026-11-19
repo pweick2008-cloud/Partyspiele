@@ -1,0 +1,81 @@
+[
+  {
+    "stufe": 1,
+    "frage": "What is the simple past of 'go'?",
+    "antwort": "went",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the plural of 'child'?",
+    "antwort": "children",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Complete (simple present): 'She ___ (play) tennis every Sunday.'",
+    "antwort": "plays",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the past participle (3rd form) of 'write'?",
+    "antwort": "written",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which tense is this: 'I have lived here since 2015.'",
+    "antwort": "present perfect",
+    "akzeptiert": [
+      "present perfect simple"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Complete (present progressive): 'Right now, I ___ (watch) TV.'",
+    "antwort": "am watching",
+    "akzeptiert": [
+      "'m watching"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Complete the conditional type 2: 'If I ___ (be) rich, I would buy a boat.'",
+    "antwort": "were",
+    "akzeptiert": [
+      "was"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „were“ und „was“ zählen beide."
+  },
+  {
+    "stufe": 4,
+    "frage": "Put into the passive: 'Tom wrote the letter.'",
+    "antwort": "The letter was written by Tom.",
+    "akzeptiert": [
+      "The letter was written by Tom"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Gemeint ist das Passiv im Simple Past; kleine Tippfehler sind okay."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which tense is this: 'By next year, I will have finished school.'",
+    "antwort": "future perfect",
+    "akzeptiert": [
+      "future perfect simple"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Put into reported speech: She said, 'I am tired.'",
+    "antwort": "She said (that) she was tired.",
+    "akzeptiert": [
+      "She said she was tired",
+      "She said that she was tired"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Wichtig ist die Rückverschiebung „am“ → „was“."
+  }
+]

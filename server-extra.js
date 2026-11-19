@@ -152,7 +152,9 @@ function install(ctx) {
       const st = xs(lobby, "quiz");
       const pool = QUIZ_KATEGORIEN.filter(qzPlayable).map((k) => k.id);
       let cats = st.cats.filter((id) => pool.includes(id));
-      if (cats.length < QZ_CATS) cats = [...cats, ...shuffle(pool.filter((id) => !cats.includes(id)))].slice(0, QZ_CATS);
+      // Aufgefüllt wird nur mit normalen Kategorien, nicht mit Themenpaketen
+      const fill = QUIZ_KATEGORIEN.filter((k) => qzPlayable(k) && !k.gruppe).map((k) => k.id);
+      if (cats.length < QZ_CATS) cats = [...cats, ...shuffle(fill.filter((id) => !cats.includes(id)))].slice(0, QZ_CATS);
       const used = new Set(lobby.qzUsed || []);
       const key = (id, q) => `${id}:${q.f.slice(0, 60)}${q.e || ""}${q.r ? q.r.join("") : ""}`;
       const order = shuffle(cats.slice(0, QZ_CATS));

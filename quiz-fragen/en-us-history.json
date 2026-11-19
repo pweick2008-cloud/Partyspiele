@@ -1,0 +1,84 @@
+[
+  {
+    "stufe": 1,
+    "frage": "Who was the first President of the United States?",
+    "antwort": "George Washington",
+    "akzeptiert": [
+      "Washington"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "In which year did Christopher Columbus first reach America?",
+    "antwort": "1492",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "On which date do Americans celebrate Independence Day?",
+    "antwort": "July 4th",
+    "akzeptiert": [
+      "4th of July",
+      "4 July",
+      "July 4",
+      "Fourth of July"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which ship brought the Pilgrims to America in 1620?",
+    "antwort": "Mayflower",
+    "akzeptiert": [
+      "the Mayflower"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which civil rights leader gave the famous 'I Have a Dream' speech in 1963?",
+    "antwort": "Martin Luther King Jr.",
+    "akzeptiert": [
+      "Martin Luther King",
+      "MLK"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which president led the North in the Civil War and ended slavery?",
+    "antwort": "Abraham Lincoln",
+    "akzeptiert": [
+      "Lincoln"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which African American woman refused to give up her bus seat in Montgomery in 1955?",
+    "antwort": "Rosa Parks",
+    "akzeptiert": [
+      "Parks"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call the protest in 1773 when colonists threw British tea into Boston Harbor?",
+    "antwort": "Boston Tea Party",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "In which city was President John F. Kennedy shot in 1963?",
+    "antwort": "Dallas",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "With which deal did the USA buy a huge area of land from France in 1803 and double its size?",
+    "antwort": "Louisiana Purchase",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  }
+]

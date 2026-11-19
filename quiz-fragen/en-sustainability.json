@@ -1,0 +1,89 @@
+[
+  {
+    "stufe": 1,
+    "frage": "What do we call energy that comes from the sun?",
+    "antwort": "solar energy",
+    "akzeptiert": [
+      "solar power",
+      "solar"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which gas, produced when we burn coal, oil and gas, is mainly responsible for global warming?",
+    "antwort": "carbon dioxide",
+    "akzeptiert": [
+      "CO2"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Complete the three Rs: 'Reduce, Reuse, …'",
+    "antwort": "Recycle",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do you call the total amount of greenhouse gases one person causes, for example by flying or driving?",
+    "antwort": "carbon footprint",
+    "akzeptiert": [
+      "CO2 footprint"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which Swedish climate activist started the 'Fridays for Future' school strikes?",
+    "antwort": "Greta Thunberg",
+    "akzeptiert": [
+      "Thunberg"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call energy sources that never run out, such as wind and water?",
+    "antwort": "renewable energy",
+    "akzeptiert": [
+      "renewables",
+      "renewable energies"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call clothes that are made very cheaply and quickly and thrown away after a short time?",
+    "antwort": "fast fashion",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the name of the 2015 international agreement to limit global warming to well below 2 °C?",
+    "antwort": "Paris Agreement",
+    "akzeptiert": [
+      "Paris Climate Agreement",
+      "Paris Accord"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "How many Sustainable Development Goals (SDGs) did the United Nations agree on in 2015?",
+    "antwort": "17",
+    "akzeptiert": [
+      "seventeen"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What do we call the day each year when humanity has used up all the resources the Earth can renew in that year?",
+    "antwort": "Earth Overshoot Day",
+    "akzeptiert": [
+      "Overshoot Day"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  }
+]
