@@ -1089,12 +1089,8 @@
         <div class="auk-seat tl" id="auk-seat-tl" hidden></div>
         <div class="auk-seat tr" id="auk-seat-tr" hidden></div>
         <div class="auk-center" id="auk-center">
-          <div class="auk-card" id="auk-card">
-            <span class="auk-lot-num" id="auk-lot-num"></span>
-            <h2 class="auk-lot-title" id="auk-lot-title"></h2>
-            <p class="auk-lot-desc" id="auk-lot-desc"></p>
-            <span class="auk-lot-estimate" id="auk-lot-estimate"></span>
-          </div>
+          <!-- Dieselbe Loskarte noch einmal, gedreht für die Spieler gegenüber -->
+          <div class="auk-card top" id="auk-card-top" aria-hidden="true"></div>
           <div class="auk-status">
             <span class="auk-bid" id="auk-bid">–</span>
             <span class="auk-bidder" id="auk-bidder"></span>
@@ -1103,8 +1099,13 @@
             <button id="auk-next" class="btn primary" type="button" hidden>Nächstes Los</button>
             <button id="auk-pass" class="btn ghost" type="button" hidden>Keiner bietet – Los zurückgeben</button>
           </div>
+          <div class="auk-card" id="auk-card">
+            <span class="auk-lot-num" id="auk-lot-num"></span>
+            <h2 class="auk-lot-title" id="auk-lot-title"></h2>
+            <p class="auk-lot-desc" id="auk-lot-desc"></p>
+            <span class="auk-lot-estimate" id="auk-lot-estimate"></span>
+          </div>
           <div class="auk-tools">
-            <button id="auk-turn" class="btn ghost small-btn" type="button">Karte drehen</button>
             <button id="auk-quit" class="btn ghost small-btn" type="button">Beenden</button>
           </div>
         </div>

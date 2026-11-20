@@ -17,7 +17,6 @@ const LocalAuktion = (() => {
   let setup = { names: ["", ""], lots: 10 };
   let game = null;
   let timer = null;
-  let cardTurn = 0; // Loskarte in der Mitte: 0 = zu den unteren, 1 = zu den oberen Spielern
   let losePromise = null;
 
   const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) || d; } catch (e) { return d; } };
@@ -84,7 +83,6 @@ const LocalAuktion = (() => {
       lots,
       index: -1
     };
-    cardTurn = 0;
     nextLot();
     // Mehrere Finger gleichzeitig auf dem Tablet sollen nicht zoomen
     DrawCanvas.lockZoom();
@@ -166,7 +164,12 @@ const LocalAuktion = (() => {
     $("auk-lot-title").textContent = lot.title;
     $("auk-lot-desc").textContent = lot.desc;
     $("auk-lot-estimate").textContent = `Schätzpreis ${lot.estimate}`;
-    $("auk-card").style.setProperty("--turn", `${cardTurn * 180}deg`);
+    // Zweite Karte für die Spieler auf der anderen Tischseite (ohne doppelte IDs)
+    const top = $("auk-card-top");
+    if (top.dataset.lot !== String(game.index)) {
+      top.dataset.lot = String(game.index);
+      top.innerHTML = $("auk-card").innerHTML.replace(/ id="[^"]*"/g, "");
+    }
     // Gebot und Countdown
     const left = Math.max(0, (game.endsAt || 0) - Date.now());
     const bidder = game.bidder !== null ? game.players[game.bidder].name : null;
@@ -251,7 +254,6 @@ const LocalAuktion = (() => {
     $("auk-start").addEventListener("click", start);
     $("auk-next").addEventListener("click", () => nextLot());
     $("auk-pass").addEventListener("click", () => pass());
-    $("auk-turn").addEventListener("click", () => { cardTurn = 1 - cardTurn; render(); });
     $("auk-quit").addEventListener("click", async () => {
       const ok = await showModal({ emoji: "", title: "Auktion beenden?", text: "Die restlichen Lose werden nicht mehr versteigert. Danach kommt die Auflösung.", ok: "Beenden", cancel: "Weiter bieten" });
       if (ok) finish();

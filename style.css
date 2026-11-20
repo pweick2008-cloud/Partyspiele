@@ -1802,3 +1802,13 @@ html[data-theme="partner"] .title h1 { font-weight: 800; letter-spacing: -.01em;
 .quiz-group-head { flex-basis: 100%; display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); font-weight: 700; }
 .quiz-group-head:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
 .quiz-group-head:first-child:empty, .quiz-group-head:first-child span:empty { display: none; }
+
+/* Geheime Auktion: zwei Loskarten, die obere für die Spieler gegenüber */
+.auk-center .auk-card { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: safe center; }
+.auk-card.top { transform: rotate(180deg); }
+@media (orientation: portrait) {
+  .auk-center .auk-card { padding: 8px 12px; }
+  .auk-center .auk-lot-desc { font-size: .85rem; line-height: 1.35; margin-bottom: 4px; }
+  .auk-center .auk-lot-title { font-size: 1rem; }
+  .auk-center .auk-lot-num { font-size: .65rem; }
+}
