@@ -1,1 +1,1231 @@
-[]
+[
+  {
+    "stufe": 1,
+    "frage": "Aus welchem Stoff bestehen klassische Blue Jeans?",
+    "antwort": "Denim",
+    "akzeptiert": [
+      "Jeansstoff",
+      "Baumwolle",
+      "Baumwolldenim"
+    ],
+    "bewertung": "Denim, Jeansstoff oder Baumwolle zählen."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Kapuzenpullover mit englischem Namen, der in fast jedem Kleiderschrank liegt?",
+    "antwort": "Hoodie",
+    "akzeptiert": [
+      "Hoody"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Nach welchem Basketballstar ist die Nike-Sneaker-Reihe „Air Jordan“ benannt?",
+    "antwort": "Michael Jordan",
+    "akzeptiert": [
+      "Jordan"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht das „L“ bei der Kleidergröße XL?",
+    "antwort": "Large",
+    "akzeptiert": [
+      "groß"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Von welchem Tier stammt die Wolle für einen klassischen Wollpullover?",
+    "antwort": "Schaf",
+    "akzeptiert": [
+      "Schafe"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welcher Pflanze wird der Stoff gewonnen, aus dem die meisten T-Shirts bestehen?",
+    "antwort": "Baumwolle"
+  },
+  {
+    "stufe": 1,
+    "frage": "Nach welchem Buchstaben ist das kurzärmelige T-Shirt benannt, weil es ausgebreitet so aussieht?",
+    "antwort": "T"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen die Zehentrenner-Sandalen, deren Name nach dem Geräusch beim Laufen klingt?",
+    "antwort": "Flip-Flops",
+    "akzeptiert": [
+      "Flipflops",
+      "Flip Flops"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen die bunten Gummi-Clogs mit Löchern, die erst als hässlich galten und dann Kult wurden?",
+    "antwort": "Crocs"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der lange, schmale Steg, auf dem Models bei Modenschauen laufen (englisch, mit einem Tier im Namen)?",
+    "antwort": "Catwalk",
+    "akzeptiert": [
+      "Laufsteg"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Modemarke steckt im Filmtitel „Der Teufel trägt …“?",
+    "antwort": "Prada"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Moderatorin sucht seit 2006 in „Germany's Next Topmodel“ das nächste Topmodel?",
+    "antwort": "Heidi Klum",
+    "akzeptiert": [
+      "Klum",
+      "Heidi"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche schwedische Modekette wird mit zwei Buchstaben und einem &-Zeichen abgekürzt?",
+    "antwort": "H&M",
+    "akzeptiert": [
+      "Hennes & Mauritz",
+      "H und M"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Berliner Online-Modehändler warb jahrelang mit dem Slogan „Schrei vor Glück“?",
+    "antwort": "Zalando"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man gebrauchte Kleidung, die man nach dem Vorbesitzer noch einmal kauft (englisch, wörtlich „zweite Hand“)?",
+    "antwort": "Secondhand",
+    "akzeptiert": [
+      "Second Hand",
+      "Second-Hand",
+      "Secondhand-Kleidung"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das bayerische Trachtenkleid mit Schürze, das viele auf dem Oktoberfest tragen?",
+    "antwort": "Dirndl"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der karierte Wickelrock, den Männer in Schottland traditionell tragen?",
+    "antwort": "Kilt"
+  },
+  {
+    "stufe": 1,
+    "frage": "Aus welchem Land stammt der Kimono?",
+    "antwort": "Japan"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche flache, runde Mütze gehört zum Klischee-Franzosen mit Baguette unterm Arm?",
+    "antwort": "Baskenmütze",
+    "akzeptiert": [
+      "Beret",
+      "Barett"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die kleine, zur Schleife gebundene Krawatte, die man zum Smoking trägt?",
+    "antwort": "Fliege",
+    "akzeptiert": [
+      "Schleife",
+      "Bow Tie"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Damenschuhe mit sehr hohem, dünnem Absatz?",
+    "antwort": "High Heels",
+    "akzeptiert": [
+      "Stilettos",
+      "Stöckelschuhe",
+      "Pumps",
+      "Heels"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Muster mit braun-grünen Flecken, das ursprünglich vom Militär stammt?",
+    "antwort": "Camouflage",
+    "akzeptiert": [
+      "Tarnmuster",
+      "Camo",
+      "Flecktarn",
+      "Tarnfleck"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt ein kurzes Oberteil, das den Bauch frei lässt?",
+    "antwort": "Crop Top",
+    "akzeptiert": [
+      "Croptop",
+      "bauchfreies Top",
+      "Bauchfrei-Top"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was gibt die Zahl im Waschbottich-Symbol auf dem Pflegeetikett an?",
+    "antwort": "Maximale Waschtemperatur",
+    "akzeptiert": [
+      "Waschtemperatur",
+      "Temperatur",
+      "Grad"
+    ],
+    "bewertung": "Alles, was auf die (höchste) Waschtemperatur in °C hinausläuft, ist richtig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die kleine Tasche, die man um die Hüfte oder quer über der Brust trägt und die lange als peinlich galt?",
+    "antwort": "Bauchtasche",
+    "akzeptiert": [
+      "Gürteltasche",
+      "Hip Bag",
+      "Fanny Pack",
+      "Crossbody Bag"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe hat das berühmte „kleine …“ Kleid, das Coco Chanel in den 1920ern populär machte?",
+    "antwort": "Schwarz",
+    "akzeptiert": [
+      "das kleine Schwarze"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der hässliche Strickpulli mit Rentieren und Schneeflocken, den man bewusst zur Weihnachtsparty trägt?",
+    "antwort": "Ugly Christmas Sweater",
+    "akzeptiert": [
+      "Weihnachtspulli",
+      "Weihnachtspullover",
+      "Christmas Sweater"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der einfache Stoffbeutel, den man statt einer Plastiktüte oder Handtasche trägt?",
+    "antwort": "Jutebeutel",
+    "akzeptiert": [
+      "Tote Bag",
+      "Stoffbeutel",
+      "Stofftasche",
+      "Jutetasche"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Hose mit großen aufgesetzten Taschen an den Seiten der Oberschenkel?",
+    "antwort": "Cargohose",
+    "akzeptiert": [
+      "Cargo",
+      "Cargo Pants",
+      "Cargo-Hose"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man eine Passform, die bewusst ein paar Nummern zu groß und weit wirkt?",
+    "antwort": "Oversized",
+    "akzeptiert": [
+      "Oversize",
+      "Baggy"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches schwarze Kleidungsstück mit hohem Kragen war neben Jeans das Markenzeichen von Apple-Gründer Steve Jobs?",
+    "antwort": "Rollkragenpullover",
+    "akzeptiert": [
+      "Rollkragenpulli",
+      "Rolli",
+      "Turtleneck",
+      "Rollkragen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die sehr eng anliegende Jeansform, die in den 2010er-Jahren Standard war?",
+    "antwort": "Skinny Jeans",
+    "akzeptiert": [
+      "Skinny",
+      "Röhrenjeans",
+      "Röhrenhose"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die hoch sitzende Jeans mit weitem Po und schmal zulaufendem Bein, benannt nach einem Familienmitglied?",
+    "antwort": "Mom Jeans",
+    "akzeptiert": [
+      "Mom-Jeans",
+      "Mom Fit"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die leichte, meist beige Stoffhose aus Baumwolltwill, die als schicke Alternative zur Jeans gilt?",
+    "antwort": "Chino",
+    "akzeptiert": [
+      "Chinohose",
+      "Chinos"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der beige, zweireihige Mantel mit Gürtel, der ursprünglich für Soldaten in den Schützengräben des Ersten Weltkriegs gedacht war?",
+    "antwort": "Trenchcoat",
+    "akzeptiert": [
+      "Trench"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die kurze Jacke mit Bündchen, ursprünglich für Militärpiloten, oft olivgrün mit orangem Innenfutter?",
+    "antwort": "Bomberjacke",
+    "akzeptiert": [
+      "Bomber",
+      "Fliegerjacke",
+      "Pilotenjacke",
+      "MA-1"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Nike-Sneaker tragen den Namen des Flugzeugs des US-Präsidenten?",
+    "antwort": "Air Force 1",
+    "akzeptiert": [
+      "AF1",
+      "Air Force One",
+      "Air Force"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Marke stellt die robusten Stiefel mit gelber Naht und luftgepolsterter Sohle her, die bei Punks und Skins Kult wurden?",
+    "antwort": "Dr. Martens",
+    "akzeptiert": [
+      "Doc Martens",
+      "Docs",
+      "Dr Martens",
+      "Doc Martins"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Unter welchem Namen brachten Kanye West und Adidas ihre Sneaker heraus?",
+    "antwort": "Yeezy",
+    "akzeptiert": [
+      "Yeezys"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche deutsche Marke ist für Sandalen mit Kork-Fußbett bekannt, etwa das Modell „Arizona“?",
+    "antwort": "Birkenstock"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Marke steht hinter den Lammfell-Boots aus Australien, die um 2005 und wieder in den 2020ern im Trend lagen?",
+    "antwort": "UGG",
+    "akzeptiert": [
+      "Uggs",
+      "UGG Australia"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Marke stellt die Skaterschuhe „Old Skool“ und die karierten Slip-ons her?",
+    "antwort": "Vans"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Modedesigner mit weißem Zopf, Sonnenbrille und Stehkragen war jahrzehntelang Chefdesigner von Chanel?",
+    "antwort": "Karl Lagerfeld",
+    "akzeptiert": [
+      "Lagerfeld"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche New Yorker Skate-Marke verkauft ihre neuen Teile immer donnerstags als „Drop“ und brachte sogar einen Ziegelstein mit Markennamen heraus?",
+    "antwort": "Supreme"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Modezeitschrift leitete Anna Wintour jahrzehntelang als Chefredakteurin – Vorbild für „Der Teufel trägt Prada“?",
+    "antwort": "Vogue"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die berühmte Benefiz-Gala in New York, die jedes Jahr am ersten Montag im Mai stattfindet und ein Mode-Motto hat?",
+    "antwort": "Met Gala",
+    "akzeptiert": [
+      "Met Ball",
+      "Costume Institute Gala"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was sagt Heidi Klum bei GNTM, wenn eine Kandidatin weiterkommt – sie hat heute ein … für dich?",
+    "antwort": "Foto",
+    "akzeptiert": [
+      "Ein Foto",
+      "Bild"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Für welche Jahre steht der Modetrend „Y2K“?",
+    "antwort": "Um das Jahr 2000",
+    "akzeptiert": [
+      "2000",
+      "2000er",
+      "Jahr 2000",
+      "späte 90er und frühe 2000er",
+      "Nullerjahre"
+    ],
+    "bewertung": "Alles, was das Jahr 2000 bzw. die Zeit um 2000 meint, ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Abkürzung „OOTD“ unter Mode-Posts auf Instagram?",
+    "antwort": "Outfit of the Day",
+    "akzeptiert": [
+      "Outfit des Tages"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Trend mit knalligem Pink erlebte 2023 durch einen Kinofilm mit Margot Robbie einen riesigen Hype?",
+    "antwort": "Barbiecore",
+    "akzeptiert": [
+      "Barbie",
+      "Barbie-Pink"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Färbetechnik mit bunten Kreisen und Spiralen, auf Englisch „Tie-Dye“?",
+    "antwort": "Batik",
+    "akzeptiert": [
+      "Tie-Dye",
+      "Knüpfbatik"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Polster machten Blazer und Jacken in der 80er-Mode breit und kantig?",
+    "antwort": "Schulterpolster",
+    "akzeptiert": [
+      "Schulterpolster"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welchem Rohstoff wird die Kunstfaser Polyester hauptsächlich hergestellt?",
+    "antwort": "Erdöl",
+    "akzeptiert": [
+      "Öl",
+      "Rohöl"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der flauschige Kunststoff-Stoff, aus dem viele Outdoor-Pullis sind und der oft aus recycelten PET-Flaschen besteht?",
+    "antwort": "Fleece"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was passiert typischerweise mit einem Wollpulli, wenn man ihn zu heiß in der Maschine wäscht?",
+    "antwort": "Er läuft ein",
+    "akzeptiert": [
+      "einlaufen",
+      "verfilzt",
+      "schrumpft",
+      "wird kleiner"
+    ],
+    "bewertung": "Einlaufen, schrumpfen oder verfilzen zählt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was bedeutet auf dem Pflegeetikett ein Waschbottich, in den eine Hand hineingreift?",
+    "antwort": "Handwäsche",
+    "akzeptiert": [
+      "Nur Handwäsche",
+      "mit der Hand waschen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der weiche Hut mit rundum abfallender Krempe, dessen englischer Name „Eimer“ bedeutet?",
+    "antwort": "Bucket Hat",
+    "akzeptiert": [
+      "Fischerhut",
+      "Anglerhut",
+      "Bucket"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Sonnenbrille mit tropfenförmigen Gläsern und dünnem Metallrahmen, die ursprünglich für Piloten entworfen wurde?",
+    "antwort": "Pilotenbrille",
+    "akzeptiert": [
+      "Aviator",
+      "Fliegerbrille",
+      "Aviators"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher chinesische Onlinehändler steht für extrem billige „Ultra Fast Fashion“ und ist bei Jugendlichen besonders beliebt?",
+    "antwort": "Shein"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die beliebte App für gebrauchte Kleidung, die in Deutschland früher „Kleiderkreisel“ hieß?",
+    "antwort": "Vinted"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher aus Franken stammende Auswanderer gilt als Erfinder der Blue Jeans und gab einer bekannten Marke seinen Namen?",
+    "antwort": "Levi Strauss",
+    "akzeptiert": [
+      "Levi Strauß",
+      "Strauss",
+      "Levi's"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Von welchem Tier stammt Kaschmirwolle?",
+    "antwort": "Ziege",
+    "akzeptiert": [
+      "Kaschmirziege",
+      "Ziegen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus welcher Pflanze wird Leinen hergestellt?",
+    "antwort": "Flachs",
+    "akzeptiert": [
+      "Lein",
+      "Leinpflanze"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Schafrasse liefert besonders feine, kaum kratzende Wolle, die oft in Sport- und Funktionskleidung steckt?",
+    "antwort": "Merino",
+    "akzeptiert": [
+      "Merinoschaf"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die sehr dehnbare Kunstfaser, die Leggings und Sportkleidung elastisch macht?",
+    "antwort": "Elasthan",
+    "akzeptiert": [
+      "Spandex",
+      "Lycra",
+      "Elastan"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die wasserdichte und atmungsaktive Membran, die in vielen teuren Outdoorjacken steckt?",
+    "antwort": "Gore-Tex",
+    "akzeptiert": [
+      "Goretex"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Stoff mit samtigen Längsrippen, aus dem Hosen in den 70ern und heute wieder gern gemacht sind?",
+    "antwort": "Cord",
+    "akzeptiert": [
+      "Kord",
+      "Cordsamt",
+      "Kordsamt",
+      "Manchester"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man Feinstrumpfhosen umgangssprachlich nach der Kunstfaser, die ab 1940 für Strümpfe berühmt wurde?",
+    "antwort": "Nylons",
+    "akzeptiert": [
+      "Nylon",
+      "Nylonstrümpfe"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Jeansform, die unten leicht ausgestellt ist, damit sie über Cowboystiefel passt (englisch, nach Schuhen benannt)?",
+    "antwort": "Bootcut",
+    "akzeptiert": [
+      "Boot Cut",
+      "Bootcut-Jeans"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Adidas-Sneaker, ursprünglich ein Hallenfußballschuh, ist nach einem brasilianischen Tanz benannt?",
+    "antwort": "Samba",
+    "akzeptiert": [
+      "Adidas Samba"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher weiße Adidas-Tennisschuh trägt den Namen eines US-Tennisspielers aus den 1970ern?",
+    "antwort": "Stan Smith"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welchen Sport betrieb Chuck Taylor, nach dem die Converse All Stars benannt sind?",
+    "antwort": "Basketball"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen die knöchelhohen Lederstiefel mit elastischem Einsatz an der Seite, die durch die Beatles berühmt wurden?",
+    "antwort": "Chelsea Boots",
+    "akzeptiert": [
+      "Chelsea-Boots",
+      "Beatle Boots",
+      "Chelseaboots"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man Sneaker-Fans, die Schuhe sammeln und jeden Release kennen?",
+    "antwort": "Sneakerheads",
+    "akzeptiert": [
+      "Sneakerhead"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe haben die Sohlen der High Heels von Christian Louboutin?",
+    "antwort": "Rot"
+  },
+  {
+    "stufe": 3,
+    "frage": "Nike ist nach einer griechischen Göttin benannt. Wofür war sie zuständig?",
+    "antwort": "Sieg",
+    "akzeptiert": [
+      "Siegesgöttin",
+      "den Sieg"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus welchem Vor- und Nachnamen setzt sich der Markenname „Adidas“ zusammen?",
+    "antwort": "Adi Dassler",
+    "akzeptiert": [
+      "Adolf Dassler",
+      "Adi Dassler"
+    ],
+    "bewertung": "Adi oder Adolf Dassler zählen."
+  },
+  {
+    "stufe": 3,
+    "frage": "Für welche Marke war Virgil Abloh Gründer – bekannt für Anführungszeichen und rote Kabelbinder an Sneakern?",
+    "antwort": "Off-White",
+    "akzeptiert": [
+      "Off White",
+      "OffWhite"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Musiker („Happy“) wurde 2023 Kreativdirektor der Herrenmode von Louis Vuitton?",
+    "antwort": "Pharrell Williams",
+    "akzeptiert": [
+      "Pharrell"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher italienische Modedesigner mit dem Vornamen Giorgio starb im September 2025 mit 91 Jahren?",
+    "antwort": "Giorgio Armani",
+    "akzeptiert": [
+      "Armani"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Modemarke aus dem schwäbischen Metzingen trägt den Namen ihres Gründers?",
+    "antwort": "Hugo Boss",
+    "akzeptiert": [
+      "Boss"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Luxushaus stellt die extrem teure und begehrte „Birkin Bag“ her?",
+    "antwort": "Hermès",
+    "akzeptiert": [
+      "Hermes"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Kim Kardashians Marke für Shapewear und Unterwäsche?",
+    "antwort": "Skims"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher 90er-Stil mit Flanellhemden, zerrissenen Jeans und Boots ist eng mit der Band Nirvana verbunden?",
+    "antwort": "Grunge"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Trend mit teuer wirkender, logofreier Kleidung wie Kaschmirpulli, Polo und Loafern, der nach „altem Reichtum“ klingt?",
+    "antwort": "Old Money",
+    "akzeptiert": [
+      "Old-Money-Look",
+      "Quiet Luxury"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Auf welcher Seite binden Frauen die Dirndlschleife traditionell, wenn sie Single sind?",
+    "antwort": "Links",
+    "akzeptiert": [
+      "linke Seite"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Mode, die in Paris von Hand und auf Maß gefertigt wird und deren Name gesetzlich geschützt ist?",
+    "antwort": "Haute Couture",
+    "akzeptiert": [
+      "Couture"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Punkte zeigt das Bügeleisen-Symbol auf dem Pflegeetikett für die heißeste Stufe?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht das „W“ bei Jeansgrößen wie W32 L34?",
+    "antwort": "Waist",
+    "akzeptiert": [
+      "Weite",
+      "Bundweite",
+      "Taillenweite",
+      "Taille"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der runde, harte Hut, den Charlie Chaplin trug?",
+    "antwort": "Melone",
+    "akzeptiert": [
+      "Bowler",
+      "Bowler Hat",
+      "Bowlerhut"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welcher französischen Stadt stammt der Stoff, dessen Name „Denim“ sich von „de …“ ableitet?",
+    "antwort": "Nîmes",
+    "akzeptiert": [
+      "Nimes"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür war die kleine Extra-Tasche vorne rechts an Jeans ursprünglich gedacht?",
+    "antwort": "Taschenuhr",
+    "akzeptiert": [
+      "Uhr",
+      "Taschenuhren"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Strickjacke gab ein britischer Earl aus dem Krimkrieg seinen Namen?",
+    "antwort": "Cardigan"
+  },
+  {
+    "stufe": 4,
+    "frage": "Dr. Martens gelten als britische Kultmarke. Aus welchem Land stammte der Arzt, der die luftgepolsterte Sohle erfand?",
+    "antwort": "Deutschland"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher fränkischen Kleinstadt haben sowohl Adidas als auch Puma ihren Sitz?",
+    "antwort": "Herzogenaurach"
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Land stammt die Krawatte, deren Name sich vom Namen dieses Volkes ableitet?",
+    "antwort": "Kroatien"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Stadt wurde Karl Lagerfeld geboren?",
+    "antwort": "Hamburg"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß Karl Lagerfelds berühmte weiße Katze, die einen eigenen Instagram-Account hatte?",
+    "antwort": "Choupette"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Designer revolutionierte 1947 mit seinem „New Look“ – Wespentaille und weite Röcke – die Nachkriegsmode?",
+    "antwort": "Christian Dior",
+    "akzeptiert": [
+      "Dior"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher italienische Designer mit Medusa-Faible wurde 1997 vor seiner Villa in Miami Beach erschossen?",
+    "antwort": "Gianni Versace",
+    "akzeptiert": [
+      "Versace"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche britische Designerin gilt als „Mutter des Punk“ in der Mode?",
+    "antwort": "Vivienne Westwood",
+    "akzeptiert": [
+      "Westwood"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Für welches Luxushaus war Virgil Abloh ab 2018 Kreativdirektor der Herrenmode?",
+    "antwort": "Louis Vuitton",
+    "akzeptiert": [
+      "LV",
+      "Vuitton"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welchen Produkten wurde Louis Vuitton im 19. Jahrhundert berühmt?",
+    "antwort": "Koffer",
+    "akzeptiert": [
+      "Reisekoffer",
+      "Reisegepäck",
+      "Schrankkoffer",
+      "Gepäck"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher italienischen Stadt wurde Gucci 1921 gegründet?",
+    "antwort": "Florenz",
+    "akzeptiert": [
+      "Firenze"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Kleid trug Lady Gaga 2010 bei den MTV Video Music Awards und sorgte für einen Aufschrei?",
+    "antwort": "Fleischkleid",
+    "akzeptiert": [
+      "Kleid aus Fleisch",
+      "Meat Dress",
+      "Fleisch"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Kleidungsstück gehört für Männer zum strengsten Dresscode „White Tie“?",
+    "antwort": "Frack",
+    "akzeptiert": [
+      "Frackanzug"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Mode „von der Stange“ auf Französisch – das Gegenstück zur Haute Couture?",
+    "antwort": "Prêt-à-porter",
+    "akzeptiert": [
+      "Pret-a-porter",
+      "Prêt-à-Porter",
+      "Pret a porter"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man den Trend, Sportkleidung wie Leggings und Jogger auch im Alltag und Büro zu tragen?",
+    "antwort": "Athleisure"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man den Trend, bewusst unauffällige, „normale“ Kleidung zu tragen – wie Steve Jobs oder Jerry Seinfeld?",
+    "antwort": "Normcore"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man eine kleine Grundgarderobe aus wenigen, beliebig kombinierbaren Teilen?",
+    "antwort": "Capsule Wardrobe",
+    "akzeptiert": [
+      "Kapselgarderobe",
+      "Capsule"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Karomuster aus gezackten, „gebrochenen“ Vierecken, englisch „Houndstooth“?",
+    "antwort": "Hahnentritt",
+    "akzeptiert": [
+      "Hahnentrittmuster",
+      "Pepita"
+    ],
+    "bewertung": "Pepita (die kleine Variante) auch akzeptieren."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Karomuster eines schottischen Kilts, das oft für einen bestimmten Clan steht?",
+    "antwort": "Tartan",
+    "akzeptiert": [
+      "Schottenkaro",
+      "Schottenmuster"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Strickmaske, die den ganzen Kopf bis auf das Gesicht bedeckt und nach einem Ort im Krimkrieg benannt ist?",
+    "antwort": "Balaclava",
+    "akzeptiert": [
+      "Sturmhaube",
+      "Sturmmaske"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die Slipper mit Querriemen, in dessen Schlitz man früher eine Münze steckte?",
+    "antwort": "Penny Loafer",
+    "akzeptiert": [
+      "Pennyloafer",
+      "Penny Loafers",
+      "Loafer"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißen die kleinen Anstecker, mit denen man die Löcher von Crocs verziert?",
+    "antwort": "Jibbitz",
+    "akzeptiert": [
+      "Pins",
+      "Charms",
+      "Crocs Charms"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Outdoor-Marke verschenkte ihr Gründer 2022 an eine Stiftung, damit alle Gewinne in den Klimaschutz fließen?",
+    "antwort": "Patagonia"
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Rohstoff wird die Faser Viskose gewonnen?",
+    "antwort": "Holz",
+    "akzeptiert": [
+      "Zellulose",
+      "Cellulose",
+      "Zellstoff"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Land stürzte 2013 die Textilfabrik Rana Plaza ein, wobei über 1.100 Menschen starben?",
+    "antwort": "Bangladesch",
+    "akzeptiert": [
+      "Bangladesh"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was bedeutet ein Quadrat mit einem Kreis darin auf dem Pflegeetikett?",
+    "antwort": "Trockner",
+    "akzeptiert": [
+      "Tumbler",
+      "Wäschetrockner",
+      "trocknergeeignet",
+      "Trommeltrocknen"
+    ],
+    "bewertung": "Alles, was den Wäschetrockner meint, ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Schweizer Laufschuhmarke ist für Sohlen mit hohlen „Wolken“-Elementen bekannt und wird von Roger Federer unterstützt?",
+    "antwort": "On",
+    "akzeptiert": [
+      "On Running",
+      "On Cloud"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchem Land stammt der Panamahut eigentlich?",
+    "antwort": "Ecuador"
+  },
+  {
+    "stufe": 5,
+    "frage": "Von welcher italienischen Hafenstadt leitet sich das Wort „Jeans“ ab?",
+    "antwort": "Genua",
+    "akzeptiert": [
+      "Genova",
+      "Genoa"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche britische Königin machte das weiße Brautkleid 1840 mit ihrer eigenen Hochzeit populär?",
+    "antwort": "Queen Victoria",
+    "akzeptiert": [
+      "Victoria",
+      "Königin Victoria",
+      "Viktoria"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher französische Designer entwarf Madonnas berühmten Kegel-BH für ihre Tour 1990?",
+    "antwort": "Jean Paul Gaultier",
+    "akzeptiert": [
+      "Gaultier"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche britische Designerin gilt als Erfinderin bzw. Wegbereiterin des Minirocks in den 1960ern?",
+    "antwort": "Mary Quant",
+    "akzeptiert": [
+      "Quant"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Designer machte 1966 mit „Le Smoking“ den Smoking für Frauen salonfähig?",
+    "antwort": "Yves Saint Laurent",
+    "akzeptiert": [
+      "YSL",
+      "Saint Laurent"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher britische Designer, bekannt für Totenkopf-Schals und düstere Schauen, starb 2010?",
+    "antwort": "Alexander McQueen",
+    "akzeptiert": [
+      "McQueen",
+      "Lee McQueen"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach welcher Sängerin und Schauspielerin ist die Birkin Bag von Hermès benannt?",
+    "antwort": "Jane Birkin",
+    "akzeptiert": [
+      "Birkin"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Womit fing das Luxushaus Hermès 1837 an?",
+    "antwort": "Sattel und Zaumzeug",
+    "akzeptiert": [
+      "Sattel",
+      "Sättel",
+      "Pferdegeschirr",
+      "Zaumzeug",
+      "Reitzubehör",
+      "Geschirr für Pferde"
+    ],
+    "bewertung": "Alles rund um Sättel/Pferdegeschirr zählt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautete der eigentliche Vorname von Coco Chanel?",
+    "antwort": "Gabrielle"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Mode-Trend, Outdoor-Kleidung wie Fleece und Wanderschuhe im Alltag zu tragen, benannt nach einem Studentenfutter-Kürzel?",
+    "antwort": "Gorpcore"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das tropfenförmige, verschnörkelte Muster, das nach einer schottischen Stadt benannt ist?",
+    "antwort": "Paisley"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der raue, gemusterte Wollstoff aus Schottland, typisch für Sakkos im Sherlock-Holmes-Look?",
+    "antwort": "Tweed"
+  },
+  {
+    "stufe": 5,
+    "frage": "Von welchem Tier stammt Angorawolle?",
+    "antwort": "Kaninchen",
+    "akzeptiert": [
+      "Angorakaninchen",
+      "Hase"
+    ],
+    "bewertung": "Nicht Ziege – Mohair stammt von der Angoraziege."
+  },
+  {
+    "stufe": 5,
+    "frage": "Die Buchstaben YKK stehen auf sehr vielen Reißverschlüssen. Aus welchem Land stammt dieser Hersteller?",
+    "antwort": "Japan"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der spanische Mutterkonzern von Zara?",
+    "antwort": "Inditex"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht „MH“ im Namen des Luxuskonzerns LVMH?",
+    "antwort": "Moët Hennessy",
+    "akzeptiert": [
+      "Moet Hennessy"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchem Land stammt die Modekette Primark?",
+    "antwort": "Irland"
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchem Land stammt die Modekette Uniqlo?",
+    "antwort": "Japan"
+  },
+  {
+    "stufe": 5,
+    "frage": "Das Dr.-Martens-Stiefelmodell „1460“ ist nach seinem Erscheinungsdatum benannt. Welches Datum ist gemeint?",
+    "antwort": "1. April 1960",
+    "akzeptiert": [
+      "01.04.1960",
+      "1.4.1960",
+      "April 1960"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man scherzhaft ein Outfit, bei dem Jeanshose und Jeansjacke kombiniert werden?",
+    "antwort": "Canadian Tuxedo",
+    "akzeptiert": [
+      "Kanadischer Smoking"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Einheit der europäischen Schuhgrößen, bei der eine Größe zwei Drittel Zentimeter entspricht?",
+    "antwort": "Pariser Stich",
+    "akzeptiert": [
+      "Stich"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was bedeutet auf dem Pflegeetikett ein leerer Kreis ohne weitere Symbole?",
+    "antwort": "Chemische Reinigung",
+    "akzeptiert": [
+      "Professionelle Reinigung",
+      "Reinigung",
+      "Textilreinigung"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was bedeutet auf dem Pflegeetikett ein Dreieck?",
+    "antwort": "Bleichen",
+    "akzeptiert": [
+      "Bleichmittel",
+      "Bleiche"
+    ],
+    "bewertung": "Zählt, wenn es um Bleichen/Bleichmittel geht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wozu dienten die kleinen Kupfernieten an Jeans ursprünglich?",
+    "antwort": "Taschen verstärken",
+    "akzeptiert": [
+      "Verstärkung",
+      "Verstärkung der Taschen",
+      "damit die Taschen nicht reißen"
+    ],
+    "bewertung": "Sinngemäß: Verstärkung der Nähte/Taschen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche US-Arbeitskleidungsmarke aus Detroit ist mit Beanies und Workwear-Hosen in der Skater- und Streetwear-Szene Kult?",
+    "antwort": "Carhartt",
+    "akzeptiert": [
+      "Carhartt WIP"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Hamburger Designerin wurde wegen ihres minimalistischen Stils „Queen of Less“ genannt?",
+    "antwort": "Jil Sander",
+    "akzeptiert": [
+      "Sander"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Muster aus versetzten Rauten auf Strickpullis und Socken, benannt nach einer Region in Schottland?",
+    "antwort": "Argyle",
+    "akzeptiert": [
+      "Argyll",
+      "Rautenmuster"
+    ],
+    "bewertung": "Rautenmuster nur akzeptieren, wenn klar das Argyle-Muster gemeint ist."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Outdoor-Marke stellt die gesteppte Daunenjacke „Nuptse“ her, die zur Streetwear-Ikone wurde?",
+    "antwort": "The North Face",
+    "akzeptiert": [
+      "North Face",
+      "TNF"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches deutsche Supermodel aus Rheinberg zählte in den 90ern zu den bekanntesten Models der Welt?",
+    "antwort": "Claudia Schiffer",
+    "akzeptiert": [
+      "Schiffer"
+    ]
+  }
+]

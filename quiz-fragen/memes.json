@@ -1,1 +1,1210 @@
-[]
+[
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Meme, in dem sich ein Mann auf der Straße nach einer anderen Frau umdreht, während seine Freundin empört schaut?",
+    "antwort": "Distracted Boyfriend",
+    "akzeptiert": [
+      "Abgelenkter Freund",
+      "Distracted Boyfriend Meme"
+    ],
+    "bewertung": "Sinngemäße deutsche Übersetzung ist auch richtig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Meme, in dem eine Comicfigur mit Kaffeetasse ruhig in einem brennenden Zimmer sitzt und sagt, alles sei in Ordnung?",
+    "antwort": "This is fine",
+    "akzeptiert": [
+      "This is fine Meme",
+      "Alles ist gut"
+    ],
+    "bewertung": "Auch die deutsche Übersetzung zählt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Streich, bei dem ein Link angeblich zu etwas Spannendem führt, dann aber ein 80er-Jahre-Musikvideo mit einem tanzenden Sänger im Trenchcoat startet?",
+    "antwort": "Rickroll",
+    "akzeptiert": [
+      "Rickrolling",
+      "gerickrollt"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Pixel-Katze, die mit einem Regenbogen hinter sich durchs Weltall fliegt, begleitet von einem nervigen Endlos-Lied?",
+    "antwort": "Nyan Cat",
+    "akzeptiert": [
+      "Nyancat",
+      "Nyan"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Bei welcher Challenge von 2014 schütteten sich Menschen und Promis einen Eimer Eiswasser über den Kopf?",
+    "antwort": "Ice Bucket Challenge",
+    "akzeptiert": [
+      "Ice-Bucket-Challenge",
+      "Eiskübel-Challenge"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die YouTube-Animationsserie, in der singende Köpfe aus Toiletten gegen Kameramänner kämpfen?",
+    "antwort": "Skibidi Toilet",
+    "akzeptiert": [
+      "Skibidi",
+      "Skibidi Toilets"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Emoji erscheint bei Snapchat neben einem Namen, wenn man sich mehrere Tage in Folge gegenseitig Snaps schickt?",
+    "antwort": "Flamme",
+    "akzeptiert": [
+      "🔥",
+      "Feuer",
+      "Flammen",
+      "Snapflamme"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier springt im Offline-Spiel von Google Chrome über Kakteen, wenn das Internet nicht funktioniert?",
+    "antwort": "Dinosaurier",
+    "akzeptiert": [
+      "Dino",
+      "T-Rex",
+      "Tyrannosaurus"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Foto, das man mit ausgestrecktem Arm von sich selbst macht?",
+    "antwort": "Selfie",
+    "akzeptiert": [
+      "Selfies"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Zeichen #, mit dem man Beiträge in sozialen Netzwerken verschlagwortet?",
+    "antwort": "Hashtag",
+    "akzeptiert": [
+      "Rautezeichen",
+      "Raute"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Leute, die mit ihren Social-Media-Accounts Geld verdienen, indem sie Produkte bewerben?",
+    "antwort": "Influencer",
+    "akzeptiert": [
+      "Influencerin",
+      "Influencerinnen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche App ist dafür bekannt, dass verschickte Fotos nach dem Ansehen wieder verschwinden?",
+    "antwort": "Snapchat"
+  },
+  {
+    "stufe": 1,
+    "frage": "Nach wie vielen Stunden verschwindet eine normale Instagram-Story?",
+    "antwort": "24",
+    "akzeptiert": [
+      "24 Stunden",
+      "ein Tag",
+      "einem Tag"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein kurzes, sich endlos wiederholendes bewegtes Bild, das man im Chat verschickt?",
+    "antwort": "GIF",
+    "akzeptiert": [
+      "Gif",
+      "Gifs"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier hält sich in einer Dreier-Emoji-Reihe die Augen, die Ohren und den Mund zu?",
+    "antwort": "Affe",
+    "akzeptiert": [
+      "Affen",
+      "🙈"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man jemanden, der im Internet absichtlich provoziert, um Streit auszulösen?",
+    "antwort": "Troll",
+    "akzeptiert": [
+      "Internet-Troll",
+      "Trolle"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie sagt man, wenn sich ein Video rasend schnell im Netz verbreitet? Es geht …",
+    "antwort": "viral",
+    "akzeptiert": [
+      "viral gehen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was bedeuten bei WhatsApp zwei blaue Haken neben einer Nachricht?",
+    "antwort": "Gelesen",
+    "akzeptiert": [
+      "Nachricht gelesen",
+      "wurde gelesen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was zeigt ein blauer Haken neben einem Profilnamen auf Instagram an?",
+    "antwort": "Verifiziert",
+    "akzeptiert": [
+      "verifiziertes Konto",
+      "echtes Konto",
+      "Verifizierung"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Symbol soll man laut YouTubern neben dem Abo-Knopf anklicken, um kein Video zu verpassen?",
+    "antwort": "Glocke",
+    "akzeptiert": [
+      "Glöckchen",
+      "Benachrichtigungsglocke"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Superheld steht im bekannten Meme zweimal identisch da, wobei beide Versionen beschuldigend aufeinander zeigen?",
+    "antwort": "Spider-Man",
+    "akzeptiert": [
+      "Spiderman"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Süßigkeit lässt in viralen Experimenten eine Flasche Cola Light als riesige Fontäne hochschießen?",
+    "antwort": "Mentos"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Video-Tagebuch auf YouTube, in dem jemand seinen Alltag filmt?",
+    "antwort": "Vlog",
+    "akzeptiert": [
+      "Vlogs",
+      "Videoblog"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Streich-Videos, in denen Leute hereingelegt werden?",
+    "antwort": "Prank",
+    "akzeptiert": [
+      "Pranks",
+      "Prankvideo"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die Leute, die einem Account auf Instagram oder TikTok folgen?",
+    "antwort": "Follower",
+    "akzeptiert": [
+      "Followers",
+      "Abonnenten",
+      "Fans"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Meme mit einem Shiba-Inu-Hund, umgeben von bunten Sprüchen wie „such wow“ und „much amaze“?",
+    "antwort": "Doge",
+    "akzeptiert": [
+      "Doge Meme",
+      "Cheems"
+    ],
+    "bewertung": "„Cheems“ ist ein verwandtes Meme, gilt nur mit Wohlwollen."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Meme mit einem kahlen Anzugmann vor einem steigenden Börsenkurs, dessen Titel absichtlich falsch geschrieben ist?",
+    "antwort": "Stonks"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein lustiges Bild mit Text, das im Internet tausendfach abgewandelt und geteilt wird?",
+    "antwort": "Meme",
+    "akzeptiert": [
+      "Memes",
+      "Mem"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Auf welcher Kurzvideo-App gibt es die personalisierte Startseite „Für dich“ (For You Page)?",
+    "antwort": "TikTok",
+    "akzeptiert": [
+      "Tik Tok"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches gelbe Pokémon steht im Meme mit weit offenem Mund für gespielte Überraschung über etwas völlig Vorhersehbares?",
+    "antwort": "Pikachu",
+    "akzeptiert": [
+      "Surprised Pikachu"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche japanische Hunderasse ist der Hund aus dem Doge-Meme?",
+    "antwort": "Shiba Inu",
+    "akzeptiert": [
+      "Shiba"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Tier sitzt im „This is fine“-Meme mit Hut im brennenden Zimmer?",
+    "antwort": "Hund",
+    "akzeptiert": [
+      "ein Hund"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches englische Wort steckt absichtlich falsch geschrieben im Meme „Stonks“?",
+    "antwort": "Stocks",
+    "akzeptiert": [
+      "Aktien"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welcher frechen Gegenfrage aus drei Wörtern reagiert man im Netz, wenn jemand ungefragt etwas erzählt?",
+    "antwort": "Wer hat gefragt?",
+    "akzeptiert": [
+      "Wer hat gefragt",
+      "Who asked"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die Kurzvideos auf Instagram?",
+    "antwort": "Reels",
+    "akzeptiert": [
+      "Reel"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die Kurzvideos auf YouTube?",
+    "antwort": "Shorts",
+    "akzeptiert": [
+      "YouTube Shorts"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Auf welcher Livestreaming-Plattform, die zu Amazon gehört, streamen vor allem Gamer?",
+    "antwort": "Twitch"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher griechische Buchstabe steht im Internet-Slang für einen coolen Einzelgänger, der angeblich außerhalb der Alpha-Beta-Rangordnung steht?",
+    "antwort": "Sigma",
+    "akzeptiert": [
+      "Σ",
+      "Sigma-Male"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Slangwort, abgeleitet von „Charisma“, steht für die Fähigkeit, jemanden beim Flirten zu beeindrucken?",
+    "antwort": "Rizz"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was meint man meistens, wenn man im Chat nur das Totenkopf-Emoji 💀 schickt?",
+    "antwort": "Ich lach mich tot",
+    "akzeptiert": [
+      "totlachen",
+      "sehr lustig",
+      "zu lustig",
+      "ich sterbe vor Lachen"
+    ],
+    "bewertung": "Alles im Sinne von „extrem lustig“ ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht „GOAT“, weshalb unter Posts von Sportstars oft ein Ziegen-Emoji steht?",
+    "antwort": "Greatest of all time",
+    "akzeptiert": [
+      "der Beste aller Zeiten",
+      "Größter aller Zeiten"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Abkürzung „IRL“?",
+    "antwort": "In real life",
+    "akzeptiert": [
+      "im echten Leben"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man es, wenn jemand plötzlich ohne Erklärung den Kontakt abbricht und auf keine Nachricht mehr antwortet?",
+    "antwort": "Ghosting",
+    "akzeptiert": [
+      "ghosten",
+      "geghostet"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man Videos, in denen jemand ein neu gekauftes Produkt zum ersten Mal auspackt?",
+    "antwort": "Unboxing",
+    "akzeptiert": [
+      "Unboxing-Video"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man reißerische Überschriften oder Vorschaubilder, die nur zum Klicken verleiten sollen?",
+    "antwort": "Clickbait",
+    "akzeptiert": [
+      "Klickköder"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie hieß die Katze mit dem dauerhaft mürrischen Gesichtsausdruck, die ab 2012 weltberühmt wurde?",
+    "antwort": "Grumpy Cat",
+    "akzeptiert": [
+      "Tardar Sauce"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Rapper ist im Meme zu sehen, der oben etwas angewidert mit der Hand abwehrt und unten zufrieden auf etwas anderes zeigt?",
+    "antwort": "Drake"
+  },
+  {
+    "stufe": 2,
+    "frage": "Über welchen Actionstar kursieren Witze wie „Er hat bis unendlich gezählt – zweimal“?",
+    "antwort": "Chuck Norris",
+    "akzeptiert": [
+      "Norris"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Bei welchem Trend von 2016 wirft man eine halbvolle Wasserflasche so, dass sie aufrecht landet?",
+    "antwort": "Bottle Flip",
+    "akzeptiert": [
+      "Water Bottle Flip",
+      "Flaschenflip"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Tanzbewegung, bei der man den Kopf in die Armbeuge senkt und den anderen Arm schräg ausstreckt?",
+    "antwort": "Dab",
+    "akzeptiert": [
+      "Dabbing",
+      "Dabben"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche deutsche Stadt gibt es laut einer berühmten Internet-Verschwörung angeblich gar nicht?",
+    "antwort": "Bielefeld"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie lautet die berühmte Antwort von Patrick Star, als ein Anrufer fragt: „Ist da die Krosse Krabbe?“",
+    "antwort": "Nein, hier ist Patrick",
+    "akzeptiert": [
+      "Nein hier ist Patrick",
+      "Nein, hier spricht Patrick"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Zeichentrickfigur sieht man gebückt wie ein Huhn in dem Meme, bei dem man einen Satz spöttisch in AbWeChSeLnDeR Groß- und Kleinschreibung nachäfft?",
+    "antwort": "SpongeBob",
+    "akzeptiert": [
+      "SpongeBob Schwammkopf",
+      "Mocking SpongeBob"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Muppets-Figur schlürft im Meme „But that's none of my business“ genüsslich Tee?",
+    "antwort": "Kermit",
+    "akzeptiert": [
+      "Kermit der Frosch"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was tragen die tanzenden Männer im Anzug beim „Coffin Dance“-Meme auf ihren Schultern?",
+    "antwort": "Einen Sarg",
+    "akzeptiert": [
+      "Sarg"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Woran denken Männer laut einem TikTok-Trend von 2023 angeblich mehrmals pro Woche?",
+    "antwort": "Das Römische Reich",
+    "akzeptiert": [
+      "Römisches Reich",
+      "Roman Empire",
+      "alte Römer"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welchen zwei Wörtern kontern Jüngere im Netz belehrende Kommentare älterer Menschen?",
+    "antwort": "OK Boomer",
+    "akzeptiert": [
+      "Okay Boomer"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Meme mit einem lässigen Comic-Hund in grauem Pulli und hochgekrempelten Jeans, Hände in den Taschen?",
+    "antwort": "Chill Guy",
+    "akzeptiert": [
+      "My new character is a chill guy"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche zwei Zahlen riefen Schüler 2025 ständig, oft mit einer Handbewegung wie eine Waage?",
+    "antwort": "6 7",
+    "akzeptiert": [
+      "six seven",
+      "67",
+      "sechs sieben",
+      "6-7"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Schokolade mit grüner Pistaziencreme und knusprigen Teigfäden wurde 2024 durch TikTok zum Hype?",
+    "antwort": "Dubai-Schokolade",
+    "akzeptiert": [
+      "Dubai Schokolade",
+      "Dubaischokolade"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Bei welchem Trend von 2013 tanzt erst eine Person mit Helm allein, und nach dem Bass-Drop zappeln plötzlich alle verkleidet herum?",
+    "antwort": "Harlem Shake"
+  },
+  {
+    "stufe": 3,
+    "frage": "Für die Erforschung welcher Nervenkrankheit sammelte die Ice Bucket Challenge 2014 Spenden?",
+    "antwort": "ALS",
+    "akzeptiert": [
+      "Amyotrophe Lateralsklerose"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Emoji wurde 2015 vom Oxford Dictionary zum „Wort des Jahres“ gekürt?",
+    "antwort": "Freudentränen-Emoji",
+    "akzeptiert": [
+      "😂",
+      "Tränen lachendes Gesicht",
+      "Face with Tears of Joy",
+      "lachender Smiley mit Tränen"
+    ],
+    "bewertung": "Jede Beschreibung des vor Lachen weinenden Gesichts ist richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Kryptowährung mit einem Shiba-Inu-Hund als Logo entstand 2013 als Witz?",
+    "antwort": "Dogecoin",
+    "akzeptiert": [
+      "Doge Coin"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das schwarz-weiße Strichgesicht mit fiesem, breitem Grinsen, das für Internet-Trolle steht?",
+    "antwort": "Trollface",
+    "akzeptiert": [
+      "Troll Face",
+      "Problem?"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Meme, in dem eine weinende Frau mit dem Finger zeigt und eine verwirrte weiße Katze vor einem Salatteller am Tisch sitzt?",
+    "antwort": "Woman Yelling at a Cat",
+    "akzeptiert": [
+      "Frau schreit Katze an",
+      "Woman yelling at cat"
+    ],
+    "bewertung": "Sinngemäße Übersetzung ist richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Bei welcher Challenge von 2016 erstarrten alle Personen in einer Szene, während die Kamera durch den Raum fuhr?",
+    "antwort": "Mannequin Challenge",
+    "akzeptiert": [
+      "Mannequin-Challenge"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Tanz, bei dem man die Arme schnell vor und hinter den Hüften hin- und herschwingt, bekannt durch das „Backpack Kid“?",
+    "antwort": "Floss",
+    "akzeptiert": [
+      "Flossing",
+      "Flossen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welcher App verschmolz die Lip-Sync-App „Musical.ly“ im Jahr 2018?",
+    "antwort": "TikTok"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß die Kurzvideo-App von Twitter, deren Mini-Clips Kultstatus erreichten, bevor sie 2017 eingestellt wurde?",
+    "antwort": "Vine"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche App schickt einmal am Tag zu einer zufälligen Zeit die Aufforderung, sofort ein Foto mit Front- und Rückkamera gleichzeitig zu machen?",
+    "antwort": "BeReal",
+    "akzeptiert": [
+      "Be Real"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welche Richtung muss man den Kopf neigen, um im Zeichen :-) ein lächelndes Gesicht zu erkennen?",
+    "antwort": "Nach links",
+    "akzeptiert": [
+      "links"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus welchem Land stammen die Emojis ursprünglich?",
+    "antwort": "Japan"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher englische Begriff für geistigen Verfall durch zu viel sinnlosen Online-Content wurde 2024 Oxford-Wort des Jahres?",
+    "antwort": "Brain rot",
+    "akzeptiert": [
+      "Brainrot",
+      "Hirnfäule"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der KI-generierte Hai mit drei Beinen in blauen Turnschuhen aus dem „Italian Brainrot“-Trend 2025?",
+    "antwort": "Tralalero Tralala",
+    "akzeptiert": [
+      "Tralalero Tralalá",
+      "Tralalero"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem US-Bundesstaat passiert laut dem Meme „Only in …“ angeblich nur absurdes Zeug?",
+    "antwort": "Ohio"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Slangwort, eine Verniedlichung von „delusional“, beschreibt jemanden mit völlig unrealistischen Wunschvorstellungen?",
+    "antwort": "Delulu"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Ausdruck wurde 2025 zum Jugendwort des Jahres gewählt?",
+    "antwort": "Das crazy",
+    "akzeptiert": [
+      "crazy",
+      "das ist crazy"
+    ],
+    "bewertung": "„crazy“ allein reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher deutsche Streamer nennt sich selbst „König des Internets“?",
+    "antwort": "Knossi",
+    "akzeptiert": [
+      "Jens Knossalla"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Survival-Show von YouTuber Fritz Meinecke, in der Teilnehmer allein in der Wildnis überleben müssen?",
+    "antwort": "7 vs. Wild",
+    "akzeptiert": [
+      "7 vs Wild",
+      "Seven vs Wild",
+      "7 versus Wild"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "An welchem Wochentag wird im Netz ein Frosch mit dem Spruch „It is … my dudes“ gepostet?",
+    "antwort": "Mittwoch",
+    "akzeptiert": [
+      "Wednesday"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Wort sagt der Mann mit der wild hochtoupierten Frisur im Doku-Meme als Erklärung für einfach alles?",
+    "antwort": "Aliens",
+    "akzeptiert": [
+      "Außerirdische"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Schwarz-Weiß-Bild eines Mannes mit unmöglich kantigem Kinn, das für den ultimativen „Alpha“ steht?",
+    "antwort": "Gigachad",
+    "akzeptiert": [
+      "Giga Chad",
+      "Chad"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das freche Zwergflusspferd-Baby aus einem thailändischen Zoo, das 2024 zum Internetstar wurde?",
+    "antwort": "Moo Deng",
+    "akzeptiert": [
+      "Mu Deng"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Tier dreht sich im Meme von 2024 zum Song „Pedro“ fröhlich im Kreis?",
+    "antwort": "Waschbär",
+    "akzeptiert": [
+      "Waschbär Pedro"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Motiv war 2019 der meistgelikte Instagram-Post der Welt und schlug damit Kylie Jenner?",
+    "antwort": "Ein Ei",
+    "akzeptiert": [
+      "Ei",
+      "World Record Egg",
+      "Hühnerei"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Kinderlied-Video ist (Stand 2025) das meistgesehene Video auf YouTube?",
+    "antwort": "Baby Shark",
+    "akzeptiert": [
+      "Baby Shark Dance"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe hat bei Instagram der Ring um ein Profilbild, wenn die Story nur für „Enge Freunde“ sichtbar ist?",
+    "antwort": "Grün"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Auszeichnung bekommt ein YouTube-Kanal, wenn er eine Million Abonnenten erreicht?",
+    "antwort": "Goldener Play Button",
+    "akzeptiert": [
+      "Gold Play Button",
+      "Golden Play Button",
+      "Goldener Button"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher italienische Fußballtrainer schimpfte 1998 bei einer legendären Pressekonferenz „Ich habe fertig!“?",
+    "antwort": "Giovanni Trapattoni",
+    "akzeptiert": [
+      "Trapattoni",
+      "Trap"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Satiriker rappte 2015 als „POL1Z1STENS0HN“ den Meme-Song „Ich hab Polizei“?",
+    "antwort": "Jan Böhmermann",
+    "akzeptiert": [
+      "Böhmermann"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der ältere Mann aus Stockfotos, dessen Lächeln so gequält wirkt, dass er zum Meme wurde?",
+    "antwort": "Hide the Pain Harold",
+    "akzeptiert": [
+      "Harold"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Meme mit einem Baby am Strand, das triumphierend eine Faust voller Sand ballt?",
+    "antwort": "Success Kid"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Meme, in dem eine Anime-Figur auf einen Schmetterling zeigt und fragt, was das für ein Vogel sei?",
+    "antwort": "Is this a pigeon?",
+    "akzeptiert": [
+      "Is this a pigeon",
+      "Ist das eine Taube?"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Meme mit einem kleinen Mädchen, das fies grinsend vor einem brennenden Haus steht?",
+    "antwort": "Disaster Girl"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das YouTube-Video von 2007, in dem ein britisches Baby seinem großen Bruder in den Finger beißt?",
+    "antwort": "Charlie bit my finger",
+    "akzeptiert": [
+      "Charlie bit my finger – again!"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Trend, bei dem man sich steif wie ein Brett an ungewöhnlichen Orten bäuchlings hinlegt und fotografieren lässt?",
+    "antwort": "Planking"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Emoji, eine Steinkopf-Statue von der Osterinsel, wird oft für einen trockenen, emotionslosen Blick benutzt?",
+    "antwort": "Moai",
+    "akzeptiert": [
+      "🗿",
+      "Moai-Statue",
+      "Osterinsel-Kopf"
+    ],
+    "bewertung": "Beschreibung als Osterinsel-Statue reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht die Abkürzung „TL;DR“?",
+    "antwort": "Too long; didn't read",
+    "akzeptiert": [
+      "too long didn't read",
+      "zu lang, nicht gelesen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Effekt, wenn der Versuch, etwas aus dem Internet zu löschen, es erst recht berühmt macht – benannt nach einer US-Sängerin?",
+    "antwort": "Streisand-Effekt",
+    "akzeptiert": [
+      "Streisand"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Krokodil-Flugzeug-Mischwesen gehört neben Tralalero Tralala zu den bekanntesten Figuren des „Italian Brainrot“?",
+    "antwort": "Bombardiro Crocodilo",
+    "akzeptiert": [
+      "Bombardino Crocodilo",
+      "Bombardiro Coccodrillo"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Trend, bei dem man die Zunge fest an den Gaumen drückt, um eine markantere Kieferlinie zu bekommen – oft mit Finger auf den Lippen angedeutet?",
+    "antwort": "Mewing"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Jugendwort des Jahres 2016 bedeutet so viel wie „besonders gut drauf / abgehoben“ sein?",
+    "antwort": "fly sein",
+    "akzeptiert": [
+      "fly"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Trend von 2025, ausgelöst durch einen indonesischen Jungen, der cool vorne auf einem Rennboot tanzt?",
+    "antwort": "Aura Farming",
+    "akzeptiert": [
+      "Aura farmen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Gegen welchen indischen Musikkanal lieferte sich PewDiePie 2018/19 ein Rennen um die meisten YouTube-Abonnenten?",
+    "antwort": "T-Series",
+    "akzeptiert": [
+      "TSeries"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher YouTuber hat (Stand 2025) die meisten Abonnenten der Welt?",
+    "antwort": "MrBeast",
+    "akzeptiert": [
+      "Mr Beast",
+      "Jimmy Donaldson"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "„Die Zerstörung der …“ – welche Partei nannte YouTuber Rezo 2019 im Titel seines viralen Videos?",
+    "antwort": "CDU"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Song der YouTuberin Bibi von 2017 wurde zu einem der meistgedislikten Videos in Deutschland?",
+    "antwort": "How it is (wap bap …)",
+    "akzeptiert": [
+      "How it is",
+      "Wap bap"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher YouTuber interviewte 2015 Bundeskanzlerin Angela Merkel?",
+    "antwort": "LeFloid",
+    "akzeptiert": [
+      "Le Floid",
+      "Florian Mundt"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Wort benutzte Angela Merkel 2013, als sie sagte, das Internet sei „für uns alle …“?",
+    "antwort": "Neuland"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Meme mit einer ungewöhnlich fetten Version von Bugs Bunny?",
+    "antwort": "Big Chungus",
+    "akzeptiert": [
+      "Chungus"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem afrikanischen Land stammen die tanzenden Sargträger aus dem „Coffin Dance“-Meme?",
+    "antwort": "Ghana"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die lila McDonald's-Figur, deren Geburtstags-Shake 2023 einen Horror-Trend auf TikTok auslöste?",
+    "antwort": "Grimace"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches englische Wort für zurückhaltend und sittsam wurde 2024 durch den TikTok-Spruch „very …, very mindful“ berühmt?",
+    "antwort": "demure"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Emoji erscheint bei Snapchat, wenn eine Flammen-Serie bald abzulaufen droht?",
+    "antwort": "Sanduhr",
+    "akzeptiert": [
+      "⌛",
+      "⏳",
+      "Eieruhr"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Sekunden durfte ein Video auf der App Vine höchstens lang sein?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs",
+      "6 Sekunden"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen aus Südkorea stammende Videos, in denen Leute vor laufender Kamera riesige Mengen Essen verspeisen?",
+    "antwort": "Mukbang",
+    "akzeptiert": [
+      "Meokbang"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Slangwort für einen extrem besessenen Fan stammt aus einem gleichnamigen Eminem-Song von 2000?",
+    "antwort": "Stan"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Name ist neben „Yanny“ in der viralen Audiodatei von 2018 zu hören, über die das Internet stritt?",
+    "antwort": "Laurel"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Kurznachrichten-App, die Meta 2023 als Konkurrenz zu Twitter startete?",
+    "antwort": "Threads"
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchem Land stammt der Mann hinter „Hide the Pain Harold“?",
+    "antwort": "Ungarn",
+    "akzeptiert": [
+      "Hungary"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Das Wort „Emoji“ kommt nicht vom englischen „Emotion“, sondern aus dem Japanischen. Was bedeutet es ungefähr?",
+    "antwort": "Bildschriftzeichen",
+    "akzeptiert": [
+      "Bild-Schriftzeichen",
+      "Bildzeichen",
+      "Bild und Zeichen",
+      "Bild-Buchstabe"
+    ],
+    "bewertung": "Sinngemäß „Bild + Schriftzeichen“ ist richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß die Shiba-Inu-Hündin hinter dem Doge-Meme, die 2024 starb?",
+    "antwort": "Kabosu"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Tier ist der „Dramatic Chipmunk“, der dramatisch den Kopf zur Kamera dreht, in Wirklichkeit?",
+    "antwort": "Präriehund",
+    "akzeptiert": [
+      "Präriehunde"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Datum zeigt das Kalender-Emoji auf Apple-Geräten, weshalb an diesem Tag der Welt-Emoji-Tag gefeiert wird?",
+    "antwort": "17. Juli",
+    "akzeptiert": [
+      "17.7.",
+      "17. 7."
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die weiße Katze aus dem Meme „Woman Yelling at a Cat“?",
+    "antwort": "Smudge"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Schriftart steht im Doge-Meme in bunten Farben neben dem Hund?",
+    "antwort": "Comic Sans",
+    "akzeptiert": [
+      "Comic Sans MS"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Schriftart – weiße Großbuchstaben mit schwarzem Rand – prägte die klassischen Bild-Memes?",
+    "antwort": "Impact"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher britische Biologe prägte 1976 in seinem Buch „Das egoistische Gen“ den Begriff „Meme“?",
+    "antwort": "Richard Dawkins",
+    "akzeptiert": [
+      "Dawkins"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das allererste YouTube-Video von 2005, in dem ein Mitgründer vor Elefanten steht?",
+    "antwort": "Me at the zoo"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Konzern kaufte YouTube im Jahr 2006?",
+    "antwort": "Google",
+    "akzeptiert": [
+      "Alphabet"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach welchem Lebensmittel aus einem Monty-Python-Sketch ist unerwünschte Massen-E-Mail benannt?",
+    "antwort": "Dosenfleisch",
+    "akzeptiert": [
+      "Spam",
+      "Frühstücksfleisch",
+      "Frühstücksfleisch aus der Dose"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was für ein Bild war das Foto hinter dem „Distracted Boyfriend“-Meme ursprünglich?",
+    "antwort": "Stockfoto",
+    "akzeptiert": [
+      "Stock-Foto",
+      "Archivbild",
+      "Agenturfoto"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Woraus besteht der Körper der Nyan Cat?",
+    "antwort": "Pop-Tart",
+    "akzeptiert": [
+      "Pop Tart",
+      "Toastgebäck",
+      "Kekse",
+      "Keks"
+    ],
+    "bewertung": "Gemeint ist ein gefülltes Toastgebäck (Pop-Tart); Beschreibung als Keks/Gebäck mit Füllung gilt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchem Musikvideo von Drake stammt das Ablehnen-und-Zustimmen-Meme?",
+    "antwort": "Hotline Bling"
+  },
+  {
+    "stufe": 5,
+    "frage": "Zu welchem südafrikanischen Song tanzten 2020 weltweit Krankenhauspersonal und Polizisten eine Gruppenchoreografie?",
+    "antwort": "Jerusalema"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Wort, auch der Titel eines neongrünen Albums von Charli XCX, wurde 2024 zum Sommer-Trend und Collins-Wort des Jahres?",
+    "antwort": "brat",
+    "akzeptiert": [
+      "Brat Summer"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Auszeichnung bekommt ein YouTube-Kanal bei zehn Millionen Abonnenten?",
+    "antwort": "Diamant Play Button",
+    "akzeptiert": [
+      "Diamond Play Button",
+      "Diamant-Button",
+      "Diamant"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Abkürzung bedeutet im Chat „shaking my head“, also kopfschüttelnd?",
+    "antwort": "SMH"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man Angehörige der Generation Z scherzhaft, in Anlehnung an „Boomer“?",
+    "antwort": "Zoomer",
+    "akzeptiert": [
+      "Zoomers"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Farbe hatte das Kleid aus dem viralen Internetstreit von 2015 („weiß-gold oder …?“) in Wirklichkeit?",
+    "antwort": "Blau-Schwarz",
+    "akzeptiert": [
+      "blau und schwarz",
+      "schwarz-blau",
+      "blau-schwarz"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die KI-generierte Holzfigur mit Baseballschläger aus dem Brainrot-Trend 2025, deren Name ein Trommel-Weckruf ist?",
+    "antwort": "Tung Tung Tung Sahur",
+    "akzeptiert": [
+      "Tung Tung Sahur",
+      "Tung Tung Tung Tung Sahur"
+    ],
+    "bewertung": "Anzahl der „Tung“ egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißen bei Snapchat die personalisierten Comic-Avatare der Nutzer?",
+    "antwort": "Bitmoji",
+    "akzeptiert": [
+      "Bitmojis"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Karte bei Snapchat, auf der man sehen kann, wo sich Freunde gerade aufhalten?",
+    "antwort": "Snap Map",
+    "akzeptiert": [
+      "Snapmap",
+      "Snap-Karte"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man es, wenn eine Plattform die Beiträge eines Nutzers heimlich kaum noch anzeigt, ohne ihn offiziell zu sperren?",
+    "antwort": "Shadowban",
+    "akzeptiert": [
+      "Shadow Ban",
+      "Shadowbanning"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Amazon-Prime-Show von MrBeast, in der 2024 tausend Kandidaten um fünf Millionen Dollar kämpften?",
+    "antwort": "Beast Games"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Unternehmen kaufte 2012 die Foto-App Instagram für rund eine Milliarde Dollar?",
+    "antwort": "Facebook",
+    "akzeptiert": [
+      "Meta"
+    ],
+    "bewertung": "„Meta“ gilt, auch wenn der Konzern damals noch Facebook hieß."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die TikTok-Funktion, mit der man das Video eines anderen nebeneinander mit dem eigenen zeigt?",
+    "antwort": "Duett",
+    "akzeptiert": [
+      "Duet"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was bedeutet es im Slang, wenn jemand nur das Basecap-Emoji 🧢 kommentiert?",
+    "antwort": "Lüge",
+    "akzeptiert": [
+      "gelogen",
+      "das ist gelogen",
+      "Cap",
+      "du lügst"
+    ],
+    "bewertung": "Alles im Sinne von „Lüge/nicht wahr“ ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Abkürzung steht für die Angst, etwas zu verpassen, wenn alle anderen auf Social Media Spaß haben?",
+    "antwort": "FOMO",
+    "akzeptiert": [
+      "Fear of missing out"
+    ]
+  }
+]

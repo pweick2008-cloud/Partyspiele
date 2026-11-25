@@ -1,1 +1,1228 @@
-[]
+[
+  {
+    "stufe": 1,
+    "frage": "Welches Gas geben Pflanzen bei der Fotosynthese an die Luft ab?",
+    "antwort": "Sauerstoff",
+    "akzeptiert": [
+      "O2"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Gerät, mit dem man winzige Dinge wie Zellen stark vergrößert betrachten kann?",
+    "antwort": "Mikroskop",
+    "akzeptiert": [
+      "Lichtmikroskop"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Vorgang, bei dem Pflanzen mithilfe von Sonnenlicht aus Wasser und Kohlenstoffdioxid Zucker herstellen?",
+    "antwort": "Fotosynthese",
+    "akzeptiert": [
+      "Photosynthese"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Woran kann man das Alter eines gefällten Baumes ablesen?",
+    "antwort": "Jahresringe",
+    "akzeptiert": [
+      "Jahresringen",
+      "Ringe im Stamm",
+      "Baumringe"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher giftige Pilz hat einen roten Hut mit weißen Punkten?",
+    "antwort": "Fliegenpilz"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die kleinste lebende Baueinheit aller Lebewesen?",
+    "antwort": "Zelle",
+    "akzeptiert": [
+      "Zellen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Werden Grippe und Corona von Bakterien oder von Viren ausgelöst?",
+    "antwort": "Viren",
+    "akzeptiert": [
+      "Virus",
+      "von Viren"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher englische Naturforscher begründete im 19. Jahrhundert die Evolutionstheorie?",
+    "antwort": "Charles Darwin",
+    "akzeptiert": [
+      "Darwin"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Unter welcher Abkürzung kennt man das Molekül, in dem die Erbinformation gespeichert ist?",
+    "antwort": "DNA",
+    "akzeptiert": [
+      "DNS"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Zu welcher Tierklasse gehören Schlangen, Eidechsen und Krokodile?",
+    "antwort": "Reptilien",
+    "akzeptiert": [
+      "Kriechtiere",
+      "Reptil"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Pflanzenteil nimmt eine Pflanze Wasser aus dem Boden auf?",
+    "antwort": "Wurzel",
+    "akzeptiert": [
+      "Wurzeln"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "An welchem Baum wachsen Eicheln?",
+    "antwort": "Eiche"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man eine Abfolge wie „Gras → Hase → Fuchs“, die zeigt, wer wen frisst?",
+    "antwort": "Nahrungskette",
+    "akzeptiert": [
+      "Nahrungsnetz"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche fleischfressende Pflanze schnappt mit zwei Blatthälften blitzschnell zu, wenn ein Insekt darauf landet?",
+    "antwort": "Venusfliegenfalle"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche große gelbe Blume dreht ihre Blüte nach der Sonne und trägt sie auch im Namen?",
+    "antwort": "Sonnenblume"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Lebewesen wie eine Zecke oder einen Bandwurm, das auf Kosten eines anderen lebt?",
+    "antwort": "Parasit",
+    "akzeptiert": [
+      "Schmarotzer",
+      "Parasiten"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der feine gelbe Blütenstaub, der vielen Menschen im Frühling Heuschnupfen beschert?",
+    "antwort": "Pollen",
+    "akzeptiert": [
+      "Blütenpollen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche stacheligen Pflanzen speichern Wasser in ihren dicken Stämmen und wachsen oft in Wüsten?",
+    "antwort": "Kakteen",
+    "akzeptiert": [
+      "Kaktus",
+      "Kaktusse"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was bedeutet die griechische Vorsilbe „Bio“ im Wort „Biologie“?",
+    "antwort": "Leben",
+    "akzeptiert": [
+      "das Leben"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen versteinerte Überreste oder Abdrücke von Lebewesen aus der Urzeit?",
+    "antwort": "Fossilien",
+    "akzeptiert": [
+      "Fossil",
+      "Versteinerungen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Film werden Dinosaurier aus DNA geklont, die man in Mücken in Bernstein gefunden hat?",
+    "antwort": "Jurassic Park"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Medikamente nimmt man gegen Infektionen mit Bakterien?",
+    "antwort": "Antibiotika",
+    "akzeptiert": [
+      "Antibiotikum"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher heimische Baum hat eine weiße Rinde mit schwarzen Flecken?",
+    "antwort": "Birke"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Lebewesen, die nur aus einer einzigen Zelle bestehen?",
+    "antwort": "Einzeller"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Pflanze verursacht bei Berührung brennende, juckende Quaddeln auf der Haut?",
+    "antwort": "Brennnessel",
+    "akzeptiert": [
+      "Brennessel",
+      "Nessel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Blätter hat ein gewöhnliches Kleeblatt?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den verblühten Löwenzahn, dessen Samen an kleinen Schirmchen davonfliegen?",
+    "antwort": "Pusteblume"
+  },
+  {
+    "stufe": 1,
+    "frage": "Womit ernähren alle Säugetiere ihre Jungen nach der Geburt – daher auch ihr Name?",
+    "antwort": "Milch",
+    "akzeptiert": [
+      "Muttermilch"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Nährstoff ist vor allem für den Muskelaufbau wichtig und steckt in Proteinshakes?",
+    "antwort": "Eiweiß",
+    "akzeptiert": [
+      "Protein",
+      "Proteine",
+      "Eiweiße"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Zu welcher Nährstoffgruppe gehören vor allem Nudeln, Brot und Reis?",
+    "antwort": "Kohlenhydrate",
+    "akzeptiert": [
+      "Kohlenhydrat",
+      "Kohlehydrate",
+      "Stärke"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Gas nehmen Pflanzen für die Fotosynthese aus der Luft auf?",
+    "antwort": "Kohlenstoffdioxid",
+    "akzeptiert": [
+      "CO2",
+      "Kohlendioxid"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher grüne Blattfarbstoff fängt das Licht für die Fotosynthese ein und wird im Herbst abgebaut?",
+    "antwort": "Chlorophyll",
+    "akzeptiert": [
+      "Blattgrün"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die „Steuerzentrale“ einer Zelle, in der die DNA liegt?",
+    "antwort": "Zellkern",
+    "akzeptiert": [
+      "Nukleus",
+      "Kern"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man die schraubenförmig gewundene Struktur der DNA?",
+    "antwort": "Doppelhelix",
+    "akzeptiert": [
+      "Helix"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche beiden Geschlechtschromosomen hat ein Mann normalerweise?",
+    "antwort": "XY",
+    "akzeptiert": [
+      "X und Y"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man eine zufällige, dauerhafte Veränderung des Erbguts?",
+    "antwort": "Mutation"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Teilgebiet der Biologie, das sich mit der Vererbung beschäftigt?",
+    "antwort": "Genetik",
+    "akzeptiert": [
+      "Vererbungslehre"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt ein Abschnitt auf der DNA, der die Information für ein bestimmtes Merkmal trägt?",
+    "antwort": "Gen",
+    "akzeptiert": [
+      "Gene"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie lautet der wissenschaftliche Artname des heutigen Menschen?",
+    "antwort": "Homo sapiens"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Menschenaffe ist (zusammen mit dem Bonobo) der nächste lebende Verwandte des Menschen?",
+    "antwort": "Schimpanse",
+    "akzeptiert": [
+      "Schimpansen",
+      "Bonobo"
+    ],
+    "bewertung": "„Bonobo“ ist ebenfalls richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Nach welchem Tal bei Düsseldorf ist eine ausgestorbene Menschenart benannt?",
+    "antwort": "Neandertal",
+    "akzeptiert": [
+      "Neanderthal"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man die Einheit aus einem Lebensraum und allen Lebewesen darin, z. B. einen See oder einen Wald?",
+    "antwort": "Ökosystem"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man das Zusammenleben zweier verschiedener Arten zum gegenseitigen Nutzen?",
+    "antwort": "Symbiose"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie lautet der Fachbegriff für die Vielfalt der Arten, Gene und Lebensräume?",
+    "antwort": "Biodiversität",
+    "akzeptiert": [
+      "biologische Vielfalt",
+      "Artenvielfalt"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Mikroorganismen lassen Brotteig aufgehen?",
+    "antwort": "Hefe",
+    "akzeptiert": [
+      "Hefepilze",
+      "Backhefe",
+      "Hefen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Helfen Antibiotika gegen eine Erkältung durch Viren?",
+    "antwort": "Nein"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist in der Regel kleiner: Bakterien oder Viren?",
+    "antwort": "Viren",
+    "akzeptiert": [
+      "Virus"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie lautet der Kurzname des Virus, das die Krankheit Covid-19 auslöst?",
+    "antwort": "SARS-CoV-2",
+    "akzeptiert": [
+      "Sars-Cov2",
+      "Coronavirus",
+      "Sars-CoV-2-Virus"
+    ],
+    "bewertung": "„Coronavirus“ gelten lassen."
+  },
+  {
+    "stufe": 2,
+    "frage": "Zu welcher Tierklasse gehören Frösche, Kröten und Molche?",
+    "antwort": "Amphibien",
+    "akzeptiert": [
+      "Lurche",
+      "Amphibie"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Teilgebiet der Biologie, das die Beziehungen der Lebewesen zu ihrer Umwelt untersucht?",
+    "antwort": "Ökologie"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man alle Tiere, die eine Wirbelsäule besitzen?",
+    "antwort": "Wirbeltiere"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Wissenschaft von den Pflanzen?",
+    "antwort": "Botanik",
+    "akzeptiert": [
+      "Pflanzenkunde"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Die Samen welches Baumes klebt man sich als Kinder gern als „Nasenzwicker“ auf die Nase?",
+    "antwort": "Ahorn",
+    "akzeptiert": [
+      "Bergahorn",
+      "Spitzahorn"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Riesengras gehört zu den am schnellsten wachsenden Pflanzen – bis zu fast einem Meter am Tag?",
+    "antwort": "Bambus"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Verzeichnis, in dem gefährdete Tier- und Pflanzenarten erfasst werden?",
+    "antwort": "Rote Liste"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Lebensraum an Land hat die größte Artenvielfalt?",
+    "antwort": "Tropischer Regenwald",
+    "akzeptiert": [
+      "Regenwald"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Tier lockert und düngt den Boden – Darwin schrieb sogar ein ganzes Buch darüber?",
+    "antwort": "Regenwurm",
+    "akzeptiert": [
+      "Regenwürmer"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man die Verschmelzung von Eizelle und Samenzelle?",
+    "antwort": "Befruchtung"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die aus vielen Einzelaugen zusammengesetzten Augen von Insekten?",
+    "antwort": "Facettenaugen",
+    "akzeptiert": [
+      "Komplexaugen",
+      "Netzaugen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man eine Gewebewucherung, die durch unkontrollierte Zellteilung entsteht?",
+    "antwort": "Tumor",
+    "akzeptiert": [
+      "Geschwulst",
+      "Krebs"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen die grünen Zellbestandteile, in denen die Fotosynthese stattfindet?",
+    "antwort": "Chloroplasten",
+    "akzeptiert": [
+      "Chloroplast",
+      "Blattgrünkörner"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche feste äußere Schicht haben Pflanzenzellen, Tierzellen dagegen nicht?",
+    "antwort": "Zellwand"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Augustinermönch gilt mit seinen Kreuzungsversuchen im 19. Jahrhundert als „Vater der Genetik“?",
+    "antwort": "Gregor Mendel",
+    "akzeptiert": [
+      "Mendel"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß das Schaf, das 1996 als erstes aus einer Körperzelle geklontes Säugetier geboren wurde?",
+    "antwort": "Dolly"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man ein Erbmerkmal, das sich gegenüber einem anderen durchsetzt (z. B. braune über blaue Augen)?",
+    "antwort": "dominant",
+    "akzeptiert": [
+      "Dominanz"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Chromosom liegt beim Down-Syndrom dreifach vor?",
+    "antwort": "21",
+    "akzeptiert": [
+      "Chromosom 21",
+      "Nummer 21"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wer entscheidet beim Menschen über das Geschlecht des Kindes: die Eizelle oder das Spermium?",
+    "antwort": "Spermium",
+    "akzeptiert": [
+      "Samenzelle",
+      "Spermien",
+      "der Vater"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Darwins Prinzip, nach dem die am besten angepassten Individuen mehr Nachkommen haben?",
+    "antwort": "Natürliche Selektion",
+    "akzeptiert": [
+      "Selektion",
+      "natürliche Auslese",
+      "Auslese",
+      "Survival of the fittest"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Auf welcher Inselgruppe beobachtete Darwin die berühmten Finken mit unterschiedlichen Schnäbeln?",
+    "antwort": "Galápagos",
+    "akzeptiert": [
+      "Galapagos",
+      "Galápagos-Inseln",
+      "Galapagosinseln"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Stammt der Mensch vom heutigen Schimpansen ab?",
+    "antwort": "Nein",
+    "bewertung": "Richtig ist „Nein“ (beide haben gemeinsame Vorfahren)."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen in der Nahrungskette Lebewesen wie Pflanzen, die ihre Nahrung mit Licht selbst herstellen?",
+    "antwort": "Produzenten",
+    "akzeptiert": [
+      "Erzeuger",
+      "Produzent"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man Lebewesen wie Pilze und Bakterien, die tote Pflanzen und Tiere abbauen?",
+    "antwort": "Destruenten",
+    "akzeptiert": [
+      "Zersetzer",
+      "Reduzenten",
+      "Destruent"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Sind Korallen Pflanzen, Tiere oder Steine?",
+    "antwort": "Tiere",
+    "akzeptiert": [
+      "Tier",
+      "Nesseltiere"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher heimische Nadelbaum wirft im Herbst als einziger seine Nadeln ab?",
+    "antwort": "Lärche",
+    "akzeptiert": [
+      "Europäische Lärche"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Pflanze klappt bei Berührung blitzschnell ihre Blätter zusammen und steht sprichwörtlich für Empfindlichkeit?",
+    "antwort": "Mimose",
+    "akzeptiert": [
+      "Sinnpflanze"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Pilz ist der gefährlichste Giftpilz Europas und wird oft mit Champignons verwechselt?",
+    "antwort": "Grüner Knollenblätterpilz",
+    "akzeptiert": [
+      "Knollenblätterpilz"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen die winzigen Fortpflanzungszellen, mit denen sich Pilze und Farne vermehren?",
+    "antwort": "Sporen",
+    "akzeptiert": [
+      "Spore"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welcher Gruppe von Lebewesen gehört die Backhefe?",
+    "antwort": "Pilze",
+    "akzeptiert": [
+      "Pilz",
+      "Hefepilze"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Woraus besteht die weiße Rinde eines Camemberts?",
+    "antwort": "Schimmelpilz",
+    "akzeptiert": [
+      "Schimmel",
+      "Edelschimmel",
+      "Weißschimmel",
+      "Pilz"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Bakterien machen aus Milch Joghurt?",
+    "antwort": "Milchsäurebakterien",
+    "akzeptiert": [
+      "Laktobazillen",
+      "Lactobacillus"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Form speichern Kartoffeln die Energie aus der Fotosynthese?",
+    "antwort": "Stärke"
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus welchen Bausteinen sind Eiweiße (Proteine) aufgebaut?",
+    "antwort": "Aminosäuren",
+    "akzeptiert": [
+      "Aminosäure"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man Eiweiße, die als Biokatalysatoren Reaktionen im Körper beschleunigen?",
+    "antwort": "Enzyme",
+    "akzeptiert": [
+      "Enzym"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Vorgang, bei dem Hefe ohne Sauerstoff Zucker abbaut und dabei Alkohol entsteht?",
+    "antwort": "Alkoholische Gärung",
+    "akzeptiert": [
+      "Gärung",
+      "Fermentation"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Vorgang, bei dem Zellen Glucose mit Sauerstoff zu Kohlenstoffdioxid und Wasser abbauen, um Energie zu gewinnen?",
+    "antwort": "Zellatmung",
+    "akzeptiert": [
+      "Atmung",
+      "Dissimilation"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Ein Mikroskop hat ein 10-fach-Okular und ein 40-fach-Objektiv. Wie stark ist die Gesamtvergrößerung?",
+    "antwort": "400-fach",
+    "akzeptiert": [
+      "400",
+      "400x"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welcher Wirbeltierklasse gehört das Seepferdchen?",
+    "antwort": "Fische",
+    "akzeptiert": [
+      "Fisch",
+      "Knochenfische"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welcher Tiergruppe gehören Zecken – auch wenn sie oft für Insekten gehalten werden?",
+    "antwort": "Spinnentiere",
+    "akzeptiert": [
+      "Milben",
+      "Spinnen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche von Bakterien verursachte Krankheit übertragen Zecken in Deutschland am häufigsten?",
+    "antwort": "Borreliose",
+    "akzeptiert": [
+      "Lyme-Borreliose",
+      "Lyme-Krankheit"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wozu züngeln Schlangen ständig mit ihrer gespaltenen Zunge?",
+    "antwort": "Zum Riechen",
+    "akzeptiert": [
+      "Riechen",
+      "Duftstoffe aufnehmen",
+      "Geruch wahrnehmen"
+    ],
+    "bewertung": "Sinngemäß: Sie nehmen Gerüche/Duftstoffe auf."
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welcher Base bildet Adenin in der DNA ein Paar?",
+    "antwort": "Thymin",
+    "akzeptiert": [
+      "T"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Chromosomen enthält eine menschliche Eizelle oder Samenzelle?",
+    "antwort": "23"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Zellteilung, bei der aus einer Zelle zwei erbgleiche Tochterzellen entstehen?",
+    "antwort": "Mitose",
+    "akzeptiert": [
+      "Kernteilung"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche zwei Forscher stellten 1953 das Doppelhelix-Modell der DNA vor?",
+    "antwort": "Watson und Crick",
+    "akzeptiert": [
+      "Crick und Watson",
+      "James Watson und Francis Crick"
+    ],
+    "bewertung": "Beide Nachnamen nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die „Genschere“, für deren Entwicklung Emmanuelle Charpentier und Jennifer Doudna 2020 den Nobelpreis bekamen?",
+    "antwort": "CRISPR/Cas9",
+    "akzeptiert": [
+      "CRISPR",
+      "CRISPR-Cas9",
+      "Crispr Cas"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man ein Erbmerkmal, das nur sichtbar wird, wenn es von beiden Eltern vererbt wurde?",
+    "antwort": "rezessiv"
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welcher Pflanze führte Gregor Mendel seine berühmten Vererbungsversuche durch?",
+    "antwort": "Erbsen",
+    "akzeptiert": [
+      "Erbse",
+      "Gartenerbse"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß das Schiff, mit dem Charles Darwin von 1831 bis 1836 um die Welt segelte?",
+    "antwort": "Beagle",
+    "akzeptiert": [
+      "HMS Beagle"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das berühmte, rund 3,2 Millionen Jahre alte Skelett eines Vormenschen, das 1974 in Äthiopien gefunden wurde?",
+    "antwort": "Lucy"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher schwedische Naturforscher führte die zweiteiligen lateinischen Artnamen wie „Homo sapiens“ ein?",
+    "antwort": "Carl von Linné",
+    "akzeptiert": [
+      "Linné",
+      "Linnaeus",
+      "Carl Linnaeus"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Rangstufe der biologischen Systematik liegt zwischen Art und Familie?",
+    "antwort": "Gattung",
+    "akzeptiert": [
+      "Genus"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Die Blindschleiche sieht aus wie eine Schlange. Was ist sie in Wirklichkeit?",
+    "antwort": "Eine Echse",
+    "akzeptiert": [
+      "Echse",
+      "Eidechse",
+      "beinlose Echse",
+      "Schleiche"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Sind Pilze näher mit Tieren oder mit Pflanzen verwandt?",
+    "antwort": "Mit Tieren",
+    "akzeptiert": [
+      "Tieren",
+      "Tiere"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Geflecht aus feinen Pilzfäden im Boden, das den eigentlichen Hauptteil eines Pilzes bildet?",
+    "antwort": "Myzel",
+    "akzeptiert": [
+      "Mycel",
+      "Pilzgeflecht",
+      "Hyphengeflecht"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man scherzhaft das unterirdische Netzwerk aus Pilzfäden, über das Bäume Nährstoffe austauschen – angelehnt ans Internet?",
+    "antwort": "Wood Wide Web"
+  },
+  {
+    "stufe": 4,
+    "frage": "Flechten sind eine Lebensgemeinschaft aus einem Pilz und welchem weiteren Lebewesen?",
+    "antwort": "Alge",
+    "akzeptiert": [
+      "Algen",
+      "Grünalge",
+      "Cyanobakterien",
+      "Blaualgen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche heimische fleischfressende Moorpflanze fängt Insekten mit klebrigen Tröpfchen an ihren Blatthärchen?",
+    "antwort": "Sonnentau"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die winzigen Öffnungen an der Blattunterseite, über die Pflanzen Gase austauschen?",
+    "antwort": "Spaltöffnungen",
+    "akzeptiert": [
+      "Stomata",
+      "Stoma"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Baumart stellt mit über 115 Metern den höchsten bekannten Baum der Welt?",
+    "antwort": "Küstenmammutbaum",
+    "akzeptiert": [
+      "Mammutbaum",
+      "Redwood",
+      "Sequoia"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Die Bananenpflanze ist gar kein Baum. Was ist sie botanisch?",
+    "antwort": "Ein Kraut",
+    "akzeptiert": [
+      "Kraut",
+      "Staude",
+      "Riesenstaude",
+      "krautige Pflanze"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Baum mit fächerförmigen Blättern gilt als „lebendes Fossil“ und überlebte sogar die Atombombe in Hiroshima?",
+    "antwort": "Ginkgo",
+    "akzeptiert": [
+      "Ginko"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Nach welcher Videospielfigur ist ein wichtiges Gen für die Embryonalentwicklung benannt?",
+    "antwort": "Sonic",
+    "akzeptiert": [
+      "Sonic the Hedgehog",
+      "Sonic Hedgehog"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Molekül, das als „Energiewährung“ der Zelle dient (Abkürzung reicht)?",
+    "antwort": "ATP",
+    "akzeptiert": [
+      "Adenosintriphosphat"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche winzigen Meeresorganismen produzieren etwa die Hälfte des Sauerstoffs auf der Erde?",
+    "antwort": "Phytoplankton",
+    "akzeptiert": [
+      "Plankton",
+      "Algen",
+      "Kieselalgen",
+      "Cyanobakterien"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Vom lateinischen Wort „vacca“ (Kuh) leitet sich ein Fachwort für Impfstoff ab. Welches?",
+    "antwort": "Vakzin",
+    "akzeptiert": [
+      "Vakzine",
+      "Vaccine",
+      "Vakzination"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Arzt entdeckte 1882 den Erreger der Tuberkulose?",
+    "antwort": "Robert Koch",
+    "akzeptiert": [
+      "Koch"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Einzeller bewegt sich mit „Scheinfüßchen“ fort und ändert dabei ständig seine Form?",
+    "antwort": "Amöbe",
+    "akzeptiert": [
+      "Amöben",
+      "Wechseltierchen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche für Menschen unsichtbare Lichtart können Bienen sehen?",
+    "antwort": "UV-Licht",
+    "akzeptiert": [
+      "UV",
+      "Ultraviolett",
+      "ultraviolettes Licht"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man es, wenn ein harmloses Tier ein gefährliches nachahmt, z. B. die Schwebfliege eine Wespe?",
+    "antwort": "Mimikry"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man die Fähigkeit von Lebewesen wie Glühwürmchen oder Tiefseefischen, selbst Licht zu erzeugen?",
+    "antwort": "Biolumineszenz"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Base ersetzt in der RNA das Thymin der DNA?",
+    "antwort": "Uracil",
+    "akzeptiert": [
+      "U"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele aufeinanderfolgende DNA-Basen codieren zusammen eine Aminosäure?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei",
+      "Triplett",
+      "Basentriplett",
+      "Codon"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Zellteilung, bei der Keimzellen mit halbem Chromosomensatz entstehen?",
+    "antwort": "Meiose",
+    "akzeptiert": [
+      "Reifeteilung",
+      "Reduktionsteilung"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Von welchem Elternteil erbt man die DNA der Mitochondrien?",
+    "antwort": "Mutter",
+    "akzeptiert": [
+      "von der Mutter",
+      "mütterlicherseits"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißen Lebewesen ohne echten Zellkern, z. B. Bakterien?",
+    "antwort": "Prokaryoten",
+    "akzeptiert": [
+      "Prokaryonten",
+      "Prokaryot"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Theorie, nach der Mitochondrien und Chloroplasten einst frei lebende Bakterien waren?",
+    "antwort": "Endosymbiontentheorie",
+    "akzeptiert": [
+      "Endosymbiontenhypothese",
+      "Endosymbiose",
+      "Endosymbiosetheorie"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "An welchen winzigen Zellbestandteilen werden Proteine zusammengebaut?",
+    "antwort": "Ribosomen",
+    "akzeptiert": [
+      "Ribosom"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der große, mit Zellsaft gefüllte Speicherraum in Pflanzenzellen?",
+    "antwort": "Vakuole",
+    "akzeptiert": [
+      "Zellsaftvakuole",
+      "Zentralvakuole"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Robert Hooke prägte 1665 das Wort „Zelle“, als er unter dem Mikroskop dünne Scheiben welches Materials betrachtete?",
+    "antwort": "Kork",
+    "akzeptiert": [
+      "Flaschenkork"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher niederländische Tuchhändler sah im 17. Jahrhundert als Erster Bakterien mit seinen selbstgebauten Mikroskopen?",
+    "antwort": "Antoni van Leeuwenhoek",
+    "akzeptiert": [
+      "Leeuwenhoek",
+      "van Leeuwenhoek"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche britische Forscherin lieferte mit „Foto 51“ das entscheidende Röntgenbild für die Entdeckung der DNA-Struktur?",
+    "antwort": "Rosalind Franklin",
+    "akzeptiert": [
+      "Franklin"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher französische Forscher glaubte, Giraffen hätten durch ständiges Strecken lange Hälse bekommen und dies vererbt?",
+    "antwort": "Jean-Baptiste de Lamarck",
+    "akzeptiert": [
+      "Lamarck"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie lautet der deutsche Kurztitel von Darwins Hauptwerk aus dem Jahr 1859?",
+    "antwort": "Über die Entstehung der Arten",
+    "akzeptiert": [
+      "Die Entstehung der Arten",
+      "Entstehung der Arten",
+      "On the Origin of Species"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man Organe mit gleichem Bauplan-Ursprung, aber unterschiedlicher Funktion – z. B. Menschenarm und Vogelflügel?",
+    "antwort": "homolog",
+    "akzeptiert": [
+      "homologe Organe",
+      "Homologie"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man Arten, die weltweit nur in einem bestimmten, begrenzten Gebiet vorkommen?",
+    "antwort": "endemisch",
+    "akzeptiert": [
+      "Endemiten",
+      "Endemit"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man die Überdüngung eines Gewässers mit Nährstoffen, die es „umkippen“ lassen kann?",
+    "antwort": "Eutrophierung"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Element binden Knöllchenbakterien an den Wurzeln von Hülsenfrüchten direkt aus der Luft?",
+    "antwort": "Stickstoff",
+    "akzeptiert": [
+      "N2",
+      "N"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Zu welcher Pilzgattung gehört das größte bekannte Lebewesen der Welt, das sich in Oregon über fast 10 km² erstreckt?",
+    "antwort": "Hallimasch",
+    "akzeptiert": [
+      "Dunkler Hallimasch",
+      "Armillaria"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Symbiose zwischen Pilzen und Pflanzenwurzeln?",
+    "antwort": "Mykorrhiza",
+    "akzeptiert": [
+      "Mycorrhiza"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Gas, das reife Äpfel abgeben, lässt Bananen und anderes Obst schneller reifen?",
+    "antwort": "Ethylen",
+    "akzeptiert": [
+      "Ethen"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Pflanze aus Südostasien bildet mit bis zu einem Meter Durchmesser die größte Einzelblüte der Welt?",
+    "antwort": "Rafflesia",
+    "akzeptiert": [
+      "Riesenrafflesie",
+      "Rafflesie"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Botanisch ist die Kokosnuss keine echte Nuss. Zu welcher Fruchtart gehört sie?",
+    "antwort": "Steinfrucht",
+    "akzeptiert": [
+      "Steinobst",
+      "Steinfrüchte"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man das Wachstum einer Pflanze in Richtung Licht mit Fachbegriff?",
+    "antwort": "Phototropismus",
+    "akzeptiert": [
+      "Fototropismus",
+      "Heliotropismus"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Bakterien reicherten vor Milliarden Jahren durch Fotosynthese als Erste Sauerstoff in der Atmosphäre an?",
+    "antwort": "Cyanobakterien",
+    "akzeptiert": [
+      "Blaualgen"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Ist der Erreger der Malaria ein Virus, ein Bakterium oder ein Einzeller?",
+    "antwort": "Einzeller",
+    "akzeptiert": [
+      "Plasmodium",
+      "Parasit",
+      "Protist"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißen Viren, die ausschließlich Bakterien befallen?",
+    "antwort": "Bakteriophagen",
+    "akzeptiert": [
+      "Phagen",
+      "Phage"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man eine Infektionskrankheit, die von Tieren auf Menschen überspringen kann?",
+    "antwort": "Zoonose",
+    "akzeptiert": [
+      "Zoonosen"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit welchen Lebewesen leben Korallen in Symbiose – stoßen sie diese bei Hitze ab, kommt es zur Korallenbleiche?",
+    "antwort": "Algen",
+    "akzeptiert": [
+      "Zooxanthellen",
+      "Alge"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit wem sind Krokodile näher verwandt: mit Vögeln oder mit Eidechsen?",
+    "antwort": "Mit Vögeln",
+    "akzeptiert": [
+      "Vögeln",
+      "Vögel"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man die Fortpflanzung aus unbefruchteten Eizellen, z. B. bei Blattläusen?",
+    "antwort": "Jungfernzeugung",
+    "akzeptiert": [
+      "Parthenogenese"
+    ]
+  }
+]

@@ -1,1 +1,1093 @@
-[]
+[
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der höchste Berg der Welt?",
+    "antwort": "Mount Everest",
+    "akzeptiert": [
+      "Everest",
+      "Mt. Everest",
+      "Chomolungma",
+      "Sagarmatha"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man eine Stelle mit Wasser und Pflanzen mitten in der Wüste?",
+    "antwort": "Oase"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Kontinente gibt es nach der in Deutschland üblichen Zählung?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben"
+    ],
+    "bewertung": "Erwartet ist 7 (Europa, Asien, Afrika, Nordamerika, Südamerika, Australien/Ozeanien, Antarktis)."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Meer liegt zwischen Europa und Afrika?",
+    "antwort": "Mittelmeer",
+    "akzeptiert": [
+      "Mittelländisches Meer"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die größte Wüste Afrikas?",
+    "antwort": "Sahara"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Bundesländer hat Deutschland?",
+    "antwort": "16",
+    "akzeptiert": [
+      "sechzehn"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches ist das flächenmäßig größte Land der Welt?",
+    "antwort": "Russland",
+    "akzeptiert": [
+      "Russische Föderation"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Nachbarland grenzt im Norden an Deutschland?",
+    "antwort": "Dänemark"
+  },
+  {
+    "stufe": 1,
+    "frage": "An welche zwei Meere grenzt Deutschland?",
+    "antwort": "Nordsee und Ostsee",
+    "akzeptiert": [
+      "Ostsee und Nordsee"
+    ],
+    "bewertung": "Beide Meere müssen genannt sein."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land in Europa hat auf der Landkarte die Form eines Stiefels?",
+    "antwort": "Italien"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das große Gebirge, das sich durch Österreich, die Schweiz und Süddeutschland zieht?",
+    "antwort": "Alpen"
+  },
+  {
+    "stufe": 1,
+    "frage": "Zu welchem Land gehören die Kanarischen Inseln mit Teneriffa und Gran Canaria?",
+    "antwort": "Spanien"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Ebbe und Flut zusammen mit einem Wort?",
+    "antwort": "Gezeiten",
+    "akzeptiert": [
+      "Tiden",
+      "Tide"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die gedachte Linie, die die Erde in Nord- und Südhalbkugel teilt?",
+    "antwort": "Äquator"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Nachbarland Deutschlands ist für Windmühlen, Tulpen und Grachten bekannt?",
+    "antwort": "Niederlande",
+    "akzeptiert": [
+      "Holland"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land grenzt im Süden an die USA?",
+    "antwort": "Mexiko"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher große See liegt zwischen Deutschland, Österreich und der Schweiz?",
+    "antwort": "Bodensee"
+  },
+  {
+    "stufe": 1,
+    "frage": "Auf welchem Kontinent leben die meisten Menschen?",
+    "antwort": "Asien"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche italienische Stadt ist für ihre Kanäle und Gondeln berühmt?",
+    "antwort": "Venedig",
+    "akzeptiert": [
+      "Venezia"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Ozean liegt zwischen Europa und Amerika?",
+    "antwort": "Atlantik",
+    "akzeptiert": [
+      "Atlantischer Ozean"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die eisige Region rund um den Nordpol?",
+    "antwort": "Arktis",
+    "akzeptiert": [
+      "Nordpolarregion"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man einen langsam fließenden Eisstrom im Hochgebirge?",
+    "antwort": "Gletscher"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Mittelgebirge in Baden-Württemberg ist für Kuckucksuhren und Kirschtorte bekannt?",
+    "antwort": "Schwarzwald"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Himmelsrichtung liegt genau gegenüber von Nordosten?",
+    "antwort": "Südwesten",
+    "akzeptiert": [
+      "Südwest",
+      "SW"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches ist das größte Land Südamerikas?",
+    "antwort": "Brasilien"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Land wird „Land der aufgehenden Sonne“ genannt?",
+    "antwort": "Japan"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Menschen leben ungefähr auf der Erde (Stand 2025)?",
+    "antwort": "8 Milliarden",
+    "akzeptiert": [
+      "8 Mrd",
+      "acht Milliarden",
+      "8,2 Milliarden"
+    ],
+    "bewertung": "Alles zwischen 8 und 8,3 Milliarden ist richtig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Buch voller Landkarten?",
+    "antwort": "Atlas",
+    "akzeptiert": [
+      "Weltatlas"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Himmelsrichtung ist auf Landkarten fast immer oben?",
+    "antwort": "Norden",
+    "akzeptiert": [
+      "Nord",
+      "N"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Land wurden die „Herr der Ringe“-Filme gedreht?",
+    "antwort": "Neuseeland"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Fluss legt von allen Flüssen die längste Strecke innerhalb Deutschlands zurück?",
+    "antwort": "Rhein"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Insel im Nordatlantik wird „Insel aus Feuer und Eis“ genannt?",
+    "antwort": "Island"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Fluss gilt klassisch als der längste der Welt?",
+    "antwort": "Nil",
+    "akzeptiert": [
+      "Amazonas"
+    ],
+    "bewertung": "Nil ist die Schulbuchantwort; da manche Messungen den Amazonas vorn sehen, auch Amazonas gelten lassen."
+  },
+  {
+    "stufe": 2,
+    "frage": "An welchem Fluss liegen sowohl Dresden als auch Hamburg?",
+    "antwort": "Elbe"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der größte tropische Regenwald der Welt?",
+    "antwort": "Amazonas-Regenwald",
+    "akzeptiert": [
+      "Amazonas",
+      "Amazonien",
+      "Amazonasbecken"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Gebirge liegt der Mount Everest?",
+    "antwort": "Himalaya",
+    "akzeptiert": [
+      "Himalaja"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Fluss fließt durch Wien, Budapest und Belgrad?",
+    "antwort": "Donau"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die größte Insel Deutschlands?",
+    "antwort": "Rügen"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher ist der kleinste Kontinent?",
+    "antwort": "Australien",
+    "akzeptiert": [
+      "Ozeanien",
+      "Australien/Ozeanien"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die gedachten Linien, die auf dem Globus vom Nordpol zum Südpol verlaufen?",
+    "antwort": "Längengrade",
+    "akzeptiert": [
+      "Meridiane",
+      "Längenkreise",
+      "Längengrad"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man geschmolzenes Gestein im Erdinneren, bevor es als Lava austritt?",
+    "antwort": "Magma"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Vulkan begrub im Jahr 79 n. Chr. die Stadt Pompeji?",
+    "antwort": "Vesuv",
+    "akzeptiert": [
+      "Vesuvio"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man eine riesige Flutwelle, die durch ein Seebeben ausgelöst wird?",
+    "antwort": "Tsunami"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Inselgruppe im Pazifik ist ein Bundesstaat der USA?",
+    "antwort": "Hawaii"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der höchste Berg im Harz, auf dem sich der Sage nach die Hexen treffen?",
+    "antwort": "Brocken",
+    "akzeptiert": [
+      "Blocksberg"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Zeitzone, in der Deutschland im Winter liegt (Abkürzung reicht)?",
+    "antwort": "MEZ",
+    "akzeptiert": [
+      "Mitteleuropäische Zeit",
+      "CET",
+      "UTC+1"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das größte Korallenriff der Welt vor der Küste Australiens?",
+    "antwort": "Great Barrier Reef",
+    "akzeptiert": [
+      "Großes Barriereriff",
+      "Großes Barrierriff"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem extrem salzigen Gewässer zwischen Israel und Jordanien kann man nicht untergehen?",
+    "antwort": "Totes Meer"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der höchste Berg Afrikas?",
+    "antwort": "Kilimandscharo",
+    "akzeptiert": [
+      "Kilimanjaro",
+      "Kibo"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die berühmten Wasserfälle an der Grenze zwischen den USA und Kanada?",
+    "antwort": "Niagarafälle",
+    "akzeptiert": [
+      "Niagara Falls",
+      "Niagara"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man eine lange, schmale und tiefe Meeresbucht, wie es sie in Norwegen viele gibt?",
+    "antwort": "Fjord",
+    "akzeptiert": [
+      "Fjorde"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Fluss fließt durch Berlin?",
+    "antwort": "Spree",
+    "bewertung": "Havel allein ist zu ungenau; die Spree fließt durchs Zentrum."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das UNESCO-Weltnaturerbe an der Nordseeküste, das bei Ebbe trockenfällt?",
+    "antwort": "Wattenmeer",
+    "akzeptiert": [
+      "Watt"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches ist das bevölkerungsreichste deutsche Bundesland?",
+    "antwort": "Nordrhein-Westfalen",
+    "akzeptiert": [
+      "NRW"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches deutsche Bundesland grenzt an Dänemark?",
+    "antwort": "Schleswig-Holstein"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Bundesland umschließt Berlin vollständig?",
+    "antwort": "Brandenburg"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Himmelsrichtung steht die Sonne in Deutschland mittags?",
+    "antwort": "Süden",
+    "akzeptiert": [
+      "Süd",
+      "S"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Land in Südamerika ist nach dem Äquator benannt?",
+    "antwort": "Ecuador",
+    "akzeptiert": [
+      "Ekuador"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Einwohner hat Deutschland ungefähr?",
+    "antwort": "84 Millionen",
+    "akzeptiert": [
+      "83 Millionen",
+      "84 Mio",
+      "83 Mio"
+    ],
+    "bewertung": "Alles zwischen 80 und 85 Millionen ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Land liegt Dubai mit dem höchsten Gebäude der Welt?",
+    "antwort": "Vereinigte Arabische Emirate",
+    "akzeptiert": [
+      "VAE",
+      "Emirate",
+      "UAE"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Nachbarländer hat Deutschland?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel Prozent der Erdoberfläche sind ungefähr mit Wasser bedeckt?",
+    "antwort": "71 %",
+    "akzeptiert": [
+      "71",
+      "70 %",
+      "70",
+      "ca. 70 Prozent"
+    ],
+    "bewertung": "Werte zwischen 70 und 72 % sind richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das lange Gebirge, das sich entlang der Westküste Südamerikas zieht?",
+    "antwort": "Anden",
+    "akzeptiert": [
+      "Kordilleren"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches ist das kleinste deutsche Bundesland?",
+    "antwort": "Bremen",
+    "akzeptiert": [
+      "Freie Hansestadt Bremen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man die baumlose Kältesteppe im hohen Norden, deren Boden dauerhaft gefroren ist?",
+    "antwort": "Tundra"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der höchste aktive Vulkan Europas, der auf Sizilien liegt?",
+    "antwort": "Ätna",
+    "akzeptiert": [
+      "Etna",
+      "Aetna"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welches Meer mündet die Donau?",
+    "antwort": "Schwarzes Meer"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der berühmte rote Felsen mitten in Australien?",
+    "antwort": "Uluru",
+    "akzeptiert": [
+      "Ayers Rock"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Gewässer ist der größte See der Erde, obwohl es „Meer“ heißt?",
+    "antwort": "Kaspisches Meer",
+    "akzeptiert": [
+      "Kaspisee"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die tiefste Stelle der Weltmeere?",
+    "antwort": "Marianengraben",
+    "akzeptiert": [
+      "Challengertief",
+      "Witjastief"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche türkische Millionenstadt liegt auf zwei Kontinenten?",
+    "antwort": "Istanbul"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man den riesigen Nadelwaldgürtel im Norden Russlands und Kanadas?",
+    "antwort": "Taiga",
+    "akzeptiert": [
+      "borealer Nadelwald",
+      "Borealer Wald"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der zweithöchste Berg der Welt?",
+    "antwort": "K2",
+    "akzeptiert": [
+      "Chogori"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches ist flächenmäßig das zweitgrößte Land der Welt?",
+    "antwort": "Kanada"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Linie im Pazifik, an der sich das Kalenderdatum ändert?",
+    "antwort": "Datumsgrenze",
+    "akzeptiert": [
+      "Internationale Datumsgrenze"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man den Längengrad, der durch Greenwich bei London verläuft?",
+    "antwort": "Nullmeridian",
+    "akzeptiert": [
+      "Greenwich-Meridian",
+      "0. Längengrad",
+      "Nullmeridian von Greenwich"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Auf welchem Kontinent gibt es die meisten Staaten?",
+    "antwort": "Afrika"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche kroatische Stadt diente in „Game of Thrones“ als Kulisse für Königsmund?",
+    "antwort": "Dubrovnik"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der höchste Berg der Alpen?",
+    "antwort": "Mont Blanc",
+    "akzeptiert": [
+      "Montblanc",
+      "Monte Bianco"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die warme Meeresströmung, die Europa ein mildes Klima beschert?",
+    "antwort": "Golfstrom",
+    "akzeptiert": [
+      "Nordatlantikstrom"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche drei deutschen Bundesländer sind Stadtstaaten?",
+    "antwort": "Berlin, Hamburg und Bremen",
+    "akzeptiert": [
+      "Berlin, Bremen, Hamburg",
+      "Hamburg, Bremen, Berlin"
+    ],
+    "bewertung": "Alle drei müssen genannt sein, Reihenfolge egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche ist die größte Stadt der Schweiz?",
+    "antwort": "Zürich",
+    "akzeptiert": [
+      "Zurich"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Mittelgebirge an der Grenze zwischen Sachsen und Tschechien, bekannt für Räuchermännchen und Nussknacker?",
+    "antwort": "Erzgebirge"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem US-Nationalpark steht der Geysir „Old Faithful“?",
+    "antwort": "Yellowstone",
+    "akzeptiert": [
+      "Yellowstone-Nationalpark"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man auf Landkarten die Linien, die Punkte gleicher Höhe verbinden?",
+    "antwort": "Höhenlinien",
+    "akzeptiert": [
+      "Isohypsen",
+      "Höhenschichtlinien"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Stunden ist es in New York normalerweise früher als in Deutschland?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs",
+      "6 Stunden"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches deutsche Bundesland hat den längsten Namen?",
+    "antwort": "Mecklenburg-Vorpommern",
+    "akzeptiert": [
+      "MV"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Stadt wird wegen ihrer barocken Pracht „Elbflorenz“ genannt?",
+    "antwort": "Dresden"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der warme, trockene Fallwind in den Alpen, dem man Kopfschmerzen nachsagt?",
+    "antwort": "Föhn"
+  },
+  {
+    "stufe": 3,
+    "frage": "Auf welcher Insel im Pazifik stehen die riesigen Moai-Steinfiguren?",
+    "antwort": "Osterinsel",
+    "akzeptiert": [
+      "Rapa Nui",
+      "Isla de Pascua"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welchem Nachbarland hat Deutschland die längste gemeinsame Grenze?",
+    "antwort": "Österreich"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der tiefste See der Welt?",
+    "antwort": "Baikalsee",
+    "akzeptiert": [
+      "Baikal"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land hat die längste Küstenlinie der Welt?",
+    "antwort": "Kanada"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man den Vulkangürtel, der den Pazifischen Ozean umgibt?",
+    "antwort": "Pazifischer Feuerring",
+    "akzeptiert": [
+      "Feuerring",
+      "Ring of Fire",
+      "Zirkumpazifischer Feuergürtel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Klimaphänomen, bei dem sich der Pazifik vor Südamerika alle paar Jahre stark erwärmt (spanisch für „das Christkind“)?",
+    "antwort": "El Niño",
+    "akzeptiert": [
+      "El Nino"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Stadt fließen am „Deutschen Eck“ Rhein und Mosel zusammen?",
+    "antwort": "Koblenz"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Fluss hat den Grand Canyon geformt?",
+    "antwort": "Colorado",
+    "akzeptiert": [
+      "Colorado River"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Fluss fließt durch Rom?",
+    "antwort": "Tiber",
+    "akzeptiert": [
+      "Tevere"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Tal in Kalifornien wurde die höchste Lufttemperatur der Erde gemessen?",
+    "antwort": "Death Valley",
+    "akzeptiert": [
+      "Tal des Todes"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der größte See, der vollständig in Deutschland liegt?",
+    "antwort": "Müritz"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche bayerische Stadt nennt man „Dreiflüssestadt“?",
+    "antwort": "Passau"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die größte Wüste der Erde, wenn man Kältewüsten mitzählt?",
+    "antwort": "Antarktis",
+    "akzeptiert": [
+      "Antarktische Wüste"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Einwohner hat China ungefähr?",
+    "antwort": "1,4 Milliarden",
+    "akzeptiert": [
+      "1,4 Mrd",
+      "1400 Millionen"
+    ],
+    "bewertung": "Werte zwischen 1,3 und 1,45 Milliarden sind richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Meerenge in Istanbul, die Europa von Asien trennt?",
+    "antwort": "Bosporus",
+    "akzeptiert": [
+      "Bosphorus"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche zwei Flüsse gaben Mesopotamien („Zwischenstromland“) seinen Namen?",
+    "antwort": "Euphrat und Tigris",
+    "akzeptiert": [
+      "Tigris und Euphrat"
+    ],
+    "bewertung": "Beide Flüsse müssen genannt sein."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Breitenkreis bei etwa 66,5° Nord, ab dem es Mitternachtssonne gibt?",
+    "antwort": "Nördlicher Polarkreis",
+    "akzeptiert": [
+      "Polarkreis"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die nördlichste Gemeinde Deutschlands auf Sylt?",
+    "antwort": "List",
+    "akzeptiert": [
+      "List auf Sylt"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß der Superkontinent, in dem vor rund 300 Millionen Jahren fast alle Landmassen vereint waren?",
+    "antwort": "Pangaea",
+    "akzeptiert": [
+      "Pangäa",
+      "Pangea"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Zwergstaat liegt vollständig innerhalb Italiens, aber nicht in Rom?",
+    "antwort": "San Marino"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele offizielle Zeitzonen hat China, obwohl es so riesig ist?",
+    "antwort": "1",
+    "akzeptiert": [
+      "eine",
+      "eins"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man den Punkt an der Erdoberfläche direkt über dem Herd eines Erdbebens?",
+    "antwort": "Epizentrum"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches ist das einzige Nachbarland Deutschlands, das nicht in der EU ist?",
+    "antwort": "Schweiz"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der höchste Berg Österreichs?",
+    "antwort": "Großglockner",
+    "akzeptiert": [
+      "Glockner"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die riesigen Wasserfälle an der Grenze zwischen Sambia und Simbabwe?",
+    "antwort": "Victoriafälle",
+    "akzeptiert": [
+      "Viktoriafälle",
+      "Victoria Falls",
+      "Mosi-oa-Tunya"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die größte Insel Europas?",
+    "antwort": "Großbritannien",
+    "akzeptiert": [
+      "Great Britain"
+    ],
+    "bewertung": "Island und Irland sind falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land hat die meisten Einwohner Afrikas?",
+    "antwort": "Nigeria"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der längste Fluss Asiens?",
+    "antwort": "Jangtse",
+    "akzeptiert": [
+      "Jangtsekiang",
+      "Yangtze",
+      "Chang Jiang"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie lang ist der Äquator ungefähr?",
+    "antwort": "40.000 km",
+    "akzeptiert": [
+      "40000",
+      "40.000",
+      "40.000 Kilometer"
+    ],
+    "bewertung": "Werte zwischen 40.000 und 40.100 km sind richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher See an der Grenze von Peru und Bolivien ist einer der höchstgelegenen großen Seen der Welt?",
+    "antwort": "Titicacasee",
+    "akzeptiert": [
+      "Titicaca"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die Tropfsteine, die von der Höhlendecke herabhängen?",
+    "antwort": "Stalaktiten",
+    "akzeptiert": [
+      "Stalaktit"
+    ],
+    "bewertung": "Stalagmiten (wachsen vom Boden nach oben) sind falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches ist flächenmäßig das größte Land Afrikas?",
+    "antwort": "Algerien"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Land hat mit über 200.000 Inseln die meisten Inseln der Welt?",
+    "antwort": "Schweden"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher isländische Vulkan legte 2010 mit seiner Aschewolke den Flugverkehr in Europa lahm?",
+    "antwort": "Eyjafjallajökull",
+    "akzeptiert": [
+      "Eyjafjalla"
+    ],
+    "bewertung": "Kleine Tippfehler im Namen sind okay, solange der Vulkan erkennbar ist."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der höchste Berg Nordamerikas (in Alaska)?",
+    "antwort": "Denali",
+    "akzeptiert": [
+      "Mount McKinley",
+      "McKinley"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der höchste Berg Südamerikas?",
+    "antwort": "Aconcagua"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche beiden Länder haben mit je 14 Staaten die meisten Nachbarländer?",
+    "antwort": "China und Russland",
+    "akzeptiert": [
+      "Russland und China"
+    ],
+    "bewertung": "Beide nennen; wer nur eins nennt, liegt halb richtig – Schiedsrichter entscheidet."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Insel teilen sich Indonesien, Malaysia und Brunei?",
+    "antwort": "Borneo",
+    "akzeptiert": [
+      "Kalimantan"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Felsenlandschaft an der Elbe mit der berühmten Bastei-Brücke?",
+    "antwort": "Sächsische Schweiz",
+    "akzeptiert": [
+      "Elbsandsteingebirge"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Kontinent wird als einziger vom Äquator und von beiden Wendekreisen durchquert?",
+    "antwort": "Afrika"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der höchste Wasserfall der Welt (in Venezuela)?",
+    "antwort": "Salto Ángel",
+    "akzeptiert": [
+      "Angel Falls",
+      "Salto Angel",
+      "Kerepakupai Merú"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Vulkan auf Hawaii ist vom Meeresboden aus gemessen höher als der Mount Everest?",
+    "antwort": "Mauna Kea"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher der Großen Seen in Nordamerika ist der größte?",
+    "antwort": "Oberer See",
+    "akzeptiert": [
+      "Lake Superior",
+      "Superior"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Bundesland grenzt an die meisten anderen Bundesländer (nämlich neun)?",
+    "antwort": "Niedersachsen"
+  },
+  {
+    "stufe": 5,
+    "frage": "Durch welche bekannte Kartenprojektion wirkt Grönland fast so groß wie Afrika?",
+    "antwort": "Mercator-Projektion",
+    "akzeptiert": [
+      "Mercator"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Wendekreis auf der Nordhalbkugel?",
+    "antwort": "Wendekreis des Krebses",
+    "akzeptiert": [
+      "nördlicher Wendekreis"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das berüchtigte Kap an der Südspitze Südamerikas?",
+    "antwort": "Kap Hoorn",
+    "akzeptiert": [
+      "Cape Horn",
+      "Cabo de Hornos"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Land liegt die sagenumwobene Wüstenstadt Timbuktu?",
+    "antwort": "Mali"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher See ist der tiefste See Deutschlands?",
+    "antwort": "Bodensee"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Vulkan auf den Liparischen Inseln wird „Leuchtturm des Mittelmeers“ genannt?",
+    "antwort": "Stromboli"
+  },
+  {
+    "stufe": 5,
+    "frage": "Auf welcher Karibikinsel liegen Haiti und die Dominikanische Republik?",
+    "antwort": "Hispaniola",
+    "akzeptiert": [
+      "Haiti"
+    ],
+    "bewertung": "Auch der alte Name „Haiti“ für die Insel ist okay."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Wüste bedeckt große Teile von Botswana?",
+    "antwort": "Kalahari"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Gebirge in Marokko teilt seinen Namen mit einem Buch voller Landkarten?",
+    "antwort": "Atlas",
+    "akzeptiert": [
+      "Atlasgebirge"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches ist das größte Land der Welt ohne Zugang zum offenen Meer?",
+    "antwort": "Kasachstan"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Fluss fließt durch mehr Länder als jeder andere der Welt?",
+    "antwort": "Donau"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Gebirge, das sich wie ein Rückgrat durch ganz Italien zieht?",
+    "antwort": "Apennin",
+    "akzeptiert": [
+      "Apenninen"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der höchste Berg Deutschlands außerhalb der Alpen?",
+    "antwort": "Feldberg",
+    "bewertung": "Gemeint ist der Feldberg im Schwarzwald (1.493 m)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die berühmte Erdbeben-Verwerfung in Kalifornien?",
+    "antwort": "San-Andreas-Verwerfung",
+    "akzeptiert": [
+      "San Andreas",
+      "Sankt-Andreas-Graben",
+      "San-Andreas-Graben"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Meerenge zwischen Alaska und Russland?",
+    "antwort": "Beringstraße",
+    "akzeptiert": [
+      "Beringstrasse"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher US-Bundesstaat hat die längste Küstenlinie?",
+    "antwort": "Alaska"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches EU-Land hat nach Deutschland die meisten Einwohner?",
+    "antwort": "Frankreich"
+  }
+]

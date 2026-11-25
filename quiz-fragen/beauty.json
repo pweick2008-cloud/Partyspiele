@@ -1,1 +1,1288 @@
-[]
+[
+  {
+    "stufe": 1,
+    "frage": "Welches Make-up-Produkt trägt man mit einem kleinen Bürstchen auf die Wimpern auf?",
+    "antwort": "Mascara",
+    "akzeptiert": [
+      "Wimperntusche"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Produkt cremt man vor dem Sonnenbad ein, um keinen Sonnenbrand zu bekommen?",
+    "antwort": "Sonnencreme",
+    "akzeptiert": [
+      "Sonnenschutz",
+      "Sonnenmilch",
+      "Sonnenspray",
+      "Sunblocker"
+    ],
+    "bewertung": "Jedes Sonnenschutzmittel zählt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Gerät trocknet man nasse Haare mit warmer Luft?",
+    "antwort": "Föhn",
+    "akzeptiert": [
+      "Fön",
+      "Haartrockner"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem heißen Gerät mit zwei Platten macht man lockige Haare glatt?",
+    "antwort": "Glätteisen",
+    "akzeptiert": [
+      "Haarglätter",
+      "Glätter"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Make-up-Produkt in Stiftform färbt die Lippen?",
+    "antwort": "Lippenstift"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die kleinen schwarzen Punkte auf der Nase, die durch verstopfte Poren entstehen?",
+    "antwort": "Mitesser",
+    "akzeptiert": [
+      "Blackheads",
+      "Komedonen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Drogeriemarktkette hat einen Namen aus nur zwei kleinen Buchstaben?",
+    "antwort": "dm",
+    "akzeptiert": [
+      "dm-drogerie markt",
+      "Drogerie Markt"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was sprüht oder schäumt man sich vor der Nassrasur ins Gesicht?",
+    "antwort": "Rasierschaum",
+    "akzeptiert": [
+      "Rasiergel",
+      "Rasiercreme"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der klassische kinnlange Haarschnitt mit nur drei Buchstaben?",
+    "antwort": "Bob"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Flüssigkeit benutzt man, um alten Nagellack zu entfernen?",
+    "antwort": "Nagellackentferner",
+    "akzeptiert": [
+      "Aceton"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was benutzt man nach dem Shampoo, damit die Haare weich und leichter kämmbar werden?",
+    "antwort": "Spülung",
+    "akzeptiert": [
+      "Conditioner",
+      "Haarspülung",
+      "Kur",
+      "Haarkur"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Beruf von jemandem, der Haare schneidet?",
+    "antwort": "Friseur",
+    "akzeptiert": [
+      "Frisör",
+      "Friseurin",
+      "Frisörin",
+      "Barber",
+      "Coiffeur"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Make-up-Produkt gibt den Wangen eine rosige Farbe?",
+    "antwort": "Rouge",
+    "akzeptiert": [
+      "Blush",
+      "Blusher"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem kleinen Werkzeug zupft man Augenbrauen?",
+    "antwort": "Pinzette"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was benutzt man unter den Achseln gegen Schweißgeruch?",
+    "antwort": "Deo",
+    "akzeptiert": [
+      "Deodorant",
+      "Deospray",
+      "Deoroller",
+      "Antitranspirant"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Bart, der nur über der Oberlippe wächst?",
+    "antwort": "Schnurrbart",
+    "akzeptiert": [
+      "Schnauzer",
+      "Oberlippenbart",
+      "Schnauzbart",
+      "Moustache"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was sprüht man auf eine fertige Frisur, damit sie den ganzen Abend hält?",
+    "antwort": "Haarspray",
+    "akzeptiert": [
+      "Haarlack"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem durchsichtigen Produkt aus der Tube stylen viele Jungs ihre Haare, das beim Trocknen hart wird?",
+    "antwort": "Haargel",
+    "akzeptiert": [
+      "Gel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was pinselt man auf Finger- und Fußnägel, um sie farbig zu machen?",
+    "antwort": "Nagellack",
+    "akzeptiert": [
+      "Nagellacke"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem heißen Stab dreht man Locken in glatte Haare?",
+    "antwort": "Lockenstab",
+    "akzeptiert": [
+      "Lockeneisen",
+      "Lockenstäbe"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Frisur, bei der alle Haare hinten am Kopf mit einem Gummi zusammengebunden werden und herunterhängen?",
+    "antwort": "Pferdeschwanz",
+    "akzeptiert": [
+      "Zopf",
+      "Ponytail"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die kurzen Haare, die vorn gerade über die Stirn fallen?",
+    "antwort": "Pony",
+    "akzeptiert": [
+      "Ponyfransen",
+      "Fransen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche kleinen Hautentzündungen bekommen viele Teenager in der Pubertät im Gesicht?",
+    "antwort": "Pickel",
+    "akzeptiert": [
+      "Akne",
+      "Pusteln",
+      "Unreinheiten"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man es, wenn man drei Haarsträhnen abwechselnd übereinanderlegt, sodass ein Zopf entsteht?",
+    "antwort": "Flechten",
+    "akzeptiert": [
+      "Zopf flechten",
+      "Zöpfe flechten",
+      "Zopf"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Gemüse legt man sich bei einer Wellness-Gesichtsmaske klassischerweise in Scheiben auf die Augen?",
+    "antwort": "Gurke",
+    "akzeptiert": [
+      "Gurken",
+      "Gurkenscheiben",
+      "Salatgurke"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der bekannte Lippenpflegestift aus Deutschland, dessen Name viele für jeden Lippenpflegestift benutzen?",
+    "antwort": "Labello"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das farbige Puder, das man auf das bewegliche Augenlid aufträgt?",
+    "antwort": "Lidschatten",
+    "akzeptiert": [
+      "Eyeshadow",
+      "Lidschatten-Puder"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches glänzende Lippenprodukt kommt meist flüssig in einem Röhrchen mit Applikator?",
+    "antwort": "Lipgloss",
+    "akzeptiert": [
+      "Lippenglanz",
+      "Gloss"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Werkzeug kürzt und formt man Nägel, ohne eine Schere zu benutzen?",
+    "antwort": "Nagelfeile",
+    "akzeptiert": [
+      "Feile",
+      "Sandblattfeile",
+      "Glasfeile"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man einen Kopf, auf dem gar keine Haare (mehr) wachsen oder alle abrasiert sind?",
+    "antwort": "Glatze",
+    "akzeptiert": [
+      "Kahlkopf",
+      "Glatzkopf"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Abkürzung LSF auf Sonnencreme?",
+    "antwort": "Lichtschutzfaktor"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Make-up-Produkt deckt Augenringe und Pickel gezielt ab?",
+    "antwort": "Concealer",
+    "akzeptiert": [
+      "Abdeckstift",
+      "Camouflage"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Maniküre mit natürlich-rosa Nägeln und weißer Spitze?",
+    "antwort": "French Manicure",
+    "akzeptiert": [
+      "French Nails",
+      "French",
+      "French Maniküre"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Pflege von Füßen und Fußnägeln?",
+    "antwort": "Pediküre",
+    "akzeptiert": [
+      "Pedicure",
+      "Fußpflege"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche große deutsche Drogeriemarktkette trägt den Nachnamen ihres Gründers Dirk?",
+    "antwort": "Rossmann"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der weiche, meist schwarze Stift, mit dem man die Innenseite des unteren Augenlids nachzieht?",
+    "antwort": "Kajal",
+    "akzeptiert": [
+      "Kajalstift",
+      "Kohl",
+      "Kohl-Kajal"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Augen-Look mit dunkel verwischtem Lidschatten, der „rauchig“ aussieht?",
+    "antwort": "Smokey Eyes",
+    "akzeptiert": [
+      "Smoky Eyes",
+      "Smokey Eye",
+      "Smoky Eye"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches schimmernde Produkt trägt man auf Wangenknochen und Nasenrücken auf, damit diese Stellen leuchten?",
+    "antwort": "Highlighter",
+    "akzeptiert": [
+      "Illuminator"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Puder trägt man auf, um dem Gesicht einen sonnengebräunten Look zu geben?",
+    "antwort": "Bronzer",
+    "akzeptiert": [
+      "Bronzing-Puder",
+      "Bronzing Powder"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Frisur, bei der Seiten und Hinterkopf ganz kurz rasiert sind, das Deckhaar oben aber lang bleibt?",
+    "antwort": "Undercut"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Sängerin gründete 2017 die Make-up-Marke Fenty Beauty?",
+    "antwort": "Rihanna",
+    "akzeptiert": [
+      "Robyn Rihanna Fenty"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welchem Land kommt der Trend „K-Beauty“?",
+    "antwort": "Südkorea",
+    "akzeptiert": [
+      "Korea"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Eyeliner-Look, bei dem die Linie am äußeren Augenwinkel spitz nach oben ausläuft – benannt nach einem Tier?",
+    "antwort": "Cat Eye",
+    "akzeptiert": [
+      "Katzenauge",
+      "Cat Eyes",
+      "Katzenaugen",
+      "Wing",
+      "Winged Eyeliner"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Make-up-Technik, bei der man mit dunkleren und helleren Tönen Schatten und Konturen ins Gesicht modelliert?",
+    "antwort": "Contouring",
+    "akzeptiert": [
+      "Konturieren",
+      "Contour"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Rasur mit Klinge, Wasser und Schaum – im Gegensatz zum Elektrorasierer?",
+    "antwort": "Nassrasur"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der kurze Bart, der aussieht, als hätte man sich ein paar Tage nicht rasiert?",
+    "antwort": "Dreitagebart",
+    "akzeptiert": [
+      "Stoppelbart",
+      "Stoppeln"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie endet der berühmte deutsche Werbeslogan von L'Oréal Paris: „Weil ich es mir …“?",
+    "antwort": "wert bin",
+    "akzeptiert": [
+      "… wert bin"
+    ],
+    "bewertung": "„Weil wir es uns wert sind“ ebenfalls richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die flüssige Grundierung, die man für einen ebenmäßigen Teint im ganzen Gesicht aufträgt?",
+    "antwort": "Foundation",
+    "akzeptiert": [
+      "Make-up",
+      "Grundierung",
+      "Flüssig-Make-up"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Duftwasser, das Männer nach der Rasur auf die Haut klopfen?",
+    "antwort": "Aftershave",
+    "akzeptiert": [
+      "Rasierwasser",
+      "After Shave"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die 80er-Jahre-Frisur „vorne kurz, hinten lang“ als deutsches Kurzwort?",
+    "antwort": "Vokuhila",
+    "akzeptiert": [
+      "Mullet"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Punk-Frisur, bei der nur ein Haarstreifen in der Mitte des Kopfes steht und die Seiten rasiert sind?",
+    "antwort": "Irokese",
+    "akzeptiert": [
+      "Iro",
+      "Irokesenschnitt",
+      "Mohawk"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die verfilzten Haarstränge, die Bob Marley berühmt gemacht hat?",
+    "antwort": "Dreadlocks",
+    "akzeptiert": [
+      "Dreads",
+      "Rastalocken",
+      "Locs",
+      "Rastas"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der zu einem Knoten gedrehte Haarschopf am Hinterkopf (englisch „Bun“)?",
+    "antwort": "Dutt",
+    "akzeptiert": [
+      "Bun",
+      "Haarknoten",
+      "Knoten",
+      "Duttfrisur"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Von welcher Marke stammt das berühmte Parfum „No. 5“, das angeblich Marilyn Monroes einziges Nachthemd war?",
+    "antwort": "Chanel"
+  },
+  {
+    "stufe": 2,
+    "frage": "Nach welcher deutschen Stadt ist das „Eau de Cologne“ benannt?",
+    "antwort": "Köln"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man einen Herrenfriseur, der sich auf Bärte und Männerhaarschnitte spezialisiert hat, auf Englisch?",
+    "antwort": "Barber",
+    "akzeptiert": [
+      "Barbier",
+      "Barbershop"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Hautpflege, bei der man mit feinen Körnchen abgestorbene Hautschüppchen abrubbelt?",
+    "antwort": "Peeling",
+    "akzeptiert": [
+      "Scrub",
+      "Körperpeeling",
+      "Gesichtspeeling"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche dickblättrige Pflanze steckt in vielen kühlenden Gels nach einem Sonnenbrand?",
+    "antwort": "Aloe vera",
+    "akzeptiert": [
+      "Aloe"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt ein Kinnbart ohne Wangenbart, der nach einem Tier mit Hörnern benannt ist?",
+    "antwort": "Ziegenbart",
+    "akzeptiert": [
+      "Goatee",
+      "Geißbart"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man gespaltene, kaputte Haarspitzen?",
+    "antwort": "Spliss",
+    "akzeptiert": [
+      "Haarspliss",
+      "Split Ends"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Grundlage, die man vor der Foundation aufträgt, damit das Make-up länger hält?",
+    "antwort": "Primer",
+    "akzeptiert": [
+      "Make-up-Base",
+      "Base"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist höher konzentriert und hält länger: Eau de Toilette oder Eau de Parfum?",
+    "antwort": "Eau de Parfum",
+    "akzeptiert": [
+      "EdP",
+      "Parfum"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Sängerin und Schauspielerin gründete die Make-up-Marke Rare Beauty?",
+    "antwort": "Selena Gomez",
+    "akzeptiert": [
+      "Gomez"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Unter welcher Art Lampe härtet Gel-Nagellack aus?",
+    "antwort": "UV-Lampe",
+    "akzeptiert": [
+      "UV",
+      "UV-Licht",
+      "LED-Lampe",
+      "LED",
+      "UV-LED"
+    ],
+    "bewertung": "UV oder LED ist beides richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Hauttyp, der in der T-Zone (Stirn, Nase, Kinn) fettig, an den Wangen aber eher trocken ist?",
+    "antwort": "Mischhaut",
+    "akzeptiert": [
+      "Mischhauttyp",
+      "Kombinationshaut"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe hat sogenanntes Silbershampoo, das einen Gelbstich in blonden Haaren neutralisiert?",
+    "antwort": "Lila",
+    "akzeptiert": [
+      "Violett",
+      "Purpur",
+      "Lilafarben"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Bei welchem K-Beauty-Trend soll die Haut so klar, glatt und glänzend aussehen wie ein bestimmtes Material?",
+    "antwort": "Glass Skin",
+    "akzeptiert": [
+      "Glas",
+      "Glashaut",
+      "Glass"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Social-Media-Trend mit Sleek Bun, Goldcreolen, glänzender Haut und gebürsteten Brauen: „___ Girl“?",
+    "antwort": "Clean",
+    "akzeptiert": [
+      "Clean Girl",
+      "Clean Girl Look"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Duftnote eines Parfums, die man direkt nach dem Aufsprühen als Erstes riecht?",
+    "antwort": "Kopfnote",
+    "akzeptiert": [
+      "Top Note",
+      "Kopfnoten"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher feuchtigkeitsbindende Stoff, den der Körper selbst bildet, steckt in unzähligen Seren und Cremes?",
+    "antwort": "Hyaluronsäure",
+    "akzeptiert": [
+      "Hyaluron",
+      "Hyaluronan"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die englische Abkürzung SPF auf Sonnencreme?",
+    "antwort": "Sun Protection Factor",
+    "akzeptiert": [
+      "Sun Protection Faktor"
+    ],
+    "bewertung": "Auch die deutsche Übersetzung Lichtschutzfaktor gilt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Haarfarben-Look mit dunklem Ansatz und deutlich helleren Spitzen – französisch für „schattiert“?",
+    "antwort": "Ombré",
+    "akzeptiert": [
+      "Ombre",
+      "Ombré Hair",
+      "Ombre Hair"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der sehr kurze, freche Haarschnitt, benannt nach einer kleinen Fee aus der englischen Folklore?",
+    "antwort": "Pixie",
+    "akzeptiert": [
+      "Pixie Cut",
+      "Pixiecut"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welchem pflanzlichen Pulver färbt man Haare traditionell rötlich und malt auch Muster auf die Haut?",
+    "antwort": "Henna"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Rasierer-Marke wirbt mit dem Slogan „Für das Beste im Mann“?",
+    "antwort": "Gillette"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Herrenhaarschnitt, bei dem die Seiten von ganz kurz unten nach oben fließend länger werden (engl. „verblassen“)?",
+    "antwort": "Fade",
+    "akzeptiert": [
+      "Skin Fade",
+      "Fade Cut"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen die Haare, die vor den Ohren die Wange herunterwachsen – genauso wie ein Stück Fleisch?",
+    "antwort": "Koteletten",
+    "akzeptiert": [
+      "Kotelett",
+      "Backenbart"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die bekannte Pflege-Eigenmarke von dm?",
+    "antwort": "Balea"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Deutschlands bekannteste Parfümeriekette mit Sitz in Düsseldorf?",
+    "antwort": "Douglas",
+    "akzeptiert": [
+      "Parfümerie Douglas"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche einst größte deutsche Drogeriemarktkette ging 2012 pleite?",
+    "antwort": "Schlecker",
+    "akzeptiert": [
+      "Anton Schlecker"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche deutsche Haarpflegemarke (dazu gehören z. B. got2b und Taft) heißt wie eine Haarfarbe plus ein Körperteil?",
+    "antwort": "Schwarzkopf"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Form hat ein klassischer Beautyblender-Make-up-Schwamm?",
+    "antwort": "Ei",
+    "akzeptiert": [
+      "Eiform",
+      "eiförmig",
+      "Tropfen",
+      "Tropfenform"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht die Abkürzung „GRWM“ in Beauty-Videos auf TikTok und YouTube?",
+    "antwort": "Get Ready With Me",
+    "akzeptiert": [
+      "Get ready with me"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher ungewöhnliche tierische Wirkstoff ist als „Snail Mucin“ in K-Beauty-Seren beliebt?",
+    "antwort": "Schneckenschleim",
+    "akzeptiert": [
+      "Schneckensekret",
+      "Schleim von Schnecken",
+      "Snail Mucin"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man im Netz eine günstige Alternative, die einem teuren Beauty-Produkt zum Verwechseln ähnlich ist?",
+    "antwort": "Dupe",
+    "akzeptiert": [
+      "Dupes"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche natürliche Haarfarbe ist weltweit die seltenste?",
+    "antwort": "Rot",
+    "akzeptiert": [
+      "Rote Haare",
+      "Rothaarig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der zottelige Stufenschnitt, der um 2021 auf TikTok viral ging – benannt nach einem Raubtier?",
+    "antwort": "Wolf Cut",
+    "akzeptiert": [
+      "Wolfcut",
+      "Wolf"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Mit welchem Gebäck wird Prinzessin Leias berühmte Frisur mit den zwei Haarschnecken an den Ohren oft verglichen?",
+    "antwort": "Zimtschnecken",
+    "akzeptiert": [
+      "Zimtschnecke",
+      "Schnecken",
+      "Cinnamon Buns",
+      "Cinnamon Rolls"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Roman von Patrick Süskind über einen Mörder mit perfektem Geruchssinn?",
+    "antwort": "Das Parfum",
+    "akzeptiert": [
+      "Parfum",
+      "Das Parfüm",
+      "Parfüm"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das aufklappbare Rasierwerkzeug mit offener Klinge, das man vom klassischen Barbier kennt?",
+    "antwort": "Rasiermesser",
+    "akzeptiert": [
+      "Straight Razor",
+      "Messer"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Make-up-Technik, bei der man loses Puder dick unter die Augen gibt und einwirken lässt – benannt nach einer Küchentätigkeit?",
+    "antwort": "Baking",
+    "akzeptiert": [
+      "Backen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Duftnote eines Parfums hält am längsten und riecht man noch Stunden später?",
+    "antwort": "Basisnote",
+    "akzeptiert": [
+      "Base Note",
+      "Basisnoten",
+      "Fond"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die mittlere Duftnote eines Parfums, die nach der Kopfnote kommt?",
+    "antwort": "Herznote",
+    "akzeptiert": [
+      "Heart Note",
+      "Herznoten",
+      "Middle Note"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Anti-Aging-Wirkstoff ist eine Form von Vitamin A?",
+    "antwort": "Retinol",
+    "akzeptiert": [
+      "Retinoide",
+      "Retinal",
+      "Retinsäure"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Vitamin, das auch in Zitrusfrüchten steckt, ist als „Glow“-Serum gegen Pigmentflecken beliebt?",
+    "antwort": "Vitamin C",
+    "akzeptiert": [
+      "C",
+      "Ascorbinsäure"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Sonnencreme schützt vor UVA und welcher anderen UV-Strahlung, die vor allem Sonnenbrand verursacht?",
+    "antwort": "UVB",
+    "akzeptiert": [
+      "UV-B",
+      "UV B"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "LSF 30 heißt theoretisch: Man kann wie viel mal länger in der Sonne bleiben als ungeschützt?",
+    "antwort": "30",
+    "akzeptiert": [
+      "30-mal",
+      "dreißig",
+      "dreißigmal"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die französische Färbetechnik, bei der die Farbe freihändig aufgepinselt wird, sodass ein natürlicher Verlauf entsteht?",
+    "antwort": "Balayage"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen künstliche Nägel aus Pulver und Flüssigkeit, die an der Luft aushärten?",
+    "antwort": "Acrylnägel",
+    "akzeptiert": [
+      "Acryl",
+      "Acryl-Nägel",
+      "Acrylic Nails"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Nagelform, auch „Coffin“ (Sarg) genannt, ist nach einer Tänzerin benannt?",
+    "antwort": "Ballerina",
+    "akzeptiert": [
+      "Ballerinanägel",
+      "Ballerina-Nägel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche vierstellige Zahl ist der Name des berühmten Kölnisch Wassers?",
+    "antwort": "4711"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher französische Konzern ist der größte Kosmetikkonzern der Welt?",
+    "antwort": "L'Oréal",
+    "akzeptiert": [
+      "L'Oreal",
+      "Loreal",
+      "L’Oréal"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Sängerin steckt hinter der Make-up-Marke Haus Labs?",
+    "antwort": "Lady Gaga",
+    "akzeptiert": [
+      "Gaga"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Model gründete 2022 die Hautpflegemarke Rhode?",
+    "antwort": "Hailey Bieber",
+    "akzeptiert": [
+      "Hailey Baldwin",
+      "Hailey Rhode Bieber"
+    ],
+    "bewertung": "Vorname plus Bieber oder Baldwin reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Technik, bei der Augenbrauen mit feinen Härchenstrichen halbpermanent pigmentiert werden?",
+    "antwort": "Microblading",
+    "akzeptiert": [
+      "Microshading"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Trend, bei dem man Augenbrauen mit Seife nach oben bürstet und fixiert?",
+    "antwort": "Soap Brows",
+    "akzeptiert": [
+      "Soap Brow",
+      "Seifenbrauen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das hauteigene Fett, das von Drüsen gebildet wird und fettige Haut glänzen lässt?",
+    "antwort": "Talg",
+    "akzeptiert": [
+      "Sebum",
+      "Hautfett"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher pH-Wert steht oft als „hautneutral“ auf Waschlotionen?",
+    "antwort": "5,5",
+    "akzeptiert": [
+      "5.5"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die französische Beauty-Kette mit schwarz-weiß gestreiftem Design?",
+    "antwort": "Sephora"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie wurde die berühmte Stufenfrisur von Jennifer Aniston in „Friends“ benannt?",
+    "antwort": "The Rachel",
+    "akzeptiert": [
+      "Rachel",
+      "Rachel-Schnitt",
+      "Rachel Cut"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die hochgekämmte Stirnlocke, die Elvis Presley berühmt machte?",
+    "antwort": "Tolle",
+    "akzeptiert": [
+      "Pompadour",
+      "Elvis-Tolle"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Concealer-Farbe neutralisiert Rötungen wie Pickel oder rote Äderchen?",
+    "antwort": "Grün"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was bedeutet das Symbol eines geöffneten Döschens mit „12M“ auf einer Creme?",
+    "antwort": "12 Monate haltbar nach dem Öffnen",
+    "akzeptiert": [
+      "Haltbarkeit nach dem Öffnen",
+      "nach Öffnen 12 Monate haltbar"
+    ],
+    "bewertung": "Sinngemäß: Nach dem Öffnen 12 Monate verwendbar."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Make-up-Marke wirbt mit „Maybe she's born with it. Maybe it's …“?",
+    "antwort": "Maybelline",
+    "akzeptiert": [
+      "Maybelline New York"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die günstige deutsche Make-up-Marke von cosnova, bekannt für die Mascara „Lash Princess“?",
+    "antwort": "essence",
+    "akzeptiert": [
+      "Essence"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man Parfümeure, die neue Düfte kreieren, scherzhaft nach einem Körperteil?",
+    "antwort": "Nase",
+    "akzeptiert": [
+      "Die Nase",
+      "Nez"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher spanische Maler war für seinen nach oben gezwirbelten Schnurrbart berühmt?",
+    "antwort": "Salvador Dalí",
+    "akzeptiert": [
+      "Dalí",
+      "Dali"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Ex-One-Direction-Sänger gründete 2021 die Beauty-Marke Pleasing, bekannt für Nagellack?",
+    "antwort": "Harry Styles",
+    "akzeptiert": [
+      "Styles"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen künstliche Wimpern, die einzeln an die echten Wimpern geklebt werden und wochenlang halten?",
+    "antwort": "Wimpernextensions",
+    "akzeptiert": [
+      "Extensions",
+      "Wimpernverlängerung",
+      "Lash Extensions",
+      "Eyelash Extensions"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht das Kürzel „MUA“ in der Beauty-Welt?",
+    "antwort": "Make-up Artist",
+    "akzeptiert": [
+      "Makeup Artist",
+      "Make-up-Artist",
+      "Maskenbildner"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Stadt in Südfrankreich gilt als Welthauptstadt des Parfums?",
+    "antwort": "Grasse"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Duftstoff stammte ursprünglich aus der Drüse eines Hirsches und wird heute synthetisch hergestellt?",
+    "antwort": "Moschus",
+    "akzeptiert": [
+      "Musk"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Der seltene Parfum-Rohstoff Ambra entsteht im Darm welches Tieres?",
+    "antwort": "Pottwal",
+    "akzeptiert": [
+      "Wal",
+      "Pottwale"
+    ],
+    "bewertung": "„Wal“ gilt als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus den Haaren welches Tieres bestehen klassische hochwertige Rasierpinsel?",
+    "antwort": "Dachs"
+  },
+  {
+    "stufe": 5,
+    "frage": "In wie vielen Farbtönen brachte Fenty Beauty 2017 seine erste Foundation heraus?",
+    "antwort": "40",
+    "akzeptiert": [
+      "vierzig"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Schritte hat die berühmte koreanische Hautpflegeroutine aus dem K-Beauty-Trend?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Seit welchem Jahr dürfen in der EU keine an Tieren getesteten Kosmetikprodukte mehr verkauft werden?",
+    "antwort": "2013"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Insekt liefert den roten Farbstoff Karmin, der in manchen Lippenstiften steckt?",
+    "antwort": "Schildlaus",
+    "akzeptiert": [
+      "Cochenilleschildlaus",
+      "Cochenille",
+      "Schildläuse",
+      "Laus"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Vitamin ist der beliebte Hautpflege-Wirkstoff Niacinamid?",
+    "antwort": "Vitamin B3",
+    "akzeptiert": [
+      "B3",
+      "Niacin"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Frisur mit um den Kopf gelegten Zöpfen, benannt nach einer Figur aus Goethes „Faust“?",
+    "antwort": "Gretchenfrisur",
+    "akzeptiert": [
+      "Gretchen",
+      "Gretchenzopf"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Lidschatten-Technik, bei der die Lidfalte mit einer scharfen Linie betont wird (engl. „geschnittene Falte“)?",
+    "antwort": "Cut Crease",
+    "akzeptiert": [
+      "Cut-Crease"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Make-up-Technik, bei der man nur mit Highlighter statt mit Contouring arbeitet – benannt nach Blitzlicht?",
+    "antwort": "Strobing"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Concealer-Farbe neutralisiert bläuliche Augenringe?",
+    "antwort": "Orange",
+    "akzeptiert": [
+      "Pfirsich",
+      "Apricot",
+      "Lachs",
+      "Peach",
+      "Orangerot"
+    ],
+    "bewertung": "Alle orange-pfirsichfarbenen Töne zählen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht „BB“ in BB-Cream?",
+    "antwort": "Blemish Balm",
+    "akzeptiert": [
+      "Beauty Balm",
+      "Blemish Base"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Variante der French Manicure, bei der Weiß und Rosé weich ineinander verlaufen – benannt nach einer Generation?",
+    "antwort": "Babyboomer",
+    "akzeptiert": [
+      "Baby Boomer",
+      "Babyboomer-Nägel"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der nach oben gezwirbelte Schnurrbart, benannt nach dem letzten deutschen Kaiser?",
+    "antwort": "Kaiser-Wilhelm-Bart",
+    "akzeptiert": [
+      "Es-ist-erreicht-Bart",
+      "Wilhelm-Bart",
+      "Kaiserbart"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach wie vielen Monaten sollte man eine geöffnete Mascara laut gängiger Empfehlung wegwerfen?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei",
+      "3 Monate"
+    ],
+    "bewertung": "Auch 3–6 Monate gilt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Pflege-Eigenmarke von Rossmann?",
+    "antwort": "Isana"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der schulterlange Bob mit einem Kunstwort aus „long“ und „Bob“?",
+    "antwort": "Lob",
+    "akzeptiert": [
+      "Long Bob"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die orientalische Haarentfernung mit einer Paste aus Zucker, Wasser und Zitrone?",
+    "antwort": "Sugaring",
+    "akzeptiert": [
+      "Zuckern",
+      "Halawa"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Chemikalie (H₂O₂) wird beim Blondieren benutzt, um die Haare aufzuhellen?",
+    "antwort": "Wasserstoffperoxid",
+    "akzeptiert": [
+      "Peroxid",
+      "Wasserstoffsuperoxid"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Beim „Double Cleansing“ reinigt man das Gesicht erst mit einem wasserbasierten Produkt und vorher womit?",
+    "antwort": "Öl",
+    "akzeptiert": [
+      "Reinigungsöl",
+      "Cleansing Oil",
+      "Balm",
+      "Reinigungsbalsam"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Konzern, bekannt für Persil, besitzt auch Beauty-Marken wie Schwarzkopf, Syoss und Fa?",
+    "antwort": "Henkel"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher poröse Stein aus erstarrter Vulkanlava wird benutzt, um Hornhaut an den Füßen abzurubbeln?",
+    "antwort": "Bimsstein",
+    "akzeptiert": [
+      "Bims",
+      "Lavastein"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Kosmetik-Pionier, nach dem eine Make-up-Marke benannt ist, machte in Hollywood das Wort „Make-up“ populär?",
+    "antwort": "Max Factor",
+    "akzeptiert": [
+      "Factor"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Pflegestoff in Lippenbalsam stammt aus dem Wollfett von Schafen?",
+    "antwort": "Lanolin",
+    "akzeptiert": [
+      "Wollwachs",
+      "Wollfett"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Beim Trend „Slugging“ schmiert man sich nachts welches Produkt dick aufs Gesicht?",
+    "antwort": "Vaseline",
+    "akzeptiert": [
+      "Vaselin",
+      "Petrolatum",
+      "Petroleum Jelly"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der flache Stein aus der chinesischen Tradition, mit dem man das Gesicht massiert und ausstreicht?",
+    "antwort": "Gua Sha",
+    "akzeptiert": [
+      "Guasha"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Hamburger Konzern stellt Nivea, Labello und Hansaplast her?",
+    "antwort": "Beiersdorf",
+    "akzeptiert": [
+      "Beiersdorf AG"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Unter welchem Kurznamen ist der Hautpflege-Wirkstoff Centella asiatica (Tigergras) bekannt?",
+    "antwort": "Cica"
+  }
+]
