@@ -27,6 +27,11 @@ const KATEGORIEN = [
   ["logos", "Logos"],
   ["basketball", "Basketball"],
   ["animes", "Animes"],
+  ["biologie", "Biologie"],
+  ["geografie", "Geografie"],
+  ["memes", "Memes & Internet"],
+  ["mode", "Mode"],
+  ["beauty", "Beauty"],
   // Themenpaket für den Englischunterricht (eigener Bereich in der Auswahl)
   ["en-sustainability", "Sustainability", "Englischunterricht"],
   ["en-us-history", "History of the USA", "Englischunterricht"],
