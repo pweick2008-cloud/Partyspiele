@@ -14,6 +14,9 @@ const { QUIZ_KATEGORIEN } = require("./quiz-fragen.js");
 const { PARTNER_AUFGABEN } = require("./partner-aufgaben.js");
 const { WORD_SOURCES } = require("./words.js");
 const { PARTNER_STAPEL_LISTEN } = require("./partner-stapel-listen.js");
+const { SUMMEN_GENRES } = require("./summen-songs.js");
+const fs = require("fs");
+const path = require("path");
 
 // Die Kartenstapel lesen ihre Daten aus globalen Namen (wie im Browser)
 global.WORD_SOURCES = WORD_SOURCES;
@@ -34,8 +37,25 @@ const PK_TYPES = ["w", "d", "p", "s"];
 const DEFAULTS = {
   ehesten: {},
   quiz: { cats: [] },
-  partner: { types: ["w", "d", "p", "s"], rounds: 10, order: [] }
+  partner: { types: ["w", "d", "p", "s"], rounds: 10, order: [] },
+  summen: { genres: [], rounds: 3, time: 60 }
 };
+
+/* ---------- Summ mal!: gemeinsamer Verlauf über alle Lobbys ----------
+   Song-ID → Zeitpunkt, zu dem der Song zuletzt in irgendeiner Lobby dran war.
+   Wird in eine Datei geschrieben, damit er einen Neustart übersteht (soweit
+   der Server seine Dateien behält). */
+const SM_FILE = path.join(process.env.DATA_DIR || __dirname, "summen-verlauf.json");
+let smPlayed = {};
+try { smPlayed = JSON.parse(fs.readFileSync(SM_FILE, "utf8")) || {}; } catch (e) { smPlayed = {}; }
+let smSaveTimer = null;
+function smMark(id) {
+  smPlayed[id] = Date.now();
+  clearTimeout(smSaveTimer);
+  smSaveTimer = setTimeout(() => { fs.writeFile(SM_FILE, JSON.stringify(smPlayed), () => {}); }, 2000);
+}
+const SM_ROUNDS = [1, 2, 3, 5, 8];
+const SM_TIMES = [0, 30, 45, 60, 90];
 
 function install(ctx) {
   const { handlers, fail, requireHost, broadcastState, lobbies } = ctx;
@@ -633,11 +653,137 @@ function install(ctx) {
     }
   });
 
+  /* =========================================================
+     Summ mal! (2–20)
+     Reihum summt einer; nur er sieht Titel und Interpret.
+     ========================================================= */
+  const sm = {
+    deck(genreIds) {
+      const gs = SUMMEN_GENRES.filter((g) => !genreIds.length || genreIds.includes(g.id));
+      const piles = shuffle(gs).map((g) => shuffle(g.songs.map((s) => ({ ...s, genre: g.name }))).sort((a, b) => (smPlayed[a.id] || 0) - (smPlayed[b.id] || 0)));
+      const deck = [];
+      for (let i = 0; piles.some((p) => p.length > i); i++) for (const p of shuffle(piles)) if (p[i]) deck.push(p[i]);
+      return deck.map((s, i) => ({ s, i })).sort((a, b) => ((smPlayed[a.s.id] || 0) - (smPlayed[b.s.id] || 0)) || a.i - b.i).map((x) => x.s);
+    },
+    start(lobby) {
+      const st = xs(lobby, "summen");
+      const ids = lobby.players.map((p) => p.id);
+      lobby.game = {
+        type: "summen", gameId: gameId(), ids,
+        names: Object.fromEntries(lobby.players.map((p) => [p.id, p.name])),
+        scores: Object.fromEntries(ids.map((id) => [id, 0])),
+        deck: sm.deck(st.genres), pos: 0, turn: -1, total: ids.length * st.rounds, time: st.time, log: []
+      };
+      sm.next(lobby);
+    },
+    hummer: (g) => g.ids[g.turn % g.ids.length],
+    draw(g) {
+      if (g.pos >= g.deck.length) { g.deck = sm.deck([]); g.pos = 0; }
+      g.song = g.deck[g.pos++];
+      smMark(g.song.id);
+    },
+    next(lobby) {
+      const g = lobby.game;
+      // Nächster anwesender Summer
+      for (let i = 0; i < g.ids.length; i++) {
+        g.turn++;
+        if (g.turn >= g.total) { g.phase = "over"; return; }
+        if (present(lobby, sm.hummer(g))) break;
+      }
+      Object.assign(g, { phase: "hum", startedAt: null, title: null, artist: null });
+      sm.draw(g);
+    },
+    resolve(g) {
+      if (g.title) g.scores[g.title]++;
+      if (g.artist) g.scores[g.artist]++;
+      g.log.push({ t: g.song.t, a: g.song.a, hummer: g.names[sm.hummer(g)], title: g.title, artist: g.artist });
+      g.phase = "result";
+    },
+    view(lobby, g, me) {
+      const isHummer = g.phase !== "over" && sm.hummer(g) === me.id;
+      const v = {
+        type: "summen", gameId: g.gameId, phase: g.phase, inGame: g.ids.includes(me.id), now: Date.now(),
+        number: g.turn + 1, total: g.total, time: g.time, startedAt: g.startedAt || null,
+        hummer: g.phase !== "over" ? sm.hummer(g) : null, title: g.title || null, artist: g.artist || null,
+        players: playersOf(lobby, g).map((p) => ({ ...p, score: g.scores[p.id] }))
+      };
+      if (g.song && g.phase !== "over") {
+        v.genre = g.song.genre;
+        // Titel und Interpret sieht nur der Summer – alle anderen erst bei der Auflösung
+        if (isHummer || g.phase === "result") v.song = { t: g.song.t, a: g.song.a };
+      }
+      if (g.phase === "over") v.log = g.log;
+      return v;
+    },
+    drop(lobby, id) {
+      const g = lobby.game;
+      if (g.phase === "hum" && sm.hummer(g) === id) sm.next(lobby);
+    }
+  };
+
+  const smGame = (lobby, phases) => requireType(lobby, "summen", phases);
+  const smHummerOrHost = (lobby, g, me) => { if (sm.hummer(g) !== me.id && lobby.hostId !== me.id) fail("Das macht, wer gerade summt."); };
+
+  Object.assign(handlers, {
+    smOther(ws, msg, lobby, me) {
+      const g = smGame(lobby, ["hum"]);
+      if (sm.hummer(g) !== me.id) fail("Das macht, wer gerade summt.");
+      if (g.startedAt) fail("Du summst schon.");
+      sm.draw(g);
+      return lobby;
+    },
+    smStart(ws, msg, lobby, me) {
+      const g = smGame(lobby, ["hum"]);
+      if (sm.hummer(g) !== me.id) fail("Das macht, wer gerade summt.");
+      if (!g.startedAt) g.startedAt = Date.now();
+      return lobby;
+    },
+    // kind: "title", "artist" oder "both"; player: wer es erraten hat (null = niemand)
+    smAward(ws, msg, lobby, me) {
+      const g = smGame(lobby, ["hum"]);
+      smHummerOrHost(lobby, g, me);
+      const p = msg.player === null ? null : String(msg.player);
+      if (p !== null && (!g.ids.includes(p) || p === sm.hummer(g))) fail("Diesen Spieler gibt es nicht.");
+      if (msg.kind === "title" || msg.kind === "both") g.title = p;
+      if (msg.kind === "artist" || msg.kind === "both") g.artist = p;
+      return lobby;
+    },
+    smResolve(ws, msg, lobby, me) {
+      const g = smGame(lobby, ["hum"]);
+      smHummerOrHost(lobby, g, me);
+      sm.resolve(g);
+      return lobby;
+    },
+    smNext(ws, msg, lobby, me) {
+      const g = smGame(lobby, ["result"]);
+      smHummerOrHost(lobby, g, me);
+      sm.next(lobby);
+      return lobby;
+    },
+    smEnd(ws, msg, lobby, me) {
+      requireHost(lobby, me);
+      const g = smGame(lobby, ["hum", "result"]);
+      g.phase = "over";
+      return lobby;
+    },
+    smSettings(ws, msg, lobby, me) {
+      requireHost(lobby, me);
+      if (lobby.game && lobby.game.phase !== "over") fail("Während des Spiels geht das nicht.");
+      const st = xs(lobby, "summen");
+      const s = msg.settings || {};
+      if (Array.isArray(s.genres)) st.genres = s.genres.filter((id) => SUMMEN_GENRES.some((g) => g.id === id));
+      if (SM_ROUNDS.includes(Number(s.rounds))) st.rounds = Number(s.rounds);
+      if (SM_TIMES.includes(Number(s.time))) st.time = Number(s.time);
+      return lobby;
+    }
+  });
+
   return {
     games: {
       ehesten: { min: 3, max: 20, start: eh.start, view: eh.view, drop: eh.drop },
       quiz: { min: 2, max: 10, start: qz.start, view: qz.view, drop: qz.drop },
-      partner: { min: 4, max: 12, start: pk.start, view: pk.view, drop: pk.drop }
+      partner: { min: 4, max: 12, start: pk.start, view: pk.view, drop: pk.drop },
+      summen: { min: 2, max: 20, start: sm.start, view: sm.view, drop: sm.drop }
     },
     // Lobby-Einstellungen, die alle sehen (inkl. der Teams bei Mein Partner kann)
     lobbyView(lobby) {

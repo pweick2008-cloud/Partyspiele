@@ -1,6 +1,6 @@
 # Partyspiele
 
-Zwölf Spiele:
+Dreizehn Spiele:
 
 - **Verräter** – alle kennen einen geheimen Begriff, nur die Verräter nicht. Pass & Play oder online.
 - **Wer bin ich?** – jeder bekommt eine Person, die alle kennen außer ihm selbst. Pass & Play oder online.
@@ -13,6 +13,7 @@ Zwölf Spiele:
 - **Wer würde am ehesten?** – wer würde es am ehesten tun, wer am wenigsten? Pass & Play oder online, 3 bis 20 Spieler.
 - **Quizwand** – Quizfragen von 100 bis 1000 Punkten in 10 Kategorien auf zwei Seiten, (angelehnt an *Jeopardy!*). Pass & Play (1–10, in der Claude-Version bewertet Claude die Antworten) oder online (2–10, der Host entscheidet).
 - **Mein Partner kann** – Zweierteams überbieten sich, wie viel der eigene Partner schafft, dann muss er liefern. Pass & Play oder online, 2 bis 6 Teams.
+- **Summ mal!** – einer summt einen Song, die anderen raten Titel und Interpret. Pass & Play oder online, 2 bis 20 Spieler.
 - **Kontextlos** – harmlose Antworten werden aus dem Zusammenhang gerissen (angelehnt an *Survive the Internet*). Nur online, 3 bis 12 Spieler.
 
 Auf der Startseite wählt man das Spiel, danach den Modus:
@@ -194,6 +195,14 @@ Beim Raten spielen Groß-/Kleinschreibung, Umlaute und kleine Tippfehler keine R
 - **Online:** Die Teams ergeben sich aus der Reihenfolge in der Lobby (immer zwei nacheinander), der Host kann sie mischen; ihr braucht eine gerade Spielerzahl (4–12). Jeder Bieter bietet auf seinem eigenen Handy. Kontrollieren – Uhr starten, Karten abhaken, „Geschafft“ oder „Nicht geschafft“ – dürfen die anderen Teams und der Host. Die Karten mit Lösung sehen nur die anderen Teams; bei Erklär- und Darstell-Aufgaben sieht der Partner die Karte auf seinem Handy, sein Bieter nicht.
 - Einige Körper-Aufgaben brauchen einfache Dinge wie Papierkugeln, Münzen oder Becher; das steht im Hinweis unter der Aufgabe.
 - **Einstellbar:** 6 bis 20 Aufgaben. Die Aufgaben stehen in `partner-aufgaben.js`.
+
+## Summ mal! (Pass & Play oder online, 2–20 Spieler)
+
+- **Ablauf:** Reihum ist einer der Summer. Nur er sieht Titel und Interpret (bei Pass & Play bekommt er das Handy, online sieht nur er den Song auf seinem Gerät). Mit „Kenne ich nicht – anderer Song“ zieht er einen neuen, mit „Los – summen!“ startet die Zeit (einstellbar: ohne, 30, 45, 60 oder 90 Sekunden). Er summt – ohne Text –, die anderen raten laut.
+- **Punkte:** Der Summer tippt an, wer den **Titel** und wer den **Interpreten** erraten hat (oder „Beides“ für eine Person): je 1 Punkt. Danach wird der Song für alle aufgelöst.
+- **Songs:** 1.104 bekannte Songs in 16 Genres – Pop aktuell, Pop 2000er, Deutschpop, Deutschrap, Rap international, Rock, Oldies, 80er, 90er, Dance & EDM, Schlager & Party, Latin, K-Pop, Disney & Musicals, Film & Serien, Kinderlieder. Die Genres sind frei wählbar, außerdem 1 bis 8 Songs pro Spieler. Schwierigkeitsstufen gibt es (noch) nicht.
+- **Wenig Wiederholungen:** Jedes Gerät merkt sich, wann welcher Song zuletzt dran war; nie gespielte Songs kommen zuerst, danach die am längsten nicht gespielten. Online merkt sich der Server das für **alle Lobbys gemeinsam** (Datei `summen-verlauf.json`, bei Render geht sie bei einem Neustart des Servers verloren).
+- Die Songs stehen als JSON in `summen-songs/` (je Genre eine Datei mit `t` = Titel, `a` = Interpret). Nach Änderungen `node tools/summen-build.js` ausführen, das erzeugt `summen-songs.js` und sortiert doppelte Songs aus.
 
 ## Claude-Version
 

@@ -24,9 +24,9 @@ const { DRAW_POOLS, LEVELS: DR_LEVELS, LEVEL_NAMES: DR_LEVEL_NAMES } = require("
 
 const PORT = process.env.PORT || 3000;
 const MIN_PLAYERS = 3; // Verräter
-const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3, auktion: 2, faelscher: 3, ehesten: 3, quiz: 2, partner: 4 };
-const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12, auktion: 20, faelscher: 8, ehesten: 20, quiz: 10, partner: 12 };
-const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie", "auktion", "faelscher", "ehesten", "quiz", "partner"];
+const MIN_PLAYERS_BY_GAME = { verraeter: 3, werbinich: 2, luegen: 2, slf: 1, draw: 2, kontext: 3, galerie: 3, auktion: 2, faelscher: 3, ehesten: 3, quiz: 2, partner: 4, summen: 2 };
+const MAX_PLAYERS_BY_GAME = { verraeter: 20, werbinich: 20, luegen: 2, slf: 20, draw: 20, kontext: 12, galerie: 12, auktion: 20, faelscher: 8, ehesten: 20, quiz: 10, partner: 12, summen: 20 };
+const GAME_TYPES = ["verraeter", "werbinich", "luegen", "slf", "draw", "kontext", "galerie", "auktion", "faelscher", "ehesten", "quiz", "partner", "summen"];
 const MAX_PLAYERS = 20;
 const LOBBY_IDLE_MS = 30 * 60 * 1000; // leere Lobbys werden nach 30 Min. gelöscht
 
@@ -61,6 +61,9 @@ const STATIC = {
   "/ehesten-online.js": ["ehesten-online.js", "text/javascript; charset=utf-8"],
   "/quiz-online.js": ["quiz-online.js", "text/javascript; charset=utf-8"],
   "/partner-online.js": ["partner-online.js", "text/javascript; charset=utf-8"],
+  "/summen.js": ["summen.js", "text/javascript; charset=utf-8"],
+  "/summen-songs.js": ["summen-songs.js", "text/javascript; charset=utf-8"],
+  "/summen-online.js": ["summen-online.js", "text/javascript; charset=utf-8"],
   "/quiz-fragen.js": ["quiz-fragen.js", "text/javascript; charset=utf-8"],
   "/kontext-online.js": ["kontext-online.js", "text/javascript; charset=utf-8"],
   "/galerie-online.js": ["galerie-online.js", "text/javascript; charset=utf-8"],

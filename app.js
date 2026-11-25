@@ -90,6 +90,7 @@ const GAMES = {
   galerie: { icon: "", svg: "frame", name: "Galerie", sub: "Alle zeichnen denselben Begriff – die beste Zeichnung gewinnt.", onlineOnly: true },
   quiz: { icon: "", svg: "board", name: "Quizwand", sub: "Zehn Kategorien, zwei Seiten, Punkte von 100 bis 1000." },
   partner: { icon: "", svg: "duo", name: "Mein Partner kann", sub: "Überbieten – und der Partner muss liefern." },
+  summen: { icon: "", svg: "hum", name: "Summ mal!", sub: "Einer summt, alle raten Titel und Interpret." },
   kontext: { icon: "", svg: "bubble", name: "Kontextlos", sub: "Harmlose Antworten, fiese neue Zusammenhänge.", onlineOnly: true }
 };
 
@@ -107,6 +108,8 @@ const STEP_PLANS = {
   "draw-online": [["setup", "Lobby"], ["game", "Spiel"]],
   "ehesten-local": [["setup", "Start"], ["game", "Fragen"], ["end", "Auswertung"]],
   "partner-local": [["setup", "Start"], ["game", "Aufgaben"], ["end", "Endstand"]],
+  "summen-local": [["setup", "Start"], ["game", "Summen"], ["end", "Endstand"]],
+  "summen-online": [["setup", "Lobby"], ["game", "Summen"], ["end", "Endstand"]],
   "partner-online": [["setup", "Lobby"], ["game", "Aufgaben"], ["end", "Endstand"]],
   "quiz-online": [["setup", "Lobby"], ["board", "Quizwand"], ["end", "Endstand"]],
   "ehesten-online": [["setup", "Lobby"], ["game", "Fragen"], ["end", "Auswertung"]],
@@ -793,6 +796,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     if (currentGame === "partner") {
       Partner.openSetup();
+      return;
+    }
+    if (currentGame === "summen") {
+      Summen.openSetup();
       return;
     }
     if (currentGame === "auktion") {

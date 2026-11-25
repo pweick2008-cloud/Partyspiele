@@ -24,6 +24,7 @@
     <symbol id="ico-quill" viewBox="0 0 48 48"><path d="M40 6C26 8 16 18 12 34l-3 8"/><path d="M40 6c-1 10-7 18-16 22H16"/><path d="M30 12l-8 8"/><path d="M8 42h12"/></symbol>
     <symbol id="ico-board" viewBox="0 0 48 48"><rect x="5" y="8" width="38" height="32" rx="3"/><path d="M5 18h38M5 29h38M17.7 8v32M30.3 8v32"/></symbol>
     <symbol id="ico-duo" viewBox="0 0 48 48"><circle cx="16" cy="15" r="6"/><circle cx="32" cy="15" r="6"/><path d="M5 40c0-8 5-13 11-13 3 0 5.8 1.2 8 3.3 2.2-2.1 5-3.3 8-3.3 6 0 11 5 11 13"/><path d="M24 30.3V40"/></symbol>
+    <symbol id="ico-hum" viewBox="0 0 48 48"><path d="M19 34V10l20-4v24"/><circle cx="14" cy="34" r="5"/><circle cx="34" cy="30" r="5"/><path d="M19 17l20-4"/></symbol>
     <symbol id="ico-pencil" viewBox="0 0 48 48"><path d="M32.5 7.5l8 8L17.5 38.5 7 41l2.5-10.5z"/><path d="M28.5 11.5l8 8"/><path d="M9.5 30.5l8 8"/><path d="M8.3 35.5l4.2 4.2"/></symbol>
     <symbol id="ico-handoff" viewBox="0 0 48 48"><rect x="13" y="6" width="19" height="34" rx="4"/><path d="M20 35h5"/><path d="M36.5 15.5c3.5 3 3.5 9 0 12"/><path d="M36.5 27.5l-3.3-.2M36.5 27.5l.6-3.2"/></symbol>
     <symbol id="ico-globe" viewBox="0 0 48 48"><circle cx="24" cy="24" r="16"/><path d="M8 24h32"/><path d="M24 8c5 4.4 7 10 7 16s-2 11.6-7 16c-5-4.4-7-10-7-16s2-11.6 7-16z"/></symbol>
@@ -130,6 +131,13 @@
           <span class="mode-title">Mein Partner kann</span>
           <span class="mode-desc">„Meiner schafft 12!“ – „Meiner 15!“ Überbietet euch, dann muss der Partner liefern. Wissen, Denken und Körper.</span>
           <span class="mode-tag">Zweierteams</span>
+        </span>
+      </button>
+      <button class="mode-card game-card" type="button" data-game="summen">
+        <span class="mode-icon"><svg class="ico"><use href="#ico-hum"/></svg></span>
+        <span class="mode-text">
+          <span class="mode-title">Summ mal!</span>
+          <span class="mode-desc">Einer summt einen Song, alle anderen raten Titel und Interpret. Von Schlager bis Deutschrap.</span>
         </span>
       </button>
       <button class="mode-card game-card" type="button" data-game="kontext">
@@ -1005,6 +1013,92 @@
       <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>
     </section>
 
+    <!-- ============ SUMM MAL! (PASS & PLAY) ============ -->
+    <section id="screen-summen-setup" class="screen">
+      <button class="back-link" type="button" data-back="menu">← Menü</button>
+      <header class="title">
+        <h1>Summ mal!</h1>
+        <p class="sub" id="summen-total"></p>
+      </header>
+      <div class="card">
+        <div class="row-between">
+          <h2>Spieler</h2>
+          <div class="stepper" id="summen-stepper">
+            <button type="button" data-dir="-1" aria-label="Spieler entfernen">−</button>
+            <span id="summen-count">3</span>
+            <button type="button" data-dir="1" aria-label="Spieler hinzufügen">+</button>
+          </div>
+        </div>
+        <div id="summen-players" class="player-list"></div>
+      </div>
+      <div class="card">
+        <h2>Genres</h2>
+        <div id="summen-genres" class="chips"></div>
+        <h2>Songs pro Spieler</h2>
+        <div id="summen-rounds" class="chips"></div>
+        <h2>Zeit zum Summen</h2>
+        <div id="summen-times" class="chips"></div>
+      </div>
+      <div class="card">
+        <p class="small muted">Reihum bekommt einer das Handy, sieht Titel und Interpret und summt den Song – ohne Text! Die anderen raten laut. Der Summer tippt an, wer den <strong>Titel</strong> und wer den <strong>Interpreten</strong> erraten hat: je 1 Punkt. Neue und lange nicht gespielte Songs kommen zuerst.</p>
+      </div>
+      <p id="summen-error" class="error" hidden></p>
+      <button id="summen-start-game" class="btn primary big" type="button">Los geht's</button>
+    </section>
+
+    <section id="screen-summen-turn" class="screen">
+      <p class="wwae-num" id="summen-num"></p>
+      <div class="card summen-handoff" id="summen-handoff">
+        <span class="role-label">Gib das Handy an</span>
+        <p class="summen-handoff-name" id="summen-handoff-name"></p>
+        <p class="small muted">Nur du schaust gleich aufs Display.</p>
+        <button id="summen-show" class="btn primary big" type="button">Song zeigen</button>
+      </div>
+      <div class="summen-hum" id="summen-hum" hidden>
+        <div class="card summen-card">
+          <span class="summen-genre" id="summen-genre"></span>
+          <p class="summen-title" id="summen-title"></p>
+          <p class="summen-artist" id="summen-artist"></p>
+        </div>
+        <div class="summen-clock-box" id="summen-clock-box" hidden><span class="summen-clock" id="summen-clock"></span></div>
+        <button id="summen-start" class="btn primary big" type="button">Los – summen!</button>
+        <button id="summen-other" class="btn ghost" type="button">Kenne ich nicht – anderer Song</button>
+        <div class="card summen-award" id="summen-award" hidden>
+          <span class="role-label">Wer hat's erraten?</span>
+          <div class="summen-btns">
+            <button id="summen-btn-title" class="btn summen-btn" type="button">Titel erraten</button>
+            <button id="summen-btn-artist" class="btn summen-btn" type="button">Interpret erraten</button>
+            <button id="summen-btn-both" class="btn summen-btn both" type="button">Beides erraten</button>
+          </div>
+          <div class="chips summen-pick" id="summen-pick" hidden></div>
+          <button id="summen-done" class="btn primary big" type="button">Fertig – auflösen</button>
+        </div>
+      </div>
+      <div class="card summen-result" id="summen-result" hidden>
+        <span class="role-label">Es war</span>
+        <p class="summen-title" id="summen-r-title"></p>
+        <p class="summen-artist" id="summen-r-artist"></p>
+        <p class="summen-points" id="summen-r-points"></p>
+        <button id="summen-next" class="btn primary big" type="button"></button>
+      </div>
+      <div class="quiz-scores" id="summen-scores"></div>
+      <button id="summen-quit" class="btn ghost" type="button">Spiel beenden</button>
+    </section>
+
+    <section id="screen-summen-end" class="screen">
+      <header class="title">
+        <h1>Endstand</h1>
+        <p class="sub" id="summen-winner"></p>
+      </header>
+      <div class="card"><ol class="slf-ranking" id="summen-ranking"></ol></div>
+      <details class="card">
+        <summary>Alle Songs</summary>
+        <ul class="pk-log" id="summen-log"></ul>
+      </details>
+      <button id="summen-again" class="btn primary big" type="button">Nochmal spielen</button>
+      <button class="btn ghost" type="button" data-back="hub">Zur Startseite</button>
+    </section>
+
     <!-- ============ FÄLSCHER ============ -->
     <section id="screen-fz-setup" class="screen">
       <button class="back-link" type="button" data-back="menu">← Menü</button>
@@ -1044,6 +1138,11 @@
 
     <section id="screen-pk-online" class="screen">
       <div id="pk-online" class="fz-box"></div>
+      <button class="btn ghost x-leave" type="button">Lobby verlassen</button>
+    </section>
+
+    <section id="screen-sm-online" class="screen">
+      <div id="sm-online" class="fz-box"></div>
       <button class="btn ghost x-leave" type="button">Lobby verlassen</button>
     </section>
 
@@ -1539,6 +1638,20 @@
         <p class="muted small">Die Teams ergeben sich aus der Reihenfolge in der Lobby. Jeder Bieter bietet auf seinem Handy, die anderen Teams kontrollieren: geschafft +2, nicht geschafft −1.</p>
       </div>
 
+      <div class="card" id="smx-settings" hidden>
+        <div class="row-between">
+          <h2>Einstellungen</h2>
+          <span class="pill" id="smx-host-pill"></span>
+        </div>
+        <span class="muted small">Genres</span>
+        <div id="smx-genres" class="chips"></div>
+        <span class="muted small">Songs pro Spieler</span>
+        <div id="smx-rounds" class="chips"></div>
+        <span class="muted small">Zeit zum Summen</span>
+        <div id="smx-times" class="chips"></div>
+        <p class="muted small">Reihum summt einer – nur er sieht Titel und Interpret. Er tippt an, wer den Titel und wer den Interpreten erraten hat: je 1 Punkt. Songs, die kürzlich in irgendeiner Runde dran waren, kommen erst später wieder.</p>
+      </div>
+
       <div class="card" id="auk-settings" hidden>
         <div class="row-between">
           <h2>Einstellungen</h2>
@@ -1767,6 +1880,8 @@
   <script src="partner-stapel-listen.js"></script>
   <script src="partner-stapel.js"></script>
   <script src="partner.js"></script>
+  <script src="summen-songs.js"></script>
+  <script src="summen.js"></script>
   <script src="wbi.js"></script>
   <script src="online.js"></script>
   <script src="wbi-online.js"></script>
@@ -1784,5 +1899,6 @@
   <script src="ehesten-online.js"></script>
   <script src="quiz-online.js"></script>
   <script src="partner-online.js"></script>
+  <script src="summen-online.js"></script>
 </body>
 </html>
