@@ -1125,5 +1125,286 @@
       "Kreiselsensor"
     ],
     "bewertung": "Gyroskop oder Beschleunigungs-/Lagesensor gelten beide."
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welcher Tastenkombination kopiert man unter Windows markierten Text?",
+    "antwort": "Strg + C",
+    "akzeptiert": [
+      "Strg+C",
+      "Ctrl+C",
+      "Ctrl + C"
+    ],
+    "bewertung": "Strg/Ctrl und C nötig; Schreibweise egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Foto vom eigenen Bildschirm, das man mit dem Handy oder PC macht?",
+    "antwort": "Screenshot",
+    "akzeptiert": [
+      "Bildschirmfoto",
+      "Bildschirmaufnahme"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Code aus schwarzen Strichen auf Produkten, den die Supermarktkasse scannt?",
+    "antwort": "Barcode",
+    "akzeptiert": [
+      "Strichcode",
+      "EAN-Code",
+      "EAN"
+    ],
+    "bewertung": "QR-Code ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der bekannte KI-Chatbot der Firma OpenAI?",
+    "antwort": "ChatGPT",
+    "akzeptiert": [
+      "Chat GPT"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen die kabellosen In-Ear-Kopfhörer von Apple?",
+    "antwort": "AirPods",
+    "akzeptiert": [
+      "Air Pods"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Betriebssystem von Microsoft, das auf den meisten PCs läuft?",
+    "antwort": "Windows",
+    "bewertung": "Versionsnummer egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Gigabyte sind ein Terabyte?",
+    "antwort": "1000",
+    "akzeptiert": [
+      "1.000",
+      "1024",
+      "tausend"
+    ],
+    "bewertung": "1000 (Dezimal) und 1024 (Binär) gelten beide."
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus wie vielen Ziffern besteht die PIN einer neuen SIM-Karte normalerweise?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ],
+    "bewertung": "Nur 4 ist richtig (die PUK hat 8)."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Einheit wird die Geschwindigkeit von Internetanschlüssen meist angegeben, z. B. „100 …“?",
+    "antwort": "Mbit/s",
+    "akzeptiert": [
+      "Megabit pro Sekunde",
+      "Mbps",
+      "MBit/s",
+      "Megabit"
+    ],
+    "bewertung": "Megabit (pro Sekunde) ist richtig; Megabyte ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Browser-Modus, in dem Verlauf und Cookies nach dem Schließen nicht gespeichert werden?",
+    "antwort": "Inkognito-Modus",
+    "akzeptiert": [
+      "Inkognito",
+      "privater Modus",
+      "Privates Fenster"
+    ],
+    "bewertung": "Auch „privater Modus“ / „privates Surfen“ zählt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht „FPS“ bei der Bildrate von Videospielen, z. B. „60 FPS“?",
+    "antwort": "Frames per Second",
+    "akzeptiert": [
+      "Bilder pro Sekunde"
+    ],
+    "bewertung": "Englisch oder sinngemäß deutsch („Bilder pro Sekunde“) richtig. „First-Person-Shooter“ ist hier falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der kleine Bluetooth-Tracker von Apple, mit dem man Schlüssel oder Koffer wiederfindet?",
+    "antwort": "AirTag",
+    "akzeptiert": [
+      "Air Tag"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel Volt Spannung liefert ein normaler USB-Anschluss standardmäßig?",
+    "antwort": "5 Volt",
+    "akzeptiert": [
+      "5",
+      "5 V"
+    ],
+    "bewertung": "Nur 5 Volt ist richtig (höhere Spannungen nur bei Schnellladen)."
+  },
+  {
+    "stufe": 3,
+    "frage": "Auf ungefähr wie viel Grad Celsius sollte ein Kühlschrank eingestellt sein?",
+    "antwort": "7 °C",
+    "akzeptiert": [
+      "7 Grad",
+      "4 °C",
+      "5 °C",
+      "6 °C"
+    ],
+    "bewertung": "Werte von 2 bis 8 °C gelten als richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht „IP“ in „IP-Adresse“?",
+    "antwort": "Internet Protocol",
+    "akzeptiert": [
+      "Internetprotokoll"
+    ],
+    "bewertung": "Englisch oder deutsch richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht „AR“ – die Technik, die digitale Objekte ins echte Kamerabild einblendet, wie bei Pokémon GO?",
+    "antwort": "Augmented Reality",
+    "akzeptiert": [
+      "erweiterte Realität"
+    ],
+    "bewertung": "Englisch oder sinngemäß deutsch („erweiterte Realität“) richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht „ANC“ bei Kopfhörern?",
+    "antwort": "Active Noise Cancelling",
+    "akzeptiert": [
+      "aktive Geräuschunterdrückung",
+      "Active Noise Cancellation"
+    ],
+    "bewertung": "Englisch oder sinngemäß deutsch (aktive Geräuschunterdrückung) richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Firma stellt die Prozessoren der Reihe Ryzen her?",
+    "antwort": "AMD",
+    "akzeptiert": [
+      "Advanced Micro Devices"
+    ],
+    "bewertung": "Intel ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie schnell fährt der ICE in Deutschland im Linienbetrieb höchstens?",
+    "antwort": "300 km/h",
+    "akzeptiert": [
+      "300"
+    ],
+    "bewertung": "300 km/h ist richtig; 320 km/h (Höchstwert in Frankreich) gilt auch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Ungefähr wie viel Watt Leistung hat ein typischer Wasserkocher?",
+    "antwort": "2000 Watt",
+    "akzeptiert": [
+      "2000",
+      "2 kW",
+      "2.000 Watt"
+    ],
+    "bewertung": "Werte von 1500 bis 3000 Watt gelten als richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür steht die Abkürzung SIM in SIM-Karte?",
+    "antwort": "Subscriber Identity Module",
+    "bewertung": "Englische Langform; kleine Schreibfehler okay. Sinngemäß „Teilnehmer-Identifikationsmodul“ zählt auch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Ungefähr wie viel Watt braucht eine LED-Lampe, die so hell ist wie eine alte 60-Watt-Glühbirne?",
+    "antwort": "8 Watt",
+    "akzeptiert": [
+      "8",
+      "9 Watt",
+      "10 Watt"
+    ],
+    "bewertung": "Werte von 5 bis 12 Watt gelten als richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wogegen ist ein Handy mit der Schutzklasse IP68 geschützt?",
+    "antwort": "Staub und Wasser",
+    "bewertung": "Beides nötig (staubdicht und wasserdicht beim Untertauchen)."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wofür sind die verzerrten Buchstaben oder „Klicke alle Ampeln an“-Aufgaben (CAPTCHAs) auf Webseiten da?",
+    "antwort": "Menschen von Bots unterscheiden",
+    "bewertung": "Sinngemäß reicht: prüfen, dass ein Mensch und kein Computerprogramm/Bot die Seite benutzt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der in Europa genormte Stecker, mit dem E-Autos an normalen Wechselstrom-Ladesäulen laden?",
+    "antwort": "Typ 2",
+    "akzeptiert": [
+      "Typ-2-Stecker",
+      "Type 2",
+      "Mennekes"
+    ],
+    "bewertung": "Typ 2 (auch „Mennekes-Stecker“) ist richtig; CCS (Schnellladen mit Gleichstrom) gilt nicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus wie vielen Bits besteht eine klassische IPv4-Adresse?",
+    "antwort": "32",
+    "akzeptiert": [
+      "32 Bit"
+    ],
+    "bewertung": "Nur 32 ist richtig (128 Bit gilt für IPv6)."
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem Frequenzbereich (in Megahertz) sendet UKW-Radio in Deutschland?",
+    "antwort": "87,5 bis 108 MHz",
+    "akzeptiert": [
+      "87,5–108 MHz",
+      "87,5 - 108"
+    ],
+    "bewertung": "Ungefähre Angabe reicht: etwa 87/88 bis 108 MHz."
+  },
+  {
+    "stufe": 5,
+    "frage": "Ungefähr wie viele Kilowattstunden verbraucht ein typisches E-Auto auf 100 Kilometer?",
+    "antwort": "18 kWh",
+    "akzeptiert": [
+      "15 kWh",
+      "20 kWh"
+    ],
+    "bewertung": "Werte von 12 bis 25 kWh gelten als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie schnell darf ein S-Pedelec (schnelles E-Bike mit Kennzeichen) mit Motorunterstützung höchstens fahren?",
+    "antwort": "45 km/h",
+    "akzeptiert": [
+      "45"
+    ],
+    "bewertung": "Nur 45 km/h ist richtig (25 km/h gilt für normale Pedelecs)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Ungefähr wie viel Prozent des Sonnenlichts wandelt ein heutiges Solarmodul auf dem Dach in Strom um?",
+    "antwort": "20 Prozent",
+    "akzeptiert": [
+      "20 %",
+      "20",
+      "22 %"
+    ],
+    "bewertung": "Werte von 15 bis 25 Prozent gelten als richtig."
   }
 ]

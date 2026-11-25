@@ -1651,5 +1651,198 @@
     "akzeptiert": [
       "Saja"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Weltraum-Ranger aus „Toy Story“ ruft „Bis zur Unendlichkeit und noch viel weiter!“?",
+    "antwort": "Buzz Lightyear",
+    "bewertung": "Vorname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist der Riese King Kong?",
+    "antwort": "Gorilla",
+    "akzeptiert": [
+      "Affe"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist Disneys Bambi?",
+    "antwort": "Reh",
+    "akzeptiert": [
+      "Hirsch"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie lautet der Nachname von Hermine aus „Harry Potter“?",
+    "antwort": "Granger"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der graue Zauberer in „Der Herr der Ringe“, der ruft: „Du kannst nicht vorbei!“?",
+    "antwort": "Gandalf"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier ist Pumbaa aus „Der König der Löwen“?",
+    "antwort": "Warzenschwein",
+    "bewertung": "„Schwein“ gilt mit Wohlwollen."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Harry Potters Pate, der aus Askaban ausbricht?",
+    "antwort": "Sirius Black",
+    "bewertung": "Vorname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Filmreihe fahren Dominic Toretto und seine „Familie“ illegale Autorennen?",
+    "antwort": "Fast & Furious",
+    "akzeptiert": [
+      "The Fast and the Furious",
+      "Fast and Furious"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Schauspieler spielt Captain Jack Sparrow in „Fluch der Karibik“?",
+    "antwort": "Johnny Depp"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Schauspieler spielt Tony Stark alias Iron Man im Marvel Cinematic Universe?",
+    "antwort": "Robert Downey Jr.",
+    "bewertung": "Nachname „Downey“ reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das große blaue Monster mit lila Flecken aus „Die Monster AG“?",
+    "antwort": "Sulley",
+    "akzeptiert": [
+      "James P. Sullivan",
+      "Sullivan"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Batmans Erzfeind, ein Verbrecher mit grünen Haaren und Clownsgesicht?",
+    "antwort": "Joker"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt Peter Parker seine Freundin in den Spider-Man-Filmen mit Tom Holland?",
+    "antwort": "MJ",
+    "akzeptiert": [
+      "Michelle",
+      "Michelle Jones",
+      "Mary Jane"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Horror-Clown aus Stephen Kings „Es“?",
+    "antwort": "Pennywise"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Film sagt Arnold Schwarzenegger als Killerroboter den berühmten Satz „I’ll be back“?",
+    "antwort": "Terminator",
+    "akzeptiert": [
+      "Der Terminator",
+      "The Terminator"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Schauspielerin spielte Hermine Granger in den „Harry Potter“-Filmen?",
+    "antwort": "Emma Watson"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Frodos treuer Begleiter und Gärtner in „Der Herr der Ringe“?",
+    "antwort": "Samweis Gamdschie",
+    "akzeptiert": [
+      "Sam",
+      "Samwise Gamgee"
+    ],
+    "bewertung": "Vorname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Königreich, in dem Elsa und Anna in „Die Eiskönigin“ leben?",
+    "antwort": "Arendelle"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Woodys treues Pferd in „Toy Story“?",
+    "antwort": "Bullseye"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Regisseur drehte „Pulp Fiction“ und „Kill Bill“?",
+    "antwort": "Quentin Tarantino",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Königreich von Fionas Eltern in „Shrek 2“?",
+    "antwort": "Weit Weit Weg",
+    "akzeptiert": [
+      "Far Far Away"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der sprechende Papagei des bösen Dschafar in Disneys „Aladdin“?",
+    "antwort": "Jago",
+    "akzeptiert": [
+      "Iago"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Kopfgeldjäger, der den in Karbonit eingefrorenen Han Solo zu Jabba bringt?",
+    "antwort": "Boba Fett"
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welchem Quidditch-Star geht Hermine in „Harry Potter und der Feuerkelch“ zum Weihnachtsball?",
+    "antwort": "Viktor Krum",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Bösewicht in „Die Unglaublichen“, der früher ein großer Fan von Mr. Incredible war?",
+    "antwort": "Syndrome",
+    "akzeptiert": [
+      "Buddy"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher südkoreanische Film gewann 2020 als erster nicht-englischsprachiger Film den Oscar als bester Film?",
+    "antwort": "Parasite"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Hai in „Findet Nemo“, der verkündet: „Fische sind Freunde, kein Futter“?",
+    "antwort": "Bruce"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Restaurant in „Toy Story“, in dem die dreiäugigen Aliens im Greifautomaten leben?",
+    "antwort": "Pizza Planet"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Kapuzineraffe von Kapitän Barbossa in „Fluch der Karibik“?",
+    "antwort": "Jack"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die von Kobolden geführte Zaubererbank in „Harry Potter“?",
+    "antwort": "Gringotts"
   }
 ]

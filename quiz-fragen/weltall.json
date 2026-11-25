@@ -1164,5 +1164,208 @@
     "frage": "Welcher Planet hat die meisten bekannten Monde im Sonnensystem (Stand 2025)?",
     "antwort": "Saturn",
     "bewertung": "Jupiter ist falsch (Stand 2025 hat Saturn über 270, Jupiter knapp 100 bekannte Monde)."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Raumfahrer, die ins Weltall fliegen (in Europa und den USA)?",
+    "antwort": "Astronauten",
+    "akzeptiert": [
+      "Astronaut",
+      "Raumfahrer"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die US-amerikanische Raumfahrtbehörde (Abkürzung)?",
+    "antwort": "NASA"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man einen Flugkörper, der die Erde umkreist, z. B. für Navigation, Wetter oder Fernsehen?",
+    "antwort": "Satellit"
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Fluggerät, das durch Rückstoß angetrieben wird, startet man ins All?",
+    "antwort": "Rakete"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man das farbige Leuchten am Nachthimmel im hohen Norden?",
+    "antwort": "Polarlicht",
+    "akzeptiert": [
+      "Nordlicht",
+      "Polarlichter",
+      "Aurora"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den Mond in der Phase zwischen Neumond und Vollmond?",
+    "antwort": "Zunehmender Mond",
+    "akzeptiert": [
+      "zunehmend"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Science-Fiction-Film von Christopher Nolan, in dem Matthew McConaughey durch ein Wurmloch reist?",
+    "antwort": "Interstellar"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Planet ist nach dem obersten römischen Gott benannt?",
+    "antwort": "Jupiter"
+  },
+  {
+    "stufe": 2,
+    "frage": "Woher kommt das Licht, mit dem der Mond nachts leuchtet?",
+    "antwort": "Von der Sonne",
+    "akzeptiert": [
+      "Sonnenlicht",
+      "reflektiertes Sonnenlicht",
+      "Sonne"
+    ],
+    "bewertung": "Richtig, wenn klar ist, dass der Mond Sonnenlicht zurückwirft."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist größer: unser Sonnensystem oder unsere Galaxie?",
+    "antwort": "Die Galaxie",
+    "akzeptiert": [
+      "Galaxie",
+      "Milchstraße"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Farbe hat der Planet Neptun?",
+    "antwort": "Blau"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Planet liegt in unserem Sonnensystem zwischen Erde und Jupiter?",
+    "antwort": "Mars"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe hat der Himmel auf dem Mond am Tag?",
+    "antwort": "Schwarz"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Stoff im Gestein und Staub färbt den Mars rot?",
+    "antwort": "Eisenoxid",
+    "akzeptiert": [
+      "Rost",
+      "Eisen"
+    ],
+    "bewertung": "‚Rost‘ ist richtig; ‚Eisen‘ allein ebenfalls gelten lassen."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem US-Bundesstaat liegt der Weltraumbahnhof Cape Canaveral?",
+    "antwort": "Florida"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das NASA-Programm, das wieder Menschen auf den Mond bringen soll und nach der Zwillingsschwester Apollos benannt ist?",
+    "antwort": "Artemis"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Europäische Weltraumorganisation (Abkürzung)?",
+    "antwort": "ESA"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Film mit Tom Hanks erzählt von der Mondmission mit dem Funkspruch „Houston, wir haben ein Problem“?",
+    "antwort": "Apollo 13"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Sternschnuppenstrom, der jedes Jahr im August besonders viele Sternschnuppen bringt?",
+    "antwort": "Perseiden"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie lange dauert ein Tag (eine Eigendrehung) auf dem Mars ungefähr?",
+    "antwort": "Knapp 25 Stunden",
+    "akzeptiert": [
+      "24,6 Stunden",
+      "24 Stunden 37 Minuten"
+    ],
+    "bewertung": "Richtig ist alles zwischen 24 und 25 Stunden bzw. ‚etwa so lang wie auf der Erde‘."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß die sowjetisch-russische Raumstation, deren Name auf Deutsch „Frieden“ bedeutet?",
+    "antwort": "Mir"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man Uranus und Neptun, weil sie viel gefrorenes Wasser, Ammoniak und Methan enthalten?",
+    "antwort": "Eisriesen",
+    "akzeptiert": [
+      "Eisplaneten"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß die sowjetische Kosmonautin, die 1963 als erste Frau ins All flog?",
+    "antwort": "Valentina Tereschkowa",
+    "akzeptiert": [
+      "Tereschkowa"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Raumfahrtfirma von Amazon-Gründer Jeff Bezos?",
+    "antwort": "Blue Origin"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß die ESA-Mission, die 2014 mit dem Lander Philae erstmals auf einem Kometen landete?",
+    "antwort": "Rosetta"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die chinesische Raumstation (übersetzt „Himmelspalast“)?",
+    "antwort": "Tiangong"
+  },
+  {
+    "stufe": 5,
+    "frage": "An welchem Lagrange-Punkt, etwa 1,5 Millionen km von der Erde entfernt, steht das James-Webb-Teleskop?",
+    "antwort": "L2",
+    "akzeptiert": [
+      "Lagrange-Punkt 2",
+      "L 2",
+      "zweiter Lagrange-Punkt"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man den Abstandsbereich um einen Stern, in dem flüssiges Wasser auf einem Planeten möglich wäre?",
+    "antwort": "Habitable Zone",
+    "akzeptiert": [
+      "Lebenszone",
+      "Goldilocks-Zone",
+      "bewohnbare Zone"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Grenze in rund 100 km Höhe, ab der nach gängiger Definition der Weltraum beginnt?",
+    "antwort": "Kármán-Linie",
+    "akzeptiert": [
+      "Karman-Linie",
+      "Kármán-Grenze"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der helle, bläulich-weiße Stern am „Fuß“ des Sternbilds Orion?",
+    "antwort": "Rigel"
   }
 ]

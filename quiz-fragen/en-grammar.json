@@ -77,5 +77,232 @@
       "She said that she was tired"
     ],
     "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Wichtig ist die Rückverschiebung „am“ → „was“."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the simple past of 'eat'?",
+    "antwort": "ate",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the plural of 'mouse'?",
+    "antwort": "mice",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the comparative of 'good'?",
+    "antwort": "better",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „gooder“ und „more good“ sind falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Complete: 'I ___ (be) fifteen years old.'",
+    "antwort": "am",
+    "akzeptiert": [
+      "'m"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which article is correct: '___ apple' – 'a' or 'an'?",
+    "antwort": "an",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the simple past of 'see'?",
+    "antwort": "saw",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the superlative of 'bad'?",
+    "antwort": "worst",
+    "akzeptiert": [
+      "the worst"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the past participle (3rd form) of 'take'?",
+    "antwort": "taken",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Complete (simple past, negative): 'I ___ (not see) him yesterday.'",
+    "antwort": "didn't see",
+    "akzeptiert": [
+      "did not see"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Lang- und Kurzform zählen; „didn't saw“ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Complete with 'some' or 'any': 'Is there ___ milk left?'",
+    "antwort": "any",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Complete with 'much' or 'many': 'How ___ apples do you want?'",
+    "antwort": "many",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Complete with the possessive determiner: 'This is ___ (she) bag.'",
+    "antwort": "her",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Complete with 'since' or 'for': 'I have known her ___ ten years.'",
+    "antwort": "for",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Complete with the adverb: 'He drives very ___ (careful).'",
+    "antwort": "carefully",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which tense is this: 'I was reading when the phone rang.' (the verb 'was reading')",
+    "antwort": "past progressive",
+    "akzeptiert": [
+      "past continuous",
+      "past progressive simple"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „past progressive“ und „past continuous“ zählen beide."
+  },
+  {
+    "stufe": 3,
+    "frage": "Complete with a relative pronoun: 'The man ___ lives next door is a doctor.'",
+    "antwort": "who",
+    "akzeptiert": [
+      "that"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „who“ und „that“ zählen beide; „which“ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the plural of 'knife'?",
+    "antwort": "knives",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Complete the conditional type 1: 'If it rains, I ___ (stay) at home.'",
+    "antwort": "will stay",
+    "akzeptiert": [
+      "'ll stay",
+      "I'll stay"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Lang- und Kurzform zählen; „would stay“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Add the question tag: 'She can swim, ___?'",
+    "antwort": "can't she",
+    "akzeptiert": [
+      "can't she?",
+      "cannot she"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the past participle (3rd form) of 'choose'?",
+    "antwort": "chosen",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Complete: 'I'm looking forward to ___ (see) you.'",
+    "antwort": "seeing",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „to see“ ist falsch – nach „look forward to“ steht das Gerund."
+  },
+  {
+    "stufe": 4,
+    "frage": "Complete (past perfect): 'When we arrived, the film ___ already ___ (start).'",
+    "antwort": "had started",
+    "akzeptiert": [
+      "had already started"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Gemeint ist „had … started“."
+  },
+  {
+    "stufe": 4,
+    "frage": "Complete with 'used to': 'When I was a child, I ___ (play) football every day.'",
+    "antwort": "used to play",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Complete with 'make' or 'do': 'I have to ___ my homework.'",
+    "antwort": "do",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Complete the conditional type 3: 'If I had studied, I ___ (pass) the test.'",
+    "antwort": "would have passed",
+    "akzeptiert": [
+      "'d have passed",
+      "would've passed"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Put into reported speech: He asked me, 'Where do you live?'",
+    "antwort": "He asked me where I lived.",
+    "akzeptiert": [
+      "He asked me where I lived",
+      "He asked where I lived"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Wichtig: Wortstellung ohne „do“ und Rückverschiebung „live“ → „lived“."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which is correct: 'less people' or 'fewer people'?",
+    "antwort": "fewer people",
+    "akzeptiert": [
+      "fewer"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Put into the passive (present perfect): 'Someone has stolen my bike.'",
+    "antwort": "My bike has been stolen.",
+    "akzeptiert": [
+      "My bike has been stolen"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Kleine Tippfehler sind okay; wichtig ist „has been stolen“."
+  },
+  {
+    "stufe": 5,
+    "frage": "Complete with the correct word: 'This is the house ___ I was born.'",
+    "antwort": "where",
+    "akzeptiert": [
+      "in which"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „where“ und „in which“ zählen beide."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which tense is this: 'She has been waiting for two hours.'",
+    "antwort": "present perfect progressive",
+    "akzeptiert": [
+      "present perfect continuous"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „progressive“ und „continuous“ zählen beide; „present perfect“ allein ist zu ungenau."
   }
 ]

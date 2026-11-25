@@ -1448,5 +1448,260 @@
       "höher",
       "schwerer"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welcher Strahlung macht der Arzt Knochenbrüche sichtbar?",
+    "antwort": "Röntgenstrahlung",
+    "akzeptiert": [
+      "Röntgen",
+      "Röntgenstrahlen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Vergrößerungsglas sucht Sherlock Holmes nach Spuren?",
+    "antwort": "Lupe",
+    "akzeptiert": [
+      "Vergrößerungsglas"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein an einem Faden aufgehängtes Gewicht, das hin und her schwingt?",
+    "antwort": "Pendel",
+    "akzeptiert": [
+      "Fadenpendel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was erzeugt ein Windrad aus der Kraft des Windes?",
+    "antwort": "Strom",
+    "akzeptiert": [
+      "elektrischen Strom",
+      "elektrische Energie",
+      "Elektrizität"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Physiker streckt auf einem weltberühmten Foto die Zunge heraus?",
+    "antwort": "Albert Einstein",
+    "akzeptiert": [
+      "Einstein"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Kraft bremst einen Fallschirmspringer, sobald sich sein Schirm öffnet?",
+    "antwort": "Luftwiderstand",
+    "akzeptiert": [
+      "Luftreibung",
+      "Reibung"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Einheit wird die Kraft gemessen?",
+    "antwort": "Newton",
+    "akzeptiert": [
+      "N"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Nach welchem schottischen Erfinder, der die Dampfmaschine verbesserte, ist die Einheit der Leistung benannt?",
+    "antwort": "James Watt",
+    "akzeptiert": [
+      "Watt"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Bauteil im Sicherungskasten unterbricht den Strom, wenn eine Leitung überlastet ist?",
+    "antwort": "Sicherung",
+    "akzeptiert": [
+      "Leitungsschutzschalter",
+      "FI-Schalter",
+      "Schutzschalter"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist länger: ein Kilometer oder eine Meile?",
+    "antwort": "Eine Meile",
+    "akzeptiert": [
+      "Meile"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Temperatureinheit gibt man in den USA meist das Wetter an?",
+    "antwort": "Fahrenheit",
+    "akzeptiert": [
+      "Grad Fahrenheit",
+      "°F"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Messgerät für die elektrische Spannung?",
+    "antwort": "Voltmeter",
+    "akzeptiert": [
+      "Spannungsmessgerät",
+      "Multimeter"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Messgerät knackt, wenn es radioaktive Strahlung entdeckt?",
+    "antwort": "Geigerzähler",
+    "akzeptiert": [
+      "Geiger-Müller-Zählrohr",
+      "Zählrohr"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was passiert, wenn man einen Stabmagneten in der Mitte durchbricht?",
+    "antwort": "Es entstehen zwei Magnete mit je Nord- und Südpol",
+    "akzeptiert": [
+      "zwei neue Magnete"
+    ],
+    "bewertung": "Richtig, wenn klar ist, dass jedes Stück wieder Nord- und Südpol hat (also zwei vollständige Magnete). Falsch: „ein Nordpol und ein Südpol getrennt“."
+  },
+  {
+    "stufe": 3,
+    "frage": "Im Toten Meer geht man nicht unter. Welche Eigenschaft des salzigen Wassers ist größer als bei normalem Wasser?",
+    "antwort": "Dichte",
+    "akzeptiert": [
+      "die Dichte",
+      "Auftrieb"
+    ],
+    "bewertung": "Auch „Auftrieb“ gelten lassen."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher italienische Forscher soll Kugeln vom Schiefen Turm von Pisa fallen gelassen haben?",
+    "antwort": "Galileo Galilei",
+    "akzeptiert": [
+      "Galilei",
+      "Galileo"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Ein Radfahrer schafft 45 km in 1,5 Stunden. Wie schnell fährt er im Durchschnitt?",
+    "antwort": "30 km/h",
+    "akzeptiert": [
+      "30"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie groß ist der Gesamtwiderstand, wenn 4 Ohm und 6 Ohm in Reihe geschaltet sind?",
+    "antwort": "10 Ω",
+    "akzeptiert": [
+      "10",
+      "10 Ohm"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was spart man mit einem Flaschenzug: Kraft oder Arbeit?",
+    "antwort": "Kraft",
+    "bewertung": "Die Arbeit bleibt gleich (längerer Seilweg)."
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Einheit wird der Luftdruck im Wetterbericht meist angegeben?",
+    "antwort": "Hektopascal",
+    "akzeptiert": [
+      "hPa",
+      "Millibar"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Größe gibt man bei Automotoren in Newtonmeter (Nm) an?",
+    "antwort": "Drehmoment"
+  },
+  {
+    "stufe": 4,
+    "frage": "Ein Fahrzeug beschleunigt gleichmäßig in 5 Sekunden aus dem Stand auf 20 m/s. Wie groß ist seine Beschleunigung?",
+    "antwort": "4 m/s²",
+    "akzeptiert": [
+      "4"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches newtonsche Prinzip erklärt den Rückstoß einer Rakete – kurz „actio = …“?",
+    "antwort": "reactio",
+    "akzeptiert": [
+      "Wechselwirkungsprinzip",
+      "drittes newtonsches Gesetz",
+      "Actio gleich Reactio"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Ein Flugzeug fliegt mit Mach 1. Wie schnell ist es dann?",
+    "antwort": "So schnell wie der Schall",
+    "akzeptiert": [
+      "Schallgeschwindigkeit",
+      "ca. 340 m/s",
+      "ca. 1200 km/h"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele fundamentale Grundkräfte (Wechselwirkungen) kennt die Physik?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ],
+    "bewertung": "Gravitation, Elektromagnetismus, starke und schwache Wechselwirkung."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Teilchen, nach einem britischen Physiker benannt, wurde 2012 am CERN nachgewiesen?",
+    "antwort": "Higgs-Boson",
+    "akzeptiert": [
+      "Higgs-Teilchen",
+      "Higgs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Ein Kran hebt 100 kg in 10 Sekunden 2 m hoch (g ≈ 10 m/s²). Welche Leistung bringt er auf?",
+    "antwort": "200 W",
+    "akzeptiert": [
+      "200",
+      "200 Watt"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Für die Erklärung welches Effekts, bei dem Licht Elektronen aus Metall herauslöst, bekam Einstein den Nobelpreis?",
+    "antwort": "Photoeffekt",
+    "akzeptiert": [
+      "photoelektrischer Effekt",
+      "Fotoeffekt",
+      "lichtelektrischer Effekt"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man den Effekt der Relativitätstheorie, dass für sehr schnell bewegte Objekte die Zeit langsamer vergeht?",
+    "antwort": "Zeitdilatation"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Farbe entsteht auf einem Bildschirm, wenn man rotes und grünes Licht mischt?",
+    "antwort": "Gelb"
   }
 ]

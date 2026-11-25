@@ -1284,5 +1284,295 @@
     "stufe": 5,
     "frage": "Unter welchem Kurznamen ist der Hautpflege-Wirkstoff Centella asiatica (Tigergras) bekannt?",
     "antwort": "Cica"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Haarentfernung, bei der warmes Wachs aufgetragen und mit einem Ruck abgezogen wird?",
+    "antwort": "Waxing",
+    "akzeptiert": [
+      "Wachsen",
+      "Wachsenthaarung",
+      "Wachs"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Laden, in dem man sich Gel- oder Acrylnägel machen lassen kann?",
+    "antwort": "Nagelstudio",
+    "akzeptiert": [
+      "Nail Salon",
+      "Nagelsalon"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt ein Bild, das mit Nadel und Farbe dauerhaft in die Haut gestochen wird?",
+    "antwort": "Tattoo",
+    "akzeptiert": [
+      "Tätowierung",
+      "Tattoos"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt Schmuck, der durch ein gestochenes Loch in Nase, Lippe oder Augenbraue getragen wird?",
+    "antwort": "Piercing",
+    "akzeptiert": [
+      "Piercings"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Bart, der Wangen, Kinn und Oberlippe komplett bedeckt?",
+    "antwort": "Vollbart"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt künstliches Haar, das man sich als Ganzes auf den Kopf setzt?",
+    "antwort": "Perücke",
+    "akzeptiert": [
+      "Perrücke",
+      "Wig",
+      "Haarteil"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Gesichtsmaske aus getränktem Stoff mit Löchern für Augen und Mund?",
+    "antwort": "Tuchmaske",
+    "akzeptiert": [
+      "Sheet Mask",
+      "Sheetmask",
+      "Stoffmaske",
+      "Vliesmaske"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die dünne Haut am Nagelansatz, die man bei der Maniküre zurückschiebt?",
+    "antwort": "Nagelhaut",
+    "akzeptiert": [
+      "Cuticle",
+      "Nagelhäutchen"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welchem zangenartigen Werkzeug biegt man die Wimpern vor dem Tuschen nach oben?",
+    "antwort": "Wimpernzange",
+    "akzeptiert": [
+      "Wimpernformer",
+      "Lash Curler"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Creme, mit der man braun wird, ganz ohne Sonne?",
+    "antwort": "Selbstbräuner",
+    "akzeptiert": [
+      "Selbstbräunungscreme",
+      "Self Tanner",
+      "Bräunungscreme"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die runde, voluminöse Lockenfrisur, die in den 70ern zum Symbol der Black-Power-Bewegung wurde?",
+    "antwort": "Afro",
+    "akzeptiert": [
+      "Afrofrisur",
+      "Afro-Look"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die chemische Behandlung, mit der glatte Haare für Monate lockig werden – in den 80ern total angesagt?",
+    "antwort": "Dauerwelle",
+    "akzeptiert": [
+      "Dauerwellen",
+      "Perm"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Nervengift wird gegen Falten unter die Haut gespritzt?",
+    "antwort": "Botox",
+    "akzeptiert": [
+      "Botulinumtoxin",
+      "Botulinum"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Fett aus den Nüssen eines westafrikanischen Baums steckt in vielen Bodylotions und Lippenbalsamen?",
+    "antwort": "Sheabutter",
+    "akzeptiert": [
+      "Shea-Butter",
+      "Karitébutter",
+      "Shea"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Öl aus den Früchten eines marokkanischen Baums ist als Haaröl besonders beliebt?",
+    "antwort": "Arganöl",
+    "akzeptiert": [
+      "Argan",
+      "Argan-Öl"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen die kleinen durchsichtigen Pflaster, die man über Nacht auf einen Pickel klebt (englisch)?",
+    "antwort": "Pimple Patches",
+    "akzeptiert": [
+      "Pimple Patch",
+      "Pickelpflaster",
+      "Acne Patches",
+      "Hydrokolloidpflaster"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche ägyptische Königin soll der Legende nach für schöne Haut in Eselsmilch gebadet haben?",
+    "antwort": "Kleopatra",
+    "akzeptiert": [
+      "Cleopatra"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Haarschnitt, bei dem der ganze Kopf mit der Maschine auf wenige Millimeter gekürzt wird (englisch)?",
+    "antwort": "Buzz Cut",
+    "akzeptiert": [
+      "Buzzcut",
+      "Stoppelschnitt",
+      "Militärschnitt"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welchem Produkt startete Kylie Jenner 2015 ihre Kosmetikmarke?",
+    "antwort": "Lip Kit",
+    "akzeptiert": [
+      "Lip Kits",
+      "Lippenstift",
+      "Flüssiger Lippenstift",
+      "Liquid Lipstick",
+      "Lipliner und Lippenstift"
+    ],
+    "bewertung": "Alles, was auf Lippenstift-Sets für die Lippen hinausläuft, ist richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Haarentfernung aus Indien und Nahost, bei der Härchen mit einem verdrehten Baumwollfaden ausgezupft werden?",
+    "antwort": "Threading",
+    "akzeptiert": [
+      "Fadentechnik",
+      "Fadenepilation",
+      "Fadenzupfen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der in der Mitte gescheitelte Pony, der zu beiden Seiten fällt wie ein Vorhang (englisch)?",
+    "antwort": "Curtain Bangs",
+    "akzeptiert": [
+      "Curtain Bang",
+      "Vorhangpony",
+      "Curtain Fringe"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Behandlung, bei der die eigenen Wimpern für mehrere Wochen nach oben geschwungen werden?",
+    "antwort": "Lash Lifting",
+    "akzeptiert": [
+      "Lash Lift",
+      "Wimpernlifting",
+      "Wimpernwelle"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Pickel-Wirkstoff wurde ursprünglich aus Weidenrinde gewonnen und ist mit dem Wirkstoff von Aspirin verwandt?",
+    "antwort": "Salicylsäure",
+    "akzeptiert": [
+      "Salizylsäure",
+      "BHA",
+      "Salicylic Acid"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Abschminkwasser mit winzigen Tensid-Kügelchen, die Make-up und Schmutz wie Magnete anziehen?",
+    "antwort": "Mizellenwasser",
+    "akzeptiert": [
+      "Micellar Water",
+      "Mizellen-Wasser",
+      "Mizellarwasser"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was verspricht eine Creme mit dem Hinweis „nicht komedogen“?",
+    "antwort": "Sie verstopft keine Poren",
+    "akzeptiert": [
+      "verstopft keine Poren",
+      "keine Mitesser",
+      "keine Pickel",
+      "keine Unreinheiten"
+    ],
+    "bewertung": "Sinngemäß: verstopft die Poren nicht / verursacht keine Mitesser."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür stehen die Buchstaben der Make-up-Marke MAC?",
+    "antwort": "Make-up Art Cosmetics",
+    "akzeptiert": [
+      "Makeup Art Cosmetics",
+      "Make-Up Art Cosmetics"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit welchem giftigen Schwermetall schminkte sich Königin Elisabeth I. ihr Gesicht kreideweiß?",
+    "antwort": "Blei",
+    "akzeptiert": [
+      "Bleiweiß",
+      "Bleiweiss"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche giftige Pflanze, deren italienischer Name „schöne Frau“ bedeutet, träufelte man sich früher für große Pupillen in die Augen?",
+    "antwort": "Tollkirsche",
+    "akzeptiert": [
+      "Belladonna",
+      "Schwarze Tollkirsche",
+      "Atropa belladonna"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was bedeutet der Markenname „Nivea“ auf Lateinisch?",
+    "antwort": "Schneeweiß",
+    "akzeptiert": [
+      "die Schneeweiße",
+      "schneeweiss",
+      "weiß wie Schnee",
+      "Schnee"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher weiße mineralische UV-Filter, der auch in Wundschutzcreme für Babys steckt, hinterlässt in Sonnencreme oft einen weißen Film?",
+    "antwort": "Zinkoxid",
+    "akzeptiert": [
+      "ZnO",
+      "Zinkweiß",
+      "Titandioxid"
+    ],
+    "bewertung": "Zinkoxid oder Titandioxid zählen."
   }
 ]

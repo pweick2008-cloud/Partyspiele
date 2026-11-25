@@ -1383,5 +1383,267 @@
     "frage": "Dieses Land hat als einziges eine Nationalflagge, die nicht rechteckig ist.",
     "antwort": "Was ist Nepal?",
     "bewertung": "Richtig, wenn als Frage formuliert und Nepal gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Er ruft „D’oh!“ und arbeitet im Atomkraftwerk von Springfield.",
+    "antwort": "Wer ist Homer Simpson?",
+    "akzeptiert": [
+      "Homer Simpson",
+      "Homer"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Homer Simpson gemeint ist. „Homer“ reicht. Bart Simpson: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Diese kleinen blauen Wesen mit weißen Mützen wohnen in Pilzhäusern und werden von Gargamel gejagt.",
+    "antwort": "Wer sind die Schlümpfe?",
+    "akzeptiert": [
+      "Schlümpfe",
+      "Schlumpf"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Schlümpfe gemeint sind („Was sind …“ ebenso). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieses japanische Gericht besteht aus gesäuertem Reis, oft mit rohem Fisch und Seetang.",
+    "antwort": "Was ist Sushi?",
+    "akzeptiert": [
+      "Sushi"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Sushi gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieses Märchenmädchen bringt der Großmutter Kuchen und Wein und trifft im Wald den Wolf.",
+    "antwort": "Wer ist Rotkäppchen?",
+    "akzeptiert": [
+      "Rotkäppchen"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Rotkäppchen gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Dieses Rentier mit der leuchtend roten Nase zieht den Schlitten des Weihnachtsmanns.",
+    "antwort": "Wer ist Rudolph?",
+    "akzeptiert": [
+      "Rudolph",
+      "Rudolf"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Rudolph (das rotnasige Rentier) gemeint ist. Auch „Rudolf“ richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "„UNO!“",
+    "antwort": "Was ruft man beim Kartenspiel UNO, wenn man nur noch eine Karte hat?",
+    "bewertung": "Richtig ist jede Frage, die sinngemäß danach fragt, was man bei UNO bei der vorletzten/letzten Karte ruft. Auch eine Frage nach den Vereinten Nationen (z. B. „Wie lautet die Abkürzung der Vereinten Nationen?“) gilt. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieser dicke Gallier fiel als Baby in den Zaubertrank und trägt Hinkelsteine.",
+    "antwort": "Wer ist Obelix?",
+    "akzeptiert": [
+      "Obelix"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Obelix gemeint ist. Asterix: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieser Meisterdetektiv wohnt in der Londoner Baker Street 221B.",
+    "antwort": "Wer ist Sherlock Holmes?",
+    "akzeptiert": [
+      "Sherlock Holmes",
+      "Sherlock"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Sherlock Holmes gemeint ist. „Sherlock“ oder „Holmes“ reicht. Dr. Watson: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese schwedische Band gewann 1974 den Eurovision Song Contest mit „Waterloo“.",
+    "antwort": "Wer ist ABBA?",
+    "akzeptiert": [
+      "ABBA"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und ABBA gemeint ist („Wer sind ABBA?“ ebenso). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Dieser Beagle aus den „Peanuts“-Comics schläft am liebsten auf dem Dach seiner Hundehütte.",
+    "antwort": "Wer ist Snoopy?",
+    "akzeptiert": [
+      "Snoopy"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Snoopy gemeint ist. Charlie Brown: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "In dieser italienischen Stadt steht ein berühmter schiefer Turm.",
+    "antwort": "Was ist Pisa?",
+    "akzeptiert": [
+      "Pisa"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Pisa gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Diese Disney-Maus mit roter Hose und großen runden Ohren hat eine Freundin namens Minnie.",
+    "antwort": "Wer ist Micky Maus?",
+    "akzeptiert": [
+      "Micky Maus",
+      "Mickey Mouse",
+      "Micky"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Micky Maus gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "„Veni, vidi, vici“ – „Ich kam, ich sah, ich siegte“",
+    "antwort": "Wer ist Julius Caesar?",
+    "bewertung": "Richtig ist jede Frage, die auf Julius Caesar zielt, z. B. „Wer ist Caesar?“ oder „Was sagte Caesar nach seinem schnellen Sieg?“. „Cäsar“ auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Diese rund 5.300 Jahre alte Gletschermumie wurde 1991 in den Ötztaler Alpen gefunden.",
+    "antwort": "Wer ist Ötzi?",
+    "akzeptiert": [
+      "Ötzi"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Ötzi (der Mann aus dem Eis) gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieser Druide braut den Galliern bei Asterix ihren Zaubertrank.",
+    "antwort": "Wer ist Miraculix?",
+    "akzeptiert": [
+      "Miraculix"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Miraculix gemeint ist. „Getafix“ (englischer Name) auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Diesen weißen Wal jagt Kapitän Ahab besessen über die Weltmeere.",
+    "antwort": "Wer ist Moby Dick?",
+    "akzeptiert": [
+      "Moby Dick",
+      "Moby-Dick"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Moby Dick gemeint ist („Was ist …“ ebenso). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Dieser griechische Gott herrscht mit seinem Dreizack über die Meere.",
+    "antwort": "Wer ist Poseidon?",
+    "akzeptiert": [
+      "Poseidon"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Poseidon gemeint ist. Neptun (römischer Name) auch richtig. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "„Ich bin ein Berliner.“ – gesagt 1963 vor dem Rathaus Schöneberg",
+    "antwort": "Wer ist John F. Kennedy?",
+    "bewertung": "Richtig ist jede Frage, die auf John F. Kennedy zielt, z. B. „Wer ist Kennedy?“ oder „Was sagte Kennedy 1963 in Berlin?“. „JFK“ reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "In dieser Stadt in Baden-Württemberg hat das Bundesverfassungsgericht seinen Sitz.",
+    "antwort": "Was ist Karlsruhe?",
+    "akzeptiert": [
+      "Karlsruhe"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Karlsruhe gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Meer trennt Afrika von der Arabischen Halbinsel und ist über den Suezkanal mit dem Mittelmeer verbunden.",
+    "antwort": "Was ist das Rote Meer?",
+    "akzeptiert": [
+      "Rotes Meer"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und das Rote Meer gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieser Fluss fließt mitten durch Paris.",
+    "antwort": "Was ist die Seine?",
+    "akzeptiert": [
+      "Seine"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und die Seine gemeint ist. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Dieses Bundesland ist – ohne die Stadtstaaten – das kleinste Deutschlands.",
+    "antwort": "Was ist das Saarland?",
+    "akzeptiert": [
+      "Saarland"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und das Saarland gemeint ist. Bremen, Hamburg, Berlin: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Diese griechische Göttin der Liebe und Schönheit heißt bei den Römern Venus.",
+    "antwort": "Wer ist Aphrodite?",
+    "akzeptiert": [
+      "Aphrodite"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Aphrodite gemeint ist. Venus: falsch (steht schon in der Aussage). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "So nennt man die krankhafte Angst vor Spinnen.",
+    "antwort": "Was ist Arachnophobie?",
+    "akzeptiert": [
+      "Arachnophobie"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Arachnophobie gemeint ist. Kleine Tippfehler okay. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser griechische Philosoph war Schüler Platons und Lehrer Alexanders des Großen.",
+    "antwort": "Wer ist Aristoteles?",
+    "akzeptiert": [
+      "Aristoteles"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Aristoteles gemeint ist. Sokrates oder Platon: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "„Ich denke, also bin ich.“",
+    "antwort": "Wer ist René Descartes?",
+    "bewertung": "Richtig ist jede Frage, die auf René Descartes zielt, z. B. „Wer ist Descartes?“ oder „Was ist der berühmteste Satz von Descartes?“. Nachname reicht. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "1,618 …",
+    "antwort": "Was ist der Goldene Schnitt?",
+    "bewertung": "Richtig ist jede Frage, die auf den Goldenen Schnitt bzw. die goldene Zahl Phi zielt (z. B. „Was ist Phi?“). Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Diese britische Königin regierte 63 Jahre lang, von 1837 bis 1901, und gab einer ganzen Epoche ihren Namen.",
+    "antwort": "Wer ist Queen Victoria?",
+    "akzeptiert": [
+      "Victoria",
+      "Königin Victoria",
+      "Viktoria"
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Königin Victoria gemeint ist. Elisabeth II.: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "„Houston, wir haben ein Problem.“",
+    "antwort": "Was ist Apollo 13?",
+    "bewertung": "Richtig ist jede Frage, die auf die Mondmission Apollo 13 bzw. ihre Panne zielt (z. B. „Was funkte die Crew von Apollo 13?“). Nur „Apollo“ ohne Nummer: falsch. Ohne Frageform: falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Dieser preußische König, genannt „der Alte Fritz“, spielte Flöte und förderte den Kartoffelanbau.",
+    "antwort": "Wer ist Friedrich der Große?",
+    "akzeptiert": [
+      "Friedrich der Große",
+      "Friedrich II."
+    ],
+    "bewertung": "Richtig, wenn als Frage formuliert und Friedrich der Große (Friedrich II. von Preußen) gemeint ist. Ohne Frageform: falsch."
   }
 ]

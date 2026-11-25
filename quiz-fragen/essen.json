@@ -1366,5 +1366,223 @@
       "Matetee",
       "Yerba Mate"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Schokoladen-Ei mit einem Spielzeug in einer gelben Kapsel?",
+    "antwort": "Überraschungsei",
+    "akzeptiert": [
+      "Ü-Ei",
+      "Kinder Überraschung",
+      "Überraschungs-Ei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Milchprodukt gibt es als Gouda, Emmentaler oder Camembert?",
+    "antwort": "Käse"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das italienische Ofengericht aus Nudelplatten, Hackfleischsoße und Béchamel in Schichten?",
+    "antwort": "Lasagne"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Fast-Food-Gericht aus einem länglichen Brötchen mit Würstchen?",
+    "antwort": "Hotdog",
+    "akzeptiert": [
+      "Hot Dog"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das süße Gebäck mit Loch in der Mitte, das Homer Simpson so liebt?",
+    "antwort": "Donut",
+    "akzeptiert": [
+      "Doughnut"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Obst hält laut Sprichwort den Doktor fern, wenn man es jeden Tag isst?",
+    "antwort": "Apfel"
+  },
+  {
+    "stufe": 2,
+    "frage": "Woraus wird Butter hergestellt?",
+    "antwort": "Sahne",
+    "akzeptiert": [
+      "Rahm",
+      "Milch"
+    ],
+    "bewertung": "Auch ‚Milch‘ gilt als richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der McDonald's-Burger mit paniertem Fischfilet?",
+    "antwort": "Filet-o-Fish",
+    "akzeptiert": [
+      "Fillet-o-Fish",
+      "Filet o Fish"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die österreichische Süßspeise aus zerrupftem Pfannkuchen mit Puderzucker?",
+    "antwort": "Kaiserschmarrn",
+    "akzeptiert": [
+      "Kaiserschmarren"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der hauchdünne französische Pfannkuchen, z. B. mit Nutella?",
+    "antwort": "Crêpe",
+    "akzeptiert": [
+      "Crepe",
+      "Crêpes"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Schnitzel mit Pilz-Rahmsoße?",
+    "antwort": "Jägerschnitzel"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die Maischips, die oft mit Käse überbacken und mit Dips serviert werden?",
+    "antwort": "Nachos",
+    "akzeptiert": [
+      "Tortilla-Chips"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus welchen beiden Hauptzutaten wird Mayonnaise aufgeschlagen?",
+    "antwort": "Eigelb und Öl",
+    "akzeptiert": [
+      "Ei und Öl",
+      "Öl und Eigelb"
+    ],
+    "bewertung": "Ei statt Eigelb gilt auch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Milliliter enthält eine normale Getränkedose in Deutschland meistens?",
+    "antwort": "330",
+    "akzeptiert": [
+      "0,33 Liter",
+      "330 ml"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das französische überbackene Toast-Sandwich mit Schinken und Käse?",
+    "antwort": "Croque Monsieur",
+    "akzeptiert": [
+      "Croque"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bedeutet „aglio“ in „Spaghetti aglio e olio“?",
+    "antwort": "Knoblauch"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Abkürzung steht auf Lebensmitteln für das Datum, bis zu dem sie mindestens gut sind?",
+    "antwort": "MHD",
+    "akzeptiert": [
+      "Mindesthaltbarkeitsdatum"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen die schräg abgeschnittenen Röhrennudeln?",
+    "antwort": "Penne"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der McDonald's-Burger, der in Deutschland „Hamburger Royal“ heißt, im Original in den USA?",
+    "antwort": "Quarter Pounder"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Eis aus drei Schichten Schoko, Vanille und Erdbeere, benannt nach einem Fürsten?",
+    "antwort": "Fürst-Pückler-Eis",
+    "akzeptiert": [
+      "Fürst Pückler",
+      "Pückler-Eis"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das italienische Dessert, bei dem eine Kugel Vanilleeis mit heißem Espresso übergossen wird?",
+    "antwort": "Affogato",
+    "akzeptiert": [
+      "Affogato al caffè"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Eissorte mit Schokostückchen heißt übersetzt ungefähr „kleine Fetzen“?",
+    "antwort": "Stracciatella"
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welcher Abkürzung bezeichnen Amerikaner ihr Sandwich mit Erdnussbutter und Marmelade?",
+    "antwort": "PB&J",
+    "akzeptiert": [
+      "PBJ",
+      "PB and J"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen Pfannkuchen in Österreich?",
+    "antwort": "Palatschinken"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher kleine Fisch steckt in der Worcestershiresauce?",
+    "antwort": "Sardellen",
+    "akzeptiert": [
+      "Sardelle",
+      "Anchovis"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Stoff in Schokolade ist für Hunde giftig?",
+    "antwort": "Theobromin"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der umstrittene britische Brotaufstrich aus Hefeextrakt („Love it or hate it“)?",
+    "antwort": "Marmite"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht der Name „Aldi“?",
+    "antwort": "Albrecht Diskont",
+    "akzeptiert": [
+      "Albrecht-Diskont"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht der Name „Edeka“ ursprünglich?",
+    "antwort": "Einkaufsgenossenschaft der Kolonialwarenhändler",
+    "akzeptiert": [
+      "E. d. K.",
+      "Einkaufsgenossenschaft der Kolonialwarenhändler im Halleschen Torbezirk zu Berlin"
+    ],
+    "bewertung": "Sinngemäß ‚Einkaufsgenossenschaft der Kolonialwarenhändler‘ reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welcher Frucht wurde Grenadine-Sirup ursprünglich hergestellt?",
+    "antwort": "Granatapfel"
   }
 ]

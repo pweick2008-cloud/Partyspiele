@@ -85,5 +85,281 @@
       "Overshoot Day"
     ],
     "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do we call energy that comes from the wind?",
+    "antwort": "wind energy",
+    "akzeptiert": [
+      "wind power"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which material made from oil ends up in the oceans as bottles, bags and straws and harms sea animals?",
+    "antwort": "plastic",
+    "akzeptiert": [
+      "plastics"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do you call a car that runs only on electricity from a battery?",
+    "antwort": "electric car",
+    "akzeptiert": [
+      "e-car",
+      "EV",
+      "electric vehicle"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which vehicle with two wheels and pedals takes you around without any emissions?",
+    "antwort": "bicycle",
+    "akzeptiert": [
+      "bike"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do we call the rise of the Earth's average temperature caused by humans?",
+    "antwort": "global warming",
+    "akzeptiert": [
+      "climate change"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What should you switch off when you leave a room, to save energy?",
+    "antwort": "the light",
+    "akzeptiert": [
+      "lights",
+      "the lights"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Auch elektrische Geräte/Licht sinngemäß ok."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do we call products like paper cups or plastic cutlery that are used only once and then thrown away?",
+    "antwort": "single-use",
+    "akzeptiert": [
+      "disposable",
+      "single-use products",
+      "throwaway"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do we call food that is grown without chemical pesticides and artificial fertilisers?",
+    "antwort": "organic food",
+    "akzeptiert": [
+      "organic"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Das deutsche „Bio“ zählt nicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do we call it when large areas of forest are cut down?",
+    "antwort": "deforestation",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do we call a heap in the garden where food scraps and leaves slowly turn into soil?",
+    "antwort": "compost",
+    "akzeptiert": [
+      "compost heap",
+      "compost pile"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do we call a diet without any animal products at all – no meat, no milk, no eggs?",
+    "antwort": "vegan",
+    "akzeptiert": [
+      "veganism"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do we call buses, trams and trains that everyone can use together?",
+    "antwort": "public transport",
+    "akzeptiert": [
+      "public transportation",
+      "public transit"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which strong greenhouse gas is produced in large amounts by cows when they burp?",
+    "antwort": "methane",
+    "akzeptiert": [
+      "CH4"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which label guarantees that farmers in poorer countries get a fair price, e.g. for coffee or bananas?",
+    "antwort": "Fairtrade",
+    "akzeptiert": [
+      "Fair Trade"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call tiny pieces of plastic smaller than 5 millimetres?",
+    "antwort": "microplastics",
+    "akzeptiert": [
+      "microplastic"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call it when the oceans get higher because ice melts and water gets warmer?",
+    "antwort": "sea level rise",
+    "akzeptiert": [
+      "rising sea levels",
+      "rising sea level"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call electricity that is produced by flowing water, for example at a dam?",
+    "antwort": "hydropower",
+    "akzeptiert": [
+      "hydroelectric power",
+      "hydroelectricity",
+      "water power"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call the effect where gases in the atmosphere trap heat, like the glass of a greenhouse?",
+    "antwort": "greenhouse effect",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call fuels like coal, oil and natural gas that formed from dead plants and animals millions of years ago?",
+    "antwort": "fossil fuels",
+    "akzeptiert": [
+      "fossil fuel"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call fuel made from plants like corn or rapeseed that can replace petrol or diesel?",
+    "antwort": "biofuel",
+    "akzeptiert": [
+      "biofuels",
+      "biodiesel",
+      "bioethanol"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the name of the huge area of floating plastic waste in the Pacific Ocean?",
+    "antwort": "Great Pacific Garbage Patch",
+    "akzeptiert": [
+      "Pacific Garbage Patch",
+      "Garbage Patch"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call it when a company pretends to be more environmentally friendly than it really is?",
+    "antwort": "greenwashing",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call energy that uses the heat from deep inside the Earth?",
+    "antwort": "geothermal energy",
+    "akzeptiert": [
+      "geothermal power",
+      "geothermal"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call it when several people share one car for the same trip to save fuel?",
+    "antwort": "carpooling",
+    "akzeptiert": [
+      "car sharing",
+      "ride sharing",
+      "carsharing"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which 1997 climate treaty is named after a city in Japan?",
+    "antwort": "Kyoto Protocol",
+    "akzeptiert": [
+      "Kyoto"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What do we call an economy in which products are reused, repaired and recycled instead of thrown away?",
+    "antwort": "circular economy",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What do we call the goal of releasing no more greenhouse gases than are removed from the atmosphere?",
+    "antwort": "net zero",
+    "akzeptiert": [
+      "carbon neutrality",
+      "carbon neutral",
+      "climate neutrality"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which chemicals, once used in fridges and spray cans, damaged the ozone layer?",
+    "antwort": "CFCs",
+    "akzeptiert": [
+      "chlorofluorocarbons",
+      "CFC"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Auch das deutsche FCKW ist sinngemäß okay."
+  },
+  {
+    "stufe": 5,
+    "frage": "What do we call paying for projects like tree planting to make up for your own CO2 emissions, e.g. after a flight?",
+    "antwort": "carbon offsetting",
+    "akzeptiert": [
+      "offsetting",
+      "carbon offset",
+      "CO2 offsetting"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What do we call turning old things or waste into new products of higher value, e.g. old jeans into a bag?",
+    "antwort": "upcycling",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
   }
 ]

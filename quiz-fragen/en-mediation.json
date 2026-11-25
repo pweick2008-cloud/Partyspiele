@@ -99,5 +99,318 @@
       "I'm keeping my fingers crossed"
     ],
     "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Translate into English: „Ich bin müde.“",
+    "antwort": "I am tired.",
+    "akzeptiert": [
+      "I'm tired"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Translate into English: „Wie heißt du?“",
+    "antwort": "What's your name?",
+    "akzeptiert": [
+      "What is your name?"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Translate into English: „Ich mag Pizza.“",
+    "antwort": "I like pizza.",
+    "akzeptiert": [
+      "I love pizza"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Translate into English: „Wo wohnst du?“",
+    "antwort": "Where do you live?",
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Translate into English: „Gute Nacht und schlaf gut!“",
+    "antwort": "Good night and sleep well!",
+    "akzeptiert": [
+      "Good night, sleep tight",
+      "Night, sleep well"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Translate into English: „Ich habe einen Bruder.“",
+    "antwort": "I have a brother.",
+    "akzeptiert": [
+      "I've got a brother",
+      "I have got a brother"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Translate into English: „Ich verstehe das nicht.“",
+    "antwort": "I don't understand (that).",
+    "akzeptiert": [
+      "I do not understand",
+      "I don't get it"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Translate into English: „Kannst du das bitte wiederholen?“",
+    "antwort": "Can you repeat that, please?",
+    "akzeptiert": [
+      "Could you say that again, please?",
+      "Can you please repeat that?"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Translate into English: „Was kostet das?“",
+    "antwort": "How much is it?",
+    "akzeptiert": [
+      "How much does it cost?",
+      "How much is this?",
+      "What does it cost?"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Translate into English: „Ich bin 16 Jahre alt.“",
+    "antwort": "I am 16 years old.",
+    "akzeptiert": [
+      "I'm sixteen",
+      "I am 16"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. „I have 16 years“ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Translate into English: „Mir ist kalt.“",
+    "antwort": "I'm cold.",
+    "akzeptiert": [
+      "I am cold",
+      "I feel cold"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. „It is cold to me“ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Translate into English: „Ich habe keine Ahnung.“",
+    "antwort": "I have no idea.",
+    "akzeptiert": [
+      "No idea",
+      "I don't know",
+      "I've got no idea"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Translate into English: „Hast du Lust, ins Kino zu gehen?“",
+    "antwort": "Do you want to go to the cinema?",
+    "akzeptiert": [
+      "Do you fancy going to the cinema?",
+      "Would you like to go to the movies?",
+      "Do you feel like going to the cinema?"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Translate into English: „Das ist mir egal.“",
+    "antwort": "I don't care.",
+    "akzeptiert": [
+      "It doesn't matter to me",
+      "I don't mind",
+      "Whatever"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Translate into English: „Ich habe gestern meinen Schlüssel verloren.“",
+    "antwort": "I lost my key yesterday.",
+    "akzeptiert": [
+      "Yesterday I lost my key",
+      "I lost my keys yesterday"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. Mit „yesterday“ steht Simple Past; „I have lost my key yesterday“ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Translate into English: „Viel Glück bei der Prüfung!“",
+    "antwort": "Good luck in the exam!",
+    "akzeptiert": [
+      "Good luck with your exam!",
+      "Good luck on your test!"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Translate into English: „Es tut mir leid, dass ich zu spät bin.“",
+    "antwort": "I'm sorry I'm late.",
+    "akzeptiert": [
+      "Sorry I'm late",
+      "I am sorry for being late",
+      "Sorry for being late"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "Translate into English: „Ich bekomme ein neues Handy.“",
+    "antwort": "I'm getting a new phone.",
+    "akzeptiert": [
+      "I am getting a new mobile",
+      "I'll get a new phone",
+      "I get a new phone"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. „I become a new phone“ ist falsch (false friend)."
+  },
+  {
+    "stufe": 4,
+    "frage": "Translate into English: „Ich hätte das nicht tun sollen.“",
+    "antwort": "I shouldn't have done that.",
+    "akzeptiert": [
+      "I should not have done that",
+      "I shouldn't have done it"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Translate into English: „Das Buch wurde von vielen Menschen gelesen.“",
+    "antwort": "The book was read by many people.",
+    "akzeptiert": [
+      "The book has been read by many people",
+      "Many people read the book"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Translate into English: „Du musst nicht kommen.“",
+    "antwort": "You don't have to come.",
+    "akzeptiert": [
+      "You do not have to come",
+      "You needn't come",
+      "You don't need to come"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. „You mustn't come“ ist falsch (bedeutet „du darfst nicht kommen“)."
+  },
+  {
+    "stufe": 4,
+    "frage": "Explain in English what this means (not word for word): „Das ist ein Kinderspiel.“",
+    "antwort": "That's a piece of cake.",
+    "akzeptiert": [
+      "That's child's play",
+      "That's easy",
+      "That's very easy",
+      "It's a piece of cake"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Translate into English: „Ich bin fix und fertig.“",
+    "antwort": "I'm exhausted.",
+    "akzeptiert": [
+      "I'm worn out",
+      "I'm totally tired",
+      "I'm completely exhausted",
+      "I'm knackered",
+      "I'm done"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Translate into English: „Du gehst mir auf die Nerven.“",
+    "antwort": "You're getting on my nerves.",
+    "akzeptiert": [
+      "You get on my nerves",
+      "You're annoying me",
+      "You're annoying"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Explain in English what this means (not word for word): „Ich verstehe nur Bahnhof.“",
+    "antwort": "It's all Greek to me.",
+    "akzeptiert": [
+      "I don't understand anything",
+      "I don't understand a thing",
+      "I have no idea what you're talking about"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Explain in English what this means (not word for word): „Da habe ich Schwein gehabt.“",
+    "antwort": "I was lucky.",
+    "akzeptiert": [
+      "I got lucky",
+      "I was really lucky",
+      "That was lucky",
+      "Lucky me"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Explain in English what this means (not word for word): „Das kommt nicht in die Tüte!“",
+    "antwort": "No way!",
+    "akzeptiert": [
+      "Out of the question",
+      "That's out of the question",
+      "Absolutely not"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Translate into English (as people really say it): „Ich bin ganz Ohr.“",
+    "antwort": "I'm all ears.",
+    "akzeptiert": [
+      "I am all ears",
+      "I'm listening",
+      "I'm listening carefully"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. „I am completely ear“ ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Translate into English: „Ich bin es gewohnt, früh aufzustehen.“",
+    "antwort": "I'm used to getting up early.",
+    "akzeptiert": [
+      "I am used to getting up early",
+      "I'm used to waking up early"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. „I used to get up early“ ist falsch (bedeutet „früher stand ich früh auf“)."
+  },
+  {
+    "stufe": 5,
+    "frage": "Translate into English: „Ich lasse mir die Haare schneiden.“",
+    "antwort": "I'm having my hair cut.",
+    "akzeptiert": [
+      "I'm getting my hair cut",
+      "I have my hair cut",
+      "I get my hair cut",
+      "I'm getting a haircut"
+    ],
+    "bewertung": "Mediation: Es zählt eine sinngemäß richtige englische Übersetzung, nicht wörtlich. Kleine Grammatikfehler sind okay, eine deutsche Antwort ist falsch. „I let my hair cut“ ist falsch."
   }
 ]

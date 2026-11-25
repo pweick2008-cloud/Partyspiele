@@ -91,5 +91,268 @@
     "frage": "What is the name of the group of people who formally elect the US President?",
     "antwort": "Electoral College",
     "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do we call a system of government in which the people choose their leaders in free elections?",
+    "antwort": "democracy",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What does 'UK' stand for?",
+    "antwort": "United Kingdom",
+    "akzeptiert": [
+      "the United Kingdom"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What does 'UN' stand for?",
+    "antwort": "United Nations",
+    "akzeptiert": [
+      "the United Nations"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What does 'USA' stand for?",
+    "antwort": "United States of America",
+    "akzeptiert": [
+      "the United States of America"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do we call the vote in which citizens choose their politicians?",
+    "antwort": "election",
+    "akzeptiert": [
+      "elections",
+      "general election"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the name of the plane that carries the US President?",
+    "antwort": "Air Force One",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "In which London building does the British Parliament meet?",
+    "antwort": "Houses of Parliament",
+    "akzeptiert": [
+      "Palace of Westminster",
+      "Westminster",
+      "Parliament"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the wife of the US President usually called?",
+    "antwort": "First Lady",
+    "akzeptiert": [
+      "the First Lady"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "From what age can people vote in UK general elections and US presidential elections?",
+    "antwort": "18",
+    "akzeptiert": [
+      "eighteen"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "In British politics, what does 'MP' stand for?",
+    "antwort": "Member of Parliament",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the name of the oval-shaped room where the US President works?",
+    "antwort": "Oval Office",
+    "akzeptiert": [
+      "the Oval Office"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Who is the head of state of the USA?",
+    "antwort": "the President",
+    "akzeptiert": [
+      "President",
+      "the US President"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Gemeint ist das Amt; ein konkreter Name ist nicht gefragt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which animal is the symbol of the US Republican Party?",
+    "antwort": "elephant",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What are the two biggest political parties in the UK?",
+    "antwort": "Labour and the Conservatives",
+    "akzeptiert": [
+      "Conservatives and Labour",
+      "Labour and Conservative",
+      "Tories and Labour"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Beide müssen genannt sein; „Tories“ zählt für die Conservatives."
+  },
+  {
+    "stufe": 3,
+    "frage": "In which US city are the headquarters of the United Nations?",
+    "antwort": "New York",
+    "akzeptiert": [
+      "New York City",
+      "NYC"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the name of the building in Washington, D.C. where the US Congress meets?",
+    "antwort": "the Capitol",
+    "akzeptiert": [
+      "Capitol",
+      "Capitol Building",
+      "United States Capitol"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „Capital“ als Tippfehler ist okay."
+  },
+  {
+    "stufe": 3,
+    "frage": "Who takes over if the US President dies or cannot do the job?",
+    "antwort": "the Vice President",
+    "akzeptiert": [
+      "Vice President",
+      "VP"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Gemeint ist das Amt; ein konkreter Name ist nicht gefragt."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the nickname of the British Conservative Party?",
+    "antwort": "Tories",
+    "akzeptiert": [
+      "the Tories",
+      "Tory Party"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which important US document begins with the words 'We the People'?",
+    "antwort": "Constitution",
+    "akzeptiert": [
+      "the US Constitution",
+      "the Constitution"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „Declaration of Independence“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call the group of the most important ministers in the British or US government?",
+    "antwort": "Cabinet",
+    "akzeptiert": [
+      "the Cabinet"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What do we call the US President's right to reject a law passed by Congress?",
+    "antwort": "veto",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the title of the person who leads debates in the House of Commons and shouts 'Order!'?",
+    "antwort": "Speaker",
+    "akzeptiert": [
+      "the Speaker",
+      "Speaker of the House"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "How old must a person be at least to become President of the USA?",
+    "antwort": "35",
+    "akzeptiert": [
+      "thirty-five",
+      "thirty five"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What are the first ten amendments to the US Constitution called?",
+    "antwort": "Bill of Rights",
+    "akzeptiert": [
+      "the Bill of Rights"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the name of the yearly speech in which the US President speaks to Congress about the country?",
+    "antwort": "State of the Union",
+    "akzeptiert": [
+      "State of the Union Address"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What do we call the US elections that take place in the middle of a President's four-year term?",
+    "antwort": "midterms",
+    "akzeptiert": [
+      "midterm elections",
+      "midterm election"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the name of the British voting system in which only the candidate with the most votes in each constituency wins?",
+    "antwort": "first past the post",
+    "akzeptiert": [
+      "first-past-the-post",
+      "FPTP"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „majority vote“ allein ist zu ungenau."
+  },
+  {
+    "stufe": 5,
+    "frage": "How many judges sit on the US Supreme Court?",
+    "antwort": "9",
+    "akzeptiert": [
+      "nine"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What do we call a US state where Democrats and Republicans have about the same support, so it can decide the election?",
+    "antwort": "swing state",
+    "akzeptiert": [
+      "battleground state",
+      "purple state"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
   }
 ]

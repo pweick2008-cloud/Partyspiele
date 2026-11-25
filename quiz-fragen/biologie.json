@@ -1224,5 +1224,235 @@
     "akzeptiert": [
       "Parthenogenese"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man das kleine Korn, aus dem eine neue Pflanze wächst, wenn man es in die Erde steckt?",
+    "antwort": "Samen",
+    "akzeptiert": [
+      "Saatkorn",
+      "Same",
+      "Kern"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was werfen Laubbäume im Herbst ab?",
+    "antwort": "Ihre Blätter",
+    "akzeptiert": [
+      "Blätter",
+      "Laub"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher meist grüne, flache Pflanzenteil fängt das Sonnenlicht für die Fotosynthese ein?",
+    "antwort": "Blatt",
+    "akzeptiert": [
+      "Blätter",
+      "Laubblatt"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man eine genetisch identische Kopie eines Lebewesens?",
+    "antwort": "Klon"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man umgangssprachlich Wildpflanzen, die im Garten oder auf dem Feld unerwünscht wachsen?",
+    "antwort": "Unkraut",
+    "akzeptiert": [
+      "Beikraut"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche süße Flüssigkeit sammeln Bienen aus Blüten, um daraus Honig zu machen?",
+    "antwort": "Nektar"
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welchem Teil einer Pflanze entwickelt sich die Frucht?",
+    "antwort": "Aus der Blüte",
+    "akzeptiert": [
+      "Blüte",
+      "Fruchtknoten"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Wissenschaft von den Tieren?",
+    "antwort": "Zoologie"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher riesige Regenwald in Südamerika wird oft „grüne Lunge der Erde“ genannt?",
+    "antwort": "Amazonas-Regenwald",
+    "akzeptiert": [
+      "Amazonas",
+      "Amazonien",
+      "Amazonasbecken"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man Gräser wie Weizen, Roggen und Hafer, deren Körner wir essen?",
+    "antwort": "Getreide"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man in der Biologie eine Gruppe von Lebewesen, die sich miteinander fortpflanzen und fruchtbare Nachkommen bekommen können?",
+    "antwort": "Art",
+    "akzeptiert": [
+      "Spezies"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die dünne Hülle, die jede Zelle umgibt und bestimmt, was hinein- und hinausgelangt?",
+    "antwort": "Zellmembran",
+    "akzeptiert": [
+      "Membran",
+      "Plasmamembran"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Der Zweig welches Baumes ist auf den deutschen 1-, 2- und 5-Cent-Münzen abgebildet?",
+    "antwort": "Eiche",
+    "akzeptiert": [
+      "Eichenzweig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele verschiedene Basen (Buchstaben) gibt es in der DNA?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die flache, runde Glas- oder Kunststoffschale, in der man Bakterienkulturen züchtet?",
+    "antwort": "Petrischale"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen die männlichen Teile einer Blüte, die den Pollen bilden?",
+    "antwort": "Staubblätter",
+    "akzeptiert": [
+      "Staubgefäße",
+      "Staubbeutel"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißen Zellen, aus denen sich noch ganz verschiedene spezialisierte Zelltypen entwickeln können?",
+    "antwort": "Stammzellen"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Fachbegriff für das Erbgut eines Lebewesens, also die Gesamtheit seiner Gene?",
+    "antwort": "Genom"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welchen Pflanzenteil essen wir beim Spargel botanisch gesehen?",
+    "antwort": "Spross",
+    "akzeptiert": [
+      "Sprossachse",
+      "Trieb",
+      "junge Triebe",
+      "Stängel"
+    ],
+    "bewertung": "Gemeint sind die jungen Sprosse/Triebe; „Wurzel“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man die Verdunstung von Wasser über die Blätter einer Pflanze?",
+    "antwort": "Transpiration"
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Stoff bestehen die Zellwände von Pflanzen hauptsächlich – auch Papier und Baumwolle sind daraus?",
+    "antwort": "Cellulose",
+    "akzeptiert": [
+      "Zellulose"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches kleine Insekt, das gern um reifes Obst schwirrt, ist das berühmteste Versuchstier der Genetik?",
+    "antwort": "Fruchtfliege",
+    "akzeptiert": [
+      "Drosophila",
+      "Taufliege",
+      "Essigfliege",
+      "Obstfliege"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man den Lebensraum einer bestimmten Lebensgemeinschaft, z. B. einen Tümpel oder eine Hecke, mit Fachbegriff?",
+    "antwort": "Biotop",
+    "akzeptiert": [
+      "Habitat"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das weibliche Organ in der Mitte einer Blüte, bestehend aus Narbe, Griffel und Fruchtknoten?",
+    "antwort": "Stempel",
+    "akzeptiert": [
+      "Fruchtblatt",
+      "Pistill"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man Tierarten wie den Waschbären, die vom Menschen eingeschleppt wurden und sich in Deutschland neu angesiedelt haben?",
+    "antwort": "Neozoen",
+    "akzeptiert": [
+      "invasive Arten",
+      "Neobiota",
+      "gebietsfremde Arten"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Vorgang, bei dem Wasser durch eine halbdurchlässige Membran zur höheren Salz- oder Zuckerkonzentration wandert?",
+    "antwort": "Osmose"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man das äußere Erscheinungsbild eines Lebewesens im Gegensatz zu seinem Genotyp?",
+    "antwort": "Phänotyp"
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welchem Stoff bestehen der Panzer von Insekten und die Zellwände von Pilzen?",
+    "antwort": "Chitin"
+  },
+  {
+    "stufe": 5,
+    "frage": "Zu welcher Pflanzenfamilie gehören Mais, Zuckerrohr und sogar der Bambus?",
+    "antwort": "Süßgräser",
+    "akzeptiert": [
+      "Gräser",
+      "Poaceae"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Farbstoffe färben Karotten orange und Herbstlaub gelb, sobald das Chlorophyll abgebaut ist?",
+    "antwort": "Carotinoide",
+    "akzeptiert": [
+      "Karotinoide",
+      "Carotin",
+      "Karotin",
+      "Beta-Carotin"
+    ]
   }
 ]

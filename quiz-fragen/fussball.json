@@ -1183,5 +1183,253 @@
       "Schalke",
       "Schalke 04"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie wird der Ball wieder ins Spiel gebracht, nachdem er über die Seitenlinie ins Aus gegangen ist?",
+    "antwort": "Einwurf"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Rückennummer trägt traditionell der Stammtorwart einer Mannschaft?",
+    "antwort": "1",
+    "akzeptiert": [
+      "eins"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Alle wie viele Jahre findet eine Fußball-Weltmeisterschaft der Männer statt?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier",
+      "alle vier Jahre"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe hat das Heimtrikot der deutschen Nationalmannschaft traditionell?",
+    "antwort": "Weiß",
+    "bewertung": "Weiß (mit schwarzen Akzenten) zählt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der deutsche Pokalwettbewerb, in dem auch Amateurvereine gegen Bundesligisten antreten?",
+    "antwort": "DFB-Pokal",
+    "akzeptiert": [
+      "Pokal",
+      "DFB Pokal"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was bekommt eine Mannschaft, wenn ihr Spieler außerhalb des Strafraums gefoult wird?",
+    "antwort": "Freistoß",
+    "akzeptiert": [
+      "Freistoss"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie lautet die Abkürzung des Europäischen Fußballverbands, der die Champions League und die EM ausrichtet?",
+    "antwort": "UEFA"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Spieler darf eine Mannschaft in einem regulären Spiel (ohne Verlängerung) nach heutigen Regeln auswechseln?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die höchste spanische Fußball-Liga?",
+    "antwort": "La Liga",
+    "akzeptiert": [
+      "Primera División",
+      "LaLiga"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher deutsche Mittelfeldspieler beendete nach der Heim-EM 2024 seine Karriere?",
+    "antwort": "Toni Kroos",
+    "akzeptiert": [
+      "Kroos"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man das Spitzenspiel zwischen dem FC Bayern und Borussia Dortmund?",
+    "antwort": "Der Klassiker",
+    "akzeptiert": [
+      "Klassiker",
+      "Deutscher Clásico"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher ehemalige Nationalspieler und Weltmeister von 2014 trägt den Spitznamen „Schweini“?",
+    "antwort": "Bastian Schweinsteiger",
+    "akzeptiert": [
+      "Schweinsteiger"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Londoner Verein trägt den Spitznamen „The Gunners“?",
+    "antwort": "FC Arsenal",
+    "akzeptiert": [
+      "Arsenal",
+      "Arsenal London"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche drei Länder richten gemeinsam die Fußball-WM 2026 aus? Nenne eins.",
+    "antwort": "USA, Kanada oder Mexiko",
+    "akzeptiert": [
+      "USA",
+      "Kanada",
+      "Mexiko",
+      "Vereinigte Staaten"
+    ],
+    "bewertung": "Eines der drei Länder reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man die riesige Stehplatztribüne im Dortmunder Stadion?",
+    "antwort": "Gelbe Wand",
+    "akzeptiert": [
+      "Südtribüne",
+      "Die Gelbe Wand"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Verein ist italienischer Rekordmeister?",
+    "antwort": "Juventus Turin",
+    "akzeptiert": [
+      "Juventus",
+      "Juve"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Trophäe, die der beste Torschütze einer Bundesliga-Saison vom Kicker bekommt?",
+    "antwort": "Torjägerkanone",
+    "akzeptiert": [
+      "Kanone"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Trophäe, die der Deutsche Meister in der Bundesliga überreicht bekommt?",
+    "antwort": "Meisterschale",
+    "akzeptiert": [
+      "Schale",
+      "Salatschüssel"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher deutsche Verein gewann 2022 im Finale gegen die Glasgow Rangers die Europa League?",
+    "antwort": "Eintracht Frankfurt",
+    "akzeptiert": [
+      "Frankfurt"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land wurde 2023 Fußball-Weltmeister der Frauen?",
+    "antwort": "Spanien"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Stadt spielen die Erzrivalen Celtic und Rangers („Old Firm“)?",
+    "antwort": "Glasgow"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Spieler muss eine Mannschaft mindestens auf dem Platz haben, damit das Spiel nicht abgebrochen wird?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche beiden Länder richteten gemeinsam die Fußball-WM 2002 aus? Nenne eins.",
+    "antwort": "Japan oder Südkorea",
+    "akzeptiert": [
+      "Japan",
+      "Südkorea",
+      "Korea"
+    ],
+    "bewertung": "Eines der beiden Länder reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der englische Pokalwettbewerb, der als ältester Fußballwettbewerb der Welt gilt?",
+    "antwort": "FA Cup",
+    "akzeptiert": [
+      "FA-Cup"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Drittligist erreichte 2025 das DFB-Pokalfinale und verlor dort gegen den VfB Stuttgart?",
+    "antwort": "Arminia Bielefeld",
+    "akzeptiert": [
+      "Bielefeld"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Eintracht-Frankfurt-Spieler hält mit 602 Einsätzen den Rekord für die meisten Bundesligaspiele?",
+    "antwort": "Charly Körbel",
+    "akzeptiert": [
+      "Karl-Heinz Körbel",
+      "Körbel"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer schoss im Champions-League-Finale 2013 in Wembley das Siegtor zum 2:1 für Bayern gegen Dortmund?",
+    "antwort": "Arjen Robben",
+    "akzeptiert": [
+      "Robben"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Verein wurde 1998 als Aufsteiger direkt Deutscher Meister?",
+    "antwort": "1. FC Kaiserslautern",
+    "akzeptiert": [
+      "Kaiserslautern",
+      "FCK"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Gegen welches Land gewann Deutschland 1974 im Münchner Olympiastadion das WM-Finale?",
+    "antwort": "Niederlande",
+    "akzeptiert": [
+      "Holland"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Stadion von Manchester City?",
+    "antwort": "Etihad Stadium",
+    "akzeptiert": [
+      "Etihad",
+      "City of Manchester Stadium"
+    ]
   }
 ]

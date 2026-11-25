@@ -1227,5 +1227,278 @@
     "akzeptiert": [
       "Schiffer"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen die Winterhandschuhe, bei denen nur der Daumen ein eigenes Fach hat?",
+    "antwort": "Fäustlinge",
+    "akzeptiert": [
+      "Fäustling",
+      "Fausthandschuhe",
+      "Fausthandschuh",
+      "Fäustel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die eng anliegende Strickmütze ohne Schirm, die man auch im Sommer trägt (englisch)?",
+    "antwort": "Beanie",
+    "akzeptiert": [
+      "Beanies",
+      "Strickmütze"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Raubtiermuster mit schwarzen Flecken auf goldgelbem Grund ist in der Mode ein Dauerbrenner?",
+    "antwort": "Leopardenmuster",
+    "akzeptiert": [
+      "Leopard",
+      "Leo-Print",
+      "Leoprint",
+      "Leo",
+      "Animal Print",
+      "Leomuster"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Fanartikel wie Shirts und Hoodies von Bands oder YouTubern kurz?",
+    "antwort": "Merch",
+    "akzeptiert": [
+      "Merchandise",
+      "Fanartikel"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was müssen Schülerinnen und Schüler in Großbritannien fast immer tragen, in Deutschland aber meist nicht?",
+    "antwort": "Schuluniform",
+    "akzeptiert": [
+      "Uniform",
+      "Schuluniformen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der riesige Hut mit breiter Krempe, den man als Klischee aus Mexiko kennt?",
+    "antwort": "Sombrero"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt ein ärmelloser Pullover, den man über Hemd oder Bluse trägt?",
+    "antwort": "Pullunder",
+    "akzeptiert": [
+      "Sweater Vest",
+      "Strickweste"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man es, wenn zwei Menschen, zum Beispiel ein Paar, absichtlich die gleichen Outfits tragen?",
+    "antwort": "Partnerlook",
+    "akzeptiert": [
+      "Partner-Look",
+      "Matching Outfits",
+      "Twinning"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen knielange Shorts, die nach einer Inselgruppe im Atlantik benannt sind?",
+    "antwort": "Bermudas",
+    "akzeptiert": [
+      "Bermudashorts",
+      "Bermuda-Shorts",
+      "Bermuda"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welchen hohen, schwarzen Hut tragen Abraham Lincoln und der Zauberer, der ein Kaninchen herauszieht?",
+    "antwort": "Zylinder",
+    "akzeptiert": [
+      "Zylinderhut",
+      "Top Hat"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Jahrzehnt waren Schlaghosen, Plateauschuhe und Disco-Glitzer der große Trend?",
+    "antwort": "70er",
+    "akzeptiert": [
+      "1970er",
+      "70er-Jahre",
+      "1970er-Jahre",
+      "Siebziger"
+    ],
+    "bewertung": "Die 1970er-Jahre sind gemeint."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das locker sitzende Kurzarmhemd mit bunten Blumen- und Palmenmustern, benannt nach einem US-Bundesstaat?",
+    "antwort": "Hawaiihemd",
+    "akzeptiert": [
+      "Hawaii-Hemd",
+      "Aloha-Hemd",
+      "Aloha Shirt",
+      "Hawaiian Shirt"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Kleidungsstück ist nach einem Pazifik-Atoll benannt, auf dem die USA 1946 Atombomben testeten?",
+    "antwort": "Bikini"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Modedesigner sagte, wer Jogginghosen trägt, habe „die Kontrolle über sein Leben verloren“?",
+    "antwort": "Karl Lagerfeld",
+    "akzeptiert": [
+      "Lagerfeld"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Farbe hatte das Kleid, das Marilyn Monroe in der berühmten Filmszene über einem U-Bahn-Lüftungsschacht hochwehte?",
+    "antwort": "Weiß",
+    "akzeptiert": [
+      "weiss",
+      "cremeweiß",
+      "elfenbein"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Nike-Sneakerreihe, bei der man seit 1987 das Luftpolster in der Sohle durch ein Fenster sieht?",
+    "antwort": "Air Max",
+    "akzeptiert": [
+      "Nike Air Max",
+      "Air Max 1",
+      "AirMax"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die knallgelbe Regenjacke, die man von der Nordseeküste kennt – scherzhaft nach den Bewohnern dort benannt?",
+    "antwort": "Friesennerz",
+    "akzeptiert": [
+      "Friesen-Nerz"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches britische Modehaus ist für Trenchcoats und sein beige-schwarz-rotes Karomuster berühmt?",
+    "antwort": "Burberry"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Farbe haben Dorothys glitzernde Zauberschuhe im Filmklassiker „Der Zauberer von Oz“ von 1939?",
+    "antwort": "Rot",
+    "akzeptiert": [
+      "rubinrot",
+      "Rubin"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Unter welchem Spitznamen, der „Zweiglein“ bedeutet, wurde das superschlanke britische Model der 1960er berühmt?",
+    "antwort": "Twiggy"
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem raschelnden Stoff waren die knallbunten Trainingsanzüge der 80er und 90er – benannt nach einem Fluggerät?",
+    "antwort": "Ballonseide",
+    "akzeptiert": [
+      "Ballon-Seide",
+      "Fallschirmseide",
+      "Nylon"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welchem Material sind die „Blue … Shoes“ im Rock-’n’-Roll-Klassiker, den Elvis Presley berühmt machte?",
+    "antwort": "Wildleder",
+    "akzeptiert": [
+      "Suede",
+      "Velours",
+      "Veloursleder"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der klassische Herren-Schnürschuh zum Anzug, benannt nach einer englischen Universitätsstadt?",
+    "antwort": "Oxford",
+    "akzeptiert": [
+      "Oxfords",
+      "Oxford-Schuh",
+      "Oxfordschuh"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die leichten Stoffschuhe mit Sohle aus geflochtenem Pflanzenseil, die aus Spanien und Südfrankreich stammen?",
+    "antwort": "Espadrilles",
+    "akzeptiert": [
+      "Espadrille",
+      "Alpargatas"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der spanische Gründer von Zara, einer der reichsten Menschen der Welt?",
+    "antwort": "Amancio Ortega",
+    "akzeptiert": [
+      "Ortega"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür stehen die Buchstaben C und A im Namen der Modekette C&A?",
+    "antwort": "Clemens und August",
+    "akzeptiert": [
+      "Clemens & August",
+      "Clemens und August Brenninkmeyer"
+    ],
+    "bewertung": "Beide Vornamen der Gründerbrüder müssen genannt werden."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Marke stellte die riesigen Plateau-Sneaker her, mit denen die Spice Girls in den 90ern Kult wurden?",
+    "antwort": "Buffalo",
+    "akzeptiert": [
+      "Buffalo London",
+      "Buffalos"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die karierte Jagdmütze mit Schirm vorn und hinten, die man von Sherlock Holmes kennt?",
+    "antwort": "Deerstalker",
+    "akzeptiert": [
+      "Deerstalker-Mütze",
+      "Jagdmütze",
+      "Pirschmütze"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nannte man die jungen Frauen der 1920er mit Bubikopf, Fransenkleid und Charleston – bekannt aus „Der große Gatsby“?",
+    "antwort": "Flapper",
+    "akzeptiert": [
+      "Flappers",
+      "Flapper Girls"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Wollmantel mit Kapuze und länglichen Knebelknöpfen, den Paddington Bär trägt?",
+    "antwort": "Dufflecoat",
+    "akzeptiert": [
+      "Duffle Coat",
+      "Duffelcoat"
+    ]
   }
 ]

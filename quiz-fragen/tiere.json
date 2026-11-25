@@ -1183,5 +1183,217 @@
       "Kängurus",
       "Rotes Riesenkänguru"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Haustier schnurrt, wenn es sich wohlfühlt?",
+    "antwort": "Katze",
+    "akzeptiert": [
+      "Hauskatze"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier mit buschigem Schwanz vergräbt im Herbst Nüsse als Wintervorrat?",
+    "antwort": "Eichhörnchen",
+    "akzeptiert": [
+      "Eichhörnchen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches gelb-schwarz gestreifte Insekt nervt im Sommer am Kuchen und kann mehrmals stechen?",
+    "antwort": "Wespe"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche gefleckte Hunderasse spielt die Hauptrolle im Film „101 …“?",
+    "antwort": "Dalmatiner"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Tier baut ein klebriges Netz, um Insekten zu fangen?",
+    "antwort": "Spinne"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches kleine Nagetier stopft sich Futter in seine Backentaschen?",
+    "antwort": "Hamster"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man ein junges Schwein?",
+    "antwort": "Ferkel"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Meerestier stößt bei Gefahr eine Wolke aus Tinte aus?",
+    "antwort": "Tintenfisch",
+    "akzeptiert": [
+      "Oktopus",
+      "Krake",
+      "Kalmar",
+      "Sepia"
+    ],
+    "bewertung": "Auch Krake, Oktopus, Kalmar oder Sepia sind richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Reptil kann bei Gefahr seinen Schwanz abwerfen, der dann nachwächst?",
+    "antwort": "Eidechse",
+    "bewertung": "Auch konkrete Eidechsen (z. B. Gecko, Zauneidechse) gelten."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Arme hat ein Oktopus?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Bei welchen Meeresräubern wachsen ausgefallene Zähne aus mehreren Reihen ein Leben lang nach?",
+    "antwort": "Haie",
+    "akzeptiert": [
+      "Hai"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Tier wird wegen seiner Ausdauer in der Wüste „Wüstenschiff“ genannt?",
+    "antwort": "Kamel",
+    "akzeptiert": [
+      "Dromedar",
+      "Trampeltier"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Kopfschmuck des Hirsches, den er jedes Jahr abwirft und neu bildet?",
+    "antwort": "Geweih"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Hunderasse gehört die berühmte Filmhündin Lassie an?",
+    "antwort": "Collie",
+    "akzeptiert": [
+      "Langhaarcollie",
+      "Rough Collie"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Flügel hat eine Honigbiene?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher große Vogel fängt Fische mit dem riesigen Kehlsack an seinem Schnabel?",
+    "antwort": "Pelikan"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche ist die größte Raubkatze Amerikas?",
+    "antwort": "Jaguar"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Giftschlange warnt mit einem Geräusch am Schwanzende?",
+    "antwort": "Klapperschlange"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Farbe haben die Haare eines Eisbären eigentlich?",
+    "antwort": "Farblos",
+    "akzeptiert": [
+      "durchsichtig",
+      "transparent"
+    ],
+    "bewertung": "Sinngemäß ‚farblos/durchsichtig‘ ist richtig, ‚weiß‘ nicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Zehen hat ein Strauß an jedem Fuß?",
+    "antwort": "2",
+    "akzeptiert": [
+      "zwei"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches beliebte Haustier stammt aus den Anden und wurde schon von den Inka gegessen?",
+    "antwort": "Meerschweinchen"
+  },
+  {
+    "stufe": 4,
+    "frage": "Bei welchem Insekt frisst das Weibchen das Männchen manchmal nach der Paarung – benannt nach der Haltung seiner Fangbeine?",
+    "antwort": "Gottesanbeterin"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man einen Leoparden oder Jaguar mit komplett schwarzem Fell?",
+    "antwort": "Schwarzer Panther",
+    "akzeptiert": [
+      "Panther"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Fischgruppe – z. B. Scholle oder Flunder – hat beide Augen auf einer Körperseite?",
+    "antwort": "Plattfische",
+    "akzeptiert": [
+      "Plattfisch",
+      "Scholle",
+      "Flunder"
+    ],
+    "bewertung": "Auch konkrete Arten wie Scholle, Flunder, Seezunge oder Steinbutt gelten."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der kleine Wüstenfuchs der Sahara mit riesigen Ohren?",
+    "antwort": "Fennek",
+    "akzeptiert": [
+      "Wüstenfuchs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit welchem Körperteil schmecken Schmetterlinge?",
+    "antwort": "Füße",
+    "akzeptiert": [
+      "Beine",
+      "mit den Füßen"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Menschenaffe trägt einen malaiischen Namen, der übersetzt „Waldmensch“ bedeutet?",
+    "antwort": "Orang-Utan",
+    "akzeptiert": [
+      "Orang Utan"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das ausgestorbene Wildrind, von dem unsere Hausrinder abstammen?",
+    "antwort": "Auerochse",
+    "akzeptiert": [
+      "Ur",
+      "Auerochs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Auf welcher Insel im Indischen Ozean lebte der ausgestorbene Vogel Dodo?",
+    "antwort": "Mauritius"
+  },
+  {
+    "stufe": 5,
+    "frage": "Woraus besteht das Skelett eines Hais – nicht aus Knochen, sondern aus …?",
+    "antwort": "Knorpel"
   }
 ]

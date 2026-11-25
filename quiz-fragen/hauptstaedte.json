@@ -1402,5 +1402,176 @@
     "stufe": 5,
     "frage": "Welche ist die südlichste Hauptstadt eines unabhängigen Staates?",
     "antwort": "Wellington"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Hauptstadt steht der Buckingham Palace?",
+    "antwort": "London"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welcher Hauptstadt fanden 2024 die Olympischen Sommerspiele statt?",
+    "antwort": "Paris"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist die Hauptstadt des Bundeslandes Hamburg?",
+    "antwort": "Hamburg"
+  },
+  {
+    "stufe": 1,
+    "frage": "Von welchem Land ist Athen die Hauptstadt?",
+    "antwort": "Griechenland"
+  },
+  {
+    "stufe": 1,
+    "frage": "Von welchem Land ist Kopenhagen die Hauptstadt?",
+    "antwort": "Dänemark"
+  },
+  {
+    "stufe": 1,
+    "frage": "Von welchem Land ist Peking die Hauptstadt?",
+    "antwort": "China"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Hauptstadt hat die EU-Kommission ihren Sitz?",
+    "antwort": "Brüssel"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Hauptstadt fanden 2012 die Olympischen Sommerspiele statt?",
+    "antwort": "London"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Hauptstadt wurde das Finale der Fußball-EM 2024 gespielt?",
+    "antwort": "Berlin"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Hauptstadt liegt das Viertel Shibuya mit der berühmten riesigen Fußgängerkreuzung?",
+    "antwort": "Tokio",
+    "akzeptiert": [
+      "Tokyo"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Von welchem Land ist Seoul die Hauptstadt?",
+    "antwort": "Südkorea",
+    "akzeptiert": [
+      "Korea"
+    ],
+    "bewertung": "‚Korea‘ allein gelten lassen, ‚Nordkorea‘ ist falsch."
+  },
+  {
+    "stufe": 2,
+    "frage": "Von welchem Land ist Havanna die Hauptstadt?",
+    "antwort": "Kuba"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Libyen?",
+    "antwort": "Tripolis"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist die Hauptstadt von Taiwan?",
+    "antwort": "Taipeh",
+    "akzeptiert": [
+      "Taipei"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Hauptstadt wird „die Goldene Stadt“ genannt?",
+    "antwort": "Prag"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Hauptstadt werden die Nobelpreise verliehen – alle außer dem Friedensnobelpreis?",
+    "antwort": "Stockholm"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Hauptstadt liegt an der Moskwa?",
+    "antwort": "Moskau"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Hauptstadt stehen der Trevi-Brunnen und die Spanische Treppe?",
+    "antwort": "Rom"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Uganda?",
+    "antwort": "Kampala"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher Hauptstadt wird der Friedensnobelpreis verliehen?",
+    "antwort": "Oslo"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Hauptstadt liegt am Fluss Liffey?",
+    "antwort": "Dublin"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Hauptstadt liegt an der Mündung des Tejo in den Atlantik?",
+    "antwort": "Lissabon"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Hauptstadt liegt an der Weichsel?",
+    "antwort": "Warschau"
+  },
+  {
+    "stufe": 4,
+    "frage": "Was ist die Hauptstadt von Guatemala?",
+    "antwort": "Guatemala-Stadt",
+    "akzeptiert": [
+      "Guatemala",
+      "Ciudad de Guatemala"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt von Namibia?",
+    "antwort": "Windhuk",
+    "akzeptiert": [
+      "Windhoek"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt des Oman?",
+    "antwort": "Maskat",
+    "akzeptiert": [
+      "Muscat",
+      "Masqat"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt des US-Bundesstaates Florida?",
+    "antwort": "Tallahassee"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die Hauptstadt des US-Bundesstaates Washington?",
+    "antwort": "Olympia"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Hauptstadt liegt direkt gegenüber von Kinshasa am anderen Ufer des Kongo?",
+    "antwort": "Brazzaville"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist die in der Verfassung festgelegte Hauptstadt Boliviens (La Paz ist nur Regierungssitz)?",
+    "antwort": "Sucre"
   }
 ]

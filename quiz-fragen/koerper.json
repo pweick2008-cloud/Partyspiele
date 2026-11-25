@@ -1172,5 +1172,231 @@
       "Desoxyribonucleinsäure"
     ],
     "bewertung": "Kleine Schreibfehler tolerieren."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißen die Haarbögen über den Augen?",
+    "antwort": "Augenbrauen",
+    "akzeptiert": [
+      "Augenbraue"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was macht man reflexartig, wenn Staub oder Pfeffer in der Nase kitzelt?",
+    "antwort": "Niesen"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche salzige Flüssigkeit kommt aus den Augen, wenn man weint?",
+    "antwort": "Tränen",
+    "akzeptiert": [
+      "Tränenflüssigkeit"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "An welchem Körperteil findet man Ferse, Sohle und Ballen?",
+    "antwort": "Fuß",
+    "akzeptiert": [
+      "Füße"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Flüssigkeit tritt bei Hitze oder Sport aus der Haut, um den Körper zu kühlen?",
+    "antwort": "Schweiß"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Hautfalte, die beim Blinzeln das Auge schließt?",
+    "antwort": "Augenlid",
+    "akzeptiert": [
+      "Lid"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißen die Pickel, die viele Jugendliche in der Pubertät bekommen, mit Fachbegriff?",
+    "antwort": "Akne"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das Gelenk zwischen Fuß und Unterschenkel, das man sich oft beim Umknicken verletzt?",
+    "antwort": "Sprunggelenk",
+    "akzeptiert": [
+      "Knöchel",
+      "oberes Sprunggelenk"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Muskel bildet bei Trainierten das „Sixpack“?",
+    "antwort": "Gerader Bauchmuskel",
+    "akzeptiert": [
+      "Bauchmuskel",
+      "Bauchmuskeln"
+    ],
+    "bewertung": "‚Bauchmuskeln‘ reicht."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie lange kann ein Mensch ungefähr ohne Wasser überleben – etwa 3 Stunden, 3 Tage oder 3 Wochen?",
+    "antwort": "3 Tage",
+    "akzeptiert": [
+      "drei Tage"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Ist Blut in den Venen im Körper blau oder rot?",
+    "antwort": "Rot",
+    "akzeptiert": [
+      "dunkelrot"
+    ],
+    "bewertung": "Sinngemäß ‚rot/dunkelrot‘ ist richtig – Blut ist nie blau."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man den „blauen Fleck“ nach einem Stoß mit Fachbegriff?",
+    "antwort": "Hämatom",
+    "akzeptiert": [
+      "Bluterguss"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher lange Knochen verbindet Brustbein und Schulterblatt und bricht beim Sturz auf die Schulter häufig?",
+    "antwort": "Schlüsselbein"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Botenstoff im Gehirn wird oft als „Belohnungs-“ oder „Glückshormon“ bezeichnet und spielt bei Likes und Sucht eine Rolle?",
+    "antwort": "Dopamin",
+    "bewertung": "Serotonin oder Endorphine sind hier nicht gemeint."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Schlafphase mit schnellen Augenbewegungen, in der man besonders lebhaft träumt?",
+    "antwort": "REM-Schlaf",
+    "akzeptiert": [
+      "REM",
+      "REM-Phase"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Krankheit, bei der die Knochen vor allem im Alter porös und brüchig werden?",
+    "antwort": "Osteoporose",
+    "akzeptiert": [
+      "Knochenschwund"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Hat der Mensch mehr Muskeln oder mehr Knochen?",
+    "antwort": "Mehr Muskeln",
+    "akzeptiert": [
+      "Muskeln"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die weiche Stelle am Kopf eines Babys, an der die Schädelknochen noch nicht zusammengewachsen sind?",
+    "antwort": "Fontanelle"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die Schutzhüllen um Gehirn und Rückenmark, deren Entzündung sehr gefährlich ist?",
+    "antwort": "Hirnhäute",
+    "akzeptiert": [
+      "Hirnhaut",
+      "Meningen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches ist das größte Gelenk des menschlichen Körpers?",
+    "antwort": "Kniegelenk",
+    "akzeptiert": [
+      "Knie"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Gehirnhälfte steuert die Bewegungen der rechten Körperhälfte?",
+    "antwort": "Die linke",
+    "akzeptiert": [
+      "links",
+      "linke"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die halbmondförmigen Knorpelscheiben im Knie, die bei Sportlern oft reißen?",
+    "antwort": "Meniskus",
+    "akzeptiert": [
+      "Menisken"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Trübung der Augenlinse, die im Alter häufig auftritt und operiert wird?",
+    "antwort": "Grauer Star",
+    "akzeptiert": [
+      "Katarakt"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Mineralstoff wird Sportlern oft gegen Wadenkrämpfe empfohlen?",
+    "antwort": "Magnesium"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher kleine Knochen am Hals ist als einziger im Körper mit keinem anderen Knochen durch ein Gelenk verbunden?",
+    "antwort": "Zungenbein"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Blutzellen des Menschen haben im ausgereiften Zustand keinen Zellkern?",
+    "antwort": "Rote Blutkörperchen",
+    "akzeptiert": [
+      "Erythrozyten"
+    ],
+    "bewertung": "Auch Blutplättchen (Thrombozyten) sind kernlos und gelten ebenfalls als richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Krankheit mit weichen, verformten Knochen entsteht bei Kindern durch Vitamin-D-Mangel?",
+    "antwort": "Rachitis"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die dicke Nervenfaserbrücke, die die beiden Großhirnhälften verbindet?",
+    "antwort": "Balken",
+    "akzeptiert": [
+      "Corpus callosum"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ist nach heutigem Wissen die Ursache von Muskelkater – Milchsäure oder winzige Risse in den Muskelfasern?",
+    "antwort": "Winzige Risse",
+    "akzeptiert": [
+      "Risse in den Muskelfasern",
+      "Mikrorisse"
+    ],
+    "bewertung": "Sinngemäß ‚Risse in den Muskelfasern‘ ist richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Reflex, bei dem der Unterschenkel nach vorne schnellt, wenn der Arzt unterhalb der Kniescheibe klopft?",
+    "antwort": "Kniesehnenreflex",
+    "akzeptiert": [
+      "Patellarsehnenreflex",
+      "Patellarreflex",
+      "Kniereflex"
+    ]
   }
 ]

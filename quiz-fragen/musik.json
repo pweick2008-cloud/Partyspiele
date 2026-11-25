@@ -1109,5 +1109,182 @@
     "stufe": 5,
     "frage": "Aus welchem Musical von Andrew Lloyd Webber stammt das Lied „Memory“?",
     "antwort": "Cats"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche US-Sängerin hatte Hits wie „Firework“ und „Roar“?",
+    "antwort": "Katy Perry"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche US-Sängerin hatte Hits wie „7 rings“ und „thank u, next“?",
+    "antwort": "Ariana Grande"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches einfache Holzblasinstrument lernen viele Kinder als Erstes in der Grundschule?",
+    "antwort": "Blockflöte",
+    "bewertung": "„Flöte“ allein gilt mit Wohlwollen."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die Person, die vorne mit einem Taktstock ein Orchester leitet?",
+    "antwort": "Dirigent",
+    "akzeptiert": [
+      "Dirigentin"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche US-Sängerin singt den Weihnachtshit „All I Want for Christmas Is You“?",
+    "antwort": "Mariah Carey"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man eine Gruppe von Menschen, die gemeinsam singt, zum Beispiel in der Kirche oder Schule?",
+    "antwort": "Chor"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche US-Band hatte Hits wie „Believer“ und „Thunder“?",
+    "antwort": "Imagine Dragons"
+  },
+  {
+    "stufe": 2,
+    "frage": "Von welcher Band stammt der Weihnachtsklassiker „Last Christmas“ (1984)?",
+    "antwort": "Wham!",
+    "akzeptiert": [
+      "Wham"
+    ],
+    "bewertung": "Auch „George Michael“ gilt."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche US-Band um Sänger Adam Levine hatte Hits wie „Moves Like Jagger“ und „Sugar“?",
+    "antwort": "Maroon 5"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche britische Band um Sänger Chris Martin hatte Hits wie „Yellow“ und „Viva la Vida“?",
+    "antwort": "Coldplay"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Instrument mit Tasten und Balg zieht man vor der Brust auseinander und drückt es wieder zusammen?",
+    "antwort": "Akkordeon",
+    "akzeptiert": [
+      "Ziehharmonika",
+      "Schifferklavier"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche britische Sängerin landete 2020 mit „Levitating“ einen Welthit?",
+    "antwort": "Dua Lipa"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Saiten hat eine Geige?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Rapperin aus der Bronx veröffentlichte 2020 zusammen mit Megan Thee Stallion den Song „WAP“?",
+    "antwort": "Cardi B"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher italienische Begriff bedeutet in der Musik „laut“ und wird mit „f“ abgekürzt?",
+    "antwort": "Forte"
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus welchem Land stammte die Reggae-Legende Bob Marley?",
+    "antwort": "Jamaika"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher deutsche Sänger mit Markenzeichen Mütze hatte Hits wie „Chöre“ und „Au revoir“?",
+    "antwort": "Mark Forster"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Musikrichtung entstand in den 1970ern auf Block-Partys in der New Yorker Bronx?",
+    "antwort": "Hip-Hop",
+    "akzeptiert": [
+      "Hip Hop",
+      "Rap"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher russische Komponist schrieb die Ballette „Der Nussknacker“ und „Schwanensee“?",
+    "antwort": "Pjotr Tschaikowski",
+    "akzeptiert": [
+      "Tschaikowsky",
+      "Tchaikovsky"
+    ],
+    "bewertung": "Nachname reicht, jede gängige Schreibweise."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche irische Band um Sänger Bono hatte Hits wie „One“ und „With or Without You“?",
+    "antwort": "U2"
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher US-Stadt entstand um 1900 der Jazz?",
+    "antwort": "New Orleans"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Band sang 1977 mit hohen Falsettstimmen „Stayin’ Alive“?",
+    "antwort": "Bee Gees"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher französische DJ landete 2011 zusammen mit Sia den Welthit „Titanium“?",
+    "antwort": "David Guetta",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die hohe Männerstimme im Chor, die über dem Bass liegt?",
+    "antwort": "Tenor"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Gitarrist der Rolling Stones, der mit Mick Jagger die meisten ihrer Songs schrieb?",
+    "antwort": "Keith Richards",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher italienische Musikbegriff bedeutet „allmählich lauter werdend“?",
+    "antwort": "Crescendo"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Beyoncés Album von 2016, das mit einem eigenen Film erschien und nach einem Getränk benannt ist?",
+    "antwort": "Lemonade"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Komponist schrieb das „Weihnachtsoratorium“ mit dem Anfang „Jauchzet, frohlocket“?",
+    "antwort": "Johann Sebastian Bach",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Nach welcher Londoner Straße ist das Beatles-Album mit dem berühmten Zebrastreifen-Cover benannt?",
+    "antwort": "Abbey Road"
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit welchem Song gewann ABBA 1974 den Eurovision Song Contest?",
+    "antwort": "Waterloo"
   }
 ]

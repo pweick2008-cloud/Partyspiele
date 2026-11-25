@@ -1359,5 +1359,240 @@
       "Avogadro-Zahl"
     ],
     "bewertung": "Loschmidt auch gelten lassen."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Gas sorgt für das Sprudeln in Mineralwasser und Cola?",
+    "antwort": "Kohlenstoffdioxid",
+    "akzeptiert": [
+      "CO2",
+      "Kohlendioxid",
+      "Kohlensäure"
+    ],
+    "bewertung": "Auch „Kohlensäure“ gelten lassen."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches gelb glänzende Edelmetall rostet nie und wird zu Barren und Schmuck verarbeitet?",
+    "antwort": "Gold",
+    "akzeptiert": [
+      "Au"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was schwimmt oben, wenn man Öl und Wasser in ein Glas gießt?",
+    "antwort": "Öl"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches chemische Symbol hat Helium?",
+    "antwort": "He"
+  },
+  {
+    "stufe": 1,
+    "frage": "Mit welchem Element wird Schwimmbadwasser meist desinfiziert – man riecht es oft schon am Eingang?",
+    "antwort": "Chlor",
+    "akzeptiert": [
+      "Cl"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der graue Rest, der nach einem Lagerfeuer übrig bleibt?",
+    "antwort": "Asche"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was entsteht, wenn Wein lange offen steht und Bakterien ihn sauer werden lassen?",
+    "antwort": "Essig",
+    "akzeptiert": [
+      "Weinessig"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Die Freiheitsstatue ist außen aus Kupfer. Welche Farbe hat sie durch die Patina bekommen?",
+    "antwort": "Grün",
+    "akzeptiert": [
+      "grünlich",
+      "türkis",
+      "blaugrün"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher weiße Belag setzt sich bei hartem Wasser im Wasserkocher ab?",
+    "antwort": "Kalk",
+    "akzeptiert": [
+      "Kalkstein",
+      "Calciumcarbonat"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Aus welchem Rohstoff wird Glas hauptsächlich hergestellt?",
+    "antwort": "Sand",
+    "akzeptiert": [
+      "Quarzsand",
+      "Quarz",
+      "Siliciumdioxid"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Element steckt als Fluorid in den meisten Zahnpasten zum Schutz vor Karies?",
+    "antwort": "Fluor",
+    "akzeptiert": [
+      "F"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man Metalle wie Gold, Silber und Platin, die an der Luft nicht rosten oder anlaufen?",
+    "antwort": "Edelmetalle",
+    "akzeptiert": [
+      "Edelmetall"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Legierung aus Kupfer und Zinn gab einer ganzen Epoche der Menschheitsgeschichte ihren Namen?",
+    "antwort": "Bronze",
+    "akzeptiert": [
+      "Bronzezeit"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Element hat das chemische Symbol Mg?",
+    "antwort": "Magnesium"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Verbindung H2O2, mit der man z. B. Haare blondiert?",
+    "antwort": "Wasserstoffperoxid"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Trennverfahren, bei dem man Salzwasser erhitzt, bis das Wasser weg ist und nur das Salz übrig bleibt?",
+    "antwort": "Eindampfen",
+    "akzeptiert": [
+      "Verdampfen",
+      "Abdampfen"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Eine Kerze verbrennt zu Kohlenstoffdioxid und welchem zweiten Stoff?",
+    "antwort": "Wasser",
+    "akzeptiert": [
+      "Wasserdampf",
+      "H2O"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Element ist in allen organischen Verbindungen enthalten?",
+    "antwort": "Kohlenstoff",
+    "akzeptiert": [
+      "C"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Metall leitet elektrischen Strom am allerbesten – noch besser als Kupfer?",
+    "antwort": "Silber",
+    "akzeptiert": [
+      "Ag"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man die langen Kettenmoleküle, aus denen Kunststoffe bestehen?",
+    "antwort": "Polymere",
+    "akzeptiert": [
+      "Makromoleküle"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Zerlegung einer Verbindung mithilfe von elektrischem Strom, z. B. von Wasser in Wasserstoff und Sauerstoff?",
+    "antwort": "Elektrolyse"
+  },
+  {
+    "stufe": 4,
+    "frage": "Unter welchem Spitznamen kennt man das Gas Distickstoffmonoxid (N2O)?",
+    "antwort": "Lachgas"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches chemische Element wurde nach Albert Einstein benannt?",
+    "antwort": "Einsteinium",
+    "akzeptiert": [
+      "Es"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches flüssige Gas mit −196 °C nutzt man für dampfendes Show-Eis und blitzschnelles Einfrieren?",
+    "antwort": "Stickstoff",
+    "akzeptiert": [
+      "flüssiger Stickstoff",
+      "N2"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Nichtmetall ist als einziges bei Raumtemperatur flüssig?",
+    "antwort": "Brom",
+    "akzeptiert": [
+      "Br"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Reaktion von Fetten mit Natronlauge, bei der Seife entsteht?",
+    "antwort": "Verseifung"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Formel hat das Hydroxid-Ion, das Laugen basisch macht?",
+    "antwort": "OH⁻",
+    "akzeptiert": [
+      "OH-",
+      "OH"
+    ],
+    "bewertung": "Ladungsangabe nicht zwingend."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viel Gramm wiegt ein Mol Kochsalz (NaCl) ungefähr? (Na ≈ 23 g/mol, Cl ≈ 35,5 g/mol)",
+    "antwort": "58,5",
+    "akzeptiert": [
+      "58,5 g",
+      "58.5",
+      "58",
+      "59"
+    ],
+    "bewertung": "Werte zwischen 58 und 59 gelten."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die fußballförmige Form des Kohlenstoffs aus 60 Atomen?",
+    "antwort": "Fulleren",
+    "akzeptiert": [
+      "Buckyball",
+      "C60",
+      "Buckminsterfulleren"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Elektronen hat ein Natrium-Ion (Na⁺)? Natrium hat die Ordnungszahl 11.",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ]
   }
 ]

@@ -71,5 +71,233 @@
     "frage": "What is the capital of Wales?",
     "antwort": "Cardiff",
     "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "In which US city can you visit the Statue of Liberty?",
+    "antwort": "New York",
+    "akzeptiert": [
+      "New York City",
+      "NYC"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which country is directly north of the USA?",
+    "antwort": "Canada",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which country is directly south of the USA?",
+    "antwort": "Mexico",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the name of the giant Ferris wheel on the River Thames in London?",
+    "antwort": "London Eye",
+    "akzeptiert": [
+      "the London Eye"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which famous London bridge with two towers can open in the middle to let ships through?",
+    "antwort": "Tower Bridge",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „London Bridge“ ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which ocean lies off the west coast of the USA?",
+    "antwort": "Pacific",
+    "akzeptiert": [
+      "Pacific Ocean",
+      "the Pacific"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which US state, home to Miami and Disney World, lies in the far south-east?",
+    "antwort": "Florida",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which famous, huge canyon is in Arizona?",
+    "antwort": "Grand Canyon",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which city in the Nevada desert is famous for its casinos?",
+    "antwort": "Las Vegas",
+    "akzeptiert": [
+      "Vegas"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which famous red bridge is in San Francisco?",
+    "antwort": "Golden Gate Bridge",
+    "akzeptiert": [
+      "Golden Gate"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "In which Australian city is the famous Opera House?",
+    "antwort": "Sydney",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which country is England's northern neighbour on the island of Great Britain?",
+    "antwort": "Scotland",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which is the largest US state by area?",
+    "antwort": "Alaska",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Texas ist falsch (zweitgrößter)."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which US city is famous for jazz music and its Mardi Gras carnival?",
+    "antwort": "New Orleans",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which Scottish lake is said to be home to a monster called 'Nessie'?",
+    "antwort": "Loch Ness",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the name of the famous prehistoric stone circle in southern England?",
+    "antwort": "Stonehenge",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which street in New York is famous for its theatres and musicals?",
+    "antwort": "Broadway",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which country is the only one that shares a land border with the UK?",
+    "antwort": "Ireland",
+    "akzeptiert": [
+      "Republic of Ireland",
+      "Eire"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Gemeint ist die Republik Irland (Grenze zu Nordirland)."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which mountain range runs through the west of the USA and Canada?",
+    "antwort": "Rocky Mountains",
+    "akzeptiert": [
+      "the Rockies",
+      "Rockies"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the name of the oldest and most famous university in the USA, near Boston?",
+    "antwort": "Harvard",
+    "akzeptiert": [
+      "Harvard University"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which two famous English university cities are together called 'Oxbridge'?",
+    "antwort": "Oxford and Cambridge",
+    "akzeptiert": [
+      "Cambridge and Oxford"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Beide Städte müssen genannt sein."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which sea lies between Great Britain and Ireland?",
+    "antwort": "Irish Sea",
+    "akzeptiert": [
+      "the Irish Sea"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which great river flows from Minnesota south to the Gulf of Mexico?",
+    "antwort": "Mississippi",
+    "akzeptiert": [
+      "Mississippi River"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the name of the area in California where many tech companies like Apple and Google have their headquarters?",
+    "antwort": "Silicon Valley",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the longest river in the UK?",
+    "antwort": "Severn",
+    "akzeptiert": [
+      "River Severn",
+      "the Severn"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „Thames“ ist falsch (zweitlängster)."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the name of the island state south of mainland Australia?",
+    "antwort": "Tasmania",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the smallest US state by area?",
+    "antwort": "Rhode Island",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which famous old highway ran from Chicago to Los Angeles?",
+    "antwort": "Route 66",
+    "akzeptiert": [
+      "Route Sixty-Six",
+      "US Route 66"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the largest city in Scotland?",
+    "antwort": "Glasgow",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Edinburgh ist falsch (Hauptstadt, aber kleiner)."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the name of the area with many lakes and mountains in north-west England, a popular national park?",
+    "antwort": "Lake District",
+    "akzeptiert": [
+      "the Lakes"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
   }
 ]

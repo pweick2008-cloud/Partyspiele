@@ -80,5 +80,260 @@
     "frage": "With which deal did the USA buy a huge area of land from France in 1803 and double its size?",
     "antwort": "Louisiana Purchase",
     "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the name of the famous statue in New York harbour that France gave to the USA?",
+    "antwort": "Statue of Liberty",
+    "akzeptiert": [
+      "Lady Liberty"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "From which country did the American colonies win their independence?",
+    "antwort": "Great Britain",
+    "akzeptiert": [
+      "Britain",
+      "England",
+      "the United Kingdom",
+      "UK"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do we call the people who lived in America before the Europeans arrived?",
+    "antwort": "Native Americans",
+    "akzeptiert": [
+      "American Indians",
+      "Indians",
+      "First Nations",
+      "Indigenous peoples"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "In which US city were the Twin Towers destroyed on 11 September 2001?",
+    "antwort": "New York",
+    "akzeptiert": [
+      "New York City",
+      "NYC"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which holiday on the fourth Thursday in November remembers the Pilgrims' harvest feast?",
+    "antwort": "Thanksgiving",
+    "akzeptiert": [
+      "Thanksgiving Day"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do we call the cattle herders on horseback who became a symbol of the American West?",
+    "antwort": "cowboys",
+    "akzeptiert": [
+      "cowboy",
+      "cowhands"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "How many British colonies declared their independence in 1776?",
+    "antwort": "13",
+    "akzeptiert": [
+      "thirteen"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which famous document did the American colonies sign on 4 July 1776?",
+    "antwort": "Declaration of Independence",
+    "akzeptiert": [
+      "the Declaration of Independence"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which war did the North and the South fight against each other from 1861 to 1865?",
+    "antwort": "Civil War",
+    "akzeptiert": [
+      "American Civil War",
+      "the Civil War"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What did thousands of people hope to find in California in 1849?",
+    "antwort": "gold",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which crop did enslaved people mainly have to pick on plantations in the South?",
+    "antwort": "cotton",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the name of the US space agency, founded in 1958?",
+    "antwort": "NASA",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call the severe economic crisis in the USA in the 1930s?",
+    "antwort": "Great Depression",
+    "akzeptiert": [
+      "the Depression"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call the time in the 1920s when alcohol was banned in the USA?",
+    "antwort": "Prohibition",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the name of the national anthem of the USA?",
+    "antwort": "The Star-Spangled Banner",
+    "akzeptiert": [
+      "Star Spangled Banner"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call the American frontier in the 19th century, famous for sheriffs, outlaws and gunfights?",
+    "antwort": "Wild West",
+    "akzeptiert": [
+      "the Wild West",
+      "Old West"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call the movement of the 1950s and 60s that fought for equal rights for African Americans?",
+    "antwort": "Civil Rights Movement",
+    "akzeptiert": [
+      "civil rights"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call the competition between the USA and the Soviet Union to be first in space and on the Moon?",
+    "antwort": "Space Race",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Who wrote most of the Declaration of Independence and later became the third president?",
+    "antwort": "Thomas Jefferson",
+    "akzeptiert": [
+      "Jefferson"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "In which city was the Declaration of Independence signed?",
+    "antwort": "Philadelphia",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which famous document of 1787 begins with the words 'We the People'?",
+    "antwort": "US Constitution",
+    "akzeptiert": [
+      "Constitution",
+      "the Constitution",
+      "United States Constitution"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What was the secret network called that helped enslaved people escape to the North?",
+    "antwort": "Underground Railroad",
+    "akzeptiert": [
+      "Underground Railway"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which Native American woman, famous from a Disney film, married the English settler John Rolfe?",
+    "antwort": "Pocahontas",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which American woman became the first woman to fly solo across the Atlantic in 1932?",
+    "antwort": "Amelia Earhart",
+    "akzeptiert": [
+      "Earhart"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which president introduced the 'New Deal' to fight the Great Depression?",
+    "antwort": "Franklin D. Roosevelt",
+    "akzeptiert": [
+      "Roosevelt",
+      "FDR",
+      "Franklin Roosevelt"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Theodore Roosevelt ist falsch; nur „Roosevelt“ reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "What was the name of the first permanent English settlement in America, founded in Virginia in 1607?",
+    "antwort": "Jamestown",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which civil rights activist used the slogan 'by any means necessary'?",
+    "antwort": "Malcolm X",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which famous Chicago gangster made a fortune selling illegal alcohol in the 1920s?",
+    "antwort": "Al Capone",
+    "akzeptiert": [
+      "Capone"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which short speech did Abraham Lincoln give in 1863 at a battlefield in Pennsylvania?",
+    "antwort": "Gettysburg Address",
+    "akzeptiert": [
+      "Gettysburg speech",
+      "Gettysburg"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which US city was largely destroyed by an earthquake and fire in 1906?",
+    "antwort": "San Francisco",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
   }
 ]

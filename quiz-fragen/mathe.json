@@ -1580,5 +1580,229 @@
     "akzeptiert": [
       "vierundsechzig"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viel ist 6 mal 8?",
+    "antwort": "48",
+    "akzeptiert": [
+      "achtundvierzig"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der runde Körper, der überall gleich gewölbt ist – wie ein Ball?",
+    "antwort": "Kugel"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Minuten sind eine Viertelstunde?",
+    "antwort": "15",
+    "akzeptiert": [
+      "fünfzehn"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Zahl ist größer: 0,5 oder 0,45?",
+    "antwort": "0,5",
+    "akzeptiert": [
+      "0.5"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Tage hat ein Schaltjahr?",
+    "antwort": "366"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Stück sind ein Dutzend?",
+    "antwort": "12",
+    "akzeptiert": [
+      "zwölf"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was ist die Quadratwurzel aus 64?",
+    "antwort": "8",
+    "akzeptiert": [
+      "acht"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Für welche Zahl steht die römische Ziffer C?",
+    "antwort": "100",
+    "akzeptiert": [
+      "hundert"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt ein Dreieck, bei dem (mindestens) zwei Seiten gleich lang sind?",
+    "antwort": "gleichschenkliges Dreieck",
+    "akzeptiert": [
+      "gleichschenklig"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel sind 75 Prozent von 40?",
+    "antwort": "30"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viel ist 1 + 2 · 3 (Punkt vor Strich)?",
+    "antwort": "7",
+    "akzeptiert": [
+      "sieben"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie viele Nullen hat eine Milliarde?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Flächen hat eine Pyramide mit quadratischer Grundfläche?",
+    "antwort": "5",
+    "akzeptiert": [
+      "fünf"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist 2 hoch 8?",
+    "antwort": "256"
+  },
+  {
+    "stufe": 3,
+    "frage": "Nach welchem Vieleck mit fünf Ecken ist das US-Verteidigungsministerium benannt?",
+    "antwort": "Pentagon",
+    "akzeptiert": [
+      "Fünfeck"
+    ],
+    "bewertung": "Gemeint ist das griechische Wort; auch „Fünfeck“ zählt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Zahl kommt als Nächstes: 1, 3, 6, 10, 15, …?",
+    "antwort": "21"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel ist 0,2 mal 0,3?",
+    "antwort": "0,06",
+    "akzeptiert": [
+      "0.06"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Nach welchem griechischen Mathematiker ist der Satz a² + b² = c² benannt?",
+    "antwort": "Pythagoras",
+    "akzeptiert": [
+      "Satz des Pythagoras"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Ein T-Shirt kostet nach 25 % Rabatt noch 30 €. Was hat es vorher gekostet?",
+    "antwort": "40 €",
+    "akzeptiert": [
+      "40",
+      "40 Euro"
+    ],
+    "bewertung": "Einheit nicht nötig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie groß ist der Flächeninhalt eines Kreises mit 10 cm Radius, wenn man π ≈ 3,14 rechnet (in cm²)?",
+    "antwort": "314",
+    "akzeptiert": [
+      "314 cm²"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Zahl ist die römische Zahl MCMXC?",
+    "antwort": "1990"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man Zahlen wie √2 oder π, die man nicht als Bruch zweier ganzer Zahlen schreiben kann?",
+    "antwort": "irrationale Zahlen",
+    "akzeptiert": [
+      "irrational"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie lautet die erste binomische Formel: (a + b)² = …?",
+    "antwort": "a² + 2ab + b²",
+    "akzeptiert": [
+      "a^2 + 2ab + b^2"
+    ],
+    "bewertung": "Reihenfolge der Summanden egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Ein Rechteck ist 12 cm lang und 5 cm breit. Wie lang ist seine Diagonale (in cm)?",
+    "antwort": "13",
+    "akzeptiert": [
+      "13 cm"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Ab wie vielen Personen in einem Raum ist die Wahrscheinlichkeit über 50 %, dass zwei am selben Tag Geburtstag haben?",
+    "antwort": "23",
+    "bewertung": "Geburtstagsparadoxon; nur 23 ist richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Zahl kommt als Nächstes: 1, 2, 6, 24, 120, …?",
+    "antwort": "720"
+  },
+  {
+    "stufe": 5,
+    "frage": "Was ergibt e hoch (i·π) plus 1?",
+    "antwort": "0",
+    "akzeptiert": [
+      "null"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Zahl ist 0,999… (mit unendlich vielen Neunen) genau gleich?",
+    "antwort": "1",
+    "akzeptiert": [
+      "eins"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Mit welcher Formel berechnet man das Volumen einer Kugel mit Radius r?",
+    "antwort": "4/3 · π · r³",
+    "akzeptiert": [
+      "4/3 π r³",
+      "(4/3)πr^3"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Ein Seil liegt straff um den Äquator. Man verlängert es um 1 m und hebt es überall gleichmäßig an. Wie weit steht es ab: ca. 1 mm, 16 cm oder 1 m?",
+    "antwort": "ca. 16 cm",
+    "akzeptiert": [
+      "16 cm",
+      "16"
+    ],
+    "bewertung": "1/(2π) m ≈ 16 cm."
   }
 ]

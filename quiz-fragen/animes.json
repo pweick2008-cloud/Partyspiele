@@ -1014,5 +1014,223 @@
       "Falkenauge",
       "Dracule Mihawk"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Energie, die Ninjas in „Naruto“ für ihre Jutsus einsetzen?",
+    "antwort": "Chakra"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was will Ruffy in „One Piece“ unbedingt werden?",
+    "antwort": "König der Piraten",
+    "akzeptiert": [
+      "Piratenkönig"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Hauptfigur von „Attack on Titan“, die alle Titanen auslöschen will?",
+    "antwort": "Eren Jäger",
+    "akzeptiert": [
+      "Eren Yeager",
+      "Eren Jaeger"
+    ],
+    "bewertung": "Vorname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Anime adoptiert der Spion Loid ein Mädchen und heiratet zum Schein eine Auftragsmörderin?",
+    "antwort": "Spy x Family",
+    "akzeptiert": [
+      "Spy Family"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Junge mit der Narbe auf der Stirn, der in „Demon Slayer“ seine Schwester Nezuko retten will?",
+    "antwort": "Tanjiro",
+    "akzeptiert": [
+      "Tanjiro Kamado"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt das Mädchen mit rosa Haaren, das mit Naruto und Sasuke in Team 7 ist?",
+    "antwort": "Sakura",
+    "akzeptiert": [
+      "Sakura Haruno"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Ghibli-Film arbeitet ein Mädchen in einem Badehaus für Geister, nachdem ihre Eltern in Schweine verwandelt wurden?",
+    "antwort": "Chihiros Reise ins Zauberland",
+    "akzeptiert": [
+      "Spirited Away",
+      "Chihiro"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Scharfschütze der Strohhutbande mit der langen Nase, der gerne flunkert?",
+    "antwort": "Lysop",
+    "akzeptiert": [
+      "Usopp"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Ashs Begleiterin mit orangefarbenen Haaren, die Wasser-Pokémon trainiert?",
+    "antwort": "Misty"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Anime suchen die Brüder Edward und Alphonse Elric nach dem Stein der Weisen?",
+    "antwort": "Fullmetal Alchemist"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Erens blonder Kindheitsfreund in „Attack on Titan“, der als kluger Stratege glänzt?",
+    "antwort": "Armin",
+    "akzeptiert": [
+      "Armin Arlert"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In was für ein Wesen wurde Nezuko in „Demon Slayer“ verwandelt?",
+    "antwort": "Dämon"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Dekus aggressiver Kindheitsrivale in „My Hero Academia“, dessen Kraft Explosionen sind?",
+    "antwort": "Katsuki Bakugo",
+    "akzeptiert": [
+      "Bakugou",
+      "Kacchan"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Son Gokus Ehefrau in „Dragon Ball“?",
+    "antwort": "Chichi",
+    "akzeptiert": [
+      "Chi-Chi"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Gokus jüngerer Sohn, der seinem Vater zum Verwechseln ähnlich sieht?",
+    "antwort": "Son Goten",
+    "akzeptiert": [
+      "Goten"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Narutos Lehrer an der Ninja-Akademie mit der Narbe über der Nase, der ihn oft zu Ramen einlädt?",
+    "antwort": "Iruka",
+    "akzeptiert": [
+      "Iruka Umino"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der weißhaarige Sannin in „Naruto“, der Kröten beschwört und Naruto trainiert?",
+    "antwort": "Jiraiya"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das schüchterne Mädchen aus dem Hyuga-Clan, das Naruto später heiratet?",
+    "antwort": "Hinata",
+    "akzeptiert": [
+      "Hinata Hyuga"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Auf welchem Element basiert die Atemtechnik des ängstlichen Zenitsu in „Demon Slayer“?",
+    "antwort": "Donner",
+    "akzeptiert": [
+      "Blitz"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Lieblingskarte von Seto Kaiba in „Yu-Gi-Oh!“, ein weißer Drache?",
+    "antwort": "Weißer Drache mit eiskaltem Blick",
+    "akzeptiert": [
+      "Blue-Eyes White Dragon",
+      "Blue-Eyes"
+    ],
+    "bewertung": "Sinngemäß „Blauäugiger weißer Drache“ gilt."
+  },
+  {
+    "stufe": 4,
+    "frage": "In welchem Ghibli-Film eröffnet eine junge Hexe mit ihrem schwarzen Kater einen Lieferdienst per Besen?",
+    "antwort": "Kikis kleiner Lieferservice",
+    "akzeptiert": [
+      "Kiki’s Delivery Service",
+      "Kiki"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der berühmte Regisseur und Mitgründer von Studio Ghibli?",
+    "antwort": "Hayao Miyazaki",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der „Chirurg des Todes“ in „One Piece“, der sich mit Ruffy verbündet?",
+    "antwort": "Trafalgar Law",
+    "akzeptiert": [
+      "Law"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Vegetas Sohn, der in „Dragon Ball Z“ mit Schwert aus der Zukunft kommt?",
+    "antwort": "Trunks"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Anführer der Schurkenliga in „My Hero Academia“, der alles zerfallen lässt, was er berührt?",
+    "antwort": "Tomura Shigaraki",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt Itachis haiähnlicher Partner bei Akatsuki in „Naruto“?",
+    "antwort": "Kisame",
+    "akzeptiert": [
+      "Kisame Hoshigaki"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Farbe nimmt Tanjiros Nichirin-Schwert in „Demon Slayer“ an?",
+    "antwort": "Schwarz"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wer erschuf den Manga „Attack on Titan“?",
+    "antwort": "Hajime Isayama",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Bösewicht in „Dragon Ball Z“ absorbiert die Androiden C17 und C18, um seine perfekte Form zu erreichen?",
+    "antwort": "Cell"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Kommandant des Aufklärungstrupps in „Attack on Titan“, der „Widmet eure Herzen!“ ruft?",
+    "antwort": "Erwin Smith",
+    "akzeptiert": [
+      "Erwin"
+    ]
   }
 ]

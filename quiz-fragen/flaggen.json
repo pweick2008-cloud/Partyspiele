@@ -1552,5 +1552,239 @@
     "akzeptiert": [
       "sechs"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Für welche Staatengemeinschaft steht diese Flagge?",
+    "antwort": "Europäische Union",
+    "akzeptiert": [
+      "EU"
+    ],
+    "emoji": "🇪🇺"
+  },
+  {
+    "stufe": 1,
+    "frage": "Für welche Bewegung steht diese Flagge?",
+    "antwort": "LGBTQ+-Bewegung",
+    "akzeptiert": [
+      "LGBTQ",
+      "LGBT",
+      "Pride",
+      "queere Bewegung",
+      "Homosexuelle",
+      "Schwulen- und Lesbenbewegung"
+    ],
+    "bewertung": "Richtig ist alles, was die queere Community, Pride oder LGBTQ (auch Schwule und Lesben) nennt. ‚Regenbogenflagge‘ allein beschreibt nur die Flagge und ist zu wenig.",
+    "emoji": "🏳️‍🌈"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe haben die Sterne auf der Flagge der USA?",
+    "antwort": "Weiß"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche zwei Farben hat die Flagge von Kanada?",
+    "antwort": "Rot und Weiß",
+    "bewertung": "Reihenfolge egal, beide Farben nötig."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Hintergrundfarbe hat die Flagge der Türkei?",
+    "antwort": "Rot"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man es, wenn eine Flagge am Mast hochgezogen wird?",
+    "antwort": "Hissen",
+    "akzeptiert": [
+      "hissen",
+      "gehisst"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Nachbarland Deutschlands hat eine Flagge in denselben Farben wie die Niederlande, aber mit senkrechten Streifen?",
+    "antwort": "Frankreich"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht der rote Kreis auf der Flagge Japans?",
+    "antwort": "Die Sonne",
+    "akzeptiert": [
+      "Sonne",
+      "Sonnenscheibe"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Farbe haben die Sterne auf der Flagge der Europäischen Union?",
+    "antwort": "Gelb",
+    "akzeptiert": [
+      "Gold",
+      "Golden"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Farbe hat der Davidstern auf der Flagge Israels?",
+    "antwort": "Blau"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Farbe hat der Halbmond auf der Flagge der Türkei?",
+    "antwort": "Weiß"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Hintergrundfarbe hat die Flagge von Australien?",
+    "antwort": "Blau",
+    "akzeptiert": [
+      "Dunkelblau"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welcher Organisation gehört diese Flagge?",
+    "antwort": "Vereinte Nationen",
+    "akzeptiert": [
+      "UN",
+      "UNO",
+      "Vereinten Nationen"
+    ],
+    "emoji": "🇺🇳"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür stehen die 13 Streifen auf der Flagge der USA?",
+    "antwort": "Die 13 Gründungskolonien",
+    "akzeptiert": [
+      "13 Kolonien",
+      "Gründerstaaten",
+      "die ersten 13 Staaten"
+    ],
+    "bewertung": "Richtig, wenn die 13 ursprünglichen Kolonien bzw. Gründungsstaaten gemeint sind."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bedeutet im Motorsport eine geschwenkte gelbe Flagge?",
+    "antwort": "Gefahr – Überholverbot",
+    "akzeptiert": [
+      "Gefahr",
+      "Überholverbot",
+      "Vorsicht"
+    ],
+    "bewertung": "‚Gefahr‘, ‚Vorsicht‘ oder ‚Überholverbot‘ reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Symbol ist in der Mitte der Flagge von Südkorea zu sehen?",
+    "antwort": "Yin und Yang",
+    "akzeptiert": [
+      "Yin-Yang",
+      "Taegeuk",
+      "Yin-Yang-Symbol"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches nordische Land hat eine rote Flagge mit einem blauen, weiß umrandeten Kreuz?",
+    "antwort": "Norwegen"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was ist auf der blauen Kugel in der Mitte der Flagge Brasiliens abgebildet?",
+    "antwort": "Ein Sternenhimmel",
+    "akzeptiert": [
+      "Sterne",
+      "Sternenhimmel",
+      "Himmel mit Sternen"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Grönland",
+    "bewertung": "Grönland gehört zum Königreich Dänemark; ‚Dänemark‘ ist nicht richtig.",
+    "emoji": "🇬🇱"
+  },
+  {
+    "stufe": 4,
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Sri Lanka",
+    "emoji": "🇱🇰"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche drei Farben haben die sogenannten panafrikanischen Flaggen, z. B. von Ghana, Äthiopien oder Senegal?",
+    "antwort": "Rot, Gelb, Grün",
+    "bewertung": "Alle drei Farben nötig, Reihenfolge egal. ‚Gold‘ statt Gelb ist auch richtig."
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus den Kreuzen welcher drei Landesteile setzt sich der Union Jack zusammen?",
+    "antwort": "England, Schottland, Irland",
+    "bewertung": "Alle drei nötig, Reihenfolge egal. ‚Nordirland‘ statt Irland ist auch richtig. Wales ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche drei südamerikanischen Länder haben gelb-blau-rot gestreifte Flaggen (Gelb oben)?",
+    "antwort": "Kolumbien, Ecuador, Venezuela",
+    "bewertung": "Alle drei nötig, Reihenfolge egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land hat fast dieselbe Flagge wie die Niederlande, nur mit hellerem Blau?",
+    "antwort": "Luxemburg"
+  },
+  {
+    "stufe": 5,
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Republik Moldau",
+    "akzeptiert": [
+      "Moldau",
+      "Moldawien",
+      "Moldova"
+    ],
+    "emoji": "🇲🇩"
+  },
+  {
+    "stufe": 5,
+    "frage": "Zu welchem Land gehört diese Flagge?",
+    "antwort": "Namibia",
+    "emoji": "🇳🇦"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man die Wissenschaft von den Flaggen?",
+    "antwort": "Vexillologie",
+    "akzeptiert": [
+      "Flaggenkunde"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht der große Stern auf der Flagge Chinas?",
+    "antwort": "Die Kommunistische Partei",
+    "akzeptiert": [
+      "Kommunistische Partei",
+      "KPCh",
+      "Kommunismus",
+      "Partei"
+    ],
+    "bewertung": "Richtig, wenn die Kommunistische Partei (Chinas) gemeint ist."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Farbstreifen hat die klassische Regenbogenflagge der Pride-Bewegung?",
+    "antwort": "6",
+    "akzeptiert": [
+      "sechs"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Flaggenfarbe bedeutet in der Formel 1, dass ein Fahrer disqualifiziert ist und an die Box muss?",
+    "antwort": "Schwarz"
   }
 ]

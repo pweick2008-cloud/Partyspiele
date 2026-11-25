@@ -1119,5 +1119,217 @@
       "Ausrufewort",
       "Empfindungswort"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Vervollständige das Sprichwort: „Kommt Zeit, kommt …“",
+    "antwort": "Rat"
+  },
+  {
+    "stufe": 1,
+    "frage": "Vervollständige das Sprichwort: „Der frühe Vogel …“",
+    "antwort": "fängt den Wurm",
+    "bewertung": "Kleine Abweichungen in der Wortwahl sind okay."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was bedeutet es, wenn jemand „Schwein gehabt“ hat?",
+    "antwort": "Glück gehabt",
+    "bewertung": "Sinngemäß reicht: Glück gehabt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was bedeutet es, jemanden „auf den Arm zu nehmen“?",
+    "antwort": "jemanden veräppeln",
+    "akzeptiert": [
+      "veräppeln",
+      "verarschen",
+      "veralbern"
+    ],
+    "bewertung": "Sinngemäß reicht: jemanden zum Spaß anschwindeln, sich über jemanden lustig machen."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wofür steht die Abkürzung „ca.“?",
+    "antwort": "circa",
+    "akzeptiert": [
+      "zirka",
+      "ungefähr"
+    ],
+    "bewertung": "Auch „ungefähr“ zählt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was ist das Gegenteil von „schwer“ (beim Gewicht)?",
+    "antwort": "leicht"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Chat-Abkürzung „IDK“?",
+    "antwort": "I don't know",
+    "akzeptiert": [
+      "I dont know"
+    ],
+    "bewertung": "Englische Langform gefragt; die deutsche Übersetzung („Ich weiß nicht“) zählt auch. Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Abkürzung „Lkw“?",
+    "antwort": "Lastkraftwagen",
+    "bewertung": "Kleine Tippfehler sind okay."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was bedeutet es, wenn jemand in einer Beziehung „die Hosen anhat“?",
+    "antwort": "bestimmen",
+    "bewertung": "Sinngemäß reicht: das Sagen haben, bestimmen."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was bedeutet es, jemandem „die kalte Schulter zu zeigen“?",
+    "antwort": "jemanden ignorieren",
+    "bewertung": "Sinngemäß reicht: jemanden abweisend behandeln, ignorieren."
+  },
+  {
+    "stufe": 2,
+    "frage": "Was bedeutet die Redewendung „ins Gras beißen“?",
+    "antwort": "sterben"
+  },
+  {
+    "stufe": 2,
+    "frage": "Was bedeutet es, etwas „ausbaden“ zu müssen?",
+    "antwort": "die Folgen tragen",
+    "bewertung": "Sinngemäß reicht: die (unangenehmen) Folgen von etwas tragen müssen, oft für andere."
+  },
+  {
+    "stufe": 3,
+    "frage": "Aus welcher Sprache stammt das Wort „Ski“?",
+    "antwort": "Norwegisch"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der dritte Fall (Wem-Fall) im Deutschen?",
+    "antwort": "Dativ"
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bedeutet es, etwas „übers Knie zu brechen“?",
+    "antwort": "etwas überstürzt entscheiden",
+    "bewertung": "Sinngemäß reicht: etwas übereilt, ohne genügend Überlegung tun oder entscheiden."
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welcher Wortart gehört „unter“ im Satz „Die Katze liegt unter dem Tisch“?",
+    "antwort": "Präposition",
+    "akzeptiert": [
+      "Verhältniswort"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bedeutet es, „Krokodilstränen“ zu weinen?",
+    "antwort": "Trauer vortäuschen",
+    "bewertung": "Sinngemäß reicht: geheuchelte, unechte Tränen/Trauer zeigen."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Zeitform in „Ich bin gelaufen“?",
+    "antwort": "Perfekt",
+    "bewertung": "Plusquamperfekt ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was bedeutet die Redewendung „Eulen nach Athen tragen“?",
+    "antwort": "etwas Überflüssiges tun",
+    "bewertung": "Sinngemäß reicht: etwas Überflüssiges tun, etwas dorthin bringen, wo es schon reichlich vorhanden ist."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Stilmittel der starken Übertreibung, z. B. „Ich hab dir das schon tausendmal gesagt“?",
+    "antwort": "Hyperbel",
+    "bewertung": "Der Fachbegriff ist gefragt; „Übertreibung“ allein reicht nicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Aus welcher afrikanischen Sprache stammt das Wort „Safari“ (bedeutet dort „Reise“)?",
+    "antwort": "Swahili",
+    "akzeptiert": [
+      "Suaheli",
+      "Kisuaheli",
+      "Kiswahili"
+    ],
+    "bewertung": "Arabisch (Ursprung des Swahili-Wortes) ebenfalls gelten lassen."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was bedeutet es, wenn bei jemandem „Hopfen und Malz verloren“ ist?",
+    "antwort": "hoffnungslos",
+    "bewertung": "Sinngemäß reicht: da ist nichts mehr zu machen, jede Mühe ist vergeblich."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was bedeutet es, etwas „aus dem Stegreif“ zu tun?",
+    "antwort": "spontan",
+    "akzeptiert": [
+      "unvorbereitet",
+      "improvisiert"
+    ],
+    "bewertung": "Sinngemäß reicht: ohne Vorbereitung, spontan, improvisiert."
+  },
+  {
+    "stufe": 4,
+    "frage": "Was bedeutet es, jemandem „das Wasser abzugraben“?",
+    "antwort": "jemandem die Lebensgrundlage entziehen",
+    "bewertung": "Sinngemäß reicht: jemandem schaden, ihm die Existenzgrundlage/Erfolgsmöglichkeiten nehmen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welcher Sprache stammt das Wort „Bungalow“ ursprünglich (über das Englische)?",
+    "antwort": "Hindi",
+    "akzeptiert": [
+      "Bengalisch",
+      "Gujarati"
+    ],
+    "bewertung": "Jede indische Sprache (Hindi, Bengalisch, Gujarati) zählt; Englisch allein ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das Stilmittel, bei dem aufeinanderfolgende Sätze mit demselben Wort beginnen, z. B. „Wir wollen …, wir wollen …“?",
+    "antwort": "Anapher",
+    "bewertung": "Kleine Tippfehler sind okay."
+  },
+  {
+    "stufe": 5,
+    "frage": "Was bedeutet es, sich „ins Bockshorn jagen zu lassen“?",
+    "antwort": "sich einschüchtern lassen",
+    "bewertung": "Sinngemäß reicht: sich einschüchtern, verunsichern oder Angst machen lassen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man Wörter, die gleich klingen, aber verschieden geschrieben werden, z. B. „Lerche“ und „Lärche“?",
+    "antwort": "Homophone",
+    "akzeptiert": [
+      "Homophon"
+    ],
+    "bewertung": "Homonym ist nicht gemeint; nur Homophon(e) zählt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Aus welcher Sprache kam das Wort „Schlamassel“ (Pech, verfahrene Lage) ins Deutsche?",
+    "antwort": "Jiddisch",
+    "akzeptiert": [
+      "Hebräisch"
+    ],
+    "bewertung": "Jiddisch und Hebräisch zählen."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Fachbegriff für eine Verkleinerungsform wie „Häuschen“ oder „Büchlein“?",
+    "antwort": "Diminutiv",
+    "akzeptiert": [
+      "Deminutiv",
+      "Diminutivum"
+    ],
+    "bewertung": "Der Fachbegriff ist gefragt; „Verkleinerungsform“ allein reicht nicht."
   }
 ]

@@ -73,5 +73,252 @@
     "frage": "What is the name of Canada's northernmost territory, where many Inuit live?",
     "antwort": "Nunavut",
     "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which sport played on ice with sticks and a puck is the most popular sport in Canada?",
+    "antwort": "ice hockey",
+    "akzeptiert": [
+      "hockey"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which is the only country that shares a land border with Canada?",
+    "antwort": "USA",
+    "akzeptiert": [
+      "United States",
+      "the US",
+      "America",
+      "United States of America"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which big country lies to the north-west of New Zealand, across the sea?",
+    "antwort": "Australia",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which big white bear lives in the far north of Canada?",
+    "antwort": "polar bear",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which animal with a flat tail is the national animal of Canada?",
+    "antwort": "beaver",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which two colours does the Canadian flag have?",
+    "antwort": "red and white",
+    "akzeptiert": [
+      "white and red"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the largest city in Canada?",
+    "antwort": "Toronto",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the nickname of New Zealand's national rugby team?",
+    "antwort": "All Blacks",
+    "akzeptiert": [
+      "the All Blacks"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What are the names of New Zealand's two main islands?",
+    "antwort": "North Island and South Island",
+    "akzeptiert": [
+      "South Island and North Island",
+      "North and South Island"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the currency of Canada?",
+    "antwort": "Canadian dollar",
+    "akzeptiert": [
+      "dollar",
+      "CAD"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which ocean lies to the west of Canada?",
+    "antwort": "Pacific Ocean",
+    "akzeptiert": [
+      "Pacific"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which language do most people in New Zealand speak at home?",
+    "antwort": "English",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the largest city in New Zealand?",
+    "antwort": "Auckland",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which Canadian city hosted the 2010 Winter Olympics?",
+    "antwort": "Vancouver",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which mountain range runs through western Canada and the USA?",
+    "antwort": "Rocky Mountains",
+    "akzeptiert": [
+      "Rockies",
+      "the Rockies"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is Canada's national holiday on 1 July called?",
+    "antwort": "Canada Day",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which Canadian singer sang 'My Heart Will Go On' for the film 'Titanic'?",
+    "antwort": "Céline Dion",
+    "akzeptiert": [
+      "Celine Dion",
+      "Dion"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do the Māori call New Zealand – the 'land of the long white cloud'?",
+    "antwort": "Aotearoa",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which New Zealander was one of the first two men to climb Mount Everest in 1953?",
+    "antwort": "Edmund Hillary",
+    "akzeptiert": [
+      "Hillary",
+      "Sir Edmund Hillary"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which Canadian province lies on the Pacific coast?",
+    "antwort": "British Columbia",
+    "akzeptiert": [
+      "BC"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the largest city in the province of Quebec?",
+    "antwort": "Montreal",
+    "akzeptiert": [
+      "Montréal"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Who was Prime Minister of Canada from 2015 to 2025?",
+    "antwort": "Justin Trudeau",
+    "akzeptiert": [
+      "Trudeau"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What are the Royal Canadian Mounted Police, famous for their red uniforms, often called?",
+    "antwort": "Mounties",
+    "akzeptiert": [
+      "the Mounties",
+      "RCMP"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "How many provinces does Canada have?",
+    "antwort": "10",
+    "akzeptiert": [
+      "ten"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What do Canadians call their one-dollar coin, which shows a bird?",
+    "antwort": "loonie",
+    "akzeptiert": [
+      "loony"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which woman was Prime Minister of New Zealand from 2017 to 2023?",
+    "antwort": "Jacinda Ardern",
+    "akzeptiert": [
+      "Ardern"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What was the name of the huge flightless bird that lived in New Zealand until the Māori hunted it to extinction?",
+    "antwort": "moa",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which sea lies between Australia and New Zealand?",
+    "antwort": "Tasman Sea",
+    "akzeptiert": [
+      "the Tasman"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which New Zealand city was badly damaged by an earthquake in 2011?",
+    "antwort": "Christchurch",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which British explorer sailed around and mapped New Zealand in 1769–70?",
+    "antwort": "James Cook",
+    "akzeptiert": [
+      "Captain Cook",
+      "Cook"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
   }
 ]

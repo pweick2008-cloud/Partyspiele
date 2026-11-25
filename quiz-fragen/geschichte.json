@@ -1347,5 +1347,231 @@
       "Chamberlain"
     ],
     "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie hieß der sagenhafte englische König mit den Rittern der Tafelrunde?",
+    "antwort": "König Artus",
+    "akzeptiert": [
+      "Artus",
+      "Arthur",
+      "König Arthur"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wer war von 2021 bis 2025 Bundeskanzler von Deutschland?",
+    "antwort": "Olaf Scholz",
+    "akzeptiert": [
+      "Scholz"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der berühmte steinzeitliche Steinkreis in Südengland?",
+    "antwort": "Stonehenge"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Bilderschrift der alten Ägypter?",
+    "antwort": "Hieroglyphen"
+  },
+  {
+    "stufe": 1,
+    "frage": "Was trugen Wikinger laut Klischee an ihren Helmen – historisch aber gar nicht?",
+    "antwort": "Hörner"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem hölzernen Tier versteckten sich die Griechen der Sage nach, um Troja zu erobern?",
+    "antwort": "Pferd",
+    "akzeptiert": [
+      "Trojanisches Pferd"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Land schenkte den USA 1886 die Freiheitsstatue?",
+    "antwort": "Frankreich"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher antiken Stadt entstand im 5. Jahrhundert v. Chr. die Demokratie?",
+    "antwort": "Athen"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches der sieben antiken Weltwunder steht als einziges heute noch?",
+    "antwort": "Cheops-Pyramide",
+    "akzeptiert": [
+      "Pyramiden von Gizeh",
+      "Pyramide von Gizeh",
+      "Große Pyramide",
+      "Pyramiden"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Nach welcher britischen Königin ist eine ganze Epoche des 19. Jahrhunderts benannt?",
+    "antwort": "Victoria",
+    "akzeptiert": [
+      "Viktoria",
+      "Queen Victoria",
+      "Königin Victoria"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches Volk baute in Mittelamerika Stufenpyramiden und hatte einen berühmten Kalender?",
+    "antwort": "Maya"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher bayerische „Märchenkönig“ ließ Schloss Neuschwanstein bauen?",
+    "antwort": "Ludwig II.",
+    "akzeptiert": [
+      "Ludwig II",
+      "Ludwig der Zweite",
+      "König Ludwig"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Pirat wurde 1401 in Hamburg hingerichtet und soll danach noch an seinen Männern vorbeigelaufen sein?",
+    "antwort": "Klaus Störtebeker",
+    "akzeptiert": [
+      "Störtebeker"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Jahr trat Großbritannien offiziell aus der EU aus?",
+    "antwort": "2020"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß der Anführer der Hunnen, der im 5. Jahrhundert Europa in Angst versetzte?",
+    "antwort": "Attila"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie hieß das Flaggschiff von Christoph Kolumbus auf seiner ersten Fahrt 1492?",
+    "antwort": "Santa María",
+    "akzeptiert": [
+      "Santa Maria"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Staat wurde 1948 als jüdischer Staat gegründet?",
+    "antwort": "Israel"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher preußische König, genannt „der Alte Fritz“, förderte den Kartoffelanbau?",
+    "antwort": "Friedrich der Große",
+    "akzeptiert": [
+      "Friedrich II.",
+      "Friedrich II",
+      "Alter Fritz"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher russische Zar gründete 1703 Sankt Petersburg?",
+    "antwort": "Peter der Große",
+    "akzeptiert": [
+      "Peter I.",
+      "Peter I"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nannte man Kaiser Friedrich I. wegen seines roten Bartes?",
+    "antwort": "Barbarossa",
+    "akzeptiert": [
+      "Rotbart"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Tochter Heinrichs VIII. regierte England von 1558 bis 1603?",
+    "antwort": "Elisabeth I.",
+    "akzeptiert": [
+      "Elizabeth I.",
+      "Elisabeth I",
+      "Elisabeth die Erste"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie hieß das deutsche Luftschiff, das 1937 bei der Landung in Lakehurst (USA) in Flammen aufging?",
+    "antwort": "Hindenburg",
+    "akzeptiert": [
+      "LZ 129",
+      "LZ 129 Hindenburg"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Mit welchem Steinfund konnten die Hieroglyphen im 19. Jahrhundert entziffert werden?",
+    "antwort": "Stein von Rosette",
+    "akzeptiert": [
+      "Rosettastein",
+      "Stein von Rosetta",
+      "Rosetta-Stein"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die weltweite Grippe-Pandemie von 1918 bis 1920?",
+    "antwort": "Spanische Grippe"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß der letzte Kaiser Chinas, der 1912 als Kind abdanken musste?",
+    "antwort": "Puyi",
+    "akzeptiert": [
+      "Pu Yi",
+      "Pu-Yi"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welches Ereignis in Prag 1618 löste den Dreißigjährigen Krieg aus?",
+    "antwort": "Prager Fenstersturz",
+    "akzeptiert": [
+      "Fenstersturz"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß die Hauptstadt des Aztekenreichs, auf deren Ruinen Mexiko-Stadt steht?",
+    "antwort": "Tenochtitlan",
+    "akzeptiert": [
+      "Tenochtitlán"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie wird der Börsencrash vom Oktober 1929 in Deutschland meist genannt?",
+    "antwort": "Schwarzer Freitag",
+    "akzeptiert": [
+      "Schwarzer Donnerstag",
+      "Schwarzer Dienstag"
+    ],
+    "bewertung": "Schwarzer Donnerstag oder Dienstag gelten ebenfalls."
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem heutigen Land wurde 1991 die Gletschermumie „Ötzi“ gefunden?",
+    "antwort": "Italien"
+  },
+  {
+    "stufe": 5,
+    "frage": "Auf welche Mittelmeerinsel wurde Napoleon 1814 zum ersten Mal verbannt?",
+    "antwort": "Elba"
   }
 ]

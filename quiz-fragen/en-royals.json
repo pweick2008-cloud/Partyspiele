@@ -88,5 +88,264 @@
       "George"
     ],
     "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What does a king or queen wear on their head at a coronation?",
+    "antwort": "crown",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do we call the special chair a king or queen sits on?",
+    "antwort": "throne",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do we call the daughter of a king or queen?",
+    "antwort": "princess",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What do we call the wife of a king?",
+    "antwort": "queen",
+    "akzeptiert": [
+      "queen consort"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which small dog breed with short legs was Queen Elizabeth II famous for?",
+    "antwort": "corgi",
+    "akzeptiert": [
+      "Welsh corgi",
+      "Pembroke Welsh corgi",
+      "corgis"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which colour are the jackets of the guards in front of Buckingham Palace?",
+    "antwort": "red",
+    "akzeptiert": [
+      "scarlet"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the name of the ceremony at Buckingham Palace in which the old guards are replaced by new ones?",
+    "antwort": "Changing of the Guard",
+    "akzeptiert": [
+      "Changing the Guard"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do we call the ceremony in which a new king or queen is crowned?",
+    "antwort": "coronation",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What was the name of Queen Elizabeth II's husband?",
+    "antwort": "Prince Philip",
+    "akzeptiert": [
+      "Philip",
+      "Phillip"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the first name of King Charles III's wife, Queen since 2022?",
+    "antwort": "Camilla",
+    "akzeptiert": [
+      "Queen Camilla"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the name of the British national anthem since 2022?",
+    "antwort": "God Save the King",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Auch „God Save the Queen“ gilt als richtig (Name bis 2022)."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which son of King Charles moved to California with his wife and children?",
+    "antwort": "Prince Harry",
+    "akzeptiert": [
+      "Harry"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which title has Prince William had since 2022 as heir to the throne?",
+    "antwort": "Prince of Wales",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "In which famous London fortress are the Crown Jewels kept?",
+    "antwort": "Tower of London",
+    "akzeptiert": [
+      "the Tower"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which castle west of London is the oldest and largest lived-in castle in the world and a home of the royal family?",
+    "antwort": "Windsor Castle",
+    "akzeptiert": [
+      "Windsor"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "How many children do Prince William and Kate have?",
+    "antwort": "3",
+    "akzeptiert": [
+      "three"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the name of Prince William and Kate's only daughter?",
+    "antwort": "Charlotte",
+    "akzeptiert": [
+      "Princess Charlotte"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which queen ruled for over 60 years in the 19th century and gave her name to a whole era?",
+    "antwort": "Victoria",
+    "akzeptiert": [
+      "Queen Victoria"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which queen, a daughter of Henry VIII, ruled England from 1558 to 1603?",
+    "antwort": "Elizabeth I",
+    "akzeptiert": [
+      "Elizabeth the First",
+      "Elizabeth 1"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Die Ordnungszahl I ist wichtig – „Elizabeth II“ ist falsch."
+  },
+  {
+    "stufe": 4,
+    "frage": "What did people call the celebration in 2022 of Queen Elizabeth II's 70 years on the throne?",
+    "antwort": "Platinum Jubilee",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „Jubilee“ allein ist zu ungenau."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the first name of Prince Harry and Meghan's son, born in 2019?",
+    "antwort": "Archie",
+    "akzeptiert": [
+      "Prince Archie"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "At which Scottish castle did Queen Elizabeth II die in 2022?",
+    "antwort": "Balmoral",
+    "akzeptiert": [
+      "Balmoral Castle"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Queen Victoria married a German prince. What was his first name?",
+    "antwort": "Albert",
+    "akzeptiert": [
+      "Prince Albert"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the name of Prince William and Kate's youngest son, born in 2018?",
+    "antwort": "Louis",
+    "akzeptiert": [
+      "Prince Louis"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "In which London palace did Princess Diana live after her divorce?",
+    "antwort": "Kensington Palace",
+    "akzeptiert": [
+      "Kensington"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which king gave up the throne in 1936 to marry the American Wallis Simpson?",
+    "antwort": "Edward VIII",
+    "akzeptiert": [
+      "Edward the Eighth",
+      "Edward 8",
+      "Edward"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Die Ordnungszahl ist nicht zwingend nötig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Who was Queen Elizabeth II's father, the stammering king from the film 'The King's Speech'?",
+    "antwort": "George VI",
+    "akzeptiert": [
+      "George the Sixth",
+      "George 6",
+      "King George"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „George“ reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "At which royal estate in Norfolk does the royal family traditionally spend Christmas?",
+    "antwort": "Sandringham",
+    "akzeptiert": [
+      "Sandringham House",
+      "Sandringham Estate"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the name of the big military parade held every June for the King's official birthday?",
+    "antwort": "Trooping the Colour",
+    "akzeptiert": [
+      "Trooping the Color"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the first name of Prince Harry and Meghan's daughter, born in 2021?",
+    "antwort": "Lilibet",
+    "akzeptiert": [
+      "Lili",
+      "Lilibet Diana"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
   }
 ]

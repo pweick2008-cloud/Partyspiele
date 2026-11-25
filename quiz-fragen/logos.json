@@ -933,5 +933,201 @@
     "akzeptiert": [
       "BMW M"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Kreditkartenanbieter hat zwei überlappende Kreise in Rot und Gelb-Orange als Logo?",
+    "antwort": "Mastercard"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welches Verkehrsunternehmen hat zwei rote Buchstaben in einem roten, abgerundeten Rahmen als Logo?",
+    "antwort": "Deutsche Bahn",
+    "akzeptiert": [
+      "DB"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welcher Fußballverein hat ein gelbes, rundes Wappen mit schwarzem Rand und den Buchstaben ‚BVB‘ und ‚09‘?",
+    "antwort": "Borussia Dortmund",
+    "akzeptiert": [
+      "BVB",
+      "Dortmund"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Energydrink-Marke hat ein grünes ‚M‘ auf schwarzem Grund, das wie drei Krallen-Kratzer aussieht?",
+    "antwort": "Monster Energy",
+    "akzeptiert": [
+      "Monster"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Pizzakette hat ein rotes Hausdach über ihrem Schriftzug als Logo?",
+    "antwort": "Pizza Hut",
+    "bewertung": "Domino's ist falsch."
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Chips aus der Röhre haben einen Mann mit großem Schnurrbart und Mittelscheitel als Logo?",
+    "antwort": "Pringles"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Streamingplattform für Gamer hat eine lila Sprechblase mit zwei senkrechten Strichen als Logo?",
+    "antwort": "Twitch"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche E-Auto-Marke hat ein stilisiertes ‚T‘ als Logo, das an den Querschnitt eines Elektromotors erinnern soll?",
+    "antwort": "Tesla"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Supermarktkette hat ein gelbes ‚E‘ auf blauem Grund als Logo?",
+    "antwort": "Edeka"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Ruhrpott-Verein hat die Buchstaben und Ziffern ‚S04‘ in Blau und Weiß im Wappen?",
+    "antwort": "FC Schalke 04",
+    "akzeptiert": [
+      "Schalke",
+      "Schalke 04"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Outdoor-Marke hat eine Tatze (Pfotenabdruck) als Logo?",
+    "antwort": "Jack Wolfskin",
+    "bewertung": "Kleine Tippfehler sind okay."
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche Sportschuhmarke hat ein großes, schräges ‚N‘ an der Seite ihrer Schuhe?",
+    "antwort": "New Balance"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Online-Enzyklopädie hat eine unvollständige Kugel aus Puzzleteilen mit Schriftzeichen als Logo?",
+    "antwort": "Wikipedia"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Spielefirma hat ein großes ‚R‘ mit einem kleinen Stern daneben auf gelbem Grund als Logo?",
+    "antwort": "Rockstar Games",
+    "akzeptiert": [
+      "Rockstar"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche Baumarktkette hat einen Biber als Maskottchen und orange als Hausfarbe?",
+    "antwort": "OBI"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Londoner Fußballklub hat eine Kanone im Wappen?",
+    "antwort": "FC Arsenal",
+    "akzeptiert": [
+      "Arsenal",
+      "Arsenal London"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Bei welcher Ferrero-Marke ist im Schriftzug der erste Buchstabe schwarz und der Rest rot?",
+    "antwort": "Kinder",
+    "akzeptiert": [
+      "Kinderschokolade",
+      "Kinder Schokolade"
+    ],
+    "bewertung": "Jedes Kinder-Produkt (Kinder Riegel, Überraschung …) zählt."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Filmstudio hat ein Schild mit den Buchstaben ‚WB‘ als Logo?",
+    "antwort": "Warner Bros.",
+    "akzeptiert": [
+      "Warner Brothers",
+      "Warner"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Plattform für Ferienunterkünfte hat ein Logo, das wie ein verschlungenes ‚A‘ bzw. ein umgedrehtes Herz aussieht?",
+    "antwort": "Airbnb"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Filmstudio hat einen Berggipfel mit einem Bogen aus Sternen als Logo?",
+    "antwort": "Paramount",
+    "akzeptiert": [
+      "Paramount Pictures"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche schwedische Outdoor-Marke, bekannt für den Kånken-Rucksack, hat einen Polarfuchs im Logo?",
+    "antwort": "Fjällräven",
+    "akzeptiert": [
+      "Fjallraven"
+    ],
+    "bewertung": "Kleine Tippfehler sind okay."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Automarke hat einen Kreis mit zwei Flügeln links und rechts als Logo?",
+    "antwort": "Mini",
+    "bewertung": "Nur Mini ist richtig (Aston Martin und Bentley haben Flügel ohne Kreis)."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche US-Sportmarke hat ein Logo aus einem ‚U‘ und einem ‚A‘, die ineinander verschlungen sind?",
+    "antwort": "Under Armour",
+    "bewertung": "Kleine Tippfehler sind okay."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Fußballverein hat eine blaue Raute mit schwarz-weißen Rändern als Wappen?",
+    "antwort": "Hamburger SV",
+    "akzeptiert": [
+      "HSV"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Das Logo welcher Lutscher-Marke hat der surrealistische Maler Salvador Dalí entworfen?",
+    "antwort": "Chupa Chups",
+    "bewertung": "Kleine Tippfehler sind okay."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Drogeriekette hat einen Zentaur – halb Pferd, halb Mensch – im Logo?",
+    "antwort": "Rossmann"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche irische Billig-Airline hat eine goldene Harfe als Logo?",
+    "antwort": "Ryanair",
+    "bewertung": "Aer Lingus (Kleeblatt) ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Biermarke zeigt eine kleine bewaldete Insel in einem See auf ihrem Etikett?",
+    "antwort": "Krombacher"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche zu Toyota gehörende Luxus-Automarke hat ein schräges ‚L‘ in einem Oval als Logo?",
+    "antwort": "Lexus"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Cloud-Speicherdienst hat eine offene blaue Box aus Rauten als Logo?",
+    "antwort": "Dropbox"
   }
 ]

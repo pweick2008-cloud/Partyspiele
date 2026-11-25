@@ -74,5 +74,238 @@
     "frage": "What is the English word for „Verantwortung“?",
     "antwort": "responsibility",
     "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the English word for „Regenschirm“?",
+    "antwort": "umbrella",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the English word for „Erdbeere“?",
+    "antwort": "strawberry",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the English word for „Flugzeug“?",
+    "antwort": "plane",
+    "akzeptiert": [
+      "airplane",
+      "aeroplane",
+      "aircraft"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the English word for „Frühstück“?",
+    "antwort": "breakfast",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the English word for „Schlüssel“?",
+    "antwort": "key",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What is the English word for „Geburtstag“?",
+    "antwort": "birthday",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the English word for „Hausaufgaben“?",
+    "antwort": "homework",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „housework“ ist falsch (das ist Hausarbeit)."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the English word for „Bücherei“?",
+    "antwort": "library",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „bookshop“/„bookstore“ ist falsch, das ist eine Buchhandlung."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the English word for „Eichhörnchen“?",
+    "antwort": "squirrel",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the English word for „Schildkröte“?",
+    "antwort": "turtle",
+    "akzeptiert": [
+      "tortoise"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „turtle“ und „tortoise“ zählen beide."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do Americans call „Pommes frites“?",
+    "antwort": "French fries",
+    "akzeptiert": [
+      "fries"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Das britische „chips“ ist hier nicht gemeint."
+  },
+  {
+    "stufe": 2,
+    "frage": "What is the English word for „Gehirn“?",
+    "antwort": "brain",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the English word for „Schornstein“?",
+    "antwort": "chimney",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do Americans call a „lift“ (Aufzug)?",
+    "antwort": "elevator",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the English word for „Glühbirne“?",
+    "antwort": "light bulb",
+    "akzeptiert": [
+      "lightbulb",
+      "bulb"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the English word for „Krankenwagen“?",
+    "antwort": "ambulance",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "False friend: „bekommen“ does NOT mean 'become'. What is the right English word for „bekommen“?",
+    "antwort": "get",
+    "akzeptiert": [
+      "receive",
+      "obtain"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „get“, „receive“ und „obtain“ zählen; „become“ ist falsch."
+  },
+  {
+    "stufe": 3,
+    "frage": "What is the English word for „Wettbewerb“?",
+    "antwort": "competition",
+    "akzeptiert": [
+      "contest"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the English word for „Gewissen“?",
+    "antwort": "conscience",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „conscious“/„consciousness“ ist falsch (das heißt bewusst/Bewusstsein)."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the English word for „Erfahrung“?",
+    "antwort": "experience",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the English word for „Ausbildung“ (in a job, e.g. as a mechanic)?",
+    "antwort": "apprenticeship",
+    "akzeptiert": [
+      "vocational training",
+      "training"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Auch „vocational training“ oder „training“ zählen; „education“ allein ist zu ungenau."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the English word for „Einwanderung“?",
+    "antwort": "immigration",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "What is the English word for „Selbstbewusstsein“?",
+    "antwort": "self-confidence",
+    "akzeptiert": [
+      "confidence",
+      "self confidence",
+      "self-esteem"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „self-conscious(ness)“ ist falsch – das heißt „unsicher/befangen“."
+  },
+  {
+    "stufe": 4,
+    "frage": "False friend: „eventuell“ does NOT mean 'eventually'. What is the right English word?",
+    "antwort": "possibly",
+    "akzeptiert": [
+      "maybe",
+      "perhaps"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. „possibly“, „maybe“ und „perhaps“ zählen; „eventually“ ist falsch."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the English word for „Gleichgültigkeit“?",
+    "antwort": "indifference",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the English word for „Lebenslauf“?",
+    "antwort": "CV",
+    "akzeptiert": [
+      "curriculum vitae",
+      "résumé",
+      "resume"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the English word for „Geschwister“?",
+    "antwort": "siblings",
+    "akzeptiert": [
+      "sibling"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the English word for „Vorstellungsgespräch“?",
+    "antwort": "job interview",
+    "akzeptiert": [
+      "interview"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the English word for „Gerechtigkeit“?",
+    "antwort": "justice",
+    "akzeptiert": [
+      "fairness"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "What is the English word for „Wohltätigkeitsorganisation“?",
+    "antwort": "charity",
+    "akzeptiert": [
+      "charity organisation",
+      "charity organization"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
   }
 ]

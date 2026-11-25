@@ -1549,5 +1549,227 @@
       "Henry",
       "Heinrich von Skalitz"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was für ein Tier ist die Nintendo-Figur Donkey Kong?",
+    "antwort": "Gorilla",
+    "akzeptiert": [
+      "Affe"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was sammelt Sonic in seinen Spielen ständig ein?",
+    "antwort": "Ringe",
+    "akzeptiert": [
+      "Goldringe",
+      "Ring"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt Nintendos Konsole von 2017, die man zu Hause und unterwegs spielen kann?",
+    "antwort": "Nintendo Switch",
+    "akzeptiert": [
+      "Switch"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Handyspiel schießt man Vögel mit einer Schleuder auf grüne Schweine?",
+    "antwort": "Angry Birds"
+  },
+  {
+    "stufe": 1,
+    "frage": "In welchem Handyspiel von 2013 flattert ein kleiner Vogel durch Lücken zwischen grünen Röhren?",
+    "antwort": "Flappy Bird"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man das kaufbare oder freischaltbare Aussehen einer Spielfigur?",
+    "antwort": "Skin",
+    "akzeptiert": [
+      "Skins",
+      "Outfit"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welches riesige, schlafende Pokémon blockiert in vielen Spielen den Weg und muss mit einer Flöte geweckt werden?",
+    "antwort": "Relaxo",
+    "akzeptiert": [
+      "Snorlax"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der kleine Pilzkopf-Diener von Prinzessin Peach?",
+    "antwort": "Toad"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welcher Spielereihe spielt man mit einem Plastik-Gitarren-Controller Rocksongs nach?",
+    "antwort": "Guitar Hero",
+    "akzeptiert": [
+      "Rock Band"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt Nintendos tragbare Konsole von 1989, die mit Tetris berühmt wurde?",
+    "antwort": "Game Boy",
+    "akzeptiert": [
+      "Gameboy"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem chaotischen Koop-Spiel müssen Spieler zusammen in verrückten Küchen Bestellungen kochen?",
+    "antwort": "Overcooked"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Horrorspiel muss man als Nachtwächter einer Pizzeria vor Animatronic-Figuren überleben?",
+    "antwort": "Five Nights at Freddy's",
+    "akzeptiert": [
+      "FNAF",
+      "Five Nights at Freddys"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt Bowsers Sohn, der in Super Mario Sunshine mit einem Zauberpinsel Chaos anrichtet?",
+    "antwort": "Bowser Jr.",
+    "akzeptiert": [
+      "Bowser Junior",
+      "Bowser Jr"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt die Prinzessin aus Sarasaland, oft an Luigis Seite?",
+    "antwort": "Daisy",
+    "akzeptiert": [
+      "Prinzessin Daisy"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der florentinische Assassine aus „Assassin's Creed II“?",
+    "antwort": "Ezio",
+    "akzeptiert": [
+      "Ezio Auditore"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Schauspieler sprach Mario im Original im „Super Mario Bros. Film“ von 2023?",
+    "antwort": "Chris Pratt",
+    "akzeptiert": [
+      "Pratt"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Spiel von 2011 ist der Held das „Drachenblut“ und ruft „Fus Ro Dah“?",
+    "antwort": "Skyrim",
+    "akzeptiert": [
+      "The Elder Scrolls V: Skyrim",
+      "Elder Scrolls"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Zu welchem Pokémon entwickelt sich Schiggy in seiner letzten Entwicklungsstufe?",
+    "antwort": "Turtok",
+    "akzeptiert": [
+      "Blastoise"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der rote Geist in Pac-Man?",
+    "antwort": "Blinky"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Tennis-Spiel von 1972 gilt als erster großer Arcade-Hit?",
+    "antwort": "Pong"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißen die beiden verfeindeten Fraktionen in „World of Warcraft“? Nenne eine.",
+    "antwort": "Horde oder Allianz",
+    "akzeptiert": [
+      "Horde",
+      "Allianz",
+      "Alliance"
+    ],
+    "bewertung": "Eine der beiden reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches polnische Studio entwickelte „The Witcher 3“ und „Cyberpunk 2077“?",
+    "antwort": "CD Projekt Red",
+    "akzeptiert": [
+      "CD Projekt",
+      "CDPR"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der schweigsame Physiker mit Brecheisen, Held der Half-Life-Reihe?",
+    "antwort": "Gordon Freeman",
+    "akzeptiert": [
+      "Freeman"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Fee, die Link in „Ocarina of Time“ begleitet und ständig „Hey, listen!“ ruft?",
+    "antwort": "Navi"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie hieß Mario im Spiel „Donkey Kong“ von 1981, bevor er seinen heutigen Namen bekam?",
+    "antwort": "Jumpman"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die Unterwasserstadt, in der „BioShock“ spielt?",
+    "antwort": "Rapture"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Held der Metal-Gear-Solid-Reihe mit seinem Codenamen?",
+    "antwort": "Solid Snake",
+    "akzeptiert": [
+      "Snake"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das berühmte Glitch-Pokémon aus Pokémon Rot und Blau?",
+    "antwort": "MissingNo.",
+    "akzeptiert": [
+      "MissingNo",
+      "Missingno"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der böse Pharmakonzern, der in Resident Evil hinter dem T-Virus steckt?",
+    "antwort": "Umbrella Corporation",
+    "akzeptiert": [
+      "Umbrella"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die stumme Heldin, die in „Portal“ mit der Portalkanone durch Testkammern läuft?",
+    "antwort": "Chell"
   }
 ]

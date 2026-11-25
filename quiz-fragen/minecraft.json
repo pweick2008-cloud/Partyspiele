@@ -2506,5 +2506,415 @@
       "Hähnchen"
     ],
     "bewertung": "Sinngemäß ‚gebratenes Hähnchen/Huhn‘ zählt."
+  },
+  {
+    "stufe": 1,
+    "frage": "Was entsteht, wenn man rohes Schweinefleisch im Ofen brät?",
+    "antwort": "Gebratenes Schweinefleisch",
+    "akzeptiert": [
+      "Gebratenes Schwein",
+      "Schweinekotelett"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was erhält man, wenn man Rohgold im Ofen schmilzt?",
+    "antwort": "Goldbarren",
+    "akzeptiert": [
+      "Gold"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Sandstein",
+    "akzeptiert": [
+      "Sandstone"
+    ],
+    "rezept": [
+      "Sand",
+      "Sand",
+      "",
+      "Sand",
+      "Sand",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Eisenstiefel",
+    "akzeptiert": [
+      "Stiefel",
+      "Iron Boots"
+    ],
+    "bewertung": "‚Stiefel‘ reicht.",
+    "rezept": [
+      "",
+      "",
+      "",
+      "Eisenbarren",
+      "",
+      "Eisenbarren",
+      "Eisenbarren",
+      "",
+      "Eisenbarren"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was entsteht, wenn man rohen Kabeljau im Ofen brät?",
+    "antwort": "Gebratener Kabeljau",
+    "akzeptiert": [
+      "Gebratener Fisch",
+      "Kabeljau gebraten"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Melone",
+    "akzeptiert": [
+      "Melonenblock",
+      "Melon"
+    ],
+    "rezept": [
+      "Melonenscheibe",
+      "Melonenscheibe",
+      "Melonenscheibe",
+      "Melonenscheibe",
+      "Melonenscheibe",
+      "Melonenscheibe",
+      "Melonenscheibe",
+      "Melonenscheibe",
+      "Melonenscheibe"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Steinhacke",
+    "akzeptiert": [
+      "Hacke",
+      "Stone Hoe"
+    ],
+    "bewertung": "‚Hacke‘ reicht.",
+    "rezept": [
+      "Bruchstein",
+      "Bruchstein",
+      "",
+      "",
+      "Stock",
+      "",
+      "",
+      "Stock",
+      ""
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Steinknopf",
+    "akzeptiert": [
+      "Knopf",
+      "Stone Button"
+    ],
+    "rezept": [
+      "",
+      "",
+      "",
+      "",
+      "Stein",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Keks",
+    "akzeptiert": [
+      "Kekse",
+      "Cookie"
+    ],
+    "rezept": [
+      "",
+      "",
+      "",
+      "Weizen",
+      "Kakaobohnen",
+      "Weizen",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Leuchtstein",
+    "akzeptiert": [
+      "Glowstone"
+    ],
+    "rezept": [
+      "Leuchtsteinstaub",
+      "Leuchtsteinstaub",
+      "",
+      "Leuchtsteinstaub",
+      "Leuchtsteinstaub",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was entsteht, wenn man rohes Hammelfleisch im Ofen brät?",
+    "antwort": "Gebratenes Hammelfleisch",
+    "akzeptiert": [
+      "Gebratenes Lammfleisch"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Holzfalltür",
+    "akzeptiert": [
+      "Falltür",
+      "Eichenholzfalltür",
+      "Trapdoor"
+    ],
+    "bewertung": "Jede Holzart gilt. ‚Falltür‘ reicht.",
+    "rezept": [
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "Holzbretter",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Ziegelsteine",
+    "akzeptiert": [
+      "Ziegelblock",
+      "Ziegelstein",
+      "Bricks"
+    ],
+    "rezept": [
+      "Ziegel",
+      "Ziegel",
+      "",
+      "Ziegel",
+      "Ziegel",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Schleimbälle braucht man für einen Schleimblock?",
+    "antwort": "9",
+    "akzeptiert": [
+      "neun"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viel Papier ergibt ein Rezept aus drei Zuckerrohr?",
+    "antwort": "3",
+    "akzeptiert": [
+      "drei"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Block kommt oben auf die T-Form aus vier Eisenblöcken, um einen Eisengolem zu bauen?",
+    "antwort": "Geschnitzter Kürbis",
+    "akzeptiert": [
+      "Kürbis",
+      "Kürbislaterne"
+    ],
+    "bewertung": "Auch Kürbislaterne ist richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was entsteht, wenn man Netherrack im Ofen schmilzt?",
+    "antwort": "Netherziegel",
+    "akzeptiert": [
+      "Nether Brick"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Gebäck craftet man aus einem Kürbis, Zucker und einem Ei?",
+    "antwort": "Kürbiskuchen",
+    "akzeptiert": [
+      "Pumpkin Pie"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Eisengitter",
+    "akzeptiert": [
+      "Gitter",
+      "Iron Bars"
+    ],
+    "rezept": [
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren",
+      "Eisenbarren",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Bruchsteinmauer",
+    "akzeptiert": [
+      "Mauer",
+      "Cobblestone Wall"
+    ],
+    "bewertung": "‚Mauer‘ reicht.",
+    "rezept": [
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "Bruchstein",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Obsidianblöcke braucht man mindestens für ein Netherportal, wenn man die Ecken weglässt?",
+    "antwort": "10",
+    "akzeptiert": [
+      "zehn"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche Zutat braut man in einen Seltsamen Trank, um einen Trank der Stärke zu erhalten?",
+    "antwort": "Lohenstaub",
+    "akzeptiert": [
+      "Blaze Powder"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Item entsteht aus einem Buch, einem Tintenbeutel und einer Feder?",
+    "antwort": "Buch und Feder",
+    "akzeptiert": [
+      "Buch & Feder",
+      "Book and Quill"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Item verstärkt im Braustand die Wirkung eines Tranks auf Stufe II?",
+    "antwort": "Leuchtsteinstaub",
+    "akzeptiert": [
+      "Glowstone-Staub",
+      "Glowstone Dust"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Shulkerkiste",
+    "akzeptiert": [
+      "Shulker-Kiste",
+      "Shulker Box"
+    ],
+    "rezept": [
+      "",
+      "Shulkerschale",
+      "",
+      "",
+      "Truhe",
+      "",
+      "",
+      "Shulkerschale",
+      ""
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Was wird hier gecraftet?",
+    "antwort": "Rahmen",
+    "akzeptiert": [
+      "Bilderrahmen",
+      "Item Frame",
+      "Gegenstandsrahmen"
+    ],
+    "rezept": [
+      "Stock",
+      "Stock",
+      "Stock",
+      "Stock",
+      "Leder",
+      "Stock",
+      "Stock",
+      "Stock",
+      "Stock"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Trank entsteht, wenn man ein fermentiertes Spinnenauge in einen Trank der Nachtsicht braut?",
+    "antwort": "Trank der Unsichtbarkeit",
+    "akzeptiert": [
+      "Unsichtbarkeit",
+      "Unsichtbarkeitstrank"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Zutat braut man in einen Seltsamen Trank, um einen Trank der Wasseratmung zu erhalten?",
+    "antwort": "Kugelfisch",
+    "akzeptiert": [
+      "Pufferfish"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welche Zutat braut man in einen Seltsamen Trank, um einen Trank der Sprungkraft zu erhalten?",
+    "antwort": "Kaninchenpfote",
+    "akzeptiert": [
+      "Hasenpfote",
+      "Rabbit's Foot"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie viele Stöcke ergibt ein Rezept aus zwei übereinander gelegten Bambus?",
+    "antwort": "1",
+    "akzeptiert": [
+      "einen",
+      "eins"
+    ]
   }
 ]

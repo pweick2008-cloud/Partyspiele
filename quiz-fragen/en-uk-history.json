@@ -79,5 +79,258 @@
       "Guy Fawkes plot"
     ],
     "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which famous prehistoric stone circle stands in the south of England?",
+    "antwort": "Stonehenge",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which country did Britain fight in the air in the 'Battle of Britain' in 1940?",
+    "antwort": "Germany",
+    "akzeptiert": [
+      "Nazi Germany"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which legendary outlaw lived in Sherwood Forest and stole from the rich to give to the poor?",
+    "antwort": "Robin Hood",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which legendary king led the Knights of the Round Table?",
+    "antwort": "King Arthur",
+    "akzeptiert": [
+      "Arthur"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "Which famous London tower, once a prison, keeps the Crown Jewels today?",
+    "antwort": "Tower of London",
+    "akzeptiert": [
+      "the Tower"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 1,
+    "frage": "What did Norman kings build all over England to control the country – big stone buildings with walls and towers?",
+    "antwort": "castles",
+    "akzeptiert": [
+      "castle"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which ancient empire conquered Britain in AD 43?",
+    "antwort": "Roman Empire",
+    "akzeptiert": [
+      "the Romans",
+      "Romans",
+      "Rome"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which disaster destroyed a large part of London in 1666?",
+    "antwort": "Great Fire of London",
+    "akzeptiert": [
+      "the Great Fire",
+      "fire"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What colour were the coats of British soldiers in the American War of Independence?",
+    "antwort": "red",
+    "akzeptiert": [
+      "redcoats"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "What do we call the large group of colonies that Britain ruled around the world, 'on which the sun never set'?",
+    "antwort": "British Empire",
+    "akzeptiert": [
+      "the Empire"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 2,
+    "frage": "Which war began in 1914 and was called 'the Great War' in Britain?",
+    "antwort": "World War I",
+    "akzeptiert": [
+      "First World War",
+      "WWI",
+      "World War One",
+      "the Great War"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which country joined with England in 1707 to form Great Britain?",
+    "antwort": "Scotland",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which large Asian country, called the 'jewel in the crown', became independent from Britain in 1947?",
+    "antwort": "India",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What were the women called who fought, sometimes violently, for women's right to vote in Britain?",
+    "antwort": "suffragettes",
+    "akzeptiert": [
+      "suffragists"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "What do we call the German bombing raids on London and other British cities in 1940–41?",
+    "antwort": "the Blitz",
+    "akzeptiert": [
+      "Blitz"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which German code machine did British code breakers like Alan Turing crack in World War II?",
+    "antwort": "Enigma",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 3,
+    "frage": "Which queen, daughter of Henry VIII, was called 'the Virgin Queen'?",
+    "antwort": "Elizabeth I",
+    "akzeptiert": [
+      "Elizabeth the First",
+      "Queen Elizabeth I",
+      "Elizabeth"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which war between England and France lasted from 1337 to 1453?",
+    "antwort": "Hundred Years' War",
+    "akzeptiert": [
+      "Hundred Years War"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which Spanish fleet tried to invade England in 1588?",
+    "antwort": "Spanish Armada",
+    "akzeptiert": [
+      "Armada"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which British nurse, called 'the Lady with the Lamp', cared for soldiers in the Crimean War?",
+    "antwort": "Florence Nightingale",
+    "akzeptiert": [
+      "Nightingale"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which part of the UK suffered a violent conflict known as 'the Troubles' until 1998?",
+    "antwort": "Northern Ireland",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Which Labour politician was British Prime Minister from 1997 to 2007?",
+    "antwort": "Tony Blair",
+    "akzeptiert": [
+      "Blair"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 4,
+    "frage": "Against which country did Britain fight the Falklands War in 1982?",
+    "antwort": "Argentina",
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which two royal houses fought each other in the Wars of the Roses?",
+    "antwort": "York and Lancaster",
+    "akzeptiert": [
+      "Lancaster and York"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal. Beide Häuser müssen genannt werden."
+  },
+  {
+    "stufe": 5,
+    "frage": "Who led Parliament's army in the English Civil War and later ruled as 'Lord Protector'?",
+    "antwort": "Oliver Cromwell",
+    "akzeptiert": [
+      "Cromwell"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which Celtic queen led a big revolt against the Romans in Britain around AD 60?",
+    "antwort": "Boudica",
+    "akzeptiert": [
+      "Boudicca",
+      "Boadicea"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "From which French beach were over 300,000 Allied soldiers rescued by boat in 1940?",
+    "antwort": "Dunkirk",
+    "akzeptiert": [
+      "Dunkerque",
+      "Dunkirchen"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which English king was beheaded in 1649?",
+    "antwort": "Charles I",
+    "akzeptiert": [
+      "Charles the First",
+      "King Charles I"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
+  },
+  {
+    "stufe": 5,
+    "frage": "Which Scottish queen was executed in 1587 on the orders of Elizabeth I?",
+    "antwort": "Mary, Queen of Scots",
+    "akzeptiert": [
+      "Mary Stuart",
+      "Mary Queen of Scots",
+      "Mary"
+    ],
+    "bewertung": "Antwort auf Englisch; Tippfehler und Groß-/Kleinschreibung egal."
   }
 ]

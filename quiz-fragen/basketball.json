@@ -951,5 +951,263 @@
       "Sechster Mann",
       "6th Man"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die Platte hinter dem Korb, gegen die man den Ball werfen kann?",
+    "antwort": "Brett",
+    "akzeptiert": [
+      "Korbbrett",
+      "Backboard",
+      "Spielbrett"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Von welcher Linie aus werden Freiwürfe geworfen?",
+    "antwort": "Freiwurflinie"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie viele Körbe gibt es auf einem normalen Basketballfeld?",
+    "antwort": "2",
+    "akzeptiert": [
+      "zwei"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die kurze Spielunterbrechung, die ein Trainer beantragt, um mit seinem Team zu sprechen?",
+    "antwort": "Auszeit",
+    "akzeptiert": [
+      "Timeout",
+      "Time-out"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt die berühmte Schuh- und Modelinie, die Nike zusammen mit Michael Jordan herausbringt?",
+    "antwort": "Air Jordan",
+    "akzeptiert": [
+      "Jordan",
+      "Jordans"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie heißt der Wurf, bei dem ein Spieler hochspringt und den Ball am höchsten Punkt abwirft?",
+    "antwort": "Sprungwurf",
+    "akzeptiert": [
+      "Jump Shot",
+      "Jumpshot"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Unter welchem Spitznamen ist Lakers-Legende Earvin Johnson bekannt?",
+    "antwort": "Magic",
+    "akzeptiert": [
+      "Magic Johnson"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das jährliche Showspiel, in dem die beliebtesten und besten Spieler der NBA gegeneinander antreten?",
+    "antwort": "All-Star Game",
+    "akzeptiert": [
+      "All-Star-Spiel",
+      "All Star Game"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der Wettbewerb beim NBA-All-Star-Wochenende, bei dem Spieler um den spektakulärsten Dunk kämpfen?",
+    "antwort": "Slam Dunk Contest",
+    "akzeptiert": [
+      "Dunk Contest",
+      "Slam-Dunk-Wettbewerb"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Abkürzung MVP?",
+    "antwort": "Most Valuable Player",
+    "akzeptiert": [
+      "wertvollster Spieler"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt die Verteidigungsart, bei der jeder Spieler einen bestimmten Gegenspieler deckt?",
+    "antwort": "Manndeckung",
+    "akzeptiert": [
+      "Mann-gegen-Mann",
+      "Man-to-Man",
+      "Mann-Mann-Verteidigung"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt das zweite NBA-Team aus Los Angeles neben den Lakers?",
+    "antwort": "Clippers",
+    "akzeptiert": [
+      "Los Angeles Clippers",
+      "LA Clippers"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welcher Stadt tragen die Golden State Warriors seit 2019 ihre Heimspiele aus?",
+    "antwort": "San Francisco"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher slowenische Superstar wurde Anfang 2025 überraschend von den Dallas Mavericks zu den Lakers getradet?",
+    "antwort": "Luka Dončić",
+    "akzeptiert": [
+      "Luka Doncic",
+      "Doncic",
+      "Dončić",
+      "Luka"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie nennt man im Basketball einen Ballverlust (englischer Begriff, auch in der Statistik)?",
+    "antwort": "Turnover"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie viele Spiele muss ein Team in einer NBA-Playoff-Serie gewinnen, um weiterzukommen?",
+    "antwort": "4",
+    "akzeptiert": [
+      "vier"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "In welche zwei Hälften (Konferenzen) ist die NBA aufgeteilt? Nenne eine.",
+    "antwort": "Eastern oder Western Conference",
+    "akzeptiert": [
+      "Eastern Conference",
+      "Western Conference",
+      "Ost",
+      "West",
+      "Osten",
+      "Westen"
+    ],
+    "bewertung": "Eine der beiden reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Rebound-Spezialist der Chicago Bulls fiel durch ständig neu gefärbte Haare auf?",
+    "antwort": "Dennis Rodman",
+    "akzeptiert": [
+      "Rodman"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt Michael Jordans wichtigster Mitspieler bei allen sechs Bulls-Titeln, Vorname Scottie?",
+    "antwort": "Scottie Pippen",
+    "akzeptiert": [
+      "Pippen"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Celtics-Center gewann mit elf NBA-Titeln die meisten Meisterschaften als Spieler?",
+    "antwort": "Bill Russell",
+    "akzeptiert": [
+      "Russell"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Trainer, „Zen Master“ genannt, gewann mit den Bulls und den Lakers insgesamt elf NBA-Titel?",
+    "antwort": "Phil Jackson",
+    "akzeptiert": [
+      "Jackson"
+    ],
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der Berliner Basketballverein, der mehrfach Deutscher Meister wurde?",
+    "antwort": "Alba Berlin",
+    "akzeptiert": [
+      "Alba"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie viele Spiele bestreitet jedes NBA-Team in der regulären Saison?",
+    "antwort": "82",
+    "akzeptiert": [
+      "zweiundachtzig"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "In welcher berühmten Halle tragen die New York Knicks ihre Heimspiele aus?",
+    "antwort": "Madison Square Garden",
+    "akzeptiert": [
+      "MSG",
+      "The Garden"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der Regelverstoß, wenn ein Verteidiger den Ball berührt, während er schon im Abwärtsflug auf den Korb ist?",
+    "antwort": "Goaltending",
+    "akzeptiert": [
+      "Korbwurfstörung"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Hersteller liefert seit der Saison 2021/22 die offiziellen Spielbälle der NBA?",
+    "antwort": "Wilson"
+  },
+  {
+    "stufe": 5,
+    "frage": "In welchem US-Bundesstaat spielte die NBA 2020 wegen Corona ihre Saison in einer abgeschotteten „Bubble“ zu Ende?",
+    "antwort": "Florida",
+    "akzeptiert": [
+      "Orlando",
+      "Disney World"
+    ],
+    "bewertung": "Auch Orlando bzw. Disney World zählt."
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man es, wenn ein Spieler in vier Statistik-Kategorien zweistellig ist?",
+    "antwort": "Quadruple-Double",
+    "akzeptiert": [
+      "Quadruple Double"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher 2,29 m große chinesische Center spielte von 2002 bis 2011 für die Houston Rockets?",
+    "antwort": "Yao Ming",
+    "akzeptiert": [
+      "Yao"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher kanadische Spieler wurde 2025 MVP und gewann mit Oklahoma City den Titel?",
+    "antwort": "Shai Gilgeous-Alexander",
+    "akzeptiert": [
+      "SGA",
+      "Gilgeous-Alexander",
+      "Shai"
+    ],
+    "bewertung": "Nachname oder „SGA“ reicht."
   }
 ]

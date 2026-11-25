@@ -1089,5 +1089,189 @@
     "stufe": 5,
     "frage": "Welches EU-Land hat nach Deutschland die meisten Einwohner?",
     "antwort": "Frankreich"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man eine große, trockene Landschaft, in der es kaum regnet?",
+    "antwort": "Wüste"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man einen Berg, aus dem bei einem Ausbruch Lava austritt?",
+    "antwort": "Vulkan"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Stück Land, das ringsum von Wasser umgeben ist?",
+    "antwort": "Insel"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man den höchsten Punkt eines Berges?",
+    "antwort": "Gipfel",
+    "akzeptiert": [
+      "Spitze",
+      "Bergspitze"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man die Linie in der Ferne, an der Himmel und Erde (oder Meer) sich scheinbar berühren?",
+    "antwort": "Horizont"
+  },
+  {
+    "stufe": 1,
+    "frage": "Auf welchem Kontinent liegt Brasilien?",
+    "antwort": "Südamerika",
+    "akzeptiert": [
+      "Amerika"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Welcher Ozean liegt zwischen Afrika, Asien und Australien?",
+    "antwort": "Indischer Ozean",
+    "akzeptiert": [
+      "Indik"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der wasserreichste Fluss der Welt, der durch Südamerika fließt?",
+    "antwort": "Amazonas"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man ein Stück Land, das fast ganz von Wasser umgeben, aber auf einer Seite mit dem Festland verbunden ist?",
+    "antwort": "Halbinsel"
+  },
+  {
+    "stufe": 2,
+    "frage": "In welchem Land steht das Taj Mahal?",
+    "antwort": "Indien"
+  },
+  {
+    "stufe": 2,
+    "frage": "An welchem Fluss liegt Frankfurt mit seiner Hochhaus-Skyline?",
+    "antwort": "Main"
+  },
+  {
+    "stufe": 2,
+    "frage": "Welche ist nach Berlin die zweitgrößte Stadt Deutschlands?",
+    "antwort": "Hamburg"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Kanal verbindet das Mittelmeer mit dem Roten Meer?",
+    "antwort": "Suezkanal"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt das Gebirge an der Grenze zwischen Spanien und Frankreich?",
+    "antwort": "Pyrenäen"
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchen Monaten ist in Australien Sommer?",
+    "antwort": "Dezember bis Februar",
+    "akzeptiert": [
+      "Dezember, Januar, Februar"
+    ],
+    "bewertung": "Richtig, wenn im Kern Dezember bis Februar (bzw. ‚um Weihnachten‘ / ‚wenn bei uns Winter ist‘) genannt wird."
+  },
+  {
+    "stufe": 3,
+    "frage": "In welchem Land liegt das Nordkap, ein beliebtes Ziel ganz im Norden Europas?",
+    "antwort": "Norwegen"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welches Meer liegt zwischen Italien und Kroatien?",
+    "antwort": "Adria",
+    "akzeptiert": [
+      "Adriatisches Meer"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Welche italienische Großstadt liegt direkt am Fuß des Vesuvs?",
+    "antwort": "Neapel"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt die Wüste, die große Teile der Mongolei und Nordchinas bedeckt?",
+    "antwort": "Gobi"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welches Land ist mit über 17.000 Inseln der größte Inselstaat der Welt?",
+    "antwort": "Indonesien"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das berühmte Kap bei Kapstadt, das Seefahrer früher auf dem Weg nach Indien umrunden mussten?",
+    "antwort": "Kap der Guten Hoffnung"
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Fluss bildet zusammen mit der Neiße die Grenze zwischen Deutschland und Polen?",
+    "antwort": "Oder"
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der höchste Berg der Türkei, auf dem laut Bibel die Arche Noah gestrandet sein soll?",
+    "antwort": "Ararat",
+    "akzeptiert": [
+      "Berg Ararat"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt das Hochgebirge zwischen Schwarzem Meer und Kaspischem Meer?",
+    "antwort": "Kaukasus"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher ist der kleinste der Ozeane?",
+    "antwort": "Arktischer Ozean",
+    "akzeptiert": [
+      "Nordpolarmeer",
+      "Arktis"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt der größte See Afrikas?",
+    "antwort": "Victoriasee",
+    "akzeptiert": [
+      "Viktoriasee",
+      "Lake Victoria"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Der Gipfel welches Vulkans in Ecuador ist wegen der Erdabplattung der Punkt, der am weitesten vom Erdmittelpunkt entfernt ist?",
+    "antwort": "Chimborazo"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt das einzige Meer der Erde, das keine Küste hat, sondern nur von Meeresströmungen begrenzt wird?",
+    "antwort": "Sargassosee"
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Fluss bildet einen großen Teil der Grenze zwischen den USA und Mexiko?",
+    "antwort": "Rio Grande",
+    "akzeptiert": [
+      "Río Bravo"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "In welcher Hauptstadt fließen der Weiße und der Blaue Nil zusammen?",
+    "antwort": "Khartum",
+    "akzeptiert": [
+      "Khartoum"
+    ]
   }
 ]

@@ -1206,5 +1206,203 @@
     "akzeptiert": [
       "Fear of missing out"
     ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man eine Nachricht, die man bei WhatsApp aufspricht, statt sie zu tippen?",
+    "antwort": "Sprachnachricht",
+    "akzeptiert": [
+      "Voice Message",
+      "Audio",
+      "Sprachmemo"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man ein Bild, das man vom eigenen Bildschirm aufnimmt?",
+    "antwort": "Screenshot",
+    "akzeptiert": [
+      "Bildschirmfoto"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man es, wenn man live ein Video ins Internet überträgt, etwa auf Twitch?",
+    "antwort": "Streamen",
+    "akzeptiert": [
+      "Livestream",
+      "Stream",
+      "Livestreamen"
+    ]
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Form hat das Symbol, mit dem man auf Instagram einen Beitrag liked?",
+    "antwort": "Herz"
+  },
+  {
+    "stufe": 1,
+    "frage": "Wie nennt man Leute, die im Netz ständig gehässige Kommentare über andere schreiben?",
+    "antwort": "Hater"
+  },
+  {
+    "stufe": 1,
+    "frage": "Welche Farbe hat das Logo von WhatsApp?",
+    "antwort": "Grün"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht die Chat-Abkürzung „BRB“?",
+    "antwort": "Be right back",
+    "bewertung": "Sinngemäß „bin gleich zurück“ ist richtig."
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man Videos, in denen jemand filmt, wie er auf ein anderes Video reagiert?",
+    "antwort": "Reaction-Video",
+    "akzeptiert": [
+      "Reaction",
+      "Reaktionsvideo"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wofür steht „DM“ auf Instagram und Co.?",
+    "antwort": "Direct Message",
+    "akzeptiert": [
+      "Direktnachricht"
+    ]
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie nennt man die Geste – auch als Emoji –, bei der man sich fassungslos die Hand vors Gesicht schlägt?",
+    "antwort": "Facepalm"
+  },
+  {
+    "stufe": 2,
+    "frage": "Mit welchem einzelnen Buchstaben heißt die Plattform Twitter seit 2023?",
+    "antwort": "X"
+  },
+  {
+    "stufe": 2,
+    "frage": "Wie heißt der türkische Koch, der im Meme mit abgewinkeltem Arm Salz auf ein Steak rieseln lässt?",
+    "antwort": "Salt Bae"
+  },
+  {
+    "stufe": 3,
+    "frage": "Welcher Schauspieler hebt im bekannten Meme aus „Der große Gatsby“ lächelnd ein Champagnerglas?",
+    "antwort": "Leonardo DiCaprio",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 3,
+    "frage": "Wie heißt der Selfie-Gesichtsausdruck mit vorgeschobenen Schmolllippen, benannt nach einem Tier?",
+    "antwort": "Duckface",
+    "akzeptiert": [
+      "Entengesicht"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Unter welchem Namen ist der Twitch-Streamer „Monte“ aus Buxtehude bekannt?",
+    "antwort": "MontanaBlack"
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht „POV“ in vielen TikTok-Videos?",
+    "antwort": "Point of View",
+    "bewertung": "Sinngemäß „Sichtweise/Perspektive“ ist richtig."
+  },
+  {
+    "stufe": 3,
+    "frage": "Was bedeutet das Slangwort „sus“, das durch das Spiel „Among Us“ berühmt wurde?",
+    "antwort": "verdächtig",
+    "akzeptiert": [
+      "suspicious"
+    ]
+  },
+  {
+    "stufe": 3,
+    "frage": "Wofür steht im Netz-Slang das einzelne „L“, etwa in „take the L“?",
+    "antwort": "Loss",
+    "akzeptiert": [
+      "Niederlage",
+      "Verlust"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welcher Schauspieler schaut im Meme aus „Pulp Fiction“ verwirrt im Raum umher?",
+    "antwort": "John Travolta",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 4,
+    "frage": "Bei welcher gefährlichen Challenge von 2018 bissen Jugendliche in Waschmittelkapseln?",
+    "antwort": "Tide Pod Challenge",
+    "akzeptiert": [
+      "Tide Pods"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Welche „Herr der Ringe“-Figur sagt im Meme „One does not simply walk into Mordor“?",
+    "antwort": "Boromir"
+  },
+  {
+    "stufe": 4,
+    "frage": "Bei welcher Challenge von 2020 zeigte man in vier Fotos, wie man sich auf LinkedIn, Facebook, Instagram und Tinder präsentiert – benannt nach einer Country-Sängerin?",
+    "antwort": "Dolly Parton Challenge",
+    "akzeptiert": [
+      "Dolly Parton"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie heißt der grüne Comic-Frosch, der in vielen Meme-Varianten traurig oder selbstzufrieden schaut?",
+    "antwort": "Pepe",
+    "akzeptiert": [
+      "Pepe the Frog"
+    ]
+  },
+  {
+    "stufe": 4,
+    "frage": "Wie nennt man einen zweiten, geheimen Instagram-Account nur für enge Freunde („fake Instagram“)?",
+    "antwort": "Finsta"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie nennt man es, wenn man stundenlang durch schlechte Nachrichten scrollt?",
+    "antwort": "Doomscrolling"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißen die Videos mit Flüstern und leisen Geräuschen, die ein angenehmes Kribbeln auslösen sollen?",
+    "antwort": "ASMR"
+  },
+  {
+    "stufe": 5,
+    "frage": "Wofür steht die Warnung „NSFW“ vor Links und Bildern?",
+    "antwort": "Not safe for work",
+    "bewertung": "Sinngemäß „nicht für die Arbeit/Öffentlichkeit geeignet“ ist richtig."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher US-Politiker wurde 2021 mit dicken Fäustlingen bei Joe Bidens Amtseinführung zum Meme?",
+    "antwort": "Bernie Sanders",
+    "bewertung": "Nachname reicht."
+  },
+  {
+    "stufe": 5,
+    "frage": "Welcher Wrestler und Schauspieler zieht im viralen Meme samt Soundeffekt langsam eine Augenbraue hoch?",
+    "antwort": "Dwayne Johnson",
+    "akzeptiert": [
+      "The Rock"
+    ]
+  },
+  {
+    "stufe": 5,
+    "frage": "Wie heißt die TikTok-Funktion, mit der man einen kurzen Ausschnitt aus einem fremden Video an den Anfang des eigenen setzt?",
+    "antwort": "Stitch"
   }
 ]
